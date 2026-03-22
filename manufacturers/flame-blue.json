@@ -1,0 +1,3015 @@
+{
+  "manufacturer": {
+    "id": "flame-blue",
+    "label": "FLAME BLUE",
+    "accent": "#2F8EDC",
+    "series": "400ml",
+    "source": {
+      "name": "FLAME",
+      "url": "https://brand.molotow.com/fileadmin/Dateien/PDF/Info_Sheets/Spray/Action/flame_blue.pdf",
+      "note": "Hex values sampled from swatches on the product info PDF."
+    }
+  },
+  "colors": [
+    {
+      "id": "FB-100",
+      "code": "FB-100",
+      "name": "vanilla",
+      "label": "FB-100 vanilla",
+      "hex": "#F0E081",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-100 vanilla",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.001",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-1000",
+      "code": "FB-1000",
+      "name": "fluo yellow",
+      "label": "FB-1000 fluo yellow",
+      "hex": "#F6E700",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-1000 fluo yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.165",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-1002",
+      "code": "FB-1002",
+      "name": "fluo orange",
+      "label": "FB-1002 fluo orange",
+      "hex": "#EC6500",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-1002 fluo orange",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.166",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-1004",
+      "code": "FB-1004",
+      "name": "fluo pink",
+      "label": "FB-1004 fluo pink",
+      "hex": "#E50075",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-1004 fluo pink",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.167",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-1006",
+      "code": "FB-1006",
+      "name": "fluo green",
+      "label": "FB-1006 fluo green",
+      "hex": "#37AA32",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-1006 fluo green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.168",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-102",
+      "code": "FB-102",
+      "name": "zinc yellow",
+      "label": "FB-102 zinc yellow",
+      "hex": "#FEDD3B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-102 zinc yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.002",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-104",
+      "code": "FB-104",
+      "name": "cadmium yellow",
+      "label": "FB-104 cadmium yellow",
+      "hex": "#FAD820",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-104 cadmium yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.003",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-106",
+      "code": "FB-106",
+      "name": "signal yellow",
+      "label": "FB-106 signal yellow",
+      "hex": "#F5CC04",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-106 signal yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.004",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-110",
+      "code": "FB-110",
+      "name": "melon yellow",
+      "label": "FB-110 melon yellow",
+      "hex": "#F6BB10",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-110 melon yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.006",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-112",
+      "code": "FB-112",
+      "name": "saffron",
+      "label": "FB-112 saffron",
+      "hex": "#F6AB31",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-112 saffron",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.007",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-114",
+      "code": "FB-114",
+      "name": "dahlia",
+      "label": "FB-114 dahlia",
+      "hex": "#EAA031",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-114 dahlia",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.008",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-200",
+      "code": "FB-200",
+      "name": "peach",
+      "label": "FB-200 peach",
+      "hex": "#F8B475",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-200 peach",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.017",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-202",
+      "code": "FB-202",
+      "name": "pastel orange",
+      "label": "FB-202 pastel orange",
+      "hex": "#F28C25",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-202 pastel orange",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.018",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-204",
+      "code": "FB-204",
+      "name": "light orange",
+      "label": "FB-204 light orange",
+      "hex": "#EA7000",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-204 light orange",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.019",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-208",
+      "code": "FB-208",
+      "name": "cold peach",
+      "label": "FB-208 cold peach",
+      "hex": "#F1D6B7",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-208 cold peach",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.021",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-210",
+      "code": "FB-210",
+      "name": "apricot",
+      "label": "FB-210 apricot",
+      "hex": "#F18648",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-210 apricot",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.022",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-212",
+      "code": "FB-212",
+      "name": "orange",
+      "label": "FB-212 orange",
+      "hex": "#D75725",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-212 orange",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.023",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-214",
+      "code": "FB-214",
+      "name": "red orange",
+      "label": "FB-214 red orange",
+      "hex": "#D14115",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-214 red orange",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.024",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-3000",
+      "code": "FB-3000",
+      "name": "transparent white",
+      "label": "FB-3000 transparent white",
+      "hex": "#FFFFFF",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-3000 transparent white",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.170",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-3004",
+      "code": "FB-3004",
+      "name": "transparent black",
+      "label": "FB-3004 transparent black",
+      "hex": "#F0F0F0",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-3004 transparent black",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.174",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-304",
+      "code": "FB-304",
+      "name": "signal red",
+      "label": "FB-304 signal red",
+      "hex": "#D83330",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-304 signal red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.027",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-306",
+      "code": "FB-306",
+      "name": "ruby red BLUE",
+      "label": "FB-306 ruby red BLUE",
+      "hex": "#C50F33",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-306 ruby red BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.028",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-308",
+      "code": "FB-308",
+      "name": "piglet pink / light 08",
+      "label": "FB-308 piglet pink / light 08",
+      "hex": "#EF9BB0",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-308 piglet pink / light 08",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.029",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-310",
+      "code": "FB-310",
+      "name": "piglet pink",
+      "label": "FB-310 piglet pink",
+      "hex": "#E94161",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-310 piglet pink",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.030",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-311",
+      "code": "FB-311",
+      "name": "crazy cherry",
+      "label": "FB-311 crazy cherry",
+      "hex": "#BB1E37",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-311 crazy cherry",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.032",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-312",
+      "code": "FB-312",
+      "name": "fire red",
+      "label": "FB-312 fire red",
+      "hex": "#C13531",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-312 fire red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.031",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-313",
+      "code": "FB-313",
+      "name": "cherry dark",
+      "label": "FB-313 cherry dark",
+      "hex": "#9B122D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-313 cherry dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.033",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-318",
+      "code": "FB-318",
+      "name": "traffic purple dark",
+      "label": "FB-318 traffic purple dark",
+      "hex": "#3B043B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-318 traffic purple dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.034",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-320",
+      "code": "FB-320",
+      "name": "burgundy",
+      "label": "FB-320 burgundy",
+      "hex": "#AA1329",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-320 burgundy",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.035",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-322",
+      "code": "FB-322",
+      "name": "FLAME™ aubergine",
+      "label": "FB-322 FLAME™ aubergine",
+      "hex": "#441B33",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-322 FLAME™ aubergine",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.036",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-399",
+      "code": "FB-399",
+      "name": "erica light",
+      "label": "FB-399 erica light",
+      "hex": "#D69FC8",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-399 erica light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.048",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-400",
+      "code": "FB-400",
+      "name": "erica violet",
+      "label": "FB-400 erica violet",
+      "hex": "#DD6A9B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-400 erica violet",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.037",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-401",
+      "code": "FB-401",
+      "name": "erica pastel",
+      "label": "FB-401 erica pastel",
+      "hex": "#E1BDCC",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-401 erica pastel",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.052",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-402",
+      "code": "FB-402",
+      "name": "telemagenta",
+      "label": "FB-402 telemagenta",
+      "hex": "#D8326D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-402 telemagenta",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.038",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-404",
+      "code": "FB-404",
+      "name": "traffic purple",
+      "label": "FB-404 traffic purple",
+      "hex": "#8A1478",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-404 traffic purple",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.039",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-406",
+      "code": "FB-406",
+      "name": "lavender",
+      "label": "FB-406 lavender",
+      "hex": "#CBD1EB",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-406 lavender",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.040",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-408",
+      "code": "FB-408",
+      "name": "grape",
+      "label": "FB-408 grape",
+      "hex": "#9566A3",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-408 grape",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.041",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-410",
+      "code": "FB-410",
+      "name": "blackberry",
+      "label": "FB-410 blackberry",
+      "hex": "#6C427C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-410 blackberry",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.042",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-412",
+      "code": "FB-412",
+      "name": "currant",
+      "label": "FB-412 currant",
+      "hex": "#4F3059",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-412 currant",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.043",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-414",
+      "code": "FB-414",
+      "name": "viola pastel",
+      "label": "FB-414 viola pastel",
+      "hex": "#C5CDEA",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-414 viola pastel",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.044",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-416",
+      "code": "FB-416",
+      "name": "viola light",
+      "label": "FB-416 viola light",
+      "hex": "#BAB4DA",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-416 viola light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.045",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-418",
+      "code": "FB-418",
+      "name": "viola",
+      "label": "FB-418 viola",
+      "hex": "#6365A5",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-418 viola",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.046",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-420",
+      "code": "FB-420",
+      "name": "viola dark",
+      "label": "FB-420 viola dark",
+      "hex": "#303881",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-420 viola dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.047",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-424",
+      "code": "FB-424",
+      "name": "cosmos blue light",
+      "label": "FB-424 cosmos blue light",
+      "hex": "#7178B8",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-424 cosmos blue light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.049",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-426",
+      "code": "FB-426",
+      "name": "cosmos blue",
+      "label": "FB-426 cosmos blue",
+      "hex": "#3E4798",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-426 cosmos blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.050",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-428",
+      "code": "FB-428",
+      "name": "cosmos blue dark",
+      "label": "FB-428 cosmos blue dark",
+      "hex": "#2C2969",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-428 cosmos blue dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.051",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-502",
+      "code": "FB-502",
+      "name": "lighting blue",
+      "label": "FB-502 lighting blue",
+      "hex": "#ADD5EE",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-502 lighting blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.053",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-504",
+      "code": "FB-504",
+      "name": "light blue",
+      "label": "FB-504 light blue",
+      "hex": "#92C5E4",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-504 light blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.054",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-508",
+      "code": "FB-508",
+      "name": "light blue",
+      "label": "FB-508 light blue",
+      "hex": "#4396D1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-508 light blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.056",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-510",
+      "code": "FB-510",
+      "name": "sky blue",
+      "label": "FB-510 sky blue",
+      "hex": "#036DB5",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-510 sky blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.057",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-512",
+      "code": "FB-512",
+      "name": "signal blue",
+      "label": "FB-512 signal blue",
+      "hex": "#035095",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-512 signal blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.058",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-514",
+      "code": "FB-514",
+      "name": "true blue",
+      "label": "FB-514 true blue",
+      "hex": "#1C4888",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-514 true blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.059",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-516",
+      "code": "FB-516",
+      "name": "cream blue light",
+      "label": "FB-516 cream blue light",
+      "hex": "#80A7C4",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-516 cream blue light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.060",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-518",
+      "code": "FB-518",
+      "name": "cream blue",
+      "label": "FB-518 cream blue",
+      "hex": "#2185C5",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-518 cream blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.061",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-520",
+      "code": "FB-520",
+      "name": "cream blue dark",
+      "label": "FB-520 cream blue dark",
+      "hex": "#075C8F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-520 cream blue dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.062",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-522",
+      "code": "FB-522",
+      "name": "sapphire",
+      "label": "FB-522 sapphire",
+      "hex": "#0B2B58",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-522 sapphire",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.063",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-524",
+      "code": "FB-524",
+      "name": "denim blue pastel",
+      "label": "FB-524 denim blue pastel",
+      "hex": "#B5D0EE",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-524 denim blue pastel",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.064",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-526",
+      "code": "FB-526",
+      "name": "denim blue light",
+      "label": "FB-526 denim blue light",
+      "hex": "#91C2E5",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-526 denim blue light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.065",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-528",
+      "code": "FB-528",
+      "name": "denim blue",
+      "label": "FB-528 denim blue",
+      "hex": "#4F89B1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-528 denim blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.066",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-530",
+      "code": "FB-530",
+      "name": "denim blue dark",
+      "label": "FB-530 denim blue dark",
+      "hex": "#3D586E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-530 denim blue dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.067",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-600",
+      "code": "FB-600",
+      "name": "riviera light",
+      "label": "FB-600 riviera light",
+      "hex": "#B1DDE2",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-600 riviera light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.076",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-602",
+      "code": "FB-602",
+      "name": "riviera",
+      "label": "FB-602 riviera",
+      "hex": "#67C0B3",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-602 riviera",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.077",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-604",
+      "code": "FB-604",
+      "name": "lagoon blue",
+      "label": "FB-604 lagoon blue",
+      "hex": "#00A492",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-604 lagoon blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.078",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-606",
+      "code": "FB-606",
+      "name": "light ocean blue",
+      "label": "FB-606 light ocean blue",
+      "hex": "#037375",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-606 light ocean blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.079",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-614",
+      "code": "FB-614",
+      "name": "aqua pastel",
+      "label": "FB-614 aqua pastel",
+      "hex": "#90D3EA",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-614 aqua pastel",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.083",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-616",
+      "code": "FB-616",
+      "name": "aqua light",
+      "label": "FB-616 aqua light",
+      "hex": "#2C98BB",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-616 aqua light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.084",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-618",
+      "code": "FB-618",
+      "name": "aqua",
+      "label": "FB-618 aqua",
+      "hex": "#006374",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-618 aqua",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.085",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-620",
+      "code": "FB-620",
+      "name": "aqua dark",
+      "label": "FB-620 aqua dark",
+      "hex": "#015450",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-620 aqua dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.086",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-624",
+      "code": "FB-624",
+      "name": "pistachio",
+      "label": "FB-624 pistachio",
+      "hex": "#D7D53F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-624 pistachio",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.088",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-626",
+      "code": "FB-626",
+      "name": "pistachio",
+      "label": "FB-626 pistachio",
+      "hex": "#BAC23C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-626 pistachio",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.089",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-628",
+      "code": "FB-628",
+      "name": "grass green",
+      "label": "FB-628 grass green",
+      "hex": "#89A845",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-628 grass green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.090",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-630",
+      "code": "FB-630",
+      "name": "fern green",
+      "label": "FB-630 fern green",
+      "hex": "#6B9847",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-630 fern green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.091",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-632",
+      "code": "FB-632",
+      "name": "leaf green",
+      "label": "FB-632 leaf green",
+      "hex": "#4B8646",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-632 leaf green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.092",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-634",
+      "code": "FB-634",
+      "name": "moss green",
+      "label": "FB-634 moss green",
+      "hex": "#2E7043",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-634 moss green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.093",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-636",
+      "code": "FB-636",
+      "name": "fir green",
+      "label": "FB-636 fir green",
+      "hex": "#285B51",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-636 fir green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.094",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-638",
+      "code": "FB-638",
+      "name": "kiwi pastel",
+      "label": "FB-638 kiwi pastel",
+      "hex": "#E8E227",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-638 kiwi pastel",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.095",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-640",
+      "code": "FB-640",
+      "name": "kiwi light",
+      "label": "FB-640 kiwi light",
+      "hex": "#B8D048",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-640 kiwi light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.096",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-642",
+      "code": "FB-642",
+      "name": "kiwi",
+      "label": "FB-642 kiwi",
+      "hex": "#7CB92B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-642 kiwi",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.097",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-644",
+      "code": "FB-644",
+      "name": "kiwi dark",
+      "label": "FB-644 kiwi dark",
+      "hex": "#66921C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-644 kiwi dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.098",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-654",
+      "code": "FB-654",
+      "name": "primavera green",
+      "label": "FB-654 primavera green",
+      "hex": "#C2D888",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-654 primavera green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.103",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-656",
+      "code": "FB-656",
+      "name": "tarzan green",
+      "label": "FB-656 tarzan green",
+      "hex": "#92B279",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-656 tarzan green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.104",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-658",
+      "code": "FB-658",
+      "name": "camo green",
+      "label": "FB-658 camo green",
+      "hex": "#71744F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-658 camo green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.105",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-660",
+      "code": "FB-660",
+      "name": "olive",
+      "label": "FB-660 olive",
+      "hex": "#20362B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-660 olive",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.106",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-662",
+      "code": "FB-662",
+      "name": "menthol blue pastel",
+      "label": "FB-662 menthol blue pastel",
+      "hex": "#C1DEBB",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-662 menthol blue pastel",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.107",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-664",
+      "code": "FB-664",
+      "name": "menthol",
+      "label": "FB-664 menthol",
+      "hex": "#91CBAB",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-664 menthol",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.108",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-666",
+      "code": "FB-666",
+      "name": "menthol",
+      "label": "FB-666 menthol",
+      "hex": "#6FBF98",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-666 menthol",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.109",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-668",
+      "code": "FB-668",
+      "name": "menthol",
+      "label": "FB-668 menthol",
+      "hex": "#0F4439",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-668 menthol",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.110",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-670",
+      "code": "FB-670",
+      "name": "turquoise light",
+      "label": "FB-670 turquoise light",
+      "hex": "#1EA37C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-670 turquoise light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.111",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-672",
+      "code": "FB-672",
+      "name": "turquoise",
+      "label": "FB-672 turquoise",
+      "hex": "#0C8B59",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-672 turquoise",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.112",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-674",
+      "code": "FB-674",
+      "name": "turquoise dark",
+      "label": "FB-674 turquoise dark",
+      "hex": "#226144",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-674 turquoise dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.113",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-702",
+      "code": "FB-702",
+      "name": "ivory light",
+      "label": "FB-702 ivory light",
+      "hex": "#EDDFB6",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-702 ivory light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.116",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-704",
+      "code": "FB-704",
+      "name": "beige brown",
+      "label": "FB-704 beige brown",
+      "hex": "#C09A5C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-704 beige brown",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.117",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-706",
+      "code": "FB-706",
+      "name": "ocher",
+      "label": "FB-706 ocher",
+      "hex": "#9D682F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-706 ocher",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.118",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-708",
+      "code": "FB-708",
+      "name": "light nut",
+      "label": "FB-708 light nut",
+      "hex": "#4C2800",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-708 light nut",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.119",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-710",
+      "code": "FB-710",
+      "name": "chocolate",
+      "label": "FB-710 chocolate",
+      "hex": "#2B1105",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-710 chocolate",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.120",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-716",
+      "code": "FB-716",
+      "name": "cookie dough dark pastel",
+      "label": "FB-716 cookie dough dark pastel",
+      "hex": "#F5E4D4",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-716 cookie dough dark pastel",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.123",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-717",
+      "code": "FB-717",
+      "name": "cookie dough",
+      "label": "FB-717 cookie dough",
+      "hex": "#D6CA9F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-717 cookie dough",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.125",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-718",
+      "code": "FB-718",
+      "name": "macadamia pastel",
+      "label": "FB-718 macadamia pastel",
+      "hex": "#E5C3AC",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-718 macadamia pastel",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.126",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-719",
+      "code": "FB-719",
+      "name": "macadamia",
+      "label": "FB-719 macadamia",
+      "hex": "#A48776",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-719 macadamia",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.127",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-732",
+      "code": "FB-732",
+      "name": "grey beige light light",
+      "label": "FB-732 grey beige light light",
+      "hex": "#B4A485",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-732 grey beige light light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.131",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-734",
+      "code": "FB-734",
+      "name": "grey beige",
+      "label": "FB-734 grey beige",
+      "hex": "#A28C62",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-734 grey beige",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.132",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-736",
+      "code": "FB-736",
+      "name": "khaki grey",
+      "label": "FB-736 khaki grey",
+      "hex": "#6E5B38",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-736 khaki grey",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.133",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-738",
+      "code": "FB-738",
+      "name": "dark brown",
+      "label": "FB-738 dark brown",
+      "hex": "#3C3024",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-738 dark brown",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.134",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-808",
+      "code": "FB-808",
+      "name": "terracotta grey pastel",
+      "label": "FB-808 terracotta grey pastel",
+      "hex": "#C8B9B4",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-808 terracotta grey pastel",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.139",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-810",
+      "code": "FB-810",
+      "name": "terracotta grey light",
+      "label": "FB-810 terracotta grey light",
+      "hex": "#A78A8A",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-810 terracotta grey light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.140",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-812",
+      "code": "FB-812",
+      "name": "terracotta grey",
+      "label": "FB-812 terracotta grey",
+      "hex": "#826A6B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-812 terracotta grey",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.141",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-820",
+      "code": "FB-820",
+      "name": "violet grey middle",
+      "label": "FB-820 violet grey middle",
+      "hex": "#695C6B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-820 violet grey middle",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.145",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-822",
+      "code": "FB-822",
+      "name": "violet grey",
+      "label": "FB-822 violet grey",
+      "hex": "#56495B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-822 violet grey",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.146",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-834",
+      "code": "FB-834",
+      "name": "light grey neutral",
+      "label": "FB-834 light grey neutral",
+      "hex": "#D9D3CC",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-834 light grey neutral",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.152",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-836",
+      "code": "FB-836",
+      "name": "middle grey neutral",
+      "label": "FB-836 middle grey neutral",
+      "hex": "#AFACAC",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-836 middle grey neutral",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.153",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-838",
+      "code": "FB-838",
+      "name": "grey neutral",
+      "label": "FB-838 grey neutral",
+      "hex": "#7E8080",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-838 grey neutral",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.154",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-840",
+      "code": "FB-840",
+      "name": "dark grey neutral",
+      "label": "FB-840 dark grey neutral",
+      "hex": "#85807E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-840 dark grey neutral",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.155",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-842",
+      "code": "FB-842",
+      "name": "anthracite grey middle",
+      "label": "FB-842 anthracite grey middle",
+      "hex": "#50514F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-842 anthracite grey middle",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.156",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-844",
+      "code": "FB-844",
+      "name": "anthracite grey",
+      "label": "FB-844 anthracite grey",
+      "hex": "#4A4B4E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-844 anthracite grey",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.157",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-846",
+      "code": "FB-846",
+      "name": "anthracite grey dark",
+      "label": "FB-846 anthracite grey dark",
+      "hex": "#343333",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-846 anthracite grey dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.158",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-900",
+      "code": "FB-900",
+      "name": "pure white",
+      "label": "FB-900 pure white",
+      "hex": "#FFFFFF",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-900 pure white",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.159",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-902",
+      "code": "FB-902",
+      "name": "ultra chrome",
+      "label": "FB-902 ultra chrome",
+      "hex": "#A1A8B0",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-902 ultra chrome",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.160",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-904",
+      "code": "FB-904",
+      "name": "deep black",
+      "label": "FB-904 deep black",
+      "hex": "#020203",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-904 deep black",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.161",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-906",
+      "code": "FB-906",
+      "name": "gold",
+      "label": "FB-906 gold",
+      "hex": "#BFA060",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-906 gold",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.162",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB-908",
+      "code": "FB-908",
+      "name": "copper",
+      "label": "FB-908 copper",
+      "hex": "#E9CFC1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FB-908 copper",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "557.163",
+            "format": "400ml"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,3720 @@
+{
+  "manufacturer": {
+    "id": "loop",
+    "label": "Loop",
+    "accent": "#0F8F63",
+    "series": "400ml",
+    "source": {
+      "name": "Loop Colors",
+      "url": "https://loopcolors.com/product/loop-400ml/"
+    }
+  },
+  "colors": [
+    {
+      "id": "LP-100",
+      "code": "LP-100",
+      "name": "WHITE",
+      "label": "LP-100 WHITE",
+      "hex": "#FFFFFF",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-100 WHITE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-101",
+      "code": "LP-101",
+      "name": "GLOSS WHITE",
+      "label": "LP-101 GLOSS WHITE",
+      "hex": "#FFFFFF",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-101 GLOSS WHITE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-103",
+      "code": "LP-103",
+      "name": "BLACK MATT",
+      "label": "LP-103 BLACK MATT",
+      "hex": "#000000",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-103 BLACK MATT",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-104",
+      "code": "LP-104",
+      "name": "BLACK",
+      "label": "LP-104 BLACK",
+      "hex": "#000000",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-104 BLACK",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-105",
+      "code": "LP-105",
+      "name": "BLACK GLOSS",
+      "label": "LP-105 BLACK GLOSS",
+      "hex": "#000000",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-105 BLACK GLOSS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-106",
+      "code": "LP-106",
+      "name": "MADRID",
+      "label": "LP-106 MADRID",
+      "hex": "#FBF193",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-106 MADRID",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-107",
+      "code": "LP-107",
+      "name": "BARCELONA",
+      "label": "LP-107 BARCELONA",
+      "hex": "#FFEC65",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-107 BARCELONA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-108",
+      "code": "LP-108",
+      "name": "VALENCIA",
+      "label": "LP-108 VALENCIA",
+      "hex": "#FFDD00",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-108 VALENCIA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-109",
+      "code": "LP-109",
+      "name": "SEVILLA",
+      "label": "LP-109 SEVILLA",
+      "hex": "#FDCE07",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-109 SEVILLA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-110",
+      "code": "LP-110",
+      "name": "MALAGA",
+      "label": "LP-110 MALAGA",
+      "hex": "#F9B300",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-110 MALAGA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-120",
+      "code": "LP-120",
+      "name": "AMSTERDAM",
+      "label": "LP-120 AMSTERDAM",
+      "hex": "#F3991B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-120 AMSTERDAM",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-121",
+      "code": "LP-121",
+      "name": "HARLEM",
+      "label": "LP-121 HARLEM",
+      "hex": "#E78010",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-121 HARLEM",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-122",
+      "code": "LP-122",
+      "name": "UTRECHT",
+      "label": "LP-122 UTRECHT",
+      "hex": "#EC6F07",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-122 UTRECHT",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-123",
+      "code": "LP-123",
+      "name": "ROTTERDAM",
+      "label": "LP-123 ROTTERDAM",
+      "hex": "#BB4914",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-123 ROTTERDAM",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-124",
+      "code": "LP-124",
+      "name": "EINDHOVEN",
+      "label": "LP-124 EINDHOVEN",
+      "hex": "#FFDCA3",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-124 EINDHOVEN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-125",
+      "code": "LP-125",
+      "name": "BREDA",
+      "label": "LP-125 BREDA",
+      "hex": "#F8B14C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-125 BREDA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-126",
+      "code": "LP-126",
+      "name": "HELMOND",
+      "label": "LP-126 HELMOND",
+      "hex": "#F2921F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-126 HELMOND",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-127",
+      "code": "LP-127",
+      "name": "ROSENDHAL",
+      "label": "LP-127 ROSENDHAL",
+      "hex": "#EB6D0F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-127 ROSENDHAL",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-128",
+      "code": "LP-128",
+      "name": "ARNHEM",
+      "label": "LP-128 ARNHEM",
+      "hex": "#E75811",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-128 ARNHEM",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-129",
+      "code": "LP-129",
+      "name": "TILBURG",
+      "label": "LP-129 TILBURG",
+      "hex": "#E04D14",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-129 TILBURG",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-130",
+      "code": "LP-130",
+      "name": "OSS",
+      "label": "LP-130 OSS",
+      "hex": "#E24415",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-130 OSS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-131",
+      "code": "LP-131",
+      "name": "BRUSSELS",
+      "label": "LP-131 BRUSSELS",
+      "hex": "#FF3300",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-131 BRUSSELS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-136",
+      "code": "LP-136",
+      "name": "MANCHESTER",
+      "label": "LP-136 MANCHESTER",
+      "hex": "#E33617",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-136 MANCHESTER",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-137",
+      "code": "LP-137",
+      "name": "LIVERPOOL",
+      "label": "LP-137 LIVERPOOL",
+      "hex": "#D33118",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-137 LIVERPOOL",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-138",
+      "code": "LP-138",
+      "name": "NEWCASTLE",
+      "label": "LP-138 NEWCASTLE",
+      "hex": "#BE2C1C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-138 NEWCASTLE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-139",
+      "code": "LP-139",
+      "name": "YORK",
+      "label": "LP-139 YORK",
+      "hex": "#A6241C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-139 YORK",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-140",
+      "code": "LP-140",
+      "name": "LEEDS",
+      "label": "LP-140 LEEDS",
+      "hex": "#7B1417",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-140 LEEDS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-141",
+      "code": "LP-141",
+      "name": "CAMBRIDGE",
+      "label": "LP-141 CAMBRIDGE",
+      "hex": "#4E0F0F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-141 CAMBRIDGE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-142",
+      "code": "LP-142",
+      "name": "DERBY",
+      "label": "LP-142 DERBY",
+      "hex": "#E8586D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-142 DERBY",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-143",
+      "code": "LP-143",
+      "name": "BRISTOL",
+      "label": "LP-143 BRISTOL",
+      "hex": "#E53049",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-143 BRISTOL",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-144",
+      "code": "LP-144",
+      "name": "BRIGHTON",
+      "label": "LP-144 BRIGHTON",
+      "hex": "#DA0531",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-144 BRIGHTON",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-145",
+      "code": "LP-145",
+      "name": "OXFORD",
+      "label": "LP-145 OXFORD",
+      "hex": "#963034",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-145 OXFORD",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-146",
+      "code": "LP-146",
+      "name": "LONDON",
+      "label": "LP-146 LONDON",
+      "hex": "#330000",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-146 LONDON",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-147",
+      "code": "LP-147",
+      "name": "BIRMINGHAM",
+      "label": "LP-147 BIRMINGHAM",
+      "hex": "#FF6699",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-147 BIRMINGHAM",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-148",
+      "code": "LP-148",
+      "name": "NOTTINGHAM",
+      "label": "LP-148 NOTTINGHAM",
+      "hex": "#EF7C71",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-148 NOTTINGHAM",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-149",
+      "code": "LP-149",
+      "name": "WARSAW",
+      "label": "LP-149 WARSAW",
+      "hex": "#B50156",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-149 WARSAW",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-150",
+      "code": "LP-150",
+      "name": "DUBLIN",
+      "label": "LP-150 DUBLIN",
+      "hex": "#FAEDE2",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-150 DUBLIN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-151",
+      "code": "LP-151",
+      "name": "GALWAY",
+      "label": "LP-151 GALWAY",
+      "hex": "#F5B9A6",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-151 GALWAY",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-152",
+      "code": "LP-152",
+      "name": "DUNDALK",
+      "label": "LP-152 DUNDALK",
+      "hex": "#EE847F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-152 DUNDALK",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-153",
+      "code": "LP-153",
+      "name": "WATERFORD",
+      "label": "LP-153 WATERFORD",
+      "hex": "#BD4140",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-153 WATERFORD",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-154",
+      "code": "LP-154",
+      "name": "LIMERICK",
+      "label": "LP-154 LIMERICK",
+      "hex": "#F8CBCD",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-154 LIMERICK",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-155",
+      "code": "LP-155",
+      "name": "SWORDS",
+      "label": "LP-155 SWORDS",
+      "hex": "#E7A4A9",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-155 SWORDS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-156",
+      "code": "LP-156",
+      "name": "CORK",
+      "label": "LP-156 CORK",
+      "hex": "#8F443C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-156 CORK",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-157",
+      "code": "LP-157",
+      "name": "SLIGO",
+      "label": "LP-157 SLIGO",
+      "hex": "#CC727C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-157 SLIGO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-158",
+      "code": "LP-158",
+      "name": "FARO",
+      "label": "LP-158 FARO",
+      "hex": "#F4B2C1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-158 FARO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-159",
+      "code": "LP-159",
+      "name": "BEJA",
+      "label": "LP-159 BEJA",
+      "hex": "#F095A7",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-159 BEJA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-160",
+      "code": "LP-160",
+      "name": "COIMBRA",
+      "label": "LP-160 COIMBRA",
+      "hex": "#E85A82",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-160 COIMBRA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-161",
+      "code": "LP-161",
+      "name": "PORTO",
+      "label": "LP-161 PORTO",
+      "hex": "#C63D65",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-161 PORTO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-162",
+      "code": "LP-162",
+      "name": "AMADORA",
+      "label": "LP-162 AMADORA",
+      "hex": "#9E174F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-162 AMADORA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-163",
+      "code": "LP-163",
+      "name": "LISBOA",
+      "label": "LP-163 LISBOA",
+      "hex": "#761329",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-163 LISBOA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-164",
+      "code": "LP-164",
+      "name": "THESSALONIKI",
+      "label": "LP-164 THESSALONIKI",
+      "hex": "#7E1E47",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-164 THESSALONIKI",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-180",
+      "code": "LP-180",
+      "name": "VILNIUS",
+      "label": "LP-180 VILNIUS",
+      "hex": "#D5D8EE",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-180 VILNIUS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-181",
+      "code": "LP-181",
+      "name": "KALMAR",
+      "label": "LP-181 KALMAR",
+      "hex": "#C9A7CB",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-181 KALMAR",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-182",
+      "code": "LP-182",
+      "name": "MALMO",
+      "label": "LP-182 MALMO",
+      "hex": "#AD83AF",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-182 MALMO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-183",
+      "code": "LP-183",
+      "name": "GOTEBORG",
+      "label": "LP-183 GOTEBORG",
+      "hex": "#8B5D8E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-183 GOTEBORG",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-184",
+      "code": "LP-184",
+      "name": "MORA",
+      "label": "LP-184 MORA",
+      "hex": "#591861",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-184 MORA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-185",
+      "code": "LP-185",
+      "name": "FALUN",
+      "label": "LP-185 FALUN",
+      "hex": "#320939",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-185 FALUN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-186",
+      "code": "LP-186",
+      "name": "STOCKHOLM",
+      "label": "LP-186 STOCKHOLM",
+      "hex": "#EFD1CF",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-186 STOCKHOLM",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-187",
+      "code": "LP-187",
+      "name": "HELSINKI",
+      "label": "LP-187 HELSINKI",
+      "hex": "#ECC0BE",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-187 HELSINKI",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-188",
+      "code": "LP-188",
+      "name": "OULU",
+      "label": "LP-188 OULU",
+      "hex": "#D78A8C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-188 OULU",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-189",
+      "code": "LP-189",
+      "name": "OSLO",
+      "label": "LP-189 OSLO",
+      "hex": "#AB5265",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-189 OSLO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-190",
+      "code": "LP-190",
+      "name": "COPENHAGEN",
+      "label": "LP-190 COPENHAGEN",
+      "hex": "#5B0E45",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-190 COPENHAGEN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-191",
+      "code": "LP-191",
+      "name": "MOSS",
+      "label": "LP-191 MOSS",
+      "hex": "#6D2C75",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-191 MOSS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-192",
+      "code": "LP-192",
+      "name": "SKAGEN",
+      "label": "LP-192 SKAGEN",
+      "hex": "#600D20",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-192 SKAGEN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-193",
+      "code": "LP-193",
+      "name": "RIGA",
+      "label": "LP-193 RIGA",
+      "hex": "#663366",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-193 RIGA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-194",
+      "code": "LP-194",
+      "name": "TALLINN",
+      "label": "LP-194 TALLINN",
+      "hex": "#330033",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-194 TALLINN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-195",
+      "code": "LP-195",
+      "name": "ODENSE",
+      "label": "LP-195 ODENSE",
+      "hex": "#32174E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-195 ODENSE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-199",
+      "code": "LP-199",
+      "name": "MONACO",
+      "label": "LP-199 MONACO",
+      "hex": "#93D5F5",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-199 MONACO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-200",
+      "code": "LP-200",
+      "name": "PARIS",
+      "label": "LP-200 PARIS",
+      "hex": "#CEE6EC",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-200 PARIS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-201",
+      "code": "LP-201",
+      "name": "NANCY",
+      "label": "LP-201 NANCY",
+      "hex": "#A4CAD9",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-201 NANCY",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-202",
+      "code": "LP-202",
+      "name": "STRASBOURG",
+      "label": "LP-202 STRASBOURG",
+      "hex": "#7CB3CD",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-202 STRASBOURG",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-203",
+      "code": "LP-203",
+      "name": "METS",
+      "label": "LP-203 METS",
+      "hex": "#3E8EB7",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-203 METS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-204",
+      "code": "LP-204",
+      "name": "LENS",
+      "label": "LP-204 LENS",
+      "hex": "#1E74A7",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-204 LENS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-205",
+      "code": "LP-205",
+      "name": "LILLE",
+      "label": "LP-205 LILLE",
+      "hex": "#004A7C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-205 LILLE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-206",
+      "code": "LP-206",
+      "name": "RENNES",
+      "label": "LP-206 RENNES",
+      "hex": "#003361",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-206 RENNES",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-207",
+      "code": "LP-207",
+      "name": "CALAIS",
+      "label": "LP-207 CALAIS",
+      "hex": "#142754",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-207 CALAIS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-208",
+      "code": "LP-208",
+      "name": "BREST",
+      "label": "LP-208 BREST",
+      "hex": "#0E1A45",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-208 BREST",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-209",
+      "code": "LP-209",
+      "name": "BORDEAUX",
+      "label": "LP-209 BORDEAUX",
+      "hex": "#69CED6",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-209 BORDEAUX",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-210",
+      "code": "LP-210",
+      "name": "NANTES",
+      "label": "LP-210 NANTES",
+      "hex": "#77A5BF",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-210 NANTES",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-211",
+      "code": "LP-211",
+      "name": "GRENOBLES",
+      "label": "LP-211 GRENOBLES",
+      "hex": "#5188A4",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-211 GRENOBLES",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-212",
+      "code": "LP-212",
+      "name": "LYON",
+      "label": "LP-212 LYON",
+      "hex": "#004868",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-212 LYON",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-213",
+      "code": "LP-213",
+      "name": "MARSEILLE",
+      "label": "LP-213 MARSEILLE",
+      "hex": "#C9DBE9",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-213 MARSEILLE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-214",
+      "code": "LP-214",
+      "name": "NIMES",
+      "label": "LP-214 NIMES",
+      "hex": "#B1C4D4",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-214 NIMES",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-215",
+      "code": "LP-215",
+      "name": "MONTPELLIER",
+      "label": "LP-215 MONTPELLIER",
+      "hex": "#7C97B4",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-215 MONTPELLIER",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-216",
+      "code": "LP-216",
+      "name": "TOULOUSE",
+      "label": "LP-216 TOULOUSE",
+      "hex": "#4F6D91",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-216 TOULOUSE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-217",
+      "code": "LP-217",
+      "name": "NICE",
+      "label": "LP-217 NICE",
+      "hex": "#0E2D52",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-217 NICE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-218",
+      "code": "LP-218",
+      "name": "AJACCIO",
+      "label": "LP-218 AJACCIO",
+      "hex": "#1F2A44",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-218 AJACCIO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-219",
+      "code": "LP-219",
+      "name": "TAVERNY",
+      "label": "LP-219 TAVERNY",
+      "hex": "#4471B2",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-219 TAVERNY",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-220",
+      "code": "LP-220",
+      "name": "GENEVA",
+      "label": "LP-220 GENEVA",
+      "hex": "#005D80",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-220 GENEVA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-221",
+      "code": "LP-221",
+      "name": "BASEL",
+      "label": "LP-221 BASEL",
+      "hex": "#1D327B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-221 BASEL",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-222",
+      "code": "LP-222",
+      "name": "ATHENS",
+      "label": "LP-222 ATHENS",
+      "hex": "#004155",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-222 ATHENS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-223",
+      "code": "LP-223",
+      "name": "LIMASSOL",
+      "label": "LP-223 LIMASSOL",
+      "hex": "#1D2E3F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-223 LIMASSOL",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-224",
+      "code": "LP-224",
+      "name": "PERPIGNAN",
+      "label": "LP-224 PERPIGNAN",
+      "hex": "#001B36",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-224 PERPIGNAN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-248",
+      "code": "LP-248",
+      "name": "SAN MARINO",
+      "label": "LP-248 SAN MARINO",
+      "hex": "#004553",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-248 SAN MARINO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-249",
+      "code": "LP-249",
+      "name": "COMO",
+      "label": "LP-249 COMO",
+      "hex": "#A5D6D1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-249 COMO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-250",
+      "code": "LP-250",
+      "name": "TORINO",
+      "label": "LP-250 TORINO",
+      "hex": "#BBDFD8",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-250 TORINO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-251",
+      "code": "LP-251",
+      "name": "MILANO",
+      "label": "LP-251 MILANO",
+      "hex": "#61BEBC",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-251 MILANO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-252",
+      "code": "LP-252",
+      "name": "BERGAMO",
+      "label": "LP-252 BERGAMO",
+      "hex": "#13A9A1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-252 BERGAMO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-253",
+      "code": "LP-253",
+      "name": "BRESCIA",
+      "label": "LP-253 BRESCIA",
+      "hex": "#007B77",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-253 BRESCIA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-254",
+      "code": "LP-254",
+      "name": "VENEZIA",
+      "label": "LP-254 VENEZIA",
+      "hex": "#005155",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-254 VENEZIA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-255",
+      "code": "LP-255",
+      "name": "BOLZANO",
+      "label": "LP-255 BOLZANO",
+      "hex": "#002E28",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-255 BOLZANO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-256",
+      "code": "LP-256",
+      "name": "PIACENZA",
+      "label": "LP-256 PIACENZA",
+      "hex": "#D2E8D6",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-256 PIACENZA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-257",
+      "code": "LP-257",
+      "name": "PARMA",
+      "label": "LP-257 PARMA",
+      "hex": "#9ACB9E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-257 PARMA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-258",
+      "code": "LP-258",
+      "name": "MODENA",
+      "label": "LP-258 MODENA",
+      "hex": "#71B26D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-258 MODENA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-259",
+      "code": "LP-259",
+      "name": "REGGIO EMILIA",
+      "label": "LP-259 REGGIO EMILIA",
+      "hex": "#438B51",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-259 REGGIO EMILIA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-260",
+      "code": "LP-260",
+      "name": "BOLOGNA",
+      "label": "LP-260 BOLOGNA",
+      "hex": "#1E5142",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-260 BOLOGNA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-261",
+      "code": "LP-261",
+      "name": "FERRARA",
+      "label": "LP-261 FERRARA",
+      "hex": "#163B2B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-261 FERRARA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-262",
+      "code": "LP-262",
+      "name": "LA SPEZIA",
+      "label": "LP-262 LA SPEZIA",
+      "hex": "#D8DF74",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-262 LA SPEZIA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-263",
+      "code": "LP-263",
+      "name": "PISA",
+      "label": "LP-263 PISA",
+      "hex": "#C1D678",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-263 PISA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-264",
+      "code": "LP-264",
+      "name": "PRATO",
+      "label": "LP-264 PRATO",
+      "hex": "#B6CA70",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-264 PRATO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-265",
+      "code": "LP-265",
+      "name": "LUCCA",
+      "label": "LP-265 LUCCA",
+      "hex": "#86B5A4",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-265 LUCCA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-266",
+      "code": "LP-266",
+      "name": "FIRENZE",
+      "label": "LP-266 FIRENZE",
+      "hex": "#4E9825",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-266 FIRENZE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-267",
+      "code": "LP-267",
+      "name": "SIENA",
+      "label": "LP-267 SIENA",
+      "hex": "#638234",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-267 SIENA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-268",
+      "code": "LP-268",
+      "name": "LIVORNO",
+      "label": "LP-268 LIVORNO",
+      "hex": "#224A1E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-268 LIVORNO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-269",
+      "code": "LP-269",
+      "name": "PERUGIA",
+      "label": "LP-269 PERUGIA",
+      "hex": "#183419",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-269 PERUGIA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-270",
+      "code": "LP-270",
+      "name": "SASSARI",
+      "label": "LP-270 SASSARI",
+      "hex": "#DCE3D1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-270 SASSARI",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-271",
+      "code": "LP-271",
+      "name": "CAGLIARI",
+      "label": "LP-271 CAGLIARI",
+      "hex": "#BFCDB2",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-271 CAGLIARI",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-272",
+      "code": "LP-272",
+      "name": "MESSINA",
+      "label": "LP-272 MESSINA",
+      "hex": "#8E9E75",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-272 MESSINA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-273",
+      "code": "LP-273",
+      "name": "CATANIA",
+      "label": "LP-273 CATANIA",
+      "hex": "#2D4823",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-273 CATANIA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-274",
+      "code": "LP-274",
+      "name": "PALERMO",
+      "label": "LP-274 PALERMO",
+      "hex": "#29341B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-274 PALERMO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-275",
+      "code": "LP-275",
+      "name": "ROMA",
+      "label": "LP-275 ROMA",
+      "hex": "#EBE886",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-275 ROMA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-276",
+      "code": "LP-276",
+      "name": "MORIMONDO",
+      "label": "LP-276 MORIMONDO",
+      "hex": "#E5E14C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-276 MORIMONDO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-277",
+      "code": "LP-277",
+      "name": "NAPOLI",
+      "label": "LP-277 NAPOLI",
+      "hex": "#DAD627",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-277 NAPOLI",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-278",
+      "code": "LP-278",
+      "name": "SALERNO",
+      "label": "LP-278 SALERNO",
+      "hex": "#B9CD28",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-278 SALERNO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-279",
+      "code": "LP-279",
+      "name": "FOGGIA",
+      "label": "LP-279 FOGGIA",
+      "hex": "#9FA72D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-279 FOGGIA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-280",
+      "code": "LP-280",
+      "name": "BARI",
+      "label": "LP-280 BARI",
+      "hex": "#725F1D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-280 BARI",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-281",
+      "code": "LP-281",
+      "name": "CATANZARO",
+      "label": "LP-281 CATANZARO",
+      "hex": "#534A19",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-281 CATANZARO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-282",
+      "code": "LP-282",
+      "name": "RIMINI",
+      "label": "LP-282 RIMINI",
+      "hex": "#002C15",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-282 RIMINI",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-283",
+      "code": "LP-283",
+      "name": "LECCE",
+      "label": "LP-283 LECCE",
+      "hex": "#445321",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-283 LECCE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-298",
+      "code": "LP-298",
+      "name": "TIRANA",
+      "label": "LP-298 TIRANA",
+      "hex": "#5A4711",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-298 TIRANA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-299",
+      "code": "LP-299",
+      "name": "ISTANBUL",
+      "label": "LP-299 ISTANBUL",
+      "hex": "#C0B561",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-299 ISTANBUL",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-300",
+      "code": "LP-300",
+      "name": "ZAGREB",
+      "label": "LP-300 ZAGREB",
+      "hex": "#F4EDB3",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-300 ZAGREB",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-301",
+      "code": "LP-301",
+      "name": "BRATISLAVA",
+      "label": "LP-301 BRATISLAVA",
+      "hex": "#DDD491",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-301 BRATISLAVA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-302",
+      "code": "LP-302",
+      "name": "BUCAREST",
+      "label": "LP-302 BUCAREST",
+      "hex": "#CBBF5C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-302 BUCAREST",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-303",
+      "code": "LP-303",
+      "name": "BUDAPEST",
+      "label": "LP-303 BUDAPEST",
+      "hex": "#AA8413",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-303 BUDAPEST",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-304",
+      "code": "LP-304",
+      "name": "PRAGA",
+      "label": "LP-304 PRAGA",
+      "hex": "#917022",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-304 PRAGA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-305",
+      "code": "LP-305",
+      "name": "BELGRADE",
+      "label": "LP-305 BELGRADE",
+      "hex": "#5C4826",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-305 BELGRADE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-306",
+      "code": "LP-306",
+      "name": "VIENNA",
+      "label": "LP-306 VIENNA",
+      "hex": "#F6E4C2",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-306 VIENNA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-307",
+      "code": "LP-307",
+      "name": "KREMS",
+      "label": "LP-307 KREMS",
+      "hex": "#DDC69E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-307 KREMS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-308",
+      "code": "LP-308",
+      "name": "LINZ",
+      "label": "LP-308 LINZ",
+      "hex": "#D3A96B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-308 LINZ",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-309",
+      "code": "LP-309",
+      "name": "WELS",
+      "label": "LP-309 WELS",
+      "hex": "#8A5623",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-309 WELS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-310",
+      "code": "LP-310",
+      "name": "SALZBURG",
+      "label": "LP-310 SALZBURG",
+      "hex": "#6D4B2A",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-310 SALZBURG",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-311",
+      "code": "LP-311",
+      "name": "GRAZ",
+      "label": "LP-311 GRAZ",
+      "hex": "#543B25",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-311 GRAZ",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-312",
+      "code": "LP-312",
+      "name": "BADEN",
+      "label": "LP-312 BADEN",
+      "hex": "#2B1307",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-312 BADEN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-313",
+      "code": "LP-313",
+      "name": "BERLIN",
+      "label": "LP-313 BERLIN",
+      "hex": "#F0D0B1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-313 BERLIN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-314",
+      "code": "LP-314",
+      "name": "HAMBURG",
+      "label": "LP-314 HAMBURG",
+      "hex": "#EAA77D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-314 HAMBURG",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-315",
+      "code": "LP-315",
+      "name": "BREMEN",
+      "label": "LP-315 BREMEN",
+      "hex": "#EFA368",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-315 BREMEN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-316",
+      "code": "LP-316",
+      "name": "HANNOVER",
+      "label": "LP-316 HANNOVER",
+      "hex": "#D56112",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-316 HANNOVER",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-317",
+      "code": "LP-317",
+      "name": "DORTMUND",
+      "label": "LP-317 DORTMUND",
+      "hex": "#A55520",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-317 DORTMUND",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-318",
+      "code": "LP-318",
+      "name": "HALLE",
+      "label": "LP-318 HALLE",
+      "hex": "#613B23",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-318 HALLE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-319",
+      "code": "LP-319",
+      "name": "MUNCHEN",
+      "label": "LP-319 MUNCHEN",
+      "hex": "#F8E3CC",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-319 MUNCHEN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-320",
+      "code": "LP-320",
+      "name": "STUTTGART",
+      "label": "LP-320 STUTTGART",
+      "hex": "#D4B99C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-320 STUTTGART",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-321",
+      "code": "LP-321",
+      "name": "NURNBERG",
+      "label": "LP-321 NURNBERG",
+      "hex": "#AC825D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-321 NURNBERG",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-322",
+      "code": "LP-322",
+      "name": "MAINZ",
+      "label": "LP-322 MAINZ",
+      "hex": "#7B3F2C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-322 MAINZ",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-323",
+      "code": "LP-323",
+      "name": "FRANKFURT",
+      "label": "LP-323 FRANKFURT",
+      "hex": "#6F4629",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-323 FRANKFURT",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-324",
+      "code": "LP-324",
+      "name": "BONN",
+      "label": "LP-324 BONN",
+      "hex": "#775135",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-324 BONN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-325",
+      "code": "LP-325",
+      "name": "KOLN",
+      "label": "LP-325 KOLN",
+      "hex": "#3B1612",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-325 KOLN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-326",
+      "code": "LP-326",
+      "name": "LEIPZIG",
+      "label": "LP-326 LEIPZIG",
+      "hex": "#E08741",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-326 LEIPZIG",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-327",
+      "code": "LP-327",
+      "name": "INNSBRUCK",
+      "label": "LP-327 INNSBRUCK",
+      "hex": "#B59253",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-327 INNSBRUCK",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-328",
+      "code": "LP-328",
+      "name": "DUESSELDORF",
+      "label": "LP-328 DUESSELDORF",
+      "hex": "#522A00",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-328 DUESSELDORF",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-329",
+      "code": "LP-329",
+      "name": "BERN",
+      "label": "LP-329 BERN",
+      "hex": "#8C5B34",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-329 BERN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-330",
+      "code": "LP-330",
+      "name": "ZURICH",
+      "label": "LP-330 ZURICH",
+      "hex": "#C4763F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-330 ZURICH",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-340",
+      "code": "LP-340",
+      "name": "LOS ANGELES",
+      "label": "LP-340 LOS ANGELES",
+      "hex": "#ECE9E1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-340 LOS ANGELES",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-341",
+      "code": "LP-341",
+      "name": "SAN DIEGO",
+      "label": "LP-341 SAN DIEGO",
+      "hex": "#CCC9C1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-341 SAN DIEGO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-342",
+      "code": "LP-342",
+      "name": "SAN JOSE",
+      "label": "LP-342 SAN JOSE",
+      "hex": "#BDB9B0",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-342 SAN JOSE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-343",
+      "code": "LP-343",
+      "name": "SAN FRANCISCO",
+      "label": "LP-343 SAN FRANCISCO",
+      "hex": "#A9A5A0",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-343 SAN FRANCISCO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-344",
+      "code": "LP-344",
+      "name": "OAKLAND",
+      "label": "LP-344 OAKLAND",
+      "hex": "#7E7970",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-344 OAKLAND",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-345",
+      "code": "LP-345",
+      "name": "SACRAMENTO",
+      "label": "LP-345 SACRAMENTO",
+      "hex": "#5A5551",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-345 SACRAMENTO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-346",
+      "code": "LP-346",
+      "name": "LONG BEACH",
+      "label": "LP-346 LONG BEACH",
+      "hex": "#444342",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-346 LONG BEACH",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-347",
+      "code": "LP-347",
+      "name": "HOUSTON",
+      "label": "LP-347 HOUSTON",
+      "hex": "#E5D4C5",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-347 HOUSTON",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-348",
+      "code": "LP-348",
+      "name": "SAN ANTONIO",
+      "label": "LP-348 SAN ANTONIO",
+      "hex": "#D1B4A2",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-348 SAN ANTONIO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-349",
+      "code": "LP-349",
+      "name": "DALLAS",
+      "label": "LP-349 DALLAS",
+      "hex": "#9F7D74",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-349 DALLAS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-350",
+      "code": "LP-350",
+      "name": "AUSTIN",
+      "label": "LP-350 AUSTIN",
+      "hex": "#5F4444",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-350 AUSTIN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-351",
+      "code": "LP-351",
+      "name": "EL PASO",
+      "label": "LP-351 EL PASO",
+      "hex": "#403439",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-351 EL PASO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-352",
+      "code": "LP-352",
+      "name": "NEW YORK",
+      "label": "LP-352 NEW YORK",
+      "hex": "#D7D8D7",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-352 NEW YORK",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-353",
+      "code": "LP-353",
+      "name": "BOSTON",
+      "label": "LP-353 BOSTON",
+      "hex": "#C2C3C9",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-353 BOSTON",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-354",
+      "code": "LP-354",
+      "name": "CHICAGO",
+      "label": "LP-354 CHICAGO",
+      "hex": "#ABAAB4",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-354 CHICAGO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-355",
+      "code": "LP-355",
+      "name": "PHILLY",
+      "label": "LP-355 PHILLY",
+      "hex": "#5F536D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-355 PHILLY",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-356",
+      "code": "LP-356",
+      "name": "WASHINGTON",
+      "label": "LP-356 WASHINGTON",
+      "hex": "#3A3740",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-356 WASHINGTON",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-357",
+      "code": "LP-357",
+      "name": "MIAMI",
+      "label": "LP-357 MIAMI",
+      "hex": "#D8D5C2",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-357 MIAMI",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-358",
+      "code": "LP-358",
+      "name": "ORLANDO",
+      "label": "LP-358 ORLANDO",
+      "hex": "#B8B39E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-358 ORLANDO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-359",
+      "code": "LP-359",
+      "name": "TAMPA",
+      "label": "LP-359 TAMPA",
+      "hex": "#9B937B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-359 TAMPA",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-360",
+      "code": "LP-360",
+      "name": "JACKSONVILLE",
+      "label": "LP-360 JACKSONVILLE",
+      "hex": "#76685C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-360 JACKSONVILLE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-361",
+      "code": "LP-361",
+      "name": "KEY WEST",
+      "label": "LP-361 KEY WEST",
+      "hex": "#564C42",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-361 KEY WEST",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-362",
+      "code": "LP-362",
+      "name": "FORT MYERS",
+      "label": "LP-362 FORT MYERS",
+      "hex": "#382E2C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-362 FORT MYERS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-363",
+      "code": "LP-363",
+      "name": "SEATTLE",
+      "label": "LP-363 SEATTLE",
+      "hex": "#D8CCC1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-363 SEATTLE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-364",
+      "code": "LP-364",
+      "name": "PORTLAND",
+      "label": "LP-364 PORTLAND",
+      "hex": "#B6A18B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-364 PORTLAND",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-365",
+      "code": "LP-365",
+      "name": "LAS VEGAS",
+      "label": "LP-365 LAS VEGAS",
+      "hex": "#8C7464",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-365 LAS VEGAS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-366",
+      "code": "LP-366",
+      "name": "DETROIT",
+      "label": "LP-366 DETROIT",
+      "hex": "#644E41",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-366 DETROIT",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-367",
+      "code": "LP-367",
+      "name": "BALTIMORE",
+      "label": "LP-367 BALTIMORE",
+      "hex": "#453536",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-367 BALTIMORE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-368",
+      "code": "LP-368",
+      "name": "INDIANAPOLIS",
+      "label": "LP-368 INDIANAPOLIS",
+      "hex": "#8A87AC",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-368 INDIANAPOLIS",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-370",
+      "code": "LP-370",
+      "name": "MELBOURNE",
+      "label": "LP-370 MELBOURNE",
+      "hex": "#F8C8B7",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-370 MELBOURNE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-371",
+      "code": "LP-371",
+      "name": "SIDNEY",
+      "label": "LP-371 SIDNEY",
+      "hex": "#DEAA9A",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-371 SIDNEY",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-372",
+      "code": "LP-372",
+      "name": "BRISBANE",
+      "label": "LP-372 BRISBANE",
+      "hex": "#CF9684",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-372 BRISBANE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-373",
+      "code": "LP-373",
+      "name": "CHRISTCHURCH",
+      "label": "LP-373 CHRISTCHURCH",
+      "hex": "#B4857B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-373 CHRISTCHURCH",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-374",
+      "code": "LP-374",
+      "name": "WELLINGTON",
+      "label": "LP-374 WELLINGTON",
+      "hex": "#8B554C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-374 WELLINGTON",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-375",
+      "code": "LP-375",
+      "name": "MOSCOW",
+      "label": "LP-375 MOSCOW",
+      "hex": "#FFA38B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-375 MOSCOW",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-376",
+      "code": "LP-376",
+      "name": "ST. PETERSBURG",
+      "label": "LP-376 ST. PETERSBURG",
+      "hex": "#FF8D6D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-376 ST. PETERSBURG",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-377",
+      "code": "LP-377",
+      "name": "KRASONDAR",
+      "label": "LP-377 KRASONDAR",
+      "hex": "#FF6A39",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-377 KRASONDAR",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-378",
+      "code": "LP-378",
+      "name": "DUBAI",
+      "label": "LP-378 DUBAI",
+      "hex": "#89C275",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-378 DUBAI",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-379",
+      "code": "LP-379",
+      "name": "SAO PAULO",
+      "label": "LP-379 SAO PAULO",
+      "hex": "#1652A1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-379 SAO PAULO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-380",
+      "code": "LP-380",
+      "name": "SANTIAGO",
+      "label": "LP-380 SANTIAGO",
+      "hex": "#EA4890",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-380 SANTIAGO",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-390",
+      "code": "LP-390",
+      "name": "TRANSPARENT WHITE",
+      "label": "LP-390 TRANSPARENT WHITE",
+      "hex": "#FFFFFF",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-390 TRANSPARENT WHITE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-391",
+      "code": "LP-391",
+      "name": "TRANSPARENT BLACK",
+      "label": "LP-391 TRANSPARENT BLACK",
+      "hex": "#000000",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-391 TRANSPARENT BLACK",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-392",
+      "code": "LP-392",
+      "name": "TRANSPARENT BROWN",
+      "label": "LP-392 TRANSPARENT BROWN",
+      "hex": "#43291D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-392 TRANSPARENT BROWN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-393",
+      "code": "LP-393",
+      "name": "TRANSPARENT GREEN",
+      "label": "LP-393 TRANSPARENT GREEN",
+      "hex": "#FFFFFF",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-393 TRANSPARENT GREEN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-394",
+      "code": "LP-394",
+      "name": "TRANSPARENT BLUE",
+      "label": "LP-394 TRANSPARENT BLUE",
+      "hex": "#020504",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-394 TRANSPARENT BLUE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-395",
+      "code": "LP-395",
+      "name": "TRANSPARENT RED",
+      "label": "LP-395 TRANSPARENT RED",
+      "hex": "#FFFFFF",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-395 TRANSPARENT RED",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-400",
+      "code": "LP-400",
+      "name": "SILVER",
+      "label": "LP-400 SILVER",
+      "hex": "#BEC2C5",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-400 SILVER",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-401",
+      "code": "LP-401",
+      "name": "GOLD",
+      "label": "LP-401 GOLD",
+      "hex": "#D5A940",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-401 GOLD",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-402",
+      "code": "LP-402",
+      "name": "COPPER",
+      "label": "LP-402 COPPER",
+      "hex": "#AA6255",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-402 COPPER",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-409",
+      "code": "LP-409",
+      "name": "FLUO BLUE",
+      "label": "LP-409 FLUO BLUE",
+      "hex": "#0081C7",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-409 FLUO BLUE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-410",
+      "code": "LP-410",
+      "name": "FLUO YELLOW",
+      "label": "LP-410 FLUO YELLOW",
+      "hex": "#FFED00",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-410 FLUO YELLOW",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-411",
+      "code": "LP-411",
+      "name": "FLUO ORANGE",
+      "label": "LP-411 FLUO ORANGE",
+      "hex": "#F08A00",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-411 FLUO ORANGE",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-412",
+      "code": "LP-412",
+      "name": "FLUO RED",
+      "label": "LP-412 FLUO RED",
+      "hex": "#E53517",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-412 FLUO RED",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-413",
+      "code": "LP-413",
+      "name": "FLUO PINK",
+      "label": "LP-413 FLUO PINK",
+      "hex": "#E30045",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-413 FLUO PINK",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-414",
+      "code": "LP-414",
+      "name": "FLUO GREEN",
+      "label": "LP-414 FLUO GREEN",
+      "hex": "#57AB27",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-414 FLUO GREEN",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    },
+    {
+      "id": "LP-428",
+      "code": "LP-428",
+      "name": "METALIZED BLACK",
+      "label": "LP-428 METALIZED BLACK",
+      "hex": "#000000",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "LP-428 METALIZED BLACK",
+      "meta": {
+        "uvResistance": "★★★★★"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "spray-color-wheel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./styles.src.css -o ./styles.css",
+    "watch:css": "tailwindcss -i ./styles.src.css -o ./styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

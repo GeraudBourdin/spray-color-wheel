@@ -1,0 +1,911 @@
+{
+  "source": {
+    "type": "pdf",
+    "url": "https://kobrapaint.com/assets/downloads/color_chart_kobra_web.pdf",
+    "page": 2,
+    "hexApproximation": false,
+    "note": "Hex values read from the PDF text. Some HP codes were normalized from OCR ambiguities where O and 0 are confusable."
+  },
+  "colors": [
+    {
+      "code": "HP001",
+      "name": "WHITE",
+      "hex": "#FFFFFF",
+      "descriptor": null,
+      "sourceLabel": "WHITE HP001",
+      "codeNormalizedFrom": "HPOO1",
+      "page": 2
+    },
+    {
+      "code": "HP003",
+      "name": "SUPERGLOSS WHITE",
+      "hex": "#FFFFFF",
+      "descriptor": null,
+      "sourceLabel": "SUPERGLOSS WHITE HP003",
+      "codeNormalizedFrom": "HPO03",
+      "page": 2
+    },
+    {
+      "code": "HP004",
+      "name": "MATT BLACK",
+      "hex": "#111110",
+      "descriptor": null,
+      "sourceLabel": "MATT BLACK HP004",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP005",
+      "name": "SUPERGLOSS BLACK",
+      "hex": "#000000",
+      "descriptor": null,
+      "sourceLabel": "SUPERGLOSS BLACK HP005",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP006",
+      "name": "SATIN BLACK",
+      "hex": "#111110",
+      "descriptor": null,
+      "sourceLabel": "SATIN BLACK HP006",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP100",
+      "name": "YELLOW",
+      "hex": "#F8ED88",
+      "descriptor": null,
+      "sourceLabel": "YELLOW HP100",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1000",
+      "name": "LIGHT GREEN",
+      "hex": "#BBD8B4",
+      "descriptor": null,
+      "sourceLabel": "LIGHT GREEN HP1000",
+      "codeNormalizedFrom": "HP100O",
+      "page": 2
+    },
+    {
+      "code": "HP1010",
+      "name": "MOJITO",
+      "hex": "#96C68D",
+      "descriptor": null,
+      "sourceLabel": "MOJITO HP1010",
+      "codeNormalizedFrom": "HP101O",
+      "page": 2
+    },
+    {
+      "code": "HP1020",
+      "name": "MENTA",
+      "hex": "#59A570",
+      "descriptor": null,
+      "sourceLabel": "MENTA HP1020",
+      "codeNormalizedFrom": "HP102O",
+      "page": 2
+    },
+    {
+      "code": "HP1030",
+      "name": "SPRINGS",
+      "hex": "#318C57",
+      "descriptor": null,
+      "sourceLabel": "SPRINGS HP1030",
+      "codeNormalizedFrom": "HP103O",
+      "page": 2
+    },
+    {
+      "code": "HP1040",
+      "name": "FOREST",
+      "hex": "#035131",
+      "descriptor": null,
+      "sourceLabel": "FOREST HP1040",
+      "codeNormalizedFrom": "HP104O",
+      "page": 2
+    },
+    {
+      "code": "HP1050",
+      "name": "BLACK FOREST",
+      "hex": "#083321",
+      "descriptor": null,
+      "sourceLabel": "BLACK FOREST HP1050",
+      "codeNormalizedFrom": "HP105O",
+      "page": 2
+    },
+    {
+      "code": "HP110",
+      "name": "LUCE",
+      "hex": "#F6E81F",
+      "descriptor": null,
+      "sourceLabel": "LUCE HP110",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1100",
+      "name": "RIVER",
+      "hex": "#8CC9AB",
+      "descriptor": null,
+      "sourceLabel": "RIVER HP1100",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1110",
+      "name": "LAKE",
+      "hex": "#189B70",
+      "descriptor": null,
+      "sourceLabel": "LAKE HP1110",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1120",
+      "name": "NIAGARA",
+      "hex": "#067C65",
+      "descriptor": null,
+      "sourceLabel": "NIAGARA HP1120",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1130",
+      "name": "BOTTLE",
+      "hex": "#065646",
+      "descriptor": null,
+      "sourceLabel": "BOTTLE HP1130",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1140",
+      "name": "DEEP WATER",
+      "hex": "#05352C",
+      "descriptor": null,
+      "sourceLabel": "DEEP WATER HP1140",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP120",
+      "name": "RAY",
+      "hex": "#FFD500",
+      "descriptor": null,
+      "sourceLabel": "RAY HP120",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1200",
+      "name": "LEONARDO",
+      "hex": "#D3DBB6",
+      "descriptor": null,
+      "sourceLabel": "LEONARDO HP1200",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1210",
+      "name": "DONATELLO",
+      "hex": "#93A56D",
+      "descriptor": null,
+      "sourceLabel": "DONATELLO HP1210",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1220",
+      "name": "RAFFAELLO",
+      "hex": "#6A8749",
+      "descriptor": null,
+      "sourceLabel": "RAFFAELLO HP1220",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1230",
+      "name": "MICHELANGELO",
+      "hex": "#325625",
+      "descriptor": null,
+      "sourceLabel": "MICHELANGELO HP1230",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP130",
+      "name": "MIELE",
+      "hex": "#F6A219",
+      "descriptor": null,
+      "sourceLabel": "MIELE HP130",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1300",
+      "name": "YELLOW GREEN",
+      "hex": "#EFED9C",
+      "descriptor": null,
+      "sourceLabel": "YELLOW GREEN HP1300",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1310",
+      "name": "DAY",
+      "hex": "#E0EA1B",
+      "descriptor": null,
+      "sourceLabel": "DAY HP1310",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1320",
+      "name": "APPLE",
+      "hex": "#AFCA11",
+      "descriptor": null,
+      "sourceLabel": "APPLE HP1320",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1330",
+      "name": "CLOVER",
+      "hex": "#52AE32",
+      "descriptor": null,
+      "sourceLabel": "CLOVER HP1330",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1340",
+      "name": "BULLFROG",
+      "hex": "#099E3C",
+      "descriptor": null,
+      "sourceLabel": "BULLFROG HP1340",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1350",
+      "name": "BASILICO",
+      "hex": "#0A7B35",
+      "descriptor": null,
+      "sourceLabel": "BASILICO HP1350",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1360",
+      "name": "RAPTOR",
+      "hex": "#025227",
+      "descriptor": null,
+      "sourceLabel": "RAPTOR HP1360",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP1370",
+      "name": "GREEN ISLAND",
+      "hex": "#07301D",
+      "descriptor": null,
+      "sourceLabel": "GREEN ISLAND HP1370",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP140",
+      "name": "OCRA",
+      "hex": "#C68E0B",
+      "descriptor": null,
+      "sourceLabel": "OCRA HP140",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP150",
+      "name": "MUSTARD",
+      "hex": "#966218",
+      "descriptor": null,
+      "sourceLabel": "MUSTARD HP150",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP200",
+      "name": "LIGHT ORANGE",
+      "hex": "#F08339",
+      "descriptor": null,
+      "sourceLabel": "LIGHT ORANGE HP200",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP2000",
+      "name": "LIGHT BLUE",
+      "hex": "#BAE2F6",
+      "descriptor": null,
+      "sourceLabel": "LIGHT BLUE HP2000",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP2010",
+      "name": "BLUES",
+      "hex": "#7ECEEF",
+      "descriptor": null,
+      "sourceLabel": "BLUES HP2010",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP2020",
+      "name": "SKYFALL",
+      "hex": "#009ED7",
+      "descriptor": null,
+      "sourceLabel": "SKYFALL HP2020",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP2030",
+      "name": "OCEAN",
+      "hex": "#1488CA",
+      "descriptor": null,
+      "sourceLabel": "OCEAN HP2030",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP2040",
+      "name": "NAUTILUS",
+      "hex": "#025B92",
+      "descriptor": null,
+      "sourceLabel": "NAUTILUS HP2040",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP2050",
+      "name": "ZAFFIRO",
+      "hex": "#22386E",
+      "descriptor": null,
+      "sourceLabel": "ZAFFIRO HP2050",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP2060",
+      "name": "NOTTE",
+      "hex": "#1C2B4C",
+      "descriptor": null,
+      "sourceLabel": "NOTTE HP2060",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP2070",
+      "name": "BLACK SEA",
+      "hex": "#172843",
+      "descriptor": null,
+      "sourceLabel": "BLACK SEA HP2070",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP220",
+      "name": "GANG",
+      "hex": "#EC671B",
+      "descriptor": null,
+      "sourceLabel": "GANG HP220",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP230",
+      "name": "JAM",
+      "hex": "#E74115",
+      "descriptor": null,
+      "sourceLabel": "JAM HP230",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP240",
+      "name": "KAKI",
+      "hex": "#DC0F17",
+      "descriptor": null,
+      "sourceLabel": "KAKI HP240",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP250",
+      "name": "RED ORANGE",
+      "hex": "#BC1820",
+      "descriptor": null,
+      "sourceLabel": "RED ORANGE HP250",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP260",
+      "name": "TNT",
+      "hex": "#931914",
+      "descriptor": null,
+      "sourceLabel": "TNT HP260",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP270",
+      "name": "VIPER",
+      "hex": "#6A1410",
+      "descriptor": null,
+      "sourceLabel": "VIPER HP270",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP3000",
+      "name": "LIGHT GREY",
+      "hex": "#F2F3F4",
+      "descriptor": null,
+      "sourceLabel": "LIGHT GREY HP3000",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP3010",
+      "name": "RAILWAY",
+      "hex": "#DEE1E2",
+      "descriptor": null,
+      "sourceLabel": "RAILWAY HP3010",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP3020",
+      "name": "PLATFORM",
+      "hex": "#CBCCCE",
+      "descriptor": null,
+      "sourceLabel": "PLATFORM HP3020",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP3030",
+      "name": "BAHNHOF",
+      "hex": "#9A9E9D",
+      "descriptor": null,
+      "sourceLabel": "BAHNHOF HP3030",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP3040",
+      "name": "YARD",
+      "hex": "#5D686F",
+      "descriptor": null,
+      "sourceLabel": "YARD HP3040",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP3050",
+      "name": "BINARY",
+      "hex": "#3A4449",
+      "descriptor": null,
+      "sourceLabel": "BINARY HP3050",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP3060",
+      "name": "UNDERGROUND",
+      "hex": "#2B2F33",
+      "descriptor": null,
+      "sourceLabel": "UNDERGROUND HP3060",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP310",
+      "name": "AMANITA",
+      "hex": "#F0848F",
+      "descriptor": null,
+      "sourceLabel": "AMANITA HP310",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP320",
+      "name": "RASPBERRY",
+      "hex": "#E94268",
+      "descriptor": null,
+      "sourceLabel": "RASPBERRY HP320",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP330",
+      "name": "SCORPION",
+      "hex": "#CA1B4D",
+      "descriptor": null,
+      "sourceLabel": "SCORPION HP330",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP340",
+      "name": "TRINIDAD",
+      "hex": "#AF182A",
+      "descriptor": null,
+      "sourceLabel": "TRINIDAD HP340",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP350",
+      "name": "RED HOT",
+      "hex": "#911828",
+      "descriptor": null,
+      "sourceLabel": "RED HOT HP350",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP370",
+      "name": "RED WINE",
+      "hex": "#541018",
+      "descriptor": null,
+      "sourceLabel": "RED WINE HP370",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP4000",
+      "name": "LILLA",
+      "hex": "#B08CC0",
+      "descriptor": null,
+      "sourceLabel": "LILLA HP4000",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP4010",
+      "name": "VIOLET",
+      "hex": "#8D72B1",
+      "descriptor": null,
+      "sourceLabel": "VIOLET HP4010",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP4020",
+      "name": "INDACO",
+      "hex": "#734D9A",
+      "descriptor": null,
+      "sourceLabel": "INDACO HP4020",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP4030",
+      "name": "AMETISTA",
+      "hex": "#592884",
+      "descriptor": null,
+      "sourceLabel": "AMETISTA HP4030",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP4040",
+      "name": "NOSFERATO",
+      "hex": "#231E45",
+      "descriptor": null,
+      "sourceLabel": "NOSFERATO HP4040",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP410",
+      "name": "PARMESAN",
+      "hex": "#EAE472",
+      "descriptor": null,
+      "sourceLabel": "PARMESAN HP410",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP420",
+      "name": "RHEM",
+      "hex": "#C6C663",
+      "descriptor": null,
+      "sourceLabel": "RHEM HP420",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP4200",
+      "name": "PURPLE",
+      "hex": "#E6B0D2",
+      "descriptor": null,
+      "sourceLabel": "PURPLE HP4200",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP4210",
+      "name": "DEEP",
+      "hex": "#B26FA2",
+      "descriptor": null,
+      "sourceLabel": "DEEP HP4210",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP4220",
+      "name": "PRUGNA",
+      "hex": "#813783",
+      "descriptor": null,
+      "sourceLabel": "PRUGNA HP4220",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP4230",
+      "name": "MELANZANA",
+      "hex": "#551F55",
+      "descriptor": null,
+      "sourceLabel": "MELANZANA HP4230",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP4240",
+      "name": "MORA",
+      "hex": "#2F183E",
+      "descriptor": null,
+      "sourceLabel": "MORA HP4240",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP430",
+      "name": "MUSK",
+      "hex": "#999440",
+      "descriptor": null,
+      "sourceLabel": "MUSK HP430",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP440",
+      "name": "PERA",
+      "hex": "#777224",
+      "descriptor": null,
+      "sourceLabel": "PERA HP440",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP450",
+      "name": "PISTACCHIO",
+      "hex": "#444018",
+      "descriptor": null,
+      "sourceLabel": "PISTACCHIO HP450",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP5000",
+      "name": "LIGHT FUCSIA",
+      "hex": "#EC75AB",
+      "descriptor": null,
+      "sourceLabel": "LIGHT FUCSIA HP5000",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP5010",
+      "name": "LIGHT MAGENTA",
+      "hex": "#E1408F",
+      "descriptor": null,
+      "sourceLabel": "LIGHT MAGENTA HP5010",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP5020",
+      "name": "FUCSIA",
+      "hex": "#E30E82",
+      "descriptor": null,
+      "sourceLabel": "FUCSIA HP5020",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP5030",
+      "name": "MAGENTA",
+      "hex": "#AD1269",
+      "descriptor": null,
+      "sourceLabel": "MAGENTA HP5030",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP5040",
+      "name": "ORCHIDEA",
+      "hex": "#841758",
+      "descriptor": null,
+      "sourceLabel": "ORCHIDEA HP5040",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP5050",
+      "name": "DARK MAGENTA",
+      "hex": "#5C133F",
+      "descriptor": null,
+      "sourceLabel": "DARK MAGENTA HP5050",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP5060",
+      "name": "PINK",
+      "hex": "#F8CBE1",
+      "descriptor": null,
+      "sourceLabel": "PINK HP5060",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP540",
+      "name": "SIENA LAND",
+      "hex": "#59341B",
+      "descriptor": null,
+      "sourceLabel": "SIENA LAND HP540",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP550",
+      "name": "BRUNT GROUND",
+      "hex": "#432D20",
+      "descriptor": null,
+      "sourceLabel": "BRUNT GROUND HP550",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP560",
+      "name": "BAOBAB",
+      "hex": "#8A462F",
+      "descriptor": null,
+      "sourceLabel": "BAOBAB HP560",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP600",
+      "name": "SILK",
+      "hex": "#F9F8E1",
+      "descriptor": null,
+      "sourceLabel": "SILK HP600",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP6001",
+      "name": "VENOM GREEN",
+      "hex": "#AFFF00",
+      "descriptor": "VIBRANT",
+      "sourceLabel": "VENOM GREEN HP6001",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP6002",
+      "name": "VENOM RED",
+      "hex": "#E5001C",
+      "descriptor": "VIBRANT",
+      "sourceLabel": "VENOM RED HP6002",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP6003",
+      "name": "VENOM YELLOW",
+      "hex": "#FFE600",
+      "descriptor": "VIBRANT",
+      "sourceLabel": "VENOM YELLOW HP6003",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP6004",
+      "name": "VENOM BLUE",
+      "hex": "#00CFFF",
+      "descriptor": "VIBRANT",
+      "sourceLabel": "VENOM BLUE HP6004",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP610",
+      "name": "IVORY",
+      "hex": "#E8DFB8",
+      "descriptor": null,
+      "sourceLabel": "IVORY HP610",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP620",
+      "name": "TORTORA",
+      "hex": "#D1C8A1",
+      "descriptor": null,
+      "sourceLabel": "TORTORA HP620",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP650",
+      "name": "BARK",
+      "hex": "#B2A982",
+      "descriptor": null,
+      "sourceLabel": "BARK HP650",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP660",
+      "name": "TEAK",
+      "hex": "#938961",
+      "descriptor": null,
+      "sourceLabel": "TEAK HP660",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP710",
+      "name": "BABY ASS",
+      "hex": "#F9DCCD",
+      "descriptor": null,
+      "sourceLabel": "BABY ASS HP710",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP720",
+      "name": "CIPRIA",
+      "hex": "#EAB09D",
+      "descriptor": null,
+      "sourceLabel": "CIPRIA HP720",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP730",
+      "name": "SIENA MEDIUM",
+      "hex": "#C38F76",
+      "descriptor": null,
+      "sourceLabel": "SIENA MEDIUM HP730",
+      "codeNormalizedFrom": null,
+      "page": 2
+    },
+    {
+      "code": "HP740",
+      "name": "PAPIRO",
+      "hex": "#AF755F",
+      "descriptor": null,
+      "sourceLabel": "PAPIRO HP740",
+      "codeNormalizedFrom": null,
+      "page": 2
+    }
+  ]
+}

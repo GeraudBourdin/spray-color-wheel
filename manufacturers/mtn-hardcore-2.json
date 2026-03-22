@@ -1,0 +1,2389 @@
+{
+  "manufacturer": {
+    "id": "mtn-hardcore-2",
+    "label": "MTN Hardcore 2",
+    "accent": "#F26922",
+    "series": "400ml",
+    "source": {
+      "name": "Montana Colors MTN Hardcore 2",
+      "url": "https://streetcontrol.jimdofree.com/app/download/4805954366/Nuancier+hardcore+2.pdf?t=1655908943",
+      "note": "Hex values sampled from swatches on the color chart PDF."
+    }
+  },
+  "colors": [
+    {
+      "id": "R 1017",
+      "code": "R 1017",
+      "name": "Peach",
+      "label": "R 1017 Peach",
+      "hex": "#F9BA57",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Melocotón"
+      ],
+      "sourceLabel": "R 1017 Melocotón / Peach",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "1017",
+        "spanishName": "Melocotón",
+        "englishName": "Peach"
+      }
+    },
+    {
+      "id": "R 1021",
+      "code": "R 1021",
+      "name": "Light Yellow",
+      "label": "R 1021 Light Yellow",
+      "hex": "#FFE100",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Amarillo Claro"
+      ],
+      "sourceLabel": "R 1021 Amarillo Claro / Light Yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "1021",
+        "spanishName": "Amarillo Claro",
+        "englishName": "Light Yellow"
+      }
+    },
+    {
+      "id": "R 1028",
+      "code": "R 1028",
+      "name": "Medium Yellow",
+      "label": "R 1028 Medium Yellow",
+      "hex": "#F6A800",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Amarillo Medio"
+      ],
+      "sourceLabel": "R 1028 Amarillo Medio / Medium Yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "1028",
+        "spanishName": "Amarillo Medio",
+        "englishName": "Medium Yellow"
+      }
+    },
+    {
+      "id": "R 2003",
+      "code": "R 2003",
+      "name": "Pastel Orange",
+      "label": "R 2003 Pastel Orange",
+      "hex": "#EC753B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Naranja Pastel"
+      ],
+      "sourceLabel": "R 2003 Naranja Pastel / Pastel Orange",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "2003",
+        "spanishName": "Naranja Pastel",
+        "englishName": "Pastel Orange"
+      }
+    },
+    {
+      "id": "R 2004",
+      "code": "R 2004",
+      "name": "Orange",
+      "label": "R 2004 Orange",
+      "hex": "#E95E0F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Naranja"
+      ],
+      "sourceLabel": "R 2004 Naranja / Orange",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "2004",
+        "spanishName": "Naranja",
+        "englishName": "Orange"
+      }
+    },
+    {
+      "id": "R 3001",
+      "code": "R 3001",
+      "name": "Intense Red",
+      "label": "R 3001 Intense Red",
+      "hex": "#C90019",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Rojo Vivo"
+      ],
+      "sourceLabel": "R 3001 Rojo Vivo / Intense Red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "3001",
+        "spanishName": "Rojo Vivo",
+        "englishName": "Intense Red"
+      }
+    },
+    {
+      "id": "R 3004",
+      "code": "R 3004",
+      "name": "Bourdeaux Red",
+      "label": "R 3004 Bourdeaux Red",
+      "hex": "#82131D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Rojo Burdeos"
+      ],
+      "sourceLabel": "R 3004 Rojo Burdeos / Bourdeaux Red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "3004",
+        "spanishName": "Rojo Burdeos",
+        "englishName": "Bourdeaux Red"
+      }
+    },
+    {
+      "id": "R 3020",
+      "code": "R 3020",
+      "name": "Light Red",
+      "label": "R 3020 Light Red",
+      "hex": "#E5352D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Rojo Claro"
+      ],
+      "sourceLabel": "R 3020 Rojo Claro / Light Red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "3020",
+        "spanishName": "Rojo Claro",
+        "englishName": "Light Red"
+      }
+    },
+    {
+      "id": "R 4003",
+      "code": "R 4003",
+      "name": "Erika",
+      "label": "R 4003 Erika",
+      "hex": "#DE336B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "R 4003 Erika / Erika",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "4003",
+        "spanishName": "Erika",
+        "englishName": "Erika"
+      }
+    },
+    {
+      "id": "R 4006",
+      "code": "R 4006",
+      "name": "Purple",
+      "label": "R 4006 Purple",
+      "hex": "#AB4779",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Púrpura"
+      ],
+      "sourceLabel": "R 4006 Púrpura / Purple",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "4006",
+        "spanishName": "Púrpura",
+        "englishName": "Purple"
+      }
+    },
+    {
+      "id": "R 4007",
+      "code": "R 4007",
+      "name": "Cherry",
+      "label": "R 4007 Cherry",
+      "hex": "#572741",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Cereza"
+      ],
+      "sourceLabel": "R 4007 Cereza / Cherry",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "4007",
+        "spanishName": "Cereza",
+        "englishName": "Cherry"
+      }
+    },
+    {
+      "id": "R 4010",
+      "code": "R 4010",
+      "name": "Magenta",
+      "label": "R 4010 Magenta",
+      "hex": "#DD1D5A",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "R 4010 Magenta / Magenta",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "4010",
+        "spanishName": "Magenta",
+        "englishName": "Magenta"
+      }
+    },
+    {
+      "id": "R 5002",
+      "code": "R 5002",
+      "name": "Ultramarine Blue",
+      "label": "R 5002 Ultramarine Blue",
+      "hex": "#37306A",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Ultramar"
+      ],
+      "sourceLabel": "R 5002 Azul Ultramar / Ultramarine Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "5002",
+        "spanishName": "Azul Ultramar",
+        "englishName": "Ultramarine Blue"
+      }
+    },
+    {
+      "id": "R 5005",
+      "code": "R 5005",
+      "name": "Dark Blue",
+      "label": "R 5005 Dark Blue",
+      "hex": "#00649C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Oscuro"
+      ],
+      "sourceLabel": "R 5005 Azul Oscuro / Dark Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "5005",
+        "spanishName": "Azul Oscuro",
+        "englishName": "Dark Blue"
+      }
+    },
+    {
+      "id": "R 6003",
+      "code": "R 6003",
+      "name": "Olive Green",
+      "label": "R 6003 Olive Green",
+      "hex": "#4F552D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde Olivo"
+      ],
+      "sourceLabel": "R 6003 Verde Olivo / Olive Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "6003",
+        "spanishName": "Verde Olivo",
+        "englishName": "Olive Green"
+      }
+    },
+    {
+      "id": "R 6013",
+      "code": "R 6013",
+      "name": "Khaki Green",
+      "label": "R 6013 Khaki Green",
+      "hex": "#667743",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde Caqui"
+      ],
+      "sourceLabel": "R 6013 Verde Caqui / Khaki Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "6013",
+        "spanishName": "Verde Caqui",
+        "englishName": "Khaki Green"
+      }
+    },
+    {
+      "id": "R 6016",
+      "code": "R 6016",
+      "name": "Dark Green",
+      "label": "R 6016 Dark Green",
+      "hex": "#008352",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde Oscuro"
+      ],
+      "sourceLabel": "R 6016 Verde Oscuro / Dark Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "6016",
+        "spanishName": "Verde Oscuro",
+        "englishName": "Dark Green"
+      }
+    },
+    {
+      "id": "R 6018",
+      "code": "R 6018",
+      "name": "Valley Green",
+      "label": "R 6018 Valley Green",
+      "hex": "#6A9720",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde Valle"
+      ],
+      "sourceLabel": "R 6018 Verde Valle / Valley Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "6018",
+        "spanishName": "Verde Valle",
+        "englishName": "Valley Green"
+      }
+    },
+    {
+      "id": "R 7016",
+      "code": "R 7016",
+      "name": "Anthracite Grey",
+      "label": "R 7016 Anthracite Grey",
+      "hex": "#464648",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Gris Antracita"
+      ],
+      "sourceLabel": "R 7016 Gris Antracita / Anthracite Grey",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "7016",
+        "spanishName": "Gris Antracita",
+        "englishName": "Anthracite Grey"
+      }
+    },
+    {
+      "id": "R 7031",
+      "code": "R 7031",
+      "name": "Dark Grey",
+      "label": "R 7031 Dark Grey",
+      "hex": "#616264",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Gris Oscuro"
+      ],
+      "sourceLabel": "R 7031 Gris Oscuro / Dark Grey",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "7031",
+        "spanishName": "Gris Oscuro",
+        "englishName": "Dark Grey"
+      }
+    },
+    {
+      "id": "R 7040",
+      "code": "R 7040",
+      "name": "Pearl Grey",
+      "label": "R 7040 Pearl Grey",
+      "hex": "#7B7C7E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Gris Perla"
+      ],
+      "sourceLabel": "R 7040 Gris Perla / Pearl Grey",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "7040",
+        "spanishName": "Gris Perla",
+        "englishName": "Pearl Grey"
+      }
+    },
+    {
+      "id": "R 8002",
+      "code": "R 8002",
+      "name": "Toasted Brown",
+      "label": "R 8002 Toasted Brown",
+      "hex": "#9C5A2D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Marrón Tostado"
+      ],
+      "sourceLabel": "R 8002 Marrón Tostado / Toasted Brown",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "8002",
+        "spanishName": "Marrón Tostado",
+        "englishName": "Toasted Brown"
+      }
+    },
+    {
+      "id": "R 8023",
+      "code": "R 8023",
+      "name": "Mustard",
+      "label": "R 8023 Mustard",
+      "hex": "#B9501A",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Mostaza"
+      ],
+      "sourceLabel": "R 8023 Mostaza / Mustard",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "8023",
+        "spanishName": "Mostaza",
+        "englishName": "Mustard"
+      }
+    },
+    {
+      "id": "R 9010",
+      "code": "R 9010",
+      "name": "Divinity White",
+      "label": "R 9010 Divinity White",
+      "hex": "#FFFFFF",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Blanco Divinidad"
+      ],
+      "sourceLabel": "R 9010 Blanco Divinidad / Divinity White",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "9010",
+        "spanishName": "Blanco Divinidad",
+        "englishName": "Divinity White"
+      }
+    },
+    {
+      "id": "R 9011",
+      "code": "R 9011",
+      "name": "Black",
+      "label": "R 9011 Black",
+      "hex": "#000000",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Negro"
+      ],
+      "sourceLabel": "R 9011 Negro / Black",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "9011",
+        "spanishName": "Negro",
+        "englishName": "Black"
+      }
+    },
+    {
+      "id": "RV 3",
+      "code": "RV 3",
+      "name": "Blue Violet",
+      "label": "RV 3 Blue Violet",
+      "hex": "#574A96",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Violeta Azulado"
+      ],
+      "sourceLabel": "RV 3 Violeta Azulado / Blue Violet",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "3",
+        "spanishName": "Violeta Azulado",
+        "englishName": "Blue Violet"
+      }
+    },
+    {
+      "id": "RV 6",
+      "code": "RV 6",
+      "name": "Light Grey",
+      "label": "RV 6 Light Grey",
+      "hex": "#A3A4A6",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Gris Claro"
+      ],
+      "sourceLabel": "RV 6 Gris Claro / Light Grey",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "6",
+        "spanishName": "Gris Claro",
+        "englishName": "Light Grey"
+      }
+    },
+    {
+      "id": "RV 8",
+      "code": "RV 8",
+      "name": "Light Blue",
+      "label": "RV 8 Light Blue",
+      "hex": "#60C5E7",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Claro"
+      ],
+      "sourceLabel": "RV 8 Azul Claro / Light Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "8",
+        "spanishName": "Azul Claro",
+        "englishName": "Light Blue"
+      }
+    },
+    {
+      "id": "RV 11",
+      "code": "RV 11",
+      "name": "Ganges Yellow",
+      "label": "RV 11 Ganges Yellow",
+      "hex": "#F4CA2A",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Amarillo Ganges"
+      ],
+      "sourceLabel": "RV 11 Amarillo Ganges / Ganges Yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "11",
+        "spanishName": "Amarillo Ganges",
+        "englishName": "Ganges Yellow"
+      }
+    },
+    {
+      "id": "RV 14",
+      "code": "RV 14",
+      "name": "Planet Blue",
+      "label": "RV 14 Planet Blue",
+      "hex": "#008098",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Planeta"
+      ],
+      "sourceLabel": "RV 14 Azul Planeta / Planet Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "14",
+        "spanishName": "Azul Planeta",
+        "englishName": "Planet Blue"
+      }
+    },
+    {
+      "id": "RV 15",
+      "code": "RV 15",
+      "name": "Apple Green",
+      "label": "RV 15 Apple Green",
+      "hex": "#96B25E",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde Manzana"
+      ],
+      "sourceLabel": "RV 15 Verde Manzana / Apple Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "15",
+        "spanishName": "Verde Manzana",
+        "englishName": "Apple Green"
+      }
+    },
+    {
+      "id": "RV 16",
+      "code": "RV 16",
+      "name": "Pistachio Green",
+      "label": "RV 16 Pistachio Green",
+      "hex": "#B0C643",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde Pistacho"
+      ],
+      "sourceLabel": "RV 16 Verde Pistacho / Pistachio Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "16",
+        "spanishName": "Verde Pistacho",
+        "englishName": "Pistachio Green"
+      }
+    },
+    {
+      "id": "RV 17",
+      "code": "RV 17",
+      "name": "Tenere Sand",
+      "label": "RV 17 Tenere Sand",
+      "hex": "#DF9E00",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Arena Tenere"
+      ],
+      "sourceLabel": "RV 17 Arena Tenere / Tenere Sand",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "17",
+        "spanishName": "Arena Tenere",
+        "englishName": "Tenere Sand"
+      }
+    },
+    {
+      "id": "RV 20",
+      "code": "RV 20",
+      "name": "Party Yellow",
+      "label": "RV 20 Party Yellow",
+      "hex": "#FFF048",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Amarillo Fiesta"
+      ],
+      "sourceLabel": "RV 20 Amarillo Fiesta / Party Yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "20",
+        "spanishName": "Amarillo Fiesta",
+        "englishName": "Party Yellow"
+      }
+    },
+    {
+      "id": "RV 21",
+      "code": "RV 21",
+      "name": "Surgical Green",
+      "label": "RV 21 Surgical Green",
+      "hex": "#009D6D",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde Quirúrgico"
+      ],
+      "sourceLabel": "RV 21 Verde Quirúrgico / Surgical Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "21",
+        "spanishName": "Verde Quirúrgico",
+        "englishName": "Surgical Green"
+      }
+    },
+    {
+      "id": "RV 28",
+      "code": "RV 28",
+      "name": "Cosmos Violet",
+      "label": "RV 28 Cosmos Violet",
+      "hex": "#291C53",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Violeta Cosmos"
+      ],
+      "sourceLabel": "RV 28 Violeta Cosmos / Cosmos Violet",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "28",
+        "spanishName": "Violeta Cosmos",
+        "englishName": "Cosmos Violet"
+      }
+    },
+    {
+      "id": "RV 30",
+      "code": "RV 30",
+      "name": "Electric Blue",
+      "label": "RV 30 Electric Blue",
+      "hex": "#007FC4",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Eléctrico"
+      ],
+      "sourceLabel": "RV 30 Azul Eléctrico / Electric Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "30",
+        "spanishName": "Azul Eléctrico",
+        "englishName": "Electric Blue"
+      }
+    },
+    {
+      "id": "RV 33",
+      "code": "RV 33",
+      "name": "Colorado Red",
+      "label": "RV 33 Colorado Red",
+      "hex": "#E74F45",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Rojo Colorado"
+      ],
+      "sourceLabel": "RV 33 Rojo Colorado / Colorado Red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "33",
+        "spanishName": "Rojo Colorado",
+        "englishName": "Colorado Red"
+      }
+    },
+    {
+      "id": "RV 34",
+      "code": "RV 34",
+      "name": "Guacamole Green",
+      "label": "RV 34 Guacamole Green",
+      "hex": "#88B04E",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde Guacamole"
+      ],
+      "sourceLabel": "RV 34 Verde Guacamole / Guacamole Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "34",
+        "spanishName": "Verde Guacamole",
+        "englishName": "Guacamole Green"
+      }
+    },
+    {
+      "id": "RV 206",
+      "code": "RV 206",
+      "name": "Atacama Yellow",
+      "label": "RV 206 Atacama Yellow",
+      "hex": "#FBCB8C",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Amarillo Atacama"
+      ],
+      "sourceLabel": "RV 206 Amarillo Atacama / Atacama Yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "206",
+        "spanishName": "Amarillo Atacama",
+        "englishName": "Atacama Yellow"
+      }
+    },
+    {
+      "id": "RV 207",
+      "code": "RV 207",
+      "name": "Mango",
+      "label": "RV 207 Mango",
+      "hex": "#E77A19",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "RV 207 Mango / Mango",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "207",
+        "spanishName": "Mango",
+        "englishName": "Mango"
+      }
+    },
+    {
+      "id": "RV 208",
+      "code": "RV 208",
+      "name": "Pumpkin",
+      "label": "RV 208 Pumpkin",
+      "hex": "#F6AD6B",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Calabaza"
+      ],
+      "sourceLabel": "RV 208 Calabaza / Pumpkin",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "208",
+        "spanishName": "Calabaza",
+        "englishName": "Pumpkin"
+      }
+    },
+    {
+      "id": "RV 209",
+      "code": "RV 209",
+      "name": "Calcutta Orange",
+      "label": "RV 209 Calcutta Orange",
+      "hex": "#DC4126",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Naranja Calcuta"
+      ],
+      "sourceLabel": "RV 209 Naranja Calcuta / Calcutta Orange",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "209",
+        "spanishName": "Naranja Calcuta",
+        "englishName": "Calcutta Orange"
+      }
+    },
+    {
+      "id": "RV 210",
+      "code": "RV 210",
+      "name": "Prometheus Orange",
+      "label": "RV 210 Prometheus Orange",
+      "hex": "#910E14",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Naranja Prometeo"
+      ],
+      "sourceLabel": "RV 210 Naranja Prometeo / Prometheus Orange",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "210",
+        "spanishName": "Naranja Prometeo",
+        "englishName": "Prometheus Orange"
+      }
+    },
+    {
+      "id": "RV 211",
+      "code": "RV 211",
+      "name": "Love Pink",
+      "label": "RV 211 Love Pink",
+      "hex": "#EE87AD",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Rosa Amor"
+      ],
+      "sourceLabel": "RV 211 Rosa Amor / Love Pink",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "211",
+        "spanishName": "Rosa Amor",
+        "englishName": "Love Pink"
+      }
+    },
+    {
+      "id": "RV 212",
+      "code": "RV 212",
+      "name": "Akari Red",
+      "label": "RV 212 Akari Red",
+      "hex": "#C40041",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Rojo Akari"
+      ],
+      "sourceLabel": "RV 212 Rojo Akari / Akari Red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "212",
+        "spanishName": "Rojo Akari",
+        "englishName": "Akari Red"
+      }
+    },
+    {
+      "id": "RV 213",
+      "code": "RV 213",
+      "name": "Merlot Red",
+      "label": "RV 213 Merlot Red",
+      "hex": "#762A3D",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Rojo Merlot"
+      ],
+      "sourceLabel": "RV 213 Rojo Merlot / Merlot Red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "213",
+        "spanishName": "Rojo Merlot",
+        "englishName": "Merlot Red"
+      }
+    },
+    {
+      "id": "RV 214",
+      "code": "RV 214",
+      "name": "Violet",
+      "label": "RV 214 Violet",
+      "hex": "#9993C3",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Violeta"
+      ],
+      "sourceLabel": "RV 214 Violeta / Violet",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "214",
+        "spanishName": "Violeta",
+        "englishName": "Violet"
+      }
+    },
+    {
+      "id": "RV 215",
+      "code": "RV 215",
+      "name": "Prophet Violet",
+      "label": "RV 215 Prophet Violet",
+      "hex": "#6D63A5",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Violeta Profeta"
+      ],
+      "sourceLabel": "RV 215 Violeta Profeta / Prophet Violet",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "215",
+        "spanishName": "Violeta Profeta",
+        "englishName": "Prophet Violet"
+      }
+    },
+    {
+      "id": "RV 216",
+      "code": "RV 216",
+      "name": "Anonymous Violet",
+      "label": "RV 216 Anonymous Violet",
+      "hex": "#45347A",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Violeta Anonymous"
+      ],
+      "sourceLabel": "RV 216 Violeta Anonymous / Anonymous Violet",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "216",
+        "spanishName": "Violeta Anonymous",
+        "englishName": "Anonymous Violet"
+      }
+    },
+    {
+      "id": "RV 217",
+      "code": "RV 217",
+      "name": "Avatar Blue",
+      "label": "RV 217 Avatar Blue",
+      "hex": "#00A2DD",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Avatar"
+      ],
+      "sourceLabel": "RV 217 Azul Avatar / Avatar Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "217",
+        "spanishName": "Azul Avatar",
+        "englishName": "Avatar Blue"
+      }
+    },
+    {
+      "id": "RV 218",
+      "code": "RV 218",
+      "name": "Neptune Blue",
+      "label": "RV 218 Neptune Blue",
+      "hex": "#004578",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Neptuno"
+      ],
+      "sourceLabel": "RV 218 Azul Neptuno / Neptune Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "218",
+        "spanishName": "Azul Neptuno",
+        "englishName": "Neptune Blue"
+      }
+    },
+    {
+      "id": "RV 219",
+      "code": "RV 219",
+      "name": "Paris Green",
+      "label": "RV 219 Paris Green",
+      "hex": "#8BC8AA",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde París"
+      ],
+      "sourceLabel": "RV 219 Verde París / Paris Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "219",
+        "spanishName": "Verde París",
+        "englishName": "Paris Green"
+      }
+    },
+    {
+      "id": "RV 220",
+      "code": "RV 220",
+      "name": "UFO Green",
+      "label": "RV 220 UFO Green",
+      "hex": "#5BB89E",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde UFO"
+      ],
+      "sourceLabel": "RV 220 Verde UFO / UFO Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "220",
+        "spanishName": "Verde UFO",
+        "englishName": "UFO Green"
+      }
+    },
+    {
+      "id": "RV 221",
+      "code": "RV 221",
+      "name": "Persephone Green",
+      "label": "RV 221 Persephone Green",
+      "hex": "#005231",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde Persefone"
+      ],
+      "sourceLabel": "RV 221 Verde Persefone / Persephone Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "221",
+        "spanishName": "Verde Persefone",
+        "englishName": "Persephone Green"
+      }
+    },
+    {
+      "id": "RV 222",
+      "code": "RV 222",
+      "name": "Beach Yellow",
+      "label": "RV 222 Beach Yellow",
+      "hex": "#FFF386",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Amarillo Playa"
+      ],
+      "sourceLabel": "RV 222 Amarillo Playa / Beach Yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "222",
+        "spanishName": "Amarillo Playa",
+        "englishName": "Beach Yellow"
+      }
+    },
+    {
+      "id": "RV 223",
+      "code": "RV 223",
+      "name": "Buddha Red",
+      "label": "RV 223 Buddha Red",
+      "hex": "#EB6964",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Rojo Buda"
+      ],
+      "sourceLabel": "RV 223 Rojo Buda / Buddha Red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "223",
+        "spanishName": "Rojo Buda",
+        "englishName": "Buddha Red"
+      }
+    },
+    {
+      "id": "RV 224",
+      "code": "RV 224",
+      "name": "Witch Violet",
+      "label": "RV 224 Witch Violet",
+      "hex": "#C8739F",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Violeta Bruja"
+      ],
+      "sourceLabel": "RV 224 Violeta Bruja / Witch Violet",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "224",
+        "spanishName": "Violeta Bruja",
+        "englishName": "Witch Violet"
+      }
+    },
+    {
+      "id": "RV 225",
+      "code": "RV 225",
+      "name": "Geisha Violet",
+      "label": "RV 225 Geisha Violet",
+      "hex": "#C15C92",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Violeta Geisha"
+      ],
+      "sourceLabel": "RV 225 Violeta Geisha / Geisha Violet",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "225",
+        "spanishName": "Violeta Geisha",
+        "englishName": "Geisha Violet"
+      }
+    },
+    {
+      "id": "RV 226",
+      "code": "RV 226",
+      "name": "Tube Violet",
+      "label": "RV 226 Tube Violet",
+      "hex": "#7C3F60",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Violeta Tube"
+      ],
+      "sourceLabel": "RV 226 Violeta Tube / Tube Violet",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "226",
+        "spanishName": "Violeta Tube",
+        "englishName": "Tube Violet"
+      }
+    },
+    {
+      "id": "RV 227",
+      "code": "RV 227",
+      "name": "Waimea Blue",
+      "label": "RV 227 Waimea Blue",
+      "hex": "#6F9ECF",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Waimea"
+      ],
+      "sourceLabel": "RV 227 Azul Waimea / Waimea Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "227",
+        "spanishName": "Azul Waimea",
+        "englishName": "Waimea Blue"
+      }
+    },
+    {
+      "id": "RV 228",
+      "code": "RV 228",
+      "name": "Zeppelin Blue",
+      "label": "RV 228 Zeppelin Blue",
+      "hex": "#4875B3",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Zeppelin"
+      ],
+      "sourceLabel": "RV 228 Azul Zeppelin / Zeppelin Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "228",
+        "spanishName": "Azul Zeppelin",
+        "englishName": "Zeppelin Blue"
+      }
+    },
+    {
+      "id": "RV 229",
+      "code": "RV 229",
+      "name": "Andromeda Blue",
+      "label": "RV 229 Andromeda Blue",
+      "hex": "#465499",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Andrómeda"
+      ],
+      "sourceLabel": "RV 229 Azul Andrómeda / Andromeda Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "229",
+        "spanishName": "Azul Andrómeda",
+        "englishName": "Andromeda Blue"
+      }
+    },
+    {
+      "id": "RV 230",
+      "code": "RV 230",
+      "name": "Leviatan Blue",
+      "label": "RV 230 Leviatan Blue",
+      "hex": "#0D0F49",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Leviatán"
+      ],
+      "sourceLabel": "RV 230 Azul Leviatán / Leviatan Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "230",
+        "spanishName": "Azul Leviatán",
+        "englishName": "Leviatan Blue"
+      }
+    },
+    {
+      "id": "RV 231",
+      "code": "RV 231",
+      "name": "Cousteau Blue",
+      "label": "RV 231 Cousteau Blue",
+      "hex": "#1BB2C4",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Cousteau"
+      ],
+      "sourceLabel": "RV 231 Azul Cousteau / Cousteau Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "231",
+        "spanishName": "Azul Cousteau",
+        "englishName": "Cousteau Blue"
+      }
+    },
+    {
+      "id": "RV 232",
+      "code": "RV 232",
+      "name": "Glacier Blue",
+      "label": "RV 232 Glacier Blue",
+      "hex": "#009CAB",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Glaciar"
+      ],
+      "sourceLabel": "RV 232 Azul Glaciar / Glacier Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "232",
+        "spanishName": "Azul Glaciar",
+        "englishName": "Glacier Blue"
+      }
+    },
+    {
+      "id": "RV 233",
+      "code": "RV 233",
+      "name": "Christiania Blue",
+      "label": "RV 233 Christiania Blue",
+      "hex": "#006675",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Christiania"
+      ],
+      "sourceLabel": "RV 233 Azul Christiania / Christiania Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "233",
+        "spanishName": "Azul Christiania",
+        "englishName": "Christiania Blue"
+      }
+    },
+    {
+      "id": "RV 234",
+      "code": "RV 234",
+      "name": "Indigo Blue",
+      "label": "RV 234 Indigo Blue",
+      "hex": "#004750",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Índigo"
+      ],
+      "sourceLabel": "RV 234 Azul Índigo / Indigo Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "234",
+        "spanishName": "Azul Índigo",
+        "englishName": "Indigo Blue"
+      }
+    },
+    {
+      "id": "RV 235",
+      "code": "RV 235",
+      "name": "Poison Green",
+      "label": "RV 235 Poison Green",
+      "hex": "#DEDD3A",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde Veneno"
+      ],
+      "sourceLabel": "RV 235 Verde Veneno / Poison Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "235",
+        "spanishName": "Verde Veneno",
+        "englishName": "Poison Green"
+      }
+    },
+    {
+      "id": "RV 236",
+      "code": "RV 236",
+      "name": "Mojito Green",
+      "label": "RV 236 Mojito Green",
+      "hex": "#CED50A",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde Mojito"
+      ],
+      "sourceLabel": "RV 236 Verde Mojito / Mojito Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "236",
+        "spanishName": "Verde Mojito",
+        "englishName": "Mojito Green"
+      }
+    },
+    {
+      "id": "RV 237",
+      "code": "RV 237",
+      "name": "Cologno N. Green",
+      "label": "RV 237 Cologno N. Green",
+      "hex": "#6A8515",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde Cologno N."
+      ],
+      "sourceLabel": "RV 237 Verde Cologno N. / Cologno N. Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "237",
+        "spanishName": "Verde Cologno N.",
+        "englishName": "Cologno N. Green"
+      }
+    },
+    {
+      "id": "RV 238",
+      "code": "RV 238",
+      "name": "Giant Yellow",
+      "label": "RV 238 Giant Yellow",
+      "hex": "#FFED00",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Amarillo Gigante"
+      ],
+      "sourceLabel": "RV 238 Amarillo Gigante / Giant Yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "238",
+        "spanishName": "Amarillo Gigante",
+        "englishName": "Giant Yellow"
+      }
+    },
+    {
+      "id": "RV 239",
+      "code": "RV 239",
+      "name": "Luxor Yellow",
+      "label": "RV 239 Luxor Yellow",
+      "hex": "#FAB700",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Amarillo Luxor"
+      ],
+      "sourceLabel": "RV 239 Amarillo Luxor / Luxor Yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "239",
+        "spanishName": "Amarillo Luxor",
+        "englishName": "Luxor Yellow"
+      }
+    },
+    {
+      "id": "RV 240",
+      "code": "RV 240",
+      "name": "Kenya Orange",
+      "label": "RV 240 Kenya Orange",
+      "hex": "#E9600F",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Naranja Kenya"
+      ],
+      "sourceLabel": "RV 240 Naranja Kenya / Kenya Orange",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "240",
+        "spanishName": "Naranja Kenya",
+        "englishName": "Kenya Orange"
+      }
+    },
+    {
+      "id": "RV 241",
+      "code": "RV 241",
+      "name": "Madrid Red",
+      "label": "RV 241 Madrid Red",
+      "hex": "#E5352D",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Rojo Madrid"
+      ],
+      "sourceLabel": "RV 241 Rojo Madrid / Madrid Red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "241",
+        "spanishName": "Rojo Madrid",
+        "englishName": "Madrid Red"
+      }
+    },
+    {
+      "id": "RV 242",
+      "code": "RV 242",
+      "name": "Soviet Red",
+      "label": "RV 242 Soviet Red",
+      "hex": "#933112",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Rojo Soviet t"
+      ],
+      "sourceLabel": "RV 242 Rojo Soviet t / Soviet Red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "242",
+        "spanishName": "Rojo Soviet t",
+        "englishName": "Soviet Red"
+      }
+    },
+    {
+      "id": "RV 243",
+      "code": "RV 243",
+      "name": "Babylon Blue",
+      "label": "RV 243 Babylon Blue",
+      "hex": "#253C87",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Azul Babilonia"
+      ],
+      "sourceLabel": "RV 243 Azul Babilonia / Babylon Blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "243",
+        "spanishName": "Azul Babilonia",
+        "englishName": "Babylon Blue"
+      }
+    },
+    {
+      "id": "RV 244",
+      "code": "RV 244",
+      "name": "Miami Pink",
+      "label": "RV 244 Miami Pink",
+      "hex": "#D31C48",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Rosa Miami"
+      ],
+      "sourceLabel": "RV 244 Rosa Miami / Miami Pink",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "244",
+        "spanishName": "Rosa Miami",
+        "englishName": "Miami Pink"
+      }
+    },
+    {
+      "id": "RV 245",
+      "code": "RV 245",
+      "name": "Cyan",
+      "label": "RV 245 Cyan",
+      "hex": "#3FB1B9",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Cian"
+      ],
+      "sourceLabel": "RV 245 Cian / Cyan",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "245",
+        "spanishName": "Cian",
+        "englishName": "Cyan"
+      }
+    },
+    {
+      "id": "RV 246",
+      "code": "RV 246",
+      "name": "Druid Brown",
+      "label": "RV 246 Druid Brown",
+      "hex": "#F7D090",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Marrón Druida"
+      ],
+      "sourceLabel": "RV 246 Marrón Druida / Druid Brown",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "246",
+        "spanishName": "Marrón Druida",
+        "englishName": "Druid Brown"
+      }
+    },
+    {
+      "id": "RV 247",
+      "code": "RV 247",
+      "name": "Tepuy y Brown",
+      "label": "RV 247 Tepuy y Brown",
+      "hex": "#EFB16A",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Marrón Tepuy"
+      ],
+      "sourceLabel": "RV 247 Marrón Tepuy / Tepuy y Brown",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "247",
+        "spanishName": "Marrón Tepuy",
+        "englishName": "Tepuy y Brown"
+      }
+    },
+    {
+      "id": "RV 248",
+      "code": "RV 248",
+      "name": "Baobab Brown",
+      "label": "RV 248 Baobab Brown",
+      "hex": "#DE8D48",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Marrón Baobab"
+      ],
+      "sourceLabel": "RV 248 Marrón Baobab / Baobab Brown",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "248",
+        "spanishName": "Marrón Baobab",
+        "englishName": "Baobab Brown"
+      }
+    },
+    {
+      "id": "RV 249",
+      "code": "RV 249",
+      "name": "Greyhound Brown",
+      "label": "RV 249 Greyhound Brown",
+      "hex": "#BC753A",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Marrón Galgo"
+      ],
+      "sourceLabel": "RV 249 Marrón Galgo / Greyhound Brown",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "249",
+        "spanishName": "Marrón Galgo",
+        "englishName": "Greyhound Brown"
+      }
+    },
+    {
+      "id": "RV 250",
+      "code": "RV 250",
+      "name": "Rambo Green",
+      "label": "RV 250 Rambo Green",
+      "hex": "#89A654",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde Rambo"
+      ],
+      "sourceLabel": "RV 250 Verde Rambo / Rambo Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "250",
+        "spanishName": "Verde Rambo",
+        "englishName": "Rambo Green"
+      }
+    },
+    {
+      "id": "RV 251",
+      "code": "RV 251",
+      "name": "Forest Green",
+      "label": "RV 251 Forest Green",
+      "hex": "#2E361A",
+      "finish": "gloss",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "Verde Bosque"
+      ],
+      "sourceLabel": "RV 251 Verde Bosque / Forest Green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          3
+        ],
+        "sourcePage": 3,
+        "hexApproximation": true,
+        "family": "RV",
+        "reference": "251",
+        "spanishName": "Verde Bosque",
+        "englishName": "Forest Green"
+      }
+    }
+  ]
+}

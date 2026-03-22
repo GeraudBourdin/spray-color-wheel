@@ -1,0 +1,4169 @@
+[
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 1005 Smash137´s Potato",
+    "altParsing": "",
+    "ordernumber": "289941",
+    "ean": "4048500289941",
+    "pid": "b6963b3eb5ab4340b2ed99866ea40f7a",
+    "pigments": "PW6 PY184 PY151",
+    "lightfastness": "4",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 244,
+      "G": 229,
+      "B": 147
+    },
+    "cmyk": {
+      "C": 7,
+      "M": 6,
+      "Y": 52,
+      "K": 0
+    },
+    "hex": "#f4e593"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 1010 Easter Yellow",
+    "altParsing": "",
+    "ordernumber": "263453",
+    "ean": "4048500263453",
+    "pid": "eccceb492d494229b7f71e1c98496038",
+    "pigments": "PW6 PY151 PY184",
+    "lightfastness": "4",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 255,
+      "G": 230,
+      "B": 104
+    },
+    "cmyk": {
+      "C": 2,
+      "M": 6,
+      "Y": 68,
+      "K": 0
+    },
+    "hex": "#ffe668"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 1025 Kicking Yellow",
+    "altParsing": "",
+    "ordernumber": "263460",
+    "ean": "4048500263460",
+    "pid": "cea22c4fbaac433d9f81c3a8db67bede",
+    "pigments": "PW6 PY151 PY184",
+    "lightfastness": "4",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 255,
+      "G": 218,
+      "B": 21
+    },
+    "cmyk": {
+      "C": 2,
+      "M": 12,
+      "Y": 91,
+      "K": 0
+    },
+    "hex": "#ffda15"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 1030 Yellow",
+    "altParsing": "",
+    "ordernumber": "263477",
+    "ean": "4048500263477",
+    "pid": "b976fa9c824743e89b124a124653326a",
+    "pigments": "PY151 PW6 PY42",
+    "lightfastness": "4",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 252,
+      "G": 192,
+      "B": 0
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 27,
+      "Y": 94,
+      "K": 0
+    },
+    "hex": "#fcc000"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 1045 Melon Yellow",
+    "altParsing": "",
+    "ordernumber": "263484",
+    "ean": "4048500263484",
+    "pid": "b24779b4aa594999b80398789981ddb3",
+    "pigments": "PY151 PO67",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 245,
+      "G": 158,
+      "B": 1
+    },
+    "cmyk": {
+      "C": 0,
+      "M": 44,
+      "Y": 96,
+      "K": 0
+    },
+    "hex": "#f59e01"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 1050 Topaz",
+    "altParsing": "",
+    "ordernumber": "263491",
+    "ean": "4048500263491",
+    "pid": "0a8cc2e0178f46109b233ca8b85c9e85",
+    "pigments": "PY151 PO36 PW6",
+    "lightfastness": "4",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 211,
+      "G": 126,
+      "B": 10
+    },
+    "cmyk": {
+      "C": 15,
+      "M": 56,
+      "Y": 100,
+      "K": 4
+    },
+    "hex": "#d37e0a"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 1060 Hazle",
+    "altParsing": "",
+    "ordernumber": "263507",
+    "ean": "4048500263507",
+    "pid": "015a4d92f9c4448f81a216bcf18be4fb",
+    "pigments": "PY42 PR170 PY151",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 163,
+      "G": 76,
+      "B": 46
+    },
+    "cmyk": {
+      "C": 26,
+      "M": 74,
+      "Y": 83,
+      "K": 21
+    },
+    "hex": "#a34c2e"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 1070 Pecan Nut",
+    "altParsing": "",
+    "ordernumber": "386312",
+    "ean": "4048500386312",
+    "pid": "ce828a6bad9346d88c8f83b6e7d5740f",
+    "pigments": "PR101 PO36 PW6",
+    "lightfastness": "4",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 111,
+      "G": 47,
+      "B": 35
+    },
+    "cmyk": {
+      "C": 34,
+      "M": 82,
+      "Y": 78,
+      "K": 49
+    },
+    "hex": "#6f2f23"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 1080 Maroon",
+    "altParsing": "",
+    "ordernumber": "263514",
+    "ean": "4048500263514",
+    "pid": "d16eeec7aba444ad807d99725a7eb2d9",
+    "pigments": "PO36 PR122 PB15:6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 97,
+      "G": 35,
+      "B": 22
+    },
+    "cmyk": {
+      "C": 37,
+      "M": 87,
+      "Y": 86,
+      "K": 57
+    },
+    "hex": "#612316"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 1110 Indian Spice",
+    "altParsing": "",
+    "ordernumber": "386329",
+    "ean": "4048500386329",
+    "pid": "682a418c1d33410397d4d2dd83956423",
+    "pigments": "PY151 PY42 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 224,
+      "G": 166,
+      "B": 0
+    },
+    "cmyk": {
+      "C": 12,
+      "M": 36,
+      "Y": 98,
+      "K": 2
+    },
+    "hex": "#e0a600"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 1120 Masala",
+    "altParsing": "",
+    "ordernumber": "386336",
+    "ean": "4048500386336",
+    "pid": "b41127134b5d4847a0437dad30fbf8eb",
+    "pigments": "PY42 PY184 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 182,
+      "G": 152,
+      "B": 34
+    },
+    "cmyk": {
+      "C": 27,
+      "M": 32,
+      "Y": 94,
+      "K": 13
+    },
+    "hex": "#b69822"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 1130 Delhi",
+    "altParsing": "",
+    "ordernumber": "386350",
+    "ean": "4048500386350",
+    "pid": "eaa55493317d46eaa15beebbd56431d7",
+    "pigments": "PY42 PY151 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 161,
+      "G": 129,
+      "B": 20
+    },
+    "cmyk": {
+      "C": 31,
+      "M": 39,
+      "Y": 99,
+      "K": 21
+    },
+    "hex": "#a18114"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 1140 Bombay",
+    "altParsing": "",
+    "ordernumber": "386398",
+    "ean": "4048500386398",
+    "pid": "4b8314b74bcf462c9384a6f515aa8f90",
+    "pigments": "PY42 PW6 PBk7",
+    "lightfastness": "4",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 111,
+      "G": 89,
+      "B": 42
+    },
+    "cmyk": {
+      "C": 43,
+      "M": 49,
+      "Y": 85,
+      "K": 43
+    },
+    "hex": "#6f592a"
+  },
+  {
+    "title": "Montana BLACK Colors 400ml ",
+    "colorTitle": "BLK 2060 Juice",
+    "altParsing": "",
+    "ordernumber": "321337",
+    "ean": "4048500321337",
+    "pid": "fa08e4dbc2e9421daadd04c23504f6b5",
+    "pigments": "PY83 PW6 PO67",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 244,
+      "G": 159,
+      "B": 36
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 44,
+      "Y": 90,
+      "K": 0
+    },
+    "hex": "#f49f24"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 2070 Clockwork Orange",
+    "altParsing": "",
+    "ordernumber": "263668",
+    "ean": "4048500263668",
+    "pid": "f77530bd2ce24f1e9e351c5973e84290",
+    "pigments": "PY151 PO67 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 239,
+      "G": 128,
+      "B": 13
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 58,
+      "Y": 97,
+      "K": 0
+    },
+    "hex": "#ef800d"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 2075 Pure Orange",
+    "altParsing": "",
+    "ordernumber": "263682",
+    "ean": "4048500263682",
+    "pid": "2f0ca0805cd64193b28d4bc1bf7d506c",
+    "pigments": "PY151 PO36 PO67",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 234,
+      "G": 100,
+      "B": 12
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 71,
+      "Y": 99,
+      "K": 0
+    },
+    "hex": "#ea640c"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 2085 Halloween",
+    "altParsing": "",
+    "ordernumber": "263699",
+    "ean": "4048500263699",
+    "pid": "8fb5c7de60414b4c8dba4721cea7fbb7",
+    "pigments": "PY151 PR170 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 232,
+      "G": 80,
+      "B": 17
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 79,
+      "Y": 98,
+      "K": 1
+    },
+    "hex": "#e85011"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 2093 Code Red",
+    "altParsing": "",
+    "ordernumber": "263705",
+    "ean": "4048500263705",
+    "pid": "e78593d221324a6d9c3b75aa5623383d",
+    "pigments": "PR170 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 227,
+      "G": 0,
+      "B": 27
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 100,
+      "Y": 94,
+      "K": 0
+    },
+    "hex": "#e3001b"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 2110 Tomorrow",
+    "altParsing": "",
+    "ordernumber": "321344",
+    "ean": "4048500321344",
+    "pid": "2260e4b75570487490cfa151e1f4491c",
+    "pigments": "PW6 PY83 PO67",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 240,
+      "G": 140,
+      "B": 72
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 54,
+      "Y": 75,
+      "K": 0
+    },
+    "hex": "#f08c48"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 2120 Atom´s Megablast",
+    "altParsing": "",
+    "ordernumber": "289965",
+    "ean": "4048500289965",
+    "pid": "80d8065c45c8436aaf3da73378d0939c",
+    "pigments": "PY83 PW6 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 235,
+      "G": 106,
+      "B": 39
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 69,
+      "Y": 90,
+      "K": 0
+    },
+    "hex": "#eb6a27"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3020 Fire Rose",
+    "altParsing": "",
+    "ordernumber": "263712",
+    "ean": "4048500263712",
+    "pid": "898504cdccd54fbd9758e3730893e5cf",
+    "pigments": "PR170 PV19 PO36",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 196,
+      "G": 9,
+      "B": 28
+    },
+    "cmyk": {
+      "C": 15,
+      "M": 100,
+      "Y": 95,
+      "K": 6
+    },
+    "hex": "#c4091c"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3062 Cardinal",
+    "altParsing": "",
+    "ordernumber": "263729",
+    "ean": "4048500263729",
+    "pid": "3630b5c5bccf40e0b2e5af7675b3e17a",
+    "pigments": "PV19 PR170 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 109,
+      "G": 8,
+      "B": 39
+    },
+    "cmyk": {
+      "C": 33,
+      "M": 100,
+      "Y": 61,
+      "K": 51
+    },
+    "hex": "#6d0827"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3065 Merlot",
+    "altParsing": "",
+    "ordernumber": "351945",
+    "ean": "4048500351945",
+    "pid": "e1773a72e9e24cc69ee31e8d9466be60",
+    "pigments": "PR122 PO67 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 63,
+      "G": 34,
+      "B": 36
+    },
+    "cmyk": {
+      "C": 49,
+      "M": 74,
+      "Y": 56,
+      "K": 74
+    },
+    "hex": "#3f2224"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3070 Cherry",
+    "altParsing": "",
+    "ordernumber": "263736",
+    "ean": "4048500263736",
+    "pid": "fb164abeb915412194d89c2a4f8ad49f",
+    "pigments": "PR122 PR170 PB15:6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 51,
+      "G": 16,
+      "B": 40
+    },
+    "cmyk": {
+      "C": 70,
+      "M": 95,
+      "Y": 44,
+      "K": 69
+    },
+    "hex": "#331028"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3080 Winegum",
+    "altParsing": "",
+    "ordernumber": "263743",
+    "ean": "4048500263743",
+    "pid": "0fa626aab028487aa284358d467637ab",
+    "pigments": "PV19 PY42 PBk7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 81,
+      "G": 0,
+      "B": 41
+    },
+    "cmyk": {
+      "C": 43,
+      "M": 100,
+      "Y": 39,
+      "K": 66
+    },
+    "hex": "#510029"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3100 Miss Piggy",
+    "altParsing": "",
+    "ordernumber": "263781",
+    "ean": "4048500263781",
+    "pid": "0318aa974bb241c385222a7686945821",
+    "pigments": "PW6 PR122 PR170",
+    "lightfastness": "2",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 245,
+      "G": 184,
+      "B": 197
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 37,
+      "Y": 12,
+      "K": 0
+    },
+    "hex": "#f5b8c5"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3120 Pink Cadillac",
+    "altParsing": "",
+    "ordernumber": "263798",
+    "ean": "4048500263798",
+    "pid": "8f114fc8633e491a81e0f13b30263eba",
+    "pigments": "PW6 PR122 PR170",
+    "lightfastness": "2",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 239,
+      "G": 142,
+      "B": 176
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 57,
+      "Y": 9,
+      "K": 0
+    },
+    "hex": "#ef8eb0"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3130 Pink Panther",
+    "altParsing": "",
+    "ordernumber": "263804",
+    "ean": "4048500263804",
+    "pid": "2264dc19610d43fdb5e357141dc4bb90",
+    "pigments": "PW6 PR122 PR170",
+    "lightfastness": "2",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 231,
+      "G": 71,
+      "B": 138
+    },
+    "cmyk": {
+      "C": 2,
+      "M": 84,
+      "Y": 9,
+      "K": 0
+    },
+    "hex": "#e7478a"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3145 Punk Pink",
+    "altParsing": "",
+    "ordernumber": "263828",
+    "ean": "4048500263828",
+    "pid": "268fd10d70f24da8b93d8916181b251b",
+    "pigments": "PW6 PR122 PR170",
+    "lightfastness": "2",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 193,
+      "G": 0,
+      "B": 94
+    },
+    "cmyk": {
+      "C": 17,
+      "M": 100,
+      "Y": 31,
+      "K": 7
+    },
+    "hex": "#c1005e"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3148 Beast",
+    "altParsing": "",
+    "ordernumber": "386404",
+    "ean": "4048500386404",
+    "pid": "dd3f343f662b4f7f9779d942b67a27b8",
+    "pigments": "Fluo",
+    "lightfastness": "1",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 233,
+      "G": 65,
+      "B": 144
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 85,
+      "Y": 1,
+      "K": 0
+    },
+    "hex": "#e94190"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3150 Freak",
+    "altParsing": "",
+    "ordernumber": "351952",
+    "ean": "4048500351952",
+    "pid": "10dbf46d2158404b84d4831bcd69fccd",
+    "pigments": "Fluo",
+    "lightfastness": "1",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 170,
+      "G": 0,
+      "B": 115
+    },
+    "cmyk": {
+      "C": 36,
+      "M": 100,
+      "Y": 11,
+      "K": 3
+    },
+    "hex": "#aa0073"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3155 Purple Rain",
+    "altParsing": "",
+    "ordernumber": "263835",
+    "ean": "4048500263835",
+    "pid": "b8186c9862b242fd92353821048a3a84",
+    "pigments": "PR122 PW6 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 152,
+      "G": 21,
+      "B": 105
+    },
+    "cmyk": {
+      "C": 42,
+      "M": 100,
+      "Y": 19,
+      "K": 9
+    },
+    "hex": "#981569"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3160 Good Times",
+    "altParsing": "",
+    "ordernumber": "351969",
+    "ean": "4048500351969",
+    "pid": "40b4b696899643c3b889cbbac5d57e60",
+    "pigments": "PR122 PW6 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 173,
+      "G": 15,
+      "B": 108
+    },
+    "cmyk": {
+      "C": 31,
+      "M": 100,
+      "Y": 17,
+      "K": 7
+    },
+    "hex": "#ad0f6c"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3170 Imperator",
+    "altParsing": "",
+    "ordernumber": "351976",
+    "ean": "4048500351976",
+    "pid": "c4b696ca1b074177b411884a31e5e999",
+    "pigments": "PR122 PY184 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 126,
+      "G": 21,
+      "B": 78
+    },
+    "cmyk": {
+      "C": 41,
+      "M": 100,
+      "Y": 30,
+      "K": 33
+    },
+    "hex": "#7e154e"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3200 Cocktail",
+    "altParsing": "",
+    "ordernumber": "263637",
+    "ean": "4048500263637",
+    "pid": "4fbb3fb57c2042ec9eae8e595bfd1087",
+    "pigments": "PW6 PO67 PY184",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 247,
+      "G": 192,
+      "B": 183
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 32,
+      "Y": 24,
+      "K": 0
+    },
+    "hex": "#f7c0b7"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3220 Mr. Crab",
+    "altParsing": "",
+    "ordernumber": "263644",
+    "ean": "4048500263644",
+    "pid": "a20d1bd5e48b48039b01128c679138bb",
+    "pigments": "PW6 PO67 PY151",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 242,
+      "G": 154,
+      "B": 132
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 50,
+      "Y": 44,
+      "K": 0
+    },
+    "hex": "#f29a84"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3240 Sushi",
+    "altParsing": "",
+    "ordernumber": "263651",
+    "ean": "4048500263651",
+    "pid": "cd287ec6b0044bc9b79d8e38894ce47e",
+    "pigments": "PW6 PO67 PY151",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 238,
+      "G": 131,
+      "B": 99
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 59,
+      "Y": 60,
+      "K": 0
+    },
+    "hex": "#ee8363"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3305 Patpong",
+    "altParsing": "",
+    "ordernumber": "386411",
+    "ean": "4048500386411",
+    "pid": "d30d1e89e83048f68c4ce93336bbb32e",
+    "pigments": "PW6 PR170 PY42",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 243,
+      "G": 167,
+      "B": 177
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 45,
+      "Y": 19,
+      "K": 0
+    },
+    "hex": "#f3a7b1"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3310 Pink Lemonade",
+    "altParsing": "",
+    "ordernumber": "263774",
+    "ean": "4048500263774",
+    "pid": "a33b12276d4841e29fb6a5f4c19431f7",
+    "pigments": "PW6 PR170 PO67",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 235,
+      "G": 114,
+      "B": 123
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 67,
+      "Y": 39,
+      "K": 0
+    },
+    "hex": "#eb727b"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3320 Lollipop",
+    "altParsing": "",
+    "ordernumber": "263767",
+    "ean": "4048500263767",
+    "pid": "a1f2f203726d47f2922c4aab6826b11e",
+    "pigments": "PW6 PR170 PR122",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 231,
+      "G": 73,
+      "B": 99
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 83,
+      "Y": 46,
+      "K": 0
+    },
+    "hex": "#e74963"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3330 Bloody Mary",
+    "altParsing": "",
+    "ordernumber": "263750",
+    "ean": "4048500263750",
+    "pid": "c2ab4562426044af984ca5f60b767eab",
+    "pigments": "PR170 PR122 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 186,
+      "G": 15,
+      "B": 62
+    },
+    "cmyk": {
+      "C": 19,
+      "M": 100,
+      "Y": 63,
+      "K": 10
+    },
+    "hex": "#ba0f3e"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3920 Illusion",
+    "altParsing": "",
+    "ordernumber": "351983",
+    "ean": "4048500351983",
+    "pid": "c40969c45a524bc0b56e85c01f1ff1da",
+    "pigments": "Fluo",
+    "lightfastness": "1",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 168,
+      "G": 67,
+      "B": 143
+    },
+    "cmyk": {
+      "C": 39,
+      "M": 84,
+      "Y": 3,
+      "K": 0
+    },
+    "hex": "#a8438f"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3940 Magic",
+    "altParsing": "",
+    "ordernumber": "351990",
+    "ean": "4048500351990",
+    "pid": "eb36804dc7074b7d91cad278efd0743e",
+    "pigments": "Fluo",
+    "lightfastness": "1",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 157,
+      "G": 25,
+      "B": 126
+    },
+    "cmyk": {
+      "C": 45,
+      "M": 99,
+      "Y": 4,
+      "K": 1
+    },
+    "hex": "#9d197e"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 3995 Bubble Bath",
+    "altParsing": "",
+    "ordernumber": "352003",
+    "ean": "4048500352003",
+    "pid": "6f4801eab525427f8779f45acba2acee",
+    "pigments": "PW6 PR122 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 197,
+      "G": 159,
+      "B": 198
+    },
+    "cmyk": {
+      "C": 26,
+      "M": 43,
+      "Y": 4,
+      "K": 0
+    },
+    "hex": "#c59fc6"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4000 Ms. Jackson",
+    "altParsing": "",
+    "ordernumber": "263842",
+    "ean": "4048500263842",
+    "pid": "ce6696dd4325491a81254cb265178a44",
+    "pigments": "PW6 PR122 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 182,
+      "G": 143,
+      "B": 188
+    },
+    "cmyk": {
+      "C": 33,
+      "M": 50,
+      "Y": 4,
+      "K": 0
+    },
+    "hex": "#b68fbc"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4020 Monster",
+    "altParsing": "",
+    "ordernumber": "263859",
+    "ean": "4048500263859",
+    "pid": "7f4d1309f76b4ace9cd9adad43ad843f",
+    "pigments": "PW6 PR122 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 140,
+      "G": 74,
+      "B": 145
+    },
+    "cmyk": {
+      "C": 54,
+      "M": 80,
+      "Y": 6,
+      "K": 0
+    },
+    "hex": "#8c4a91"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4040 Pimp Violet",
+    "altParsing": "",
+    "ordernumber": "263866",
+    "ean": "4048500263866",
+    "pid": "01a15b869a9b499493bcfa6e4cc9c9a4",
+    "pigments": "PR122 PW6 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 109,
+      "G": 44,
+      "B": 126
+    },
+    "cmyk": {
+      "C": 70,
+      "M": 96,
+      "Y": 9,
+      "K": 2
+    },
+    "hex": "#6d2c7e"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4060 Galaxy",
+    "altParsing": "",
+    "ordernumber": "263873",
+    "ean": "4048500263873",
+    "pid": "7694ffb3e3ea496a9aee7bed79cc7562",
+    "pigments": "PR122 PW6 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 81,
+      "G": 27,
+      "B": 87
+    },
+    "cmyk": {
+      "C": 77,
+      "M": 100,
+      "Y": 30,
+      "K": 25
+    },
+    "hex": "#511b57"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4115 Lavender",
+    "altParsing": "",
+    "ordernumber": "263927",
+    "ean": "4048500263927",
+    "pid": "79261e6a27614369a794021c5adb4a30",
+    "pigments": "PW6 PV122 PY184",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 177,
+      "G": 160,
+      "B": 202
+    },
+    "cmyk": {
+      "C": 36,
+      "M": 40,
+      "Y": 3,
+      "K": 0
+    },
+    "hex": "#b1a0ca"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4130 Blue Velvet",
+    "altParsing": "",
+    "ordernumber": "263910",
+    "ean": "4048500263910",
+    "pid": "9d968cec13694d7ab8198c2ffaa699a9",
+    "pigments": "PW6 PV23 PR122",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 169,
+      "G": 141,
+      "B": 189
+    },
+    "cmyk": {
+      "C": 39,
+      "M": 48,
+      "Y": 3,
+      "K": 0
+    },
+    "hex": "#a98dbd"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4155 Royal Purple",
+    "altParsing": "",
+    "ordernumber": "263903",
+    "ean": "4048500263903",
+    "pid": "654b86af5ed3451eb9791ccada030020",
+    "pigments": "PW6 PV19 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 98,
+      "G": 87,
+      "B": 155
+    },
+    "cmyk": {
+      "C": 72,
+      "M": 70,
+      "Y": 6,
+      "K": 0
+    },
+    "hex": "#62579b"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4160 Wizard",
+    "altParsing": "",
+    "ordernumber": "263897",
+    "ean": "4048500263897",
+    "pid": "8617d034081e462b91da23d82f7ce7d1",
+    "pigments": "PW6 PV23 PR122",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 85,
+      "G": 65,
+      "B": 137
+    },
+    "cmyk": {
+      "C": 81,
+      "M": 83,
+      "Y": 10,
+      "K": 1
+    },
+    "hex": "#554189"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4182 Universe",
+    "altParsing": "",
+    "ordernumber": "263880",
+    "ean": "4048500263880",
+    "pid": "6cc2e8504d7c438d9c055a301b683723",
+    "pigments": "PV23 PW6 PR101",
+    "lightfastness": "4",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 12,
+      "G": 9,
+      "B": 64
+    },
+    "cmyk": {
+      "C": 100,
+      "M": 96,
+      "Y": 42,
+      "K": 52
+    },
+    "hex": "#0c0940"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4210 Gut",
+    "altParsing": "",
+    "ordernumber": "264214",
+    "ean": "4048500264214",
+    "pid": "2687a2f52fe24f5f93ea584471452403",
+    "pigments": "PW6 PR170 PBk7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 170,
+      "G": 149,
+      "B": 156
+    },
+    "cmyk": {
+      "C": 34,
+      "M": 39,
+      "Y": 28,
+      "K": 9
+    },
+    "hex": "#aa959c"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4230 Kidney",
+    "altParsing": "",
+    "ordernumber": "264221",
+    "ean": "4048500264221",
+    "pid": "cdcf74743dbc4024a1e02b22d3d05058",
+    "pigments": "PW6 PY42 PV23",
+    "lightfastness": "4",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 131,
+      "G": 105,
+      "B": 118
+    },
+    "cmyk": {
+      "C": 47,
+      "M": 55,
+      "Y": 35,
+      "K": 22
+    },
+    "hex": "#836976"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4250 Liver",
+    "altParsing": "",
+    "ordernumber": "264245",
+    "ean": "4048500264245",
+    "pid": "c4a90a80029b4345a439fd6db8e46860",
+    "pigments": "PY42 PV23 PW6",
+    "lightfastness": "4",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 102,
+      "G": 75,
+      "B": 92
+    },
+    "cmyk": {
+      "C": 57,
+      "M": 66,
+      "Y": 41,
+      "K": 34
+    },
+    "hex": "#664b5c"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4260 Dummy",
+    "altParsing": "",
+    "ordernumber": "352010",
+    "ean": "4048500352010",
+    "pid": "8e3043fc5b554d339472bfcb27b42366",
+    "pigments": "PW6 PO67 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 219,
+      "G": 180,
+      "B": 198
+    },
+    "cmyk": {
+      "C": 15,
+      "M": 35,
+      "Y": 12,
+      "K": 0
+    },
+    "hex": "#dbb4c6"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4280 Plum",
+    "altParsing": "",
+    "ordernumber": "352034",
+    "ean": "4048500352034",
+    "pid": "da112298cbb84c2494734a54abe5ac69",
+    "pigments": "PW6 PO67 PR122",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 152,
+      "G": 109,
+      "B": 129
+    },
+    "cmyk": {
+      "C": 40,
+      "M": 59,
+      "Y": 31,
+      "K": 14
+    },
+    "hex": "#986d81"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4290 Amethyst",
+    "altParsing": "",
+    "ordernumber": "352041",
+    "ean": "4048500352041",
+    "pid": "333d85b0d312433294794e40f9ec0c96",
+    "pigments": "PR170 PW6 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 91,
+      "G": 44,
+      "B": 64
+    },
+    "cmyk": {
+      "C": 51,
+      "M": 82,
+      "Y": 42,
+      "K": 52
+    },
+    "hex": "#5b2c40"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4310 Edelgard",
+    "altParsing": "",
+    "ordernumber": "321351",
+    "ean": "4048500321351",
+    "pid": "38c5b6153e3f462f8c3c88a9ff0d210e",
+    "pigments": "PW6 PV23 PY184",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 205,
+      "G": 210,
+      "B": 219
+    },
+    "cmyk": {
+      "C": 23,
+      "M": 15,
+      "Y": 11,
+      "K": 0
+    },
+    "hex": "#cdd2db"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4320 Brunhilde",
+    "altParsing": "",
+    "ordernumber": "321368",
+    "ean": "4048500321368",
+    "pid": "65306fb629d447d092fc8d8d41d3380d",
+    "pigments": "PW6 PR121 PB15:4",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 162,
+      "G": 176,
+      "B": 206
+    },
+    "cmyk": {
+      "C": 41,
+      "M": 27,
+      "Y": 9,
+      "K": 1
+    },
+    "hex": "#a2b0ce"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4330 Waltraut",
+    "altParsing": "",
+    "ordernumber": "321375",
+    "ean": "4048500321375",
+    "pid": "5d60ffaa011b48ffb593cd0351ed4bc8",
+    "pigments": "PW6 PV23 PO67",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 111,
+      "G": 137,
+      "B": 188
+    },
+    "cmyk": {
+      "C": 63,
+      "M": 42,
+      "Y": 7,
+      "K": 0
+    },
+    "hex": "#6f89bc"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 4340 Irmgard",
+    "altParsing": "",
+    "ordernumber": "321399",
+    "ean": "4048500321399",
+    "pid": "c6e42eb7037b4b3781cc8e80e1313fc2",
+    "pigments": "PW6 PV23 PY151",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 77,
+      "G": 89,
+      "B": 154
+    },
+    "cmyk": {
+      "C": 80,
+      "M": 67,
+      "Y": 9,
+      "K": 1
+    },
+    "hex": "#4d599a"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5020 Baby Blue",
+    "altParsing": "",
+    "ordernumber": "263972",
+    "ean": "4048500263972",
+    "pid": "9b5dfa0792ef4db099818994b20b7354",
+    "pigments": "PW6 PB15:6 PB15:4",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 107,
+      "G": 200,
+      "B": 231
+    },
+    "cmyk": {
+      "C": 57,
+      "M": 0,
+      "Y": 8,
+      "K": 0
+    },
+    "hex": "#6bc8e7"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5030 Light Blue",
+    "altParsing": "",
+    "ordernumber": "263965",
+    "ean": "4048500263965",
+    "pid": "3a86d74e932c4f62a574d31b9b2ff37f",
+    "pigments": "PW6 PB15:4 PV19",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 162,
+      "B": 211
+    },
+    "cmyk": {
+      "C": 76,
+      "M": 17,
+      "Y": 7,
+      "K": 0
+    },
+    "hex": "#00a2d3"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5070 Horizon",
+    "altParsing": "",
+    "ordernumber": "263958",
+    "ean": "4048500263958",
+    "pid": "8a554f59a1474586a48b03c60d2b6292",
+    "pigments": "PW6 PB15:6 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 112,
+      "B": 184
+    },
+    "cmyk": {
+      "C": 87,
+      "M": 50,
+      "Y": 0,
+      "K": 0
+    },
+    "hex": "#0070b8"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5077 Royal Blue",
+    "altParsing": "",
+    "ordernumber": "263941",
+    "ean": "4048500263941",
+    "pid": "4f9662ed3b004c84a4372049caa75bf0",
+    "pigments": "PB15:4 PW6 PB15:6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 5,
+      "G": 75,
+      "B": 144
+    },
+    "cmyk": {
+      "C": 99,
+      "M": 73,
+      "Y": 11,
+      "K": 1
+    },
+    "hex": "#054b90"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5080 Ultramarine",
+    "altParsing": "",
+    "ordernumber": "264023",
+    "ean": "4048500264023",
+    "pid": "776ef38661b24a43ad08a034f7749d86",
+    "pigments": "PB15:4 PV23 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 50,
+      "B": 109
+    },
+    "cmyk": {
+      "C": 100,
+      "M": 84,
+      "Y": 33,
+      "K": 16
+    },
+    "hex": "#00326d"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5092 Dark Indigo",
+    "altParsing": "",
+    "ordernumber": "263934",
+    "ean": "4048500263934",
+    "pid": "3dd46efeebfb483e841efc67c1ffedb0",
+    "pigments": "PB15:4 PG7 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 23,
+      "B": 58
+    },
+    "cmyk": {
+      "C": 100,
+      "M": 89,
+      "Y": 46,
+      "K": 58
+    },
+    "hex": "#00173a"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5125 Dove",
+    "altParsing": "",
+    "ordernumber": "264283",
+    "ean": "4048500264283",
+    "pid": "c98f0641d31d42d0aa54f720f9956bb9",
+    "pigments": "PW6 PY42 PB15:6",
+    "lightfastness": "4",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 174,
+      "G": 194,
+      "B": 192
+    },
+    "cmyk": {
+      "C": 37,
+      "M": 16,
+      "Y": 25,
+      "K": 1
+    },
+    "hex": "#aec2c0"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5140 Seal",
+    "altParsing": "",
+    "ordernumber": "264290",
+    "ean": "4048500264290",
+    "pid": "4d2a9996b20e467ca3351e3831f6cefa",
+    "pigments": "PW6 PBk7 PB15:6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 82,
+      "G": 103,
+      "B": 108
+    },
+    "cmyk": {
+      "C": 67,
+      "M": 43,
+      "Y": 43,
+      "K": 29
+    },
+    "hex": "#52676c"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5160 Space",
+    "altParsing": "",
+    "ordernumber": "264306",
+    "ean": "4048500264306",
+    "pid": "bbba94990c964edbb1ca669dd79340f4",
+    "pigments": "PB15:4 PG7 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 54,
+      "G": 73,
+      "B": 88
+    },
+    "cmyk": {
+      "C": 80,
+      "M": 58,
+      "Y": 44,
+      "K": 39
+    },
+    "hex": "#364958"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5180 Trout",
+    "altParsing": "",
+    "ordernumber": "386428",
+    "ean": "4048500386428",
+    "pid": "d22ad011ed5d4e72966f27d26f98fe73",
+    "pigments": "PW6 PB15:4 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 152,
+      "G": 176,
+      "B": 198
+    },
+    "cmyk": {
+      "C": 45,
+      "M": 23,
+      "Y": 15,
+      "K": 1
+    },
+    "hex": "#98b0c6"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5185 Marlin",
+    "altParsing": "",
+    "ordernumber": "386435",
+    "ean": "4048500386435",
+    "pid": "1132261a5b6f4adc9aea3ef7aeacef60",
+    "pigments": "PW6 PB15:6 PBk7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 87,
+      "G": 116,
+      "B": 146
+    },
+    "cmyk": {
+      "C": 70,
+      "M": 46,
+      "Y": 27,
+      "K": 10
+    },
+    "hex": "#577492"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5190 Whale",
+    "altParsing": "",
+    "ordernumber": "386442",
+    "ean": "4048500386442",
+    "pid": "33ffe5755f8f4629a5f39df9ea8c5478",
+    "pigments": "PW6 PB15:6 PO36",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 38,
+      "G": 75,
+      "B": 104
+    },
+    "cmyk": {
+      "C": 90,
+      "M": 63,
+      "Y": 37,
+      "K": 26
+    },
+    "hex": "#264b68"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5200 Ice Blue",
+    "altParsing": "",
+    "ordernumber": "263989",
+    "ean": "4048500263989",
+    "pid": "1160afb6a3f9422ebc3370abc170f6ee",
+    "pigments": "PW6 PB15:6 PV19",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 201,
+      "G": 224,
+      "B": 242
+    },
+    "cmyk": {
+      "C": 25,
+      "M": 5,
+      "Y": 2,
+      "K": 0
+    },
+    "hex": "#c9e0f2"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5210 Lenor",
+    "altParsing": "",
+    "ordernumber": "263996",
+    "ean": "4048500263996",
+    "pid": "8d19c725b63341a99e9fe3e7b21b7506",
+    "pigments": "PW6 PB15:6 PV19",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 151,
+      "G": 196,
+      "B": 225
+    },
+    "cmyk": {
+      "C": 45,
+      "M": 12,
+      "Y": 7,
+      "K": 0
+    },
+    "hex": "#97c4e1"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5230 Blue Lagoon",
+    "altParsing": "",
+    "ordernumber": "264009",
+    "ean": "4048500264009",
+    "pid": "2a79e74b61ed4ff4ade19154cd797136",
+    "pigments": "PW6 PB15:6 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 95,
+      "G": 151,
+      "B": 198
+    },
+    "cmyk": {
+      "C": 66,
+      "M": 32,
+      "Y": 8,
+      "K": 1
+    },
+    "hex": "#5f97c6"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5250 Knock Out Blue",
+    "altParsing": "",
+    "ordernumber": "264016",
+    "ean": "4048500264016",
+    "pid": "bbf255e6e53b49759e0b1ff8cc06aded",
+    "pigments": "PW6 PB15:6 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 87,
+      "B": 158
+    },
+    "cmyk": {
+      "C": 95,
+      "M": 65,
+      "Y": 6,
+      "K": 0
+    },
+    "hex": "#00579e"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 5270 Sorrento Blue",
+    "altParsing": "",
+    "ordernumber": "352058",
+    "ean": "4048500352058",
+    "pid": "c6212409aa844aa288b33eecd62afecc",
+    "pigments": "PB15:6 PW6 PB15:4",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 36,
+      "G": 50,
+      "B": 125
+    },
+    "cmyk": {
+      "C": 100,
+      "M": 90,
+      "Y": 20,
+      "K": 4
+    },
+    "hex": "#24327d"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6000 Pistachio",
+    "altParsing": "",
+    "ordernumber": "263552",
+    "ean": "4048500263552",
+    "pid": "5570270b5c6943658465ff1974f2c307",
+    "pigments": "PW6 PY151 PY184",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 227,
+      "G": 222,
+      "B": 42
+    },
+    "cmyk": {
+      "C": 17,
+      "M": 1,
+      "Y": 88,
+      "K": 0
+    },
+    "hex": "#e3de2a"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6005 Acid",
+    "altParsing": "",
+    "ordernumber": "263569",
+    "ean": "4048500263569",
+    "pid": "ee29ccbcedca46009bb8149e2a83a4d1",
+    "pigments": "PY151 PW6 PY83",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 201,
+      "G": 210,
+      "B": 21
+    },
+    "cmyk": {
+      "C": 29,
+      "M": 2,
+      "Y": 96,
+      "K": 0
+    },
+    "hex": "#c9d215"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6010 Slimer",
+    "altParsing": "",
+    "ordernumber": "263576",
+    "ean": "4048500263576",
+    "pid": "6c85b36c5e5a4d2cbe2b021d63da5daa",
+    "pigments": "PY151 PW6 PB15:4",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 169,
+      "G": 199,
+      "B": 7
+    },
+    "cmyk": {
+      "C": 43,
+      "M": 1,
+      "Y": 100,
+      "K": 0
+    },
+    "hex": "#a9c707"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6012 Oasis ",
+    "altParsing": "",
+    "ordernumber": "321405",
+    "ean": "4048500321405",
+    "pid": "a9b31757c15c4353b3e7aed8408eeff5",
+    "pigments": "PY151 PW6 PR122",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 161,
+      "G": 163,
+      "B": 36
+    },
+    "cmyk": {
+      "C": 42,
+      "M": 22,
+      "Y": 97,
+      "K": 6
+    },
+    "hex": "#a1a324"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6013 Spring",
+    "altParsing": "",
+    "ordernumber": "321412",
+    "ean": "4048500321412",
+    "pid": "c1a02cbaf4924ef69fd7d880c0fd06ff",
+    "pigments": "PW6 PY184 PY42",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 203,
+      "G": 213,
+      "B": 108
+    },
+    "cmyk": {
+      "C": 28,
+      "M": 4,
+      "Y": 69,
+      "K": 0
+    },
+    "hex": "#cbd56c"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6015 Wild Lime",
+    "altParsing": "",
+    "ordernumber": "263583",
+    "ean": "4048500263583",
+    "pid": "c35abe7cd8134b429fb7a01d63f4c098",
+    "pigments": "PY184 PW6 PY83",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 181,
+      "G": 204,
+      "B": 34
+    },
+    "cmyk": {
+      "C": 38,
+      "M": 1,
+      "Y": 95,
+      "K": 0
+    },
+    "hex": "#b5cc22"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6045 Irish Green",
+    "altParsing": "",
+    "ordernumber": "263590",
+    "ean": "4048500263590",
+    "pid": "a1d24c6d269c4c6bb66a245ece1cdbb2",
+    "pigments": "PY151 PW6 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 81,
+      "G": 171,
+      "B": 39
+    },
+    "cmyk": {
+      "C": 70,
+      "M": 2,
+      "Y": 100,
+      "K": 0
+    },
+    "hex": "#51ab27"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6055 Boston",
+    "altParsing": "",
+    "ordernumber": "263606",
+    "ean": "4048500263606",
+    "pid": "9b6ff8a1c4df40eba672c69ccec91cb6",
+    "pigments": "PY151 PG7 PY42",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 129,
+      "B": 50
+    },
+    "cmyk": {
+      "C": 87,
+      "M": 23,
+      "Y": 100,
+      "K": 9
+    },
+    "hex": "#008132"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6060 Celtic",
+    "altParsing": "",
+    "ordernumber": "263613",
+    "ean": "4048500263613",
+    "pid": "bffaf7373a3545119509ff1331194e6a",
+    "pigments": "PG7 PY151 PY83",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 2,
+      "G": 90,
+      "B": 39
+    },
+    "cmyk": {
+      "C": 91,
+      "M": 37,
+      "Y": 100,
+      "K": 35
+    },
+    "hex": "#025a27"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6065 Banknote",
+    "altParsing": "",
+    "ordernumber": "386459",
+    "ean": "4048500386459",
+    "pid": "4c74571e5f4942b9b62ee509b1a0a7dc",
+    "pigments": "PG7 PO36 PY151",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 54,
+      "B": 19
+    },
+    "cmyk": {
+      "C": 91,
+      "M": 51,
+      "Y": 93,
+      "K": 64
+    },
+    "hex": "#003613"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6070 TAG Green",
+    "altParsing": "",
+    "ordernumber": "263620",
+    "ean": "4048500263620",
+    "pid": "0d2695b2a1834566a0d7f6df7aab3f7a",
+    "pigments": "PB15:4 PY151 PR101",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 60,
+      "B": 26
+    },
+    "cmyk": {
+      "C": 92,
+      "M": 48,
+      "Y": 95,
+      "K": 59
+    },
+    "hex": "#003c1a"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6075 Hippie",
+    "altParsing": "",
+    "ordernumber": "352065",
+    "ean": "4048500352065",
+    "pid": "36ce87b364e64faa916c4d1bc5ceaf39",
+    "pigments": "PW6 PY184 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 40,
+      "G": 200,
+      "B": 66
+    },
+    "cmyk": {
+      "C": 70,
+      "M": 0,
+      "Y": 91,
+      "K": 0
+    },
+    "hex": "#28c842"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6080 Mescaline",
+    "altParsing": "",
+    "ordernumber": "352072",
+    "ean": "4048500352072",
+    "pid": "cbf76e456b1c404b8eb411d956f09491",
+    "pigments": "PY184 PW6 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 41,
+      "G": 180,
+      "B": 25
+    },
+    "cmyk": {
+      "C": 74,
+      "M": 0,
+      "Y": 100,
+      "K": 0
+    },
+    "hex": "#29b419"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6090 Woodstock",
+    "altParsing": "",
+    "ordernumber": "352089",
+    "ean": "4048500352089",
+    "pid": "e36604bd9538449cab14a9016c986fe2",
+    "pigments": "PY184 PG7 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 37,
+      "G": 144,
+      "B": 12
+    },
+    "cmyk": {
+      "C": 81,
+      "M": 16,
+      "Y": 100,
+      "K": 4
+    },
+    "hex": "#25900c"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6095 Plant",
+    "altParsing": "",
+    "ordernumber": "386466",
+    "ean": "4048500386466",
+    "pid": "3c0c9b16fb9d4371b95e6d6742bbb1de",
+    "pigments": "PG7 PY184 PY151",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 117,
+      "B": 45
+    },
+    "cmyk": {
+      "C": 89,
+      "M": 28,
+      "Y": 100,
+      "K": 16
+    },
+    "hex": "#00752d"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6110 Tiffany",
+    "altParsing": "",
+    "ordernumber": "264078",
+    "ean": "4048500264078",
+    "pid": "33cbaebf3b8a437d9ac33e3b7ca7a9ba",
+    "pigments": "PW6 PG7 PB15:6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 145,
+      "G": 209,
+      "B": 218
+    },
+    "cmyk": {
+      "C": 46,
+      "M": 0,
+      "Y": 16,
+      "K": 0
+    },
+    "hex": "#91d1da"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6130 Cool Cologne",
+    "altParsing": "",
+    "ordernumber": "264061",
+    "ean": "4048500264061",
+    "pid": "8735e42529d144b58bc4fa63e7fa72b2",
+    "pigments": "PW6 PB15:4 PY184",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 74,
+      "G": 173,
+      "B": 196
+    },
+    "cmyk": {
+      "C": 67,
+      "M": 12,
+      "Y": 21,
+      "K": 1
+    },
+    "hex": "#4aadc4"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6150 Mermaid",
+    "altParsing": "",
+    "ordernumber": "264054",
+    "ean": "4048500264054",
+    "pid": "0f900b29d3d445e49c6011fa922ca53b",
+    "pigments": "PW6 PG7 PB15:4",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 134,
+      "B": 161
+    },
+    "cmyk": {
+      "C": 81,
+      "M": 28,
+      "Y": 27,
+      "K": 8
+    },
+    "hex": "#0086a1"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6170 Neptune",
+    "altParsing": "",
+    "ordernumber": "264030",
+    "ean": "4048500264030",
+    "pid": "e539d37d484f43c3a49d0c352755264b",
+    "pigments": "PB15:4 PG7 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 1,
+      "G": 60,
+      "B": 74
+    },
+    "cmyk": {
+      "C": 96,
+      "M": 59,
+      "Y": 48,
+      "K": 49
+    },
+    "hex": "#013c4a"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6175 Riffs",
+    "altParsing": "",
+    "ordernumber": "386473",
+    "ean": "4048500386473",
+    "pid": "5118c21849394487b01ec35acf5aa608",
+    "pigments": "PB15:6 PY184 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 42,
+      "B": 50
+    },
+    "cmyk": {
+      "C": 98,
+      "M": 64,
+      "Y": 55,
+      "K": 66
+    },
+    "hex": "#002a32"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6180 Drops",
+    "altParsing": "",
+    "ordernumber": "352096",
+    "ean": "4048500352096",
+    "pid": "a5db345677494ccdaec4142add53d3ce",
+    "pigments": "PW6 PG7 PB15:4",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 107,
+      "G": 219,
+      "B": 207
+    },
+    "cmyk": {
+      "C": 55,
+      "M": 0,
+      "Y": 28,
+      "K": 0
+    },
+    "hex": "#6bdbcf"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6190 Nappies",
+    "altParsing": "",
+    "ordernumber": "352102",
+    "ean": "4048500352102",
+    "pid": "3e4c2b16da7c4e1f8153f09766194dc1",
+    "pigments": "PW6 PG7 PB15:4",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 61,
+      "G": 198,
+      "B": 172
+    },
+    "cmyk": {
+      "C": 66,
+      "M": 0,
+      "Y": 43,
+      "K": 0
+    },
+    "hex": "#3dc6ac"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6195 Surgery",
+    "altParsing": "",
+    "ordernumber": "352119",
+    "ean": "4048500352119",
+    "pid": "972c8b63137343d7a5e838a33939bb21",
+    "pigments": "PW6 PG7 PB15:4",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 12,
+      "G": 142,
+      "B": 118
+    },
+    "cmyk": {
+      "C": 82,
+      "M": 20,
+      "Y": 61,
+      "K": 5
+    },
+    "hex": "#0c8e76"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6210 E2E Green",
+    "altParsing": "",
+    "ordernumber": "264085",
+    "ean": "4048500264085",
+    "pid": "018a2334e15546d79605e9bd3f3c819b",
+    "pigments": "PW6 PY184 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 154,
+      "G": 199,
+      "B": 118
+    },
+    "cmyk": {
+      "C": 47,
+      "M": 1,
+      "Y": 66,
+      "K": 0
+    },
+    "hex": "#9ac776"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6220 Revolt Green",
+    "altParsing": "",
+    "ordernumber": "264092",
+    "ean": "4048500264092",
+    "pid": "3efbb4c49b974d8cacb36f2c257828d2",
+    "pigments": "PW6 PY151 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 80,
+      "G": 174,
+      "B": 88
+    },
+    "cmyk": {
+      "C": 70,
+      "M": 2,
+      "Y": 81,
+      "K": 0
+    },
+    "hex": "#50ae58"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6240 Atlantis",
+    "altParsing": "",
+    "ordernumber": "264108",
+    "ean": "4048500264108",
+    "pid": "79e93ed25ca6437987a1727bed1a3753",
+    "pigments": "PW6 PG7 PO67",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 127,
+      "B": 100
+    },
+    "cmyk": {
+      "C": 85,
+      "M": 26,
+      "Y": 67,
+      "K": 11
+    },
+    "hex": "#007f64"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6310 Olymp",
+    "altParsing": "",
+    "ordernumber": "321443",
+    "ean": "4048500321443",
+    "pid": "a12d2677404c45ce96b613b30ea51477",
+    "pigments": "PW6 PO36 PB15:4",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 199,
+      "G": 219,
+      "B": 200
+    },
+    "cmyk": {
+      "C": 27,
+      "M": 5,
+      "Y": 26,
+      "K": 0
+    },
+    "hex": "#c7dbc8"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6320 Hope",
+    "altParsing": "",
+    "ordernumber": "321450",
+    "ean": "4048500321450",
+    "pid": "621b159c6c324806b78c54c25db152b6",
+    "pigments": "PW6 PY42 PB15:4",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 176,
+      "G": 215,
+      "B": 190
+    },
+    "cmyk": {
+      "C": 37,
+      "M": 1,
+      "Y": 32,
+      "K": 0
+    },
+    "hex": "#b0d7be"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6330 Patina",
+    "altParsing": "",
+    "ordernumber": "321467",
+    "ean": "4048500321467",
+    "pid": "7d9147fd22e940e9a9027b89af6448fa",
+    "pigments": "PW6 PG7 PY184",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 100,
+      "G": 182,
+      "B": 153
+    },
+    "cmyk": {
+      "C": 63,
+      "M": 5,
+      "Y": 49,
+      "K": 0
+    },
+    "hex": "#64b699"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6340 Copper Green",
+    "altParsing": "",
+    "ordernumber": "386480",
+    "ean": "4048500386480",
+    "pid": "79b3f3f9ba764f35a4521e2c5e46eb3c",
+    "pigments": "PW6 PY184 PB15:4",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 119,
+      "B": 100
+    },
+    "cmyk": {
+      "C": 86,
+      "M": 29,
+      "Y": 64,
+      "K": 16
+    },
+    "hex": "#007764"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6410 Trabi",
+    "altParsing": "",
+    "ordernumber": "321498",
+    "ean": "4048500321498",
+    "pid": "6664096590be46468b707418d17e49bd",
+    "pigments": "PW6 PY184 PBk7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 209,
+      "G": 213,
+      "B": 188
+    },
+    "cmyk": {
+      "C": 23,
+      "M": 11,
+      "Y": 30,
+      "K": 1
+    },
+    "hex": "#d1d5bc"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6420 Beetle",
+    "altParsing": "",
+    "ordernumber": "321504",
+    "ean": "4048500321504",
+    "pid": "bff8ecc24a664cf19b539b435a4a0c1c",
+    "pigments": "PW6 PY42 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 190,
+      "G": 198,
+      "B": 149
+    },
+    "cmyk": {
+      "C": 31,
+      "M": 13,
+      "Y": 49,
+      "K": 1
+    },
+    "hex": "#bec695"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6430 Reseda",
+    "altParsing": "",
+    "ordernumber": "321511",
+    "ean": "4048500321511",
+    "pid": "7328cc13618843f7b98312fccc9d9769",
+    "pigments": "PW6 PY151 PO36",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 163,
+      "G": 172,
+      "B": 124
+    },
+    "cmyk": {
+      "C": 41,
+      "M": 22,
+      "Y": 57,
+      "K": 5
+    },
+    "hex": "#a3ac7c"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6510 Fog",
+    "altParsing": "",
+    "ordernumber": "321535",
+    "ean": "4048500321535",
+    "pid": "9104bdc0d86747039f6b75d262c9c514",
+    "pigments": "PW6 PY42 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 165,
+      "G": 178,
+      "B": 156
+    },
+    "cmyk": {
+      "C": 40,
+      "M": 20,
+      "Y": 40,
+      "K": 4
+    },
+    "hex": "#a5b29c"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6520 Mist",
+    "altParsing": "",
+    "ordernumber": "321566",
+    "ean": "4048500321566",
+    "pid": "3f933ae7c2a24603a7c774833ec3a6b5",
+    "pigments": "PW6 PY42 PB15:6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 119,
+      "G": 139,
+      "B": 123
+    },
+    "cmyk": {
+      "C": 56,
+      "M": 31,
+      "Y": 50,
+      "K": 14
+    },
+    "hex": "#778b7b"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6530 Storm",
+    "altParsing": "",
+    "ordernumber": "321573",
+    "ean": "4048500321573",
+    "pid": "036a2f473c964aa5b623165bb4411e73",
+    "pigments": "PY42 PW6 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 76,
+      "G": 96,
+      "B": 67
+    },
+    "cmyk": {
+      "C": 68,
+      "M": 42,
+      "Y": 73,
+      "K": 36
+    },
+    "hex": "#4c6043"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6610 Bamboo",
+    "altParsing": "",
+    "ordernumber": "321580",
+    "ean": "4048500321580",
+    "pid": "9897092cc813457ea006f8bf36ac477f",
+    "pigments": "PW6 PY151 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 209,
+      "G": 199,
+      "B": 130
+    },
+    "cmyk": {
+      "C": 22,
+      "M": 16,
+      "Y": 57,
+      "K": 2
+    },
+    "hex": "#d1c782"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6620 Hemp",
+    "altParsing": "",
+    "ordernumber": "321597",
+    "ean": "4048500321597",
+    "pid": "3a6ebf19ea204c559832fe9630fa9663",
+    "pigments": "PW6 PY151 PY42",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 163,
+      "G": 144,
+      "B": 63
+    },
+    "cmyk": {
+      "C": 35,
+      "M": 33,
+      "Y": 82,
+      "K": 16
+    },
+    "hex": "#a3903f"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6625 Boa",
+    "altParsing": "",
+    "ordernumber": "386497",
+    "ean": "4048500386497",
+    "pid": "c1b609017e0849d18a1dfebd98df89b2",
+    "pigments": "PY42 PY151 PB15:6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 143,
+      "G": 133,
+      "B": 52
+    },
+    "cmyk": {
+      "C": 43,
+      "M": 34,
+      "Y": 89,
+      "K": 20
+    },
+    "hex": "#8f8534"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6630 Pan",
+    "altParsing": "",
+    "ordernumber": "321603",
+    "ean": "4048500321603",
+    "pid": "2baa63500c7243b49595da3b03c81adf",
+    "pigments": "PY151 PV19 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 122,
+      "G": 90,
+      "B": 57
+    },
+    "cmyk": {
+      "C": 42,
+      "M": 50,
+      "Y": 73,
+      "K": 43
+    },
+    "hex": "#705a39"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6710 Pear Green",
+    "altParsing": "",
+    "ordernumber": "263545",
+    "ean": "4048500263545",
+    "pid": "4fd50ce832de470da93e796a2ffc3b3f",
+    "pigments": "PY151 PW6 PB15:6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 186,
+      "G": 181,
+      "B": 38
+    },
+    "cmyk": {
+      "C": 33,
+      "M": 17,
+      "Y": 95,
+      "K": 3
+    },
+    "hex": "#bab526"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6720 Lost Island",
+    "altParsing": "",
+    "ordernumber": "263538",
+    "ean": "4048500263538",
+    "pid": "b7acafb68ef8493cb5f7e11fd8616cbc",
+    "pigments": "PY42 PY151 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 113,
+      "G": 132,
+      "B": 40
+    },
+    "cmyk": {
+      "C": 59,
+      "M": 30,
+      "Y": 100,
+      "K": 15
+    },
+    "hex": "#718428"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6725 Troops",
+    "altParsing": "",
+    "ordernumber": "386503",
+    "ean": "4048500386503",
+    "pid": "663037e2acf649c6aa7c6d43343ded84",
+    "pigments": "PY151 PO67 PB15:4",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 86,
+      "G": 91,
+      "B": 33
+    },
+    "cmyk": {
+      "C": 62,
+      "M": 44,
+      "Y": 99,
+      "K": 40
+    },
+    "hex": "#565b21"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6730 Toad",
+    "altParsing": "",
+    "ordernumber": "263521",
+    "ean": "4048500263521",
+    "pid": "5f031283b4bc4d539ddea40a8a37c579",
+    "pigments": "PY42 PBk7 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 40,
+      "G": 64,
+      "B": 28
+    },
+    "cmyk": {
+      "C": 80,
+      "M": 49,
+      "Y": 96,
+      "K": 58
+    },
+    "hex": "#28401c"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6905 Face",
+    "altParsing": "",
+    "ordernumber": "321627",
+    "ean": "4048500321627",
+    "pid": "3f682d2cb54a4c698030c051fe20d922",
+    "pigments": "PW6 PY42 PY151",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 214,
+      "G": 209,
+      "B": 175
+    },
+    "cmyk": {
+      "C": 20,
+      "M": 14,
+      "Y": 36,
+      "K": 1
+    },
+    "hex": "#d6d1af"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6910 Hannibal",
+    "altParsing": "",
+    "ordernumber": "264276",
+    "ean": "4048500264276",
+    "pid": "f442cad195ff4bc69931f67a814536ed",
+    "pigments": "PW6 PY42 PY83",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 162,
+      "G": 166,
+      "B": 130
+    },
+    "cmyk": {
+      "C": 40,
+      "M": 25,
+      "Y": 52,
+      "K": 7
+    },
+    "hex": "#a2a682"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6920 Murdock",
+    "altParsing": "",
+    "ordernumber": "264269",
+    "ean": "4048500264269",
+    "pid": "b258f627bfd446628f225860934ee85a",
+    "pigments": "PW6 PO36 PY42",
+    "lightfastness": "4",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 128,
+      "G": 132,
+      "B": 96
+    },
+    "cmyk": {
+      "C": 51,
+      "M": 34,
+      "Y": 63,
+      "K": 19
+    },
+    "hex": "#808460"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 6930 B.A Bosko",
+    "altParsing": "",
+    "ordernumber": "264252",
+    "ean": "4048500264252",
+    "pid": "598aaa9f1cd347c7a45b2c9e5add00d7",
+    "pigments": "PY42 PW6 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 63,
+      "G": 62,
+      "B": 42
+    },
+    "cmyk": {
+      "C": 64,
+      "M": 53,
+      "Y": 75,
+      "K": 61
+    },
+    "hex": "#3f3e2a"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7010 Jaws",
+    "altParsing": "",
+    "ordernumber": "264344",
+    "ean": "4048500264344",
+    "pid": "3f5bbf7707df4c1d8a1ca5db8474ba83",
+    "pigments": "PW6 PV23 PBk7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 238,
+      "G": 241,
+      "B": 230
+    },
+    "cmyk": {
+      "C": 9,
+      "M": 3,
+      "Y": 12,
+      "K": 0
+    },
+    "hex": "#eef1e6"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7030 Mouse",
+    "altParsing": "",
+    "ordernumber": "264337",
+    "ean": "4048500264337",
+    "pid": "34e625c718cc46259804927e214b3226",
+    "pigments": "PW6 PY151 PV19",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 199,
+      "G": 200,
+      "B": 184
+    },
+    "cmyk": {
+      "C": 26,
+      "M": 17,
+      "Y": 29,
+      "K": 2
+    },
+    "hex": "#c7c8b8"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7050 Shark",
+    "altParsing": "",
+    "ordernumber": "264320",
+    "ean": "4048500264320",
+    "pid": "c14d71b87a614123b96760ed078240d8",
+    "pigments": "PW6 PY42 PR101",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 153,
+      "G": 154,
+      "B": 146
+    },
+    "cmyk": {
+      "C": 41,
+      "M": 30,
+      "Y": 37,
+      "K": 11
+    },
+    "hex": "#999a92"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7070 Rhino",
+    "altParsing": "",
+    "ordernumber": "264313",
+    "ean": "4048500264313",
+    "pid": "c730da1d26a64529a316cca124f20c80",
+    "pigments": "PW6 PG7 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 94,
+      "G": 100,
+      "B": 96
+    },
+    "cmyk": {
+      "C": 59,
+      "M": 44,
+      "Y": 49,
+      "K": 35
+    },
+    "hex": "#5e6460"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7080 Ant",
+    "altParsing": "",
+    "ordernumber": "321634",
+    "ean": "4048500321634",
+    "pid": "08028bb850594c31842f386e999490b0",
+    "pigments": "PW6 PBk7 PY42",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 72,
+      "G": 64,
+      "B": 61
+    },
+    "cmyk": {
+      "C": 59,
+      "M": 56,
+      "Y": 55,
+      "K": 58
+    },
+    "hex": "#48403d"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7110 Gambetta",
+    "altParsing": "",
+    "ordernumber": "321641",
+    "ean": "4048500321641",
+    "pid": "da5c4f3ef46d4cafb72cd3574237095f",
+    "pigments": "PW6 PY42 PBk7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 199,
+      "G": 187,
+      "B": 168
+    },
+    "cmyk": {
+      "C": 24,
+      "M": 23,
+      "Y": 34,
+      "K": 4
+    },
+    "hex": "#c7bba8"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7120 Lennox",
+    "altParsing": "",
+    "ordernumber": "321665",
+    "ean": "4048500321665",
+    "pid": "aeeae9ce8d6446a0bfce63290461fbb8",
+    "pigments": "PW6 PY42 PBk7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 157,
+      "G": 146,
+      "B": 131
+    },
+    "cmyk": {
+      "C": 37,
+      "M": 34,
+      "Y": 43,
+      "K": 16
+    },
+    "hex": "#9d9283"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7130 Lambrate",
+    "altParsing": "",
+    "ordernumber": "321672",
+    "ean": "4048500321672",
+    "pid": "b1c4fe7f26214801be14b1e023175ba3",
+    "pigments": "PW6 PY42 PBk7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 125,
+      "G": 114,
+      "B": 104
+    },
+    "cmyk": {
+      "C": 45,
+      "M": 42,
+      "Y": 48,
+      "K": 30
+    },
+    "hex": "#7d7268"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7140 Industriilor",
+    "altParsing": "",
+    "ordernumber": "321689",
+    "ean": "4048500321689",
+    "pid": "36cb3f22687b44d98e5cbce2d6fe2701",
+    "pigments": "PO36 PW6 PBk7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 82,
+      "G": 64,
+      "B": 56
+    },
+    "cmyk": {
+      "C": 49,
+      "M": 57,
+      "Y": 58,
+      "K": 60
+    },
+    "hex": "#524038"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7210 Houdini",
+    "altParsing": "",
+    "ordernumber": "321702",
+    "ean": "4048500321702",
+    "pid": "25cc1825e1d947dcbe08f114711b8b0f",
+    "pigments": "PW6 PBk7 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 166,
+      "G": 159,
+      "B": 162
+    },
+    "cmyk": {
+      "C": 36,
+      "M": 33,
+      "Y": 29,
+      "K": 9
+    },
+    "hex": "#a69fa2"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7220 Morpheus",
+    "altParsing": "",
+    "ordernumber": "321719",
+    "ean": "4048500321719",
+    "pid": "6ef152d443af449eac6bdde8a7bd8de7",
+    "pigments": "PW6 PBk7 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 132,
+      "G": 124,
+      "B": 130
+    },
+    "cmyk": {
+      "C": 48,
+      "M": 43,
+      "Y": 36,
+      "K": 19
+    },
+    "hex": "#847c82"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7230 Nostradamus",
+    "altParsing": "",
+    "ordernumber": "321726",
+    "ean": "4048500321726",
+    "pid": "4b10d9b335a8462697e8341efa1ab553",
+    "pigments": "PW6 PBk7 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 87,
+      "G": 81,
+      "B": 90
+    },
+    "cmyk": {
+      "C": 62,
+      "M": 57,
+      "Y": 44,
+      "K": 39
+    },
+    "hex": "#57515a"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7320 Ghetto",
+    "altParsing": "",
+    "ordernumber": "352126",
+    "ean": "4048500352126",
+    "pid": "08228fd6b8b8496aa72fdaa9229bd3fb",
+    "pigments": "PW6 PY42 PBk7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 168,
+      "G": 158,
+      "B": 159
+    },
+    "cmyk": {
+      "C": 35,
+      "M": 33,
+      "Y": 30,
+      "K": 9
+    },
+    "hex": "#a89e9f"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7340 Dumbo",
+    "altParsing": "",
+    "ordernumber": "352133",
+    "ean": "4048500352133",
+    "pid": "4b6dcaed2e4a4b66b2d886b7f783d348",
+    "pigments": "PW6 PY42 PBk7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 100,
+      "G": 91,
+      "B": 92
+    },
+    "cmyk": {
+      "C": 54,
+      "M": 51,
+      "Y": 46,
+      "K": 38
+    },
+    "hex": "#645b5c"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 7360 Slate",
+    "altParsing": "",
+    "ordernumber": "352140",
+    "ean": "4048500352140",
+    "pid": "598f0d05e8d24012899c1319cda978d6",
+    "pigments": "PY42 PBk7 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 53,
+      "G": 44,
+      "B": 45
+    },
+    "cmyk": {
+      "C": 64,
+      "M": 64,
+      "Y": 56,
+      "K": 69
+    },
+    "hex": "#352c2d"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8000 Ivory",
+    "altParsing": "",
+    "ordernumber": "264139",
+    "ean": "4048500264139",
+    "pid": "6b47a8c8573b470090e468dffafab941",
+    "pigments": "PW6 PY151 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 242,
+      "G": 232,
+      "B": 196
+    },
+    "cmyk": {
+      "C": 7,
+      "M": 7,
+      "Y": 29,
+      "K": 0
+    },
+    "hex": "#f2e8c4"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8010 Sand",
+    "altParsing": "",
+    "ordernumber": "264115",
+    "ean": "4048500264115",
+    "pid": "22415eaf31684541a563694e3c9956f4",
+    "pigments": "PY42 PW6 PR101",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 184,
+      "G": 146,
+      "B": 71
+    },
+    "cmyk": {
+      "C": 24,
+      "M": 37,
+      "Y": 77,
+      "K": 13
+    },
+    "hex": "#b89247"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8020 Beige",
+    "altParsing": "",
+    "ordernumber": "264122",
+    "ean": "4048500264122",
+    "pid": "65038a3ff7bf42b7bb790e66dbfbcaec",
+    "pigments": "PW6 PY151 PV23",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 217,
+      "G": 185,
+      "B": 128
+    },
+    "cmyk": {
+      "C": 16,
+      "M": 26,
+      "Y": 55,
+      "K": 3
+    },
+    "hex": "#d9b980"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8030 Iced Coffee",
+    "altParsing": "",
+    "ordernumber": "264153",
+    "ean": "4048500264153",
+    "pid": "eb0f236c687045a59e05ee2097e8b343",
+    "pigments": "PW6 PY42 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 218,
+      "G": 172,
+      "B": 146
+    },
+    "cmyk": {
+      "C": 14,
+      "M": 36,
+      "Y": 42,
+      "K": 3
+    },
+    "hex": "#daac92"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8040 Cremino",
+    "altParsing": "",
+    "ordernumber": "264160",
+    "ean": "4048500264160",
+    "pid": "9de2652d48b949cc9d1c9530bdf773c4",
+    "pigments": "PW6 PY42 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 203,
+      "G": 145,
+      "B": 108
+    },
+    "cmyk": {
+      "C": 18,
+      "M": 46,
+      "Y": 58,
+      "K": 6
+    },
+    "hex": "#cb916c"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8050 Frappé",
+    "altParsing": "",
+    "ordernumber": "264177",
+    "ean": "4048500264177",
+    "pid": "90fbfaccf6a842d6a5b643c45d3f4251",
+    "pigments": "PY42 PW6 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 178,
+      "G": 122,
+      "B": 89
+    },
+    "cmyk": {
+      "C": 24,
+      "M": 52,
+      "Y": 63,
+      "K": 15
+    },
+    "hex": "#b27a59"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8060 Chocolate",
+    "altParsing": "",
+    "ordernumber": "264184",
+    "ean": "4048500264184",
+    "pid": "9d1258cfd37e48e48ebf05705c2df29e",
+    "pigments": "PY42 PR170 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 124,
+      "G": 80,
+      "B": 53
+    },
+    "cmyk": {
+      "C": 35,
+      "M": 61,
+      "Y": 73,
+      "K": 41
+    },
+    "hex": "#7c5035"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8070 Jawa",
+    "altParsing": "",
+    "ordernumber": "264191",
+    "ean": "4048500264191",
+    "pid": "bbc4ca35d01443e986237bca82495c8a",
+    "pigments": "PR170 PY83 PB15:4",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 73,
+      "G": 32,
+      "B": 26
+    },
+    "cmyk": {
+      "C": 43,
+      "M": 81,
+      "Y": 73,
+      "K": 70
+    },
+    "hex": "#49201a"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8080 Rust",
+    "altParsing": "",
+    "ordernumber": "264207",
+    "ean": "4048500264207",
+    "pid": "c7b3d0fbfb314e41885d501003c8bd8c",
+    "pigments": "PR101 PW6 PR122",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 144,
+      "G": 44,
+      "B": 46
+    },
+    "cmyk": {
+      "C": 28,
+      "M": 90,
+      "Y": 74,
+      "K": 30
+    },
+    "hex": "#902c2e"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8110 Arabian",
+    "altParsing": "",
+    "ordernumber": "321764",
+    "ean": "4048500321764",
+    "pid": "8018f4b591e94d07918e384bc614d469",
+    "pigments": "PW6 PY42 PR122",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 194,
+      "G": 168,
+      "B": 117
+    },
+    "cmyk": {
+      "C": 23,
+      "M": 29,
+      "Y": 57,
+      "K": 8
+    },
+    "hex": "#c2a875"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8120 Gobi",
+    "altParsing": "",
+    "ordernumber": "321788",
+    "ean": "4048500321788",
+    "pid": "3ac0d74f440a46ad9f957b8533a7677f",
+    "pigments": "PW6 PY42 PBk7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 171,
+      "G": 146,
+      "B": 105
+    },
+    "cmyk": {
+      "C": 30,
+      "M": 35,
+      "Y": 58,
+      "K": 16
+    },
+    "hex": "#ab9269"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8130 Syrian",
+    "altParsing": "",
+    "ordernumber": "321795",
+    "ean": "4048500321795",
+    "pid": "b53c3fbf673a40c0b373a48e58d767bd",
+    "pigments": "PY42 PW6 PBk7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 144,
+      "G": 117,
+      "B": 79
+    },
+    "cmyk": {
+      "C": 35,
+      "M": 43,
+      "Y": 66,
+      "K": 28
+    },
+    "hex": "#90754f"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8210 After",
+    "altParsing": "",
+    "ordernumber": "321801",
+    "ean": "4048500321801",
+    "pid": "d7057a8d00554533b263678dcff765c3",
+    "pigments": "PW6 PY83 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 159,
+      "G": 107,
+      "B": 90
+    },
+    "cmyk": {
+      "C": 28,
+      "M": 56,
+      "Y": 56,
+      "K": 24
+    },
+    "hex": "#9f6b5a"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8220 Snail",
+    "altParsing": "",
+    "ordernumber": "352157",
+    "ean": "4048500352157",
+    "pid": "98a903a7b923450e95f066cf92ab543e",
+    "pigments": "PW6 PO67 PY151",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 245,
+      "G": 172,
+      "B": 140
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 41,
+      "Y": 44,
+      "K": 0
+    },
+    "hex": "#f5ac8c"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8230 Koi",
+    "altParsing": "",
+    "ordernumber": "352164",
+    "ean": "4048500352164",
+    "pid": "4649660131ca4e10b47aa93be9f5c5d8",
+    "pigments": "PO67 PW6 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 223,
+      "G": 81,
+      "B": 5
+    },
+    "cmyk": {
+      "C": 6,
+      "M": 78,
+      "Y": 100,
+      "K": 1
+    },
+    "hex": "#df5105"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8240 Falling",
+    "altParsing": "",
+    "ordernumber": "352171",
+    "ean": "4048500352171",
+    "pid": "6214aede76c44017b0988e523d7b7f5c",
+    "pigments": "PO67 PW6 PV19",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 185,
+      "G": 71,
+      "B": 9
+    },
+    "cmyk": {
+      "C": 20,
+      "M": 79,
+      "Y": 100,
+      "K": 11
+    },
+    "hex": "#b94709"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8250 Candy Bar",
+    "altParsing": "",
+    "ordernumber": "352188",
+    "ean": "4048500352188",
+    "pid": "4cb30c968bc342c089be481aab307e27",
+    "pigments": "PR101 PW6 PB15:4",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 91,
+      "G": 38,
+      "B": 7
+    },
+    "cmyk": {
+      "C": 39,
+      "M": 81,
+      "Y": 93,
+      "K": 61
+    },
+    "hex": "#5b2607"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 8260 Mud",
+    "altParsing": "",
+    "ordernumber": "386510",
+    "ean": "4048500386510",
+    "pid": "acf66623c211470b95719212a740723d",
+    "pigments": "PR101 PW6 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 81,
+      "G": 35,
+      "B": 32
+    },
+    "cmyk": {
+      "C": 41,
+      "M": 81,
+      "Y": 68,
+      "K": 66
+    },
+    "hex": "#512320"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 9001 Black",
+    "altParsing": "",
+    "ordernumber": "264368",
+    "ean": "4048500264368",
+    "pid": "e8c98c3314b84ca28b6c12a72ce1f0e3",
+    "pigments": "N.A.",
+    "lightfastness": "N.A.",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 3,
+      "G": 5,
+      "B": 6
+    },
+    "cmyk": {
+      "C": 89,
+      "M": 76,
+      "Y": 62,
+      "K": 94
+    },
+    "hex": "#030506"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 9100 Snow White",
+    "altParsing": "",
+    "ordernumber": "321818",
+    "ean": "4048500321818",
+    "pid": "7c2820305d854f9e85eb1989af75aad4",
+    "pigments": "PW6",
+    "lightfastness": "4",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 255,
+      "G": 255,
+      "B": 255
+    },
+    "cmyk": {
+      "C": 0,
+      "M": 0,
+      "Y": 0,
+      "K": 0
+    },
+    "hex": "#ffffff"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK 9105 White",
+    "altParsing": "",
+    "ordernumber": "264351",
+    "ean": "4048500264351",
+    "pid": "a365dd1138e64321b8c1524b96dc1334",
+    "pigments": "N.A.",
+    "lightfastness": "N.A.",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 251,
+      "G": 252,
+      "B": 246
+    },
+    "cmyk": {
+      "C": 2,
+      "M": 0,
+      "Y": 5,
+      "K": 0
+    },
+    "hex": "#fbfcf6"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "P1000 Power Yellow",
+    "altParsing": "",
+    "ordernumber": "264412",
+    "ean": "4048500264412",
+    "pid": "4f3c3cacce6048aba16e114a4c894aba",
+    "pigments": "PY83 PW6 PY184",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 255,
+      "G": 223,
+      "B": 0
+    },
+    "cmyk": {
+      "C": 2,
+      "M": 8,
+      "Y": 92,
+      "K": 0
+    },
+    "hex": "#ffdf00"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "P2000 Power Orange",
+    "altParsing": "",
+    "ordernumber": "352195",
+    "ean": "4048500352195",
+    "pid": "b2046230cc2b411ba732e96effd6dcd2",
+    "pigments": "PO67 PY151",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 255,
+      "G": 90,
+      "B": 16
+    },
+    "cmyk": {
+      "C": 0,
+      "M": 75,
+      "Y": 91,
+      "K": 0
+    },
+    "hex": "#ff5a10"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "P3000 Power Red",
+    "altParsing": "",
+    "ordernumber": "264405",
+    "ean": "4048500264405",
+    "pid": "1bc2a45889074889b8ff6be210ddf047",
+    "pigments": "PR170 PW6 PY42",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 226,
+      "G": 34,
+      "B": 24
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 95,
+      "Y": 95,
+      "K": 1
+    },
+    "hex": "#e22218"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "P4000 Power Pink",
+    "altParsing": "",
+    "ordernumber": "264757",
+    "ean": "4048500264757",
+    "pid": "3fe90d5d18c948eda797468e79599d88",
+    "pigments": "PW6 PV19 PR122",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 230,
+      "G": 70,
+      "B": 144
+    },
+    "cmyk": {
+      "C": 3,
+      "M": 84,
+      "Y": 2,
+      "K": 0
+    },
+    "hex": "#e64690"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "P4100 Power Violet",
+    "altParsing": "",
+    "ordernumber": "265372",
+    "ean": "4048500265372",
+    "pid": "eb9eaa03b25e4634998a8178a3220309",
+    "pigments": "PV23 PW6 PV19",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 24,
+      "G": 34,
+      "B": 91
+    },
+    "cmyk": {
+      "C": 100,
+      "M": 93,
+      "Y": 37,
+      "K": 26
+    },
+    "hex": "#18225b"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "P5000 Power Blue",
+    "altParsing": "",
+    "ordernumber": "264436",
+    "ean": "4048500264436",
+    "pid": "c59444310690472f80c0819fa505048f",
+    "pigments": "PB15:6 PW6 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 84,
+      "B": 157
+    },
+    "cmyk": {
+      "C": 96,
+      "M": 67,
+      "Y": 5,
+      "K": 0
+    },
+    "hex": "#00549d"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "P6000 Power Green",
+    "altParsing": "",
+    "ordernumber": "264429",
+    "ean": "4048500264429",
+    "pid": "80aa565bdd6341fea75927b8f7974c40",
+    "pigments": "PY184 PY151 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 103,
+      "G": 176,
+      "B": 40
+    },
+    "cmyk": {
+      "C": 65,
+      "M": 2,
+      "Y": 100,
+      "K": 0
+    },
+    "hex": "#67b028"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK TR 1000 True Yellow",
+    "altParsing": "",
+    "ordernumber": "264399",
+    "ean": "4048500264399",
+    "pid": "5abae96646674588bf3ae316789e9c0d",
+    "pigments": "PY184",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 249,
+      "G": 233,
+      "B": 0
+    },
+    "cmyk": {
+      "C": 7,
+      "M": 0,
+      "Y": 90,
+      "K": 0
+    },
+    "hex": "#f9e900"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK TR 1010 True Yel. 50%",
+    "altParsing": "",
+    "ordernumber": "352201",
+    "ean": "4048500352201",
+    "pid": "948bed3878ba493dbe8fb6be61aac53e",
+    "pigments": "PY184 PY42 PW6",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 255,
+      "G": 245,
+      "B": 98
+    },
+    "cmyk": {
+      "C": 5,
+      "M": 0,
+      "Y": 69,
+      "K": 0
+    },
+    "hex": "#fff562"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK TR 4000 True Magenta",
+    "altParsing": "",
+    "ordernumber": "264382",
+    "ean": "4048500264382",
+    "pid": "40e958a2d7294ddb98c713e97f49cfad",
+    "pigments": "PR122 PW6 PR170",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 229,
+      "G": 17,
+      "B": 117
+    },
+    "cmyk": {
+      "C": 1,
+      "M": 97,
+      "Y": 15,
+      "K": 0
+    },
+    "hex": "#e51175"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK TR 4010 True Mag. 50%",
+    "altParsing": "",
+    "ordernumber": "352218",
+    "ean": "4048500352218",
+    "pid": "c4fe611c28e44243859b9b925e65f701",
+    "pigments": "PW6 PR170 PR122",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 231,
+      "G": 93,
+      "B": 152
+    },
+    "cmyk": {
+      "C": 3,
+      "M": 76,
+      "Y": 6,
+      "K": 0
+    },
+    "hex": "#e75d98"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK TR 5000 True Cyan",
+    "altParsing": "",
+    "ordernumber": "264375",
+    "ean": "4048500264375",
+    "pid": "7d51414448de41b58641620a404eb99e",
+    "pigments": "PW6 PB15:4 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 0,
+      "G": 184,
+      "B": 210
+    },
+    "cmyk": {
+      "C": 72,
+      "M": 0,
+      "Y": 18,
+      "K": 0
+    },
+    "hex": "#00b8d2"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "BLK TR 5010 True Cyan 50%",
+    "altParsing": "",
+    "ordernumber": "352225",
+    "ean": "4048500352225",
+    "pid": "2b5d909a59d1422b96b6d8c7529f6216",
+    "pigments": "PW6 PB15:4 PG7",
+    "lightfastness": "3",
+    "coverage": "opaque",
+    "rgb": {
+      "R": 134,
+      "G": 206,
+      "B": 220
+    },
+    "cmyk": {
+      "C": 50,
+      "M": 0,
+      "Y": 15,
+      "K": 0
+    },
+    "hex": "#86cedc"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "Outline Silver",
+    "altParsing": "",
+    "ordernumber": "272080",
+    "ean": "4048500272080",
+    "pid": "fa69e65a23b449499d21937eeff038af",
+    "pigments": "N.A.",
+    "lightfastness": "0",
+    "coverage": "opaque",
+    "rgb": {
+      "R": null,
+      "G": null,
+      "B": null
+    },
+    "cmyk": {
+      "C": null,
+      "M": null,
+      "Y": null,
+      "K": null
+    },
+    "hex": "#c0c0c0",
+    "hex2": "#ffffff"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "Silver Silverchrome",
+    "altParsing": "",
+    "ordernumber": "264764",
+    "ean": "4048500264764",
+    "pid": "a3c348b6cd2146f2bb618e37b0365b40",
+    "pigments": "N.A.",
+    "lightfastness": "0",
+    "coverage": "opaque",
+    "rgb": {
+      "R": null,
+      "G": null,
+      "B": null
+    },
+    "cmyk": {
+      "C": null,
+      "M": null,
+      "Y": null,
+      "K": null
+    },
+    "hex": "#999999",
+    "hex2": "#ffffff"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "Copper Copperchrome",
+    "altParsing": "",
+    "ordernumber": "272073",
+    "ean": "4048500272073",
+    "pid": "7f4cdcfd823f42dc906c92cc2ff878fa",
+    "pigments": "N.A.",
+    "lightfastness": "0",
+    "coverage": "opaque",
+    "rgb": {
+      "R": null,
+      "G": null,
+      "B": null
+    },
+    "cmyk": {
+      "C": null,
+      "M": null,
+      "Y": null,
+      "K": null
+    },
+    "hex": "#806031",
+    "hex2": "#ffffff"
+  },
+  {
+    "title": "Montana BLACK 400ml",
+    "colorTitle": "Gold Goldchrome",
+    "altParsing": "",
+    "ordernumber": "295607",
+    "ean": "4048500295607",
+    "pid": "69607a45ef1e4ba59631dca3ade81e39",
+    "pigments": "N.A.",
+    "lightfastness": "0",
+    "coverage": "opaque",
+    "rgb": {
+      "R": null,
+      "G": null,
+      "B": null
+    },
+    "cmyk": {
+      "C": null,
+      "M": null,
+      "Y": null,
+      "K": null
+    },
+    "hex": "#826107",
+    "hex2": "#ffffff"
+  }
+]

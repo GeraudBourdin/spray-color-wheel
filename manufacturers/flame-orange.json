@@ -1,0 +1,3454 @@
+{
+  "manufacturer": {
+    "id": "flame-orange",
+    "label": "FLAME ORANGE",
+    "accent": "#F37B20",
+    "series": "400ml / 500ml / 600ml",
+    "source": {
+      "name": "FLAME",
+      "url": "https://brand.molotow.com/fileadmin/Dateien/PDF/Info_Sheets/Spray/Action/FLAME_Orange_ProductInfoSheet.pdf",
+      "note": "Hex values sampled from swatches on the product info PDF."
+    }
+  },
+  "colors": [
+    {
+      "id": "FO-100",
+      "code": "FO-100",
+      "name": "vanilla",
+      "label": "FO-100 vanilla",
+      "hex": "#F1E082",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-100 vanilla",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.001",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-102",
+      "code": "FO-102",
+      "name": "zinc yellow",
+      "label": "FO-102 zinc yellow",
+      "hex": "#FFDE3D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-102 zinc yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.002",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-104",
+      "code": "FO-104",
+      "name": "cadmium yellow",
+      "label": "FO-104 cadmium yellow",
+      "hex": "#FBD824",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-104 cadmium yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.003",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-106",
+      "code": "FO-106",
+      "name": "signal yellow",
+      "label": "FO-106 signal yellow",
+      "hex": "#F5CD0C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-106 signal yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.004",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.901",
+            "format": "600ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-107",
+      "code": "FO-107",
+      "name": "melon light",
+      "label": "FO-107 melon light",
+      "hex": "#FAB513",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-107 melon light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.010",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-110",
+      "code": "FO-110",
+      "name": "melon yellow",
+      "label": "FO-110 melon yellow",
+      "hex": "#F7BB06",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-110 melon yellow",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.006",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-111",
+      "code": "FO-111",
+      "name": "melon dark",
+      "label": "FO-111 melon dark",
+      "hex": "#F7AC09",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-111 melon dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.005",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-113",
+      "code": "FO-113",
+      "name": "curry",
+      "label": "FO-113 curry",
+      "hex": "#F59D19",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-113 curry",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.009",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-198",
+      "code": "FO-198",
+      "name": "peach middle",
+      "label": "FO-198 peach middle",
+      "hex": "#F9BD95",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-198 peach middle",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.073",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-200",
+      "code": "FO-200",
+      "name": "peach",
+      "label": "FO-200 peach",
+      "hex": "#F8B576",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-200 peach",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.017",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-202",
+      "code": "FO-202",
+      "name": "pastel orange",
+      "label": "FO-202 pastel orange",
+      "hex": "#F28D28",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-202 pastel orange",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.018",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-204",
+      "code": "FO-204",
+      "name": "light orange",
+      "label": "FO-204 light orange",
+      "hex": "#EB7106",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-204 light orange",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.019",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-205",
+      "code": "FO-205",
+      "name": "peach dark",
+      "label": "FO-205 peach dark",
+      "hex": "#F39678",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-205 peach dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.012",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-208",
+      "code": "FO-208",
+      "name": "cold peach",
+      "label": "FO-208 cold peach",
+      "hex": "#F1D6B7",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-208 cold peach",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.021",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-210",
+      "code": "FO-210",
+      "name": "apricot 400ml",
+      "label": "FO-210 apricot 400ml",
+      "hex": "#F18649",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-210 apricot 400ml",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.022",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-212",
+      "code": "FO-212",
+      "name": "ORANGE orange",
+      "label": "FO-212 ORANGE orange",
+      "hex": "#D75827",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-212 ORANGE orange",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.023",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.902",
+            "format": "600ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-214",
+      "code": "FO-214",
+      "name": "red orange",
+      "label": "FO-214 red orange",
+      "hex": "#D2431B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-214 red orange",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.024",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-303",
+      "code": "FO-303",
+      "name": "FLAME™ pastel red",
+      "label": "FO-303 FLAME™ pastel red",
+      "hex": "#E83C42",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-303 FLAME™ pastel red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.087",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-304",
+      "code": "FO-304",
+      "name": "signal red",
+      "label": "FO-304 signal red",
+      "hex": "#D83532",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-304 signal red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.027",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.903",
+            "format": "600ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-305",
+      "code": "FO-305",
+      "name": "coral red",
+      "label": "FO-305 coral red",
+      "hex": "#E04A4B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-305 coral red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.099",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-306",
+      "code": "FO-306",
+      "name": "ruby red",
+      "label": "FO-306 ruby red",
+      "hex": "#C51535",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-306 ruby red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.028",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-307",
+      "code": "FO-307",
+      "name": "coral",
+      "label": "FO-307 coral",
+      "hex": "#E86865",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-307 coral",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.013",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-308",
+      "code": "FO-308",
+      "name": "piglet pink",
+      "label": "FO-308 piglet pink",
+      "hex": "#DD8274",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-308 piglet pink",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.011",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-309",
+      "code": "FO-309",
+      "name": "piglet pink middle",
+      "label": "FO-309 piglet pink middle",
+      "hex": "#EF9CB0",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-309 piglet pink middle",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.029",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-310",
+      "code": "FO-310",
+      "name": "piglet pink",
+      "label": "FO-310 piglet pink",
+      "hex": "#E94362",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-310 piglet pink",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.030",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-311",
+      "code": "FO-311",
+      "name": "crazy cherry",
+      "label": "FO-311 crazy cherry",
+      "hex": "#BB243A",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-311 crazy cherry",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.032",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-312",
+      "code": "FO-312",
+      "name": "fire red",
+      "label": "FO-312 fire red",
+      "hex": "#C13733",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-312 fire red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.031",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-313",
+      "code": "FO-313",
+      "name": "cherry dark",
+      "label": "FO-313 cherry dark",
+      "hex": "#9C0E30",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-313 cherry dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.033",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-314",
+      "code": "FO-314",
+      "name": "piglet pink",
+      "label": "FO-314 piglet pink",
+      "hex": "#BD202E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-314 piglet pink",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.014",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-318",
+      "code": "FO-318",
+      "name": "traffic purple dark",
+      "label": "FO-318 traffic purple dark",
+      "hex": "#48233C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-318 traffic purple dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.034",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.906",
+            "format": "600ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-320",
+      "code": "FO-320",
+      "name": "2024 burgundy",
+      "label": "FO-320 2024 burgundy",
+      "hex": "#AA182B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-320 2024 burgundy",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.015",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-322",
+      "code": "FO-322",
+      "name": "aubergine /",
+      "label": "FO-322 aubergine /",
+      "hex": "#471E35",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-322 aubergine /",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.036",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-323",
+      "code": "FO-323",
+      "name": "08 aubergine dark",
+      "label": "FO-323 08 aubergine dark",
+      "hex": "#2C2026",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-323 08 aubergine dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.016",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-396",
+      "code": "FO-396",
+      "name": "violet",
+      "label": "FO-396 violet",
+      "hex": "#9F5D9C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-396 violet",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.020",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-397",
+      "code": "FO-397",
+      "name": "crazy violet",
+      "label": "FO-397 crazy violet",
+      "hex": "#81477C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-397 crazy violet",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.025",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.904",
+            "format": "600ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-398",
+      "code": "FO-398",
+      "name": "deep violet",
+      "label": "FO-398 deep violet",
+      "hex": "#694679",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-398 deep violet",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.026",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-399",
+      "code": "FO-399",
+      "name": "erica violet light",
+      "label": "FO-399 erica violet light",
+      "hex": "#DDA7C7",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-399 erica violet light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.035",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-400",
+      "code": "FO-400",
+      "name": "erica violet",
+      "label": "FO-400 erica violet",
+      "hex": "#DD6B9C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-400 erica violet",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.037",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-401",
+      "code": "FO-401",
+      "name": "erica pastel",
+      "label": "FO-401 erica pastel",
+      "hex": "#E1BECC",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-401 erica pastel",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.052",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-402",
+      "code": "FO-402",
+      "name": "telemagenta",
+      "label": "FO-402 telemagenta",
+      "hex": "#D8356E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-402 telemagenta",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.038",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.905",
+            "format": "600ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-403",
+      "code": "FO-403",
+      "name": "deep violet dark",
+      "label": "FO-403 deep violet dark",
+      "hex": "#6A4858",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-403 deep violet dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.074",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-404",
+      "code": "FO-404",
+      "name": "traffic purple",
+      "label": "FO-404 traffic purple",
+      "hex": "#8B1878",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-404 traffic purple",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.039",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-405",
+      "code": "FO-405",
+      "name": "erica pastel middle",
+      "label": "FO-405 erica pastel middle",
+      "hex": "#D2AEAE",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-405 erica pastel middle",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.065",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-407",
+      "code": "FO-407",
+      "name": "erica violet middle",
+      "label": "FO-407 erica violet middle",
+      "hex": "#C68487",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-407 erica violet middle",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.007",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-408",
+      "code": "FO-408",
+      "name": "grape",
+      "label": "FO-408 grape",
+      "hex": "#9567A3",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-408 grape",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.041",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-409",
+      "code": "FO-409",
+      "name": "erica pink",
+      "label": "FO-409 erica pink",
+      "hex": "#E0ADC3",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-409 erica pink",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.100",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-410",
+      "code": "FO-410",
+      "name": "blackberry",
+      "label": "FO-410 blackberry",
+      "hex": "#6D447C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-410 blackberry",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.042",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-412",
+      "code": "FO-412",
+      "name": "currant",
+      "label": "FO-412 currant",
+      "hex": "#503259",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-412 currant",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.043",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-415",
+      "code": "FO-415",
+      "name": "crocus",
+      "label": "FO-415 crocus",
+      "hex": "#B4A6D1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-415 crocus",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.186",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-416",
+      "code": "FO-416",
+      "name": "light viola light",
+      "label": "FO-416 light viola light",
+      "hex": "#BAB4DA",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-416 light viola light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.045",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-418",
+      "code": "FO-418",
+      "name": "viola",
+      "label": "FO-418 viola",
+      "hex": "#6466A5",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-418 viola",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.046",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-420",
+      "code": "FO-420",
+      "name": "viola dark",
+      "label": "FO-420 viola dark",
+      "hex": "#343A81",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-420 viola dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.047",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-422",
+      "code": "FO-422",
+      "name": "cosmos blue dark pastel",
+      "label": "FO-422 cosmos blue dark pastel",
+      "hex": "#9EA8D5",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-422 cosmos blue dark pastel",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.101",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-424",
+      "code": "FO-424",
+      "name": "cosmos blue light",
+      "label": "FO-424 cosmos blue light",
+      "hex": "#7278B8",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-424 cosmos blue light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.049",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-426",
+      "code": "FO-426",
+      "name": "cosmos blue",
+      "label": "FO-426 cosmos blue",
+      "hex": "#414999",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-426 cosmos blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.050",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-428",
+      "code": "FO-428",
+      "name": "cosmos blue dark",
+      "label": "FO-428 cosmos blue dark",
+      "hex": "#282459",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-428 cosmos blue dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.051",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-502",
+      "code": "FO-502",
+      "name": "lighting blue",
+      "label": "FO-502 lighting blue",
+      "hex": "#6FC7E7",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-502 lighting blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.053",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-504",
+      "code": "FO-504",
+      "name": "light blue",
+      "label": "FO-504 light blue",
+      "hex": "#93C6E5",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-504 light blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.054",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-508",
+      "code": "FO-508",
+      "name": "light blue",
+      "label": "FO-508 light blue",
+      "hex": "#4597D1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-508 light blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.056",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.907",
+            "format": "600ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-510",
+      "code": "FO-510",
+      "name": "sky blue",
+      "label": "FO-510 sky blue",
+      "hex": "#0F6EB5",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-510 sky blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.057",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-511",
+      "code": "FO-511",
+      "name": "crazy blue",
+      "label": "FO-511 crazy blue",
+      "hex": "#0089C1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-511 crazy blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.070",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-512",
+      "code": "FO-512",
+      "name": "signal blue",
+      "label": "FO-512 signal blue",
+      "hex": "#0F5196",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-512 signal blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.058",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-514",
+      "code": "FO-514",
+      "name": "true blue",
+      "label": "FO-514 true blue",
+      "hex": "#224A89",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-514 true blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.059",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-515",
+      "code": "FO-515",
+      "name": "ultramarine blue",
+      "label": "FO-515 ultramarine blue",
+      "hex": "#1F2C5C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-515 ultramarine blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.055",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.908",
+            "format": "600ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-516",
+      "code": "FO-516",
+      "name": "cream blue light",
+      "label": "FO-516 cream blue light",
+      "hex": "#81A8C4",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-516 cream blue light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.060",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-518",
+      "code": "FO-518",
+      "name": "cream blue",
+      "label": "FO-518 cream blue",
+      "hex": "#2686C6",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-518 cream blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.061",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-520",
+      "code": "FO-520",
+      "name": "cream blue dark",
+      "label": "FO-520 cream blue dark",
+      "hex": "#125D8F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-520 cream blue dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.062",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-522",
+      "code": "FO-522",
+      "name": "sapphire",
+      "label": "FO-522 sapphire",
+      "hex": "#142D59",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-522 sapphire",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.063",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-523",
+      "code": "FO-523",
+      "name": "sapphire dark",
+      "label": "FO-523 sapphire dark",
+      "hex": "#3D4252",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-523 sapphire dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.072",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-531",
+      "code": "FO-531",
+      "name": "verdigris light",
+      "label": "FO-531 verdigris light",
+      "hex": "#8DBAB8",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-531 verdigris light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.068",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-532",
+      "code": "FO-532",
+      "name": "verdigris middle",
+      "label": "FO-532 verdigris middle",
+      "hex": "#7CA6A5",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-532 verdigris middle",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.069",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-533",
+      "code": "FO-533",
+      "name": "verdigris",
+      "label": "FO-533 verdigris",
+      "hex": "#688E8F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-533 verdigris",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.071",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-601",
+      "code": "FO-601",
+      "name": "crazy riviera",
+      "label": "FO-601 crazy riviera",
+      "hex": "#48B79E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-601 crazy riviera",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.075",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.909",
+            "format": "600ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-602",
+      "code": "FO-602",
+      "name": "riviera",
+      "label": "FO-602 riviera",
+      "hex": "#68C0B4",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-602 riviera",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.077",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-604",
+      "code": "FO-604",
+      "name": "lagoon blue",
+      "label": "FO-604 lagoon blue",
+      "hex": "#05A492",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-604 lagoon blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.078",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-605",
+      "code": "FO-605",
+      "name": "lagoon blue light dark",
+      "label": "FO-605 lagoon blue light dark",
+      "hex": "#009D90",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-605 lagoon blue light dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.102",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-606",
+      "code": "FO-606",
+      "name": "ocean blue",
+      "label": "FO-606 ocean blue",
+      "hex": "#117375",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-606 ocean blue",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.079",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-608",
+      "code": "FO-608",
+      "name": "sage middle",
+      "label": "FO-608 sage middle",
+      "hex": "#97ACA1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-608 sage middle",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.080",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-609",
+      "code": "FO-609",
+      "name": "sage",
+      "label": "FO-609 sage",
+      "hex": "#7DA590",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-609 sage",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.081",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-610",
+      "code": "FO-610",
+      "name": "sage dark",
+      "label": "FO-610 sage dark",
+      "hex": "#527866",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-610 sage dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.082",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-613",
+      "code": "FO-613",
+      "name": "aqua pastel light",
+      "label": "FO-613 aqua pastel light",
+      "hex": "#C5DCE5",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-613 aqua pastel light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.086",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-614",
+      "code": "FO-614",
+      "name": "aqua pastel",
+      "label": "FO-614 aqua pastel",
+      "hex": "#91D3EB",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-614 aqua pastel",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.083",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-615",
+      "code": "FO-615",
+      "name": "crazy aqua",
+      "label": "FO-615 crazy aqua",
+      "hex": "#11B6CA",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-615 crazy aqua",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.187",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-616",
+      "code": "FO-616",
+      "name": "aqua light",
+      "label": "FO-616 aqua light",
+      "hex": "#3098BC",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-616 aqua light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.084",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-618",
+      "code": "FO-618",
+      "name": "aqua",
+      "label": "FO-618 aqua",
+      "hex": "#004F5C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-618 aqua",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.085",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-621",
+      "code": "FO-621",
+      "name": "mustard middle",
+      "label": "FO-621 mustard middle",
+      "hex": "#EBBD00",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-621 mustard middle",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.143",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-622",
+      "code": "FO-622",
+      "name": "mustard light",
+      "label": "FO-622 mustard light",
+      "hex": "#ECD000",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-622 mustard light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.122",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-623",
+      "code": "FO-623",
+      "name": "crazy green",
+      "label": "FO-623 crazy green",
+      "hex": "#DFDD2E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-623 crazy green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.115",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-624",
+      "code": "FO-624",
+      "name": "pistachio",
+      "label": "FO-624 pistachio",
+      "hex": "#D8D541",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-624 pistachio",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.088",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-625",
+      "code": "FO-625",
+      "name": "mustard",
+      "label": "FO-625 mustard",
+      "hex": "#C7A223",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-625 mustard",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.124",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-627",
+      "code": "FO-627",
+      "name": "crazy grass",
+      "label": "FO-627 crazy grass",
+      "hex": "#96BA26",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-627 crazy grass",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.121",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.910",
+            "format": "600ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-628",
+      "code": "FO-628",
+      "name": "grass green",
+      "label": "FO-628 grass green",
+      "hex": "#8AA846",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-628 grass green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.090",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-629",
+      "code": "FO-629",
+      "name": "juice green",
+      "label": "FO-629 juice green",
+      "hex": "#008E3D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-629 juice green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.629",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.911",
+            "format": "600ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-631",
+      "code": "FO-631",
+      "name": "mustard dark",
+      "label": "FO-631 mustard dark",
+      "hex": "#A37F13",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-631 mustard dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.128",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-632",
+      "code": "FO-632",
+      "name": "leaf green",
+      "label": "FO-632 leaf green",
+      "hex": "#4D8647",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-632 leaf green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.092",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-633",
+      "code": "FO-633",
+      "name": "khaki green",
+      "label": "FO-633 khaki green",
+      "hex": "#846928",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-633 khaki green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.129",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-636",
+      "code": "FO-636",
+      "name": "fir green",
+      "label": "FO-636 fir green",
+      "hex": "#2C5C52",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-636 fir green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.094",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-637",
+      "code": "FO-637",
+      "name": "pear light",
+      "label": "FO-637 pear light",
+      "hex": "#C1AA26",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-637 pear light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.130",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-639",
+      "code": "FO-639",
+      "name": "pear",
+      "label": "FO-639 pear",
+      "hex": "#9F8C17",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-639 pear",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.138",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-640",
+      "code": "FO-640",
+      "name": "kiwi light",
+      "label": "FO-640 kiwi light",
+      "hex": "#B8D049",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-640 kiwi light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.096",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-641",
+      "code": "FO-641",
+      "name": "pear dark",
+      "label": "FO-641 pear dark",
+      "hex": "#796722",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-641 pear dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.144",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-642",
+      "code": "FO-642",
+      "name": "kiwi",
+      "label": "FO-642 kiwi",
+      "hex": "#7DBA2E",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-642 kiwi",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.097",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-644",
+      "code": "FO-644",
+      "name": "kiwi dark",
+      "label": "FO-644 kiwi dark",
+      "hex": "#699321",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-644 kiwi dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.098",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-663",
+      "code": "FO-663",
+      "name": "blue mint",
+      "label": "FO-663 blue mint",
+      "hex": "#9BCEA4",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-663 blue mint",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.142",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-664",
+      "code": "FO-664",
+      "name": "menthol light",
+      "label": "FO-664 menthol light",
+      "hex": "#92CBAC",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-664 menthol light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.108",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-666",
+      "code": "FO-666",
+      "name": "menthol",
+      "label": "FO-666 menthol",
+      "hex": "#70BF99",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-666 menthol",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.109",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-667",
+      "code": "FO-667",
+      "name": "blue crazy menthol",
+      "label": "FO-667 blue crazy menthol",
+      "hex": "#6CB76D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-667 blue crazy menthol",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.114",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-670",
+      "code": "FO-670",
+      "name": "turquoise",
+      "label": "FO-670 turquoise",
+      "hex": "#25A37D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-670 turquoise",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.111",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-672",
+      "code": "FO-672",
+      "name": "turquoise",
+      "label": "FO-672 turquoise",
+      "hex": "#188B5A",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-672 turquoise",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.112",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-675",
+      "code": "FO-675",
+      "name": "emerald green",
+      "label": "FO-675 emerald green",
+      "hex": "#00603D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-675 emerald green",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.185",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-697",
+      "code": "FO-697",
+      "name": "cocoa light",
+      "label": "FO-697 cocoa light",
+      "hex": "#D28079",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-697 cocoa light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.135",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-698",
+      "code": "FO-698",
+      "name": "cocoa",
+      "label": "FO-698 cocoa",
+      "hex": "#9F514C",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-698 cocoa",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.136",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-699",
+      "code": "FO-699",
+      "name": "light brown red",
+      "label": "FO-699 light brown red",
+      "hex": "#892626",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-699 light brown red",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.137",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-702",
+      "code": "FO-702",
+      "name": "ivory light",
+      "label": "FO-702 ivory light",
+      "hex": "#EDE0B7",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-702 ivory light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.116",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-703",
+      "code": "FO-703",
+      "name": "milk coffee",
+      "label": "FO-703 milk coffee",
+      "hex": "#D8B48B",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-703 milk coffee",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.147",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-704",
+      "code": "FO-704",
+      "name": "beige brown",
+      "label": "FO-704 beige brown",
+      "hex": "#C09A5D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-704 beige brown",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.117",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-706",
+      "code": "FO-706",
+      "name": "ocher",
+      "label": "FO-706 ocher",
+      "hex": "#9D6930",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-706 ocher",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.118",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-708",
+      "code": "FO-708",
+      "name": "nut",
+      "label": "FO-708 nut",
+      "hex": "#4D2B00",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-708 nut",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.119",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-710",
+      "code": "FO-710",
+      "name": "chocolate",
+      "label": "FO-710 chocolate",
+      "hex": "#2D170D",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-710 chocolate",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.120",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-732",
+      "code": "FO-732",
+      "name": "grey beige light",
+      "label": "FO-732 grey beige light",
+      "hex": "#B5A486",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-732 grey beige light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.131",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-734",
+      "code": "FO-734",
+      "name": "grey beige",
+      "label": "FO-734 grey beige",
+      "hex": "#A28C63",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-734 grey beige",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "587.132",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-736",
+      "code": "FO-736",
+      "name": "khaki grey",
+      "label": "FO-736 khaki grey",
+      "hex": "#6F5C3A",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-736 khaki grey",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.133",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-830",
+      "code": "FO-830",
+      "name": "stone grey light",
+      "label": "FO-830 stone grey light",
+      "hex": "#D6D5CA",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-830 stone grey light",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.148",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-831",
+      "code": "FO-831",
+      "name": "stone grey middle",
+      "label": "FO-831 stone grey middle",
+      "hex": "#B2B1A6",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-831 stone grey middle",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.149",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-832",
+      "code": "FO-832",
+      "name": "light stone grey",
+      "label": "FO-832 light stone grey",
+      "hex": "#928F86",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-832 light stone grey",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.150",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-833",
+      "code": "FO-833",
+      "name": "stone grey dark",
+      "label": "FO-833 stone grey dark",
+      "hex": "#636056",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-833 stone grey dark",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.151",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-834",
+      "code": "FO-834",
+      "name": "light grey neutral",
+      "label": "FO-834 light grey neutral",
+      "hex": "#DAD3CD",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-834 light grey neutral",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.152",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-836",
+      "code": "FO-836",
+      "name": "middle grey neutral",
+      "label": "FO-836 middle grey neutral",
+      "hex": "#AFADAC",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-836 middle grey neutral",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.153",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-840",
+      "code": "FO-840",
+      "name": "dark grey neutral",
+      "label": "FO-840 dark grey neutral",
+      "hex": "#86807F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-840 dark grey neutral",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.155",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-844",
+      "code": "FO-844",
+      "name": "anthracite grey",
+      "label": "FO-844 anthracite grey",
+      "hex": "#4C4C4F",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-844 anthracite grey",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.157",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-900",
+      "code": "FO-900",
+      "name": "pure white",
+      "label": "FO-900 pure white",
+      "hex": "#FFFFFF",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-900 pure white",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.159",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.912",
+            "format": "600ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-901",
+      "code": "FO-901",
+      "name": "thick black",
+      "label": "FO-901 thick black",
+      "hex": "#090909",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-901 thick black",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.158",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.915",
+            "format": "600ml"
+          },
+          {
+            "itemNumber": "558.801",
+            "format": "500ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-902",
+      "code": "FO-902",
+      "name": "ultra chrome",
+      "label": "FO-902 ultra chrome",
+      "hex": "#8F98A1",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-902 ultra chrome",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.160",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.913",
+            "format": "600ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-904",
+      "code": "FO-904",
+      "name": "deep black",
+      "label": "FO-904 deep black",
+      "hex": "#090909",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-904 deep black",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.161",
+            "format": "400ml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FO-906",
+      "code": "FO-906",
+      "name": "gold",
+      "label": "FO-906 gold",
+      "hex": "#BE9F60",
+      "finish": null,
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "FO-906 gold",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePage": 1,
+        "hexApproximation": true,
+        "variants": [
+          {
+            "itemNumber": "558.162",
+            "format": "400ml"
+          },
+          {
+            "itemNumber": "558.914",
+            "format": "600ml"
+          }
+        ]
+      }
+    }
+  ]
+}

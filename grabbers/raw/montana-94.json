@@ -1,0 +1,2029 @@
+{
+  "source": {
+    "type": "pdf",
+    "url": "https://streetcontrol.jimdofree.com/app/download/4809568966/Nuancier+Montana+94.pdf?t=1655908943",
+    "pages": [
+      2
+    ],
+    "hexApproximation": true,
+    "note": "Hex values sampled from swatches on the color chart PDF.",
+    "uncodedSkipped": [
+      "BLANCO | WHITE",
+      "NEGRO | BLACK"
+    ]
+  },
+  "colors": [
+    {
+      "code": "R-140",
+      "family": "R",
+      "reference": "140",
+      "name": "MOLE BROWN",
+      "englishName": "MOLE BROWN",
+      "spanishName": "MARRÓN TOPO",
+      "aliases": [
+        "MARRÓN TOPO"
+      ],
+      "sourceLabel": "R-140 MARRÓN TOPO / MOLE BROWN",
+      "hex": "#503915",
+      "page": 2
+    },
+    {
+      "code": "R-1013",
+      "family": "R",
+      "reference": "1013",
+      "name": "BONE WHITE",
+      "englishName": "BONE WHITE",
+      "spanishName": "BLANCO HUESO",
+      "aliases": [
+        "BLANCO HUESO"
+      ],
+      "sourceLabel": "R-1013 BLANCO HUESO / BONE WHITE",
+      "hex": "#FFFFFF",
+      "page": 2
+    },
+    {
+      "code": "R-1016",
+      "family": "R",
+      "reference": "1016",
+      "name": "LEMON YELLOW",
+      "englishName": "LEMON YELLOW",
+      "spanishName": "AMARILLO LIMÓN",
+      "aliases": [
+        "AMARILLO LIMÓN"
+      ],
+      "sourceLabel": "R-1016 AMARILLO LIMÓN / LEMON YELLOW",
+      "hex": "#DCD872",
+      "page": 2
+    },
+    {
+      "code": "R-1021",
+      "family": "R",
+      "reference": "1021",
+      "name": "LIGHT YELLOW",
+      "englishName": "LIGHT YELLOW",
+      "spanishName": "AMARILLO CLARO",
+      "aliases": [
+        "AMARILLO CLARO"
+      ],
+      "sourceLabel": "R-1021 AMARILLO CLARO / LIGHT YELLOW",
+      "hex": "#FFE700",
+      "page": 2
+    },
+    {
+      "code": "R-2004",
+      "family": "R",
+      "reference": "2004",
+      "name": "ORANGE",
+      "englishName": "ORANGE",
+      "spanishName": "NARANJA",
+      "aliases": [
+        "NARANJA"
+      ],
+      "sourceLabel": "R-2004 NARANJA / ORANGE",
+      "hex": "#EA640D",
+      "page": 2
+    },
+    {
+      "code": "R-3001",
+      "family": "R",
+      "reference": "3001",
+      "name": "INTENSE RED",
+      "englishName": "INTENSE RED",
+      "spanishName": "ROJO VIVO",
+      "aliases": [
+        "ROJO VIVO"
+      ],
+      "sourceLabel": "R-3001 ROJO VIVO / INTENSE RED",
+      "hex": "#B3061E",
+      "page": 2
+    },
+    {
+      "code": "R-3004",
+      "family": "R",
+      "reference": "3004",
+      "name": "BORDEAUX RED",
+      "englishName": "BORDEAUX RED",
+      "spanishName": "ROJO BURDEOS",
+      "aliases": [
+        "ROJO BURDEOS"
+      ],
+      "sourceLabel": "R-3004 ROJO BURDEOS / BORDEAUX RED",
+      "hex": "#600819",
+      "page": 2
+    },
+    {
+      "code": "R-3007",
+      "family": "R",
+      "reference": "3007",
+      "name": "CHEROKEE RED",
+      "englishName": "CHEROKEE RED",
+      "spanishName": "ROJO CHEROKEE",
+      "aliases": [
+        "ROJO CHEROKEE"
+      ],
+      "sourceLabel": "R-3007 ROJO CHEROKEE / CHEROKEE RED",
+      "hex": "#3A0806",
+      "page": 2
+    },
+    {
+      "code": "R-3017",
+      "family": "R",
+      "reference": "3017",
+      "name": "FEVER RED",
+      "englishName": "FEVER RED",
+      "spanishName": "ROJO FIEBRE",
+      "aliases": [
+        "ROJO FIEBRE"
+      ],
+      "sourceLabel": "R-3017 ROJO FIEBRE / FEVER RED",
+      "hex": "#DC534D",
+      "page": 2
+    },
+    {
+      "code": "R-3020",
+      "family": "R",
+      "reference": "3020",
+      "name": "LIGHT RED",
+      "englishName": "LIGHT RED",
+      "spanishName": "ROJO CLARO",
+      "aliases": [
+        "ROJO CLARO"
+      ],
+      "sourceLabel": "R-3020 ROJO CLARO / LIGHT RED",
+      "hex": "#E42D2F",
+      "page": 2
+    },
+    {
+      "code": "R-4003",
+      "family": "R",
+      "reference": "4003",
+      "name": "ERIKA",
+      "englishName": "ERIKA",
+      "spanishName": "ERIKA",
+      "aliases": [],
+      "sourceLabel": "R-4003 ERIKA / ERIKA",
+      "hex": "#E85B99",
+      "page": 2
+    },
+    {
+      "code": "R-4010",
+      "family": "R",
+      "reference": "4010",
+      "name": "MAGENTA",
+      "englishName": "MAGENTA",
+      "spanishName": "MAGENTA",
+      "aliases": [],
+      "sourceLabel": "R-4010 MAGENTA / MAGENTA",
+      "hex": "#D90075",
+      "page": 2
+    },
+    {
+      "code": "R-5005",
+      "family": "R",
+      "reference": "5005",
+      "name": "DARK BLUE",
+      "englishName": "DARK BLUE",
+      "spanishName": "AZUL OSCURO",
+      "aliases": [
+        "AZUL OSCURO"
+      ],
+      "sourceLabel": "R-5005 AZUL OSCURO / DARK BLUE",
+      "hex": "#003975",
+      "page": 2
+    },
+    {
+      "code": "R-5013",
+      "family": "R",
+      "reference": "5013",
+      "name": "MARINE BLUE",
+      "englishName": "MARINE BLUE",
+      "spanishName": "AZUL MARINO",
+      "aliases": [
+        "AZUL MARINO"
+      ],
+      "sourceLabel": "R-5013 AZUL MARINO / MARINE BLUE",
+      "hex": "#000E30",
+      "page": 2
+    },
+    {
+      "code": "R-5018",
+      "family": "R",
+      "reference": "5018",
+      "name": "TURQUOISE GREEN",
+      "englishName": "TURQUOISE GREEN",
+      "spanishName": "VERDE TURQUESA",
+      "aliases": [
+        "VERDE TURQUESA"
+      ],
+      "sourceLabel": "R-5018 VERDE TURQUESA / TURQUOISE GREEN",
+      "hex": "#008792",
+      "page": 2
+    },
+    {
+      "code": "R-6009",
+      "family": "R",
+      "reference": "6009",
+      "name": "AMAZONAS GREEN",
+      "englishName": "AMAZONAS GREEN",
+      "spanishName": "VERDE AMAZONAS",
+      "aliases": [
+        "VERDE AMAZONAS"
+      ],
+      "sourceLabel": "R-6009 VERDE AMAZONAS / AMAZONAS GREEN",
+      "hex": "#0D2805",
+      "page": 2
+    },
+    {
+      "code": "R-6018",
+      "family": "R",
+      "reference": "6018",
+      "name": "VALLEY GREEN",
+      "englishName": "VALLEY GREEN",
+      "spanishName": "VERDE VALLE",
+      "aliases": [
+        "VERDE VALLE"
+      ],
+      "sourceLabel": "R-6018 VERDE VALLE / VALLEY GREEN",
+      "hex": "#4A7518",
+      "page": 2
+    },
+    {
+      "code": "R-6027",
+      "family": "R",
+      "reference": "6027",
+      "name": "LUMINOUS GREEN",
+      "englishName": "LUMINOUS GREEN",
+      "spanishName": "VERDE LUZ",
+      "aliases": [
+        "VERDE LUZ"
+      ],
+      "sourceLabel": "R-6027 VERDE LUZ / LUMINOUS GREEN",
+      "hex": "#A1D5CF",
+      "page": 2
+    },
+    {
+      "code": "R-7016",
+      "family": "R",
+      "reference": "7016",
+      "name": "ANTHRACITE GREY",
+      "englishName": "ANTHRACITE GREY",
+      "spanishName": "GRIS ANTRACITA",
+      "aliases": [
+        "GRIS ANTRACITA"
+      ],
+      "sourceLabel": "R-7016 GRIS ANTRACITA / ANTHRACITE GREY",
+      "hex": "#363639",
+      "page": 2
+    },
+    {
+      "code": "R-7040",
+      "family": "R",
+      "reference": "7040",
+      "name": "PEARL GREY",
+      "englishName": "PEARL GREY",
+      "spanishName": "GRIS PERLA",
+      "aliases": [
+        "GRIS PERLA"
+      ],
+      "sourceLabel": "R-7040 GRIS PERLA / PEARL GREY",
+      "hex": "#B5B8BA",
+      "page": 2
+    },
+    {
+      "code": "R-7047",
+      "family": "R",
+      "reference": "7047",
+      "name": "SIBERIAN GREY",
+      "englishName": "SIBERIAN GREY",
+      "spanishName": "GRIS SIBERIA",
+      "aliases": [
+        "GRIS SIBERIA"
+      ],
+      "sourceLabel": "R-7047 GRIS SIBERIA / SIBERIAN GREY",
+      "hex": "#DBDDDF",
+      "page": 2
+    },
+    {
+      "code": "R-8023",
+      "family": "R",
+      "reference": "8023",
+      "name": "MUSTARD",
+      "englishName": "MUSTARD",
+      "spanishName": "MOSTAZA",
+      "aliases": [
+        "MOSTAZA"
+      ],
+      "sourceLabel": "R-8023 MOSTAZA / MUSTARD",
+      "hex": "#A76226",
+      "page": 2
+    },
+    {
+      "code": "R-V16",
+      "family": "R-V",
+      "reference": "V16",
+      "name": "PISTACHIO GREEN",
+      "englishName": "PISTACHIO GREEN",
+      "spanishName": "VERDE PISTACHO",
+      "aliases": [
+        "VERDE PISTACHO"
+      ],
+      "sourceLabel": "R-V16 VERDE PISTACHO / PISTACHIO GREEN",
+      "hex": "#BDD268",
+      "page": 2
+    },
+    {
+      "code": "R-V20",
+      "family": "R-V",
+      "reference": "V20",
+      "name": "PARTY YELLOW",
+      "englishName": "PARTY YELLOW",
+      "spanishName": "AMARILLO FIESTA",
+      "aliases": [
+        "AMARILLO FIESTA"
+      ],
+      "sourceLabel": "R-V20 AMARILLO FIESTA / PARTY YELLOW",
+      "hex": "#FFEF8C",
+      "page": 2
+    },
+    {
+      "code": "R-V27",
+      "family": "R-V",
+      "reference": "V27",
+      "name": "VAMPIRE VIOLET",
+      "englishName": "VAMPIRE VIOLET",
+      "spanishName": "VIOLETA VAMPIRO",
+      "aliases": [
+        "VIOLETA VAMPIRO"
+      ],
+      "sourceLabel": "R-V27 VIOLETA VAMPIRO / VAMPIRE VIOLET",
+      "hex": "#140633",
+      "page": 2
+    },
+    {
+      "code": "R-V28",
+      "family": "R-V",
+      "reference": "V28",
+      "name": "COSMOS VIOLET",
+      "englishName": "COSMOS VIOLET",
+      "spanishName": "VIOLETA COSMOS",
+      "aliases": [
+        "VIOLETA COSMOS"
+      ],
+      "sourceLabel": "R-V28 VIOLETA COSMOS / COSMOS VIOLET",
+      "hex": "#241D47",
+      "page": 2
+    },
+    {
+      "code": "R-V30",
+      "family": "R-V",
+      "reference": "V30",
+      "name": "ELECTRIC BLUE",
+      "englishName": "ELECTRIC BLUE",
+      "spanishName": "AZUL ELECTRICO",
+      "aliases": [
+        "AZUL ELECTRICO"
+      ],
+      "sourceLabel": "R-V30 AZUL ELECTRICO / ELECTRIC BLUE",
+      "hex": "#005891",
+      "page": 2
+    },
+    {
+      "code": "R-V34",
+      "family": "R-V",
+      "reference": "V34",
+      "name": "GUACAMOLE GREEN",
+      "englishName": "GUACAMOLE GREEN",
+      "spanishName": "VERDE GUACAMOLE",
+      "aliases": [
+        "VERDE GUACAMOLE"
+      ],
+      "sourceLabel": "R-V34 VERDE GUACAMOLE / GUACAMOLE GREEN",
+      "hex": "#81A512",
+      "page": 2
+    },
+    {
+      "code": "R-V47",
+      "family": "R-V",
+      "reference": "V47",
+      "name": "CLANDESTINE RED",
+      "englishName": "CLANDESTINE RED",
+      "spanishName": "ROJO CLANDESTINO",
+      "aliases": [
+        "ROJO CLANDESTINO"
+      ],
+      "sourceLabel": "R-V47 ROJO CLANDESTINO / CLANDESTINE RED",
+      "hex": "#950825",
+      "page": 2
+    },
+    {
+      "code": "R-V50",
+      "family": "R-V",
+      "reference": "V50",
+      "name": "SOLAR ORANGE",
+      "englishName": "SOLAR ORANGE",
+      "spanishName": "NARANJA SOLAR",
+      "aliases": [
+        "NARANJA SOLAR"
+      ],
+      "sourceLabel": "R-V50 NARANJA SOLAR / SOLAR ORANGE",
+      "hex": "#F7B060",
+      "page": 2
+    },
+    {
+      "code": "R-V60",
+      "family": "R-V",
+      "reference": "V60",
+      "name": "KRYPTON GREEN",
+      "englishName": "KRYPTON GREEN",
+      "spanishName": "VERDE KRIPTON",
+      "aliases": [
+        "VERDE KRIPTON"
+      ],
+      "sourceLabel": "R-V60 VERDE KRIPTON / KRYPTON GREEN",
+      "hex": "#83890E",
+      "page": 2
+    },
+    {
+      "code": "R-V64",
+      "family": "R-V",
+      "reference": "V64",
+      "name": "RESPECT PINK",
+      "englishName": "RESPECT PINK",
+      "spanishName": "ROSA RESPETO",
+      "aliases": [
+        "ROSA RESPETO"
+      ],
+      "sourceLabel": "R-V64 ROSA RESPETO / RESPECT PINK",
+      "hex": "#B59993",
+      "page": 2
+    },
+    {
+      "code": "R-V77",
+      "family": "R-V",
+      "reference": "V77",
+      "name": "NIGHT RED",
+      "englishName": "NIGHT RED",
+      "spanishName": "ROJO NOCHE",
+      "aliases": [
+        "ROJO NOCHE"
+      ],
+      "sourceLabel": "R-V77 ROJO NOCHE / NIGHT RED",
+      "hex": "#320705",
+      "page": 2
+    },
+    {
+      "code": "R-V78",
+      "family": "R-V",
+      "reference": "V78",
+      "name": "METROPOLIS GREY",
+      "englishName": "METROPOLIS GREY",
+      "spanishName": "GRIS METROPOLIS",
+      "aliases": [
+        "GRIS METROPOLIS"
+      ],
+      "sourceLabel": "R-V78 GRIS METROPOLIS / METROPOLIS GREY",
+      "hex": "#2B262C",
+      "page": 2
+    },
+    {
+      "code": "R-V86",
+      "family": "R-V",
+      "reference": "V86",
+      "name": "BOREAL PINK",
+      "englishName": "BOREAL PINK",
+      "spanishName": "ROSA BOREAL",
+      "aliases": [
+        "ROSA BOREAL"
+      ],
+      "sourceLabel": "R-V86 ROSA BOREAL / BOREAL PINK",
+      "hex": "#E3C0C3",
+      "page": 2
+    },
+    {
+      "code": "R-V87",
+      "family": "R-V",
+      "reference": "V87",
+      "name": "STEREO PINK",
+      "englishName": "STEREO PINK",
+      "spanishName": "ROSA STEREO",
+      "aliases": [
+        "ROSA STEREO"
+      ],
+      "sourceLabel": "R-V87 ROSA STEREO / STEREO PINK",
+      "hex": "#CB96A4",
+      "page": 2
+    },
+    {
+      "code": "R-V88",
+      "family": "R-V",
+      "reference": "V88",
+      "name": "SINGLE PINK",
+      "englishName": "SINGLE PINK",
+      "spanishName": "ROSA SINGLE",
+      "aliases": [
+        "ROSA SINGLE"
+      ],
+      "sourceLabel": "R-V88 ROSA SINGLE / SINGLE PINK",
+      "hex": "#A06D7E",
+      "page": 2
+    },
+    {
+      "code": "R-V89",
+      "family": "R-V",
+      "reference": "V89",
+      "name": "COMPACT RED",
+      "englishName": "COMPACT RED",
+      "spanishName": "ROJO COMPACTO",
+      "aliases": [
+        "ROJO COMPACTO"
+      ],
+      "sourceLabel": "R-V89 ROJO COMPACTO / COMPACT RED",
+      "hex": "#874B55",
+      "page": 2
+    },
+    {
+      "code": "R-V90",
+      "family": "R-V",
+      "reference": "V90",
+      "name": "BITACORA RED",
+      "englishName": "BITACORA RED",
+      "spanishName": "ROJO BITÁCORA",
+      "aliases": [
+        "ROJO BITÁCORA"
+      ],
+      "sourceLabel": "R-V90 ROJO BITÁCORA / BITACORA RED",
+      "hex": "#582B3A",
+      "page": 2
+    },
+    {
+      "code": "R-V91",
+      "family": "R-V",
+      "reference": "V91",
+      "name": "PANDORA RED",
+      "englishName": "PANDORA RED",
+      "spanishName": "ROJO PANDORA",
+      "aliases": [
+        "ROJO PANDORA"
+      ],
+      "sourceLabel": "R-V91 ROJO PANDORA / PANDORA RED",
+      "hex": "#4F1F30",
+      "page": 2
+    },
+    {
+      "code": "R-V92",
+      "family": "R-V",
+      "reference": "V92",
+      "name": "GAUDÍ RED",
+      "englishName": "GAUDÍ RED",
+      "spanishName": "ROJO GAUDÍ",
+      "aliases": [
+        "ROJO GAUDÍ"
+      ],
+      "sourceLabel": "R-V92 ROJO GAUDÍ / GAUDÍ RED",
+      "hex": "#32112A",
+      "page": 2
+    },
+    {
+      "code": "R-V93",
+      "family": "R-V",
+      "reference": "V93",
+      "name": "STENDHAL RED",
+      "englishName": "STENDHAL RED",
+      "spanishName": "ROJO STENDHAL",
+      "aliases": [
+        "ROJO STENDHAL"
+      ],
+      "sourceLabel": "R-V93 ROJO STENDHAL / STENDHAL RED",
+      "hex": "#290012",
+      "page": 2
+    },
+    {
+      "code": "R-V94",
+      "family": "R-V",
+      "reference": "V94",
+      "name": "DINGO BROWN",
+      "englishName": "DINGO BROWN",
+      "spanishName": "MARRÓN DINGO",
+      "aliases": [
+        "MARRÓN DINGO"
+      ],
+      "sourceLabel": "R-V94 MARRÓN DINGO / DINGO BROWN",
+      "hex": "#E8D0B7",
+      "page": 2
+    },
+    {
+      "code": "R-V95",
+      "family": "R-V",
+      "reference": "V95",
+      "name": "TANA BROWN",
+      "englishName": "TANA BROWN",
+      "spanishName": "MARRÓN TANA",
+      "aliases": [
+        "MARRÓN TANA"
+      ],
+      "sourceLabel": "R-V95 MARRÓN TANA / TANA BROWN",
+      "hex": "#D2A786",
+      "page": 2
+    },
+    {
+      "code": "R-V96",
+      "family": "R-V",
+      "reference": "V96",
+      "name": "MONTSERRAT",
+      "englishName": "MONTSERRAT",
+      "spanishName": "MONTSERRAT",
+      "aliases": [],
+      "sourceLabel": "R-V96 MONTSERRAT / MONTSERRAT",
+      "hex": "#CC955F",
+      "page": 2
+    },
+    {
+      "code": "R-V97",
+      "family": "R-V",
+      "reference": "V97",
+      "name": "CHIAPAS BROWN",
+      "englishName": "CHIAPAS BROWN",
+      "spanishName": "MARRÓN CHIAPAS",
+      "aliases": [
+        "MARRÓN CHIAPAS"
+      ],
+      "sourceLabel": "R-V97 MARRÓN CHIAPAS / CHIAPAS BROWN",
+      "hex": "#A0682B",
+      "page": 2
+    },
+    {
+      "code": "R-V98",
+      "family": "R-V",
+      "reference": "V98",
+      "name": "BEAN BROWN",
+      "englishName": "BEAN BROWN",
+      "spanishName": "MARRÓN FRIJOL",
+      "aliases": [
+        "MARRÓN FRIJOL"
+      ],
+      "sourceLabel": "R-V98 MARRÓN FRIJOL / BEAN BROWN",
+      "hex": "#A65F30",
+      "page": 2
+    },
+    {
+      "code": "R-V99",
+      "family": "R-V",
+      "reference": "V99",
+      "name": "MARRÓN GLACÉ",
+      "englishName": "MARRÓN GLACÉ",
+      "spanishName": "MARRÓN GLACÉ",
+      "aliases": [],
+      "sourceLabel": "R-V99 MARRÓN GLACÉ / MARRÓN GLACÉ",
+      "hex": "#7A3D25",
+      "page": 2
+    },
+    {
+      "code": "R-V100",
+      "family": "R-V",
+      "reference": "V100",
+      "name": "COFFEE BROWN",
+      "englishName": "COFFEE BROWN",
+      "spanishName": "MARRÓN CAFÉ",
+      "aliases": [
+        "MARRÓN CAFÉ"
+      ],
+      "sourceLabel": "R-V100 MARRÓN CAFÉ / COFFEE BROWN",
+      "hex": "#402009",
+      "page": 2
+    },
+    {
+      "code": "R-V101",
+      "family": "R-V",
+      "reference": "V101",
+      "name": "EBONY BROWN",
+      "englishName": "EBONY BROWN",
+      "spanishName": "MARRÓN EBANO",
+      "aliases": [
+        "MARRÓN EBANO"
+      ],
+      "sourceLabel": "R-V101 MARRÓN EBANO / EBONY BROWN",
+      "hex": "#2F110A",
+      "page": 2
+    },
+    {
+      "code": "R-V102",
+      "family": "R-V",
+      "reference": "V102",
+      "name": "DALAI ORANGE",
+      "englishName": "DALAI ORANGE",
+      "spanishName": "NARANJA DALAI",
+      "aliases": [
+        "NARANJA DALAI"
+      ],
+      "sourceLabel": "R-V102 NARANJA DALAI / DALAI ORANGE",
+      "hex": "#FDDCA3",
+      "page": 2
+    },
+    {
+      "code": "R-V103",
+      "family": "R-V",
+      "reference": "V103",
+      "name": "PLURAL ORANGE",
+      "englishName": "PLURAL ORANGE",
+      "spanishName": "NARANJA PLURAL",
+      "aliases": [
+        "NARANJA PLURAL"
+      ],
+      "sourceLabel": "R-V103 NARANJA PLURAL / PLURAL ORANGE",
+      "hex": "#FAC67E",
+      "page": 2
+    },
+    {
+      "code": "R-V105",
+      "family": "R-V",
+      "reference": "V105",
+      "name": "TANGERINE",
+      "englishName": "TANGERINE",
+      "spanishName": "MANDARINA",
+      "aliases": [
+        "MANDARINA"
+      ],
+      "sourceLabel": "R-V105 MANDARINA / TANGERINE",
+      "hex": "#F5A54A",
+      "page": 2
+    },
+    {
+      "code": "R-V106",
+      "family": "R-V",
+      "reference": "V106",
+      "name": "LAVA ORANGE",
+      "englishName": "LAVA ORANGE",
+      "spanishName": "NARANJA LAVA",
+      "aliases": [
+        "NARANJA LAVA"
+      ],
+      "sourceLabel": "R-V106 NARANJA LAVA / LAVA ORANGE",
+      "hex": "#EF8407",
+      "page": 2
+    },
+    {
+      "code": "R-V107",
+      "family": "R-V",
+      "reference": "V107",
+      "name": "MARS ORANGE",
+      "englishName": "MARS ORANGE",
+      "spanishName": "NARANJA MARTE",
+      "aliases": [
+        "NARANJA MARTE"
+      ],
+      "sourceLabel": "R-V107 NARANJA MARTE / MARS ORANGE",
+      "hex": "#E64714",
+      "page": 2
+    },
+    {
+      "code": "R-V108",
+      "family": "R-V",
+      "reference": "V108",
+      "name": "PHOENIX ORANGE",
+      "englishName": "PHOENIX ORANGE",
+      "spanishName": "NARANJA FENIX",
+      "aliases": [
+        "NARANJA FENIX"
+      ],
+      "sourceLabel": "R-V108 NARANJA FENIX / PHOENIX ORANGE",
+      "hex": "#BE3819",
+      "page": 2
+    },
+    {
+      "code": "R-V109",
+      "family": "R-V",
+      "reference": "V109",
+      "name": "CANARIAS YELLOW",
+      "englishName": "CANARIAS YELLOW",
+      "spanishName": "AMARILLO CANARIAS",
+      "aliases": [
+        "AMARILLO CANARIAS"
+      ],
+      "sourceLabel": "R-V109 AMARILLO CANARIAS / CANARIAS YELLOW",
+      "hex": "#FFF058",
+      "page": 2
+    },
+    {
+      "code": "R-V110",
+      "family": "R-V",
+      "reference": "V110",
+      "name": "YOSEMITE YELLOW",
+      "englishName": "YOSEMITE YELLOW",
+      "spanishName": "AMARILLO YOSEMITE",
+      "aliases": [
+        "AMARILLO YOSEMITE"
+      ],
+      "sourceLabel": "R-V110 AMARILLO YOSEMITE / YOSEMITE YELLOW",
+      "hex": "#C7B300",
+      "page": 2
+    },
+    {
+      "code": "R-V111",
+      "family": "R-V",
+      "reference": "V111",
+      "name": "BABEL GREEN",
+      "englishName": "BABEL GREEN",
+      "spanishName": "VERDE BABEL",
+      "aliases": [
+        "VERDE BABEL"
+      ],
+      "sourceLabel": "R-V111 VERDE BABEL / BABEL GREEN",
+      "hex": "#A29400",
+      "page": 2
+    },
+    {
+      "code": "R-V112",
+      "family": "R-V",
+      "reference": "V112",
+      "name": "MISSION GREEN",
+      "englishName": "MISSION GREEN",
+      "spanishName": "VERDE MISIÓN",
+      "aliases": [
+        "VERDE MISIÓN"
+      ],
+      "sourceLabel": "R-V112 VERDE MISIÓN / MISSION GREEN",
+      "hex": "#766A10",
+      "page": 2
+    },
+    {
+      "code": "R-V113",
+      "family": "R-V",
+      "reference": "V113",
+      "name": "DRAGON GREEN",
+      "englishName": "DRAGON GREEN",
+      "spanishName": "VERDE DRAGÓN",
+      "aliases": [
+        "VERDE DRAGÓN"
+      ],
+      "sourceLabel": "R-V113 VERDE DRAGÓN / DRAGON GREEN",
+      "hex": "#5E5003",
+      "page": 2
+    },
+    {
+      "code": "R-V114",
+      "family": "R-V",
+      "reference": "V114",
+      "name": "MAYA GREEN",
+      "englishName": "MAYA GREEN",
+      "spanishName": "VERDE MAYA",
+      "aliases": [
+        "VERDE MAYA"
+      ],
+      "sourceLabel": "R-V114 VERDE MAYA / MAYA GREEN",
+      "hex": "#3D3409",
+      "page": 2
+    },
+    {
+      "code": "R-V115",
+      "family": "R-V",
+      "reference": "V115",
+      "name": "TUTTI FRUTTI",
+      "englishName": "TUTTI FRUTTI",
+      "spanishName": "TUTTI FRUTTI",
+      "aliases": [],
+      "sourceLabel": "R-V115 TUTTI FRUTTI / TUTTI FRUTTI",
+      "hex": "#EA949E",
+      "page": 2
+    },
+    {
+      "code": "R-V116",
+      "family": "R-V",
+      "reference": "V116",
+      "name": "BLOOD RED",
+      "englishName": "BLOOD RED",
+      "spanishName": "ROJO SANGRE",
+      "aliases": [
+        "ROJO SANGRE"
+      ],
+      "sourceLabel": "R-V116 ROJO SANGRE / BLOOD RED",
+      "hex": "#D53025",
+      "page": 2
+    },
+    {
+      "code": "R-V118",
+      "family": "R-V",
+      "reference": "V118",
+      "name": "RITA GREY",
+      "englishName": "RITA GREY",
+      "spanishName": "GRIS RITA",
+      "aliases": [
+        "GRIS RITA"
+      ],
+      "sourceLabel": "R-V118 GRIS RITA / RITA GREY",
+      "hex": "#CDD0D1",
+      "page": 2
+    },
+    {
+      "code": "R-V119",
+      "family": "R-V",
+      "reference": "V119",
+      "name": "LONDON GREY",
+      "englishName": "LONDON GREY",
+      "spanishName": "GRIS LONDRES",
+      "aliases": [
+        "GRIS LONDRES"
+      ],
+      "sourceLabel": "R-V119 GRIS LONDRES / LONDON GREY",
+      "hex": "#898B8E",
+      "page": 2
+    },
+    {
+      "code": "R-V120",
+      "family": "R-V",
+      "reference": "V120",
+      "name": "WOLF GREY",
+      "englishName": "WOLF GREY",
+      "spanishName": "GRIS LOBO",
+      "aliases": [
+        "GRIS LOBO"
+      ],
+      "sourceLabel": "R-V120 GRIS LOBO / WOLF GREY",
+      "hex": "#5B5B5E",
+      "page": 2
+    },
+    {
+      "code": "R-V121",
+      "family": "R-V",
+      "reference": "V121",
+      "name": "ICARUS GREY",
+      "englishName": "ICARUS GREY",
+      "spanishName": "GRIS ICARO",
+      "aliases": [
+        "GRIS ICARO"
+      ],
+      "sourceLabel": "R-V121 GRIS ICARO / ICARUS GREY",
+      "hex": "#47484B",
+      "page": 2
+    },
+    {
+      "code": "R-V124",
+      "family": "R-V",
+      "reference": "V124",
+      "name": "FRISCO GREEN",
+      "englishName": "FRISCO GREEN",
+      "spanishName": "VERDE FRISCO",
+      "aliases": [
+        "VERDE FRISCO"
+      ],
+      "sourceLabel": "R-V124 VERDE FRISCO / FRISCO GREEN",
+      "hex": "#D4E19E",
+      "page": 2
+    },
+    {
+      "code": "R-V125",
+      "family": "R-V",
+      "reference": "V125",
+      "name": "NEON GREEN",
+      "englishName": "NEON GREEN",
+      "spanishName": "VERDE NEÓN",
+      "aliases": [
+        "VERDE NEÓN"
+      ],
+      "sourceLabel": "R-V125 VERDE NEÓN / NEON GREEN",
+      "hex": "#A5B700",
+      "page": 2
+    },
+    {
+      "code": "R-V126",
+      "family": "R-V",
+      "reference": "V126",
+      "name": "TOSCANA GREEN",
+      "englishName": "TOSCANA GREEN",
+      "spanishName": "VERDE TOSCANA",
+      "aliases": [
+        "VERDE TOSCANA"
+      ],
+      "sourceLabel": "R-V126 VERDE TOSCANA / TOSCANA GREEN",
+      "hex": "#2B491F",
+      "page": 2
+    },
+    {
+      "code": "R-V127",
+      "family": "R-V",
+      "reference": "V127",
+      "name": "ERA GREEN",
+      "englishName": "ERA GREEN",
+      "spanishName": "VERDE ERA",
+      "aliases": [
+        "VERDE ERA"
+      ],
+      "sourceLabel": "R-V127 VERDE ERA / ERA GREEN",
+      "hex": "#142F0F",
+      "page": 2
+    },
+    {
+      "code": "R-V129",
+      "family": "R-V",
+      "reference": "V129",
+      "name": "OREGANO GREEN",
+      "englishName": "OREGANO GREEN",
+      "spanishName": "VERDE OREGANO",
+      "aliases": [
+        "VERDE OREGANO"
+      ],
+      "sourceLabel": "R-V129 VERDE OREGANO / OREGANO GREEN",
+      "hex": "#AFAB00",
+      "page": 2
+    },
+    {
+      "code": "R-V130",
+      "family": "R-V",
+      "reference": "V130",
+      "name": "EUSKADI GREEN",
+      "englishName": "EUSKADI GREEN",
+      "spanishName": "VERDE EUSKADI",
+      "aliases": [
+        "VERDE EUSKADI"
+      ],
+      "sourceLabel": "R-V130 VERDE EUSKADI / EUSKADI GREEN",
+      "hex": "#50590D",
+      "page": 2
+    },
+    {
+      "code": "R-V131",
+      "family": "R-V",
+      "reference": "V131",
+      "name": "COMARCA GREEN",
+      "englishName": "COMARCA GREEN",
+      "spanishName": "VERDE COMARCA",
+      "aliases": [
+        "VERDE COMARCA"
+      ],
+      "sourceLabel": "R-V131 VERDE COMARCA / COMARCA GREEN",
+      "hex": "#343B09",
+      "page": 2
+    },
+    {
+      "code": "R-V132",
+      "family": "R-V",
+      "reference": "V132",
+      "name": "BORNEO GREEN",
+      "englishName": "BORNEO GREEN",
+      "spanishName": "VERDE BORNEO",
+      "aliases": [
+        "VERDE BORNEO"
+      ],
+      "sourceLabel": "R-V132 VERDE BORNEO / BORNEO GREEN",
+      "hex": "#202C06",
+      "page": 2
+    },
+    {
+      "code": "R-V133",
+      "family": "R-V",
+      "reference": "V133",
+      "name": "DHARMA GREEN",
+      "englishName": "DHARMA GREEN",
+      "spanishName": "VERDE DHARMA",
+      "aliases": [
+        "VERDE DHARMA"
+      ],
+      "sourceLabel": "R-V133 VERDE DHARMA / DHARMA GREEN",
+      "hex": "#202C06",
+      "page": 2
+    },
+    {
+      "code": "R-V134",
+      "family": "R-V",
+      "reference": "V134",
+      "name": "INFINITY GREEN",
+      "englishName": "INFINITY GREEN",
+      "spanishName": "VERDE INFINITO",
+      "aliases": [
+        "VERDE INFINITO"
+      ],
+      "sourceLabel": "R-V134 VERDE INFINITO / INFINITY GREEN",
+      "hex": "#152606",
+      "page": 2
+    },
+    {
+      "code": "R-V135",
+      "family": "R-V",
+      "reference": "V135",
+      "name": "SAFARI BROWN",
+      "englishName": "SAFARI BROWN",
+      "spanishName": "MARRÓN SAFARI",
+      "aliases": [
+        "MARRÓN SAFARI"
+      ],
+      "sourceLabel": "R-V135 MARRÓN SAFARI / SAFARI BROWN",
+      "hex": "#EAE0A9",
+      "page": 2
+    },
+    {
+      "code": "R-V136",
+      "family": "R-V",
+      "reference": "V136",
+      "name": "INCA BROWN",
+      "englishName": "INCA BROWN",
+      "spanishName": "MARRÓN INCA",
+      "aliases": [
+        "MARRÓN INCA"
+      ],
+      "sourceLabel": "R-V136 MARRÓN INCA / INCA BROWN",
+      "hex": "#D9B365",
+      "page": 2
+    },
+    {
+      "code": "R-V137",
+      "family": "R-V",
+      "reference": "V137",
+      "name": "KRAFT BROWN",
+      "englishName": "KRAFT BROWN",
+      "spanishName": "MARRÓN KRAFT",
+      "aliases": [
+        "MARRÓN KRAFT"
+      ],
+      "sourceLabel": "R-V137 MARRÓN KRAFT / KRAFT BROWN",
+      "hex": "#BD9B62",
+      "page": 2
+    },
+    {
+      "code": "R-V138",
+      "family": "R-V",
+      "reference": "V138",
+      "name": "MARRAKECH",
+      "englishName": "MARRAKECH",
+      "spanishName": "MARRAQUECH",
+      "aliases": [
+        "MARRAQUECH"
+      ],
+      "sourceLabel": "R-V138 MARRAQUECH / MARRAKECH",
+      "hex": "#997540",
+      "page": 2
+    },
+    {
+      "code": "R-V139",
+      "family": "R-V",
+      "reference": "V139",
+      "name": "SEQUOIA BROWN",
+      "englishName": "SEQUOIA BROWN",
+      "spanishName": "MARRÓN SECUOIA",
+      "aliases": [
+        "MARRÓN SECUOIA"
+      ],
+      "sourceLabel": "R-V139 MARRÓN SECUOIA / SEQUOIA BROWN",
+      "hex": "#6F5229",
+      "page": 2
+    },
+    {
+      "code": "R-V141",
+      "family": "R-V",
+      "reference": "V141",
+      "name": "GONDOLA BROWN",
+      "englishName": "GONDOLA BROWN",
+      "spanishName": "MARRÓN GONDOLA",
+      "aliases": [
+        "MARRÓN GONDOLA"
+      ],
+      "sourceLabel": "R-V141 MARRÓN GONDOLA / GONDOLA BROWN",
+      "hex": "#412C14",
+      "page": 2
+    },
+    {
+      "code": "R-V142",
+      "family": "R-V",
+      "reference": "V142",
+      "name": "GEMINI GREEN",
+      "englishName": "GEMINI GREEN",
+      "spanishName": "VERDE GEMINIS",
+      "aliases": [
+        "VERDE GEMINIS"
+      ],
+      "sourceLabel": "R-V142 VERDE GEMINIS / GEMINI GREEN",
+      "hex": "#E1F0E8",
+      "page": 2
+    },
+    {
+      "code": "R-V144",
+      "family": "R-V",
+      "reference": "V144",
+      "name": "BALI GREEN",
+      "englishName": "BALI GREEN",
+      "spanishName": "VERDE BALI",
+      "aliases": [
+        "VERDE BALI"
+      ],
+      "sourceLabel": "R-V144 VERDE BALI / BALI GREEN",
+      "hex": "#7BC6C0",
+      "page": 2
+    },
+    {
+      "code": "R-V145",
+      "family": "R-V",
+      "reference": "V145",
+      "name": "ERASMUS GREEN",
+      "englishName": "ERASMUS GREEN",
+      "spanishName": "VERDE ERASMUS",
+      "aliases": [
+        "VERDE ERASMUS"
+      ],
+      "sourceLabel": "R-V145 VERDE ERASMUS / ERASMUS GREEN",
+      "hex": "#5BB5B5",
+      "page": 2
+    },
+    {
+      "code": "R-V146",
+      "family": "R-V",
+      "reference": "V146",
+      "name": "GLORY BLUE",
+      "englishName": "GLORY BLUE",
+      "spanishName": "AZUL GLÓRIA",
+      "aliases": [
+        "AZUL GLÓRIA"
+      ],
+      "sourceLabel": "R-V146 AZUL GLÓRIA / GLORY BLUE",
+      "hex": "#2D6A75",
+      "page": 2
+    },
+    {
+      "code": "R-V147",
+      "family": "R-V",
+      "reference": "V147",
+      "name": "PEGASUS BLUE",
+      "englishName": "PEGASUS BLUE",
+      "spanishName": "AZUL PEGASUS",
+      "aliases": [
+        "AZUL PEGASUS"
+      ],
+      "sourceLabel": "R-V147 AZUL PEGASUS / PEGASUS BLUE",
+      "hex": "#003640",
+      "page": 2
+    },
+    {
+      "code": "R-V148",
+      "family": "R-V",
+      "reference": "V148",
+      "name": "HERCULES BLUE",
+      "englishName": "HERCULES BLUE",
+      "spanishName": "AZUL HERCULES",
+      "aliases": [
+        "AZUL HERCULES"
+      ],
+      "sourceLabel": "R-V148 AZUL HERCULES / HERCULES BLUE",
+      "hex": "#00282A",
+      "page": 2
+    },
+    {
+      "code": "R-V149",
+      "family": "R-V",
+      "reference": "V149",
+      "name": "HYDRA BLUE",
+      "englishName": "HYDRA BLUE",
+      "spanishName": "AZUL HYDRA",
+      "aliases": [
+        "AZUL HYDRA"
+      ],
+      "sourceLabel": "R-V149 AZUL HYDRA / HYDRA BLUE",
+      "hex": "#8ECAE5",
+      "page": 2
+    },
+    {
+      "code": "R-V150",
+      "family": "R-V",
+      "reference": "V150",
+      "name": "ARGO BLUE",
+      "englishName": "ARGO BLUE",
+      "spanishName": "AZUL ARGO",
+      "aliases": [
+        "AZUL ARGO"
+      ],
+      "sourceLabel": "R-V150 AZUL ARGO / ARGO BLUE",
+      "hex": "#44B3DF",
+      "page": 2
+    },
+    {
+      "code": "R-V151",
+      "family": "R-V",
+      "reference": "V151",
+      "name": "FREEDOM BLUE",
+      "englishName": "FREEDOM BLUE",
+      "spanishName": "AZUL LIBERTAD",
+      "aliases": [
+        "AZUL LIBERTAD"
+      ],
+      "sourceLabel": "R-V151 AZUL LIBERTAD / FREEDOM BLUE",
+      "hex": "#0098D3",
+      "page": 2
+    },
+    {
+      "code": "R-V152",
+      "family": "R-V",
+      "reference": "V152",
+      "name": "EUROPE BLUE",
+      "englishName": "EUROPE BLUE",
+      "spanishName": "AZUL EUROPA",
+      "aliases": [
+        "AZUL EUROPA"
+      ],
+      "sourceLabel": "R-V152 AZUL EUROPA / EUROPE BLUE",
+      "hex": "#0074B0",
+      "page": 2
+    },
+    {
+      "code": "R-V154",
+      "family": "R-V",
+      "reference": "V154",
+      "name": "TWISTER BLUE",
+      "englishName": "TWISTER BLUE",
+      "spanishName": "AZUL TORNADO",
+      "aliases": [
+        "AZUL TORNADO"
+      ],
+      "sourceLabel": "R-V154 AZUL TORNADO / TWISTER BLUE",
+      "hex": "#042151",
+      "page": 2
+    },
+    {
+      "code": "R-V156",
+      "family": "R-V",
+      "reference": "V156",
+      "name": "BARCELONETA BLUE",
+      "englishName": "BARCELONETA BLUE",
+      "spanishName": "AZUL BARCELONETA",
+      "aliases": [
+        "AZUL BARCELONETA"
+      ],
+      "sourceLabel": "R-V156 AZUL BARCELONETA / BARCELONETA BLUE",
+      "hex": "#CAE4F0",
+      "page": 2
+    },
+    {
+      "code": "R-V157",
+      "family": "R-V",
+      "reference": "V157",
+      "name": "THALASSA BLUE",
+      "englishName": "THALASSA BLUE",
+      "spanishName": "AZUL THALASSA",
+      "aliases": [
+        "AZUL THALASSA"
+      ],
+      "sourceLabel": "R-V157 AZUL THALASSA / THALASSA BLUE",
+      "hex": "#A2D3EB",
+      "page": 2
+    },
+    {
+      "code": "R-V158",
+      "family": "R-V",
+      "reference": "V158",
+      "name": "PERSEUS BLUE",
+      "englishName": "PERSEUS BLUE",
+      "spanishName": "AZUL PERSEO",
+      "aliases": [
+        "AZUL PERSEO"
+      ],
+      "sourceLabel": "R-V158 AZUL PERSEO / PERSEUS BLUE",
+      "hex": "#7FB8D5",
+      "page": 2
+    },
+    {
+      "code": "R-V159",
+      "family": "R-V",
+      "reference": "V159",
+      "name": "ODYSSEY BLUE",
+      "englishName": "ODYSSEY BLUE",
+      "spanishName": "AZUL ODISEA",
+      "aliases": [
+        "AZUL ODISEA"
+      ],
+      "sourceLabel": "R-V159 AZUL ODISEA / ODYSSEY BLUE",
+      "hex": "#6EA4BE",
+      "page": 2
+    },
+    {
+      "code": "R-V160",
+      "family": "R-V",
+      "reference": "V160",
+      "name": "EUREKA BLUE",
+      "englishName": "EUREKA BLUE",
+      "spanishName": "AZUL EUREKA",
+      "aliases": [
+        "AZUL EUREKA"
+      ],
+      "sourceLabel": "R-V160 AZUL EUREKA / EUREKA BLUE",
+      "hex": "#467389",
+      "page": 2
+    },
+    {
+      "code": "R-V161",
+      "family": "R-V",
+      "reference": "V161",
+      "name": "JASE BLUE",
+      "englishName": "JASE BLUE",
+      "spanishName": "AZUL JASE",
+      "aliases": [
+        "AZUL JASE"
+      ],
+      "sourceLabel": "R-V161 AZUL JASE / JASE BLUE",
+      "hex": "#2E4A5B",
+      "page": 2
+    },
+    {
+      "code": "R-V162",
+      "family": "R-V",
+      "reference": "V162",
+      "name": "DEEP BLUE",
+      "englishName": "DEEP BLUE",
+      "spanishName": "AZUL PROFUNDO",
+      "aliases": [
+        "AZUL PROFUNDO"
+      ],
+      "sourceLabel": "R-V162 AZUL PROFUNDO / DEEP BLUE",
+      "hex": "#003447",
+      "page": 2
+    },
+    {
+      "code": "R-V163",
+      "family": "R-V",
+      "reference": "V163",
+      "name": "POSEIDON BLUE",
+      "englishName": "POSEIDON BLUE",
+      "spanishName": "AZUL POSEIDON",
+      "aliases": [
+        "AZUL POSEIDON"
+      ],
+      "sourceLabel": "R-V163 AZUL POSEIDON / POSEIDON BLUE",
+      "hex": "#00212F",
+      "page": 2
+    },
+    {
+      "code": "R-V164",
+      "family": "R-V",
+      "reference": "V164",
+      "name": "TOKYO PINK",
+      "englishName": "TOKYO PINK",
+      "spanishName": "ROSA TOKYO",
+      "aliases": [
+        "ROSA TOKYO"
+      ],
+      "sourceLabel": "R-V164 ROSA TOKYO / TOKYO PINK",
+      "hex": "#F7C7D7",
+      "page": 2
+    },
+    {
+      "code": "R-V165",
+      "family": "R-V",
+      "reference": "V165",
+      "name": "ORCHID PINK",
+      "englishName": "ORCHID PINK",
+      "spanishName": "ROSA ORQUIDEA",
+      "aliases": [
+        "ROSA ORQUIDEA"
+      ],
+      "sourceLabel": "R-V165 ROSA ORQUIDEA / ORCHID PINK",
+      "hex": "#ED7FAA",
+      "page": 2
+    },
+    {
+      "code": "R-V166",
+      "family": "R-V",
+      "reference": "V166",
+      "name": "ACAI RED",
+      "englishName": "ACAI RED",
+      "spanishName": "ROJO ACAI",
+      "aliases": [
+        "ROJO ACAI"
+      ],
+      "sourceLabel": "R-V166 ROJO ACAI / ACAI RED",
+      "hex": "#9A004B",
+      "page": 2
+    },
+    {
+      "code": "R-V167",
+      "family": "R-V",
+      "reference": "V167",
+      "name": "RIOJA RED",
+      "englishName": "RIOJA RED",
+      "spanishName": "ROJO RIOJA",
+      "aliases": [
+        "ROJO RIOJA"
+      ],
+      "sourceLabel": "R-V167 ROJO RIOJA / RIOJA RED",
+      "hex": "#6B0037",
+      "page": 2
+    },
+    {
+      "code": "R-V168",
+      "family": "R-V",
+      "reference": "V168",
+      "name": "ANGER RED",
+      "englishName": "ANGER RED",
+      "spanishName": "ROJO IRA",
+      "aliases": [
+        "ROJO IRA"
+      ],
+      "sourceLabel": "R-V168 ROJO IRA / ANGER RED",
+      "hex": "#550027",
+      "page": 2
+    },
+    {
+      "code": "R-V169",
+      "family": "R-V",
+      "reference": "V169",
+      "name": "TAURUS RED",
+      "englishName": "TAURUS RED",
+      "spanishName": "ROJO TAURUS",
+      "aliases": [
+        "ROJO TAURUS"
+      ],
+      "sourceLabel": "R-V169 ROJO TAURUS / TAURUS RED",
+      "hex": "#36001C",
+      "page": 2
+    },
+    {
+      "code": "R-V170",
+      "family": "R-V",
+      "reference": "V170",
+      "name": "PERSIA VIOLET",
+      "englishName": "PERSIA VIOLET",
+      "spanishName": "VIOLETA PERSIA",
+      "aliases": [
+        "VIOLETA PERSIA"
+      ],
+      "sourceLabel": "R-V170 VIOLETA PERSIA / PERSIA VIOLET",
+      "hex": "#C5ADD0",
+      "page": 2
+    },
+    {
+      "code": "R-V171",
+      "family": "R-V",
+      "reference": "V171",
+      "name": "COMMUNITY VIOLET",
+      "englishName": "COMMUNITY VIOLET",
+      "spanishName": "VIOLETA COMUNIDAD",
+      "aliases": [
+        "VIOLETA COMUNIDAD"
+      ],
+      "sourceLabel": "R-V171 VIOLETA COMUNIDAD / COMMUNITY VIOLET",
+      "hex": "#B194C0",
+      "page": 2
+    },
+    {
+      "code": "R-V172",
+      "family": "R-V",
+      "reference": "V172",
+      "name": "DESTINY VIOLET",
+      "englishName": "DESTINY VIOLET",
+      "spanishName": "VIOLETA DESTINO",
+      "aliases": [
+        "VIOLETA DESTINO"
+      ],
+      "sourceLabel": "R-V172 VIOLETA DESTINO / DESTINY VIOLET",
+      "hex": "#8271A3",
+      "page": 2
+    },
+    {
+      "code": "R-V173",
+      "family": "R-V",
+      "reference": "V173",
+      "name": "ULTRAVIOLET",
+      "englishName": "ULTRAVIOLET",
+      "spanishName": "ULTRAVIOLETA",
+      "aliases": [
+        "ULTRAVIOLETA"
+      ],
+      "sourceLabel": "R-V173 ULTRAVIOLETA / ULTRAVIOLET",
+      "hex": "#6B4D8E",
+      "page": 2
+    },
+    {
+      "code": "R-V174",
+      "family": "R-V",
+      "reference": "V174",
+      "name": "VENUS VIOLET",
+      "englishName": "VENUS VIOLET",
+      "spanishName": "VIOLETA VENUS",
+      "aliases": [
+        "VIOLETA VENUS"
+      ],
+      "sourceLabel": "R-V174 VIOLETA VENUS / VENUS VIOLET",
+      "hex": "#483366",
+      "page": 2
+    },
+    {
+      "code": "R-V175",
+      "family": "R-V",
+      "reference": "V175",
+      "name": "ELECTRA VIOLET",
+      "englishName": "ELECTRA VIOLET",
+      "spanishName": "VIOLETA ELECTRA",
+      "aliases": [
+        "VIOLETA ELECTRA"
+      ],
+      "sourceLabel": "R-V175 VIOLETA ELECTRA / ELECTRA VIOLET",
+      "hex": "#32234E",
+      "page": 2
+    },
+    {
+      "code": "R-V176",
+      "family": "R-V",
+      "reference": "V176",
+      "name": "SENSIBLE BROWN",
+      "englishName": "SENSIBLE BROWN",
+      "spanishName": "MARRÓN SENSIBLE",
+      "aliases": [
+        "MARRÓN SENSIBLE"
+      ],
+      "sourceLabel": "R-V176 MARRÓN SENSIBLE / SENSIBLE BROWN",
+      "hex": "#EFD9D0",
+      "page": 2
+    },
+    {
+      "code": "R-V177",
+      "family": "R-V",
+      "reference": "V177",
+      "name": "ELDORADO",
+      "englishName": "ELDORADO",
+      "spanishName": "ELDORADO",
+      "aliases": [],
+      "sourceLabel": "R-V177 ELDORADO / ELDORADO",
+      "hex": "#F1C700",
+      "page": 2
+    },
+    {
+      "code": "R-V178",
+      "family": "R-V",
+      "reference": "V178",
+      "name": "TIBET",
+      "englishName": "TIBET",
+      "spanishName": "TIBET",
+      "aliases": [],
+      "sourceLabel": "R-V178 TIBET / TIBET",
+      "hex": "#D58B27",
+      "page": 2
+    },
+    {
+      "code": "R-V179",
+      "family": "R-V",
+      "reference": "V179",
+      "name": "BONSAI GREEN",
+      "englishName": "BONSAI GREEN",
+      "spanishName": "VERDE BONSAI",
+      "aliases": [
+        "VERDE BONSAI"
+      ],
+      "sourceLabel": "R-V179 VERDE BONSAI / BONSAI GREEN",
+      "hex": "#B8BC86",
+      "page": 2
+    },
+    {
+      "code": "R-V180",
+      "family": "R-V",
+      "reference": "V180",
+      "name": "THAI GREEN",
+      "englishName": "THAI GREEN",
+      "spanishName": "VERDE THAI",
+      "aliases": [
+        "VERDE THAI"
+      ],
+      "sourceLabel": "R-V180 VERDE THAI / THAI GREEN",
+      "hex": "#8F976E",
+      "page": 2
+    },
+    {
+      "code": "R-V181",
+      "family": "R-V",
+      "reference": "V181",
+      "name": "EDEN GREEN",
+      "englishName": "EDEN GREEN",
+      "spanishName": "VERDE EDÉN",
+      "aliases": [
+        "VERDE EDÉN"
+      ],
+      "sourceLabel": "R-V181 VERDE EDÉN / EDEN GREEN",
+      "hex": "#47492B",
+      "page": 2
+    },
+    {
+      "code": "R-V182",
+      "family": "R-V",
+      "reference": "V182",
+      "name": "EMERALD GREEN",
+      "englishName": "EMERALD GREEN",
+      "spanishName": "VERDE ESMERALDA",
+      "aliases": [
+        "VERDE ESMERALDA"
+      ],
+      "sourceLabel": "R-V182 VERDE ESMERALDA / EMERALD GREEN",
+      "hex": "#009E90",
+      "page": 2
+    },
+    {
+      "code": "R-V183",
+      "family": "R-V",
+      "reference": "V183",
+      "name": "BERYL GREEN",
+      "englishName": "BERYL GREEN",
+      "spanishName": "VERDE BERILO",
+      "aliases": [
+        "VERDE BERILO"
+      ],
+      "sourceLabel": "R-V183 VERDE BERILO / BERYL GREEN",
+      "hex": "#107874",
+      "page": 2
+    },
+    {
+      "code": "R-V184",
+      "family": "R-V",
+      "reference": "V184",
+      "name": "RAIN BLUE",
+      "englishName": "RAIN BLUE",
+      "spanishName": "AZUL LLUVIA",
+      "aliases": [
+        "AZUL LLUVIA"
+      ],
+      "sourceLabel": "R-V184 AZUL LLUVIA / RAIN BLUE",
+      "hex": "#C4E7F8",
+      "page": 2
+    },
+    {
+      "code": "R-V185",
+      "family": "R-V",
+      "reference": "V185",
+      "name": "ANGEL BLUE",
+      "englishName": "ANGEL BLUE",
+      "spanishName": "AZUL ANGEL",
+      "aliases": [
+        "AZUL ANGEL"
+      ],
+      "sourceLabel": "R-V185 AZUL ANGEL / ANGEL BLUE",
+      "hex": "#EAF0F5",
+      "page": 2
+    },
+    {
+      "code": "R-V186",
+      "family": "R-V",
+      "reference": "V186",
+      "name": "VIRGIN GREEN",
+      "englishName": "VIRGIN GREEN",
+      "spanishName": "VERDE VIRGEN",
+      "aliases": [
+        "VERDE VIRGEN"
+      ],
+      "sourceLabel": "R-V186 VERDE VIRGEN / VIRGIN GREEN",
+      "hex": "#DFDEDF",
+      "page": 2
+    },
+    {
+      "code": "R-V187",
+      "family": "R-V",
+      "reference": "V187",
+      "name": "VESPA GREEN",
+      "englishName": "VESPA GREEN",
+      "spanishName": "VERDE VESPA",
+      "aliases": [
+        "VERDE VESPA"
+      ],
+      "sourceLabel": "R-V187 VERDE VESPA / VESPA GREEN",
+      "hex": "#F1F5DF",
+      "page": 2
+    },
+    {
+      "code": "R-V188",
+      "family": "R-V",
+      "reference": "V188",
+      "name": "SHINING GREEN",
+      "englishName": "SHINING GREEN",
+      "spanishName": "VERDE DESTELLO",
+      "aliases": [
+        "VERDE DESTELLO"
+      ],
+      "sourceLabel": "R-V188 VERDE DESTELLO / SHINING GREEN",
+      "hex": "#F2EEBE",
+      "page": 2
+    },
+    {
+      "code": "R-V189",
+      "family": "R-V",
+      "reference": "V189",
+      "name": "IPANEMA YELLOW",
+      "englishName": "IPANEMA YELLOW",
+      "spanishName": "AM. IPANEMA",
+      "aliases": [
+        "AM. IPANEMA"
+      ],
+      "sourceLabel": "R-V189 AM. IPANEMA / IPANEMA YELLOW",
+      "hex": "#FFF9C3",
+      "page": 2
+    },
+    {
+      "code": "R-V190",
+      "family": "R-V",
+      "reference": "V190",
+      "name": "MALTA WHITE",
+      "englishName": "MALTA WHITE",
+      "spanishName": "BLANCO MALTA",
+      "aliases": [
+        "BLANCO MALTA"
+      ],
+      "sourceLabel": "R-V190 BLANCO MALTA / MALTA WHITE",
+      "hex": "#FFFFFF",
+      "page": 2
+    },
+    {
+      "code": "R-V191",
+      "family": "R-V",
+      "reference": "V191",
+      "name": "JAIMA BROWN",
+      "englishName": "JAIMA BROWN",
+      "spanishName": "MARRÓN JAIMA",
+      "aliases": [
+        "MARRÓN JAIMA"
+      ],
+      "sourceLabel": "R-V191 MARRÓN JAIMA / JAIMA BROWN",
+      "hex": "#F1E8DF",
+      "page": 2
+    },
+    {
+      "code": "R-V192",
+      "family": "R-V",
+      "reference": "V192",
+      "name": "SUNDANCE",
+      "englishName": "SUNDANCE",
+      "spanishName": "SUNDANCE",
+      "aliases": [],
+      "sourceLabel": "R-V192 SUNDANCE / SUNDANCE",
+      "hex": "#FFEBC2",
+      "page": 2
+    },
+    {
+      "code": "R-V193",
+      "family": "R-V",
+      "reference": "V193",
+      "name": "CHEWING GUM",
+      "englishName": "CHEWING GUM",
+      "spanishName": "CHICLE",
+      "aliases": [
+        "CHICLE"
+      ],
+      "sourceLabel": "R-V193 CHICLE / CHEWING GUM",
+      "hex": "#F6C3D4",
+      "page": 2
+    },
+    {
+      "code": "R-V194",
+      "family": "R-V",
+      "reference": "V194",
+      "name": "SUPERNOVA PINK",
+      "englishName": "SUPERNOVA PINK",
+      "spanishName": "ROSA SUPERNOVA",
+      "aliases": [
+        "ROSA SUPERNOVA"
+      ],
+      "sourceLabel": "R-V194 ROSA SUPERNOVA / SUPERNOVA PINK",
+      "hex": "#FCE6EB",
+      "page": 2
+    },
+    {
+      "code": "R-V195",
+      "family": "R-V",
+      "reference": "V195",
+      "name": "SHIVA VIOLET",
+      "englishName": "SHIVA VIOLET",
+      "spanishName": "VIOLETA SHIVA",
+      "aliases": [
+        "VIOLETA SHIVA"
+      ],
+      "sourceLabel": "R-V195 VIOLETA SHIVA / SHIVA VIOLET",
+      "hex": "#E6CCE1",
+      "page": 2
+    },
+    {
+      "code": "R-V196",
+      "family": "R-V",
+      "reference": "V196",
+      "name": "SAUDADE PINK",
+      "englishName": "SAUDADE PINK",
+      "spanishName": "ROSA SAUDADE",
+      "aliases": [
+        "ROSA SAUDADE"
+      ],
+      "sourceLabel": "R-V196 ROSA SAUDADE / SAUDADE PINK",
+      "hex": "#F2DDDE",
+      "page": 2
+    },
+    {
+      "code": "R-V197",
+      "family": "R-V",
+      "reference": "V197",
+      "name": "PENELOPE BROWN",
+      "englishName": "PENELOPE BROWN",
+      "spanishName": "MARRÓN PENELOPE",
+      "aliases": [
+        "MARRÓN PENELOPE"
+      ],
+      "sourceLabel": "R-V197 MARRÓN PENELOPE / PENELOPE BROWN",
+      "hex": "#F8EEE8",
+      "page": 2
+    },
+    {
+      "code": "R-V198",
+      "family": "R-V",
+      "reference": "V198",
+      "name": "STARDUST GREY",
+      "englishName": "STARDUST GREY",
+      "spanishName": "GRIS STARDUST",
+      "aliases": [
+        "GRIS STARDUST"
+      ],
+      "sourceLabel": "R-V198 GRIS STARDUST / STARDUST GREY",
+      "hex": "#EFF0F1",
+      "page": 2
+    },
+    {
+      "code": "R-V199",
+      "family": "R-V",
+      "reference": "V199",
+      "name": "JAVA GREEN",
+      "englishName": "JAVA GREEN",
+      "spanishName": "VERDE JAVA",
+      "aliases": [
+        "VERDE JAVA"
+      ],
+      "sourceLabel": "R-V199 VERDE JAVA / JAVA GREEN",
+      "hex": "#86C8B4",
+      "page": 2
+    },
+    {
+      "code": "R-V200",
+      "family": "R-V",
+      "reference": "V200",
+      "name": "PLANCTON",
+      "englishName": "PLANCTON",
+      "spanishName": "PLANCTON",
+      "aliases": [],
+      "sourceLabel": "R-V200 PLANCTON / PLANCTON",
+      "hex": "#E8D6C8",
+      "page": 2
+    },
+    {
+      "code": "R-V201",
+      "family": "R-V",
+      "reference": "V201",
+      "name": "SCARLET BROWN",
+      "englishName": "SCARLET BROWN",
+      "spanishName": "MARRÓN SCARLET",
+      "aliases": [
+        "MARRÓN SCARLET"
+      ],
+      "sourceLabel": "R-V201 MARRÓN SCARLET / SCARLET BROWN",
+      "hex": "#8E6061",
+      "page": 2
+    },
+    {
+      "code": "R-V202",
+      "family": "R-V",
+      "reference": "V202",
+      "name": "MOSQUITO BROWN",
+      "englishName": "MOSQUITO BROWN",
+      "spanishName": "MARRÓN MOSQUITO",
+      "aliases": [
+        "MARRÓN MOSQUITO"
+      ],
+      "sourceLabel": "R-V202 MARRÓN MOSQUITO / MOSQUITO BROWN",
+      "hex": "#684446",
+      "page": 2
+    },
+    {
+      "code": "R-V203",
+      "family": "R-V",
+      "reference": "V203",
+      "name": "OAK BROWN",
+      "englishName": "OAK BROWN",
+      "spanishName": "MARRÓN ROBLE",
+      "aliases": [
+        "MARRÓN ROBLE"
+      ],
+      "sourceLabel": "R-V203 MARRÓN ROBLE / OAK BROWN",
+      "hex": "#A86059",
+      "page": 2
+    },
+    {
+      "code": "R-V204",
+      "family": "R-V",
+      "reference": "V204",
+      "name": "INTERRAIL BROWN",
+      "englishName": "INTERRAIL BROWN",
+      "spanishName": "MARRÓN INTERRAIL",
+      "aliases": [
+        "MARRÓN INTERRAIL"
+      ],
+      "sourceLabel": "R-V204 MARRÓN INTERRAIL / INTERRAIL BROWN",
+      "hex": "#9F3D44",
+      "page": 2
+    },
+    {
+      "code": "R-V205",
+      "family": "R-V",
+      "reference": "V205",
+      "name": "WARRIOR BROWN",
+      "englishName": "WARRIOR BROWN",
+      "spanishName": "MARRÓN GUERRERO",
+      "aliases": [
+        "MARRÓN GUERRERO"
+      ],
+      "sourceLabel": "R-V205 MARRÓN GUERRERO / WARRIOR BROWN",
+      "hex": "#5A1521",
+      "page": 2
+    }
+  ]
+}

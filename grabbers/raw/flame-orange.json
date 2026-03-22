@@ -1,0 +1,1695 @@
+{
+  "source": {
+    "type": "pdf",
+    "url": "https://brand.molotow.com/fileadmin/Dateien/PDF/Info_Sheets/Spray/Action/FLAME_Orange_ProductInfoSheet.pdf",
+    "page": 1,
+    "hexApproximation": true,
+    "note": "Hex values sampled from swatches on the product info PDF."
+  },
+  "colors": [
+    {
+      "code": "FO-100",
+      "name": "vanilla",
+      "hex": "#F1E082",
+      "variants": [
+        {
+          "itemNumber": "558.001",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-100 vanilla"
+    },
+    {
+      "code": "FO-102",
+      "name": "zinc yellow",
+      "hex": "#FFDE3D",
+      "variants": [
+        {
+          "itemNumber": "558.002",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-102 zinc yellow"
+    },
+    {
+      "code": "FO-104",
+      "name": "cadmium yellow",
+      "hex": "#FBD824",
+      "variants": [
+        {
+          "itemNumber": "558.003",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-104 cadmium yellow"
+    },
+    {
+      "code": "FO-106",
+      "name": "signal yellow",
+      "hex": "#F5CD0C",
+      "variants": [
+        {
+          "itemNumber": "558.004",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.901",
+          "format": "600ml"
+        }
+      ],
+      "sourceLabel": "FO-106 signal yellow"
+    },
+    {
+      "code": "FO-107",
+      "name": "melon light",
+      "hex": "#FAB513",
+      "variants": [
+        {
+          "itemNumber": "558.010",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-107 melon light"
+    },
+    {
+      "code": "FO-110",
+      "name": "melon yellow",
+      "hex": "#F7BB06",
+      "variants": [
+        {
+          "itemNumber": "558.006",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-110 melon yellow"
+    },
+    {
+      "code": "FO-111",
+      "name": "melon dark",
+      "hex": "#F7AC09",
+      "variants": [
+        {
+          "itemNumber": "558.005",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-111 melon dark"
+    },
+    {
+      "code": "FO-113",
+      "name": "curry",
+      "hex": "#F59D19",
+      "variants": [
+        {
+          "itemNumber": "558.009",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-113 curry"
+    },
+    {
+      "code": "FO-198",
+      "name": "peach middle",
+      "hex": "#F9BD95",
+      "variants": [
+        {
+          "itemNumber": "558.073",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-198 peach middle"
+    },
+    {
+      "code": "FO-200",
+      "name": "peach",
+      "hex": "#F8B576",
+      "variants": [
+        {
+          "itemNumber": "558.017",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-200 peach"
+    },
+    {
+      "code": "FO-202",
+      "name": "pastel orange",
+      "hex": "#F28D28",
+      "variants": [
+        {
+          "itemNumber": "558.018",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-202 pastel orange"
+    },
+    {
+      "code": "FO-204",
+      "name": "light orange",
+      "hex": "#EB7106",
+      "variants": [
+        {
+          "itemNumber": "558.019",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-204 light orange"
+    },
+    {
+      "code": "FO-205",
+      "name": "peach dark",
+      "hex": "#F39678",
+      "variants": [
+        {
+          "itemNumber": "558.012",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-205 peach dark"
+    },
+    {
+      "code": "FO-208",
+      "name": "cold peach",
+      "hex": "#F1D6B7",
+      "variants": [
+        {
+          "itemNumber": "558.021",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-208 cold peach"
+    },
+    {
+      "code": "FO-210",
+      "name": "apricot 400ml",
+      "hex": "#F18649",
+      "variants": [
+        {
+          "itemNumber": "558.022",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-210 apricot 400ml"
+    },
+    {
+      "code": "FO-212",
+      "name": "ORANGE orange",
+      "hex": "#D75827",
+      "variants": [
+        {
+          "itemNumber": "558.023",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.902",
+          "format": "600ml"
+        }
+      ],
+      "sourceLabel": "FO-212 ORANGE orange"
+    },
+    {
+      "code": "FO-214",
+      "name": "red orange",
+      "hex": "#D2431B",
+      "variants": [
+        {
+          "itemNumber": "558.024",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-214 red orange"
+    },
+    {
+      "code": "FO-303",
+      "name": "FLAME\u2122 pastel red",
+      "hex": "#E83C42",
+      "variants": [
+        {
+          "itemNumber": "558.087",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-303 FLAME\u2122 pastel red"
+    },
+    {
+      "code": "FO-304",
+      "name": "signal red",
+      "hex": "#D83532",
+      "variants": [
+        {
+          "itemNumber": "558.027",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.903",
+          "format": "600ml"
+        }
+      ],
+      "sourceLabel": "FO-304 signal red"
+    },
+    {
+      "code": "FO-305",
+      "name": "coral red",
+      "hex": "#E04A4B",
+      "variants": [
+        {
+          "itemNumber": "558.099",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-305 coral red"
+    },
+    {
+      "code": "FO-306",
+      "name": "ruby red",
+      "hex": "#C51535",
+      "variants": [
+        {
+          "itemNumber": "558.028",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-306 ruby red"
+    },
+    {
+      "code": "FO-307",
+      "name": "coral",
+      "hex": "#E86865",
+      "variants": [
+        {
+          "itemNumber": "558.013",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-307 coral"
+    },
+    {
+      "code": "FO-308",
+      "name": "piglet pink",
+      "hex": "#DD8274",
+      "variants": [
+        {
+          "itemNumber": "558.011",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-308 piglet pink"
+    },
+    {
+      "code": "FO-309",
+      "name": "piglet pink middle",
+      "hex": "#EF9CB0",
+      "variants": [
+        {
+          "itemNumber": "558.029",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-309 piglet pink middle"
+    },
+    {
+      "code": "FO-310",
+      "name": "piglet pink",
+      "hex": "#E94362",
+      "variants": [
+        {
+          "itemNumber": "558.030",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-310 piglet pink"
+    },
+    {
+      "code": "FO-311",
+      "name": "crazy cherry",
+      "hex": "#BB243A",
+      "variants": [
+        {
+          "itemNumber": "558.032",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-311 crazy cherry"
+    },
+    {
+      "code": "FO-312",
+      "name": "fire red",
+      "hex": "#C13733",
+      "variants": [
+        {
+          "itemNumber": "558.031",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-312 fire red"
+    },
+    {
+      "code": "FO-313",
+      "name": "cherry dark",
+      "hex": "#9C0E30",
+      "variants": [
+        {
+          "itemNumber": "558.033",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-313 cherry dark"
+    },
+    {
+      "code": "FO-314",
+      "name": "piglet pink",
+      "hex": "#BD202E",
+      "variants": [
+        {
+          "itemNumber": "558.014",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-314 piglet pink"
+    },
+    {
+      "code": "FO-318",
+      "name": "traffic purple dark",
+      "hex": "#48233C",
+      "variants": [
+        {
+          "itemNumber": "558.034",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.906",
+          "format": "600ml"
+        }
+      ],
+      "sourceLabel": "FO-318 traffic purple dark"
+    },
+    {
+      "code": "FO-320",
+      "name": "2024 burgundy",
+      "hex": "#AA182B",
+      "variants": [
+        {
+          "itemNumber": "558.015",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-320 2024 burgundy"
+    },
+    {
+      "code": "FO-322",
+      "name": "aubergine /",
+      "hex": "#471E35",
+      "variants": [
+        {
+          "itemNumber": "558.036",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-322 aubergine /"
+    },
+    {
+      "code": "FO-323",
+      "name": "08 aubergine dark",
+      "hex": "#2C2026",
+      "variants": [
+        {
+          "itemNumber": "558.016",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-323 08 aubergine dark"
+    },
+    {
+      "code": "FO-396",
+      "name": "violet",
+      "hex": "#9F5D9C",
+      "variants": [
+        {
+          "itemNumber": "558.020",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-396 violet"
+    },
+    {
+      "code": "FO-397",
+      "name": "crazy violet",
+      "hex": "#81477C",
+      "variants": [
+        {
+          "itemNumber": "558.025",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.904",
+          "format": "600ml"
+        }
+      ],
+      "sourceLabel": "FO-397 crazy violet"
+    },
+    {
+      "code": "FO-398",
+      "name": "deep violet",
+      "hex": "#694679",
+      "variants": [
+        {
+          "itemNumber": "558.026",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-398 deep violet"
+    },
+    {
+      "code": "FO-399",
+      "name": "erica violet light",
+      "hex": "#DDA7C7",
+      "variants": [
+        {
+          "itemNumber": "558.035",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-399 erica violet light"
+    },
+    {
+      "code": "FO-400",
+      "name": "erica violet",
+      "hex": "#DD6B9C",
+      "variants": [
+        {
+          "itemNumber": "558.037",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-400 erica violet"
+    },
+    {
+      "code": "FO-401",
+      "name": "erica pastel",
+      "hex": "#E1BECC",
+      "variants": [
+        {
+          "itemNumber": "558.052",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-401 erica pastel"
+    },
+    {
+      "code": "FO-402",
+      "name": "telemagenta",
+      "hex": "#D8356E",
+      "variants": [
+        {
+          "itemNumber": "558.038",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.905",
+          "format": "600ml"
+        }
+      ],
+      "sourceLabel": "FO-402 telemagenta"
+    },
+    {
+      "code": "FO-403",
+      "name": "deep violet dark",
+      "hex": "#6A4858",
+      "variants": [
+        {
+          "itemNumber": "558.074",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-403 deep violet dark"
+    },
+    {
+      "code": "FO-404",
+      "name": "traffic purple",
+      "hex": "#8B1878",
+      "variants": [
+        {
+          "itemNumber": "558.039",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-404 traffic purple"
+    },
+    {
+      "code": "FO-405",
+      "name": "erica pastel middle",
+      "hex": "#D2AEAE",
+      "variants": [
+        {
+          "itemNumber": "558.065",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-405 erica pastel middle"
+    },
+    {
+      "code": "FO-407",
+      "name": "erica violet middle",
+      "hex": "#C68487",
+      "variants": [
+        {
+          "itemNumber": "558.007",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-407 erica violet middle"
+    },
+    {
+      "code": "FO-408",
+      "name": "grape",
+      "hex": "#9567A3",
+      "variants": [
+        {
+          "itemNumber": "558.041",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-408 grape"
+    },
+    {
+      "code": "FO-409",
+      "name": "erica pink",
+      "hex": "#E0ADC3",
+      "variants": [
+        {
+          "itemNumber": "558.100",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-409 erica pink"
+    },
+    {
+      "code": "FO-410",
+      "name": "blackberry",
+      "hex": "#6D447C",
+      "variants": [
+        {
+          "itemNumber": "558.042",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-410 blackberry"
+    },
+    {
+      "code": "FO-412",
+      "name": "currant",
+      "hex": "#503259",
+      "variants": [
+        {
+          "itemNumber": "558.043",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-412 currant"
+    },
+    {
+      "code": "FO-415",
+      "name": "crocus",
+      "hex": "#B4A6D1",
+      "variants": [
+        {
+          "itemNumber": "558.186",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-415 crocus"
+    },
+    {
+      "code": "FO-416",
+      "name": "light viola light",
+      "hex": "#BAB4DA",
+      "variants": [
+        {
+          "itemNumber": "558.045",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-416 light viola light"
+    },
+    {
+      "code": "FO-418",
+      "name": "viola",
+      "hex": "#6466A5",
+      "variants": [
+        {
+          "itemNumber": "558.046",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-418 viola"
+    },
+    {
+      "code": "FO-420",
+      "name": "viola dark",
+      "hex": "#343A81",
+      "variants": [
+        {
+          "itemNumber": "558.047",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-420 viola dark"
+    },
+    {
+      "code": "FO-422",
+      "name": "cosmos blue dark pastel",
+      "hex": "#9EA8D5",
+      "variants": [
+        {
+          "itemNumber": "558.101",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-422 cosmos blue dark pastel"
+    },
+    {
+      "code": "FO-424",
+      "name": "cosmos blue light",
+      "hex": "#7278B8",
+      "variants": [
+        {
+          "itemNumber": "558.049",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-424 cosmos blue light"
+    },
+    {
+      "code": "FO-426",
+      "name": "cosmos blue",
+      "hex": "#414999",
+      "variants": [
+        {
+          "itemNumber": "558.050",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-426 cosmos blue"
+    },
+    {
+      "code": "FO-428",
+      "name": "cosmos blue dark",
+      "hex": "#282459",
+      "variants": [
+        {
+          "itemNumber": "558.051",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-428 cosmos blue dark"
+    },
+    {
+      "code": "FO-502",
+      "name": "lighting blue",
+      "hex": "#6FC7E7",
+      "variants": [
+        {
+          "itemNumber": "558.053",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-502 lighting blue"
+    },
+    {
+      "code": "FO-504",
+      "name": "light blue",
+      "hex": "#93C6E5",
+      "variants": [
+        {
+          "itemNumber": "558.054",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-504 light blue"
+    },
+    {
+      "code": "FO-508",
+      "name": "light blue",
+      "hex": "#4597D1",
+      "variants": [
+        {
+          "itemNumber": "558.056",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.907",
+          "format": "600ml"
+        }
+      ],
+      "sourceLabel": "FO-508 light blue"
+    },
+    {
+      "code": "FO-510",
+      "name": "sky blue",
+      "hex": "#0F6EB5",
+      "variants": [
+        {
+          "itemNumber": "558.057",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-510 sky blue"
+    },
+    {
+      "code": "FO-511",
+      "name": "crazy blue",
+      "hex": "#0089C1",
+      "variants": [
+        {
+          "itemNumber": "558.070",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-511 crazy blue"
+    },
+    {
+      "code": "FO-512",
+      "name": "signal blue",
+      "hex": "#0F5196",
+      "variants": [
+        {
+          "itemNumber": "558.058",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-512 signal blue"
+    },
+    {
+      "code": "FO-514",
+      "name": "true blue",
+      "hex": "#224A89",
+      "variants": [
+        {
+          "itemNumber": "558.059",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-514 true blue"
+    },
+    {
+      "code": "FO-515",
+      "name": "ultramarine blue",
+      "hex": "#1F2C5C",
+      "variants": [
+        {
+          "itemNumber": "558.055",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.908",
+          "format": "600ml"
+        }
+      ],
+      "sourceLabel": "FO-515 ultramarine blue"
+    },
+    {
+      "code": "FO-516",
+      "name": "cream blue light",
+      "hex": "#81A8C4",
+      "variants": [
+        {
+          "itemNumber": "558.060",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-516 cream blue light"
+    },
+    {
+      "code": "FO-518",
+      "name": "cream blue",
+      "hex": "#2686C6",
+      "variants": [
+        {
+          "itemNumber": "558.061",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-518 cream blue"
+    },
+    {
+      "code": "FO-520",
+      "name": "cream blue dark",
+      "hex": "#125D8F",
+      "variants": [
+        {
+          "itemNumber": "558.062",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-520 cream blue dark"
+    },
+    {
+      "code": "FO-522",
+      "name": "sapphire",
+      "hex": "#142D59",
+      "variants": [
+        {
+          "itemNumber": "558.063",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-522 sapphire"
+    },
+    {
+      "code": "FO-523",
+      "name": "sapphire dark",
+      "hex": "#3D4252",
+      "variants": [
+        {
+          "itemNumber": "558.072",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-523 sapphire dark"
+    },
+    {
+      "code": "FO-531",
+      "name": "verdigris light",
+      "hex": "#8DBAB8",
+      "variants": [
+        {
+          "itemNumber": "558.068",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-531 verdigris light"
+    },
+    {
+      "code": "FO-532",
+      "name": "verdigris middle",
+      "hex": "#7CA6A5",
+      "variants": [
+        {
+          "itemNumber": "558.069",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-532 verdigris middle"
+    },
+    {
+      "code": "FO-533",
+      "name": "verdigris",
+      "hex": "#688E8F",
+      "variants": [
+        {
+          "itemNumber": "558.071",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-533 verdigris"
+    },
+    {
+      "code": "FO-601",
+      "name": "crazy riviera",
+      "hex": "#48B79E",
+      "variants": [
+        {
+          "itemNumber": "558.075",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.909",
+          "format": "600ml"
+        }
+      ],
+      "sourceLabel": "FO-601 crazy riviera"
+    },
+    {
+      "code": "FO-602",
+      "name": "riviera",
+      "hex": "#68C0B4",
+      "variants": [
+        {
+          "itemNumber": "558.077",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-602 riviera"
+    },
+    {
+      "code": "FO-604",
+      "name": "lagoon blue",
+      "hex": "#05A492",
+      "variants": [
+        {
+          "itemNumber": "558.078",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-604 lagoon blue"
+    },
+    {
+      "code": "FO-605",
+      "name": "lagoon blue light dark",
+      "hex": "#009D90",
+      "variants": [
+        {
+          "itemNumber": "558.102",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-605 lagoon blue light dark"
+    },
+    {
+      "code": "FO-606",
+      "name": "ocean blue",
+      "hex": "#117375",
+      "variants": [
+        {
+          "itemNumber": "558.079",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-606 ocean blue"
+    },
+    {
+      "code": "FO-608",
+      "name": "sage middle",
+      "hex": "#97ACA1",
+      "variants": [
+        {
+          "itemNumber": "558.080",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-608 sage middle"
+    },
+    {
+      "code": "FO-609",
+      "name": "sage",
+      "hex": "#7DA590",
+      "variants": [
+        {
+          "itemNumber": "558.081",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-609 sage"
+    },
+    {
+      "code": "FO-610",
+      "name": "sage dark",
+      "hex": "#527866",
+      "variants": [
+        {
+          "itemNumber": "558.082",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-610 sage dark"
+    },
+    {
+      "code": "FO-613",
+      "name": "aqua pastel light",
+      "hex": "#C5DCE5",
+      "variants": [
+        {
+          "itemNumber": "558.086",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-613 aqua pastel light"
+    },
+    {
+      "code": "FO-614",
+      "name": "aqua pastel",
+      "hex": "#91D3EB",
+      "variants": [
+        {
+          "itemNumber": "558.083",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-614 aqua pastel"
+    },
+    {
+      "code": "FO-615",
+      "name": "crazy aqua",
+      "hex": "#11B6CA",
+      "variants": [
+        {
+          "itemNumber": "558.187",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-615 crazy aqua"
+    },
+    {
+      "code": "FO-616",
+      "name": "aqua light",
+      "hex": "#3098BC",
+      "variants": [
+        {
+          "itemNumber": "558.084",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-616 aqua light"
+    },
+    {
+      "code": "FO-618",
+      "name": "aqua",
+      "hex": "#004F5C",
+      "variants": [
+        {
+          "itemNumber": "558.085",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-618 aqua"
+    },
+    {
+      "code": "FO-621",
+      "name": "mustard middle",
+      "hex": "#EBBD00",
+      "variants": [
+        {
+          "itemNumber": "558.143",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-621 mustard middle"
+    },
+    {
+      "code": "FO-622",
+      "name": "mustard light",
+      "hex": "#ECD000",
+      "variants": [
+        {
+          "itemNumber": "558.122",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-622 mustard light"
+    },
+    {
+      "code": "FO-623",
+      "name": "crazy green",
+      "hex": "#DFDD2E",
+      "variants": [
+        {
+          "itemNumber": "558.115",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-623 crazy green"
+    },
+    {
+      "code": "FO-624",
+      "name": "pistachio",
+      "hex": "#D8D541",
+      "variants": [
+        {
+          "itemNumber": "558.088",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-624 pistachio"
+    },
+    {
+      "code": "FO-625",
+      "name": "mustard",
+      "hex": "#C7A223",
+      "variants": [
+        {
+          "itemNumber": "558.124",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-625 mustard"
+    },
+    {
+      "code": "FO-627",
+      "name": "crazy grass",
+      "hex": "#96BA26",
+      "variants": [
+        {
+          "itemNumber": "558.121",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.910",
+          "format": "600ml"
+        }
+      ],
+      "sourceLabel": "FO-627 crazy grass"
+    },
+    {
+      "code": "FO-628",
+      "name": "grass green",
+      "hex": "#8AA846",
+      "variants": [
+        {
+          "itemNumber": "558.090",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-628 grass green"
+    },
+    {
+      "code": "FO-629",
+      "name": "juice green",
+      "hex": "#008E3D",
+      "variants": [
+        {
+          "itemNumber": "558.629",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.911",
+          "format": "600ml"
+        }
+      ],
+      "sourceLabel": "FO-629 juice green"
+    },
+    {
+      "code": "FO-631",
+      "name": "mustard dark",
+      "hex": "#A37F13",
+      "variants": [
+        {
+          "itemNumber": "558.128",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-631 mustard dark"
+    },
+    {
+      "code": "FO-632",
+      "name": "leaf green",
+      "hex": "#4D8647",
+      "variants": [
+        {
+          "itemNumber": "558.092",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-632 leaf green"
+    },
+    {
+      "code": "FO-633",
+      "name": "khaki green",
+      "hex": "#846928",
+      "variants": [
+        {
+          "itemNumber": "558.129",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-633 khaki green"
+    },
+    {
+      "code": "FO-636",
+      "name": "fir green",
+      "hex": "#2C5C52",
+      "variants": [
+        {
+          "itemNumber": "558.094",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-636 fir green"
+    },
+    {
+      "code": "FO-637",
+      "name": "pear light",
+      "hex": "#C1AA26",
+      "variants": [
+        {
+          "itemNumber": "558.130",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-637 pear light"
+    },
+    {
+      "code": "FO-639",
+      "name": "pear",
+      "hex": "#9F8C17",
+      "variants": [
+        {
+          "itemNumber": "558.138",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-639 pear"
+    },
+    {
+      "code": "FO-640",
+      "name": "kiwi light",
+      "hex": "#B8D049",
+      "variants": [
+        {
+          "itemNumber": "558.096",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-640 kiwi light"
+    },
+    {
+      "code": "FO-641",
+      "name": "pear dark",
+      "hex": "#796722",
+      "variants": [
+        {
+          "itemNumber": "558.144",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-641 pear dark"
+    },
+    {
+      "code": "FO-642",
+      "name": "kiwi",
+      "hex": "#7DBA2E",
+      "variants": [
+        {
+          "itemNumber": "558.097",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-642 kiwi"
+    },
+    {
+      "code": "FO-644",
+      "name": "kiwi dark",
+      "hex": "#699321",
+      "variants": [
+        {
+          "itemNumber": "558.098",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-644 kiwi dark"
+    },
+    {
+      "code": "FO-663",
+      "name": "blue mint",
+      "hex": "#9BCEA4",
+      "variants": [
+        {
+          "itemNumber": "558.142",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-663 blue mint"
+    },
+    {
+      "code": "FO-664",
+      "name": "menthol light",
+      "hex": "#92CBAC",
+      "variants": [
+        {
+          "itemNumber": "558.108",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-664 menthol light"
+    },
+    {
+      "code": "FO-666",
+      "name": "menthol",
+      "hex": "#70BF99",
+      "variants": [
+        {
+          "itemNumber": "558.109",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-666 menthol"
+    },
+    {
+      "code": "FO-667",
+      "name": "blue crazy menthol",
+      "hex": "#6CB76D",
+      "variants": [
+        {
+          "itemNumber": "558.114",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-667 blue crazy menthol"
+    },
+    {
+      "code": "FO-670",
+      "name": "turquoise",
+      "hex": "#25A37D",
+      "variants": [
+        {
+          "itemNumber": "558.111",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-670 turquoise"
+    },
+    {
+      "code": "FO-672",
+      "name": "turquoise",
+      "hex": "#188B5A",
+      "variants": [
+        {
+          "itemNumber": "558.112",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-672 turquoise"
+    },
+    {
+      "code": "FO-675",
+      "name": "emerald green",
+      "hex": "#00603D",
+      "variants": [
+        {
+          "itemNumber": "558.185",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-675 emerald green"
+    },
+    {
+      "code": "FO-697",
+      "name": "cocoa light",
+      "hex": "#D28079",
+      "variants": [
+        {
+          "itemNumber": "558.135",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-697 cocoa light"
+    },
+    {
+      "code": "FO-698",
+      "name": "cocoa",
+      "hex": "#9F514C",
+      "variants": [
+        {
+          "itemNumber": "558.136",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-698 cocoa"
+    },
+    {
+      "code": "FO-699",
+      "name": "light brown red",
+      "hex": "#892626",
+      "variants": [
+        {
+          "itemNumber": "558.137",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-699 light brown red"
+    },
+    {
+      "code": "FO-702",
+      "name": "ivory light",
+      "hex": "#EDE0B7",
+      "variants": [
+        {
+          "itemNumber": "558.116",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-702 ivory light"
+    },
+    {
+      "code": "FO-703",
+      "name": "milk coffee",
+      "hex": "#D8B48B",
+      "variants": [
+        {
+          "itemNumber": "558.147",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-703 milk coffee"
+    },
+    {
+      "code": "FO-704",
+      "name": "beige brown",
+      "hex": "#C09A5D",
+      "variants": [
+        {
+          "itemNumber": "558.117",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-704 beige brown"
+    },
+    {
+      "code": "FO-706",
+      "name": "ocher",
+      "hex": "#9D6930",
+      "variants": [
+        {
+          "itemNumber": "558.118",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-706 ocher"
+    },
+    {
+      "code": "FO-708",
+      "name": "nut",
+      "hex": "#4D2B00",
+      "variants": [
+        {
+          "itemNumber": "558.119",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-708 nut"
+    },
+    {
+      "code": "FO-710",
+      "name": "chocolate",
+      "hex": "#2D170D",
+      "variants": [
+        {
+          "itemNumber": "558.120",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-710 chocolate"
+    },
+    {
+      "code": "FO-732",
+      "name": "grey beige light",
+      "hex": "#B5A486",
+      "variants": [
+        {
+          "itemNumber": "558.131",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-732 grey beige light"
+    },
+    {
+      "code": "FO-734",
+      "name": "grey beige",
+      "hex": "#A28C63",
+      "variants": [
+        {
+          "itemNumber": "587.132",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-734 grey beige"
+    },
+    {
+      "code": "FO-736",
+      "name": "khaki grey",
+      "hex": "#6F5C3A",
+      "variants": [
+        {
+          "itemNumber": "558.133",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-736 khaki grey"
+    },
+    {
+      "code": "FO-830",
+      "name": "stone grey light",
+      "hex": "#D6D5CA",
+      "variants": [
+        {
+          "itemNumber": "558.148",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-830 stone grey light"
+    },
+    {
+      "code": "FO-831",
+      "name": "stone grey middle",
+      "hex": "#B2B1A6",
+      "variants": [
+        {
+          "itemNumber": "558.149",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-831 stone grey middle"
+    },
+    {
+      "code": "FO-832",
+      "name": "light stone grey",
+      "hex": "#928F86",
+      "variants": [
+        {
+          "itemNumber": "558.150",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-832 light stone grey"
+    },
+    {
+      "code": "FO-833",
+      "name": "stone grey dark",
+      "hex": "#636056",
+      "variants": [
+        {
+          "itemNumber": "558.151",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-833 stone grey dark"
+    },
+    {
+      "code": "FO-834",
+      "name": "light grey neutral",
+      "hex": "#DAD3CD",
+      "variants": [
+        {
+          "itemNumber": "558.152",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-834 light grey neutral"
+    },
+    {
+      "code": "FO-836",
+      "name": "middle grey neutral",
+      "hex": "#AFADAC",
+      "variants": [
+        {
+          "itemNumber": "558.153",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-836 middle grey neutral"
+    },
+    {
+      "code": "FO-840",
+      "name": "dark grey neutral",
+      "hex": "#86807F",
+      "variants": [
+        {
+          "itemNumber": "558.155",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-840 dark grey neutral"
+    },
+    {
+      "code": "FO-844",
+      "name": "anthracite grey",
+      "hex": "#4C4C4F",
+      "variants": [
+        {
+          "itemNumber": "558.157",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-844 anthracite grey"
+    },
+    {
+      "code": "FO-900",
+      "name": "pure white",
+      "hex": "#FFFFFF",
+      "variants": [
+        {
+          "itemNumber": "558.159",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.912",
+          "format": "600ml"
+        }
+      ],
+      "sourceLabel": "FO-900 pure white"
+    },
+    {
+      "code": "FO-901",
+      "name": "thick black",
+      "hex": "#090909",
+      "variants": [
+        {
+          "itemNumber": "558.158",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.915",
+          "format": "600ml"
+        },
+        {
+          "itemNumber": "558.801",
+          "format": "500ml"
+        }
+      ],
+      "sourceLabel": "FO-901 thick black"
+    },
+    {
+      "code": "FO-902",
+      "name": "ultra chrome",
+      "hex": "#8F98A1",
+      "variants": [
+        {
+          "itemNumber": "558.160",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.913",
+          "format": "600ml"
+        }
+      ],
+      "sourceLabel": "FO-902 ultra chrome"
+    },
+    {
+      "code": "FO-904",
+      "name": "deep black",
+      "hex": "#090909",
+      "variants": [
+        {
+          "itemNumber": "558.161",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FO-904 deep black"
+    },
+    {
+      "code": "FO-906",
+      "name": "gold",
+      "hex": "#BE9F60",
+      "variants": [
+        {
+          "itemNumber": "558.162",
+          "format": "400ml"
+        },
+        {
+          "itemNumber": "558.914",
+          "format": "600ml"
+        }
+      ],
+      "sourceLabel": "FO-906 gold"
+    }
+  ]
+}

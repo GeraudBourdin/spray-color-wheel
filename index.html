@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spray Color Wheel</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="topbar-main">
+          <button
+            id="control-menu-toggle"
+            class="control-menu-toggle"
+            type="button"
+            aria-controls="control-panel-drawer"
+            aria-expanded="false"
+          >
+            <span class="control-menu-toggle-lines" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </button>
+          <div>
+            <p id="topbar-eyebrow" class="eyebrow">Catalogue multi-fabricants</p>
+            <h1 id="topbar-title">Spray Color Wheel</h1>
+          </div>
+        </div>
+        <div id="topbar-meta" class="topbar-meta"></div>
+      </header>
+
+      <div id="control-menu-backdrop" class="control-menu-backdrop" hidden></div>
+
+      <main class="studio">
+        <aside id="control-panel-drawer" class="panel control-panel">
+          <div class="control-panel-header">
+            <div>
+              <p id="control-menu-eyebrow" class="eyebrow">Navigation</p>
+              <h2 id="control-menu-title">Menu</h2>
+            </div>
+            <button id="control-menu-close" class="control-menu-close" type="button">×</button>
+          </div>
+
+          <section class="control-block is-open" data-accordion-section="language">
+            <button class="accordion-trigger" type="button" data-accordion-trigger aria-expanded="true" aria-controls="accordion-language">
+              <span id="language-label" class="field-label">Langue de reference</span>
+              <span class="accordion-icon" aria-hidden="true"></span>
+            </button>
+            <div id="accordion-language" class="accordion-content">
+              <div class="accordion-content-inner">
+                <label class="field">
+                  <select id="language-select"></select>
+                </label>
+              </div>
+            </div>
+          </section>
+
+          <section class="control-block is-open" data-accordion-section="algorithms">
+            <button class="accordion-trigger" type="button" data-accordion-trigger aria-expanded="true" aria-controls="accordion-algorithms">
+              <span id="algorithms-label" class="field-label">Algorithmes</span>
+              <span class="accordion-icon" aria-hidden="true"></span>
+            </button>
+            <div id="accordion-algorithms" class="accordion-content">
+              <div class="accordion-content-inner">
+                <div id="theory-groups" class="theory-groups"></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="control-block is-open" data-accordion-section="manufacturers">
+            <button class="accordion-trigger" type="button" data-accordion-trigger aria-expanded="true" aria-controls="accordion-manufacturers">
+              <span id="manufacturers-label" class="field-label">Fabricants</span>
+              <span class="accordion-icon" aria-hidden="true"></span>
+            </button>
+            <div id="accordion-manufacturers" class="accordion-content">
+              <div class="accordion-content-inner">
+                <div id="brand-presets" class="brand-presets"></div>
+                <div class="brand-toggles" id="brand-toggles"></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="control-block is-open" data-accordion-section="picker">
+            <button class="accordion-trigger" type="button" data-accordion-trigger aria-expanded="true" aria-controls="accordion-picker">
+              <span id="picker-label" class="field-label">Pick a spray color</span>
+              <span class="accordion-icon" aria-hidden="true"></span>
+            </button>
+            <div id="accordion-picker" class="accordion-content">
+              <div class="accordion-content-inner">
+                <label class="field">
+                  <input
+                    id="picker-search"
+                    type="search"
+                    placeholder="Loop, Montana, code, name"
+                  />
+                </label>
+                <div id="picker-results" class="picker-results"></div>
+              </div>
+            </div>
+          </section>
+        </aside>
+
+        <div class="workspace-grid">
+          <section class="panel wheel-panel">
+            <div class="wheel-header">
+              <div>
+                <p id="wheel-eyebrow" class="eyebrow">Create</p>
+                <h2 id="rule-title">Color rule</h2>
+              </div>
+              <span id="rule-formula" class="rule-formula"></span>
+            </div>
+
+            <p id="rule-description" class="rule-description"></p>
+
+            <div id="wheel-shell" class="wheel-shell">
+              <div class="wheel-surface" aria-hidden="true"></div>
+              <svg
+                id="wheel-svg"
+                viewBox="-220 -220 440 440"
+                role="img"
+                aria-label="Cercle chromatique interactif"
+              ></svg>
+            </div>
+
+            <div id="base-caption" class="base-caption"></div>
+            <div id="theory-note" class="theory-note"></div>
+          </section>
+
+          <aside class="panel cart-panel sidebar-panel">
+            <section class="side-tabs-shell">
+              <div class="side-tabs-nav" role="tablist">
+                <button
+                  id="sidebar-tab-image-upload"
+                  class="side-tab-button"
+                  type="button"
+                  role="tab"
+                  aria-controls="sidebar-panel-image-upload"
+                  aria-selected="false"
+                  data-side-tab="image-upload"
+                >
+                  <span id="sidebar-tab-image-upload-label">Importer une image</span>
+                </button>
+                <button
+                  id="sidebar-tab-image-palette"
+                  class="side-tab-button"
+                  type="button"
+                  role="tab"
+                  aria-controls="sidebar-panel-image-palette"
+                  aria-selected="false"
+                  data-side-tab="image-palette"
+                >
+                  <span id="sidebar-tab-image-palette-label">Palette image</span>
+                </button>
+                <button
+                  id="sidebar-tab-cart"
+                  class="side-tab-button"
+                  type="button"
+                  role="tab"
+                  aria-controls="sidebar-panel-cart"
+                  aria-selected="false"
+                  data-side-tab="cart"
+                >
+                  <span id="sidebar-tab-cart-label">Panier de sprays</span>
+                </button>
+                <button
+                  id="sidebar-tab-hue"
+                  class="side-tab-button"
+                  type="button"
+                  role="tab"
+                  aria-controls="sidebar-panel-hue"
+                  aria-selected="true"
+                  data-side-tab="hue"
+                >
+                  <span id="sidebar-tab-hue-label">Teinte</span>
+                </button>
+              </div>
+
+              <div class="side-tabs-panels">
+                <section
+                  id="sidebar-panel-image-upload"
+                  class="side-tab-panel"
+                  role="tabpanel"
+                  aria-labelledby="sidebar-tab-image-upload"
+                  hidden
+                >
+                  <div class="side-panel-head">
+                    <span id="image-label" class="field-label">Image source</span>
+                    <button id="image-clear" class="cart-action" type="button">Retirer</button>
+                  </div>
+
+                  <div class="side-panel-body">
+                    <label class="field">
+                      <span id="image-upload-label">Importer une image</span>
+                      <input id="image-input" type="file" accept="image/*" />
+                    </label>
+
+                    <p id="image-hint" class="image-copy">
+                      Charge une image, ouvre la pipette en grand, clique dans l'image puis garde la couleur.
+                    </p>
+
+                    <div id="image-stage" class="image-stage is-empty">
+                      <div id="image-empty" class="empty-state compact-empty">
+                        <p class="empty-copy">Aucune image chargee.</p>
+                      </div>
+                      <canvas id="image-canvas" hidden></canvas>
+                      <div id="image-crosshair" class="image-crosshair" hidden></div>
+                    </div>
+
+                    <button id="image-open-modal" class="image-save" type="button" disabled>
+                      Ouvrir la pipette en grand
+                    </button>
+
+                    <div id="image-sample" class="image-sample"></div>
+
+                    <button id="image-save-color" class="image-save" type="button" disabled>
+                      Garder cette couleur
+                    </button>
+
+                    <div class="image-inline-palette-head">
+                      <span id="image-inline-palette-label" class="field-label">Palette image</span>
+                    </div>
+                    <div id="image-inline-palette" class="image-palette image-inline-palette"></div>
+                  </div>
+                </section>
+
+                <section
+                  id="sidebar-panel-image-palette"
+                  class="side-tab-panel"
+                  role="tabpanel"
+                  aria-labelledby="sidebar-tab-image-palette"
+                  hidden
+                >
+                  <div class="side-panel-head">
+                    <span id="image-palette-label" class="field-label">Palette image</span>
+                  </div>
+
+                  <div class="side-panel-body">
+                    <div id="image-palette" class="image-palette"></div>
+                  </div>
+                </section>
+
+                <section
+                  id="sidebar-panel-cart"
+                  class="side-tab-panel"
+                  role="tabpanel"
+                  aria-labelledby="sidebar-tab-cart"
+                  hidden
+                >
+                  <section class="cart-shell">
+                    <div class="cart-head">
+                      <div>
+                        <span id="cart-label" class="field-label">Panier de sprays</span>
+                        <p id="cart-copy" class="cart-copy">Clique une reference dans Choix de sprays pour l'ajouter ici.</p>
+                      </div>
+                      <button id="cart-clear" class="cart-action" type="button">Vider</button>
+                    </div>
+
+                    <div id="cart-summary" class="cart-summary"></div>
+                    <div id="cart-list" class="cart-list"></div>
+
+                    <button id="cart-download" class="cart-download" type="button">
+                      Telecharger la fiche imprimable
+                    </button>
+                  </section>
+                </section>
+
+                <section
+                  id="sidebar-panel-hue"
+                  class="side-tab-panel"
+                  role="tabpanel"
+                  aria-labelledby="sidebar-tab-hue"
+                >
+                  <div class="side-panel-head">
+                    <span id="base-controls-label" class="field-label">Couleur de base</span>
+                  </div>
+
+                  <div class="side-panel-body">
+                    <label class="field">
+                      <span id="hex-label">HEX</span>
+                      <input id="hex-input" type="text" inputmode="text" />
+                    </label>
+
+                    <label class="slider-field" for="hue-range">
+                      <span id="hue-label">Hue</span>
+                      <output id="hue-value"></output>
+                    </label>
+                    <input id="hue-range" type="range" min="0" max="359" step="1" />
+
+                    <label class="slider-field" for="sat-range">
+                      <span id="saturation-label">Saturation</span>
+                      <output id="sat-value"></output>
+                    </label>
+                    <input id="sat-range" type="range" min="0" max="100" step="1" />
+
+                    <label class="slider-field" for="light-range">
+                      <span id="lightness-label">Lightness</span>
+                      <output id="light-value"></output>
+                    </label>
+                    <input id="light-range" type="range" min="0" max="100" step="1" />
+                  </div>
+                </section>
+              </div>
+            </section>
+          </aside>
+
+          <section class="panel palette-panel">
+            <div class="palette-head">
+              <div>
+                <p id="palette-eyebrow" class="eyebrow">Palette</p>
+                <h2 id="palette-title">Choix de sprays</h2>
+              </div>
+              <div id="palette-summary" class="palette-summary"></div>
+            </div>
+
+            <div id="palette-reference" class="palette-reference"></div>
+            <div id="swatch-strip" class="swatch-strip"></div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <div id="image-modal" class="image-modal" hidden>
+      <div class="image-modal-backdrop" data-image-modal-close></div>
+      <section
+        class="image-modal-dialog panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="image-modal-title"
+      >
+        <div class="image-modal-header">
+          <div>
+            <p id="image-modal-eyebrow" class="eyebrow">Image source</p>
+            <h2 id="image-modal-title">Choisir une couleur de reference</h2>
+          </div>
+          <button id="image-modal-close" class="cart-action" type="button">Fermer</button>
+        </div>
+
+        <div class="image-modal-body">
+          <div id="image-modal-stage" class="image-stage image-modal-stage is-empty">
+            <div id="image-modal-empty" class="empty-state compact-empty">
+              <p class="empty-copy">Aucune image chargee.</p>
+            </div>
+            <canvas id="image-modal-canvas" hidden></canvas>
+            <div id="image-modal-crosshair" class="image-crosshair" hidden></div>
+          </div>
+
+          <aside class="image-modal-sidebar">
+            <p id="image-modal-hint" class="image-copy">
+              Clique dans l'image pour prelever une couleur plus precisement.
+            </p>
+
+            <div id="image-modal-sample" class="image-sample"></div>
+
+            <button id="image-modal-save-color" class="image-save" type="button" disabled>
+              Garder cette couleur
+            </button>
+
+            <div class="image-palette-head">
+              <span id="image-modal-palette-label" class="field-label">Palette image</span>
+            </div>
+            <div id="image-modal-palette" class="image-palette"></div>
+          </aside>
+        </div>
+      </section>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

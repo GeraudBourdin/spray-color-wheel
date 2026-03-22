@@ -1,0 +1,4057 @@
+{
+  "manufacturer": {
+    "id": "montana-94",
+    "label": "Montana 94",
+    "accent": "#58BFE8",
+    "series": "400ml",
+    "source": {
+      "name": "Montana Colors 94",
+      "url": "https://streetcontrol.jimdofree.com/app/download/4809568966/Nuancier+Montana+94.pdf?t=1655908943",
+      "note": "Hex values sampled from swatches on the color chart PDF."
+    }
+  },
+  "colors": [
+    {
+      "id": "R-140",
+      "code": "R-140",
+      "name": "MOLE BROWN",
+      "label": "R-140 MOLE BROWN",
+      "hex": "#503915",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN TOPO"
+      ],
+      "sourceLabel": "R-140 MARRÓN TOPO / MOLE BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "140",
+        "spanishName": "MARRÓN TOPO",
+        "englishName": "MOLE BROWN"
+      }
+    },
+    {
+      "id": "R-1013",
+      "code": "R-1013",
+      "name": "BONE WHITE",
+      "label": "R-1013 BONE WHITE",
+      "hex": "#FFFFFF",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLANCO HUESO"
+      ],
+      "sourceLabel": "R-1013 BLANCO HUESO / BONE WHITE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "1013",
+        "spanishName": "BLANCO HUESO",
+        "englishName": "BONE WHITE"
+      }
+    },
+    {
+      "id": "R-1016",
+      "code": "R-1016",
+      "name": "LEMON YELLOW",
+      "label": "R-1016 LEMON YELLOW",
+      "hex": "#DCD872",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AMARILLO LIMÓN"
+      ],
+      "sourceLabel": "R-1016 AMARILLO LIMÓN / LEMON YELLOW",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "1016",
+        "spanishName": "AMARILLO LIMÓN",
+        "englishName": "LEMON YELLOW"
+      }
+    },
+    {
+      "id": "R-1021",
+      "code": "R-1021",
+      "name": "LIGHT YELLOW",
+      "label": "R-1021 LIGHT YELLOW",
+      "hex": "#FFE700",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AMARILLO CLARO"
+      ],
+      "sourceLabel": "R-1021 AMARILLO CLARO / LIGHT YELLOW",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "1021",
+        "spanishName": "AMARILLO CLARO",
+        "englishName": "LIGHT YELLOW"
+      }
+    },
+    {
+      "id": "R-2004",
+      "code": "R-2004",
+      "name": "ORANGE",
+      "label": "R-2004 ORANGE",
+      "hex": "#EA640D",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "NARANJA"
+      ],
+      "sourceLabel": "R-2004 NARANJA / ORANGE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "2004",
+        "spanishName": "NARANJA",
+        "englishName": "ORANGE"
+      }
+    },
+    {
+      "id": "R-3001",
+      "code": "R-3001",
+      "name": "INTENSE RED",
+      "label": "R-3001 INTENSE RED",
+      "hex": "#B3061E",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO VIVO"
+      ],
+      "sourceLabel": "R-3001 ROJO VIVO / INTENSE RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "3001",
+        "spanishName": "ROJO VIVO",
+        "englishName": "INTENSE RED"
+      }
+    },
+    {
+      "id": "R-3004",
+      "code": "R-3004",
+      "name": "BORDEAUX RED",
+      "label": "R-3004 BORDEAUX RED",
+      "hex": "#600819",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO BURDEOS"
+      ],
+      "sourceLabel": "R-3004 ROJO BURDEOS / BORDEAUX RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "3004",
+        "spanishName": "ROJO BURDEOS",
+        "englishName": "BORDEAUX RED"
+      }
+    },
+    {
+      "id": "R-3007",
+      "code": "R-3007",
+      "name": "CHEROKEE RED",
+      "label": "R-3007 CHEROKEE RED",
+      "hex": "#3A0806",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO CHEROKEE"
+      ],
+      "sourceLabel": "R-3007 ROJO CHEROKEE / CHEROKEE RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "3007",
+        "spanishName": "ROJO CHEROKEE",
+        "englishName": "CHEROKEE RED"
+      }
+    },
+    {
+      "id": "R-3017",
+      "code": "R-3017",
+      "name": "FEVER RED",
+      "label": "R-3017 FEVER RED",
+      "hex": "#DC534D",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO FIEBRE"
+      ],
+      "sourceLabel": "R-3017 ROJO FIEBRE / FEVER RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "3017",
+        "spanishName": "ROJO FIEBRE",
+        "englishName": "FEVER RED"
+      }
+    },
+    {
+      "id": "R-3020",
+      "code": "R-3020",
+      "name": "LIGHT RED",
+      "label": "R-3020 LIGHT RED",
+      "hex": "#E42D2F",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO CLARO"
+      ],
+      "sourceLabel": "R-3020 ROJO CLARO / LIGHT RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "3020",
+        "spanishName": "ROJO CLARO",
+        "englishName": "LIGHT RED"
+      }
+    },
+    {
+      "id": "R-4003",
+      "code": "R-4003",
+      "name": "ERIKA",
+      "label": "R-4003 ERIKA",
+      "hex": "#E85B99",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "R-4003 ERIKA / ERIKA",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "4003",
+        "spanishName": "ERIKA",
+        "englishName": "ERIKA"
+      }
+    },
+    {
+      "id": "R-4010",
+      "code": "R-4010",
+      "name": "MAGENTA",
+      "label": "R-4010 MAGENTA",
+      "hex": "#D90075",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "R-4010 MAGENTA / MAGENTA",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "4010",
+        "spanishName": "MAGENTA",
+        "englishName": "MAGENTA"
+      }
+    },
+    {
+      "id": "R-5005",
+      "code": "R-5005",
+      "name": "DARK BLUE",
+      "label": "R-5005 DARK BLUE",
+      "hex": "#003975",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL OSCURO"
+      ],
+      "sourceLabel": "R-5005 AZUL OSCURO / DARK BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "5005",
+        "spanishName": "AZUL OSCURO",
+        "englishName": "DARK BLUE"
+      }
+    },
+    {
+      "id": "R-5013",
+      "code": "R-5013",
+      "name": "MARINE BLUE",
+      "label": "R-5013 MARINE BLUE",
+      "hex": "#000E30",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL MARINO"
+      ],
+      "sourceLabel": "R-5013 AZUL MARINO / MARINE BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "5013",
+        "spanishName": "AZUL MARINO",
+        "englishName": "MARINE BLUE"
+      }
+    },
+    {
+      "id": "R-5018",
+      "code": "R-5018",
+      "name": "TURQUOISE GREEN",
+      "label": "R-5018 TURQUOISE GREEN",
+      "hex": "#008792",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE TURQUESA"
+      ],
+      "sourceLabel": "R-5018 VERDE TURQUESA / TURQUOISE GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "5018",
+        "spanishName": "VERDE TURQUESA",
+        "englishName": "TURQUOISE GREEN"
+      }
+    },
+    {
+      "id": "R-6009",
+      "code": "R-6009",
+      "name": "AMAZONAS GREEN",
+      "label": "R-6009 AMAZONAS GREEN",
+      "hex": "#0D2805",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE AMAZONAS"
+      ],
+      "sourceLabel": "R-6009 VERDE AMAZONAS / AMAZONAS GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "6009",
+        "spanishName": "VERDE AMAZONAS",
+        "englishName": "AMAZONAS GREEN"
+      }
+    },
+    {
+      "id": "R-6018",
+      "code": "R-6018",
+      "name": "VALLEY GREEN",
+      "label": "R-6018 VALLEY GREEN",
+      "hex": "#4A7518",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE VALLE"
+      ],
+      "sourceLabel": "R-6018 VERDE VALLE / VALLEY GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "6018",
+        "spanishName": "VERDE VALLE",
+        "englishName": "VALLEY GREEN"
+      }
+    },
+    {
+      "id": "R-6027",
+      "code": "R-6027",
+      "name": "LUMINOUS GREEN",
+      "label": "R-6027 LUMINOUS GREEN",
+      "hex": "#A1D5CF",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE LUZ"
+      ],
+      "sourceLabel": "R-6027 VERDE LUZ / LUMINOUS GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "6027",
+        "spanishName": "VERDE LUZ",
+        "englishName": "LUMINOUS GREEN"
+      }
+    },
+    {
+      "id": "R-7016",
+      "code": "R-7016",
+      "name": "ANTHRACITE GREY",
+      "label": "R-7016 ANTHRACITE GREY",
+      "hex": "#363639",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "GRIS ANTRACITA"
+      ],
+      "sourceLabel": "R-7016 GRIS ANTRACITA / ANTHRACITE GREY",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "7016",
+        "spanishName": "GRIS ANTRACITA",
+        "englishName": "ANTHRACITE GREY"
+      }
+    },
+    {
+      "id": "R-7040",
+      "code": "R-7040",
+      "name": "PEARL GREY",
+      "label": "R-7040 PEARL GREY",
+      "hex": "#B5B8BA",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "GRIS PERLA"
+      ],
+      "sourceLabel": "R-7040 GRIS PERLA / PEARL GREY",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "7040",
+        "spanishName": "GRIS PERLA",
+        "englishName": "PEARL GREY"
+      }
+    },
+    {
+      "id": "R-7047",
+      "code": "R-7047",
+      "name": "SIBERIAN GREY",
+      "label": "R-7047 SIBERIAN GREY",
+      "hex": "#DBDDDF",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "GRIS SIBERIA"
+      ],
+      "sourceLabel": "R-7047 GRIS SIBERIA / SIBERIAN GREY",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "7047",
+        "spanishName": "GRIS SIBERIA",
+        "englishName": "SIBERIAN GREY"
+      }
+    },
+    {
+      "id": "R-8023",
+      "code": "R-8023",
+      "name": "MUSTARD",
+      "label": "R-8023 MUSTARD",
+      "hex": "#A76226",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MOSTAZA"
+      ],
+      "sourceLabel": "R-8023 MOSTAZA / MUSTARD",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R",
+        "reference": "8023",
+        "spanishName": "MOSTAZA",
+        "englishName": "MUSTARD"
+      }
+    },
+    {
+      "id": "R-V16",
+      "code": "R-V16",
+      "name": "PISTACHIO GREEN",
+      "label": "R-V16 PISTACHIO GREEN",
+      "hex": "#BDD268",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE PISTACHO"
+      ],
+      "sourceLabel": "R-V16 VERDE PISTACHO / PISTACHIO GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V16",
+        "spanishName": "VERDE PISTACHO",
+        "englishName": "PISTACHIO GREEN"
+      }
+    },
+    {
+      "id": "R-V20",
+      "code": "R-V20",
+      "name": "PARTY YELLOW",
+      "label": "R-V20 PARTY YELLOW",
+      "hex": "#FFEF8C",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AMARILLO FIESTA"
+      ],
+      "sourceLabel": "R-V20 AMARILLO FIESTA / PARTY YELLOW",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V20",
+        "spanishName": "AMARILLO FIESTA",
+        "englishName": "PARTY YELLOW"
+      }
+    },
+    {
+      "id": "R-V27",
+      "code": "R-V27",
+      "name": "VAMPIRE VIOLET",
+      "label": "R-V27 VAMPIRE VIOLET",
+      "hex": "#140633",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VIOLETA VAMPIRO"
+      ],
+      "sourceLabel": "R-V27 VIOLETA VAMPIRO / VAMPIRE VIOLET",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V27",
+        "spanishName": "VIOLETA VAMPIRO",
+        "englishName": "VAMPIRE VIOLET"
+      }
+    },
+    {
+      "id": "R-V28",
+      "code": "R-V28",
+      "name": "COSMOS VIOLET",
+      "label": "R-V28 COSMOS VIOLET",
+      "hex": "#241D47",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VIOLETA COSMOS"
+      ],
+      "sourceLabel": "R-V28 VIOLETA COSMOS / COSMOS VIOLET",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V28",
+        "spanishName": "VIOLETA COSMOS",
+        "englishName": "COSMOS VIOLET"
+      }
+    },
+    {
+      "id": "R-V30",
+      "code": "R-V30",
+      "name": "ELECTRIC BLUE",
+      "label": "R-V30 ELECTRIC BLUE",
+      "hex": "#005891",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL ELECTRICO"
+      ],
+      "sourceLabel": "R-V30 AZUL ELECTRICO / ELECTRIC BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V30",
+        "spanishName": "AZUL ELECTRICO",
+        "englishName": "ELECTRIC BLUE"
+      }
+    },
+    {
+      "id": "R-V34",
+      "code": "R-V34",
+      "name": "GUACAMOLE GREEN",
+      "label": "R-V34 GUACAMOLE GREEN",
+      "hex": "#81A512",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE GUACAMOLE"
+      ],
+      "sourceLabel": "R-V34 VERDE GUACAMOLE / GUACAMOLE GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V34",
+        "spanishName": "VERDE GUACAMOLE",
+        "englishName": "GUACAMOLE GREEN"
+      }
+    },
+    {
+      "id": "R-V47",
+      "code": "R-V47",
+      "name": "CLANDESTINE RED",
+      "label": "R-V47 CLANDESTINE RED",
+      "hex": "#950825",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO CLANDESTINO"
+      ],
+      "sourceLabel": "R-V47 ROJO CLANDESTINO / CLANDESTINE RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V47",
+        "spanishName": "ROJO CLANDESTINO",
+        "englishName": "CLANDESTINE RED"
+      }
+    },
+    {
+      "id": "R-V50",
+      "code": "R-V50",
+      "name": "SOLAR ORANGE",
+      "label": "R-V50 SOLAR ORANGE",
+      "hex": "#F7B060",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "NARANJA SOLAR"
+      ],
+      "sourceLabel": "R-V50 NARANJA SOLAR / SOLAR ORANGE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V50",
+        "spanishName": "NARANJA SOLAR",
+        "englishName": "SOLAR ORANGE"
+      }
+    },
+    {
+      "id": "R-V60",
+      "code": "R-V60",
+      "name": "KRYPTON GREEN",
+      "label": "R-V60 KRYPTON GREEN",
+      "hex": "#83890E",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE KRIPTON"
+      ],
+      "sourceLabel": "R-V60 VERDE KRIPTON / KRYPTON GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V60",
+        "spanishName": "VERDE KRIPTON",
+        "englishName": "KRYPTON GREEN"
+      }
+    },
+    {
+      "id": "R-V64",
+      "code": "R-V64",
+      "name": "RESPECT PINK",
+      "label": "R-V64 RESPECT PINK",
+      "hex": "#B59993",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROSA RESPETO"
+      ],
+      "sourceLabel": "R-V64 ROSA RESPETO / RESPECT PINK",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V64",
+        "spanishName": "ROSA RESPETO",
+        "englishName": "RESPECT PINK"
+      }
+    },
+    {
+      "id": "R-V77",
+      "code": "R-V77",
+      "name": "NIGHT RED",
+      "label": "R-V77 NIGHT RED",
+      "hex": "#320705",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO NOCHE"
+      ],
+      "sourceLabel": "R-V77 ROJO NOCHE / NIGHT RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V77",
+        "spanishName": "ROJO NOCHE",
+        "englishName": "NIGHT RED"
+      }
+    },
+    {
+      "id": "R-V78",
+      "code": "R-V78",
+      "name": "METROPOLIS GREY",
+      "label": "R-V78 METROPOLIS GREY",
+      "hex": "#2B262C",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "GRIS METROPOLIS"
+      ],
+      "sourceLabel": "R-V78 GRIS METROPOLIS / METROPOLIS GREY",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V78",
+        "spanishName": "GRIS METROPOLIS",
+        "englishName": "METROPOLIS GREY"
+      }
+    },
+    {
+      "id": "R-V86",
+      "code": "R-V86",
+      "name": "BOREAL PINK",
+      "label": "R-V86 BOREAL PINK",
+      "hex": "#E3C0C3",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROSA BOREAL"
+      ],
+      "sourceLabel": "R-V86 ROSA BOREAL / BOREAL PINK",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V86",
+        "spanishName": "ROSA BOREAL",
+        "englishName": "BOREAL PINK"
+      }
+    },
+    {
+      "id": "R-V87",
+      "code": "R-V87",
+      "name": "STEREO PINK",
+      "label": "R-V87 STEREO PINK",
+      "hex": "#CB96A4",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROSA STEREO"
+      ],
+      "sourceLabel": "R-V87 ROSA STEREO / STEREO PINK",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V87",
+        "spanishName": "ROSA STEREO",
+        "englishName": "STEREO PINK"
+      }
+    },
+    {
+      "id": "R-V88",
+      "code": "R-V88",
+      "name": "SINGLE PINK",
+      "label": "R-V88 SINGLE PINK",
+      "hex": "#A06D7E",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROSA SINGLE"
+      ],
+      "sourceLabel": "R-V88 ROSA SINGLE / SINGLE PINK",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V88",
+        "spanishName": "ROSA SINGLE",
+        "englishName": "SINGLE PINK"
+      }
+    },
+    {
+      "id": "R-V89",
+      "code": "R-V89",
+      "name": "COMPACT RED",
+      "label": "R-V89 COMPACT RED",
+      "hex": "#874B55",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO COMPACTO"
+      ],
+      "sourceLabel": "R-V89 ROJO COMPACTO / COMPACT RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V89",
+        "spanishName": "ROJO COMPACTO",
+        "englishName": "COMPACT RED"
+      }
+    },
+    {
+      "id": "R-V90",
+      "code": "R-V90",
+      "name": "BITACORA RED",
+      "label": "R-V90 BITACORA RED",
+      "hex": "#582B3A",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO BITÁCORA"
+      ],
+      "sourceLabel": "R-V90 ROJO BITÁCORA / BITACORA RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V90",
+        "spanishName": "ROJO BITÁCORA",
+        "englishName": "BITACORA RED"
+      }
+    },
+    {
+      "id": "R-V91",
+      "code": "R-V91",
+      "name": "PANDORA RED",
+      "label": "R-V91 PANDORA RED",
+      "hex": "#4F1F30",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO PANDORA"
+      ],
+      "sourceLabel": "R-V91 ROJO PANDORA / PANDORA RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V91",
+        "spanishName": "ROJO PANDORA",
+        "englishName": "PANDORA RED"
+      }
+    },
+    {
+      "id": "R-V92",
+      "code": "R-V92",
+      "name": "GAUDÍ RED",
+      "label": "R-V92 GAUDÍ RED",
+      "hex": "#32112A",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO GAUDÍ"
+      ],
+      "sourceLabel": "R-V92 ROJO GAUDÍ / GAUDÍ RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V92",
+        "spanishName": "ROJO GAUDÍ",
+        "englishName": "GAUDÍ RED"
+      }
+    },
+    {
+      "id": "R-V93",
+      "code": "R-V93",
+      "name": "STENDHAL RED",
+      "label": "R-V93 STENDHAL RED",
+      "hex": "#290012",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO STENDHAL"
+      ],
+      "sourceLabel": "R-V93 ROJO STENDHAL / STENDHAL RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V93",
+        "spanishName": "ROJO STENDHAL",
+        "englishName": "STENDHAL RED"
+      }
+    },
+    {
+      "id": "R-V94",
+      "code": "R-V94",
+      "name": "DINGO BROWN",
+      "label": "R-V94 DINGO BROWN",
+      "hex": "#E8D0B7",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN DINGO"
+      ],
+      "sourceLabel": "R-V94 MARRÓN DINGO / DINGO BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V94",
+        "spanishName": "MARRÓN DINGO",
+        "englishName": "DINGO BROWN"
+      }
+    },
+    {
+      "id": "R-V95",
+      "code": "R-V95",
+      "name": "TANA BROWN",
+      "label": "R-V95 TANA BROWN",
+      "hex": "#D2A786",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN TANA"
+      ],
+      "sourceLabel": "R-V95 MARRÓN TANA / TANA BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V95",
+        "spanishName": "MARRÓN TANA",
+        "englishName": "TANA BROWN"
+      }
+    },
+    {
+      "id": "R-V96",
+      "code": "R-V96",
+      "name": "MONTSERRAT",
+      "label": "R-V96 MONTSERRAT",
+      "hex": "#CC955F",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "R-V96 MONTSERRAT / MONTSERRAT",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V96",
+        "spanishName": "MONTSERRAT",
+        "englishName": "MONTSERRAT"
+      }
+    },
+    {
+      "id": "R-V97",
+      "code": "R-V97",
+      "name": "CHIAPAS BROWN",
+      "label": "R-V97 CHIAPAS BROWN",
+      "hex": "#A0682B",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN CHIAPAS"
+      ],
+      "sourceLabel": "R-V97 MARRÓN CHIAPAS / CHIAPAS BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V97",
+        "spanishName": "MARRÓN CHIAPAS",
+        "englishName": "CHIAPAS BROWN"
+      }
+    },
+    {
+      "id": "R-V98",
+      "code": "R-V98",
+      "name": "BEAN BROWN",
+      "label": "R-V98 BEAN BROWN",
+      "hex": "#A65F30",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN FRIJOL"
+      ],
+      "sourceLabel": "R-V98 MARRÓN FRIJOL / BEAN BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V98",
+        "spanishName": "MARRÓN FRIJOL",
+        "englishName": "BEAN BROWN"
+      }
+    },
+    {
+      "id": "R-V99",
+      "code": "R-V99",
+      "name": "MARRÓN GLACÉ",
+      "label": "R-V99 MARRÓN GLACÉ",
+      "hex": "#7A3D25",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "R-V99 MARRÓN GLACÉ / MARRÓN GLACÉ",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V99",
+        "spanishName": "MARRÓN GLACÉ",
+        "englishName": "MARRÓN GLACÉ"
+      }
+    },
+    {
+      "id": "R-V100",
+      "code": "R-V100",
+      "name": "COFFEE BROWN",
+      "label": "R-V100 COFFEE BROWN",
+      "hex": "#402009",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN CAFÉ"
+      ],
+      "sourceLabel": "R-V100 MARRÓN CAFÉ / COFFEE BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V100",
+        "spanishName": "MARRÓN CAFÉ",
+        "englishName": "COFFEE BROWN"
+      }
+    },
+    {
+      "id": "R-V101",
+      "code": "R-V101",
+      "name": "EBONY BROWN",
+      "label": "R-V101 EBONY BROWN",
+      "hex": "#2F110A",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN EBANO"
+      ],
+      "sourceLabel": "R-V101 MARRÓN EBANO / EBONY BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V101",
+        "spanishName": "MARRÓN EBANO",
+        "englishName": "EBONY BROWN"
+      }
+    },
+    {
+      "id": "R-V102",
+      "code": "R-V102",
+      "name": "DALAI ORANGE",
+      "label": "R-V102 DALAI ORANGE",
+      "hex": "#FDDCA3",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "NARANJA DALAI"
+      ],
+      "sourceLabel": "R-V102 NARANJA DALAI / DALAI ORANGE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V102",
+        "spanishName": "NARANJA DALAI",
+        "englishName": "DALAI ORANGE"
+      }
+    },
+    {
+      "id": "R-V103",
+      "code": "R-V103",
+      "name": "PLURAL ORANGE",
+      "label": "R-V103 PLURAL ORANGE",
+      "hex": "#FAC67E",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "NARANJA PLURAL"
+      ],
+      "sourceLabel": "R-V103 NARANJA PLURAL / PLURAL ORANGE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V103",
+        "spanishName": "NARANJA PLURAL",
+        "englishName": "PLURAL ORANGE"
+      }
+    },
+    {
+      "id": "R-V105",
+      "code": "R-V105",
+      "name": "TANGERINE",
+      "label": "R-V105 TANGERINE",
+      "hex": "#F5A54A",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MANDARINA"
+      ],
+      "sourceLabel": "R-V105 MANDARINA / TANGERINE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V105",
+        "spanishName": "MANDARINA",
+        "englishName": "TANGERINE"
+      }
+    },
+    {
+      "id": "R-V106",
+      "code": "R-V106",
+      "name": "LAVA ORANGE",
+      "label": "R-V106 LAVA ORANGE",
+      "hex": "#EF8407",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "NARANJA LAVA"
+      ],
+      "sourceLabel": "R-V106 NARANJA LAVA / LAVA ORANGE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V106",
+        "spanishName": "NARANJA LAVA",
+        "englishName": "LAVA ORANGE"
+      }
+    },
+    {
+      "id": "R-V107",
+      "code": "R-V107",
+      "name": "MARS ORANGE",
+      "label": "R-V107 MARS ORANGE",
+      "hex": "#E64714",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "NARANJA MARTE"
+      ],
+      "sourceLabel": "R-V107 NARANJA MARTE / MARS ORANGE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V107",
+        "spanishName": "NARANJA MARTE",
+        "englishName": "MARS ORANGE"
+      }
+    },
+    {
+      "id": "R-V108",
+      "code": "R-V108",
+      "name": "PHOENIX ORANGE",
+      "label": "R-V108 PHOENIX ORANGE",
+      "hex": "#BE3819",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "NARANJA FENIX"
+      ],
+      "sourceLabel": "R-V108 NARANJA FENIX / PHOENIX ORANGE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V108",
+        "spanishName": "NARANJA FENIX",
+        "englishName": "PHOENIX ORANGE"
+      }
+    },
+    {
+      "id": "R-V109",
+      "code": "R-V109",
+      "name": "CANARIAS YELLOW",
+      "label": "R-V109 CANARIAS YELLOW",
+      "hex": "#FFF058",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AMARILLO CANARIAS"
+      ],
+      "sourceLabel": "R-V109 AMARILLO CANARIAS / CANARIAS YELLOW",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V109",
+        "spanishName": "AMARILLO CANARIAS",
+        "englishName": "CANARIAS YELLOW"
+      }
+    },
+    {
+      "id": "R-V110",
+      "code": "R-V110",
+      "name": "YOSEMITE YELLOW",
+      "label": "R-V110 YOSEMITE YELLOW",
+      "hex": "#C7B300",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AMARILLO YOSEMITE"
+      ],
+      "sourceLabel": "R-V110 AMARILLO YOSEMITE / YOSEMITE YELLOW",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V110",
+        "spanishName": "AMARILLO YOSEMITE",
+        "englishName": "YOSEMITE YELLOW"
+      }
+    },
+    {
+      "id": "R-V111",
+      "code": "R-V111",
+      "name": "BABEL GREEN",
+      "label": "R-V111 BABEL GREEN",
+      "hex": "#A29400",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE BABEL"
+      ],
+      "sourceLabel": "R-V111 VERDE BABEL / BABEL GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V111",
+        "spanishName": "VERDE BABEL",
+        "englishName": "BABEL GREEN"
+      }
+    },
+    {
+      "id": "R-V112",
+      "code": "R-V112",
+      "name": "MISSION GREEN",
+      "label": "R-V112 MISSION GREEN",
+      "hex": "#766A10",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE MISIÓN"
+      ],
+      "sourceLabel": "R-V112 VERDE MISIÓN / MISSION GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V112",
+        "spanishName": "VERDE MISIÓN",
+        "englishName": "MISSION GREEN"
+      }
+    },
+    {
+      "id": "R-V113",
+      "code": "R-V113",
+      "name": "DRAGON GREEN",
+      "label": "R-V113 DRAGON GREEN",
+      "hex": "#5E5003",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE DRAGÓN"
+      ],
+      "sourceLabel": "R-V113 VERDE DRAGÓN / DRAGON GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V113",
+        "spanishName": "VERDE DRAGÓN",
+        "englishName": "DRAGON GREEN"
+      }
+    },
+    {
+      "id": "R-V114",
+      "code": "R-V114",
+      "name": "MAYA GREEN",
+      "label": "R-V114 MAYA GREEN",
+      "hex": "#3D3409",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE MAYA"
+      ],
+      "sourceLabel": "R-V114 VERDE MAYA / MAYA GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V114",
+        "spanishName": "VERDE MAYA",
+        "englishName": "MAYA GREEN"
+      }
+    },
+    {
+      "id": "R-V115",
+      "code": "R-V115",
+      "name": "TUTTI FRUTTI",
+      "label": "R-V115 TUTTI FRUTTI",
+      "hex": "#EA949E",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "R-V115 TUTTI FRUTTI / TUTTI FRUTTI",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V115",
+        "spanishName": "TUTTI FRUTTI",
+        "englishName": "TUTTI FRUTTI"
+      }
+    },
+    {
+      "id": "R-V116",
+      "code": "R-V116",
+      "name": "BLOOD RED",
+      "label": "R-V116 BLOOD RED",
+      "hex": "#D53025",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO SANGRE"
+      ],
+      "sourceLabel": "R-V116 ROJO SANGRE / BLOOD RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V116",
+        "spanishName": "ROJO SANGRE",
+        "englishName": "BLOOD RED"
+      }
+    },
+    {
+      "id": "R-V118",
+      "code": "R-V118",
+      "name": "RITA GREY",
+      "label": "R-V118 RITA GREY",
+      "hex": "#CDD0D1",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "GRIS RITA"
+      ],
+      "sourceLabel": "R-V118 GRIS RITA / RITA GREY",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V118",
+        "spanishName": "GRIS RITA",
+        "englishName": "RITA GREY"
+      }
+    },
+    {
+      "id": "R-V119",
+      "code": "R-V119",
+      "name": "LONDON GREY",
+      "label": "R-V119 LONDON GREY",
+      "hex": "#898B8E",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "GRIS LONDRES"
+      ],
+      "sourceLabel": "R-V119 GRIS LONDRES / LONDON GREY",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V119",
+        "spanishName": "GRIS LONDRES",
+        "englishName": "LONDON GREY"
+      }
+    },
+    {
+      "id": "R-V120",
+      "code": "R-V120",
+      "name": "WOLF GREY",
+      "label": "R-V120 WOLF GREY",
+      "hex": "#5B5B5E",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "GRIS LOBO"
+      ],
+      "sourceLabel": "R-V120 GRIS LOBO / WOLF GREY",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V120",
+        "spanishName": "GRIS LOBO",
+        "englishName": "WOLF GREY"
+      }
+    },
+    {
+      "id": "R-V121",
+      "code": "R-V121",
+      "name": "ICARUS GREY",
+      "label": "R-V121 ICARUS GREY",
+      "hex": "#47484B",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "GRIS ICARO"
+      ],
+      "sourceLabel": "R-V121 GRIS ICARO / ICARUS GREY",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V121",
+        "spanishName": "GRIS ICARO",
+        "englishName": "ICARUS GREY"
+      }
+    },
+    {
+      "id": "R-V124",
+      "code": "R-V124",
+      "name": "FRISCO GREEN",
+      "label": "R-V124 FRISCO GREEN",
+      "hex": "#D4E19E",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE FRISCO"
+      ],
+      "sourceLabel": "R-V124 VERDE FRISCO / FRISCO GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V124",
+        "spanishName": "VERDE FRISCO",
+        "englishName": "FRISCO GREEN"
+      }
+    },
+    {
+      "id": "R-V125",
+      "code": "R-V125",
+      "name": "NEON GREEN",
+      "label": "R-V125 NEON GREEN",
+      "hex": "#A5B700",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE NEÓN"
+      ],
+      "sourceLabel": "R-V125 VERDE NEÓN / NEON GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V125",
+        "spanishName": "VERDE NEÓN",
+        "englishName": "NEON GREEN"
+      }
+    },
+    {
+      "id": "R-V126",
+      "code": "R-V126",
+      "name": "TOSCANA GREEN",
+      "label": "R-V126 TOSCANA GREEN",
+      "hex": "#2B491F",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE TOSCANA"
+      ],
+      "sourceLabel": "R-V126 VERDE TOSCANA / TOSCANA GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V126",
+        "spanishName": "VERDE TOSCANA",
+        "englishName": "TOSCANA GREEN"
+      }
+    },
+    {
+      "id": "R-V127",
+      "code": "R-V127",
+      "name": "ERA GREEN",
+      "label": "R-V127 ERA GREEN",
+      "hex": "#142F0F",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE ERA"
+      ],
+      "sourceLabel": "R-V127 VERDE ERA / ERA GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V127",
+        "spanishName": "VERDE ERA",
+        "englishName": "ERA GREEN"
+      }
+    },
+    {
+      "id": "R-V129",
+      "code": "R-V129",
+      "name": "OREGANO GREEN",
+      "label": "R-V129 OREGANO GREEN",
+      "hex": "#AFAB00",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE OREGANO"
+      ],
+      "sourceLabel": "R-V129 VERDE OREGANO / OREGANO GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V129",
+        "spanishName": "VERDE OREGANO",
+        "englishName": "OREGANO GREEN"
+      }
+    },
+    {
+      "id": "R-V130",
+      "code": "R-V130",
+      "name": "EUSKADI GREEN",
+      "label": "R-V130 EUSKADI GREEN",
+      "hex": "#50590D",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE EUSKADI"
+      ],
+      "sourceLabel": "R-V130 VERDE EUSKADI / EUSKADI GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V130",
+        "spanishName": "VERDE EUSKADI",
+        "englishName": "EUSKADI GREEN"
+      }
+    },
+    {
+      "id": "R-V131",
+      "code": "R-V131",
+      "name": "COMARCA GREEN",
+      "label": "R-V131 COMARCA GREEN",
+      "hex": "#343B09",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE COMARCA"
+      ],
+      "sourceLabel": "R-V131 VERDE COMARCA / COMARCA GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V131",
+        "spanishName": "VERDE COMARCA",
+        "englishName": "COMARCA GREEN"
+      }
+    },
+    {
+      "id": "R-V132",
+      "code": "R-V132",
+      "name": "BORNEO GREEN",
+      "label": "R-V132 BORNEO GREEN",
+      "hex": "#202C06",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE BORNEO"
+      ],
+      "sourceLabel": "R-V132 VERDE BORNEO / BORNEO GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V132",
+        "spanishName": "VERDE BORNEO",
+        "englishName": "BORNEO GREEN"
+      }
+    },
+    {
+      "id": "R-V133",
+      "code": "R-V133",
+      "name": "DHARMA GREEN",
+      "label": "R-V133 DHARMA GREEN",
+      "hex": "#202C06",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE DHARMA"
+      ],
+      "sourceLabel": "R-V133 VERDE DHARMA / DHARMA GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V133",
+        "spanishName": "VERDE DHARMA",
+        "englishName": "DHARMA GREEN"
+      }
+    },
+    {
+      "id": "R-V134",
+      "code": "R-V134",
+      "name": "INFINITY GREEN",
+      "label": "R-V134 INFINITY GREEN",
+      "hex": "#152606",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE INFINITO"
+      ],
+      "sourceLabel": "R-V134 VERDE INFINITO / INFINITY GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V134",
+        "spanishName": "VERDE INFINITO",
+        "englishName": "INFINITY GREEN"
+      }
+    },
+    {
+      "id": "R-V135",
+      "code": "R-V135",
+      "name": "SAFARI BROWN",
+      "label": "R-V135 SAFARI BROWN",
+      "hex": "#EAE0A9",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN SAFARI"
+      ],
+      "sourceLabel": "R-V135 MARRÓN SAFARI / SAFARI BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V135",
+        "spanishName": "MARRÓN SAFARI",
+        "englishName": "SAFARI BROWN"
+      }
+    },
+    {
+      "id": "R-V136",
+      "code": "R-V136",
+      "name": "INCA BROWN",
+      "label": "R-V136 INCA BROWN",
+      "hex": "#D9B365",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN INCA"
+      ],
+      "sourceLabel": "R-V136 MARRÓN INCA / INCA BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V136",
+        "spanishName": "MARRÓN INCA",
+        "englishName": "INCA BROWN"
+      }
+    },
+    {
+      "id": "R-V137",
+      "code": "R-V137",
+      "name": "KRAFT BROWN",
+      "label": "R-V137 KRAFT BROWN",
+      "hex": "#BD9B62",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN KRAFT"
+      ],
+      "sourceLabel": "R-V137 MARRÓN KRAFT / KRAFT BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V137",
+        "spanishName": "MARRÓN KRAFT",
+        "englishName": "KRAFT BROWN"
+      }
+    },
+    {
+      "id": "R-V138",
+      "code": "R-V138",
+      "name": "MARRAKECH",
+      "label": "R-V138 MARRAKECH",
+      "hex": "#997540",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRAQUECH"
+      ],
+      "sourceLabel": "R-V138 MARRAQUECH / MARRAKECH",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V138",
+        "spanishName": "MARRAQUECH",
+        "englishName": "MARRAKECH"
+      }
+    },
+    {
+      "id": "R-V139",
+      "code": "R-V139",
+      "name": "SEQUOIA BROWN",
+      "label": "R-V139 SEQUOIA BROWN",
+      "hex": "#6F5229",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN SECUOIA"
+      ],
+      "sourceLabel": "R-V139 MARRÓN SECUOIA / SEQUOIA BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V139",
+        "spanishName": "MARRÓN SECUOIA",
+        "englishName": "SEQUOIA BROWN"
+      }
+    },
+    {
+      "id": "R-V141",
+      "code": "R-V141",
+      "name": "GONDOLA BROWN",
+      "label": "R-V141 GONDOLA BROWN",
+      "hex": "#412C14",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN GONDOLA"
+      ],
+      "sourceLabel": "R-V141 MARRÓN GONDOLA / GONDOLA BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V141",
+        "spanishName": "MARRÓN GONDOLA",
+        "englishName": "GONDOLA BROWN"
+      }
+    },
+    {
+      "id": "R-V142",
+      "code": "R-V142",
+      "name": "GEMINI GREEN",
+      "label": "R-V142 GEMINI GREEN",
+      "hex": "#E1F0E8",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE GEMINIS"
+      ],
+      "sourceLabel": "R-V142 VERDE GEMINIS / GEMINI GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V142",
+        "spanishName": "VERDE GEMINIS",
+        "englishName": "GEMINI GREEN"
+      }
+    },
+    {
+      "id": "R-V144",
+      "code": "R-V144",
+      "name": "BALI GREEN",
+      "label": "R-V144 BALI GREEN",
+      "hex": "#7BC6C0",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE BALI"
+      ],
+      "sourceLabel": "R-V144 VERDE BALI / BALI GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V144",
+        "spanishName": "VERDE BALI",
+        "englishName": "BALI GREEN"
+      }
+    },
+    {
+      "id": "R-V145",
+      "code": "R-V145",
+      "name": "ERASMUS GREEN",
+      "label": "R-V145 ERASMUS GREEN",
+      "hex": "#5BB5B5",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE ERASMUS"
+      ],
+      "sourceLabel": "R-V145 VERDE ERASMUS / ERASMUS GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V145",
+        "spanishName": "VERDE ERASMUS",
+        "englishName": "ERASMUS GREEN"
+      }
+    },
+    {
+      "id": "R-V146",
+      "code": "R-V146",
+      "name": "GLORY BLUE",
+      "label": "R-V146 GLORY BLUE",
+      "hex": "#2D6A75",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL GLÓRIA"
+      ],
+      "sourceLabel": "R-V146 AZUL GLÓRIA / GLORY BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V146",
+        "spanishName": "AZUL GLÓRIA",
+        "englishName": "GLORY BLUE"
+      }
+    },
+    {
+      "id": "R-V147",
+      "code": "R-V147",
+      "name": "PEGASUS BLUE",
+      "label": "R-V147 PEGASUS BLUE",
+      "hex": "#003640",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL PEGASUS"
+      ],
+      "sourceLabel": "R-V147 AZUL PEGASUS / PEGASUS BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V147",
+        "spanishName": "AZUL PEGASUS",
+        "englishName": "PEGASUS BLUE"
+      }
+    },
+    {
+      "id": "R-V148",
+      "code": "R-V148",
+      "name": "HERCULES BLUE",
+      "label": "R-V148 HERCULES BLUE",
+      "hex": "#00282A",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL HERCULES"
+      ],
+      "sourceLabel": "R-V148 AZUL HERCULES / HERCULES BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V148",
+        "spanishName": "AZUL HERCULES",
+        "englishName": "HERCULES BLUE"
+      }
+    },
+    {
+      "id": "R-V149",
+      "code": "R-V149",
+      "name": "HYDRA BLUE",
+      "label": "R-V149 HYDRA BLUE",
+      "hex": "#8ECAE5",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL HYDRA"
+      ],
+      "sourceLabel": "R-V149 AZUL HYDRA / HYDRA BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V149",
+        "spanishName": "AZUL HYDRA",
+        "englishName": "HYDRA BLUE"
+      }
+    },
+    {
+      "id": "R-V150",
+      "code": "R-V150",
+      "name": "ARGO BLUE",
+      "label": "R-V150 ARGO BLUE",
+      "hex": "#44B3DF",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL ARGO"
+      ],
+      "sourceLabel": "R-V150 AZUL ARGO / ARGO BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V150",
+        "spanishName": "AZUL ARGO",
+        "englishName": "ARGO BLUE"
+      }
+    },
+    {
+      "id": "R-V151",
+      "code": "R-V151",
+      "name": "FREEDOM BLUE",
+      "label": "R-V151 FREEDOM BLUE",
+      "hex": "#0098D3",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL LIBERTAD"
+      ],
+      "sourceLabel": "R-V151 AZUL LIBERTAD / FREEDOM BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V151",
+        "spanishName": "AZUL LIBERTAD",
+        "englishName": "FREEDOM BLUE"
+      }
+    },
+    {
+      "id": "R-V152",
+      "code": "R-V152",
+      "name": "EUROPE BLUE",
+      "label": "R-V152 EUROPE BLUE",
+      "hex": "#0074B0",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL EUROPA"
+      ],
+      "sourceLabel": "R-V152 AZUL EUROPA / EUROPE BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V152",
+        "spanishName": "AZUL EUROPA",
+        "englishName": "EUROPE BLUE"
+      }
+    },
+    {
+      "id": "R-V154",
+      "code": "R-V154",
+      "name": "TWISTER BLUE",
+      "label": "R-V154 TWISTER BLUE",
+      "hex": "#042151",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL TORNADO"
+      ],
+      "sourceLabel": "R-V154 AZUL TORNADO / TWISTER BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V154",
+        "spanishName": "AZUL TORNADO",
+        "englishName": "TWISTER BLUE"
+      }
+    },
+    {
+      "id": "R-V156",
+      "code": "R-V156",
+      "name": "BARCELONETA BLUE",
+      "label": "R-V156 BARCELONETA BLUE",
+      "hex": "#CAE4F0",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL BARCELONETA"
+      ],
+      "sourceLabel": "R-V156 AZUL BARCELONETA / BARCELONETA BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V156",
+        "spanishName": "AZUL BARCELONETA",
+        "englishName": "BARCELONETA BLUE"
+      }
+    },
+    {
+      "id": "R-V157",
+      "code": "R-V157",
+      "name": "THALASSA BLUE",
+      "label": "R-V157 THALASSA BLUE",
+      "hex": "#A2D3EB",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL THALASSA"
+      ],
+      "sourceLabel": "R-V157 AZUL THALASSA / THALASSA BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V157",
+        "spanishName": "AZUL THALASSA",
+        "englishName": "THALASSA BLUE"
+      }
+    },
+    {
+      "id": "R-V158",
+      "code": "R-V158",
+      "name": "PERSEUS BLUE",
+      "label": "R-V158 PERSEUS BLUE",
+      "hex": "#7FB8D5",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL PERSEO"
+      ],
+      "sourceLabel": "R-V158 AZUL PERSEO / PERSEUS BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V158",
+        "spanishName": "AZUL PERSEO",
+        "englishName": "PERSEUS BLUE"
+      }
+    },
+    {
+      "id": "R-V159",
+      "code": "R-V159",
+      "name": "ODYSSEY BLUE",
+      "label": "R-V159 ODYSSEY BLUE",
+      "hex": "#6EA4BE",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL ODISEA"
+      ],
+      "sourceLabel": "R-V159 AZUL ODISEA / ODYSSEY BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V159",
+        "spanishName": "AZUL ODISEA",
+        "englishName": "ODYSSEY BLUE"
+      }
+    },
+    {
+      "id": "R-V160",
+      "code": "R-V160",
+      "name": "EUREKA BLUE",
+      "label": "R-V160 EUREKA BLUE",
+      "hex": "#467389",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL EUREKA"
+      ],
+      "sourceLabel": "R-V160 AZUL EUREKA / EUREKA BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V160",
+        "spanishName": "AZUL EUREKA",
+        "englishName": "EUREKA BLUE"
+      }
+    },
+    {
+      "id": "R-V161",
+      "code": "R-V161",
+      "name": "JASE BLUE",
+      "label": "R-V161 JASE BLUE",
+      "hex": "#2E4A5B",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL JASE"
+      ],
+      "sourceLabel": "R-V161 AZUL JASE / JASE BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V161",
+        "spanishName": "AZUL JASE",
+        "englishName": "JASE BLUE"
+      }
+    },
+    {
+      "id": "R-V162",
+      "code": "R-V162",
+      "name": "DEEP BLUE",
+      "label": "R-V162 DEEP BLUE",
+      "hex": "#003447",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL PROFUNDO"
+      ],
+      "sourceLabel": "R-V162 AZUL PROFUNDO / DEEP BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V162",
+        "spanishName": "AZUL PROFUNDO",
+        "englishName": "DEEP BLUE"
+      }
+    },
+    {
+      "id": "R-V163",
+      "code": "R-V163",
+      "name": "POSEIDON BLUE",
+      "label": "R-V163 POSEIDON BLUE",
+      "hex": "#00212F",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL POSEIDON"
+      ],
+      "sourceLabel": "R-V163 AZUL POSEIDON / POSEIDON BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V163",
+        "spanishName": "AZUL POSEIDON",
+        "englishName": "POSEIDON BLUE"
+      }
+    },
+    {
+      "id": "R-V164",
+      "code": "R-V164",
+      "name": "TOKYO PINK",
+      "label": "R-V164 TOKYO PINK",
+      "hex": "#F7C7D7",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROSA TOKYO"
+      ],
+      "sourceLabel": "R-V164 ROSA TOKYO / TOKYO PINK",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V164",
+        "spanishName": "ROSA TOKYO",
+        "englishName": "TOKYO PINK"
+      }
+    },
+    {
+      "id": "R-V165",
+      "code": "R-V165",
+      "name": "ORCHID PINK",
+      "label": "R-V165 ORCHID PINK",
+      "hex": "#ED7FAA",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROSA ORQUIDEA"
+      ],
+      "sourceLabel": "R-V165 ROSA ORQUIDEA / ORCHID PINK",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V165",
+        "spanishName": "ROSA ORQUIDEA",
+        "englishName": "ORCHID PINK"
+      }
+    },
+    {
+      "id": "R-V166",
+      "code": "R-V166",
+      "name": "ACAI RED",
+      "label": "R-V166 ACAI RED",
+      "hex": "#9A004B",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO ACAI"
+      ],
+      "sourceLabel": "R-V166 ROJO ACAI / ACAI RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V166",
+        "spanishName": "ROJO ACAI",
+        "englishName": "ACAI RED"
+      }
+    },
+    {
+      "id": "R-V167",
+      "code": "R-V167",
+      "name": "RIOJA RED",
+      "label": "R-V167 RIOJA RED",
+      "hex": "#6B0037",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO RIOJA"
+      ],
+      "sourceLabel": "R-V167 ROJO RIOJA / RIOJA RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V167",
+        "spanishName": "ROJO RIOJA",
+        "englishName": "RIOJA RED"
+      }
+    },
+    {
+      "id": "R-V168",
+      "code": "R-V168",
+      "name": "ANGER RED",
+      "label": "R-V168 ANGER RED",
+      "hex": "#550027",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO IRA"
+      ],
+      "sourceLabel": "R-V168 ROJO IRA / ANGER RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V168",
+        "spanishName": "ROJO IRA",
+        "englishName": "ANGER RED"
+      }
+    },
+    {
+      "id": "R-V169",
+      "code": "R-V169",
+      "name": "TAURUS RED",
+      "label": "R-V169 TAURUS RED",
+      "hex": "#36001C",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROJO TAURUS"
+      ],
+      "sourceLabel": "R-V169 ROJO TAURUS / TAURUS RED",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V169",
+        "spanishName": "ROJO TAURUS",
+        "englishName": "TAURUS RED"
+      }
+    },
+    {
+      "id": "R-V170",
+      "code": "R-V170",
+      "name": "PERSIA VIOLET",
+      "label": "R-V170 PERSIA VIOLET",
+      "hex": "#C5ADD0",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VIOLETA PERSIA"
+      ],
+      "sourceLabel": "R-V170 VIOLETA PERSIA / PERSIA VIOLET",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V170",
+        "spanishName": "VIOLETA PERSIA",
+        "englishName": "PERSIA VIOLET"
+      }
+    },
+    {
+      "id": "R-V171",
+      "code": "R-V171",
+      "name": "COMMUNITY VIOLET",
+      "label": "R-V171 COMMUNITY VIOLET",
+      "hex": "#B194C0",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VIOLETA COMUNIDAD"
+      ],
+      "sourceLabel": "R-V171 VIOLETA COMUNIDAD / COMMUNITY VIOLET",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V171",
+        "spanishName": "VIOLETA COMUNIDAD",
+        "englishName": "COMMUNITY VIOLET"
+      }
+    },
+    {
+      "id": "R-V172",
+      "code": "R-V172",
+      "name": "DESTINY VIOLET",
+      "label": "R-V172 DESTINY VIOLET",
+      "hex": "#8271A3",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VIOLETA DESTINO"
+      ],
+      "sourceLabel": "R-V172 VIOLETA DESTINO / DESTINY VIOLET",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V172",
+        "spanishName": "VIOLETA DESTINO",
+        "englishName": "DESTINY VIOLET"
+      }
+    },
+    {
+      "id": "R-V173",
+      "code": "R-V173",
+      "name": "ULTRAVIOLET",
+      "label": "R-V173 ULTRAVIOLET",
+      "hex": "#6B4D8E",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ULTRAVIOLETA"
+      ],
+      "sourceLabel": "R-V173 ULTRAVIOLETA / ULTRAVIOLET",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V173",
+        "spanishName": "ULTRAVIOLETA",
+        "englishName": "ULTRAVIOLET"
+      }
+    },
+    {
+      "id": "R-V174",
+      "code": "R-V174",
+      "name": "VENUS VIOLET",
+      "label": "R-V174 VENUS VIOLET",
+      "hex": "#483366",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VIOLETA VENUS"
+      ],
+      "sourceLabel": "R-V174 VIOLETA VENUS / VENUS VIOLET",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V174",
+        "spanishName": "VIOLETA VENUS",
+        "englishName": "VENUS VIOLET"
+      }
+    },
+    {
+      "id": "R-V175",
+      "code": "R-V175",
+      "name": "ELECTRA VIOLET",
+      "label": "R-V175 ELECTRA VIOLET",
+      "hex": "#32234E",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VIOLETA ELECTRA"
+      ],
+      "sourceLabel": "R-V175 VIOLETA ELECTRA / ELECTRA VIOLET",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V175",
+        "spanishName": "VIOLETA ELECTRA",
+        "englishName": "ELECTRA VIOLET"
+      }
+    },
+    {
+      "id": "R-V176",
+      "code": "R-V176",
+      "name": "SENSIBLE BROWN",
+      "label": "R-V176 SENSIBLE BROWN",
+      "hex": "#EFD9D0",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN SENSIBLE"
+      ],
+      "sourceLabel": "R-V176 MARRÓN SENSIBLE / SENSIBLE BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V176",
+        "spanishName": "MARRÓN SENSIBLE",
+        "englishName": "SENSIBLE BROWN"
+      }
+    },
+    {
+      "id": "R-V177",
+      "code": "R-V177",
+      "name": "ELDORADO",
+      "label": "R-V177 ELDORADO",
+      "hex": "#F1C700",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "R-V177 ELDORADO / ELDORADO",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V177",
+        "spanishName": "ELDORADO",
+        "englishName": "ELDORADO"
+      }
+    },
+    {
+      "id": "R-V178",
+      "code": "R-V178",
+      "name": "TIBET",
+      "label": "R-V178 TIBET",
+      "hex": "#D58B27",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "R-V178 TIBET / TIBET",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V178",
+        "spanishName": "TIBET",
+        "englishName": "TIBET"
+      }
+    },
+    {
+      "id": "R-V179",
+      "code": "R-V179",
+      "name": "BONSAI GREEN",
+      "label": "R-V179 BONSAI GREEN",
+      "hex": "#B8BC86",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE BONSAI"
+      ],
+      "sourceLabel": "R-V179 VERDE BONSAI / BONSAI GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V179",
+        "spanishName": "VERDE BONSAI",
+        "englishName": "BONSAI GREEN"
+      }
+    },
+    {
+      "id": "R-V180",
+      "code": "R-V180",
+      "name": "THAI GREEN",
+      "label": "R-V180 THAI GREEN",
+      "hex": "#8F976E",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE THAI"
+      ],
+      "sourceLabel": "R-V180 VERDE THAI / THAI GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V180",
+        "spanishName": "VERDE THAI",
+        "englishName": "THAI GREEN"
+      }
+    },
+    {
+      "id": "R-V181",
+      "code": "R-V181",
+      "name": "EDEN GREEN",
+      "label": "R-V181 EDEN GREEN",
+      "hex": "#47492B",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE EDÉN"
+      ],
+      "sourceLabel": "R-V181 VERDE EDÉN / EDEN GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V181",
+        "spanishName": "VERDE EDÉN",
+        "englishName": "EDEN GREEN"
+      }
+    },
+    {
+      "id": "R-V182",
+      "code": "R-V182",
+      "name": "EMERALD GREEN",
+      "label": "R-V182 EMERALD GREEN",
+      "hex": "#009E90",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE ESMERALDA"
+      ],
+      "sourceLabel": "R-V182 VERDE ESMERALDA / EMERALD GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V182",
+        "spanishName": "VERDE ESMERALDA",
+        "englishName": "EMERALD GREEN"
+      }
+    },
+    {
+      "id": "R-V183",
+      "code": "R-V183",
+      "name": "BERYL GREEN",
+      "label": "R-V183 BERYL GREEN",
+      "hex": "#107874",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE BERILO"
+      ],
+      "sourceLabel": "R-V183 VERDE BERILO / BERYL GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V183",
+        "spanishName": "VERDE BERILO",
+        "englishName": "BERYL GREEN"
+      }
+    },
+    {
+      "id": "R-V184",
+      "code": "R-V184",
+      "name": "RAIN BLUE",
+      "label": "R-V184 RAIN BLUE",
+      "hex": "#C4E7F8",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL LLUVIA"
+      ],
+      "sourceLabel": "R-V184 AZUL LLUVIA / RAIN BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V184",
+        "spanishName": "AZUL LLUVIA",
+        "englishName": "RAIN BLUE"
+      }
+    },
+    {
+      "id": "R-V185",
+      "code": "R-V185",
+      "name": "ANGEL BLUE",
+      "label": "R-V185 ANGEL BLUE",
+      "hex": "#EAF0F5",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AZUL ANGEL"
+      ],
+      "sourceLabel": "R-V185 AZUL ANGEL / ANGEL BLUE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V185",
+        "spanishName": "AZUL ANGEL",
+        "englishName": "ANGEL BLUE"
+      }
+    },
+    {
+      "id": "R-V186",
+      "code": "R-V186",
+      "name": "VIRGIN GREEN",
+      "label": "R-V186 VIRGIN GREEN",
+      "hex": "#DFDEDF",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE VIRGEN"
+      ],
+      "sourceLabel": "R-V186 VERDE VIRGEN / VIRGIN GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V186",
+        "spanishName": "VERDE VIRGEN",
+        "englishName": "VIRGIN GREEN"
+      }
+    },
+    {
+      "id": "R-V187",
+      "code": "R-V187",
+      "name": "VESPA GREEN",
+      "label": "R-V187 VESPA GREEN",
+      "hex": "#F1F5DF",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE VESPA"
+      ],
+      "sourceLabel": "R-V187 VERDE VESPA / VESPA GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V187",
+        "spanishName": "VERDE VESPA",
+        "englishName": "VESPA GREEN"
+      }
+    },
+    {
+      "id": "R-V188",
+      "code": "R-V188",
+      "name": "SHINING GREEN",
+      "label": "R-V188 SHINING GREEN",
+      "hex": "#F2EEBE",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE DESTELLO"
+      ],
+      "sourceLabel": "R-V188 VERDE DESTELLO / SHINING GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V188",
+        "spanishName": "VERDE DESTELLO",
+        "englishName": "SHINING GREEN"
+      }
+    },
+    {
+      "id": "R-V189",
+      "code": "R-V189",
+      "name": "IPANEMA YELLOW",
+      "label": "R-V189 IPANEMA YELLOW",
+      "hex": "#FFF9C3",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "AM. IPANEMA"
+      ],
+      "sourceLabel": "R-V189 AM. IPANEMA / IPANEMA YELLOW",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V189",
+        "spanishName": "AM. IPANEMA",
+        "englishName": "IPANEMA YELLOW"
+      }
+    },
+    {
+      "id": "R-V190",
+      "code": "R-V190",
+      "name": "MALTA WHITE",
+      "label": "R-V190 MALTA WHITE",
+      "hex": "#FFFFFF",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLANCO MALTA"
+      ],
+      "sourceLabel": "R-V190 BLANCO MALTA / MALTA WHITE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V190",
+        "spanishName": "BLANCO MALTA",
+        "englishName": "MALTA WHITE"
+      }
+    },
+    {
+      "id": "R-V191",
+      "code": "R-V191",
+      "name": "JAIMA BROWN",
+      "label": "R-V191 JAIMA BROWN",
+      "hex": "#F1E8DF",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN JAIMA"
+      ],
+      "sourceLabel": "R-V191 MARRÓN JAIMA / JAIMA BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V191",
+        "spanishName": "MARRÓN JAIMA",
+        "englishName": "JAIMA BROWN"
+      }
+    },
+    {
+      "id": "R-V192",
+      "code": "R-V192",
+      "name": "SUNDANCE",
+      "label": "R-V192 SUNDANCE",
+      "hex": "#FFEBC2",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "R-V192 SUNDANCE / SUNDANCE",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V192",
+        "spanishName": "SUNDANCE",
+        "englishName": "SUNDANCE"
+      }
+    },
+    {
+      "id": "R-V193",
+      "code": "R-V193",
+      "name": "CHEWING GUM",
+      "label": "R-V193 CHEWING GUM",
+      "hex": "#F6C3D4",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "CHICLE"
+      ],
+      "sourceLabel": "R-V193 CHICLE / CHEWING GUM",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V193",
+        "spanishName": "CHICLE",
+        "englishName": "CHEWING GUM"
+      }
+    },
+    {
+      "id": "R-V194",
+      "code": "R-V194",
+      "name": "SUPERNOVA PINK",
+      "label": "R-V194 SUPERNOVA PINK",
+      "hex": "#FCE6EB",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROSA SUPERNOVA"
+      ],
+      "sourceLabel": "R-V194 ROSA SUPERNOVA / SUPERNOVA PINK",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V194",
+        "spanishName": "ROSA SUPERNOVA",
+        "englishName": "SUPERNOVA PINK"
+      }
+    },
+    {
+      "id": "R-V195",
+      "code": "R-V195",
+      "name": "SHIVA VIOLET",
+      "label": "R-V195 SHIVA VIOLET",
+      "hex": "#E6CCE1",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VIOLETA SHIVA"
+      ],
+      "sourceLabel": "R-V195 VIOLETA SHIVA / SHIVA VIOLET",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V195",
+        "spanishName": "VIOLETA SHIVA",
+        "englishName": "SHIVA VIOLET"
+      }
+    },
+    {
+      "id": "R-V196",
+      "code": "R-V196",
+      "name": "SAUDADE PINK",
+      "label": "R-V196 SAUDADE PINK",
+      "hex": "#F2DDDE",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "ROSA SAUDADE"
+      ],
+      "sourceLabel": "R-V196 ROSA SAUDADE / SAUDADE PINK",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V196",
+        "spanishName": "ROSA SAUDADE",
+        "englishName": "SAUDADE PINK"
+      }
+    },
+    {
+      "id": "R-V197",
+      "code": "R-V197",
+      "name": "PENELOPE BROWN",
+      "label": "R-V197 PENELOPE BROWN",
+      "hex": "#F8EEE8",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN PENELOPE"
+      ],
+      "sourceLabel": "R-V197 MARRÓN PENELOPE / PENELOPE BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V197",
+        "spanishName": "MARRÓN PENELOPE",
+        "englishName": "PENELOPE BROWN"
+      }
+    },
+    {
+      "id": "R-V198",
+      "code": "R-V198",
+      "name": "STARDUST GREY",
+      "label": "R-V198 STARDUST GREY",
+      "hex": "#EFF0F1",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "GRIS STARDUST"
+      ],
+      "sourceLabel": "R-V198 GRIS STARDUST / STARDUST GREY",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V198",
+        "spanishName": "GRIS STARDUST",
+        "englishName": "STARDUST GREY"
+      }
+    },
+    {
+      "id": "R-V199",
+      "code": "R-V199",
+      "name": "JAVA GREEN",
+      "label": "R-V199 JAVA GREEN",
+      "hex": "#86C8B4",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "VERDE JAVA"
+      ],
+      "sourceLabel": "R-V199 VERDE JAVA / JAVA GREEN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V199",
+        "spanishName": "VERDE JAVA",
+        "englishName": "JAVA GREEN"
+      }
+    },
+    {
+      "id": "R-V200",
+      "code": "R-V200",
+      "name": "PLANCTON",
+      "label": "R-V200 PLANCTON",
+      "hex": "#E8D6C8",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [],
+      "sourceLabel": "R-V200 PLANCTON / PLANCTON",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V200",
+        "spanishName": "PLANCTON",
+        "englishName": "PLANCTON"
+      }
+    },
+    {
+      "id": "R-V201",
+      "code": "R-V201",
+      "name": "SCARLET BROWN",
+      "label": "R-V201 SCARLET BROWN",
+      "hex": "#8E6061",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN SCARLET"
+      ],
+      "sourceLabel": "R-V201 MARRÓN SCARLET / SCARLET BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V201",
+        "spanishName": "MARRÓN SCARLET",
+        "englishName": "SCARLET BROWN"
+      }
+    },
+    {
+      "id": "R-V202",
+      "code": "R-V202",
+      "name": "MOSQUITO BROWN",
+      "label": "R-V202 MOSQUITO BROWN",
+      "hex": "#684446",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN MOSQUITO"
+      ],
+      "sourceLabel": "R-V202 MARRÓN MOSQUITO / MOSQUITO BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V202",
+        "spanishName": "MARRÓN MOSQUITO",
+        "englishName": "MOSQUITO BROWN"
+      }
+    },
+    {
+      "id": "R-V203",
+      "code": "R-V203",
+      "name": "OAK BROWN",
+      "label": "R-V203 OAK BROWN",
+      "hex": "#A86059",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN ROBLE"
+      ],
+      "sourceLabel": "R-V203 MARRÓN ROBLE / OAK BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V203",
+        "spanishName": "MARRÓN ROBLE",
+        "englishName": "OAK BROWN"
+      }
+    },
+    {
+      "id": "R-V204",
+      "code": "R-V204",
+      "name": "INTERRAIL BROWN",
+      "label": "R-V204 INTERRAIL BROWN",
+      "hex": "#9F3D44",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN INTERRAIL"
+      ],
+      "sourceLabel": "R-V204 MARRÓN INTERRAIL / INTERRAIL BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V204",
+        "spanishName": "MARRÓN INTERRAIL",
+        "englishName": "INTERRAIL BROWN"
+      }
+    },
+    {
+      "id": "R-V205",
+      "code": "R-V205",
+      "name": "WARRIOR BROWN",
+      "label": "R-V205 WARRIOR BROWN",
+      "hex": "#5A1521",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "MARRÓN GUERRERO"
+      ],
+      "sourceLabel": "R-V205 MARRÓN GUERRERO / WARRIOR BROWN",
+      "meta": {
+        "sourceType": "pdf",
+        "sourcePages": [
+          2
+        ],
+        "sourcePage": 2,
+        "hexApproximation": true,
+        "family": "R-V",
+        "reference": "V205",
+        "spanishName": "MARRÓN GUERRERO",
+        "englishName": "WARRIOR BROWN"
+      }
+    }
+  ]
+}

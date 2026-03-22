@@ -1,0 +1,1746 @@
+[
+  {
+    "raw": "LP-100 WHITE",
+    "reference": "LP-100",
+    "name": "WHITE",
+    "hex": "#FFFFFF",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-101 GLOSS WHITE",
+    "reference": "LP-101",
+    "name": "GLOSS WHITE",
+    "hex": "#FFFFFF",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-103 BLACK MATT",
+    "reference": "LP-103",
+    "name": "BLACK MATT",
+    "hex": "#000000",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-104 BLACK",
+    "reference": "LP-104",
+    "name": "BLACK",
+    "hex": "#000000",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-105 BLACK GLOSS",
+    "reference": "LP-105",
+    "name": "BLACK GLOSS",
+    "hex": "#000000",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-106 MADRID",
+    "reference": "LP-106",
+    "name": "MADRID",
+    "hex": "#FBF193",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-107 BARCELONA",
+    "reference": "LP-107",
+    "name": "BARCELONA",
+    "hex": "#FFEC65",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-108 VALENCIA",
+    "reference": "LP-108",
+    "name": "VALENCIA",
+    "hex": "#FFDD00",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-109 SEVILLA",
+    "reference": "LP-109",
+    "name": "SEVILLA",
+    "hex": "#FDCE07",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-110 MALAGA",
+    "reference": "LP-110",
+    "name": "MALAGA",
+    "hex": "#F9B300",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-120 AMSTERDAM",
+    "reference": "LP-120",
+    "name": "AMSTERDAM",
+    "hex": "#F3991B",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-121 HARLEM",
+    "reference": "LP-121",
+    "name": "HARLEM",
+    "hex": "#E78010",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-122 UTRECHT",
+    "reference": "LP-122",
+    "name": "UTRECHT",
+    "hex": "#EC6F07",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-123 ROTTERDAM",
+    "reference": "LP-123",
+    "name": "ROTTERDAM",
+    "hex": "#BB4914",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-124 EINDHOVEN",
+    "reference": "LP-124",
+    "name": "EINDHOVEN",
+    "hex": "#FFDCA3",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-125 BREDA",
+    "reference": "LP-125",
+    "name": "BREDA",
+    "hex": "#F8B14C",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-126 HELMOND",
+    "reference": "LP-126",
+    "name": "HELMOND",
+    "hex": "#F2921F",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-127 ROSENDHAL",
+    "reference": "LP-127",
+    "name": "ROSENDHAL",
+    "hex": "#EB6D0F",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-128 ARNHEM",
+    "reference": "LP-128",
+    "name": "ARNHEM",
+    "hex": "#E75811",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-129 TILBURG",
+    "reference": "LP-129",
+    "name": "TILBURG",
+    "hex": "#E04D14",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-130 OSS",
+    "reference": "LP-130",
+    "name": "OSS",
+    "hex": "#E24415",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-131 BRUSSELS",
+    "reference": "LP-131",
+    "name": "BRUSSELS",
+    "hex": "#FF3300",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-136 MANCHESTER",
+    "reference": "LP-136",
+    "name": "MANCHESTER",
+    "hex": "#E33617",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-137 LIVERPOOL",
+    "reference": "LP-137",
+    "name": "LIVERPOOL",
+    "hex": "#D33118",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-138 NEWCASTLE",
+    "reference": "LP-138",
+    "name": "NEWCASTLE",
+    "hex": "#BE2C1C",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-139 YORK",
+    "reference": "LP-139",
+    "name": "YORK",
+    "hex": "#A6241C",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-140 LEEDS",
+    "reference": "LP-140",
+    "name": "LEEDS",
+    "hex": "#7B1417",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-141 CAMBRIDGE",
+    "reference": "LP-141",
+    "name": "CAMBRIDGE",
+    "hex": "#4E0F0F",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-142 DERBY",
+    "reference": "LP-142",
+    "name": "DERBY",
+    "hex": "#E8586D",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-143 BRISTOL",
+    "reference": "LP-143",
+    "name": "BRISTOL",
+    "hex": "#E53049",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-144 BRIGHTON",
+    "reference": "LP-144",
+    "name": "BRIGHTON",
+    "hex": "#DA0531",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-145 OXFORD",
+    "reference": "LP-145",
+    "name": "OXFORD",
+    "hex": "#963034",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-146 LONDON",
+    "reference": "LP-146",
+    "name": "LONDON",
+    "hex": "#330000",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-147 BIRMINGHAM",
+    "reference": "LP-147",
+    "name": "BIRMINGHAM",
+    "hex": "#FF6699",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-148 NOTTINGHAM",
+    "reference": "LP-148",
+    "name": "NOTTINGHAM",
+    "hex": "#EF7C71",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-149 WARSAW",
+    "reference": "LP-149",
+    "name": "WARSAW",
+    "hex": "#B50156",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-150 DUBLIN",
+    "reference": "LP-150",
+    "name": "DUBLIN",
+    "hex": "#FAEDE2",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-151 GALWAY",
+    "reference": "LP-151",
+    "name": "GALWAY",
+    "hex": "#F5B9A6",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-152 DUNDALK",
+    "reference": "LP-152",
+    "name": "DUNDALK",
+    "hex": "#EE847F",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-153 WATERFORD",
+    "reference": "LP-153",
+    "name": "WATERFORD",
+    "hex": "#BD4140",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-154 LIMERICK",
+    "reference": "LP-154",
+    "name": "LIMERICK",
+    "hex": "#F8CBCD",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-155 SWORDS",
+    "reference": "LP-155",
+    "name": "SWORDS",
+    "hex": "#E7A4A9",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-156 CORK",
+    "reference": "LP-156",
+    "name": "CORK",
+    "hex": "#8F443C",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-157 SLIGO",
+    "reference": "LP-157",
+    "name": "SLIGO",
+    "hex": "#CC727C",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-158 FARO",
+    "reference": "LP-158",
+    "name": "FARO",
+    "hex": "#F4B2C1",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-159 BEJA",
+    "reference": "LP-159",
+    "name": "BEJA",
+    "hex": "#F095A7",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-160 COIMBRA",
+    "reference": "LP-160",
+    "name": "COIMBRA",
+    "hex": "#E85A82",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-161 PORTO",
+    "reference": "LP-161",
+    "name": "PORTO",
+    "hex": "#C63D65",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-162 AMADORA",
+    "reference": "LP-162",
+    "name": "AMADORA",
+    "hex": "#9E174F",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-163 LISBOA",
+    "reference": "LP-163",
+    "name": "LISBOA",
+    "hex": "#761329",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-164 THESSALONIKI",
+    "reference": "LP-164",
+    "name": "THESSALONIKI",
+    "hex": "#7E1E47",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-180 VILNIUS",
+    "reference": "LP-180",
+    "name": "VILNIUS",
+    "hex": "#D5D8EE",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-181 KALMAR",
+    "reference": "LP-181",
+    "name": "KALMAR",
+    "hex": "#C9A7CB",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-182 MALMO",
+    "reference": "LP-182",
+    "name": "MALMO",
+    "hex": "#AD83AF",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-183 GOTEBORG",
+    "reference": "LP-183",
+    "name": "GOTEBORG",
+    "hex": "#8B5D8E",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-184 MORA",
+    "reference": "LP-184",
+    "name": "MORA",
+    "hex": "#591861",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-185 FALUN",
+    "reference": "LP-185",
+    "name": "FALUN",
+    "hex": "#320939",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-186 STOCKHOLM",
+    "reference": "LP-186",
+    "name": "STOCKHOLM",
+    "hex": "#EFD1CF",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-187 HELSINKI",
+    "reference": "LP-187",
+    "name": "HELSINKI",
+    "hex": "#ECC0BE",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-188 OULU",
+    "reference": "LP-188",
+    "name": "OULU",
+    "hex": "#D78A8C",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-189 OSLO",
+    "reference": "LP-189",
+    "name": "OSLO",
+    "hex": "#AB5265",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-190 COPENHAGEN",
+    "reference": "LP-190",
+    "name": "COPENHAGEN",
+    "hex": "#5B0E45",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-191 MOSS",
+    "reference": "LP-191",
+    "name": "MOSS",
+    "hex": "#6D2C75",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-192 SKAGEN",
+    "reference": "LP-192",
+    "name": "SKAGEN",
+    "hex": "#600D20",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-193 RIGA",
+    "reference": "LP-193",
+    "name": "RIGA",
+    "hex": "#663366",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-194 TALLINN",
+    "reference": "LP-194",
+    "name": "TALLINN",
+    "hex": "#330033",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-195 ODENSE",
+    "reference": "LP-195",
+    "name": "ODENSE",
+    "hex": "#32174E",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-199 MONACO",
+    "reference": "LP-199",
+    "name": "MONACO",
+    "hex": "#93D5F5",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-200 PARIS",
+    "reference": "LP-200",
+    "name": "PARIS",
+    "hex": "#CEE6EC",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-201 NANCY",
+    "reference": "LP-201",
+    "name": "NANCY",
+    "hex": "#A4CAD9",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-202 STRASBOURG",
+    "reference": "LP-202",
+    "name": "STRASBOURG",
+    "hex": "#7CB3CD",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-203 METS",
+    "reference": "LP-203",
+    "name": "METS",
+    "hex": "#3E8EB7",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-204 LENS",
+    "reference": "LP-204",
+    "name": "LENS",
+    "hex": "#1E74A7",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-205 LILLE",
+    "reference": "LP-205",
+    "name": "LILLE",
+    "hex": "#004A7C",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-206 RENNES",
+    "reference": "LP-206",
+    "name": "RENNES",
+    "hex": "#003361",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-207 CALAIS",
+    "reference": "LP-207",
+    "name": "CALAIS",
+    "hex": "#142754",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-208 BREST",
+    "reference": "LP-208",
+    "name": "BREST",
+    "hex": "#0E1A45",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-209 BORDEAUX",
+    "reference": "LP-209",
+    "name": "BORDEAUX",
+    "hex": "#69CED6",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-210 NANTES",
+    "reference": "LP-210",
+    "name": "NANTES",
+    "hex": "#77A5BF",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-211 GRENOBLES",
+    "reference": "LP-211",
+    "name": "GRENOBLES",
+    "hex": "#5188A4",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-212 LYON",
+    "reference": "LP-212",
+    "name": "LYON",
+    "hex": "#004868",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-213 MARSEILLE",
+    "reference": "LP-213",
+    "name": "MARSEILLE",
+    "hex": "#C9DBE9",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-214 NIMES",
+    "reference": "LP-214",
+    "name": "NIMES",
+    "hex": "#B1C4D4",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-215 MONTPELLIER",
+    "reference": "LP-215",
+    "name": "MONTPELLIER",
+    "hex": "#7C97B4",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-216 TOULOUSE",
+    "reference": "LP-216",
+    "name": "TOULOUSE",
+    "hex": "#4F6D91",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-217 NICE",
+    "reference": "LP-217",
+    "name": "NICE",
+    "hex": "#0E2D52",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-218 AJACCIO",
+    "reference": "LP-218",
+    "name": "AJACCIO",
+    "hex": "#1F2A44",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-219 TAVERNY",
+    "reference": "LP-219",
+    "name": "TAVERNY",
+    "hex": "#4471B2",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-220 GENEVA",
+    "reference": "LP-220",
+    "name": "GENEVA",
+    "hex": "#005D80",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-221 BASEL",
+    "reference": "LP-221",
+    "name": "BASEL",
+    "hex": "#1D327B",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-222 ATHENS",
+    "reference": "LP-222",
+    "name": "ATHENS",
+    "hex": "#004155",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-223 LIMASSOL",
+    "reference": "LP-223",
+    "name": "LIMASSOL",
+    "hex": "#1D2E3F",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-224 PERPIGNAN",
+    "reference": "LP-224",
+    "name": "PERPIGNAN",
+    "hex": "#001B36",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-248 SAN MARINO",
+    "reference": "LP-248",
+    "name": "SAN MARINO",
+    "hex": "#004553",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-249 COMO",
+    "reference": "LP-249",
+    "name": "COMO",
+    "hex": "#A5D6D1",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-250 TORINO",
+    "reference": "LP-250",
+    "name": "TORINO",
+    "hex": "#BBDFD8",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-251 MILANO",
+    "reference": "LP-251",
+    "name": "MILANO",
+    "hex": "#61BEBC",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-252 BERGAMO",
+    "reference": "LP-252",
+    "name": "BERGAMO",
+    "hex": "#13A9A1",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-253 BRESCIA",
+    "reference": "LP-253",
+    "name": "BRESCIA",
+    "hex": "#007B77",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-254 VENEZIA",
+    "reference": "LP-254",
+    "name": "VENEZIA",
+    "hex": "#005155",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-255 BOLZANO",
+    "reference": "LP-255",
+    "name": "BOLZANO",
+    "hex": "#002E28",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-256 PIACENZA",
+    "reference": "LP-256",
+    "name": "PIACENZA",
+    "hex": "#D2E8D6",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-257 PARMA",
+    "reference": "LP-257",
+    "name": "PARMA",
+    "hex": "#9ACB9E",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-258 MODENA",
+    "reference": "LP-258",
+    "name": "MODENA",
+    "hex": "#71B26D",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-259 REGGIO EMILIA",
+    "reference": "LP-259",
+    "name": "REGGIO EMILIA",
+    "hex": "#438B51",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-260 BOLOGNA",
+    "reference": "LP-260",
+    "name": "BOLOGNA",
+    "hex": "#1E5142",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-261 FERRARA",
+    "reference": "LP-261",
+    "name": "FERRARA",
+    "hex": "#163B2B",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-262 LA SPEZIA",
+    "reference": "LP-262",
+    "name": "LA SPEZIA",
+    "hex": "#D8DF74",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-263 PISA",
+    "reference": "LP-263",
+    "name": "PISA",
+    "hex": "#C1D678",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-264 PRATO",
+    "reference": "LP-264",
+    "name": "PRATO",
+    "hex": "#B6CA70",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-265 LUCCA",
+    "reference": "LP-265",
+    "name": "LUCCA",
+    "hex": "#86B5A4",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-266 FIRENZE",
+    "reference": "LP-266",
+    "name": "FIRENZE",
+    "hex": "#4E9825",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-267 SIENA",
+    "reference": "LP-267",
+    "name": "SIENA",
+    "hex": "#638234",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-268 LIVORNO",
+    "reference": "LP-268",
+    "name": "LIVORNO",
+    "hex": "#224A1E",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-269 PERUGIA",
+    "reference": "LP-269",
+    "name": "PERUGIA",
+    "hex": "#183419",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-270 SASSARI",
+    "reference": "LP-270",
+    "name": "SASSARI",
+    "hex": "#DCE3D1",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-271 CAGLIARI",
+    "reference": "LP-271",
+    "name": "CAGLIARI",
+    "hex": "#BFCDB2",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-272 MESSINA",
+    "reference": "LP-272",
+    "name": "MESSINA",
+    "hex": "#8E9E75",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-273 CATANIA",
+    "reference": "LP-273",
+    "name": "CATANIA",
+    "hex": "#2D4823",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-274 PALERMO",
+    "reference": "LP-274",
+    "name": "PALERMO",
+    "hex": "#29341B",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-275 ROMA",
+    "reference": "LP-275",
+    "name": "ROMA",
+    "hex": "#EBE886",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-276 MORIMONDO",
+    "reference": "LP-276",
+    "name": "MORIMONDO",
+    "hex": "#E5E14C",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-277 NAPOLI",
+    "reference": "LP-277",
+    "name": "NAPOLI",
+    "hex": "#DAD627",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-278 SALERNO",
+    "reference": "LP-278",
+    "name": "SALERNO",
+    "hex": "#B9CD28",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-279 FOGGIA",
+    "reference": "LP-279",
+    "name": "FOGGIA",
+    "hex": "#9FA72D",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-280 BARI",
+    "reference": "LP-280",
+    "name": "BARI",
+    "hex": "#725F1D",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-281 CATANZARO",
+    "reference": "LP-281",
+    "name": "CATANZARO",
+    "hex": "#534A19",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-282 RIMINI",
+    "reference": "LP-282",
+    "name": "RIMINI",
+    "hex": "#002C15",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-283 LECCE",
+    "reference": "LP-283",
+    "name": "LECCE",
+    "hex": "#445321",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-298 TIRANA",
+    "reference": "LP-298",
+    "name": "TIRANA",
+    "hex": "#5A4711",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-299 ISTANBUL",
+    "reference": "LP-299",
+    "name": "ISTANBUL",
+    "hex": "#C0B561",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-300 ZAGREB",
+    "reference": "LP-300",
+    "name": "ZAGREB",
+    "hex": "#F4EDB3",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-301 BRATISLAVA",
+    "reference": "LP-301",
+    "name": "BRATISLAVA",
+    "hex": "#DDD491",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-302 BUCAREST",
+    "reference": "LP-302",
+    "name": "BUCAREST",
+    "hex": "#CBBF5C",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-303 BUDAPEST",
+    "reference": "LP-303",
+    "name": "BUDAPEST",
+    "hex": "#AA8413",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-304 PRAGA",
+    "reference": "LP-304",
+    "name": "PRAGA",
+    "hex": "#917022",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-305 BELGRADE",
+    "reference": "LP-305",
+    "name": "BELGRADE",
+    "hex": "#5C4826",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-306 VIENNA",
+    "reference": "LP-306",
+    "name": "VIENNA",
+    "hex": "#F6E4C2",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-307 KREMS",
+    "reference": "LP-307",
+    "name": "KREMS",
+    "hex": "#DDC69E",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-308 LINZ",
+    "reference": "LP-308",
+    "name": "LINZ",
+    "hex": "#D3A96B",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-309 WELS",
+    "reference": "LP-309",
+    "name": "WELS",
+    "hex": "#8A5623",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-310 SALZBURG",
+    "reference": "LP-310",
+    "name": "SALZBURG",
+    "hex": "#6D4B2A",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-311 GRAZ",
+    "reference": "LP-311",
+    "name": "GRAZ",
+    "hex": "#543B25",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-312 BADEN",
+    "reference": "LP-312",
+    "name": "BADEN",
+    "hex": "#2B1307",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-313 BERLIN",
+    "reference": "LP-313",
+    "name": "BERLIN",
+    "hex": "#F0D0B1",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-314 HAMBURG",
+    "reference": "LP-314",
+    "name": "HAMBURG",
+    "hex": "#EAA77D",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-315 BREMEN",
+    "reference": "LP-315",
+    "name": "BREMEN",
+    "hex": "#EFA368",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-316 HANNOVER",
+    "reference": "LP-316",
+    "name": "HANNOVER",
+    "hex": "#D56112",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-317 DORTMUND",
+    "reference": "LP-317",
+    "name": "DORTMUND",
+    "hex": "#A55520",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-318 HALLE",
+    "reference": "LP-318",
+    "name": "HALLE",
+    "hex": "#613B23",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-319 MUNCHEN",
+    "reference": "LP-319",
+    "name": "MUNCHEN",
+    "hex": "#F8E3CC",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-320 STUTTGART",
+    "reference": "LP-320",
+    "name": "STUTTGART",
+    "hex": "#D4B99C",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-321 NURNBERG",
+    "reference": "LP-321",
+    "name": "NURNBERG",
+    "hex": "#AC825D",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-322 MAINZ",
+    "reference": "LP-322",
+    "name": "MAINZ",
+    "hex": "#7B3F2C",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-323 FRANKFURT",
+    "reference": "LP-323",
+    "name": "FRANKFURT",
+    "hex": "#6F4629",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-324 BONN",
+    "reference": "LP-324",
+    "name": "BONN",
+    "hex": "#775135",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-325 KOLN",
+    "reference": "LP-325",
+    "name": "KOLN",
+    "hex": "#3B1612",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-326 LEIPZIG",
+    "reference": "LP-326",
+    "name": "LEIPZIG",
+    "hex": "#E08741",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-327 INNSBRUCK",
+    "reference": "LP-327",
+    "name": "INNSBRUCK",
+    "hex": "#B59253",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-328 DUESSELDORF",
+    "reference": "LP-328",
+    "name": "DUESSELDORF",
+    "hex": "#522A00",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-329 BERN",
+    "reference": "LP-329",
+    "name": "BERN",
+    "hex": "#8C5B34",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-330 ZURICH",
+    "reference": "LP-330",
+    "name": "ZURICH",
+    "hex": "#C4763F",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-340 LOS ANGELES",
+    "reference": "LP-340",
+    "name": "LOS ANGELES",
+    "hex": "#ECE9E1",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-341 SAN DIEGO",
+    "reference": "LP-341",
+    "name": "SAN DIEGO",
+    "hex": "#CCC9C1",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-342 SAN JOSE",
+    "reference": "LP-342",
+    "name": "SAN JOSE",
+    "hex": "#BDB9B0",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-343 SAN FRANCISCO",
+    "reference": "LP-343",
+    "name": "SAN FRANCISCO",
+    "hex": "#A9A5A0",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-344 OAKLAND",
+    "reference": "LP-344",
+    "name": "OAKLAND",
+    "hex": "#7E7970",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-345 SACRAMENTO",
+    "reference": "LP-345",
+    "name": "SACRAMENTO",
+    "hex": "#5A5551",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-346 LONG BEACH",
+    "reference": "LP-346",
+    "name": "LONG BEACH",
+    "hex": "#444342",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-347 HOUSTON",
+    "reference": "LP-347",
+    "name": "HOUSTON",
+    "hex": "#E5D4C5",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-348 SAN ANTONIO",
+    "reference": "LP-348",
+    "name": "SAN ANTONIO",
+    "hex": "#D1B4A2",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-349 DALLAS",
+    "reference": "LP-349",
+    "name": "DALLAS",
+    "hex": "#9F7D74",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-350 AUSTIN",
+    "reference": "LP-350",
+    "name": "AUSTIN",
+    "hex": "#5F4444",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-351 EL PASO",
+    "reference": "LP-351",
+    "name": "EL PASO",
+    "hex": "#403439",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-352 NEW YORK",
+    "reference": "LP-352",
+    "name": "NEW YORK",
+    "hex": "#D7D8D7",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-353 BOSTON",
+    "reference": "LP-353",
+    "name": "BOSTON",
+    "hex": "#C2C3C9",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-354 CHICAGO",
+    "reference": "LP-354",
+    "name": "CHICAGO",
+    "hex": "#ABAAB4",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-355 PHILLY",
+    "reference": "LP-355",
+    "name": "PHILLY",
+    "hex": "#5F536D",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-356 WASHINGTON",
+    "reference": "LP-356",
+    "name": "WASHINGTON",
+    "hex": "#3A3740",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-357 MIAMI",
+    "reference": "LP-357",
+    "name": "MIAMI",
+    "hex": "#D8D5C2",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-358 ORLANDO",
+    "reference": "LP-358",
+    "name": "ORLANDO",
+    "hex": "#B8B39E",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-359 TAMPA",
+    "reference": "LP-359",
+    "name": "TAMPA",
+    "hex": "#9B937B",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-360 JACKSONVILLE",
+    "reference": "LP-360",
+    "name": "JACKSONVILLE",
+    "hex": "#76685C",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-361 KEY WEST",
+    "reference": "LP-361",
+    "name": "KEY WEST",
+    "hex": "#564C42",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-362 FORT MYERS",
+    "reference": "LP-362",
+    "name": "FORT MYERS",
+    "hex": "#382E2C",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-363 SEATTLE",
+    "reference": "LP-363",
+    "name": "SEATTLE",
+    "hex": "#D8CCC1",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-364 PORTLAND",
+    "reference": "LP-364",
+    "name": "PORTLAND",
+    "hex": "#B6A18B",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-365 LAS VEGAS",
+    "reference": "LP-365",
+    "name": "LAS VEGAS",
+    "hex": "#8C7464",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-366 DETROIT",
+    "reference": "LP-366",
+    "name": "DETROIT",
+    "hex": "#644E41",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-367 BALTIMORE",
+    "reference": "LP-367",
+    "name": "BALTIMORE",
+    "hex": "#453536",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-368 INDIANAPOLIS",
+    "reference": "LP-368",
+    "name": "INDIANAPOLIS",
+    "hex": "#8A87AC",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-370 MELBOURNE",
+    "reference": "LP-370",
+    "name": "MELBOURNE",
+    "hex": "#F8C8B7",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-371 SIDNEY",
+    "reference": "LP-371",
+    "name": "SIDNEY",
+    "hex": "#DEAA9A",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-372 BRISBANE",
+    "reference": "LP-372",
+    "name": "BRISBANE",
+    "hex": "#CF9684",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-373 CHRISTCHURCH",
+    "reference": "LP-373",
+    "name": "CHRISTCHURCH",
+    "hex": "#B4857B",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-374 WELLINGTON",
+    "reference": "LP-374",
+    "name": "WELLINGTON",
+    "hex": "#8B554C",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-375 MOSCOW",
+    "reference": "LP-375",
+    "name": "MOSCOW",
+    "hex": "#FFA38B",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-376 ST. PETERSBURG",
+    "reference": "LP-376",
+    "name": "ST. PETERSBURG",
+    "hex": "#FF8D6D",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-377 KRASONDAR",
+    "reference": "LP-377",
+    "name": "KRASONDAR",
+    "hex": "#FF6A39",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-378 DUBAI",
+    "reference": "LP-378",
+    "name": "DUBAI",
+    "hex": "#89C275",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-379 SAO PAULO",
+    "reference": "LP-379",
+    "name": "SAO PAULO",
+    "hex": "#1652A1",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-380 SANTIAGO",
+    "reference": "LP-380",
+    "name": "SANTIAGO",
+    "hex": "#EA4890",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-390 TRANSPARENT WHITE",
+    "reference": "LP-390",
+    "name": "TRANSPARENT WHITE",
+    "hex": "#FFFFFF",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-391 TRANSPARENT BLACK",
+    "reference": "LP-391",
+    "name": "TRANSPARENT BLACK",
+    "hex": "#000000",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-392 TRANSPARENT BROWN",
+    "reference": "LP-392",
+    "name": "TRANSPARENT BROWN",
+    "hex": "#43291D",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-393 TRANSPARENT GREEN",
+    "reference": "LP-393",
+    "name": "TRANSPARENT GREEN",
+    "hex": "#FFFFFF",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-394 TRANSPARENT BLUE",
+    "reference": "LP-394",
+    "name": "TRANSPARENT BLUE",
+    "hex": "#020504",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-395 TRANSPARENT RED",
+    "reference": "LP-395",
+    "name": "TRANSPARENT RED",
+    "hex": "#FFFFFF",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-400 SILVER",
+    "reference": "LP-400",
+    "name": "SILVER",
+    "hex": "#BEC2C5",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-401 GOLD",
+    "reference": "LP-401",
+    "name": "GOLD",
+    "hex": "#D5A940",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-402 COPPER",
+    "reference": "LP-402",
+    "name": "COPPER",
+    "hex": "#AA6255",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-409 FLUO BLUE",
+    "reference": "LP-409",
+    "name": "FLUO BLUE",
+    "hex": "#0081C7",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-410 FLUO YELLOW",
+    "reference": "LP-410",
+    "name": "FLUO YELLOW",
+    "hex": "#FFED00",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-411 FLUO ORANGE",
+    "reference": "LP-411",
+    "name": "FLUO ORANGE",
+    "hex": "#F08A00",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-412 FLUO RED",
+    "reference": "LP-412",
+    "name": "FLUO RED",
+    "hex": "#E53517",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-413 FLUO PINK",
+    "reference": "LP-413",
+    "name": "FLUO PINK",
+    "hex": "#E30045",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-414 FLUO GREEN",
+    "reference": "LP-414",
+    "name": "FLUO GREEN",
+    "hex": "#57AB27",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  },
+  {
+    "raw": "LP-428 METALIZED BLACK",
+    "reference": "LP-428",
+    "name": "METALIZED BLACK",
+    "hex": "#000000",
+    "opacity": null,
+    "uv_resistance": "★★★★★"
+  }
+]

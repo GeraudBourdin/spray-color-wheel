@@ -1,0 +1,1197 @@
+{
+  "source": {
+    "type": "pdf",
+    "url": "https://streetcontrol.jimdofree.com/app/download/4805954366/Nuancier+hardcore+2.pdf?t=1655908943",
+    "pages": [
+      3
+    ],
+    "hexApproximation": true,
+    "note": "Hex values sampled from swatches on the color chart PDF."
+  },
+  "colors": [
+    {
+      "code": "R 1017",
+      "family": "R",
+      "reference": "1017",
+      "name": "Peach",
+      "englishName": "Peach",
+      "spanishName": "Melocotón",
+      "aliases": [
+        "Melocotón"
+      ],
+      "sourceLabel": "R 1017 Melocotón / Peach",
+      "hex": "#F9BA57",
+      "page": 3
+    },
+    {
+      "code": "R 1021",
+      "family": "R",
+      "reference": "1021",
+      "name": "Light Yellow",
+      "englishName": "Light Yellow",
+      "spanishName": "Amarillo Claro",
+      "aliases": [
+        "Amarillo Claro"
+      ],
+      "sourceLabel": "R 1021 Amarillo Claro / Light Yellow",
+      "hex": "#FFE100",
+      "page": 3
+    },
+    {
+      "code": "R 1028",
+      "family": "R",
+      "reference": "1028",
+      "name": "Medium Yellow",
+      "englishName": "Medium Yellow",
+      "spanishName": "Amarillo Medio",
+      "aliases": [
+        "Amarillo Medio"
+      ],
+      "sourceLabel": "R 1028 Amarillo Medio / Medium Yellow",
+      "hex": "#F6A800",
+      "page": 3
+    },
+    {
+      "code": "R 2003",
+      "family": "R",
+      "reference": "2003",
+      "name": "Pastel Orange",
+      "englishName": "Pastel Orange",
+      "spanishName": "Naranja Pastel",
+      "aliases": [
+        "Naranja Pastel"
+      ],
+      "sourceLabel": "R 2003 Naranja Pastel / Pastel Orange",
+      "hex": "#EC753B",
+      "page": 3
+    },
+    {
+      "code": "R 2004",
+      "family": "R",
+      "reference": "2004",
+      "name": "Orange",
+      "englishName": "Orange",
+      "spanishName": "Naranja",
+      "aliases": [
+        "Naranja"
+      ],
+      "sourceLabel": "R 2004 Naranja / Orange",
+      "hex": "#E95E0F",
+      "page": 3
+    },
+    {
+      "code": "R 3001",
+      "family": "R",
+      "reference": "3001",
+      "name": "Intense Red",
+      "englishName": "Intense Red",
+      "spanishName": "Rojo Vivo",
+      "aliases": [
+        "Rojo Vivo"
+      ],
+      "sourceLabel": "R 3001 Rojo Vivo / Intense Red",
+      "hex": "#C90019",
+      "page": 3
+    },
+    {
+      "code": "R 3004",
+      "family": "R",
+      "reference": "3004",
+      "name": "Bourdeaux Red",
+      "englishName": "Bourdeaux Red",
+      "spanishName": "Rojo Burdeos",
+      "aliases": [
+        "Rojo Burdeos"
+      ],
+      "sourceLabel": "R 3004 Rojo Burdeos / Bourdeaux Red",
+      "hex": "#82131D",
+      "page": 3
+    },
+    {
+      "code": "R 3020",
+      "family": "R",
+      "reference": "3020",
+      "name": "Light Red",
+      "englishName": "Light Red",
+      "spanishName": "Rojo Claro",
+      "aliases": [
+        "Rojo Claro"
+      ],
+      "sourceLabel": "R 3020 Rojo Claro / Light Red",
+      "hex": "#E5352D",
+      "page": 3
+    },
+    {
+      "code": "R 4003",
+      "family": "R",
+      "reference": "4003",
+      "name": "Erika",
+      "englishName": "Erika",
+      "spanishName": "Erika",
+      "aliases": [],
+      "sourceLabel": "R 4003 Erika / Erika",
+      "hex": "#DE336B",
+      "page": 3
+    },
+    {
+      "code": "R 4006",
+      "family": "R",
+      "reference": "4006",
+      "name": "Purple",
+      "englishName": "Purple",
+      "spanishName": "Púrpura",
+      "aliases": [
+        "Púrpura"
+      ],
+      "sourceLabel": "R 4006 Púrpura / Purple",
+      "hex": "#AB4779",
+      "page": 3
+    },
+    {
+      "code": "R 4007",
+      "family": "R",
+      "reference": "4007",
+      "name": "Cherry",
+      "englishName": "Cherry",
+      "spanishName": "Cereza",
+      "aliases": [
+        "Cereza"
+      ],
+      "sourceLabel": "R 4007 Cereza / Cherry",
+      "hex": "#572741",
+      "page": 3
+    },
+    {
+      "code": "R 4010",
+      "family": "R",
+      "reference": "4010",
+      "name": "Magenta",
+      "englishName": "Magenta",
+      "spanishName": "Magenta",
+      "aliases": [],
+      "sourceLabel": "R 4010 Magenta / Magenta",
+      "hex": "#DD1D5A",
+      "page": 3
+    },
+    {
+      "code": "R 5002",
+      "family": "R",
+      "reference": "5002",
+      "name": "Ultramarine Blue",
+      "englishName": "Ultramarine Blue",
+      "spanishName": "Azul Ultramar",
+      "aliases": [
+        "Azul Ultramar"
+      ],
+      "sourceLabel": "R 5002 Azul Ultramar / Ultramarine Blue",
+      "hex": "#37306A",
+      "page": 3
+    },
+    {
+      "code": "R 5005",
+      "family": "R",
+      "reference": "5005",
+      "name": "Dark Blue",
+      "englishName": "Dark Blue",
+      "spanishName": "Azul Oscuro",
+      "aliases": [
+        "Azul Oscuro"
+      ],
+      "sourceLabel": "R 5005 Azul Oscuro / Dark Blue",
+      "hex": "#00649C",
+      "page": 3
+    },
+    {
+      "code": "R 6003",
+      "family": "R",
+      "reference": "6003",
+      "name": "Olive Green",
+      "englishName": "Olive Green",
+      "spanishName": "Verde Olivo",
+      "aliases": [
+        "Verde Olivo"
+      ],
+      "sourceLabel": "R 6003 Verde Olivo / Olive Green",
+      "hex": "#4F552D",
+      "page": 3
+    },
+    {
+      "code": "R 6013",
+      "family": "R",
+      "reference": "6013",
+      "name": "Khaki Green",
+      "englishName": "Khaki Green",
+      "spanishName": "Verde Caqui",
+      "aliases": [
+        "Verde Caqui"
+      ],
+      "sourceLabel": "R 6013 Verde Caqui / Khaki Green",
+      "hex": "#667743",
+      "page": 3
+    },
+    {
+      "code": "R 6016",
+      "family": "R",
+      "reference": "6016",
+      "name": "Dark Green",
+      "englishName": "Dark Green",
+      "spanishName": "Verde Oscuro",
+      "aliases": [
+        "Verde Oscuro"
+      ],
+      "sourceLabel": "R 6016 Verde Oscuro / Dark Green",
+      "hex": "#008352",
+      "page": 3
+    },
+    {
+      "code": "R 6018",
+      "family": "R",
+      "reference": "6018",
+      "name": "Valley Green",
+      "englishName": "Valley Green",
+      "spanishName": "Verde Valle",
+      "aliases": [
+        "Verde Valle"
+      ],
+      "sourceLabel": "R 6018 Verde Valle / Valley Green",
+      "hex": "#6A9720",
+      "page": 3
+    },
+    {
+      "code": "R 7016",
+      "family": "R",
+      "reference": "7016",
+      "name": "Anthracite Grey",
+      "englishName": "Anthracite Grey",
+      "spanishName": "Gris Antracita",
+      "aliases": [
+        "Gris Antracita"
+      ],
+      "sourceLabel": "R 7016 Gris Antracita / Anthracite Grey",
+      "hex": "#464648",
+      "page": 3
+    },
+    {
+      "code": "R 7031",
+      "family": "R",
+      "reference": "7031",
+      "name": "Dark Grey",
+      "englishName": "Dark Grey",
+      "spanishName": "Gris Oscuro",
+      "aliases": [
+        "Gris Oscuro"
+      ],
+      "sourceLabel": "R 7031 Gris Oscuro / Dark Grey",
+      "hex": "#616264",
+      "page": 3
+    },
+    {
+      "code": "R 7040",
+      "family": "R",
+      "reference": "7040",
+      "name": "Pearl Grey",
+      "englishName": "Pearl Grey",
+      "spanishName": "Gris Perla",
+      "aliases": [
+        "Gris Perla"
+      ],
+      "sourceLabel": "R 7040 Gris Perla / Pearl Grey",
+      "hex": "#7B7C7E",
+      "page": 3
+    },
+    {
+      "code": "R 8002",
+      "family": "R",
+      "reference": "8002",
+      "name": "Toasted Brown",
+      "englishName": "Toasted Brown",
+      "spanishName": "Marrón Tostado",
+      "aliases": [
+        "Marrón Tostado"
+      ],
+      "sourceLabel": "R 8002 Marrón Tostado / Toasted Brown",
+      "hex": "#9C5A2D",
+      "page": 3
+    },
+    {
+      "code": "R 8023",
+      "family": "R",
+      "reference": "8023",
+      "name": "Mustard",
+      "englishName": "Mustard",
+      "spanishName": "Mostaza",
+      "aliases": [
+        "Mostaza"
+      ],
+      "sourceLabel": "R 8023 Mostaza / Mustard",
+      "hex": "#B9501A",
+      "page": 3
+    },
+    {
+      "code": "R 9010",
+      "family": "R",
+      "reference": "9010",
+      "name": "Divinity White",
+      "englishName": "Divinity White",
+      "spanishName": "Blanco Divinidad",
+      "aliases": [
+        "Blanco Divinidad"
+      ],
+      "sourceLabel": "R 9010 Blanco Divinidad / Divinity White",
+      "hex": "#FFFFFF",
+      "page": 3
+    },
+    {
+      "code": "R 9011",
+      "family": "R",
+      "reference": "9011",
+      "name": "Black",
+      "englishName": "Black",
+      "spanishName": "Negro",
+      "aliases": [
+        "Negro"
+      ],
+      "sourceLabel": "R 9011 Negro / Black",
+      "hex": "#000000",
+      "page": 3
+    },
+    {
+      "code": "RV 3",
+      "family": "RV",
+      "reference": "3",
+      "name": "Blue Violet",
+      "englishName": "Blue Violet",
+      "spanishName": "Violeta Azulado",
+      "aliases": [
+        "Violeta Azulado"
+      ],
+      "sourceLabel": "RV 3 Violeta Azulado / Blue Violet",
+      "hex": "#574A96",
+      "page": 3
+    },
+    {
+      "code": "RV 6",
+      "family": "RV",
+      "reference": "6",
+      "name": "Light Grey",
+      "englishName": "Light Grey",
+      "spanishName": "Gris Claro",
+      "aliases": [
+        "Gris Claro"
+      ],
+      "sourceLabel": "RV 6 Gris Claro / Light Grey",
+      "hex": "#A3A4A6",
+      "page": 3
+    },
+    {
+      "code": "RV 8",
+      "family": "RV",
+      "reference": "8",
+      "name": "Light Blue",
+      "englishName": "Light Blue",
+      "spanishName": "Azul Claro",
+      "aliases": [
+        "Azul Claro"
+      ],
+      "sourceLabel": "RV 8 Azul Claro / Light Blue",
+      "hex": "#60C5E7",
+      "page": 3
+    },
+    {
+      "code": "RV 11",
+      "family": "RV",
+      "reference": "11",
+      "name": "Ganges Yellow",
+      "englishName": "Ganges Yellow",
+      "spanishName": "Amarillo Ganges",
+      "aliases": [
+        "Amarillo Ganges"
+      ],
+      "sourceLabel": "RV 11 Amarillo Ganges / Ganges Yellow",
+      "hex": "#F4CA2A",
+      "page": 3
+    },
+    {
+      "code": "RV 14",
+      "family": "RV",
+      "reference": "14",
+      "name": "Planet Blue",
+      "englishName": "Planet Blue",
+      "spanishName": "Azul Planeta",
+      "aliases": [
+        "Azul Planeta"
+      ],
+      "sourceLabel": "RV 14 Azul Planeta / Planet Blue",
+      "hex": "#008098",
+      "page": 3
+    },
+    {
+      "code": "RV 15",
+      "family": "RV",
+      "reference": "15",
+      "name": "Apple Green",
+      "englishName": "Apple Green",
+      "spanishName": "Verde Manzana",
+      "aliases": [
+        "Verde Manzana"
+      ],
+      "sourceLabel": "RV 15 Verde Manzana / Apple Green",
+      "hex": "#96B25E",
+      "page": 3
+    },
+    {
+      "code": "RV 16",
+      "family": "RV",
+      "reference": "16",
+      "name": "Pistachio Green",
+      "englishName": "Pistachio Green",
+      "spanishName": "Verde Pistacho",
+      "aliases": [
+        "Verde Pistacho"
+      ],
+      "sourceLabel": "RV 16 Verde Pistacho / Pistachio Green",
+      "hex": "#B0C643",
+      "page": 3
+    },
+    {
+      "code": "RV 17",
+      "family": "RV",
+      "reference": "17",
+      "name": "Tenere Sand",
+      "englishName": "Tenere Sand",
+      "spanishName": "Arena Tenere",
+      "aliases": [
+        "Arena Tenere"
+      ],
+      "sourceLabel": "RV 17 Arena Tenere / Tenere Sand",
+      "hex": "#DF9E00",
+      "page": 3
+    },
+    {
+      "code": "RV 20",
+      "family": "RV",
+      "reference": "20",
+      "name": "Party Yellow",
+      "englishName": "Party Yellow",
+      "spanishName": "Amarillo Fiesta",
+      "aliases": [
+        "Amarillo Fiesta"
+      ],
+      "sourceLabel": "RV 20 Amarillo Fiesta / Party Yellow",
+      "hex": "#FFF048",
+      "page": 3
+    },
+    {
+      "code": "RV 21",
+      "family": "RV",
+      "reference": "21",
+      "name": "Surgical Green",
+      "englishName": "Surgical Green",
+      "spanishName": "Verde Quirúrgico",
+      "aliases": [
+        "Verde Quirúrgico"
+      ],
+      "sourceLabel": "RV 21 Verde Quirúrgico / Surgical Green",
+      "hex": "#009D6D",
+      "page": 3
+    },
+    {
+      "code": "RV 28",
+      "family": "RV",
+      "reference": "28",
+      "name": "Cosmos Violet",
+      "englishName": "Cosmos Violet",
+      "spanishName": "Violeta Cosmos",
+      "aliases": [
+        "Violeta Cosmos"
+      ],
+      "sourceLabel": "RV 28 Violeta Cosmos / Cosmos Violet",
+      "hex": "#291C53",
+      "page": 3
+    },
+    {
+      "code": "RV 30",
+      "family": "RV",
+      "reference": "30",
+      "name": "Electric Blue",
+      "englishName": "Electric Blue",
+      "spanishName": "Azul Eléctrico",
+      "aliases": [
+        "Azul Eléctrico"
+      ],
+      "sourceLabel": "RV 30 Azul Eléctrico / Electric Blue",
+      "hex": "#007FC4",
+      "page": 3
+    },
+    {
+      "code": "RV 33",
+      "family": "RV",
+      "reference": "33",
+      "name": "Colorado Red",
+      "englishName": "Colorado Red",
+      "spanishName": "Rojo Colorado",
+      "aliases": [
+        "Rojo Colorado"
+      ],
+      "sourceLabel": "RV 33 Rojo Colorado / Colorado Red",
+      "hex": "#E74F45",
+      "page": 3
+    },
+    {
+      "code": "RV 34",
+      "family": "RV",
+      "reference": "34",
+      "name": "Guacamole Green",
+      "englishName": "Guacamole Green",
+      "spanishName": "Verde Guacamole",
+      "aliases": [
+        "Verde Guacamole"
+      ],
+      "sourceLabel": "RV 34 Verde Guacamole / Guacamole Green",
+      "hex": "#88B04E",
+      "page": 3
+    },
+    {
+      "code": "RV 206",
+      "family": "RV",
+      "reference": "206",
+      "name": "Atacama Yellow",
+      "englishName": "Atacama Yellow",
+      "spanishName": "Amarillo Atacama",
+      "aliases": [
+        "Amarillo Atacama"
+      ],
+      "sourceLabel": "RV 206 Amarillo Atacama / Atacama Yellow",
+      "hex": "#FBCB8C",
+      "page": 3
+    },
+    {
+      "code": "RV 207",
+      "family": "RV",
+      "reference": "207",
+      "name": "Mango",
+      "englishName": "Mango",
+      "spanishName": "Mango",
+      "aliases": [],
+      "sourceLabel": "RV 207 Mango / Mango",
+      "hex": "#E77A19",
+      "page": 3
+    },
+    {
+      "code": "RV 208",
+      "family": "RV",
+      "reference": "208",
+      "name": "Pumpkin",
+      "englishName": "Pumpkin",
+      "spanishName": "Calabaza",
+      "aliases": [
+        "Calabaza"
+      ],
+      "sourceLabel": "RV 208 Calabaza / Pumpkin",
+      "hex": "#F6AD6B",
+      "page": 3
+    },
+    {
+      "code": "RV 209",
+      "family": "RV",
+      "reference": "209",
+      "name": "Calcutta Orange",
+      "englishName": "Calcutta Orange",
+      "spanishName": "Naranja Calcuta",
+      "aliases": [
+        "Naranja Calcuta"
+      ],
+      "sourceLabel": "RV 209 Naranja Calcuta / Calcutta Orange",
+      "hex": "#DC4126",
+      "page": 3
+    },
+    {
+      "code": "RV 210",
+      "family": "RV",
+      "reference": "210",
+      "name": "Prometheus Orange",
+      "englishName": "Prometheus Orange",
+      "spanishName": "Naranja Prometeo",
+      "aliases": [
+        "Naranja Prometeo"
+      ],
+      "sourceLabel": "RV 210 Naranja Prometeo / Prometheus Orange",
+      "hex": "#910E14",
+      "page": 3
+    },
+    {
+      "code": "RV 211",
+      "family": "RV",
+      "reference": "211",
+      "name": "Love Pink",
+      "englishName": "Love Pink",
+      "spanishName": "Rosa Amor",
+      "aliases": [
+        "Rosa Amor"
+      ],
+      "sourceLabel": "RV 211 Rosa Amor / Love Pink",
+      "hex": "#EE87AD",
+      "page": 3
+    },
+    {
+      "code": "RV 212",
+      "family": "RV",
+      "reference": "212",
+      "name": "Akari Red",
+      "englishName": "Akari Red",
+      "spanishName": "Rojo Akari",
+      "aliases": [
+        "Rojo Akari"
+      ],
+      "sourceLabel": "RV 212 Rojo Akari / Akari Red",
+      "hex": "#C40041",
+      "page": 3
+    },
+    {
+      "code": "RV 213",
+      "family": "RV",
+      "reference": "213",
+      "name": "Merlot Red",
+      "englishName": "Merlot Red",
+      "spanishName": "Rojo Merlot",
+      "aliases": [
+        "Rojo Merlot"
+      ],
+      "sourceLabel": "RV 213 Rojo Merlot / Merlot Red",
+      "hex": "#762A3D",
+      "page": 3
+    },
+    {
+      "code": "RV 214",
+      "family": "RV",
+      "reference": "214",
+      "name": "Violet",
+      "englishName": "Violet",
+      "spanishName": "Violeta",
+      "aliases": [
+        "Violeta"
+      ],
+      "sourceLabel": "RV 214 Violeta / Violet",
+      "hex": "#9993C3",
+      "page": 3
+    },
+    {
+      "code": "RV 215",
+      "family": "RV",
+      "reference": "215",
+      "name": "Prophet Violet",
+      "englishName": "Prophet Violet",
+      "spanishName": "Violeta Profeta",
+      "aliases": [
+        "Violeta Profeta"
+      ],
+      "sourceLabel": "RV 215 Violeta Profeta / Prophet Violet",
+      "hex": "#6D63A5",
+      "page": 3
+    },
+    {
+      "code": "RV 216",
+      "family": "RV",
+      "reference": "216",
+      "name": "Anonymous Violet",
+      "englishName": "Anonymous Violet",
+      "spanishName": "Violeta Anonymous",
+      "aliases": [
+        "Violeta Anonymous"
+      ],
+      "sourceLabel": "RV 216 Violeta Anonymous / Anonymous Violet",
+      "hex": "#45347A",
+      "page": 3
+    },
+    {
+      "code": "RV 217",
+      "family": "RV",
+      "reference": "217",
+      "name": "Avatar Blue",
+      "englishName": "Avatar Blue",
+      "spanishName": "Azul Avatar",
+      "aliases": [
+        "Azul Avatar"
+      ],
+      "sourceLabel": "RV 217 Azul Avatar / Avatar Blue",
+      "hex": "#00A2DD",
+      "page": 3
+    },
+    {
+      "code": "RV 218",
+      "family": "RV",
+      "reference": "218",
+      "name": "Neptune Blue",
+      "englishName": "Neptune Blue",
+      "spanishName": "Azul Neptuno",
+      "aliases": [
+        "Azul Neptuno"
+      ],
+      "sourceLabel": "RV 218 Azul Neptuno / Neptune Blue",
+      "hex": "#004578",
+      "page": 3
+    },
+    {
+      "code": "RV 219",
+      "family": "RV",
+      "reference": "219",
+      "name": "Paris Green",
+      "englishName": "Paris Green",
+      "spanishName": "Verde París",
+      "aliases": [
+        "Verde París"
+      ],
+      "sourceLabel": "RV 219 Verde París / Paris Green",
+      "hex": "#8BC8AA",
+      "page": 3
+    },
+    {
+      "code": "RV 220",
+      "family": "RV",
+      "reference": "220",
+      "name": "UFO Green",
+      "englishName": "UFO Green",
+      "spanishName": "Verde UFO",
+      "aliases": [
+        "Verde UFO"
+      ],
+      "sourceLabel": "RV 220 Verde UFO / UFO Green",
+      "hex": "#5BB89E",
+      "page": 3
+    },
+    {
+      "code": "RV 221",
+      "family": "RV",
+      "reference": "221",
+      "name": "Persephone Green",
+      "englishName": "Persephone Green",
+      "spanishName": "Verde Persefone",
+      "aliases": [
+        "Verde Persefone"
+      ],
+      "sourceLabel": "RV 221 Verde Persefone / Persephone Green",
+      "hex": "#005231",
+      "page": 3
+    },
+    {
+      "code": "RV 222",
+      "family": "RV",
+      "reference": "222",
+      "name": "Beach Yellow",
+      "englishName": "Beach Yellow",
+      "spanishName": "Amarillo Playa",
+      "aliases": [
+        "Amarillo Playa"
+      ],
+      "sourceLabel": "RV 222 Amarillo Playa / Beach Yellow",
+      "hex": "#FFF386",
+      "page": 3
+    },
+    {
+      "code": "RV 223",
+      "family": "RV",
+      "reference": "223",
+      "name": "Buddha Red",
+      "englishName": "Buddha Red",
+      "spanishName": "Rojo Buda",
+      "aliases": [
+        "Rojo Buda"
+      ],
+      "sourceLabel": "RV 223 Rojo Buda / Buddha Red",
+      "hex": "#EB6964",
+      "page": 3
+    },
+    {
+      "code": "RV 224",
+      "family": "RV",
+      "reference": "224",
+      "name": "Witch Violet",
+      "englishName": "Witch Violet",
+      "spanishName": "Violeta Bruja",
+      "aliases": [
+        "Violeta Bruja"
+      ],
+      "sourceLabel": "RV 224 Violeta Bruja / Witch Violet",
+      "hex": "#C8739F",
+      "page": 3
+    },
+    {
+      "code": "RV 225",
+      "family": "RV",
+      "reference": "225",
+      "name": "Geisha Violet",
+      "englishName": "Geisha Violet",
+      "spanishName": "Violeta Geisha",
+      "aliases": [
+        "Violeta Geisha"
+      ],
+      "sourceLabel": "RV 225 Violeta Geisha / Geisha Violet",
+      "hex": "#C15C92",
+      "page": 3
+    },
+    {
+      "code": "RV 226",
+      "family": "RV",
+      "reference": "226",
+      "name": "Tube Violet",
+      "englishName": "Tube Violet",
+      "spanishName": "Violeta Tube",
+      "aliases": [
+        "Violeta Tube"
+      ],
+      "sourceLabel": "RV 226 Violeta Tube / Tube Violet",
+      "hex": "#7C3F60",
+      "page": 3
+    },
+    {
+      "code": "RV 227",
+      "family": "RV",
+      "reference": "227",
+      "name": "Waimea Blue",
+      "englishName": "Waimea Blue",
+      "spanishName": "Azul Waimea",
+      "aliases": [
+        "Azul Waimea"
+      ],
+      "sourceLabel": "RV 227 Azul Waimea / Waimea Blue",
+      "hex": "#6F9ECF",
+      "page": 3
+    },
+    {
+      "code": "RV 228",
+      "family": "RV",
+      "reference": "228",
+      "name": "Zeppelin Blue",
+      "englishName": "Zeppelin Blue",
+      "spanishName": "Azul Zeppelin",
+      "aliases": [
+        "Azul Zeppelin"
+      ],
+      "sourceLabel": "RV 228 Azul Zeppelin / Zeppelin Blue",
+      "hex": "#4875B3",
+      "page": 3
+    },
+    {
+      "code": "RV 229",
+      "family": "RV",
+      "reference": "229",
+      "name": "Andromeda Blue",
+      "englishName": "Andromeda Blue",
+      "spanishName": "Azul Andrómeda",
+      "aliases": [
+        "Azul Andrómeda"
+      ],
+      "sourceLabel": "RV 229 Azul Andrómeda / Andromeda Blue",
+      "hex": "#465499",
+      "page": 3
+    },
+    {
+      "code": "RV 230",
+      "family": "RV",
+      "reference": "230",
+      "name": "Leviatan Blue",
+      "englishName": "Leviatan Blue",
+      "spanishName": "Azul Leviatán",
+      "aliases": [
+        "Azul Leviatán"
+      ],
+      "sourceLabel": "RV 230 Azul Leviatán / Leviatan Blue",
+      "hex": "#0D0F49",
+      "page": 3
+    },
+    {
+      "code": "RV 231",
+      "family": "RV",
+      "reference": "231",
+      "name": "Cousteau Blue",
+      "englishName": "Cousteau Blue",
+      "spanishName": "Azul Cousteau",
+      "aliases": [
+        "Azul Cousteau"
+      ],
+      "sourceLabel": "RV 231 Azul Cousteau / Cousteau Blue",
+      "hex": "#1BB2C4",
+      "page": 3
+    },
+    {
+      "code": "RV 232",
+      "family": "RV",
+      "reference": "232",
+      "name": "Glacier Blue",
+      "englishName": "Glacier Blue",
+      "spanishName": "Azul Glaciar",
+      "aliases": [
+        "Azul Glaciar"
+      ],
+      "sourceLabel": "RV 232 Azul Glaciar / Glacier Blue",
+      "hex": "#009CAB",
+      "page": 3
+    },
+    {
+      "code": "RV 233",
+      "family": "RV",
+      "reference": "233",
+      "name": "Christiania Blue",
+      "englishName": "Christiania Blue",
+      "spanishName": "Azul Christiania",
+      "aliases": [
+        "Azul Christiania"
+      ],
+      "sourceLabel": "RV 233 Azul Christiania / Christiania Blue",
+      "hex": "#006675",
+      "page": 3
+    },
+    {
+      "code": "RV 234",
+      "family": "RV",
+      "reference": "234",
+      "name": "Indigo Blue",
+      "englishName": "Indigo Blue",
+      "spanishName": "Azul Índigo",
+      "aliases": [
+        "Azul Índigo"
+      ],
+      "sourceLabel": "RV 234 Azul Índigo / Indigo Blue",
+      "hex": "#004750",
+      "page": 3
+    },
+    {
+      "code": "RV 235",
+      "family": "RV",
+      "reference": "235",
+      "name": "Poison Green",
+      "englishName": "Poison Green",
+      "spanishName": "Verde Veneno",
+      "aliases": [
+        "Verde Veneno"
+      ],
+      "sourceLabel": "RV 235 Verde Veneno / Poison Green",
+      "hex": "#DEDD3A",
+      "page": 3
+    },
+    {
+      "code": "RV 236",
+      "family": "RV",
+      "reference": "236",
+      "name": "Mojito Green",
+      "englishName": "Mojito Green",
+      "spanishName": "Verde Mojito",
+      "aliases": [
+        "Verde Mojito"
+      ],
+      "sourceLabel": "RV 236 Verde Mojito / Mojito Green",
+      "hex": "#CED50A",
+      "page": 3
+    },
+    {
+      "code": "RV 237",
+      "family": "RV",
+      "reference": "237",
+      "name": "Cologno N. Green",
+      "englishName": "Cologno N. Green",
+      "spanishName": "Verde Cologno N.",
+      "aliases": [
+        "Verde Cologno N."
+      ],
+      "sourceLabel": "RV 237 Verde Cologno N. / Cologno N. Green",
+      "hex": "#6A8515",
+      "page": 3
+    },
+    {
+      "code": "RV 238",
+      "family": "RV",
+      "reference": "238",
+      "name": "Giant Yellow",
+      "englishName": "Giant Yellow",
+      "spanishName": "Amarillo Gigante",
+      "aliases": [
+        "Amarillo Gigante"
+      ],
+      "sourceLabel": "RV 238 Amarillo Gigante / Giant Yellow",
+      "hex": "#FFED00",
+      "page": 3
+    },
+    {
+      "code": "RV 239",
+      "family": "RV",
+      "reference": "239",
+      "name": "Luxor Yellow",
+      "englishName": "Luxor Yellow",
+      "spanishName": "Amarillo Luxor",
+      "aliases": [
+        "Amarillo Luxor"
+      ],
+      "sourceLabel": "RV 239 Amarillo Luxor / Luxor Yellow",
+      "hex": "#FAB700",
+      "page": 3
+    },
+    {
+      "code": "RV 240",
+      "family": "RV",
+      "reference": "240",
+      "name": "Kenya Orange",
+      "englishName": "Kenya Orange",
+      "spanishName": "Naranja Kenya",
+      "aliases": [
+        "Naranja Kenya"
+      ],
+      "sourceLabel": "RV 240 Naranja Kenya / Kenya Orange",
+      "hex": "#E9600F",
+      "page": 3
+    },
+    {
+      "code": "RV 241",
+      "family": "RV",
+      "reference": "241",
+      "name": "Madrid Red",
+      "englishName": "Madrid Red",
+      "spanishName": "Rojo Madrid",
+      "aliases": [
+        "Rojo Madrid"
+      ],
+      "sourceLabel": "RV 241 Rojo Madrid / Madrid Red",
+      "hex": "#E5352D",
+      "page": 3
+    },
+    {
+      "code": "RV 242",
+      "family": "RV",
+      "reference": "242",
+      "name": "Soviet Red",
+      "englishName": "Soviet Red",
+      "spanishName": "Rojo Soviet t",
+      "aliases": [
+        "Rojo Soviet t"
+      ],
+      "sourceLabel": "RV 242 Rojo Soviet t / Soviet Red",
+      "hex": "#933112",
+      "page": 3
+    },
+    {
+      "code": "RV 243",
+      "family": "RV",
+      "reference": "243",
+      "name": "Babylon Blue",
+      "englishName": "Babylon Blue",
+      "spanishName": "Azul Babilonia",
+      "aliases": [
+        "Azul Babilonia"
+      ],
+      "sourceLabel": "RV 243 Azul Babilonia / Babylon Blue",
+      "hex": "#253C87",
+      "page": 3
+    },
+    {
+      "code": "RV 244",
+      "family": "RV",
+      "reference": "244",
+      "name": "Miami Pink",
+      "englishName": "Miami Pink",
+      "spanishName": "Rosa Miami",
+      "aliases": [
+        "Rosa Miami"
+      ],
+      "sourceLabel": "RV 244 Rosa Miami / Miami Pink",
+      "hex": "#D31C48",
+      "page": 3
+    },
+    {
+      "code": "RV 245",
+      "family": "RV",
+      "reference": "245",
+      "name": "Cyan",
+      "englishName": "Cyan",
+      "spanishName": "Cian",
+      "aliases": [
+        "Cian"
+      ],
+      "sourceLabel": "RV 245 Cian / Cyan",
+      "hex": "#3FB1B9",
+      "page": 3
+    },
+    {
+      "code": "RV 246",
+      "family": "RV",
+      "reference": "246",
+      "name": "Druid Brown",
+      "englishName": "Druid Brown",
+      "spanishName": "Marrón Druida",
+      "aliases": [
+        "Marrón Druida"
+      ],
+      "sourceLabel": "RV 246 Marrón Druida / Druid Brown",
+      "hex": "#F7D090",
+      "page": 3
+    },
+    {
+      "code": "RV 247",
+      "family": "RV",
+      "reference": "247",
+      "name": "Tepuy y Brown",
+      "englishName": "Tepuy y Brown",
+      "spanishName": "Marrón Tepuy",
+      "aliases": [
+        "Marrón Tepuy"
+      ],
+      "sourceLabel": "RV 247 Marrón Tepuy / Tepuy y Brown",
+      "hex": "#EFB16A",
+      "page": 3
+    },
+    {
+      "code": "RV 248",
+      "family": "RV",
+      "reference": "248",
+      "name": "Baobab Brown",
+      "englishName": "Baobab Brown",
+      "spanishName": "Marrón Baobab",
+      "aliases": [
+        "Marrón Baobab"
+      ],
+      "sourceLabel": "RV 248 Marrón Baobab / Baobab Brown",
+      "hex": "#DE8D48",
+      "page": 3
+    },
+    {
+      "code": "RV 249",
+      "family": "RV",
+      "reference": "249",
+      "name": "Greyhound Brown",
+      "englishName": "Greyhound Brown",
+      "spanishName": "Marrón Galgo",
+      "aliases": [
+        "Marrón Galgo"
+      ],
+      "sourceLabel": "RV 249 Marrón Galgo / Greyhound Brown",
+      "hex": "#BC753A",
+      "page": 3
+    },
+    {
+      "code": "RV 250",
+      "family": "RV",
+      "reference": "250",
+      "name": "Rambo Green",
+      "englishName": "Rambo Green",
+      "spanishName": "Verde Rambo",
+      "aliases": [
+        "Verde Rambo"
+      ],
+      "sourceLabel": "RV 250 Verde Rambo / Rambo Green",
+      "hex": "#89A654",
+      "page": 3
+    },
+    {
+      "code": "RV 251",
+      "family": "RV",
+      "reference": "251",
+      "name": "Forest Green",
+      "englishName": "Forest Green",
+      "spanishName": "Verde Bosque",
+      "aliases": [
+        "Verde Bosque"
+      ],
+      "sourceLabel": "RV 251 Verde Bosque / Forest Green",
+      "hex": "#2E361A",
+      "page": 3
+    }
+  ]
+}

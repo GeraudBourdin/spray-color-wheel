@@ -1,0 +1,763 @@
+{
+  "source": {
+    "type": "pdf",
+    "url": "https://kobrapaint.com/assets/downloads/color_chart_kobra_web.pdf",
+    "page": 1,
+    "hexApproximation": false,
+    "note": "Hex values read from the PDF text. LP901 and LP902 are inferred from their names because the chart omits their hex values."
+  },
+  "colors": [
+    {
+      "code": "LP001",
+      "name": "PURE WHITE",
+      "hex": "#FFFFFF",
+      "sourceLabel": "PURE WHITE LP001",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP002",
+      "name": "BLACK RAT",
+      "hex": "#000000",
+      "sourceLabel": "BLACK RAT LP002",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP101",
+      "name": "LIGHT YELLOW",
+      "hex": "#F9EDA7",
+      "sourceLabel": "LIGHT YELLOW LP101",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP102",
+      "name": "HORNET",
+      "hex": "#F9EC6F",
+      "sourceLabel": "HORNET LP102",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP103",
+      "name": "CRASH",
+      "hex": "#F4D100",
+      "sourceLabel": "CRASH LP103",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP104",
+      "name": "TAXI",
+      "hex": "#EDC003",
+      "sourceLabel": "TAXI LP104",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP105",
+      "name": "FEVER",
+      "hex": "#E2AC00",
+      "sourceLabel": "FEVER LP105",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP106",
+      "name": "INDIAN",
+      "hex": "#D88C08",
+      "sourceLabel": "INDIAN LP106",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP201",
+      "name": "LIGHT ORANGE",
+      "hex": "#F4A77F",
+      "sourceLabel": "LIGHT ORANGE LP201",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP202",
+      "name": "SOFT ORANGE",
+      "hex": "#F39556",
+      "sourceLabel": "SOFT ORANGE LP202",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP203",
+      "name": "PEACH",
+      "hex": "#F07E34",
+      "sourceLabel": "PEACH LP203",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP204",
+      "name": "ORANGO",
+      "hex": "#E56117",
+      "sourceLabel": "ORANGO LP204",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP205",
+      "name": "HAZZARD",
+      "hex": "#D55015",
+      "sourceLabel": "HAZZARD LP205",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP301",
+      "name": "LIGHT RED",
+      "hex": "#EE748A",
+      "sourceLabel": "LIGHT RED LP301",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP302",
+      "name": "SPRITZ",
+      "hex": "#EA4D6D",
+      "sourceLabel": "SPRITZ LP302",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP303",
+      "name": "KAMPARI",
+      "hex": "#C1314D",
+      "sourceLabel": "KAMPARI LP303",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP304",
+      "name": "GINGER",
+      "hex": "#D2181C",
+      "sourceLabel": "GINGER LP304",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP305",
+      "name": "INGANNO",
+      "hex": "#9B1918",
+      "sourceLabel": "INGANNO LP305",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP306",
+      "name": "BAROLO",
+      "hex": "#661316",
+      "sourceLabel": "BAROLO LP306",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP401",
+      "name": "ROSE",
+      "hex": "#F9D7DB",
+      "sourceLabel": "ROSE LP401",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP402",
+      "name": "HAM",
+      "hex": "#F4B8C0",
+      "sourceLabel": "HAM LP402",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP403",
+      "name": "FACE",
+      "hex": "#EA929F",
+      "sourceLabel": "FACE LP403",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP404",
+      "name": "DOUBLE FACE",
+      "hex": "#D78189",
+      "sourceLabel": "DOUBLE FACE LP404",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP405",
+      "name": "RED DAHLIA",
+      "hex": "#BF7588",
+      "sourceLabel": "RED DAHLIA LP405",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP411",
+      "name": "LIGHT PINK",
+      "hex": "#F2C9D6",
+      "sourceLabel": "LIGHT PINK LP411",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP412",
+      "name": "LIGHT FUCHSIA",
+      "hex": "#F195BC",
+      "sourceLabel": "LIGHT FUCHSIA LP412",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP413",
+      "name": "GUM",
+      "hex": "#E273AB",
+      "sourceLabel": "GUM LP413",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP414",
+      "name": "BABY DOLL",
+      "hex": "#D34693",
+      "sourceLabel": "BABY DOLL LP414",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP415",
+      "name": "LOW FUCHSIA",
+      "hex": "#B62783",
+      "sourceLabel": "LOW FUCHSIA LP415",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP416",
+      "name": "DARK FUCHSIA",
+      "hex": "#A41879",
+      "sourceLabel": "DARK FUCHSIA LP416",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP421",
+      "name": "LIGHT VIOLET",
+      "hex": "#E1D6E8",
+      "sourceLabel": "LIGHT VIOLET LP421",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP422",
+      "name": "GLICINE",
+      "hex": "#BE97BF",
+      "sourceLabel": "GLICINE LP422",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP423",
+      "name": "FRESH VIOLET",
+      "hex": "#AB4A95",
+      "sourceLabel": "FRESH VIOLET LP423",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP424",
+      "name": "SPACE VIOLET",
+      "hex": "#924983",
+      "sourceLabel": "SPACE VIOLET LP424",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP425",
+      "name": "PASSION FLOWER",
+      "hex": "#7C226B",
+      "sourceLabel": "PASSION FLOWER LP425",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP426",
+      "name": "VAMPIRE",
+      "hex": "#621A52",
+      "sourceLabel": "VAMPIRE LP426",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP501",
+      "name": "ARIA",
+      "hex": "#C7E7F4",
+      "sourceLabel": "ARIA LP501",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP502",
+      "name": "ICE",
+      "hex": "#6FAEDD",
+      "sourceLabel": "ICE LP502",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP503",
+      "name": "ARTIK",
+      "hex": "#5D99CC",
+      "sourceLabel": "ARTIK LP503",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP504",
+      "name": "SURF",
+      "hex": "#5288BC",
+      "sourceLabel": "SURF LP504",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP505",
+      "name": "WAVE",
+      "hex": "#1B3F90",
+      "sourceLabel": "WAVE LP505",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP506",
+      "name": "ABYSS",
+      "hex": "#051D28",
+      "sourceLabel": "ABYSS LP506",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP511",
+      "name": "GLASS",
+      "hex": "#C5E4E4",
+      "sourceLabel": "GLASS LP511",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP512",
+      "name": "TURQUOISE",
+      "hex": "#A4D5CD",
+      "sourceLabel": "TURQUOISE LP512",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP513",
+      "name": "RIVA",
+      "hex": "#6BA59B",
+      "sourceLabel": "RIVA LP513",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP514",
+      "name": "LAGOON",
+      "hex": "#1D6B71",
+      "sourceLabel": "LAGOON LP514",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP515",
+      "name": "PARADISE",
+      "hex": "#1F4547",
+      "sourceLabel": "PARADISE LP515",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP516",
+      "name": "DARK ISLAND",
+      "hex": "#081918",
+      "sourceLabel": "DARK ISLAND LP516",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP521",
+      "name": "LIME",
+      "hex": "#E3E8A3",
+      "sourceLabel": "LIME LP521",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP522",
+      "name": "AMAZZONIA",
+      "hex": "#CAD855",
+      "sourceLabel": "AMAZZONIA LP522",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP523",
+      "name": "BAMBOO",
+      "hex": "#AFCA11",
+      "sourceLabel": "BAMBOO LP523",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP524",
+      "name": "REAL GREEN",
+      "hex": "#70A92E",
+      "sourceLabel": "REAL GREEN LP524",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP525",
+      "name": "PREDATOR",
+      "hex": "#358334",
+      "sourceLabel": "PREDATOR LP525",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP526",
+      "name": "MILITARY GREEN",
+      "hex": "#166C30",
+      "sourceLabel": "MILITARY GREEN LP526",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP531",
+      "name": "ACTION",
+      "hex": "#E2E0C7",
+      "sourceLabel": "ACTION LP531",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP532",
+      "name": "SOFTAIR",
+      "hex": "#AAA981",
+      "sourceLabel": "SOFTAIR LP532",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP533",
+      "name": "CAMUFLAGE",
+      "hex": "#78845E",
+      "sourceLabel": "CAMUFLAGE LP533",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP534",
+      "name": "BASE",
+      "hex": "#5E6036",
+      "sourceLabel": "BASE LP534",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP535",
+      "name": "TANK",
+      "hex": "#3D3F1E",
+      "sourceLabel": "TANK LP535",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP536",
+      "name": "TROOP",
+      "hex": "#596C4C",
+      "sourceLabel": "TROOP LP536",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP601",
+      "name": "DESERT",
+      "hex": "#EFE6E4",
+      "sourceLabel": "DESERT LP601",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP602",
+      "name": "MARY",
+      "hex": "#DDCDCA",
+      "sourceLabel": "MARY LP602",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP603",
+      "name": "SAFARI",
+      "hex": "#B9A49E",
+      "sourceLabel": "SAFARI LP603",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP604",
+      "name": "CHARLIE",
+      "hex": "#A38780",
+      "sourceLabel": "CHARLIE LP604",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP605",
+      "name": "VELVET",
+      "hex": "#8D6E64",
+      "sourceLabel": "VELVET LP605",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP606",
+      "name": "TAMARINDO",
+      "hex": "#75594F",
+      "sourceLabel": "TAMARINDO LP606",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP611",
+      "name": "LOTO",
+      "hex": "#F9CACC",
+      "sourceLabel": "LOTO LP611",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP612",
+      "name": "HIMALAYA",
+      "hex": "#DC9F9D",
+      "sourceLabel": "HIMALAYA LP612",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP613",
+      "name": "DJANGO",
+      "hex": "#BC7771",
+      "sourceLabel": "DJANGO LP613",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP614",
+      "name": "WILD",
+      "hex": "#8F4A4A",
+      "sourceLabel": "WILD LP614",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP701",
+      "name": "FOG",
+      "hex": "#F4F4F4",
+      "sourceLabel": "FOG LP701",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP702",
+      "name": "BLADE",
+      "hex": "#D8D8D8",
+      "sourceLabel": "BLADE LP702",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP703",
+      "name": "STONE",
+      "hex": "#B2B0AD",
+      "sourceLabel": "STONE LP703",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP704",
+      "name": "UFO",
+      "hex": "#8C8A87",
+      "sourceLabel": "UFO LP704",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP705",
+      "name": "GARGOYLE",
+      "hex": "#6E6D6B",
+      "sourceLabel": "GARGOYLE LP705",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP706",
+      "name": "SHADOW",
+      "hex": "#52504D",
+      "sourceLabel": "SHADOW LP706",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP707",
+      "name": "TABOO",
+      "hex": "#363635",
+      "sourceLabel": "TABOO LP707",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP708",
+      "name": "DARK HOLE",
+      "hex": "#1B1B1B",
+      "sourceLabel": "DARK HOLE LP708",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP801",
+      "name": "SAND",
+      "hex": "#FFE4A1",
+      "sourceLabel": "SAND LP801",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP802",
+      "name": "NATURAL BEIGE",
+      "hex": "#EFA554",
+      "sourceLabel": "NATURAL BEIGE LP802",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP803",
+      "name": "GOLDENL BEIGE",
+      "hex": "#D27325",
+      "sourceLabel": "GOLDENL BEIGE LP803",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP804",
+      "name": "LEATHER",
+      "hex": "#AE581F",
+      "sourceLabel": "LEATHER LP804",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP805",
+      "name": "TOBACCO",
+      "hex": "#9A3716",
+      "sourceLabel": "TOBACCO LP805",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP806",
+      "name": "CIGAR",
+      "hex": "#301A0F",
+      "sourceLabel": "CIGAR LP806",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP807",
+      "name": "LIGHT IVORY",
+      "hex": "#FAE9DE",
+      "sourceLabel": "LIGHT IVORY LP807",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP808",
+      "name": "EYELID",
+      "hex": "#EABDA9",
+      "sourceLabel": "EYELID LP808",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP809",
+      "name": "MEDIUM WARM",
+      "hex": "#DDA285",
+      "sourceLabel": "MEDIUM WARM LP809",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP810",
+      "name": "CHEEK",
+      "hex": "#B57C62",
+      "sourceLabel": "CHEEK LP810",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP811",
+      "name": "CHOCOLATE",
+      "hex": "#A16140",
+      "sourceLabel": "CHOCOLATE LP811",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP812",
+      "name": "CHOCO BROWN",
+      "hex": "#82451C",
+      "sourceLabel": "CHOCO BROWN LP812",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP813",
+      "name": "BROWNIE",
+      "hex": "#5E3418",
+      "sourceLabel": "BROWNIE LP813",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP814",
+      "name": "DARK CHOCOLATE",
+      "hex": "#482F1C",
+      "sourceLabel": "DARK CHOCOLATE LP814",
+      "hexInferred": false,
+      "page": 1
+    },
+    {
+      "code": "LP901",
+      "name": "DRIBBLE WHITE TRANSPARENT",
+      "hex": "#FFFFFF",
+      "sourceLabel": "DRIBBLE WHITE TRANSPARENT LP901",
+      "hexInferred": true,
+      "page": 1
+    },
+    {
+      "code": "LP902",
+      "name": "BLACK TAROK TRANSPARENT",
+      "hex": "#000000",
+      "sourceLabel": "BLACK TAROK TRANSPARENT LP902",
+      "hexInferred": true,
+      "page": 1
+    }
+  ]
+}

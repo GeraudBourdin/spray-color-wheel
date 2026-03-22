@@ -1,0 +1,4717 @@
+{
+  "source": {
+    "type": "pdf",
+    "url": "https://brand.molotow.com/fileadmin/Dateien/PDF/Info_Sheets/Spray/Artist/Infosheet_Premium_400_600.pdf",
+    "pages": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "hexApproximation": true,
+    "note": "Hex values sampled from swatches on the product info PDF."
+  },
+  "colors": [
+    {
+      "code": "#001",
+      "name": "jasmin yellow",
+      "englishName": "jasmin yellow",
+      "germanName": "jasmingelb",
+      "aliases": [
+        "jasmingelb"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.001",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#001 jasmingelb / jasmin yellow",
+      "hex": "#FDF4A7",
+      "page": 2
+    },
+    {
+      "code": "#002",
+      "name": "zinc yellow",
+      "englishName": "zinc yellow",
+      "germanName": "zinkgelb",
+      "aliases": [
+        "zinkgelb"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.006",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#002 zinkgelb / zinc yellow",
+      "hex": "#FFE457",
+      "page": 2
+    },
+    {
+      "code": "#003",
+      "name": "cadmium yellow",
+      "englishName": "cadmium yellow",
+      "germanName": "kadmiumgelb",
+      "aliases": [
+        "kadmiumgelb"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.082",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#003 kadmiumgelb / cadmium yellow",
+      "hex": "#FFD700",
+      "page": 2
+    },
+    {
+      "code": "#004",
+      "name": "signal yellow",
+      "englishName": "signal yellow",
+      "germanName": "signalgelb",
+      "aliases": [
+        "signalgelb"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.165",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#004 signalgelb / signal yellow",
+      "hex": "#FFCC00",
+      "page": 2
+    },
+    {
+      "code": "#005",
+      "name": "nature white",
+      "englishName": "nature white",
+      "germanName": "naturweiß",
+      "aliases": [
+        "naturweiß"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.079",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#005 naturweiß / nature white",
+      "hex": "#FAF5E4",
+      "page": 2
+    },
+    {
+      "code": "#006",
+      "name": "vanilla",
+      "englishName": "vanilla",
+      "germanName": "vanille",
+      "aliases": [
+        "vanille"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.115",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#006 vanille / vanilla",
+      "hex": "#FFF0BA",
+      "page": 2
+    },
+    {
+      "code": "#007",
+      "name": "cashmere yellow",
+      "englishName": "cashmere yellow",
+      "germanName": "kaschmirgelb",
+      "aliases": [
+        "kaschmirgelb"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.002",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#007 kaschmirgelb / cashmere yellow",
+      "hex": "#FFE26E",
+      "page": 2
+    },
+    {
+      "code": "#008",
+      "name": "quince",
+      "englishName": "quince",
+      "germanName": "quitte",
+      "aliases": [
+        "quitte"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.003",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#008 quitte / quince",
+      "hex": "#F9CC53",
+      "page": 2
+    },
+    {
+      "code": "#009",
+      "name": "golden yellow",
+      "englishName": "golden yellow",
+      "germanName": "dottergelb",
+      "aliases": [
+        "dottergelb"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.083",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#009 dottergelb / golden yellow",
+      "hex": "#FCBD00",
+      "page": 2
+    },
+    {
+      "code": "#010",
+      "name": "melon yellow",
+      "englishName": "melon yellow",
+      "germanName": "melonengelb",
+      "aliases": [
+        "melonengelb"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.007",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#010 melonengelb / melon yellow",
+      "hex": "#F8AA00",
+      "page": 2
+    },
+    {
+      "code": "#011",
+      "name": "light orange",
+      "englishName": "light orange",
+      "germanName": "hellorange",
+      "aliases": [
+        "hellorange"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.084",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#011 hellorange / light orange",
+      "hex": "#F18A00",
+      "page": 2
+    },
+    {
+      "code": "#012",
+      "name": "pastel orange",
+      "englishName": "pastel orange",
+      "germanName": "pastellorange",
+      "aliases": [
+        "pastellorange"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.133",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#012 pastellorange / pastel orange",
+      "hex": "#EE771E",
+      "page": 2
+    },
+    {
+      "code": "#013",
+      "name": "DARE orange light",
+      "englishName": "DARE orange light",
+      "germanName": "DARE orange hell",
+      "aliases": [
+        "DARE orange hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.184",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#013 DARE orange hell / DARE orange light",
+      "hex": "#EC6714",
+      "page": 2
+    },
+    {
+      "code": "#014",
+      "name": "DARE orange",
+      "englishName": "DARE orange",
+      "germanName": "DARE orange",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.085",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#014 DARE orange",
+      "hex": "#E25A0A",
+      "page": 2
+    },
+    {
+      "code": "#015",
+      "name": "LINDA's sunset",
+      "englishName": "LINDA's sunset",
+      "germanName": "LINDA's sunset",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.132",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#015 LINDA's sunset",
+      "hex": "#E04C15",
+      "page": 2
+    },
+    {
+      "code": "#016",
+      "name": "SWET 100 traffic red",
+      "englishName": "SWET 100 traffic red",
+      "germanName": "SWET 100 verkehrsrot",
+      "aliases": [
+        "SWET 100 verkehrsrot"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.013",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#016 SWET 100 verkehrsrot / SWET 100 traffic red",
+      "hex": "#D51317",
+      "page": 2
+    },
+    {
+      "code": "#017",
+      "name": "tornado red",
+      "englishName": "tornado red",
+      "germanName": "tornadorot",
+      "aliases": [
+        "tornadorot"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.098",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#017 tornadorot / tornado red",
+      "hex": "#C30A29",
+      "page": 2
+    },
+    {
+      "code": "#018",
+      "name": "ruby red",
+      "englishName": "ruby red",
+      "germanName": "rubinrot",
+      "aliases": [
+        "rubinrot"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.166",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#018 rubinrot / ruby red",
+      "hex": "#99111F",
+      "page": 2
+    },
+    {
+      "code": "#019",
+      "name": "burgundy",
+      "englishName": "burgundy",
+      "germanName": "burgundrot",
+      "aliases": [
+        "burgundrot"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.086",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#019 burgundrot / burgundy",
+      "hex": "#711820",
+      "page": 2
+    },
+    {
+      "code": "#020",
+      "name": "garnet",
+      "englishName": "garnet",
+      "germanName": "granat",
+      "aliases": [
+        "granat"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.185",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#020 granat / garnet",
+      "hex": "#4D1717",
+      "page": 2
+    },
+    {
+      "code": "#021",
+      "name": "black red",
+      "englishName": "black red",
+      "germanName": "schwarzrot",
+      "aliases": [
+        "schwarzrot"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.139",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#021 schwarzrot / black red",
+      "hex": "#3B140B",
+      "page": 2
+    },
+    {
+      "code": "#022",
+      "name": "LOOMIT's aubergine",
+      "englishName": "LOOMIT's aubergine",
+      "germanName": "LOOMIT's aubergine",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.046",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#022 LOOMIT's aubergine",
+      "hex": "#361E13",
+      "page": 2
+    },
+    {
+      "code": "#023",
+      "name": "peach pastel",
+      "englishName": "peach pastel",
+      "germanName": "pfirsich pastell",
+      "aliases": [
+        "pfirsich pastell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.186",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#023 pfirsich pastell / peach pastel",
+      "hex": "#FACCB1",
+      "page": 2
+    },
+    {
+      "code": "#024",
+      "name": "Page peach light",
+      "englishName": "Page peach light",
+      "germanName": "2 pfirsich hell",
+      "aliases": [
+        "2 pfirsich hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.187",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#024 2 pfirsich hell / Page peach light",
+      "hex": "#F9C0A1",
+      "page": 2
+    },
+    {
+      "code": "#025",
+      "name": "PREMIUM peach",
+      "englishName": "PREMIUM peach",
+      "germanName": "pfirsich",
+      "aliases": [
+        "pfirsich"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.117",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#025 pfirsich / PREMIUM peach",
+      "hex": "#F7B28A",
+      "page": 2
+    },
+    {
+      "code": "#026",
+      "name": "goldfish",
+      "englishName": "goldfish",
+      "germanName": "goldfisch",
+      "aliases": [
+        "goldfisch"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.008",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#026 goldfisch / goldfish",
+      "hex": "#F28A4A",
+      "page": 2
+    },
+    {
+      "code": "#027",
+      "name": "lobster light",
+      "englishName": "lobster light",
+      "germanName": "hummer hell",
+      "aliases": [
+        "hummer hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.171",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#027 hummer hell / lobster light",
+      "hex": "#EF7728",
+      "page": 2
+    },
+    {
+      "code": "#028",
+      "name": "lobster middle",
+      "englishName": "lobster middle",
+      "germanName": "hummer mittel",
+      "aliases": [
+        "hummer mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.242",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#028 hummer mittel / lobster middle",
+      "hex": "#EB5E21",
+      "page": 2
+    },
+    {
+      "code": "#029",
+      "name": "lobster",
+      "englishName": "lobster",
+      "germanName": "hummer",
+      "aliases": [
+        "hummer"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.010",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#029 hummer / lobster",
+      "hex": "#E54B27",
+      "page": 2
+    },
+    {
+      "code": "#030",
+      "name": "vermillion",
+      "englishName": "vermillion",
+      "germanName": "blutorange",
+      "aliases": [
+        "blutorange"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.135",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#030 blutorange / vermillion",
+      "hex": "#BE3624",
+      "page": 2
+    },
+    {
+      "code": "#031",
+      "name": "shock orange",
+      "englishName": "shock orange",
+      "germanName": "schockorange",
+      "aliases": [
+        "schockorange"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.088",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#031 schockorange / shock orange",
+      "hex": "#DC412D",
+      "page": 2
+    },
+    {
+      "code": "#032",
+      "name": "MAD C cherry red",
+      "englishName": "MAD C cherry red",
+      "germanName": "MAD C kirschrot",
+      "aliases": [
+        "MAD C kirschrot"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.188",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#032 MAD C kirschrot / MAD C cherry red",
+      "hex": "#DA0F24",
+      "page": 2
+    },
+    {
+      "code": "#033",
+      "name": "signal red",
+      "englishName": "signal red",
+      "germanName": "signalrot",
+      "aliases": [
+        "signalrot"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.014",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#033 signalrot / signal red",
+      "hex": "#C00D0E",
+      "page": 2
+    },
+    {
+      "code": "#034",
+      "name": "apricot",
+      "englishName": "apricot",
+      "germanName": "aprikose",
+      "aliases": [
+        "aprikose"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.116",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#034 aprikose / apricot",
+      "hex": "#F4995C",
+      "page": 2
+    },
+    {
+      "code": "#035",
+      "name": "salmon orange",
+      "englishName": "salmon orange",
+      "germanName": "lachsorange",
+      "aliases": [
+        "lachsorange"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.134",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#035 lachsorange / salmon orange",
+      "hex": "#DC603A",
+      "page": 2
+    },
+    {
+      "code": "#036",
+      "name": "autumn leaf",
+      "englishName": "autumn leaf",
+      "germanName": "herbstblatt",
+      "aliases": [
+        "herbstblatt"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.011",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#036 herbstblatt / autumn leaf",
+      "hex": "#A43305",
+      "page": 2
+    },
+    {
+      "code": "#037",
+      "name": "LOOMIT's apricot pastel",
+      "englishName": "LOOMIT's apricot pastel",
+      "germanName": "LOOMIT's apricot past.",
+      "aliases": [
+        "LOOMIT's apricot past."
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.189",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#037 LOOMIT's apricot past. / LOOMIT's apricot pastel",
+      "hex": "#F5BEB0",
+      "page": 2
+    },
+    {
+      "code": "#038",
+      "name": "LOOMIT's apricot light",
+      "englishName": "LOOMIT's apricot light",
+      "germanName": "LOOMIT's apricot hell",
+      "aliases": [
+        "LOOMIT's apricot hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.081",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#038 LOOMIT's apricot hell / LOOMIT's apricot light",
+      "hex": "#F4A18D",
+      "page": 2
+    },
+    {
+      "code": "#039",
+      "name": "LOOMIT's apricot mid.",
+      "englishName": "LOOMIT's apricot mid.",
+      "germanName": "LOOMIT's apricot mit.",
+      "aliases": [
+        "LOOMIT's apricot mit."
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.190",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#039 LOOMIT's apricot mit. / LOOMIT's apricot mid.",
+      "hex": "#F08371",
+      "page": 2
+    },
+    {
+      "code": "#040",
+      "name": "LOOMIT's apricot",
+      "englishName": "LOOMIT's apricot",
+      "germanName": "LOOMIT's apricot",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.009",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#040 LOOMIT's apricot",
+      "hex": "#ED694B",
+      "page": 2
+    },
+    {
+      "code": "#041",
+      "name": "strawberry red",
+      "englishName": "strawberry red",
+      "germanName": "erdbeerrot",
+      "aliases": [
+        "erdbeerrot"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.191",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#041 erdbeerrot / strawberry red",
+      "hex": "#D65647",
+      "page": 2
+    },
+    {
+      "code": "#042",
+      "name": "pussy pink",
+      "englishName": "pussy pink",
+      "germanName": "pussy pink",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.087",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#042 pussy pink",
+      "hex": "#BF4637",
+      "page": 2
+    },
+    {
+      "code": "#043",
+      "name": "raspberry red",
+      "englishName": "raspberry red",
+      "germanName": "himbeerrot",
+      "aliases": [
+        "himbeerrot"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.137",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#043 himbeerrot / raspberry red",
+      "hex": "#BC2237",
+      "page": 2
+    },
+    {
+      "code": "#044",
+      "name": "sangria",
+      "englishName": "sangria",
+      "germanName": "sangria",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.106",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#044 sangria",
+      "hex": "#9C0B2A",
+      "page": 2
+    },
+    {
+      "code": "#045",
+      "name": "grapefruit light",
+      "englishName": "grapefruit light",
+      "germanName": "grapefruit hell",
+      "aliases": [
+        "grapefruit hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.192",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#045 grapefruit hell / grapefruit light",
+      "hex": "#F9CAC4",
+      "page": 2
+    },
+    {
+      "code": "#046",
+      "name": "grapefruit",
+      "englishName": "grapefruit",
+      "germanName": "grapefruit",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.122",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#046 grapefruit",
+      "hex": "#F6B1A9",
+      "page": 2
+    },
+    {
+      "code": "#047",
+      "name": "mauve light",
+      "englishName": "mauve light",
+      "germanName": "mauve hell",
+      "aliases": [
+        "mauve hell"
+      ],
+      "advancedFormula": true,
+      "variants": [
+        {
+          "itemNumber": "327.193",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#047 mauve hell / mauve light",
+      "hex": "#E3A09C",
+      "page": 2
+    },
+    {
+      "code": "#048",
+      "name": "mauve",
+      "englishName": "mauve",
+      "germanName": "mauve",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.109",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#048 mauve",
+      "hex": "#D0918E",
+      "page": 2
+    },
+    {
+      "code": "#049",
+      "name": "antique pink middle",
+      "englishName": "antique pink middle",
+      "germanName": "altrosa mittel",
+      "aliases": [
+        "altrosa mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.194",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#049 altrosa mittel / antique pink middle",
+      "hex": "#AA756C",
+      "page": 2
+    },
+    {
+      "code": "#050",
+      "name": "antique pink",
+      "englishName": "antique pink",
+      "germanName": "altrosa",
+      "aliases": [
+        "altrosa"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.129",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#050 altrosa / antique pink",
+      "hex": "#9A6A64",
+      "page": 2
+    },
+    {
+      "code": "#051",
+      "name": "piglet pink light",
+      "englishName": "piglet pink light",
+      "germanName": "schweinchenrosa hell",
+      "aliases": [
+        "schweinchenrosa hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.168",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#051 schweinchenrosa hell / piglet pink light",
+      "hex": "#F8C6CF",
+      "page": 2
+    },
+    {
+      "code": "#052",
+      "name": "piglet pink",
+      "englishName": "piglet pink",
+      "germanName": "schweinchenrosa",
+      "aliases": [
+        "schweinchenrosa"
+      ],
+      "advancedFormula": true,
+      "variants": [
+        {
+          "itemNumber": "327.012",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#052 schweinchenrosa / piglet pink",
+      "hex": "#F1A2BD",
+      "page": 2
+    },
+    {
+      "code": "#053",
+      "name": "candy",
+      "englishName": "candy",
+      "germanName": "bonbon",
+      "aliases": [
+        "bonbon"
+      ],
+      "advancedFormula": true,
+      "variants": [
+        {
+          "itemNumber": "327.195",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#053 bonbon / candy",
+      "hex": "#DE7FA3",
+      "page": 2
+    },
+    {
+      "code": "#054",
+      "name": "lipstick",
+      "englishName": "lipstick",
+      "germanName": "lipstick",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.196",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#054 lipstick",
+      "hex": "#B94E77",
+      "page": 2
+    },
+    {
+      "code": "#055",
+      "name": "purple",
+      "englishName": "purple",
+      "germanName": "purpur",
+      "aliases": [
+        "purpur"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.130",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#055 purpur / purple",
+      "hex": "#77344F",
+      "page": 2
+    },
+    {
+      "code": "#056",
+      "name": "ESHER dirty red",
+      "englishName": "ESHER dirty red",
+      "germanName": "ESHER schmuddelrot",
+      "aliases": [
+        "ESHER schmuddelrot"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.089",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#056 ESHER schmuddelrot / ESHER dirty red",
+      "hex": "#6E3845",
+      "page": 2
+    },
+    {
+      "code": "#057",
+      "name": "TILT bubble pink",
+      "englishName": "TILT bubble pink",
+      "germanName": "TILT bubble pink",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.197",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#057 TILT bubble pink",
+      "hex": "#DD95BE",
+      "page": 3
+    },
+    {
+      "code": "#058",
+      "name": "fuchsia pink",
+      "englishName": "fuchsia pink",
+      "germanName": "fuchsia pink",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.136",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#058 fuchsia pink",
+      "hex": "#D46AA6",
+      "page": 3
+    },
+    {
+      "code": "#059",
+      "name": "MAD C psycho pink",
+      "englishName": "MAD C psycho pink",
+      "germanName": "MAD C psycho pink",
+      "aliases": [],
+      "advancedFormula": true,
+      "variants": [
+        {
+          "itemNumber": "327.198",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#059 MAD C psycho pink",
+      "hex": "#DB4378",
+      "page": 3
+    },
+    {
+      "code": "#060",
+      "name": "telemagenta",
+      "englishName": "telemagenta",
+      "germanName": "telemagenta",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.164",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#060 telemagenta",
+      "hex": "#B8215C",
+      "page": 3
+    },
+    {
+      "code": "#061",
+      "name": "amaranth red",
+      "englishName": "amaranth red",
+      "germanName": "amarantrot",
+      "aliases": [
+        "amarantrot"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.099",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#061 amarantrot / amaranth red",
+      "hex": "#900141",
+      "page": 3
+    },
+    {
+      "code": "#062",
+      "name": "MACrew purple",
+      "englishName": "MACrew purple",
+      "germanName": "MACrew purple",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.153",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#062 MACrew purple",
+      "hex": "#6A1B4C",
+      "page": 3
+    },
+    {
+      "code": "#063",
+      "name": "purple violet",
+      "englishName": "purple violet",
+      "germanName": "purpurviolett",
+      "aliases": [
+        "purpurviolett"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.138",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#063 purpurviolett / purple violet",
+      "hex": "#442033",
+      "page": 3
+    },
+    {
+      "code": "#064",
+      "name": "crocus",
+      "englishName": "crocus",
+      "germanName": "krokus",
+      "aliases": [
+        "krokus"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.199",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#064 krokus / crocus",
+      "hex": "#D7C7DE",
+      "page": 3
+    },
+    {
+      "code": "#065",
+      "name": "lavender",
+      "englishName": "lavender",
+      "germanName": "lavendel",
+      "aliases": [
+        "lavendel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.200",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#065 lavendel / lavender",
+      "hex": "#BDA0C4",
+      "page": 3
+    },
+    {
+      "code": "#066",
+      "name": "lilac",
+      "englishName": "lilac",
+      "germanName": "flieder",
+      "aliases": [
+        "flieder"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.201",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#066 flieder / lilac",
+      "hex": "#A87EAD",
+      "page": 3
+    },
+    {
+      "code": "#067",
+      "name": "grape",
+      "englishName": "grape",
+      "germanName": "weintraube",
+      "aliases": [
+        "weintraube"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.202",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#067 weintraube / grape",
+      "hex": "#886299",
+      "page": 3
+    },
+    {
+      "code": "#068",
+      "name": "blackberry",
+      "englishName": "blackberry",
+      "germanName": "brombeere",
+      "aliases": [
+        "brombeere"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.203",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#068 brombeere / blackberry",
+      "hex": "#6A3C7E",
+      "page": 3
+    },
+    {
+      "code": "#069",
+      "name": "currant",
+      "englishName": "currant",
+      "germanName": "johannisbeere",
+      "aliases": [
+        "johannisbeere"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.042",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#069 johannisbeere / currant",
+      "hex": "#522664",
+      "page": 3
+    },
+    {
+      "code": "#070",
+      "name": "crazy plum",
+      "englishName": "crazy plum",
+      "germanName": "verrückte pflaume",
+      "aliases": [
+        "verrückte pflaume"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.044",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#070 verrückte pflaume / crazy plum",
+      "hex": "#29133E",
+      "page": 3
+    },
+    {
+      "code": "#071",
+      "name": "violet dark",
+      "englishName": "violet dark",
+      "germanName": "violett dunkel",
+      "aliases": [
+        "violett dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.043",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#071 violett dunkel / violet dark",
+      "hex": "#3A255E",
+      "page": 3
+    },
+    {
+      "code": "#072",
+      "name": "black violet",
+      "englishName": "black violet",
+      "germanName": "schwarzviolett",
+      "aliases": [
+        "schwarzviolett"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.045",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#072 schwarzviolett / black violet",
+      "hex": "#291849",
+      "page": 3
+    },
+    {
+      "code": "#073",
+      "name": "thistle",
+      "englishName": "thistle",
+      "germanName": "distel",
+      "aliases": [
+        "distel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.036",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#073 distel / thistle",
+      "hex": "#D9DAD7",
+      "page": 3
+    },
+    {
+      "code": "#074",
+      "name": "viola pastel",
+      "englishName": "viola pastel",
+      "germanName": "veilchen pastell",
+      "aliases": [
+        "veilchen pastell"
+      ],
+      "advancedFormula": true,
+      "variants": [
+        {
+          "itemNumber": "327.112",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#074 veilchen pastell / viola pastel",
+      "hex": "#C7C5D1",
+      "page": 3
+    },
+    {
+      "code": "#075",
+      "name": "viola light",
+      "englishName": "viola light",
+      "germanName": "veilchen hell",
+      "aliases": [
+        "veilchen hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.111",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#075 veilchen hell / viola light",
+      "hex": "#A4A0C6",
+      "page": 3
+    },
+    {
+      "code": "#076",
+      "name": "viola middle",
+      "englishName": "viola middle",
+      "germanName": "veilchen mittel",
+      "aliases": [
+        "veilchen mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.205",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#076 veilchen mittel / viola middle",
+      "hex": "#7F7FB4",
+      "page": 3
+    },
+    {
+      "code": "#077",
+      "name": "viola",
+      "englishName": "viola",
+      "germanName": "veilchen",
+      "aliases": [
+        "veilchen"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.110",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#077 veilchen / viola",
+      "hex": "#6466A5",
+      "page": 3
+    },
+    {
+      "code": "#078",
+      "name": "viola dark",
+      "englishName": "viola dark",
+      "germanName": "veilchen dunkel",
+      "aliases": [
+        "veilchen dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.206",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#078 veilchen dunkel / viola dark",
+      "hex": "#4C4D99",
+      "page": 3
+    },
+    {
+      "code": "#079",
+      "name": "7 night SEEN blue",
+      "englishName": "7 night SEEN blue",
+      "germanName": "night SEEN blue",
+      "aliases": [
+        "night SEEN blue"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.041",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#079 night SEEN blue / 7 night SEEN blue",
+      "hex": "#343A81",
+      "page": 3
+    },
+    {
+      "code": "#080",
+      "name": "Page grape middle",
+      "englishName": "Page grape middle",
+      "germanName": "traube mittel",
+      "aliases": [
+        "traube mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.039",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#080 traube mittel / Page grape middle",
+      "hex": "#545B92",
+      "page": 3
+    },
+    {
+      "code": "#081",
+      "name": "grape dark",
+      "englishName": "grape dark",
+      "germanName": "PREMIUM traube dunkel",
+      "aliases": [
+        "PREMIUM traube dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.040",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#081 PREMIUM traube dunkel / grape dark",
+      "hex": "#434088",
+      "page": 3
+    },
+    {
+      "code": "#082",
+      "name": "purple velvet",
+      "englishName": "purple velvet",
+      "germanName": "samtlila",
+      "aliases": [
+        "samtlila"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.141",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#082 samtlila / purple velvet",
+      "hex": "#302860",
+      "page": 3
+    },
+    {
+      "code": "#083",
+      "name": "light violet",
+      "englishName": "light violet",
+      "germanName": "hellviolett",
+      "aliases": [
+        "hellviolett"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.140",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#083 hellviolett / light violet",
+      "hex": "#8084B7",
+      "page": 3
+    },
+    {
+      "code": "#084",
+      "name": "plum middle",
+      "englishName": "plum middle",
+      "germanName": "pflaume mittel",
+      "aliases": [
+        "pflaume mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.204",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#084 pflaume mittel / plum middle",
+      "hex": "#5D5E7C",
+      "page": 3
+    },
+    {
+      "code": "#085",
+      "name": "plum",
+      "englishName": "plum",
+      "germanName": "pflaume",
+      "aliases": [
+        "pflaume"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.127",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#085 pflaume / plum",
+      "hex": "#3A3C5A",
+      "page": 3
+    },
+    {
+      "code": "#086",
+      "name": "pigeon blue middle",
+      "englishName": "pigeon blue middle",
+      "germanName": "taubenblau mittel",
+      "aliases": [
+        "taubenblau mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.207",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#086 taubenblau mittel / pigeon blue middle",
+      "hex": "#A6B3D0",
+      "page": 3
+    },
+    {
+      "code": "#087",
+      "name": "pigeon blue",
+      "englishName": "pigeon blue",
+      "germanName": "taubenblau",
+      "aliases": [
+        "taubenblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.208",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#087 taubenblau / pigeon blue",
+      "hex": "#8E9FC4",
+      "page": 3
+    },
+    {
+      "code": "#088",
+      "name": "blueberry light",
+      "englishName": "blueberry light",
+      "germanName": "heidelbeere hell",
+      "aliases": [
+        "heidelbeere hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.038",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#088 heidelbeere hell / blueberry light",
+      "hex": "#6782B5",
+      "page": 3
+    },
+    {
+      "code": "#089",
+      "name": "azure blue light",
+      "englishName": "azure blue light",
+      "germanName": "himmelblau hell",
+      "aliases": [
+        "himmelblau hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.211",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#089 himmelblau hell / azure blue light",
+      "hex": "#D0E6F1",
+      "page": 3
+    },
+    {
+      "code": "#090",
+      "name": "azure blue",
+      "englishName": "azure blue",
+      "germanName": "himmelblau",
+      "aliases": [
+        "himmelblau"
+      ],
+      "advancedFormula": true,
+      "variants": [
+        {
+          "itemNumber": "327.212",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#090 himmelblau / azure blue",
+      "hex": "#B8DCEF",
+      "page": 3
+    },
+    {
+      "code": "#091",
+      "name": "shock blue pastel",
+      "englishName": "shock blue pastel",
+      "germanName": "schockblau pastell",
+      "aliases": [
+        "schockblau pastell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.163",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#091 schockblau pastell / shock blue pastel",
+      "hex": "#A0CEE7",
+      "page": 3
+    },
+    {
+      "code": "#092",
+      "name": "shock blue light",
+      "englishName": "shock blue light",
+      "germanName": "schockblau hell",
+      "aliases": [
+        "schockblau hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.162",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#092 schockblau hell / shock blue light",
+      "hex": "#88BCDC",
+      "page": 3
+    },
+    {
+      "code": "#093",
+      "name": "shock blue middle",
+      "englishName": "shock blue middle",
+      "germanName": "schockblau mittel",
+      "aliases": [
+        "schockblau mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.161",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#093 schockblau mittel / shock blue middle",
+      "hex": "#58A8D2",
+      "page": 3
+    },
+    {
+      "code": "#094",
+      "name": "shock blue",
+      "englishName": "shock blue",
+      "germanName": "schockblau",
+      "aliases": [
+        "schockblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.032",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#094 schockblau / shock blue",
+      "hex": "#0083BD",
+      "page": 3
+    },
+    {
+      "code": "#095",
+      "name": "tulip blue light",
+      "englishName": "tulip blue light",
+      "germanName": "tulpenblau hell",
+      "aliases": [
+        "tulpenblau hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.213",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#095 tulpenblau hell / tulip blue light",
+      "hex": "#3982C2",
+      "page": 3
+    },
+    {
+      "code": "#096",
+      "name": "tulip blue middle",
+      "englishName": "tulip blue middle",
+      "germanName": "tulpenblau mittel",
+      "aliases": [
+        "tulpenblau mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.214",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#096 tulpenblau mittel / tulip blue middle",
+      "hex": "#1567A5",
+      "page": 3
+    },
+    {
+      "code": "#097",
+      "name": "tulip blue",
+      "englishName": "tulip blue",
+      "germanName": "tulpenblau",
+      "aliases": [
+        "tulpenblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.033",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#097 tulpenblau / tulip blue",
+      "hex": "#004C83",
+      "page": 3
+    },
+    {
+      "code": "#098",
+      "name": "SOTEN light blue",
+      "englishName": "SOTEN light blue",
+      "germanName": "SOTEN lichtblau",
+      "aliases": [
+        "SOTEN lichtblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.031",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#098 SOTEN lichtblau / SOTEN light blue",
+      "hex": "#008FB6",
+      "page": 3
+    },
+    {
+      "code": "#099",
+      "name": "ceramic pastel",
+      "englishName": "ceramic pastel",
+      "germanName": "keramik pastell",
+      "aliases": [
+        "keramik pastell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.029",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#099 keramik pastell / ceramic pastel",
+      "hex": "#78A5CA",
+      "page": 3
+    },
+    {
+      "code": "#100",
+      "name": "jeans blue",
+      "englishName": "jeans blue",
+      "germanName": "jeansblau",
+      "aliases": [
+        "jeansblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.030",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#100 jeansblau / jeans blue",
+      "hex": "#5089B2",
+      "page": 3
+    },
+    {
+      "code": "#101",
+      "name": "wild WANE blue",
+      "englishName": "wild WANE blue",
+      "germanName": "wild WANE blue",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.154",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#101 wild WANE blue",
+      "hex": "#395487",
+      "page": 3
+    },
+    {
+      "code": "#102",
+      "name": "navy blue",
+      "englishName": "navy blue",
+      "germanName": "marineblau",
+      "aliases": [
+        "marineblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.209",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#102 marineblau / navy blue",
+      "hex": "#2E3C7A",
+      "page": 3
+    },
+    {
+      "code": "#103",
+      "name": "ultramarine blue",
+      "englishName": "ultramarine blue",
+      "germanName": "ultramarinblau",
+      "aliases": [
+        "ultramarinblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.024",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#103 ultramarinblau / ultramarine blue",
+      "hex": "#1F2C5C",
+      "page": 3
+    },
+    {
+      "code": "#104",
+      "name": "sapphire blue",
+      "englishName": "sapphire blue",
+      "germanName": "saphirblau",
+      "aliases": [
+        "saphirblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.034",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#104 saphirblau / sapphire blue",
+      "hex": "#132A53",
+      "page": 3
+    },
+    {
+      "code": "#105",
+      "name": "indigo",
+      "englishName": "indigo",
+      "germanName": "indigo",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.210",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#105 indigo",
+      "hex": "#042744",
+      "page": 3
+    },
+    {
+      "code": "#106",
+      "name": "ECB prussian blue dark",
+      "englishName": "ECB prussian blue dark",
+      "germanName": "ECB preußisch blau dkl.",
+      "aliases": [
+        "ECB preußisch blau dkl."
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.105",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#106 ECB preußisch blau dkl. / ECB prussian blue dark",
+      "hex": "#05243B",
+      "page": 3
+    },
+    {
+      "code": "#106-1",
+      "name": "storm blue",
+      "englishName": "storm blue",
+      "germanName": "sturmblau",
+      "aliases": [
+        "sturmblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.247",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#106-1 sturmblau / storm blue",
+      "hex": "#ACD0DD",
+      "page": 3
+    },
+    {
+      "code": "#106-2",
+      "name": "storm blue middle",
+      "englishName": "storm blue middle",
+      "germanName": "sturmblau mittel",
+      "aliases": [
+        "sturmblau mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.248",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#106-2 sturmblau mittel / storm blue middle",
+      "hex": "#6EA3C2",
+      "page": 3
+    },
+    {
+      "code": "#106-3",
+      "name": "storm blue dark",
+      "englishName": "storm blue dark",
+      "germanName": "sturmblau dunkel",
+      "aliases": [
+        "sturmblau dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.249",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#106-3 sturmblau dunkel / storm blue dark",
+      "hex": "#7C9CAC",
+      "page": 3
+    },
+    {
+      "code": "#107",
+      "name": "petrol",
+      "englishName": "petrol",
+      "germanName": "petrol",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.027",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#107 petrol",
+      "hex": "#143D4F",
+      "page": 3
+    },
+    {
+      "code": "#108",
+      "name": "deep-sea blue",
+      "englishName": "deep-sea blue",
+      "germanName": "tiefseeblau",
+      "aliases": [
+        "tiefseeblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.028",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#108 tiefseeblau / deep-sea blue",
+      "hex": "#193341",
+      "page": 3
+    },
+    {
+      "code": "#109",
+      "name": "deep-sea blue dark",
+      "englishName": "deep-sea blue dark",
+      "germanName": "tiefseeblau dunkel",
+      "aliases": [
+        "tiefseeblau dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.104",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#109 tiefseeblau dunkel / deep-sea blue dark",
+      "hex": "#002338",
+      "page": 3
+    },
+    {
+      "code": "#110",
+      "name": "ice-blue dark",
+      "englishName": "ice-blue dark",
+      "germanName": "eisblau dunkel",
+      "aliases": [
+        "eisblau dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.019",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#110 eisblau dunkel / ice-blue dark",
+      "hex": "#96CCDB",
+      "page": 4
+    },
+    {
+      "code": "#111",
+      "name": "dolphin blue",
+      "englishName": "dolphin blue",
+      "germanName": "delphinblau",
+      "aliases": [
+        "delphinblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.022",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#111 delphinblau / dolphin blue",
+      "hex": "#4690A0",
+      "page": 4
+    },
+    {
+      "code": "#112",
+      "name": "petrol blue",
+      "englishName": "petrol blue",
+      "germanName": "petroleumblau",
+      "aliases": [
+        "petroleumblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.107",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#112 petroleumblau / petrol blue",
+      "hex": "#006A80",
+      "page": 4
+    },
+    {
+      "code": "#113",
+      "name": "cream blue",
+      "englishName": "cream blue",
+      "germanName": "cremeblau",
+      "aliases": [
+        "cremeblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.113",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#113 cremeblau / cream blue",
+      "hex": "#6AB8C8",
+      "page": 4
+    },
+    {
+      "code": "#114",
+      "name": "olympia blue",
+      "englishName": "olympia blue",
+      "germanName": "olympiablau",
+      "aliases": [
+        "olympiablau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.021",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#114 olympiablau / olympia blue",
+      "hex": "#479AA4",
+      "page": 4
+    },
+    {
+      "code": "#115",
+      "name": "aqua",
+      "englishName": "aqua",
+      "germanName": "aqua",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.215",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#115 aqua",
+      "hex": "#227E8D",
+      "page": 4
+    },
+    {
+      "code": "#116",
+      "name": "alga",
+      "englishName": "alga",
+      "germanName": "alge",
+      "aliases": [
+        "alge"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.026",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#116 alge / alga",
+      "hex": "#005361",
+      "page": 4
+    },
+    {
+      "code": "#117",
+      "name": "baby blue",
+      "englishName": "baby blue",
+      "germanName": "babyblau",
+      "aliases": [
+        "babyblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.016",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#117 babyblau / baby blue",
+      "hex": "#B5DDD4",
+      "page": 4
+    },
+    {
+      "code": "#118",
+      "name": "crystal blue dark",
+      "englishName": "crystal blue dark",
+      "germanName": "kristallblau dunkel",
+      "aliases": [
+        "kristallblau dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.017",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#118 kristallblau dunkel / crystal blue dark",
+      "hex": "#86CBC4",
+      "page": 4
+    },
+    {
+      "code": "#119",
+      "name": "blue gin",
+      "englishName": "blue gin",
+      "germanName": "blue gin",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.108",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#119 blue gin",
+      "hex": "#51A9A1",
+      "page": 4
+    },
+    {
+      "code": "#120",
+      "name": "verdigris",
+      "englishName": "verdigris",
+      "germanName": "grünspan",
+      "aliases": [
+        "grünspan"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.023",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#120 grünspan / verdigris",
+      "hex": "#4C848A",
+      "page": 4
+    },
+    {
+      "code": "#121",
+      "name": "caribbean",
+      "englishName": "caribbean",
+      "germanName": "karibik",
+      "aliases": [
+        "karibik"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.114",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#121 karibik / caribbean",
+      "hex": "#D0E8E0",
+      "page": 4
+    },
+    {
+      "code": "#122",
+      "name": "riviera pastel",
+      "englishName": "riviera pastel",
+      "germanName": "riviera pastel",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.216",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#122 riviera pastel",
+      "hex": "#A6D5C6",
+      "page": 4
+    },
+    {
+      "code": "#123",
+      "name": "riviera light",
+      "englishName": "riviera light",
+      "germanName": "riviera hell",
+      "aliases": [
+        "riviera hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.072",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#123 riviera hell / riviera light",
+      "hex": "#7FC3B1",
+      "page": 4
+    },
+    {
+      "code": "#124",
+      "name": "riviera middle",
+      "englishName": "riviera middle",
+      "germanName": "riviera mittel",
+      "aliases": [
+        "riviera mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.217",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#124 riviera mittel / riviera middle",
+      "hex": "#3CB5A0",
+      "page": 4
+    },
+    {
+      "code": "#125",
+      "name": "riviera dark",
+      "englishName": "riviera dark",
+      "germanName": "riviera dunkel",
+      "aliases": [
+        "riviera dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.073",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#125 riviera dunkel / riviera dark",
+      "hex": "#009B8D",
+      "page": 4
+    },
+    {
+      "code": "#126",
+      "name": "lagoon blue",
+      "englishName": "lagoon blue",
+      "germanName": "lagunenblau",
+      "aliases": [
+        "lagunenblau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.074",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#126 lagunenblau / lagoon blue",
+      "hex": "#008880",
+      "page": 4
+    },
+    {
+      "code": "#127",
+      "name": "MARTHA marine",
+      "englishName": "MARTHA marine",
+      "germanName": "MARTHA marine",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.155",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#127 MARTHA marine",
+      "hex": "#00615B",
+      "page": 4
+    },
+    {
+      "code": "#128",
+      "name": "turquoise dark",
+      "englishName": "turquoise dark",
+      "germanName": "türkis dunkel",
+      "aliases": [
+        "türkis dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.156",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#128 türkis dunkel / turquoise dark",
+      "hex": "#00454B",
+      "page": 4
+    },
+    {
+      "code": "#129",
+      "name": "nori",
+      "englishName": "nori",
+      "germanName": "nori",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.218",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#129 nori",
+      "hex": "#003B41",
+      "page": 4
+    },
+    {
+      "code": "#130",
+      "name": "black turquoise",
+      "englishName": "black turquoise",
+      "germanName": "schwarztürkis",
+      "aliases": [
+        "schwarztürkis"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.090",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#130 schwarztürkis / black turquoise",
+      "hex": "#00323A",
+      "page": 4
+    },
+    {
+      "code": "#131",
+      "name": "gale green",
+      "englishName": "gale green",
+      "germanName": "sturmgrün",
+      "aliases": [
+        "sturmgrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.053",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#131 sturmgrün / gale green",
+      "hex": "#A9B992",
+      "page": 4
+    },
+    {
+      "code": "#132",
+      "name": "7 reed",
+      "englishName": "7 reed",
+      "germanName": "schilf",
+      "aliases": [
+        "schilf"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.240",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#132 schilf / 7 reed",
+      "hex": "#8EB191",
+      "page": 4
+    },
+    {
+      "code": "#133",
+      "name": "Page aquamarine",
+      "englishName": "Page aquamarine",
+      "germanName": "aquamarin",
+      "aliases": [
+        "aquamarin"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.054",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#133 aquamarin / Page aquamarine",
+      "hex": "#76A47E",
+      "page": 4
+    },
+    {
+      "code": "#134",
+      "name": "swamp",
+      "englishName": "swamp",
+      "germanName": "PREMIUM sumpf",
+      "aliases": [
+        "PREMIUM sumpf"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.241",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#134 PREMIUM sumpf / swamp",
+      "hex": "#4E7158",
+      "page": 4
+    },
+    {
+      "code": "#135",
+      "name": "black forest green",
+      "englishName": "black forest green",
+      "germanName": "schwarzwaldgrün",
+      "aliases": [
+        "schwarzwaldgrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.055",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#135 schwarzwaldgrün / black forest green",
+      "hex": "#3D5B46",
+      "page": 4
+    },
+    {
+      "code": "#136",
+      "name": "blueberry pastel",
+      "englishName": "blueberry pastel",
+      "germanName": "heidelbeere pastell",
+      "aliases": [
+        "heidelbeere pastell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.037",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#136 heidelbeere pastell / blueberry pastel",
+      "hex": "#D1DED4",
+      "page": 4
+    },
+    {
+      "code": "#137",
+      "name": "calypso light",
+      "englishName": "calypso light",
+      "germanName": "calypso hell",
+      "aliases": [
+        "calypso hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.068",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#137 calypso hell / calypso light",
+      "hex": "#C1DEBC",
+      "page": 4
+    },
+    {
+      "code": "#138",
+      "name": "calypso middle",
+      "englishName": "calypso middle",
+      "germanName": "calypso mittel",
+      "aliases": [
+        "calypso mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.069",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#138 calypso mittel / calypso middle",
+      "hex": "#71BE8F",
+      "page": 4
+    },
+    {
+      "code": "#139",
+      "name": "calypso dark",
+      "englishName": "calypso dark",
+      "germanName": "calypso dunkel",
+      "aliases": [
+        "calypso dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.070",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#139 calypso dunkel / calypso dark",
+      "hex": "#4FAB7B",
+      "page": 4
+    },
+    {
+      "code": "#140",
+      "name": "turquoise green",
+      "englishName": "turquoise green",
+      "germanName": "türkisgrün",
+      "aliases": [
+        "türkisgrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.219",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#140 türkisgrün / turquoise green",
+      "hex": "#007B50",
+      "page": 4
+    },
+    {
+      "code": "#141",
+      "name": "turquoise green middle",
+      "englishName": "turquoise green middle",
+      "germanName": "türkisgrün mittel",
+      "aliases": [
+        "türkisgrün mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.172",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#141 türkisgrün mittel / turquoise green middle",
+      "hex": "#005C3C",
+      "page": 4
+    },
+    {
+      "code": "#142",
+      "name": "turquoise green dark",
+      "englishName": "turquoise green dark",
+      "germanName": "türkisgrün dunkel",
+      "aliases": [
+        "türkisgrün dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.220",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#142 türkisgrün dunkel / turquoise green dark",
+      "hex": "#004B33",
+      "page": 4
+    },
+    {
+      "code": "#143",
+      "name": "SEAK future green",
+      "englishName": "SEAK future green",
+      "germanName": "SEAK future green",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.145",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#143 SEAK future green",
+      "hex": "#00432F",
+      "page": 4
+    },
+    {
+      "code": "#144",
+      "name": "menthol light",
+      "englishName": "menthol light",
+      "germanName": "menthol hell",
+      "aliases": [
+        "menthol hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.124",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#144 menthol hell / menthol light",
+      "hex": "#B7D79F",
+      "page": 4
+    },
+    {
+      "code": "#145",
+      "name": "menthol",
+      "englishName": "menthol",
+      "germanName": "menthol",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.123",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#145 menthol",
+      "hex": "#67B86F",
+      "page": 4
+    },
+    {
+      "code": "#146",
+      "name": "KACAO77 UNIVERSES green",
+      "englishName": "KACAO77 UNIVERSES green",
+      "germanName": "KACAO77 UNIVERSES green",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.221",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#146 KACAO77 UNIVERSES green",
+      "hex": "#009C54",
+      "page": 4
+    },
+    {
+      "code": "#147",
+      "name": "lettuce green",
+      "englishName": "lettuce green",
+      "germanName": "salatgrün",
+      "aliases": [
+        "salatgrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.131",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#147 salatgrün / lettuce green",
+      "hex": "#008C44",
+      "page": 4
+    },
+    {
+      "code": "#148",
+      "name": "kiwi pastel",
+      "englishName": "kiwi pastel",
+      "germanName": "kiwi pastell",
+      "aliases": [
+        "kiwi pastell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.120",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#148 kiwi pastell / kiwi pastel",
+      "hex": "#DDE48D",
+      "page": 4
+    },
+    {
+      "code": "#149",
+      "name": "kiwi light",
+      "englishName": "kiwi light",
+      "germanName": "kiwi hell",
+      "aliases": [
+        "kiwi hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.119",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#149 kiwi hell / kiwi light",
+      "hex": "#B9CF3E",
+      "page": 4
+    },
+    {
+      "code": "#150",
+      "name": "kiwi",
+      "englishName": "kiwi",
+      "germanName": "kiwi",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.118",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#150 kiwi",
+      "hex": "#94BB2A",
+      "page": 4
+    },
+    {
+      "code": "#151",
+      "name": "dandelion",
+      "englishName": "dandelion",
+      "germanName": "löwenzahn",
+      "aliases": [
+        "löwenzahn"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.060",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#151 löwenzahn / dandelion",
+      "hex": "#C8DA83",
+      "page": 4
+    },
+    {
+      "code": "#152",
+      "name": "brilliant green",
+      "englishName": "brilliant green",
+      "germanName": "brilliantgrün",
+      "aliases": [
+        "brilliantgrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.061",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#152 brilliantgrün / brilliant green",
+      "hex": "#B0CE55",
+      "page": 4
+    },
+    {
+      "code": "#153",
+      "name": "grasshopper",
+      "englishName": "grasshopper",
+      "germanName": "grashüpfer",
+      "aliases": [
+        "grashüpfer"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.064",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#153 grashüpfer / grasshopper",
+      "hex": "#86BD40",
+      "page": 4
+    },
+    {
+      "code": "#154",
+      "name": "cream green",
+      "englishName": "cream green",
+      "germanName": "cremegrün",
+      "aliases": [
+        "cremegrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.058",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#154 cremegrün / cream green",
+      "hex": "#A3C95E",
+      "page": 4
+    },
+    {
+      "code": "#155",
+      "name": "hippie green",
+      "englishName": "hippie green",
+      "germanName": "hippiegrün",
+      "aliases": [
+        "hippiegrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.063",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#155 hippiegrün / hippie green",
+      "hex": "#87C061",
+      "page": 4
+    },
+    {
+      "code": "#156",
+      "name": "wasabi",
+      "englishName": "wasabi",
+      "germanName": "wasabi",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.222",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#156 wasabi",
+      "hex": "#7BBB51",
+      "page": 4
+    },
+    {
+      "code": "#157",
+      "name": "cliff green",
+      "englishName": "cliff green",
+      "germanName": "cliffgrün",
+      "aliases": [
+        "cliffgrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.065",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#157 cliffgrün / cliff green",
+      "hex": "#52AE32",
+      "page": 4
+    },
+    {
+      "code": "#158",
+      "name": "clover green",
+      "englishName": "clover green",
+      "germanName": "kleegrün",
+      "aliases": [
+        "kleegrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.223",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#158 kleegrün / clover green",
+      "hex": "#23A845",
+      "page": 4
+    },
+    {
+      "code": "#159",
+      "name": "juice green",
+      "englishName": "juice green",
+      "germanName": "saftgrün",
+      "aliases": [
+        "saftgrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.066",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#159 saftgrün / juice green",
+      "hex": "#008E3D",
+      "page": 4
+    },
+    {
+      "code": "#160",
+      "name": "MISTER GREEN",
+      "englishName": "MISTER GREEN",
+      "germanName": "MISTER GREEN",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.096",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#160 MISTER GREEN",
+      "hex": "#007A3E",
+      "page": 4
+    },
+    {
+      "code": "#160-1",
+      "name": "leaf green middle",
+      "englishName": "leaf green middle",
+      "germanName": "laubgrün mittel",
+      "aliases": [
+        "laubgrün mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.250",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#160-1 laubgrün mittel / leaf green middle",
+      "hex": "#497433",
+      "page": 4
+    },
+    {
+      "code": "#161",
+      "name": "leaf green",
+      "englishName": "leaf green",
+      "germanName": "laubgrün",
+      "aliases": [
+        "laubgrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.143",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#161 laubgrün / leaf green",
+      "hex": "#255C2F",
+      "page": 4
+    },
+    {
+      "code": "#162",
+      "name": "MIGHTY green",
+      "englishName": "MIGHTY green",
+      "germanName": "MIGHTY green",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.062",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#162 MIGHTY green",
+      "hex": "#92C140",
+      "page": 4
+    },
+    {
+      "code": "#163",
+      "name": "avocado",
+      "englishName": "avocado",
+      "germanName": "avocado",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.224",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#163 avocado",
+      "hex": "#6B981F",
+      "page": 4
+    },
+    {
+      "code": "#164",
+      "name": "fern green",
+      "englishName": "fern green",
+      "germanName": "farngrün",
+      "aliases": [
+        "farngrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.142",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#164 farngrün / fern green",
+      "hex": "#567514",
+      "page": 4
+    },
+    {
+      "code": "#165",
+      "name": "moss green",
+      "englishName": "moss green",
+      "germanName": "moosgrün",
+      "aliases": [
+        "moosgrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.225",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#165 moosgrün / moss green",
+      "hex": "#325914",
+      "page": 5
+    },
+    {
+      "code": "#166",
+      "name": "chromium oxide green",
+      "englishName": "chromium oxide green",
+      "germanName": "chromoxidgrün",
+      "aliases": [
+        "chromoxidgrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.144",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#166 chromoxidgrün / chromium oxide green",
+      "hex": "#2C3F23",
+      "page": 5
+    },
+    {
+      "code": "#167",
+      "name": "black green",
+      "englishName": "black green",
+      "germanName": "schwarzgrün",
+      "aliases": [
+        "schwarzgrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.095",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#167 schwarzgrün / black green",
+      "hex": "#002A18",
+      "page": 5
+    },
+    {
+      "code": "#168",
+      "name": "butterfly green",
+      "englishName": "butterfly green",
+      "germanName": "schmetterlingsgrün",
+      "aliases": [
+        "schmetterlingsgrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.056",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#168 schmetterlingsgrün / butterfly green",
+      "hex": "#D9E181",
+      "page": 5
+    },
+    {
+      "code": "#169",
+      "name": "green tea",
+      "englishName": "green tea",
+      "germanName": "grüner tee",
+      "aliases": [
+        "grüner tee"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.226",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#169 grüner tee / green tea",
+      "hex": "#B8C57B",
+      "page": 5
+    },
+    {
+      "code": "#170",
+      "name": "P.JAY green",
+      "englishName": "P.JAY green",
+      "germanName": "P.JAY green",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.051",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#170 P.JAY green",
+      "hex": "#959B57",
+      "page": 5
+    },
+    {
+      "code": "#171",
+      "name": "amazonas",
+      "englishName": "amazonas",
+      "germanName": "amazonas",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.052",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#171 amazonas",
+      "hex": "#918F62",
+      "page": 5
+    },
+    {
+      "code": "#172",
+      "name": "camouflage",
+      "englishName": "camouflage",
+      "germanName": "camouflage",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.227",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#172 camouflage",
+      "hex": "#5F5F34",
+      "page": 5
+    },
+    {
+      "code": "#173",
+      "name": "evil olive",
+      "englishName": "evil olive",
+      "germanName": "evil olive",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.146",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#173 evil olive",
+      "hex": "#3F4220",
+      "page": 5
+    },
+    {
+      "code": "#174",
+      "name": "poison green",
+      "englishName": "poison green",
+      "germanName": "giftgrün",
+      "aliases": [
+        "giftgrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.059",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#174 giftgrün / poison green",
+      "hex": "#DEDE2F",
+      "page": 5
+    },
+    {
+      "code": "#175",
+      "name": "apple",
+      "englishName": "apple",
+      "germanName": "apfel",
+      "aliases": [
+        "apfel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.128",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#175 apfel / apple",
+      "hex": "#C7C244",
+      "page": 5
+    },
+    {
+      "code": "#176",
+      "name": "sorbet green",
+      "englishName": "sorbet green",
+      "germanName": "sorbetgrün",
+      "aliases": [
+        "sorbetgrün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.047",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#176 sorbetgrün / sorbet green",
+      "hex": "#F0E398",
+      "page": 5
+    },
+    {
+      "code": "#177",
+      "name": "soft pastel",
+      "englishName": "soft pastel",
+      "germanName": "lind pastell",
+      "aliases": [
+        "lind pastell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.048",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#177 lind pastell / soft pastel",
+      "hex": "#E4E08D",
+      "page": 5
+    },
+    {
+      "code": "#178",
+      "name": "carambola",
+      "englishName": "carambola",
+      "germanName": "karambole",
+      "aliases": [
+        "karambole"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.228",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#178 karambole / carambola",
+      "hex": "#C1C23A",
+      "page": 5
+    },
+    {
+      "code": "#179",
+      "name": "hemp",
+      "englishName": "hemp",
+      "germanName": "hanf",
+      "aliases": [
+        "hanf"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.050",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#179 hanf / hemp",
+      "hex": "#B4A437",
+      "page": 5
+    },
+    {
+      "code": "#180",
+      "name": "green bean",
+      "englishName": "green bean",
+      "germanName": "grüne bohne",
+      "aliases": [
+        "grüne bohne"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.229",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#180 grüne bohne / green bean",
+      "hex": "#979619",
+      "page": 5
+    },
+    {
+      "code": "#181",
+      "name": "pear",
+      "englishName": "pear",
+      "germanName": "birne",
+      "aliases": [
+        "birne"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.157",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#181 birne / pear",
+      "hex": "#82841F",
+      "page": 5
+    },
+    {
+      "code": "#181-1",
+      "name": "nature green light",
+      "englishName": "nature green light",
+      "germanName": "naturgrün hell",
+      "aliases": [
+        "naturgrün hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.251",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#181-1 naturgrün hell / nature green light",
+      "hex": "#626F25",
+      "page": 5
+    },
+    {
+      "code": "#181-2",
+      "name": "nature green middle",
+      "englishName": "nature green middle",
+      "germanName": "naturgrün mittel",
+      "aliases": [
+        "naturgrün mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.252",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#181-2 naturgrün mittel / nature green middle",
+      "hex": "#5C5F21",
+      "page": 5
+    },
+    {
+      "code": "#182",
+      "name": "mustard",
+      "englishName": "mustard",
+      "germanName": "senf",
+      "aliases": [
+        "senf"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.049",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#182 senf / mustard",
+      "hex": "#D3BC59",
+      "page": 5
+    },
+    {
+      "code": "#182-1",
+      "name": "mustard yellow",
+      "englishName": "mustard yellow",
+      "germanName": "senfgelb",
+      "aliases": [
+        "senfgelb"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.262",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#182-1 senfgelb / mustard yellow",
+      "hex": "#D69B07",
+      "page": 5
+    },
+    {
+      "code": "#182-2",
+      "name": "khaki green",
+      "englishName": "khaki green",
+      "germanName": "khaki grün",
+      "aliases": [
+        "khaki grün"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.263",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#182-2 khaki grün / khaki green",
+      "hex": "#A47721",
+      "page": 5
+    },
+    {
+      "code": "#183",
+      "name": "7 khaki",
+      "englishName": "7 khaki",
+      "germanName": "khaki",
+      "aliases": [
+        "khaki"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.078",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#183 khaki / 7 khaki",
+      "hex": "#AB8A37",
+      "page": 5
+    },
+    {
+      "code": "#184",
+      "name": "Page ivory light",
+      "englishName": "Page ivory light",
+      "germanName": "elfenbein hell",
+      "aliases": [
+        "elfenbein hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.167",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#184 elfenbein hell / Page ivory light",
+      "hex": "#FDE8C6",
+      "page": 5
+    },
+    {
+      "code": "#184-1",
+      "name": "sand light",
+      "englishName": "sand light",
+      "germanName": "PREMIUM sand hell",
+      "aliases": [
+        "PREMIUM sand hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.244",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#184-1 PREMIUM sand hell / sand light",
+      "hex": "#FAF1DE",
+      "page": 5
+    },
+    {
+      "code": "#184-2",
+      "name": "sand middle",
+      "englishName": "sand middle",
+      "germanName": "sand mittel",
+      "aliases": [
+        "sand mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.245",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#184-2 sand mittel / sand middle",
+      "hex": "#F1DCCB",
+      "page": 5
+    },
+    {
+      "code": "#184-3",
+      "name": "sand",
+      "englishName": "sand",
+      "germanName": "sand",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.246",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#184-3 sand",
+      "hex": "#D8B092",
+      "page": 5
+    },
+    {
+      "code": "#184-4",
+      "name": "quartz sand",
+      "englishName": "quartz sand",
+      "germanName": "quarzsand",
+      "aliases": [
+        "quarzsand"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.254",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#184-4 quarzsand / quartz sand",
+      "hex": "#D4A78C",
+      "page": 5
+    },
+    {
+      "code": "#184-5",
+      "name": "quartz sand middle",
+      "englishName": "quartz sand middle",
+      "germanName": "quarzsand mittel",
+      "aliases": [
+        "quarzsand mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.255",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#184-5 quarzsand mittel / quartz sand middle",
+      "hex": "#ECCFBF",
+      "page": 5
+    },
+    {
+      "code": "#184-6",
+      "name": "quartz sand light",
+      "englishName": "quartz sand light",
+      "germanName": "quarzsand hell",
+      "aliases": [
+        "quarzsand hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.256",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#184-6 quarzsand hell / quartz sand light",
+      "hex": "#EACFC7",
+      "page": 5
+    },
+    {
+      "code": "#184-7",
+      "name": "furwhite",
+      "englishName": "furwhite",
+      "germanName": "fellweiß",
+      "aliases": [
+        "fellweiß"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.257",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#184-7 fellweiß / furwhite",
+      "hex": "#E3D6CF",
+      "page": 5
+    },
+    {
+      "code": "#185",
+      "name": "milk coffee",
+      "englishName": "milk coffee",
+      "germanName": "milchkaffee",
+      "aliases": [
+        "milchkaffee"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.075",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#185 milchkaffee / milk coffee",
+      "hex": "#D5B075",
+      "page": 5
+    },
+    {
+      "code": "#186",
+      "name": "cappuccino",
+      "englishName": "cappuccino",
+      "germanName": "cappuccino",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.235",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#186 cappuccino",
+      "hex": "#A47A51",
+      "page": 5
+    },
+    {
+      "code": "#187",
+      "name": "espresso",
+      "englishName": "espresso",
+      "germanName": "espresso",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.094",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#187 espresso",
+      "hex": "#87673E",
+      "page": 5
+    },
+    {
+      "code": "#188",
+      "name": "mocca",
+      "englishName": "mocca",
+      "germanName": "mocca",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.173",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#188 mocca",
+      "hex": "#543F27",
+      "page": 5
+    },
+    {
+      "code": "#189",
+      "name": "sahara beige light",
+      "englishName": "sahara beige light",
+      "germanName": "saharabeige hell",
+      "aliases": [
+        "saharabeige hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.230",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#189 saharabeige hell / sahara beige light",
+      "hex": "#F7DEB3",
+      "page": 5
+    },
+    {
+      "code": "#190",
+      "name": "sahara beige middle",
+      "englishName": "sahara beige middle",
+      "germanName": "saharabeige mittel",
+      "aliases": [
+        "saharabeige mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.231",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#190 saharabeige mittel / sahara beige middle",
+      "hex": "#F2CB85",
+      "page": 5
+    },
+    {
+      "code": "#191",
+      "name": "sahara beige",
+      "englishName": "sahara beige",
+      "germanName": "saharahbeige",
+      "aliases": [
+        "saharahbeige"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.005",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#191 saharahbeige / sahara beige",
+      "hex": "#F0BF70",
+      "page": 5
+    },
+    {
+      "code": "#192",
+      "name": "papyrus",
+      "englishName": "papyrus",
+      "germanName": "papyrus",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.232",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#192 papyrus",
+      "hex": "#C2944C",
+      "page": 5
+    },
+    {
+      "code": "#193",
+      "name": "nougat",
+      "englishName": "nougat",
+      "germanName": "nougat",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.077",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#193 nougat",
+      "hex": "#B87B41",
+      "page": 5
+    },
+    {
+      "code": "#194",
+      "name": "beige brown",
+      "englishName": "beige brown",
+      "germanName": "beigebraun",
+      "aliases": [
+        "beigebraun"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.151",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#194 beigebraun / beige brown",
+      "hex": "#834E2B",
+      "page": 5
+    },
+    {
+      "code": "#195",
+      "name": "apricot beige",
+      "englishName": "apricot beige",
+      "germanName": "apricot beige",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.004",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#195 apricot beige",
+      "hex": "#FAD09D",
+      "page": 5
+    },
+    {
+      "code": "#196",
+      "name": "labrador",
+      "englishName": "labrador",
+      "germanName": "labrador",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.233",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#196 labrador",
+      "hex": "#EEBF8C",
+      "page": 5
+    },
+    {
+      "code": "#197",
+      "name": "camel",
+      "englishName": "camel",
+      "germanName": "kamel",
+      "aliases": [
+        "kamel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.170",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#197 kamel / camel",
+      "hex": "#DC9B55",
+      "page": 5
+    },
+    {
+      "code": "#198",
+      "name": "ocher brown",
+      "englishName": "ocher brown",
+      "germanName": "ockerbraun",
+      "aliases": [
+        "ockerbraun"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.150",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#198 ockerbraun / ocher brown",
+      "hex": "#AC702B",
+      "page": 5
+    },
+    {
+      "code": "#199",
+      "name": "orange brown light",
+      "englishName": "orange brown light",
+      "germanName": "orangebraun hell",
+      "aliases": [
+        "orangebraun hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.181",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#199 orangebraun hell / orange brown light",
+      "hex": "#F59E4E",
+      "page": 5
+    },
+    {
+      "code": "#200",
+      "name": "orange brown middle",
+      "englishName": "orange brown middle",
+      "germanName": "orangebraun mittel",
+      "aliases": [
+        "orangebraun mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.182",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#200 orangebraun mittel / orange brown middle",
+      "hex": "#D8702D",
+      "page": 5
+    },
+    {
+      "code": "#201",
+      "name": "orange brown",
+      "englishName": "orange brown",
+      "germanName": "orangebraun",
+      "aliases": [
+        "orangebraun"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.076",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#201 orangebraun / orange brown",
+      "hex": "#B5591B",
+      "page": 5
+    },
+    {
+      "code": "#202",
+      "name": "cocoa light",
+      "englishName": "cocoa light",
+      "germanName": "kakao hell",
+      "aliases": [
+        "kakao hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.169",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#202 kakao hell / cocoa light",
+      "hex": "#A1544A",
+      "page": 5
+    },
+    {
+      "code": "#203",
+      "name": "cocoa middle",
+      "englishName": "cocoa middle",
+      "germanName": "kakao mittel",
+      "aliases": [
+        "kakao mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.234",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#203 kakao mittel / cocoa middle",
+      "hex": "#89483F",
+      "page": 5
+    },
+    {
+      "code": "#204",
+      "name": "cocoa",
+      "englishName": "cocoa",
+      "germanName": "kakao",
+      "aliases": [
+        "kakao"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.126",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#204 kakao / cocoa",
+      "hex": "#783A2E",
+      "page": 5
+    },
+    {
+      "code": "#204-1",
+      "name": "caramel light",
+      "englishName": "caramel light",
+      "germanName": "karamel hell",
+      "aliases": [
+        "karamel hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.253",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#204-1 karamel hell / caramel light",
+      "hex": "#D7A896",
+      "page": 5
+    },
+    {
+      "code": "#205",
+      "name": "caramel",
+      "englishName": "caramel",
+      "germanName": "karamel",
+      "aliases": [
+        "karamel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.091",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#205 karamel / caramel",
+      "hex": "#A86845",
+      "page": 5
+    },
+    {
+      "code": "#206",
+      "name": "walnut",
+      "englishName": "walnut",
+      "germanName": "walnuss",
+      "aliases": [
+        "walnuss"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.183",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#206 walnuss / walnut",
+      "hex": "#754627",
+      "page": 5
+    },
+    {
+      "code": "#207",
+      "name": "hazelnut",
+      "englishName": "hazelnut",
+      "germanName": "haselnuss",
+      "aliases": [
+        "haselnuss"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.092",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#207 haselnuss / hazelnut",
+      "hex": "#613121",
+      "page": 5
+    },
+    {
+      "code": "#208",
+      "name": "chocolate brown",
+      "englishName": "chocolate brown",
+      "germanName": "schockoladenbraun",
+      "aliases": [
+        "schockoladenbraun"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.152",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#208 schockoladenbraun / chocolate brown",
+      "hex": "#4F311F",
+      "page": 5
+    },
+    {
+      "code": "#209",
+      "name": "CMP dark brown",
+      "englishName": "CMP dark brown",
+      "germanName": "CMP dunkelbraun",
+      "aliases": [
+        "CMP dunkelbraun"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.093",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#209 CMP dunkelbraun / CMP dark brown",
+      "hex": "#3B2415",
+      "page": 6
+    },
+    {
+      "code": "#210",
+      "name": "tar black",
+      "englishName": "tar black",
+      "germanName": "teerschwarz",
+      "aliases": [
+        "teerschwarz"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.159",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#210 teerschwarz / tar black",
+      "hex": "#393932",
+      "page": 6
+    },
+    {
+      "code": "#211",
+      "name": "stone grey dark",
+      "englishName": "stone grey dark",
+      "germanName": "steingrau dunkel",
+      "aliases": [
+        "steingrau dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.176",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#211 steingrau dunkel / stone grey dark",
+      "hex": "#5F5B49",
+      "page": 6
+    },
+    {
+      "code": "#212",
+      "name": "stone grey middle",
+      "englishName": "stone grey middle",
+      "germanName": "steingrau mittel",
+      "aliases": [
+        "steingrau mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.175",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#212 steingrau mittel / stone grey middle",
+      "hex": "#86826C",
+      "page": 6
+    },
+    {
+      "code": "#213",
+      "name": "stone grey light",
+      "englishName": "stone grey light",
+      "germanName": "steingrau hell",
+      "aliases": [
+        "steingrau hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.174",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#213 steingrau hell / stone grey light",
+      "hex": "#C5C1AD",
+      "page": 6
+    },
+    {
+      "code": "#214",
+      "name": "TOAST signal black",
+      "englishName": "TOAST signal black",
+      "germanName": "TOAST signalschwarz",
+      "aliases": [
+        "TOAST signalschwarz"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.180",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#214 TOAST signalschwarz / TOAST signal black",
+      "hex": "#05080A",
+      "page": 6
+    },
+    {
+      "code": "#215",
+      "name": "black grey neutral",
+      "englishName": "black grey neutral",
+      "germanName": "schwarzgrau neutral",
+      "aliases": [
+        "schwarzgrau neutral"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.103",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#215 schwarzgrau neutral / black grey neutral",
+      "hex": "#3F3E3A",
+      "page": 6
+    },
+    {
+      "code": "#216",
+      "name": "dark grey neutral",
+      "englishName": "dark grey neutral",
+      "germanName": "dunkelgrau neutral",
+      "aliases": [
+        "dunkelgrau neutral"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.102",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#216 dunkelgrau neutral / dark grey neutral",
+      "hex": "#5F5E58",
+      "page": 6
+    },
+    {
+      "code": "#217",
+      "name": "middle grey neutral",
+      "englishName": "middle grey neutral",
+      "germanName": "mittelgrau neutral",
+      "aliases": [
+        "mittelgrau neutral"
+      ],
+      "advancedFormula": true,
+      "variants": [
+        {
+          "itemNumber": "327.101",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#217 mittelgrau neutral / middle grey neutral",
+      "hex": "#989790",
+      "page": 6
+    },
+    {
+      "code": "#218",
+      "name": "light grey neutral",
+      "englishName": "light grey neutral",
+      "germanName": "hellgrau neutral",
+      "aliases": [
+        "hellgrau neutral"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.100",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#218 hellgrau neutral / light grey neutral",
+      "hex": "#D8D7CB",
+      "page": 6
+    },
+    {
+      "code": "#219",
+      "name": "mouse grey",
+      "englishName": "mouse grey",
+      "germanName": "mausgrau",
+      "aliases": [
+        "mausgrau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.147",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#219 mausgrau / mouse grey",
+      "hex": "#707471",
+      "page": 6
+    },
+    {
+      "code": "#220",
+      "name": "silver dollar",
+      "englishName": "silver dollar",
+      "germanName": "silver dollar",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.158",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#220 silver dollar",
+      "hex": "#81807E",
+      "page": 6
+    },
+    {
+      "code": "#220-1",
+      "name": "gold dollar",
+      "englishName": "gold dollar",
+      "germanName": "gold dollar",
+      "aliases": [],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.243",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#220-1 gold dollar",
+      "hex": "#C0A879",
+      "page": 6
+    },
+    {
+      "code": "#221",
+      "name": "deep black",
+      "englishName": "deep black",
+      "germanName": "tiefschwarz",
+      "aliases": [
+        "tiefschwarz"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.080",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#221 tiefschwarz / deep black",
+      "hex": "#000000",
+      "page": 6
+    },
+    {
+      "code": "#221-1",
+      "name": "black grey light",
+      "englishName": "black grey light",
+      "germanName": "schwarzgrau hell",
+      "aliases": [
+        "schwarzgrau hell"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.260",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#221-1 schwarzgrau hell / black grey light",
+      "hex": "#5D5E5C",
+      "page": 6
+    },
+    {
+      "code": "#221-2",
+      "name": "black grey middle",
+      "englishName": "black grey middle",
+      "germanName": "schwarzgrau mittel",
+      "aliases": [
+        "schwarzgrau mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.261",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#221-2 schwarzgrau mittel / black grey middle",
+      "hex": "#515150",
+      "page": 6
+    },
+    {
+      "code": "#222",
+      "name": "black grey dark",
+      "englishName": "black grey dark",
+      "germanName": "schwarzgrau dunkel",
+      "aliases": [
+        "schwarzgrau dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.149",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#222 schwarzgrau dunkel / black grey dark",
+      "hex": "#292B27",
+      "page": 6
+    },
+    {
+      "code": "#222-1",
+      "name": "anthracite grey dark",
+      "englishName": "anthracite grey dark",
+      "germanName": "antrazitgrau dunkel",
+      "aliases": [
+        "antrazitgrau dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.258",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#222-1 antrazitgrau dunkel / anthracite grey dark",
+      "hex": "#2E3336",
+      "page": 6
+    },
+    {
+      "code": "#223",
+      "name": "anthracite grey",
+      "englishName": "anthracite grey",
+      "germanName": "antrazitgrau",
+      "aliases": [
+        "antrazitgrau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.148",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#223 antrazitgrau / anthracite grey",
+      "hex": "#3C4142",
+      "page": 6
+    },
+    {
+      "code": "#223-1",
+      "name": "anthracite grey middle",
+      "englishName": "anthracite grey middle",
+      "germanName": "antrazitgrau mittel",
+      "aliases": [
+        "antrazitgrau mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.259",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#223-1 antrazitgrau mittel / anthracite grey middle",
+      "hex": "#4F5354",
+      "page": 6
+    },
+    {
+      "code": "#224",
+      "name": "grey blue dark",
+      "englishName": "grey blue dark",
+      "germanName": "graublau dunkel",
+      "aliases": [
+        "graublau dunkel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.179",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#224 graublau dunkel / grey blue dark",
+      "hex": "#6F7171",
+      "page": 6
+    },
+    {
+      "code": "#225",
+      "name": "granite",
+      "englishName": "granite",
+      "germanName": "granit",
+      "aliases": [
+        "granit"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.236",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#225 granit / granite",
+      "hex": "#848788",
+      "page": 6
+    },
+    {
+      "code": "#226",
+      "name": "grey blue middle",
+      "englishName": "grey blue middle",
+      "germanName": "graublau mittel",
+      "aliases": [
+        "graublau mittel"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.178",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#226 graublau mittel / grey blue middle",
+      "hex": "#9D9EA0",
+      "page": 6
+    },
+    {
+      "code": "#227",
+      "name": "rock grey",
+      "englishName": "rock grey",
+      "germanName": "felsengrau",
+      "aliases": [
+        "felsengrau"
+      ],
+      "advancedFormula": true,
+      "variants": [
+        {
+          "itemNumber": "327.237",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#227 felsengrau / rock grey",
+      "hex": "#ADAEAD",
+      "page": 6
+    },
+    {
+      "code": "#228",
+      "name": "grey blue light",
+      "englishName": "grey blue light",
+      "germanName": "graublau hell",
+      "aliases": [
+        "graublau hell"
+      ],
+      "advancedFormula": true,
+      "variants": [
+        {
+          "itemNumber": "327.177",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#228 graublau hell / grey blue light",
+      "hex": "#BDBCBD",
+      "page": 6
+    },
+    {
+      "code": "#229",
+      "name": "pebble grey",
+      "englishName": "pebble grey",
+      "germanName": "kieselgrau",
+      "aliases": [
+        "kieselgrau"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.238",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#229 kieselgrau / pebble grey",
+      "hex": "#CDCBCC",
+      "page": 6
+    },
+    {
+      "code": "#230",
+      "name": "marble",
+      "englishName": "marble",
+      "germanName": "marmor",
+      "aliases": [
+        "marmor"
+      ],
+      "advancedFormula": false,
+      "variants": [
+        {
+          "itemNumber": "327.239",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#230 marmor / marble",
+      "hex": "#E3E2E3",
+      "page": 6
+    },
+    {
+      "code": "#231",
+      "name": "signal white",
+      "englishName": "signal white",
+      "germanName": "signalweiß",
+      "aliases": [
+        "signalweiß"
+      ],
+      "advancedFormula": true,
+      "variants": [
+        {
+          "itemNumber": "327.160",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "#231 signalweiß / signal white",
+      "hex": "#FFFFFF",
+      "page": 6
+    }
+  ]
+}

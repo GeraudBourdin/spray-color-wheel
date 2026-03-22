@@ -1,0 +1,1451 @@
+{
+  "source": {
+    "type": "pdf",
+    "url": "https://brand.molotow.com/fileadmin/Dateien/PDF/Info_Sheets/Spray/Action/flame_blue.pdf",
+    "page": 1,
+    "hexApproximation": true,
+    "note": "Hex values sampled from swatches on the product info PDF."
+  },
+  "colors": [
+    {
+      "code": "FB-100",
+      "name": "vanilla",
+      "hex": "#F0E081",
+      "variants": [
+        {
+          "itemNumber": "557.001",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-100 vanilla"
+    },
+    {
+      "code": "FB-1000",
+      "name": "fluo yellow",
+      "hex": "#F6E700",
+      "variants": [
+        {
+          "itemNumber": "557.165",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-1000 fluo yellow"
+    },
+    {
+      "code": "FB-1002",
+      "name": "fluo orange",
+      "hex": "#EC6500",
+      "variants": [
+        {
+          "itemNumber": "557.166",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-1002 fluo orange"
+    },
+    {
+      "code": "FB-1004",
+      "name": "fluo pink",
+      "hex": "#E50075",
+      "variants": [
+        {
+          "itemNumber": "557.167",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-1004 fluo pink"
+    },
+    {
+      "code": "FB-1006",
+      "name": "fluo green",
+      "hex": "#37AA32",
+      "variants": [
+        {
+          "itemNumber": "557.168",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-1006 fluo green"
+    },
+    {
+      "code": "FB-102",
+      "name": "zinc yellow",
+      "hex": "#FEDD3B",
+      "variants": [
+        {
+          "itemNumber": "557.002",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-102 zinc yellow"
+    },
+    {
+      "code": "FB-104",
+      "name": "cadmium yellow",
+      "hex": "#FAD820",
+      "variants": [
+        {
+          "itemNumber": "557.003",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-104 cadmium yellow"
+    },
+    {
+      "code": "FB-106",
+      "name": "signal yellow",
+      "hex": "#F5CC04",
+      "variants": [
+        {
+          "itemNumber": "557.004",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-106 signal yellow"
+    },
+    {
+      "code": "FB-110",
+      "name": "melon yellow",
+      "hex": "#F6BB10",
+      "variants": [
+        {
+          "itemNumber": "557.006",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-110 melon yellow"
+    },
+    {
+      "code": "FB-112",
+      "name": "saffron",
+      "hex": "#F6AB31",
+      "variants": [
+        {
+          "itemNumber": "557.007",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-112 saffron"
+    },
+    {
+      "code": "FB-114",
+      "name": "dahlia",
+      "hex": "#EAA031",
+      "variants": [
+        {
+          "itemNumber": "557.008",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-114 dahlia"
+    },
+    {
+      "code": "FB-200",
+      "name": "peach",
+      "hex": "#F8B475",
+      "variants": [
+        {
+          "itemNumber": "557.017",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-200 peach"
+    },
+    {
+      "code": "FB-202",
+      "name": "pastel orange",
+      "hex": "#F28C25",
+      "variants": [
+        {
+          "itemNumber": "557.018",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-202 pastel orange"
+    },
+    {
+      "code": "FB-204",
+      "name": "light orange",
+      "hex": "#EA7000",
+      "variants": [
+        {
+          "itemNumber": "557.019",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-204 light orange"
+    },
+    {
+      "code": "FB-208",
+      "name": "cold peach",
+      "hex": "#F1D6B7",
+      "variants": [
+        {
+          "itemNumber": "557.021",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-208 cold peach"
+    },
+    {
+      "code": "FB-210",
+      "name": "apricot",
+      "hex": "#F18648",
+      "variants": [
+        {
+          "itemNumber": "557.022",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-210 apricot"
+    },
+    {
+      "code": "FB-212",
+      "name": "orange",
+      "hex": "#D75725",
+      "variants": [
+        {
+          "itemNumber": "557.023",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-212 orange"
+    },
+    {
+      "code": "FB-214",
+      "name": "red orange",
+      "hex": "#D14115",
+      "variants": [
+        {
+          "itemNumber": "557.024",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-214 red orange"
+    },
+    {
+      "code": "FB-3000",
+      "name": "transparent white",
+      "hex": "#FFFFFF",
+      "variants": [
+        {
+          "itemNumber": "557.170",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-3000 transparent white"
+    },
+    {
+      "code": "FB-3004",
+      "name": "transparent black",
+      "hex": "#F0F0F0",
+      "variants": [
+        {
+          "itemNumber": "557.174",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-3004 transparent black"
+    },
+    {
+      "code": "FB-304",
+      "name": "signal red",
+      "hex": "#D83330",
+      "variants": [
+        {
+          "itemNumber": "557.027",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-304 signal red"
+    },
+    {
+      "code": "FB-306",
+      "name": "ruby red BLUE",
+      "hex": "#C50F33",
+      "variants": [
+        {
+          "itemNumber": "557.028",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-306 ruby red BLUE"
+    },
+    {
+      "code": "FB-308",
+      "name": "piglet pink / light 08",
+      "hex": "#EF9BB0",
+      "variants": [
+        {
+          "itemNumber": "557.029",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-308 piglet pink / light 08"
+    },
+    {
+      "code": "FB-310",
+      "name": "piglet pink",
+      "hex": "#E94161",
+      "variants": [
+        {
+          "itemNumber": "557.030",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-310 piglet pink"
+    },
+    {
+      "code": "FB-311",
+      "name": "crazy cherry",
+      "hex": "#BB1E37",
+      "variants": [
+        {
+          "itemNumber": "557.032",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-311 crazy cherry"
+    },
+    {
+      "code": "FB-312",
+      "name": "fire red",
+      "hex": "#C13531",
+      "variants": [
+        {
+          "itemNumber": "557.031",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-312 fire red"
+    },
+    {
+      "code": "FB-313",
+      "name": "cherry dark",
+      "hex": "#9B122D",
+      "variants": [
+        {
+          "itemNumber": "557.033",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-313 cherry dark"
+    },
+    {
+      "code": "FB-318",
+      "name": "traffic purple dark",
+      "hex": "#3B043B",
+      "variants": [
+        {
+          "itemNumber": "557.034",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-318 traffic purple dark"
+    },
+    {
+      "code": "FB-320",
+      "name": "burgundy",
+      "hex": "#AA1329",
+      "variants": [
+        {
+          "itemNumber": "557.035",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-320 burgundy"
+    },
+    {
+      "code": "FB-322",
+      "name": "FLAME\u2122 aubergine",
+      "hex": "#441B33",
+      "variants": [
+        {
+          "itemNumber": "557.036",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-322 FLAME\u2122 aubergine"
+    },
+    {
+      "code": "FB-399",
+      "name": "erica light",
+      "hex": "#D69FC8",
+      "variants": [
+        {
+          "itemNumber": "557.048",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-399 erica light"
+    },
+    {
+      "code": "FB-400",
+      "name": "erica violet",
+      "hex": "#DD6A9B",
+      "variants": [
+        {
+          "itemNumber": "557.037",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-400 erica violet"
+    },
+    {
+      "code": "FB-401",
+      "name": "erica pastel",
+      "hex": "#E1BDCC",
+      "variants": [
+        {
+          "itemNumber": "557.052",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-401 erica pastel"
+    },
+    {
+      "code": "FB-402",
+      "name": "telemagenta",
+      "hex": "#D8326D",
+      "variants": [
+        {
+          "itemNumber": "557.038",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-402 telemagenta"
+    },
+    {
+      "code": "FB-404",
+      "name": "traffic purple",
+      "hex": "#8A1478",
+      "variants": [
+        {
+          "itemNumber": "557.039",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-404 traffic purple"
+    },
+    {
+      "code": "FB-406",
+      "name": "lavender",
+      "hex": "#CBD1EB",
+      "variants": [
+        {
+          "itemNumber": "557.040",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-406 lavender"
+    },
+    {
+      "code": "FB-408",
+      "name": "grape",
+      "hex": "#9566A3",
+      "variants": [
+        {
+          "itemNumber": "557.041",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-408 grape"
+    },
+    {
+      "code": "FB-410",
+      "name": "blackberry",
+      "hex": "#6C427C",
+      "variants": [
+        {
+          "itemNumber": "557.042",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-410 blackberry"
+    },
+    {
+      "code": "FB-412",
+      "name": "currant",
+      "hex": "#4F3059",
+      "variants": [
+        {
+          "itemNumber": "557.043",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-412 currant"
+    },
+    {
+      "code": "FB-414",
+      "name": "viola pastel",
+      "hex": "#C5CDEA",
+      "variants": [
+        {
+          "itemNumber": "557.044",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-414 viola pastel"
+    },
+    {
+      "code": "FB-416",
+      "name": "viola light",
+      "hex": "#BAB4DA",
+      "variants": [
+        {
+          "itemNumber": "557.045",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-416 viola light"
+    },
+    {
+      "code": "FB-418",
+      "name": "viola",
+      "hex": "#6365A5",
+      "variants": [
+        {
+          "itemNumber": "557.046",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-418 viola"
+    },
+    {
+      "code": "FB-420",
+      "name": "viola dark",
+      "hex": "#303881",
+      "variants": [
+        {
+          "itemNumber": "557.047",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-420 viola dark"
+    },
+    {
+      "code": "FB-424",
+      "name": "cosmos blue light",
+      "hex": "#7178B8",
+      "variants": [
+        {
+          "itemNumber": "557.049",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-424 cosmos blue light"
+    },
+    {
+      "code": "FB-426",
+      "name": "cosmos blue",
+      "hex": "#3E4798",
+      "variants": [
+        {
+          "itemNumber": "557.050",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-426 cosmos blue"
+    },
+    {
+      "code": "FB-428",
+      "name": "cosmos blue dark",
+      "hex": "#2C2969",
+      "variants": [
+        {
+          "itemNumber": "557.051",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-428 cosmos blue dark"
+    },
+    {
+      "code": "FB-502",
+      "name": "lighting blue",
+      "hex": "#ADD5EE",
+      "variants": [
+        {
+          "itemNumber": "557.053",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-502 lighting blue"
+    },
+    {
+      "code": "FB-504",
+      "name": "light blue",
+      "hex": "#92C5E4",
+      "variants": [
+        {
+          "itemNumber": "557.054",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-504 light blue"
+    },
+    {
+      "code": "FB-508",
+      "name": "light blue",
+      "hex": "#4396D1",
+      "variants": [
+        {
+          "itemNumber": "557.056",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-508 light blue"
+    },
+    {
+      "code": "FB-510",
+      "name": "sky blue",
+      "hex": "#036DB5",
+      "variants": [
+        {
+          "itemNumber": "557.057",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-510 sky blue"
+    },
+    {
+      "code": "FB-512",
+      "name": "signal blue",
+      "hex": "#035095",
+      "variants": [
+        {
+          "itemNumber": "557.058",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-512 signal blue"
+    },
+    {
+      "code": "FB-514",
+      "name": "true blue",
+      "hex": "#1C4888",
+      "variants": [
+        {
+          "itemNumber": "557.059",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-514 true blue"
+    },
+    {
+      "code": "FB-516",
+      "name": "cream blue light",
+      "hex": "#80A7C4",
+      "variants": [
+        {
+          "itemNumber": "557.060",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-516 cream blue light"
+    },
+    {
+      "code": "FB-518",
+      "name": "cream blue",
+      "hex": "#2185C5",
+      "variants": [
+        {
+          "itemNumber": "557.061",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-518 cream blue"
+    },
+    {
+      "code": "FB-520",
+      "name": "cream blue dark",
+      "hex": "#075C8F",
+      "variants": [
+        {
+          "itemNumber": "557.062",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-520 cream blue dark"
+    },
+    {
+      "code": "FB-522",
+      "name": "sapphire",
+      "hex": "#0B2B58",
+      "variants": [
+        {
+          "itemNumber": "557.063",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-522 sapphire"
+    },
+    {
+      "code": "FB-524",
+      "name": "denim blue pastel",
+      "hex": "#B5D0EE",
+      "variants": [
+        {
+          "itemNumber": "557.064",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-524 denim blue pastel"
+    },
+    {
+      "code": "FB-526",
+      "name": "denim blue light",
+      "hex": "#91C2E5",
+      "variants": [
+        {
+          "itemNumber": "557.065",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-526 denim blue light"
+    },
+    {
+      "code": "FB-528",
+      "name": "denim blue",
+      "hex": "#4F89B1",
+      "variants": [
+        {
+          "itemNumber": "557.066",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-528 denim blue"
+    },
+    {
+      "code": "FB-530",
+      "name": "denim blue dark",
+      "hex": "#3D586E",
+      "variants": [
+        {
+          "itemNumber": "557.067",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-530 denim blue dark"
+    },
+    {
+      "code": "FB-600",
+      "name": "riviera light",
+      "hex": "#B1DDE2",
+      "variants": [
+        {
+          "itemNumber": "557.076",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-600 riviera light"
+    },
+    {
+      "code": "FB-602",
+      "name": "riviera",
+      "hex": "#67C0B3",
+      "variants": [
+        {
+          "itemNumber": "557.077",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-602 riviera"
+    },
+    {
+      "code": "FB-604",
+      "name": "lagoon blue",
+      "hex": "#00A492",
+      "variants": [
+        {
+          "itemNumber": "557.078",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-604 lagoon blue"
+    },
+    {
+      "code": "FB-606",
+      "name": "light ocean blue",
+      "hex": "#037375",
+      "variants": [
+        {
+          "itemNumber": "557.079",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-606 light ocean blue"
+    },
+    {
+      "code": "FB-614",
+      "name": "aqua pastel",
+      "hex": "#90D3EA",
+      "variants": [
+        {
+          "itemNumber": "557.083",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-614 aqua pastel"
+    },
+    {
+      "code": "FB-616",
+      "name": "aqua light",
+      "hex": "#2C98BB",
+      "variants": [
+        {
+          "itemNumber": "557.084",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-616 aqua light"
+    },
+    {
+      "code": "FB-618",
+      "name": "aqua",
+      "hex": "#006374",
+      "variants": [
+        {
+          "itemNumber": "557.085",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-618 aqua"
+    },
+    {
+      "code": "FB-620",
+      "name": "aqua dark",
+      "hex": "#015450",
+      "variants": [
+        {
+          "itemNumber": "557.086",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-620 aqua dark"
+    },
+    {
+      "code": "FB-624",
+      "name": "pistachio",
+      "hex": "#D7D53F",
+      "variants": [
+        {
+          "itemNumber": "557.088",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-624 pistachio"
+    },
+    {
+      "code": "FB-626",
+      "name": "pistachio",
+      "hex": "#BAC23C",
+      "variants": [
+        {
+          "itemNumber": "557.089",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-626 pistachio"
+    },
+    {
+      "code": "FB-628",
+      "name": "grass green",
+      "hex": "#89A845",
+      "variants": [
+        {
+          "itemNumber": "557.090",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-628 grass green"
+    },
+    {
+      "code": "FB-630",
+      "name": "fern green",
+      "hex": "#6B9847",
+      "variants": [
+        {
+          "itemNumber": "557.091",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-630 fern green"
+    },
+    {
+      "code": "FB-632",
+      "name": "leaf green",
+      "hex": "#4B8646",
+      "variants": [
+        {
+          "itemNumber": "557.092",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-632 leaf green"
+    },
+    {
+      "code": "FB-634",
+      "name": "moss green",
+      "hex": "#2E7043",
+      "variants": [
+        {
+          "itemNumber": "557.093",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-634 moss green"
+    },
+    {
+      "code": "FB-636",
+      "name": "fir green",
+      "hex": "#285B51",
+      "variants": [
+        {
+          "itemNumber": "557.094",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-636 fir green"
+    },
+    {
+      "code": "FB-638",
+      "name": "kiwi pastel",
+      "hex": "#E8E227",
+      "variants": [
+        {
+          "itemNumber": "557.095",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-638 kiwi pastel"
+    },
+    {
+      "code": "FB-640",
+      "name": "kiwi light",
+      "hex": "#B8D048",
+      "variants": [
+        {
+          "itemNumber": "557.096",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-640 kiwi light"
+    },
+    {
+      "code": "FB-642",
+      "name": "kiwi",
+      "hex": "#7CB92B",
+      "variants": [
+        {
+          "itemNumber": "557.097",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-642 kiwi"
+    },
+    {
+      "code": "FB-644",
+      "name": "kiwi dark",
+      "hex": "#66921C",
+      "variants": [
+        {
+          "itemNumber": "557.098",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-644 kiwi dark"
+    },
+    {
+      "code": "FB-654",
+      "name": "primavera green",
+      "hex": "#C2D888",
+      "variants": [
+        {
+          "itemNumber": "557.103",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-654 primavera green"
+    },
+    {
+      "code": "FB-656",
+      "name": "tarzan green",
+      "hex": "#92B279",
+      "variants": [
+        {
+          "itemNumber": "557.104",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-656 tarzan green"
+    },
+    {
+      "code": "FB-658",
+      "name": "camo green",
+      "hex": "#71744F",
+      "variants": [
+        {
+          "itemNumber": "557.105",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-658 camo green"
+    },
+    {
+      "code": "FB-660",
+      "name": "olive",
+      "hex": "#20362B",
+      "variants": [
+        {
+          "itemNumber": "557.106",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-660 olive"
+    },
+    {
+      "code": "FB-662",
+      "name": "menthol blue pastel",
+      "hex": "#C1DEBB",
+      "variants": [
+        {
+          "itemNumber": "557.107",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-662 menthol blue pastel"
+    },
+    {
+      "code": "FB-664",
+      "name": "menthol",
+      "hex": "#91CBAB",
+      "variants": [
+        {
+          "itemNumber": "557.108",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-664 menthol"
+    },
+    {
+      "code": "FB-666",
+      "name": "menthol",
+      "hex": "#6FBF98",
+      "variants": [
+        {
+          "itemNumber": "557.109",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-666 menthol"
+    },
+    {
+      "code": "FB-668",
+      "name": "menthol",
+      "hex": "#0F4439",
+      "variants": [
+        {
+          "itemNumber": "557.110",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-668 menthol"
+    },
+    {
+      "code": "FB-670",
+      "name": "turquoise light",
+      "hex": "#1EA37C",
+      "variants": [
+        {
+          "itemNumber": "557.111",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-670 turquoise light"
+    },
+    {
+      "code": "FB-672",
+      "name": "turquoise",
+      "hex": "#0C8B59",
+      "variants": [
+        {
+          "itemNumber": "557.112",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-672 turquoise"
+    },
+    {
+      "code": "FB-674",
+      "name": "turquoise dark",
+      "hex": "#226144",
+      "variants": [
+        {
+          "itemNumber": "557.113",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-674 turquoise dark"
+    },
+    {
+      "code": "FB-702",
+      "name": "ivory light",
+      "hex": "#EDDFB6",
+      "variants": [
+        {
+          "itemNumber": "557.116",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-702 ivory light"
+    },
+    {
+      "code": "FB-704",
+      "name": "beige brown",
+      "hex": "#C09A5C",
+      "variants": [
+        {
+          "itemNumber": "557.117",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-704 beige brown"
+    },
+    {
+      "code": "FB-706",
+      "name": "ocher",
+      "hex": "#9D682F",
+      "variants": [
+        {
+          "itemNumber": "557.118",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-706 ocher"
+    },
+    {
+      "code": "FB-708",
+      "name": "light nut",
+      "hex": "#4C2800",
+      "variants": [
+        {
+          "itemNumber": "557.119",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-708 light nut"
+    },
+    {
+      "code": "FB-710",
+      "name": "chocolate",
+      "hex": "#2B1105",
+      "variants": [
+        {
+          "itemNumber": "557.120",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-710 chocolate"
+    },
+    {
+      "code": "FB-716",
+      "name": "cookie dough dark pastel",
+      "hex": "#F5E4D4",
+      "variants": [
+        {
+          "itemNumber": "557.123",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-716 cookie dough dark pastel"
+    },
+    {
+      "code": "FB-717",
+      "name": "cookie dough",
+      "hex": "#D6CA9F",
+      "variants": [
+        {
+          "itemNumber": "557.125",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-717 cookie dough"
+    },
+    {
+      "code": "FB-718",
+      "name": "macadamia pastel",
+      "hex": "#E5C3AC",
+      "variants": [
+        {
+          "itemNumber": "557.126",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-718 macadamia pastel"
+    },
+    {
+      "code": "FB-719",
+      "name": "macadamia",
+      "hex": "#A48776",
+      "variants": [
+        {
+          "itemNumber": "557.127",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-719 macadamia"
+    },
+    {
+      "code": "FB-732",
+      "name": "grey beige light light",
+      "hex": "#B4A485",
+      "variants": [
+        {
+          "itemNumber": "557.131",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-732 grey beige light light"
+    },
+    {
+      "code": "FB-734",
+      "name": "grey beige",
+      "hex": "#A28C62",
+      "variants": [
+        {
+          "itemNumber": "557.132",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-734 grey beige"
+    },
+    {
+      "code": "FB-736",
+      "name": "khaki grey",
+      "hex": "#6E5B38",
+      "variants": [
+        {
+          "itemNumber": "557.133",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-736 khaki grey"
+    },
+    {
+      "code": "FB-738",
+      "name": "dark brown",
+      "hex": "#3C3024",
+      "variants": [
+        {
+          "itemNumber": "557.134",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-738 dark brown"
+    },
+    {
+      "code": "FB-808",
+      "name": "terracotta grey pastel",
+      "hex": "#C8B9B4",
+      "variants": [
+        {
+          "itemNumber": "557.139",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-808 terracotta grey pastel"
+    },
+    {
+      "code": "FB-810",
+      "name": "terracotta grey light",
+      "hex": "#A78A8A",
+      "variants": [
+        {
+          "itemNumber": "557.140",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-810 terracotta grey light"
+    },
+    {
+      "code": "FB-812",
+      "name": "terracotta grey",
+      "hex": "#826A6B",
+      "variants": [
+        {
+          "itemNumber": "557.141",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-812 terracotta grey"
+    },
+    {
+      "code": "FB-820",
+      "name": "violet grey middle",
+      "hex": "#695C6B",
+      "variants": [
+        {
+          "itemNumber": "557.145",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-820 violet grey middle"
+    },
+    {
+      "code": "FB-822",
+      "name": "violet grey",
+      "hex": "#56495B",
+      "variants": [
+        {
+          "itemNumber": "557.146",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-822 violet grey"
+    },
+    {
+      "code": "FB-834",
+      "name": "light grey neutral",
+      "hex": "#D9D3CC",
+      "variants": [
+        {
+          "itemNumber": "557.152",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-834 light grey neutral"
+    },
+    {
+      "code": "FB-836",
+      "name": "middle grey neutral",
+      "hex": "#AFACAC",
+      "variants": [
+        {
+          "itemNumber": "557.153",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-836 middle grey neutral"
+    },
+    {
+      "code": "FB-838",
+      "name": "grey neutral",
+      "hex": "#7E8080",
+      "variants": [
+        {
+          "itemNumber": "557.154",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-838 grey neutral"
+    },
+    {
+      "code": "FB-840",
+      "name": "dark grey neutral",
+      "hex": "#85807E",
+      "variants": [
+        {
+          "itemNumber": "557.155",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-840 dark grey neutral"
+    },
+    {
+      "code": "FB-842",
+      "name": "anthracite grey middle",
+      "hex": "#50514F",
+      "variants": [
+        {
+          "itemNumber": "557.156",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-842 anthracite grey middle"
+    },
+    {
+      "code": "FB-844",
+      "name": "anthracite grey",
+      "hex": "#4A4B4E",
+      "variants": [
+        {
+          "itemNumber": "557.157",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-844 anthracite grey"
+    },
+    {
+      "code": "FB-846",
+      "name": "anthracite grey dark",
+      "hex": "#343333",
+      "variants": [
+        {
+          "itemNumber": "557.158",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-846 anthracite grey dark"
+    },
+    {
+      "code": "FB-900",
+      "name": "pure white",
+      "hex": "#FFFFFF",
+      "variants": [
+        {
+          "itemNumber": "557.159",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-900 pure white"
+    },
+    {
+      "code": "FB-902",
+      "name": "ultra chrome",
+      "hex": "#A1A8B0",
+      "variants": [
+        {
+          "itemNumber": "557.160",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-902 ultra chrome"
+    },
+    {
+      "code": "FB-904",
+      "name": "deep black",
+      "hex": "#020203",
+      "variants": [
+        {
+          "itemNumber": "557.161",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-904 deep black"
+    },
+    {
+      "code": "FB-906",
+      "name": "gold",
+      "hex": "#BFA060",
+      "variants": [
+        {
+          "itemNumber": "557.162",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-906 gold"
+    },
+    {
+      "code": "FB-908",
+      "name": "copper",
+      "hex": "#E9CFC1",
+      "variants": [
+        {
+          "itemNumber": "557.163",
+          "format": "400ml"
+        }
+      ],
+      "sourceLabel": "FB-908 copper"
+    }
+  ]
+}

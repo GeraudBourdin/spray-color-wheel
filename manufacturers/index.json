@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "manufacturers": [
+    {
+      "id": "loop",
+      "path": "./loop.json"
+    },
+    {
+      "id": "montana-black",
+      "path": "./montana-black.json"
+    },
+    {
+      "id": "flame-orange",
+      "path": "./flame-orange.json"
+    },
+    {
+      "id": "flame-blue",
+      "path": "./flame-blue.json"
+    },
+    {
+      "id": "molotow-belton",
+      "path": "./molotow-belton.json"
+    },
+    {
+      "id": "mtn-hardcore-2",
+      "path": "./mtn-hardcore-2.json"
+    },
+    {
+      "id": "montana-94",
+      "path": "./montana-94.json"
+    },
+    {
+      "id": "kobra-low-pressure-400ml",
+      "path": "./kobra-low-pressure-400ml.json"
+    },
+    {
+      "id": "kobra-high-pressure-400ml",
+      "path": "./kobra-high-pressure-400ml.json"
+    }
+  ]
+}
