@@ -414,6 +414,11 @@
     cursor: inherit;
   }
 
+  #image-canvas[hidden],
+  #image-modal-canvas[hidden] {
+    display: none !important;
+  }
+
   #image-stage.is-interactive {
     cursor: zoom-in;
   }

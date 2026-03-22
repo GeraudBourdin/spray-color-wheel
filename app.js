@@ -115,6 +115,7 @@ const elements = {
   imageHint: document.querySelector("#image-hint"),
   imageInput: document.querySelector("#image-input"),
   imageClear: document.querySelector("#image-clear"),
+  imagePaletteReset: document.querySelector("#image-palette-reset"),
   imageStage: document.querySelector("#image-stage"),
   imageEmpty: document.querySelector("#image-empty"),
   imageCanvas: document.querySelector("#image-canvas"),
@@ -405,7 +406,10 @@ function renderStaticText() {
   elements.imageLabel.textContent = ui("imageLabel");
   elements.imageUploadLabel.textContent = ui("imageUploadLabel");
   elements.imageHint.textContent = ui("imageHint");
-  elements.imageClear.textContent = ui("imageRemove");
+  elements.imageClear.textContent = ui("imageReset");
+  elements.imagePaletteReset.textContent = ui("imageReset");
+  elements.imageClear.setAttribute("aria-label", ui("imageReset"));
+  elements.imagePaletteReset.setAttribute("aria-label", ui("imageReset"));
   elements.imageOpenModal.textContent = ui("imageOpenModal");
   elements.imageSaveColor.textContent = ui("imageSaveColor");
   elements.imageInlinePaletteLabel.textContent = ui("imagePaletteLabel");
@@ -421,7 +425,8 @@ function renderStaticText() {
   elements.wheelEyebrow.textContent = ui("wheelEyebrow");
   elements.cartLabel.textContent = ui("cartLabel");
   elements.cartCopy.textContent = ui("cartCopy");
-  elements.cartClear.textContent = ui("clear");
+  elements.cartClear.textContent = ui("cartEmptyAction");
+  elements.cartClear.setAttribute("aria-label", ui("cartEmptyAction"));
   elements.cartDownload.textContent = ui("downloadPrintable");
   elements.paletteEyebrow.textContent = ui("paletteEyebrow");
   elements.paletteTitle.textContent = ui("paletteTitle");
@@ -1126,6 +1131,27 @@ function drawImageCanvas(canvas, maxWidth, maxHeight) {
   context.drawImage(state.imageAsset.sampleCanvas, 0, 0, displayWidth, displayHeight);
 }
 
+function clearRenderedImageCanvas(canvas) {
+  if (!canvas) {
+    return;
+  }
+
+  const context = canvas.getContext("2d");
+
+  if (context) {
+    context.clearRect(0, 0, canvas.width, canvas.height);
+  }
+
+  canvas.width = 0;
+  canvas.height = 0;
+  canvas.hidden = true;
+  canvas.style.width = "";
+  canvas.style.maxWidth = "";
+  canvas.style.height = "";
+  canvas.style.maxHeight = "";
+  canvas.style.aspectRatio = "";
+}
+
 function hideImageCrosshair(crosshair = elements.imageCrosshair) {
   if (crosshair) {
     crosshair.hidden = true;
@@ -1318,12 +1344,15 @@ function clearImageSelection() {
   state.imageSampleColor = null;
   state.imagePalette = [];
   state.isImageModalOpen = false;
+  state.activeSidebarTab = "image-upload";
 
   if (state.baseOrigin?.kind === "image") {
     state.baseOrigin = null;
   }
 
   elements.imageInput.value = "";
+  clearRenderedImageCanvas(elements.imageCanvas);
+  clearRenderedImageCanvas(elements.imageModalCanvas);
   hideAllImageCrosshairs();
   render();
 }
@@ -1898,8 +1927,10 @@ function renderControls(baseColor) {
 function renderImageWorkspace() {
   const hasImage = Boolean(state.imageAsset);
   const compactMobile = isCompactMobileViewport();
+  const canResetImageState = hasImage || state.imagePalette.length > 0 || Boolean(state.imageSampleColor);
 
-  elements.imageClear.disabled = !hasImage && !state.imagePalette.length && !state.imageSampleColor;
+  elements.imageClear.disabled = !canResetImageState;
+  elements.imagePaletteReset.disabled = !canResetImageState;
   elements.imageOpenModal.disabled = !hasImage;
   elements.imageOpenModal.hidden = compactMobile;
   elements.imageEmpty.innerHTML = `
@@ -2697,6 +2728,7 @@ function bindEvents() {
   });
 
   elements.imageClear.addEventListener("click", clearImageSelection);
+  elements.imagePaletteReset.addEventListener("click", clearImageSelection);
   elements.imageStage.addEventListener("click", () => {
     if (state.imageAsset && !isCompactMobileViewport()) {
       openImageModal();

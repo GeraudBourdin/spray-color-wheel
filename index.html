@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -187,7 +187,9 @@
                 >
                   <div class="side-panel-head">
                     <span id="image-label" class="field-label">Image source</span>
-                    <button id="image-clear" class="cart-action" type="button">Retirer</button>
+                    <button id="image-clear" class="cart-action" type="button" disabled>
+                      Reset image + colors
+                    </button>
                   </div>
 
                   <div class="side-panel-body">
@@ -234,6 +236,9 @@
                 >
                   <div class="side-panel-head">
                     <span id="image-palette-label" class="field-label">Palette image</span>
+                    <button id="image-palette-reset" class="cart-action" type="button" disabled>
+                      Reset image + colors
+                    </button>
                   </div>
 
                   <div class="side-panel-body">
@@ -254,7 +259,7 @@
                         <span id="cart-label" class="field-label">Panier de sprays</span>
                         <p id="cart-copy" class="cart-copy">Clique une reference dans Choix de sprays pour l'ajouter ici.</p>
                       </div>
-                      <button id="cart-clear" class="cart-action" type="button">Vider</button>
+                      <button id="cart-clear" class="cart-action" type="button" disabled>Empty cart</button>
                     </div>
 
                     <div id="cart-summary" class="cart-summary"></div>
