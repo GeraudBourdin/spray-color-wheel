@@ -38,7 +38,7 @@ const IMAGE_PREVIEW_MAX_HEIGHT = 260;
 const IMAGE_MODAL_FALLBACK_WIDTH = 860;
 const IMAGE_MODAL_FALLBACK_HEIGHT = 680;
 const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-const SIDEBAR_TABS = new Set(["image-upload", "image-palette", "cart", "hue"]);
+const SIDEBAR_TABS = new Set(["image-upload", "image-palette", "hue", "picker"]);
 const THEORY_BY_ID = new Map(THEORIES.map((theory) => [theory.id, theory]));
 const THEORY_ALIAS_ENTRIES = getTheoryAliasEntries()
   .flatMap((entry) =>
@@ -65,6 +65,7 @@ const state = {
   imageSampleColor: null,
   activeSidebarTab: "hue",
   isImageModalOpen: false,
+  isCartModalOpen: false,
   activeColorTooltipId: null,
   expandedAlgoIds: new Set(),
   base: {
@@ -97,13 +98,13 @@ const elements = {
   sidebarTabButtons: Array.from(document.querySelectorAll("[data-side-tab]")),
   sidebarTabImageUploadLabel: document.querySelector("#sidebar-tab-image-upload-label"),
   sidebarTabImagePaletteLabel: document.querySelector("#sidebar-tab-image-palette-label"),
-  sidebarTabCartLabel: document.querySelector("#sidebar-tab-cart-label"),
   sidebarTabHueLabel: document.querySelector("#sidebar-tab-hue-label"),
+  sidebarTabPickerLabel: document.querySelector("#sidebar-tab-picker-label"),
   sidebarPanels: {
     "image-upload": document.querySelector("#sidebar-panel-image-upload"),
     "image-palette": document.querySelector("#sidebar-panel-image-palette"),
-    cart: document.querySelector("#sidebar-panel-cart"),
     hue: document.querySelector("#sidebar-panel-hue"),
+    picker: document.querySelector("#sidebar-panel-picker"),
   },
   hexLabel: document.querySelector("#hex-label"),
   hueLabel: document.querySelector("#hue-label"),
@@ -140,6 +141,13 @@ const elements = {
   imageModalSaveColor: document.querySelector("#image-modal-save-color"),
   imageModalPaletteLabel: document.querySelector("#image-modal-palette-label"),
   imageModalPalette: document.querySelector("#image-modal-palette"),
+  cartModalOpen: document.querySelector("#cart-modal-open"),
+  cartModalOpenLabel: document.querySelector("#cart-modal-open-label"),
+  cartModalOpenCount: document.querySelector("#cart-modal-open-count"),
+  cartModal: document.querySelector("#cart-modal"),
+  cartModalEyebrow: document.querySelector("#cart-modal-eyebrow"),
+  cartModalTitle: document.querySelector("#cart-modal-title"),
+  cartModalClose: document.querySelector("#cart-modal-close"),
   theoryGroups: document.querySelector("#theory-groups"),
   brandPresets: document.querySelector("#brand-presets"),
   brandToggles: document.querySelector("#brand-toggles"),
@@ -397,8 +405,8 @@ function renderStaticText() {
   elements.baseControlsLabel.textContent = ui("baseControlsLabel");
   elements.sidebarTabImageUploadLabel.textContent = ui("imageUploadLabel");
   elements.sidebarTabImagePaletteLabel.textContent = ui("imagePaletteLabel");
-  elements.sidebarTabCartLabel.textContent = ui("cartLabel");
-  elements.sidebarTabHueLabel.textContent = ui("hueLabel");
+  elements.sidebarTabHueLabel.textContent = ui("baseControlsLabel");
+  elements.sidebarTabPickerLabel.textContent = ui("pickerLabel");
   elements.hexLabel.textContent = ui("hexLabel");
   elements.hueLabel.textContent = ui("hueLabel");
   elements.saturationLabel.textContent = ui("saturationLabel");
@@ -420,6 +428,10 @@ function renderStaticText() {
   elements.imageModalHint.textContent = ui("imageModalHint");
   elements.imageModalSaveColor.textContent = ui("imageSaveColor");
   elements.imageModalPaletteLabel.textContent = ui("imagePaletteLabel");
+  elements.cartModalOpenLabel.textContent = ui("cartLabel");
+  elements.cartModalEyebrow.textContent = ui("cartLabel");
+  elements.cartModalTitle.textContent = ui("cartLabel");
+  elements.cartModalClose.textContent = ui("close");
   elements.pickerLabel.textContent = ui("pickerLabel");
   elements.pickerSearch.placeholder = ui("pickerPlaceholder");
   elements.wheelEyebrow.textContent = ui("wheelEyebrow");
@@ -438,6 +450,8 @@ function renderStaticText() {
   elements.imageInput.setAttribute("aria-label", ui("imageUploadLabel"));
   elements.imageOpenModal.setAttribute("aria-label", ui("imageOpenModal"));
   elements.imageModalClose.setAttribute("aria-label", ui("close"));
+  elements.cartModalOpen.setAttribute("aria-label", ui("cartLabel"));
+  elements.cartModalClose.setAttribute("aria-label", ui("close"));
   elements.pickerSearch.setAttribute("aria-label", ui("pickerLabel"));
 }
 
@@ -1238,6 +1252,7 @@ function openImageModal() {
   }
 
   state.activeSidebarTab = "image-upload";
+  state.isCartModalOpen = false;
   state.isImageModalOpen = true;
   render();
 
@@ -1258,6 +1273,31 @@ function closeImageModal({ restoreFocus = true } = {}) {
   if (restoreFocus) {
     window.requestAnimationFrame(() => {
       elements.imageOpenModal?.focus?.();
+    });
+  }
+}
+
+function openCartModal() {
+  state.isImageModalOpen = false;
+  state.isCartModalOpen = true;
+  render();
+
+  window.requestAnimationFrame(() => {
+    elements.cartModalClose?.focus?.();
+  });
+}
+
+function closeCartModal({ restoreFocus = true } = {}) {
+  if (!state.isCartModalOpen) {
+    return;
+  }
+
+  state.isCartModalOpen = false;
+  render();
+
+  if (restoreFocus) {
+    window.requestAnimationFrame(() => {
+      elements.cartModalOpen?.focus?.();
     });
   }
 }
@@ -1991,7 +2031,7 @@ function renderImageModal() {
   const open = state.isImageModalOpen && hasImage && !isCompactMobileViewport();
 
   elements.imageModal.hidden = !open;
-  document.body.classList.toggle("modal-open", open);
+  syncModalOpenState();
   elements.imageModalEmpty.innerHTML = `
     <p class="empty-copy">${escapeHtml(ui("imageEmpty"))}</p>
   `;
@@ -2023,6 +2063,20 @@ function renderImageModal() {
   );
 
   drawImageCanvas(elements.imageModalCanvas, maxWidth, maxHeight);
+}
+
+function syncModalOpenState() {
+  document.body.classList.toggle(
+    "modal-open",
+    !elements.imageModal.hidden || !elements.cartModal.hidden,
+  );
+}
+
+function renderCartModal() {
+  const open = state.isCartModalOpen;
+
+  elements.cartModal.hidden = !open;
+  syncModalOpenState();
 }
 
 function renderImagePalette() {
@@ -2103,12 +2157,14 @@ function renderPickerResults(results) {
 function renderCart() {
   const items = getCartItems();
   const uniqueBrands = new Set(items.map((entry) => entry.color.brandId));
+  const sprayCount = getCartSprayCount();
 
   elements.cartSummary.innerHTML = `
     <span class="meta-pill">${escapeHtml(countText("reference", getCartReferenceCount()))}</span>
-    <span class="meta-pill">${escapeHtml(countText("spray", getCartSprayCount()))}</span>
+    <span class="meta-pill">${escapeHtml(countText("spray", sprayCount))}</span>
     <span class="meta-pill">${escapeHtml(countText("manufacturer", uniqueBrands.size))}</span>
   `;
+  elements.cartModalOpenCount.textContent = String(sprayCount);
 
   elements.cartDownload.disabled = items.length === 0;
   elements.cartClear.disabled = items.length === 0;
@@ -2331,7 +2387,6 @@ function renderSwatches(groups, baseStop) {
       const stopsMarkup = displayStops
         .map((stop) => {
           const isReference = group.id === "base-only";
-          const stopTooltipId = `stop-${group.id}-${stop.letter}`;
           const matchesMarkup = stop.matches
             .map(({ brand, match }) => {
               if (!match) {
@@ -2385,17 +2440,6 @@ function renderSwatches(groups, baseStop) {
                 <div class="swatch-label">${escapeHtml(stop.title)}</div>
               </div>
               <div class="swatch-body">
-                <div class="swatch-tools">
-                  <button
-                    class="color-tooltip-trigger-button"
-                    type="button"
-                    data-color-tooltip-trigger="true"
-                    data-color-tooltip-id="${escapeHtml(stopTooltipId)}"
-                    aria-label="${escapeHtml(`${ui("hexLabel")} ${stop.hex}`)}"
-                    style="--tooltip-swatch:${stop.hex}"
-                  ></button>
-                  ${renderColorCodeTooltip(stopTooltipId, stop.hex)}
-                </div>
                 <p class="swatch-note">${escapeHtml(stop.note)}</p>
                 <div class="match-list">${matchesMarkup}</div>
               </div>
@@ -2531,6 +2575,7 @@ function render() {
   renderImageSample();
   renderImagePalette();
   renderImageModal();
+  renderCartModal();
   renderPickerResults(pickerResults);
   renderCart();
   renderRule(contexts);
@@ -2704,6 +2749,7 @@ function bindEvents() {
 
     setActiveSidebarTab(target.dataset.sideTab);
   });
+  elements.cartModalOpen.addEventListener("click", openCartModal);
 
   elements.controlPanel.addEventListener("click", (event) => {
     const trigger = event.target.closest("[data-accordion-trigger]");
@@ -2744,6 +2790,14 @@ function bindEvents() {
   elements.imageModal.addEventListener("click", (event) => {
     if (event.target.closest("[data-image-modal-close]")) {
       closeImageModal();
+    }
+  });
+  elements.cartModalClose.addEventListener("click", () => {
+    closeCartModal();
+  });
+  elements.cartModal.addEventListener("click", (event) => {
+    if (event.target.closest("[data-cart-modal-close]")) {
+      closeCartModal();
     }
   });
   elements.imageCanvas.addEventListener("pointermove", (event) => {
@@ -3019,6 +3073,11 @@ function bindEvents() {
   window.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && state.isImageModalOpen) {
       closeImageModal();
+      return;
+    }
+
+    if (event.key === "Escape" && state.isCartModalOpen) {
+      closeCartModal();
       return;
     }
 

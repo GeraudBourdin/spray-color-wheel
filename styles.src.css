@@ -157,7 +157,8 @@
   .topbar h1,
   .wheel-header h2,
   .palette-head h2,
-  .image-modal-header h2 {
+  .image-modal-header h2,
+  .cart-modal-header h2 {
     margin: 0;
     @apply font-display font-semibold tracking-tight text-slate-950;
   }
@@ -170,7 +171,8 @@
 
   .wheel-header h2,
   .palette-head h2,
-  .image-modal-header h2 {
+  .image-modal-header h2,
+  .cart-modal-header h2 {
     margin-top: 10px;
     @apply text-3xl leading-none;
   }
@@ -268,6 +270,7 @@
   .cart-action:focus-visible,
   .cart-step:focus-visible,
   .cart-download:focus-visible,
+  .cart-popin-trigger:focus-visible,
   .image-save:focus-visible,
   .algo-toggle:focus-visible {
     @apply outline-none ring-2 ring-orange-300 ring-offset-2 ring-offset-white;
@@ -436,7 +439,8 @@
   .picker-chip,
   .cart-item,
   .swatch-card {
-    @apply w-full rounded-3xl border border-slate-200 bg-white shadow-soft;
+    @apply w-full rounded-3xl border border-slate-200 bg-white;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.05);
   }
 
   .image-sample-card,
@@ -459,6 +463,7 @@
   .cart-action:hover,
   .cart-step:hover,
   .cart-download:hover,
+  .cart-popin-trigger:hover,
   .side-tab-button:hover,
   .theory-chip:hover,
   .brand-preset:hover,
@@ -470,7 +475,7 @@
 
   .image-palette-chip.active {
     @apply border-orange-300 bg-orange-50/70;
-    box-shadow: theme("boxShadow.glow");
+    box-shadow: 0 8px 24px rgba(249, 115, 22, 0.1);
   }
 
   .image-swatch,
@@ -503,13 +508,21 @@
   .image-sample-title,
   .image-palette-title,
   .picker-title,
-  .palette-reference-title,
-  .match-name {
+  .palette-reference-title {
     @apply block truncate text-sm font-bold text-slate-900;
+  }
+
+  .match-name {
+    @apply block text-sm font-bold text-slate-900;
+    line-height: 1.3;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   .image-save,
   .cart-download,
+  .cart-popin-trigger,
   .cart-action,
   .brand-preset,
   .brand-toggle,
@@ -522,6 +535,19 @@
   .cart-action,
   .algo-toggle {
     @apply px-3 py-2 text-xs;
+  }
+
+  .cart-popin-trigger {
+    width: 100%;
+    justify-content: space-between;
+    gap: 14px;
+    min-height: 60px;
+    @apply text-left;
+  }
+
+  .cart-popin-count {
+    min-width: 2rem;
+    @apply inline-flex items-center justify-center rounded-full bg-slate-900 px-2.5 py-1 text-xs font-bold text-white;
   }
 
   .cart-action:disabled,
@@ -577,8 +603,8 @@
   }
 
   .side-tab-button {
-    min-height: 52px;
-    @apply px-3 py-3 text-center text-xs font-bold uppercase;
+    min-height: 60px;
+    @apply px-3 py-3 text-center text-xs font-bold uppercase leading-tight;
     letter-spacing: 0.18em;
   }
 
@@ -696,7 +722,8 @@
   .wheel-header,
   .palette-head,
   .algo-head,
-  .image-modal-header {
+  .image-modal-header,
+  .cart-modal-header {
     @apply flex items-start justify-between gap-4;
   }
 
@@ -714,7 +741,8 @@
 
   .sidebar-panel {
     @apply grid;
-    grid-template-rows: minmax(0, 1fr);
+    grid-template-rows: auto minmax(0, 1fr);
+    gap: 16px;
   }
 
   .side-tabs-shell {
@@ -743,12 +771,6 @@
 
   .side-tab-panel[hidden] {
     display: none;
-  }
-
-  #sidebar-panel-cart:not([hidden]) {
-    display: block;
-    overflow: hidden;
-    height: 100%;
   }
 
   .side-panel-body,
@@ -974,27 +996,16 @@
     @apply grid gap-4 p-4;
   }
 
-  .swatch-tools {
-    @apply flex justify-end;
-  }
-
   .color-tooltip-anchor,
   .match-color-tooltip-anchor {
     @apply relative inline-flex items-center justify-center;
   }
 
-  .color-tooltip-trigger-button,
   .match-swatch {
     @apply inline-flex h-8 w-8 rounded-full border border-white bg-white shadow-sm transition;
   }
 
-  .color-tooltip-trigger-button {
-    background:
-      radial-gradient(circle at center, var(--tooltip-swatch) 0 58%, white 61% 100%);
-  }
-
   .color-tooltip-trigger:hover,
-  .color-tooltip-trigger-button:hover,
   .match-swatch:hover {
     @apply scale-105;
   }
@@ -1043,13 +1054,16 @@
     grid-template-columns: auto minmax(0, 1fr) auto;
     align-items: center;
     gap: 12px;
+    min-width: 0;
   }
 
   .match-actions {
     @apply flex items-center justify-end;
+    flex: 0 0 auto;
   }
 
-  .image-modal {
+  .image-modal,
+  .cart-modal {
     @apply fixed inset-0 z-50 p-4;
     display: flex;
     align-items: center;
@@ -1058,11 +1072,13 @@
     overscroll-behavior: contain;
   }
 
-  .image-modal[hidden] {
+  .image-modal[hidden],
+  .cart-modal[hidden] {
     display: none !important;
   }
 
-  .image-modal-backdrop {
+  .image-modal-backdrop,
+  .cart-modal-backdrop {
     @apply absolute inset-0 bg-slate-900/55 backdrop-blur-sm;
   }
 
@@ -1079,11 +1095,37 @@
     overflow: hidden;
   }
 
+  .cart-modal-dialog {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr);
+    width: min(760px, 92vw);
+    max-width: 92vw;
+    max-height: calc(100dvh - 32px);
+    margin-inline: auto;
+    flex: 0 1 auto;
+    overflow: hidden;
+  }
+
+  .cart-modal-header {
+    @apply flex items-start justify-between gap-4;
+  }
+
   .image-modal-body {
     @apply mt-5 grid gap-4;
     min-height: 0;
     overflow: auto;
     overscroll-behavior: contain;
+  }
+
+  .cart-modal-body {
+    @apply mt-5;
+    min-height: 0;
+  }
+
+  .cart-modal-shell {
+    height: min(70dvh, 680px);
   }
 
   .image-modal-stage {
@@ -1247,7 +1289,8 @@
 
   .wheel-header h2,
   .palette-head h2,
-  .image-modal-header h2 {
+  .image-modal-header h2,
+  .cart-modal-header h2 {
     @apply text-2xl;
   }
 
@@ -1302,6 +1345,12 @@
     max-height: calc(100dvh - 16px);
   }
 
+  .cart-modal-dialog {
+    width: min(94vw, 760px);
+    max-width: 94vw;
+    max-height: calc(100dvh - 16px);
+  }
+
   .image-modal-body {
     grid-template-columns: 1fr;
   }
@@ -1313,6 +1362,12 @@
   }
 
   .image-modal {
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+  }
+
+  .cart-modal {
     align-items: center;
     justify-content: center;
     padding: 8px;

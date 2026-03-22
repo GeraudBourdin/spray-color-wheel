@@ -82,24 +82,6 @@
             </div>
           </section>
 
-          <section class="control-block is-open" data-accordion-section="picker">
-            <button class="accordion-trigger" type="button" data-accordion-trigger aria-expanded="true" aria-controls="accordion-picker">
-              <span id="picker-label" class="field-label">Pick a spray color</span>
-              <span class="accordion-icon" aria-hidden="true"></span>
-            </button>
-            <div id="accordion-picker" class="accordion-content">
-              <div class="accordion-content-inner">
-                <label class="field">
-                  <input
-                    id="picker-search"
-                    type="search"
-                    placeholder="Loop, Montana, code, name"
-                  />
-                </label>
-                <div id="picker-results" class="picker-results"></div>
-              </div>
-            </div>
-          </section>
         </aside>
 
         <div class="workspace-grid">
@@ -129,6 +111,11 @@
           </section>
 
           <aside class="panel cart-panel sidebar-panel">
+            <button id="cart-modal-open" class="cart-popin-trigger" type="button">
+              <span id="cart-modal-open-label">Spray cart</span>
+              <span id="cart-modal-open-count" class="cart-popin-count">0</span>
+            </button>
+
             <section class="side-tabs-shell">
               <div class="side-tabs-nav" role="tablist">
                 <button
@@ -154,17 +141,6 @@
                   <span id="sidebar-tab-image-palette-label">Palette image</span>
                 </button>
                 <button
-                  id="sidebar-tab-cart"
-                  class="side-tab-button"
-                  type="button"
-                  role="tab"
-                  aria-controls="sidebar-panel-cart"
-                  aria-selected="false"
-                  data-side-tab="cart"
-                >
-                  <span id="sidebar-tab-cart-label">Panier de sprays</span>
-                </button>
-                <button
                   id="sidebar-tab-hue"
                   class="side-tab-button"
                   type="button"
@@ -173,7 +149,18 @@
                   aria-selected="true"
                   data-side-tab="hue"
                 >
-                  <span id="sidebar-tab-hue-label">Teinte</span>
+                  <span id="sidebar-tab-hue-label">Choose base color</span>
+                </button>
+                <button
+                  id="sidebar-tab-picker"
+                  class="side-tab-button"
+                  type="button"
+                  role="tab"
+                  aria-controls="sidebar-panel-picker"
+                  aria-selected="false"
+                  data-side-tab="picker"
+                >
+                  <span id="sidebar-tab-picker-label">Choose a spray color</span>
                 </button>
               </div>
 
@@ -247,31 +234,6 @@
                 </section>
 
                 <section
-                  id="sidebar-panel-cart"
-                  class="side-tab-panel"
-                  role="tabpanel"
-                  aria-labelledby="sidebar-tab-cart"
-                  hidden
-                >
-                  <section class="cart-shell">
-                    <div class="cart-head">
-                      <div>
-                        <span id="cart-label" class="field-label">Panier de sprays</span>
-                        <p id="cart-copy" class="cart-copy">Clique une reference dans Choix de sprays pour l'ajouter ici.</p>
-                      </div>
-                      <button id="cart-clear" class="cart-action" type="button" disabled>Empty cart</button>
-                    </div>
-
-                    <div id="cart-summary" class="cart-summary"></div>
-                    <div id="cart-list" class="cart-list"></div>
-
-                    <button id="cart-download" class="cart-download" type="button">
-                      Telecharger la fiche imprimable
-                    </button>
-                  </section>
-                </section>
-
-                <section
                   id="sidebar-panel-hue"
                   class="side-tab-panel"
                   role="tabpanel"
@@ -304,6 +266,29 @@
                       <output id="light-value"></output>
                     </label>
                     <input id="light-range" type="range" min="0" max="100" step="1" />
+                  </div>
+                </section>
+
+                <section
+                  id="sidebar-panel-picker"
+                  class="side-tab-panel"
+                  role="tabpanel"
+                  aria-labelledby="sidebar-tab-picker"
+                  hidden
+                >
+                  <div class="side-panel-head">
+                    <span id="picker-label" class="field-label">Choose a spray color</span>
+                  </div>
+
+                  <div class="side-panel-body">
+                    <label class="field">
+                      <input
+                        id="picker-search"
+                        type="search"
+                        placeholder="Loop, Montana, code, name"
+                      />
+                    </label>
+                    <div id="picker-results" class="picker-results"></div>
                   </div>
                 </section>
               </div>
@@ -367,6 +352,43 @@
             </div>
             <div id="image-modal-palette" class="image-palette"></div>
           </aside>
+        </div>
+      </section>
+    </div>
+
+    <div id="cart-modal" class="cart-modal" hidden>
+      <div class="cart-modal-backdrop" data-cart-modal-close></div>
+      <section
+        class="cart-modal-dialog panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="cart-modal-title"
+      >
+        <div class="cart-modal-header">
+          <div>
+            <p id="cart-modal-eyebrow" class="eyebrow">Spray cart</p>
+            <h2 id="cart-modal-title">Spray cart</h2>
+          </div>
+          <button id="cart-modal-close" class="cart-action" type="button">Close</button>
+        </div>
+
+        <div class="cart-modal-body">
+          <section class="cart-shell cart-modal-shell">
+            <div class="cart-head">
+              <div>
+                <span id="cart-label" class="field-label">Panier de sprays</span>
+                <p id="cart-copy" class="cart-copy">Clique une reference dans Choix de sprays pour l'ajouter ici.</p>
+              </div>
+              <button id="cart-clear" class="cart-action" type="button" disabled>Empty cart</button>
+            </div>
+
+            <div id="cart-summary" class="cart-summary"></div>
+            <div id="cart-list" class="cart-list"></div>
+
+            <button id="cart-download" class="cart-download" type="button">
+              Telecharger la fiche imprimable
+            </button>
+          </section>
         </div>
       </section>
     </div>
