@@ -90,6 +90,7 @@ const elements = {
   topbarEyebrow: document.querySelector("#topbar-eyebrow"),
   topbarTitle: document.querySelector("#topbar-title"),
   topbarMeta: document.querySelector("#topbar-meta"),
+  topbarContactLink: document.querySelector("#topbar-contact-link"),
   languageLabel: document.querySelector("#language-label"),
   languageSelect: document.querySelector("#language-select"),
   algorithmsLabel: document.querySelector("#algorithms-label"),
@@ -399,6 +400,8 @@ function renderStaticText() {
   elements.controlMenuClose.setAttribute("aria-label", ui("controlMenuClose"));
   elements.topbarEyebrow.textContent = ui("topbarEyebrow");
   elements.topbarTitle.textContent = ui("topbarTitle");
+  elements.topbarContactLink.textContent = `${ui("stayInTouch")} · Instagram`;
+  elements.topbarContactLink.setAttribute("aria-label", `${ui("stayInTouch")} Instagram`);
   elements.languageLabel.textContent = ui("languageLabel");
   elements.algorithmsLabel.textContent = ui("algorithmsLabel");
   elements.manufacturersLabel.textContent = ui("manufacturersLabel");
@@ -2296,41 +2299,16 @@ function renderPaletteSummary(groups) {
   const totalStops = hasBaseOnlyGroup ? groups[0].stops.length : 1 + derivedStops;
 
   elements.paletteSummary.innerHTML = `
-    <span class="meta-pill">${escapeHtml(countText("block", groups.length))}</span>
+    <span class="meta-pill">${escapeHtml(countText("block", hasBaseOnlyGroup ? groups.length : groups.length + 1))}</span>
     <span class="meta-pill">${escapeHtml(countText("color", totalStops))}</span>
     <span class="meta-pill">${escapeHtml(countText("algorithm", state.activeTheoryIds.size))}</span>
     <span class="meta-pill">${getSelectedManufacturers().map((brand) => brand.label).join(" + ")}</span>
   `;
 }
 
-function renderPaletteReference(baseStop, groups) {
-  const hasBaseOnlyGroup = groups.length === 1 && groups[0].id === "base-only";
-
-  if (hasBaseOnlyGroup) {
-    elements.paletteReference.innerHTML = "";
-    return;
-  }
-
-  elements.paletteReference.innerHTML = `
-    <article class="palette-reference-card">
-      <div class="palette-reference-head">
-        <span class="field-label">${escapeHtml(ui("reference"))}</span>
-        <span class="palette-reference-badge">${escapeHtml(baseStop.hex)}</span>
-      </div>
-      <div class="palette-reference-body">
-        <div class="palette-reference-swatch" style="background:${baseStop.hex}; color:${baseStop.textColor}">
-          ${escapeHtml(baseStop.hex)}
-        </div>
-        <div>
-          <div class="palette-reference-title">${escapeHtml(ui("baseColorName"))}</div>
-          <p class="palette-reference-meta">
-            H ${escapeHtml(formatDegrees(baseStop.hsl.h))} · S ${escapeHtml(formatPercent(baseStop.hsl.s))} · L ${escapeHtml(formatPercent(baseStop.hsl.l))}
-          </p>
-          <p class="palette-reference-copy">${escapeHtml(baseStop.note)}</p>
-        </div>
-      </div>
-    </article>
-  `;
+function renderPaletteReference() {
+  elements.paletteReference.innerHTML = "";
+  elements.paletteReference.hidden = true;
 }
 
 function renderColorCodeTooltip(tooltipId, hex) {
@@ -2364,7 +2342,106 @@ function renderAlgoPreview(displayStops) {
 }
 
 function renderSwatches(groups, baseStop) {
-  elements.swatchStrip.innerHTML = groups
+  const hasBaseOnlyGroup = groups.length === 1 && groups[0].id === "base-only";
+  const baseReferenceExpanded = isAlgoExpanded("base-reference");
+  const baseReferenceMarkup = hasBaseOnlyGroup
+    ? ""
+    : `
+          <section class="algo-block">
+        <div class="algo-head">
+          <div>
+            <h3 class="algo-title" title="${escapeHtml(ui("baseReferenceLabel"))}">${escapeHtml(
+              ui("baseReferenceLabel"),
+            )}</h3>
+            <p class="algo-formula">${escapeHtml(baseStop.hex)}</p>
+          </div>
+          <span class="algo-head-actions">
+            <span class="algo-count">${escapeHtml(countText("color", 1))}</span>
+            <button
+              class="algo-toggle"
+              type="button"
+              data-algo-toggle-id="base-reference"
+              aria-expanded="${baseReferenceExpanded}"
+            >
+              ${escapeHtml(ui(baseReferenceExpanded ? "collapseResults" : "expandResults"))}
+            </button>
+          </span>
+        </div>
+        ${
+          baseReferenceExpanded
+            ? `
+              <p class="algo-note">${escapeHtml(baseStop.note)}</p>
+              <div class="algo-swatches">
+                <article class="swatch-card reference-card">
+                  <div class="swatch-visual" style="background:${baseStop.hex}; color:${baseStop.textColor}">
+                    <span class="swatch-index">${escapeHtml(baseStop.letter)}</span>
+                    <div class="swatch-label">${escapeHtml(ui("baseColorName"))}</div>
+                  </div>
+                  <div class="swatch-body">
+                    <p class="swatch-note">
+                      H ${escapeHtml(formatDegrees(baseStop.hsl.h))} · S ${escapeHtml(formatPercent(baseStop.hsl.s))} · L ${escapeHtml(formatPercent(baseStop.hsl.l))}
+                    </p>
+                    <div class="match-list">
+                      ${baseStop.matches
+                        .map(({ brand, match }) => {
+                          if (!match) {
+                            return "";
+                          }
+
+                          const isSelectedBase =
+                            state.baseOrigin?.kind === "spray" && state.baseOrigin.id === match.color.id;
+                          const matchTooltipId = `base-reference-${match.color.id}`;
+
+                          return `
+                            <button
+                              class="match-row ${isSelectedBase ? "is-selected-base" : ""}"
+                              type="button"
+                              data-base-origin-color-id="${match.color.id}"
+                              aria-pressed="${isSelectedBase}"
+                            >
+                              <span class="match-brand-head">
+                                <span class="match-brand-copy">
+                                  <span class="match-brand-dot" style="background:${brand.accent}"></span>
+                                  <span class="match-brand" style="color:${brand.accent}">${escapeHtml(brand.label)}</span>
+                                </span>
+                                <span class="match-cart-badge">${escapeHtml(
+                                  isSelectedBase ? ui("reference") : ui("useAsBase"),
+                                )}</span>
+                              </span>
+                              <span class="match-main">
+                                <span class="color-tooltip-anchor match-color-tooltip-anchor">
+                                  <span
+                                    class="match-swatch color-tooltip-trigger"
+                                    style="background:${match.color.hex}"
+                                    data-color-tooltip-trigger="true"
+                                    data-color-tooltip-id="${escapeHtml(matchTooltipId)}"
+                                  ></span>
+                                  ${renderColorCodeTooltip(matchTooltipId, match.color.hex)}
+                                </span>
+                                <span class="match-copy">
+                                  <span class="match-name" title="${escapeHtml(match.color.label || match.color.name)}">${escapeHtml(
+                                    match.color.label || match.color.name,
+                                  )}</span>
+                                </span>
+                                <span class="match-actions">
+                                  <span class="match-score">${match.score}</span>
+                                </span>
+                              </span>
+                            </button>
+                          `;
+                        })
+                        .join("")}
+                    </div>
+                  </div>
+                </article>
+              </div>
+            `
+            : `<div class="algo-preview">${renderAlgoPreview([baseStop])}</div>`
+        }
+      </section>
+    `;
+
+  elements.swatchStrip.innerHTML = `${baseReferenceMarkup}${groups
     .map((group) => {
       if (group.reason) {
         return `
@@ -2480,7 +2557,7 @@ function renderSwatches(groups, baseStop) {
         </section>
       `;
     })
-    .join("");
+    .join("")}`;
 }
 
 function renderWheel(activeColors, stops) {
@@ -3011,6 +3088,18 @@ function bindEvents() {
       event.preventDefault();
       event.stopPropagation();
       toggleColorTooltip(tooltipTrigger.dataset.colorTooltipId);
+      return;
+    }
+
+    const baseOriginTarget = event.target.closest("[data-base-origin-color-id]");
+
+    if (baseOriginTarget) {
+      const color = state.allColors.find((entry) => entry.id === baseOriginTarget.dataset.baseOriginColorId);
+
+      if (color) {
+        state.activeColorTooltipId = null;
+        setBaseFromColor(color);
+      }
       return;
     }
 
