@@ -101,20 +101,62 @@
               <div>
                 <p id="wheel-eyebrow" class="eyebrow">Create</p>
                 <h2 id="rule-title">Color rule</h2>
+                <div class="wheel-display-controls" role="group" aria-labelledby="wheel-display-label">
+                  <span id="wheel-display-label" class="field-label">Affichage de la roue</span>
+                  <div class="wheel-display-buttons">
+                    <button id="wheel-surface-toggle" class="algo-toggle" type="button" aria-pressed="true">
+                      Masquer le fond
+                    </button>
+                    <button id="wheel-sprays-toggle" class="algo-toggle" type="button" aria-pressed="true">
+                      Masquer les sprays
+                    </button>
+                  </div>
+                </div>
+                <div class="wheel-display-controls" role="group" aria-labelledby="wheel-snap-label">
+                  <span id="wheel-snap-label" class="field-label">Mode de selection</span>
+                  <div class="wheel-display-buttons">
+                    <button id="wheel-snap-theory" class="algo-toggle" type="button" aria-pressed="true">
+                      Snap to theory
+                    </button>
+                    <button id="wheel-snap-cans" class="algo-toggle" type="button" aria-pressed="false">
+                      Snap to cans
+                    </button>
+                  </div>
+                </div>
               </div>
               <span id="rule-formula" class="rule-formula"></span>
             </div>
 
             <p id="rule-description" class="rule-description"></p>
 
+            <section class="wheel-guide-shell" aria-labelledby="wheel-guide-label">
+              <div class="wheel-guide-head">
+                <span id="wheel-guide-label" class="field-label">Lire la roue</span>
+                <button
+                  id="wheel-guide-toggle"
+                  class="algo-toggle"
+                  type="button"
+                  aria-pressed="false"
+                  aria-expanded="false"
+                  aria-controls="wheel-guide-panel"
+                >
+                  Comprendre la roue
+                </button>
+              </div>
+              <div id="wheel-legend" class="wheel-legend"></div>
+              <p id="wheel-guide-copy" class="wheel-guide-copy"></p>
+              <div id="wheel-guide-panel" class="wheel-guide-panel" hidden></div>
+            </section>
+
             <div id="wheel-shell" class="wheel-shell">
-              <div class="wheel-surface" aria-hidden="true"></div>
+              <canvas id="wheel-surface" class="wheel-surface" aria-hidden="true"></canvas>
               <svg
                 id="wheel-svg"
                 viewBox="-220 -220 440 440"
                 role="img"
                 aria-label="Cercle chromatique interactif"
               ></svg>
+              <div id="wheel-guide-overlay" class="wheel-guide-overlay" aria-hidden="true" hidden></div>
             </div>
 
             <div id="base-caption" class="base-caption"></div>
@@ -149,7 +191,7 @@
                   aria-selected="false"
                   data-side-tab="image-palette"
                 >
-                  <span id="sidebar-tab-image-palette-label">Palette image</span>
+                  <span id="sidebar-tab-image-palette-label">Palette</span>
                 </button>
                 <button
                   id="sidebar-tab-hue"
@@ -186,7 +228,7 @@
                   <div class="side-panel-head">
                     <span id="image-label" class="field-label">Image source</span>
                     <button id="image-clear" class="cart-action" type="button" disabled>
-                      Reset image + colors
+                      Retirer
                     </button>
                   </div>
 
@@ -219,7 +261,7 @@
                     </button>
 
                     <div class="image-inline-palette-head">
-                      <span id="image-inline-palette-label" class="field-label">Palette image</span>
+                      <span id="image-inline-palette-label" class="field-label">Palette</span>
                     </div>
                     <div id="image-inline-palette" class="image-palette image-inline-palette"></div>
                   </div>
@@ -233,9 +275,9 @@
                   hidden
                 >
                   <div class="side-panel-head">
-                    <span id="image-palette-label" class="field-label">Palette image</span>
+                    <span id="image-palette-label" class="field-label">Palette</span>
                     <button id="image-palette-reset" class="cart-action" type="button" disabled>
-                      Reset image + colors
+                      Vider
                     </button>
                   </div>
 
@@ -359,7 +401,7 @@
             </button>
 
             <div class="image-palette-head">
-              <span id="image-modal-palette-label" class="field-label">Palette image</span>
+              <span id="image-modal-palette-label" class="field-label">Palette</span>
             </div>
             <div id="image-modal-palette" class="image-palette"></div>
           </aside>

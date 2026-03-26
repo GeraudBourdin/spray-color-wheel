@@ -140,6 +140,15 @@ function srgbToLinear(channel) {
     : ((value + 0.055) / 1.055) ** 2.4;
 }
 
+function linearToSrgb(value) {
+  const channel =
+    value <= 0.0031308
+      ? value * 12.92
+      : 1.055 * value ** (1 / 2.4) - 0.055;
+
+  return clamp(Math.round(channel * 255), 0, 255);
+}
+
 function rgbToXyz(r, g, b) {
   const red = srgbToLinear(r);
   const green = srgbToLinear(g);
@@ -171,10 +180,73 @@ function xyzToLab(x, y, z) {
   };
 }
 
+function labToXyz(l, a, b) {
+  const refX = 0.95047;
+  const refY = 1;
+  const refZ = 1.08883;
+
+  const fy = (l + 16) / 116;
+  const fx = a / 500 + fy;
+  const fz = fy - b / 200;
+
+  const invert = (value) => {
+    const cubed = value ** 3;
+    return cubed > 0.008856 ? cubed : (value - 16 / 116) / 7.787;
+  };
+
+  return {
+    x: refX * invert(fx),
+    y: refY * invert(fy),
+    z: refZ * invert(fz),
+  };
+}
+
+function xyzToRgb(x, y, z) {
+  const red = x * 3.2404542 + y * -1.5371385 + z * -0.4985314;
+  const green = x * -0.969266 + y * 1.8760108 + z * 0.041556;
+  const blue = x * 0.0556434 + y * -0.2040259 + z * 1.0572252;
+
+  return {
+    r: linearToSrgb(red),
+    g: linearToSrgb(green),
+    b: linearToSrgb(blue),
+  };
+}
+
 export function hexToLab(hex) {
   const { r, g, b } = hexToRgb(hex);
   const xyz = rgbToXyz(r, g, b);
   return xyzToLab(xyz.x, xyz.y, xyz.z);
+}
+
+export function labToLch(lab) {
+  const chroma = Math.sqrt(lab.a ** 2 + lab.b ** 2);
+  const hue = chroma < 0.00001 ? 0 : normalizeHue((Math.atan2(lab.b, lab.a) * 180) / Math.PI);
+
+  return {
+    l: lab.l,
+    c: chroma,
+    h: hue,
+  };
+}
+
+export function lchToLab(l, c, h) {
+  const hue = normalizeHue(h) * (Math.PI / 180);
+
+  return {
+    l,
+    a: Math.cos(hue) * c,
+    b: Math.sin(hue) * c,
+  };
+}
+
+export function labToHex(lab) {
+  const xyz = labToXyz(lab.l, lab.a, lab.b);
+  return rgbToHex(xyzToRgb(xyz.x, xyz.y, xyz.z));
+}
+
+export function lchToHex(l, c, h) {
+  return labToHex(lchToLab(l, c, h));
 }
 
 export function deltaE(firstLab, secondLab) {

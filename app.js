@@ -4,7 +4,11 @@ import {
   getContrastingText,
   hexToHsl,
   hexToLab,
+  hexToRgb,
   hslToHex,
+  labToLch,
+  lchToLab,
+  lchToHex,
   normalizeHue,
 } from "./color-utils.js";
 import { THEORIES, THEORY_SECTIONS } from "./theories.js";
@@ -31,7 +35,13 @@ const DEFAULT_MANUFACTURER_ACCENTS = [
 const CART_STORAGE_KEY = "spray-color-wheel.cart";
 const LANGUAGE_STORAGE_KEY = "spray-color-wheel.language";
 const APP_STATE_STORAGE_KEY = "spray-color-wheel.state";
-const WHEEL_RADIUS = 142;
+const WHEEL_RADIUS = 198;
+const WHEEL_CHROMA_MAX = 110;
+const WHEEL_SURFACE_RESOLUTION_FACTOR = 0.28;
+const WHEEL_SURFACE_RESOLUTION_MIN = 96;
+const WHEEL_SURFACE_RESOLUTION_MAX = 144;
+const SNAP_CAN_ACCESS_MAX_DISTANCE = 18;
+const UNAVAILABLE_CAN_HEX = "#A3A9B5";
 const IMAGE_SAMPLE_MAX_SIDE = 960;
 const IMAGE_PREVIEW_FALLBACK_WIDTH = 320;
 const IMAGE_PREVIEW_MAX_HEIGHT = 260;
@@ -52,6 +62,7 @@ const THEORY_ALIAS_ENTRIES = getTheoryAliasEntries()
 
 let persistedAppSnapshot = null;
 let persistAppStateTimer = 0;
+let wheelSurfaceCacheKey = "";
 
 const state = {
   manufacturers: [],
@@ -76,6 +87,12 @@ const state = {
   baseOrigin: null,
   pickerSearch: "",
   draggingWheel: false,
+  wheelDragLightness: null,
+  wheelSnapMode: "theory",
+  showWheelSprays: true,
+  showWheelSurface: true,
+  showWheelGuide: false,
+  baseWheelPointSource: null,
   isControlMenuOpen: false,
 };
 
@@ -171,9 +188,22 @@ const elements = {
   ruleFormula: document.querySelector("#rule-formula"),
   ruleDescription: document.querySelector("#rule-description"),
   wheelEyebrow: document.querySelector("#wheel-eyebrow"),
+  wheelDisplayLabel: document.querySelector("#wheel-display-label"),
+  wheelSnapLabel: document.querySelector("#wheel-snap-label"),
+  wheelSurfaceToggle: document.querySelector("#wheel-surface-toggle"),
+  wheelSpraysToggle: document.querySelector("#wheel-sprays-toggle"),
+  wheelSnapTheory: document.querySelector("#wheel-snap-theory"),
+  wheelSnapCans: document.querySelector("#wheel-snap-cans"),
+  wheelGuideLabel: document.querySelector("#wheel-guide-label"),
+  wheelGuideToggle: document.querySelector("#wheel-guide-toggle"),
+  wheelLegend: document.querySelector("#wheel-legend"),
+  wheelGuideCopy: document.querySelector("#wheel-guide-copy"),
+  wheelGuidePanel: document.querySelector("#wheel-guide-panel"),
   wheelPanel: document.querySelector(".wheel-panel"),
   wheelShell: document.querySelector("#wheel-shell"),
+  wheelSurface: document.querySelector("#wheel-surface"),
   wheelSvg: document.querySelector("#wheel-svg"),
+  wheelGuideOverlay: document.querySelector("#wheel-guide-overlay"),
   cartPanel: document.querySelector(".cart-panel"),
   baseCaption: document.querySelector("#base-caption"),
   theoryNote: document.querySelector("#theory-note"),
@@ -276,10 +306,10 @@ function normalizeStoredImageColor(input) {
 
   return buildColorRecord({
     id: input.id,
-    brandId: "image",
-    brandLabel: "image",
+    brandId: typeof input.brandId === "string" ? input.brandId : "image",
+    brandLabel: typeof input.brandLabel === "string" ? input.brandLabel : "image",
     name: input.name || input.label || normalizedHex,
-    code: "",
+    code: typeof input.code === "string" ? input.code : "",
     label: input.label || input.name || normalizedHex,
     hex: normalizedHex,
     searchTerms: [],
@@ -297,7 +327,47 @@ function serializeImageColor(color) {
     name: color.name,
     label: color.label,
     hex: color.hex,
+    brandId: color.brandId,
+    brandLabel: color.brandLabel,
+    code: color.code || "",
     meta: color.meta || {},
+  };
+}
+
+function serializeWheelPointSource(pointSource) {
+  const lch = pointSource?.lch;
+
+  if (!lch || !Number.isFinite(lch.l) || !Number.isFinite(lch.c) || !Number.isFinite(lch.h)) {
+    return null;
+  }
+
+  return {
+    l: lch.l,
+    c: lch.c,
+    h: lch.h,
+  };
+}
+
+function normalizeStoredWheelPointSource(input) {
+  if (!input || typeof input !== "object") {
+    return null;
+  }
+
+  const l = Number(input.l);
+  const c = Number(input.c);
+  const h = Number(input.h);
+
+  if (!Number.isFinite(l) || !Number.isFinite(c) || !Number.isFinite(h)) {
+    return null;
+  }
+
+  return {
+    lch: {
+      l,
+      c: Math.max(c, 0),
+      h: normalizeHue(h),
+    },
+    lab: lchToLab(l, Math.max(c, 0), normalizeHue(h)),
   };
 }
 
@@ -347,6 +417,11 @@ function serializeAppState() {
     },
     baseOrigin: state.baseOrigin ? { ...state.baseOrigin } : null,
     pickerSearch: state.pickerSearch,
+    wheelSnapMode: state.wheelSnapMode,
+    showWheelSprays: state.showWheelSprays,
+    showWheelSurface: state.showWheelSurface,
+    showWheelGuide: state.showWheelGuide,
+    baseWheelPointSource: serializeWheelPointSource(state.baseWheelPointSource),
   };
 }
 
@@ -417,10 +492,10 @@ function renderStaticText() {
   elements.imageLabel.textContent = ui("imageLabel");
   elements.imageUploadLabel.textContent = ui("imageUploadLabel");
   elements.imageHint.textContent = ui("imageHint");
-  elements.imageClear.textContent = ui("imageReset");
-  elements.imagePaletteReset.textContent = ui("imageReset");
-  elements.imageClear.setAttribute("aria-label", ui("imageReset"));
-  elements.imagePaletteReset.setAttribute("aria-label", ui("imageReset"));
+  elements.imageClear.textContent = ui("imageRemove");
+  elements.imagePaletteReset.textContent = ui("clear");
+  elements.imageClear.setAttribute("aria-label", ui("imageRemove"));
+  elements.imagePaletteReset.setAttribute("aria-label", ui("clear"));
   elements.imageOpenModal.textContent = ui("imageOpenModal");
   elements.imageSaveColor.textContent = ui("imageSaveColor");
   elements.imageInlinePaletteLabel.textContent = ui("imagePaletteLabel");
@@ -438,6 +513,9 @@ function renderStaticText() {
   elements.pickerLabel.textContent = ui("pickerLabel");
   elements.pickerSearch.placeholder = ui("pickerPlaceholder");
   elements.wheelEyebrow.textContent = ui("wheelEyebrow");
+  elements.wheelDisplayLabel.textContent = ui("wheelLayersLabel");
+  elements.wheelSnapLabel.textContent = ui("wheelSnapLabel");
+  elements.wheelGuideLabel.textContent = ui("wheelGuideLabel");
   elements.cartLabel.textContent = ui("cartLabel");
   elements.cartCopy.textContent = ui("cartCopy");
   elements.cartClear.textContent = ui("cartEmptyAction");
@@ -456,6 +534,96 @@ function renderStaticText() {
   elements.cartModalOpen.setAttribute("aria-label", ui("cartLabel"));
   elements.cartModalClose.setAttribute("aria-label", ui("close"));
   elements.pickerSearch.setAttribute("aria-label", ui("pickerLabel"));
+}
+
+function renderWheelVisibilityControls() {
+  const surfaceVisible = state.showWheelSurface;
+  const spraysVisible = state.showWheelSprays;
+  const snapTheory = state.wheelSnapMode === "theory";
+  const snapCans = state.wheelSnapMode === "cans";
+
+  elements.wheelSurfaceToggle.textContent = ui(surfaceVisible ? "hideWheelSurface" : "showWheelSurface");
+  elements.wheelSurfaceToggle.setAttribute("aria-pressed", surfaceVisible ? "true" : "false");
+  elements.wheelSurfaceToggle.setAttribute("aria-label", ui(surfaceVisible ? "hideWheelSurface" : "showWheelSurface"));
+  elements.wheelSurfaceToggle.classList.toggle("active", surfaceVisible);
+
+  elements.wheelSpraysToggle.textContent = ui(spraysVisible ? "hideWheelSprays" : "showWheelSprays");
+  elements.wheelSpraysToggle.setAttribute("aria-pressed", spraysVisible ? "true" : "false");
+  elements.wheelSpraysToggle.setAttribute("aria-label", ui(spraysVisible ? "hideWheelSprays" : "showWheelSprays"));
+  elements.wheelSpraysToggle.classList.toggle("active", spraysVisible);
+
+  elements.wheelSnapTheory.textContent = ui("snapToTheory");
+  elements.wheelSnapTheory.setAttribute("aria-pressed", snapTheory ? "true" : "false");
+  elements.wheelSnapTheory.setAttribute("aria-label", ui("snapToTheory"));
+  elements.wheelSnapTheory.classList.toggle("active", snapTheory);
+
+  elements.wheelSnapCans.textContent = ui("snapToCans");
+  elements.wheelSnapCans.setAttribute("aria-pressed", snapCans ? "true" : "false");
+  elements.wheelSnapCans.setAttribute("aria-label", ui("snapToCans"));
+  elements.wheelSnapCans.classList.toggle("active", snapCans);
+}
+
+function renderWheelGuide(baseColor) {
+  const guideVisible = state.showWheelGuide;
+  const lightness = formatPercent(baseColor.l);
+  const guideToggleLabel = ui(guideVisible ? "hideWheelGuide" : "showWheelGuide");
+  const legendItems = [
+    { tone: "hue", label: ui("wheelLegendHue") },
+    { tone: "center", label: ui("wheelLegendCenter") },
+    { tone: "edge", label: ui("wheelLegendEdge") },
+    { tone: "lightness", label: ui("wheelLegendLightness", { lightness }) },
+  ];
+  const guideSteps = [
+    {
+      step: "1",
+      title: ui("wheelGuideStepAngleTitle"),
+      copy: ui("wheelGuideStepAngleCopy"),
+    },
+    {
+      step: "2",
+      title: ui("wheelGuideStepRadiusTitle"),
+      copy: ui("wheelGuideStepRadiusCopy"),
+    },
+    {
+      step: "3",
+      title: ui("wheelGuideStepLightnessTitle"),
+      copy: ui("wheelGuideStepLightnessCopy", { lightness }),
+    },
+  ];
+
+  elements.wheelGuideToggle.textContent = guideToggleLabel;
+  elements.wheelGuideToggle.setAttribute("aria-label", guideToggleLabel);
+  elements.wheelGuideToggle.setAttribute("aria-pressed", guideVisible ? "true" : "false");
+  elements.wheelGuideToggle.setAttribute("aria-expanded", guideVisible ? "true" : "false");
+  elements.wheelGuideToggle.classList.toggle("active", guideVisible);
+
+  elements.wheelLegend.innerHTML = legendItems
+    .map((item) => `<span class="wheel-legend-pill is-${item.tone}">${escapeHtml(item.label)}</span>`)
+    .join("");
+  elements.wheelGuideCopy.textContent = ui("wheelGuideCopy");
+
+  elements.wheelGuidePanel.hidden = !guideVisible;
+  elements.wheelGuideOverlay.hidden = !guideVisible;
+  elements.wheelShell.classList.toggle("is-guide-mode", guideVisible);
+
+  elements.wheelGuidePanel.innerHTML = guideSteps
+    .map(
+      (item) => `
+        <article class="wheel-guide-card">
+          <span class="wheel-guide-step">${item.step}</span>
+          <h3>${escapeHtml(item.title)}</h3>
+          <p>${escapeHtml(item.copy)}</p>
+        </article>
+      `,
+    )
+    .join("");
+
+  elements.wheelGuideOverlay.innerHTML = guideVisible
+    ? `
+        <div class="wheel-guide-ring is-center"></div>
+        <div class="wheel-guide-ring is-edge"></div>
+      `
+    : "";
 }
 
 function isMobileControlMenu() {
@@ -1037,6 +1205,7 @@ function isNeutralColor(hsl) {
 function buildColorRecord(input) {
   const hex = input.hex.toUpperCase();
   const hsl = hexToHsl(hex);
+  const lab = hexToLab(hex);
 
   return {
     ...input,
@@ -1044,10 +1213,114 @@ function buildColorRecord(input) {
     h: hsl.h,
     s: hsl.s,
     l: hsl.l,
-    lab: hexToLab(hex),
+    rgb: hexToRgb(hex),
+    lab,
+    lch: labToLch(lab),
     isNeutral: isNeutralColor(hsl),
     textColor: getContrastingText(hex),
   };
+}
+
+function getWheelSelectionLightness() {
+  if (state.draggingWheel && Number.isFinite(state.wheelDragLightness)) {
+    return clamp(state.wheelDragLightness, 0, 1);
+  }
+
+  return clamp(state.base.l, 0, 1);
+}
+
+function getWheelPlacement(entry) {
+  const lab = entry?.lab || hexToLab(entry?.hex || "#000000");
+  const lch = entry?.lch || labToLch(lab);
+  const radius = clamp(lch.c / WHEEL_CHROMA_MAX, 0, 1);
+
+  return {
+    lab,
+    lch,
+    radius,
+    point: polarPoint(lch.h, radius),
+  };
+}
+
+function createWheelEntry(color) {
+  const placement = getWheelPlacement(color);
+
+  return {
+    color,
+    rgb: color.rgb || hexToRgb(color.hex),
+    lightness: clamp(typeof color.l === "number" ? color.l : placement.lab.l / 100, 0, 1),
+    point: placement.point,
+    radius: placement.radius,
+    hue: placement.lch.h,
+    chroma: placement.lch.c,
+  };
+}
+
+function buildWheelEntries(colors) {
+  return colors.map((color) => createWheelEntry(color));
+}
+
+function getWheelPointScore(entry, x, y) {
+  const dx = entry.point.x - x;
+  const dy = entry.point.y - y;
+
+  return dx ** 2 + dy ** 2;
+}
+
+function findClosestWheelEntry(x, y, wheelEntries) {
+  let best = null;
+
+  for (const entry of wheelEntries) {
+    const score = getWheelPointScore(entry, x, y);
+
+    if (!best || score < best.score) {
+      best = {
+        entry,
+        score,
+      };
+    }
+  }
+
+  return best;
+}
+
+function blendWheelSurfaceColor(x, y, wheelEntries) {
+  let red = 0;
+  let green = 0;
+  let blue = 0;
+  let totalWeight = 0;
+
+  for (const entry of wheelEntries) {
+    const dx = entry.point.x - x;
+    const dy = entry.point.y - y;
+    const distanceSquared = dx ** 2 + dy ** 2;
+    const weight = 1 / (distanceSquared + 64);
+
+    red += entry.rgb.r * weight;
+    green += entry.rgb.g * weight;
+    blue += entry.rgb.b * weight;
+    totalWeight += weight;
+  }
+
+  if (totalWeight === 0) {
+    return null;
+  }
+
+  return {
+    r: Math.round(red / totalWeight),
+    g: Math.round(green / totalWeight),
+    b: Math.round(blue / totalWeight),
+  };
+}
+
+function getWheelInteractionRect() {
+  const surfaceRect = elements.wheelSurface?.getBoundingClientRect();
+
+  if (surfaceRect && surfaceRect.width > 0 && surfaceRect.height > 0) {
+    return surfaceRect;
+  }
+
+  return elements.wheelShell.getBoundingClientRect();
 }
 
 function createImagePaletteColor(hex) {
@@ -1060,7 +1333,28 @@ function createImagePaletteColor(hex) {
     label: hex,
     hex,
     searchTerms: [],
-    meta: {},
+    meta: {
+      sourceKind: "image",
+    },
+  });
+}
+
+function createPaletteColorFromSpray(color) {
+  return buildColorRecord({
+    id: color.id,
+    brandId: color.brandId,
+    brandLabel: color.brandLabel,
+    name: color.name,
+    code: color.code || "",
+    label: color.label || color.name,
+    hex: color.hex,
+    searchTerms: Array.isArray(color.searchTerms) ? [...color.searchTerms] : [],
+    meta: {
+      ...(color.meta && typeof color.meta === "object" ? color.meta : {}),
+      sourceKind: "spray",
+      sourceColorId: color.id,
+      sourceBrandLabel: color.brandLabel || "",
+    },
   });
 }
 
@@ -1243,6 +1537,7 @@ function sampleImageColorAtCanvas(canvas, clientX, clientY) {
   return {
     ...createImagePaletteColor(hex),
     meta: {
+      sourceKind: "image",
       sampleX: centerX,
       sampleY: centerY,
     },
@@ -1352,13 +1647,8 @@ async function loadImageFile(file) {
   try {
     state.imageAsset = await buildImageAssetFromSource(objectUrl, file.name);
     state.imageSampleColor = null;
-    state.imagePalette = [];
     state.activeSidebarTab = "image-upload";
     state.isImageModalOpen = !isCompactMobileViewport();
-
-    if (state.baseOrigin?.kind === "image") {
-      state.baseOrigin = null;
-    }
 
     elements.imageInput.value = "";
     hideAllImageCrosshairs();
@@ -1372,7 +1662,6 @@ async function loadImageFile(file) {
   } catch {
     state.imageAsset = null;
     state.imageSampleColor = null;
-    state.imagePalette = [];
     state.isImageModalOpen = false;
     hideAllImageCrosshairs();
     render();
@@ -1385,13 +1674,8 @@ async function loadImageFile(file) {
 function clearImageSelection() {
   state.imageAsset = null;
   state.imageSampleColor = null;
-  state.imagePalette = [];
   state.isImageModalOpen = false;
   state.activeSidebarTab = "image-upload";
-
-  if (state.baseOrigin?.kind === "image") {
-    state.baseOrigin = null;
-  }
 
   elements.imageInput.value = "";
   clearRenderedImageCanvas(elements.imageCanvas);
@@ -1428,6 +1712,11 @@ async function restoreAppState(snapshot) {
   state.activeSidebarTab = SIDEBAR_TABS.has(snapshot.activeSidebarTab)
     ? snapshot.activeSidebarTab
     : "hue";
+  state.wheelSnapMode = snapshot.wheelSnapMode === "cans" ? "cans" : "theory";
+  state.showWheelSprays = typeof snapshot.showWheelSprays === "boolean" ? snapshot.showWheelSprays : true;
+  state.showWheelSurface = typeof snapshot.showWheelSurface === "boolean" ? snapshot.showWheelSurface : true;
+  state.showWheelGuide = typeof snapshot.showWheelGuide === "boolean" ? snapshot.showWheelGuide : false;
+  state.baseWheelPointSource = normalizeStoredWheelPointSource(snapshot.baseWheelPointSource);
   state.expandedAlgoIds = Array.isArray(snapshot.expandedAlgoIds)
     ? new Set(snapshot.expandedAlgoIds.filter((groupId) => typeof groupId === "string"))
     : new Set();
@@ -1479,6 +1768,7 @@ async function restoreAppState(snapshot) {
         l: color.l,
       };
       state.baseOrigin = restoredBaseOrigin;
+      state.baseWheelPointSource = null;
       return true;
     }
   }
@@ -1493,6 +1783,7 @@ async function restoreAppState(snapshot) {
         l: color.l,
       };
       state.baseOrigin = restoredBaseOrigin;
+      state.baseWheelPointSource = null;
       return true;
     }
   }
@@ -1510,7 +1801,9 @@ function saveCurrentImageColor() {
     return;
   }
 
-  const existing = state.imagePalette.find((color) => color.hex === state.imageSampleColor.hex);
+  const existing = state.imagePalette.find(
+    (color) => color.hex === state.imageSampleColor.hex && (color.meta?.sourceKind || "image") === "image",
+  );
 
   if (existing) {
     setBaseFromImageColor(existing);
@@ -1520,6 +1813,110 @@ function saveCurrentImageColor() {
   const color = createImagePaletteColor(state.imageSampleColor.hex);
   state.imagePalette = [...state.imagePalette, color];
   setBaseFromImageColor(color);
+}
+
+function addSprayColorToPalette(color) {
+  if (!color) {
+    return;
+  }
+
+  const existing = state.imagePalette.find(
+    (entry) => entry.id === color.id && entry.meta?.sourceKind === "spray",
+  );
+
+  if (existing) {
+    return;
+  }
+
+  state.imagePalette = [...state.imagePalette, createPaletteColorFromSpray(color)];
+  render();
+}
+
+function getPaletteSpraySource(color) {
+  if (!color) {
+    return null;
+  }
+
+  const sourceId = color.meta?.sourceColorId || color.id;
+  return state.allColors.find((entry) => entry.id === sourceId) || null;
+}
+
+function isSprayColorInPalette(colorId) {
+  return state.imagePalette.some((entry) => {
+    if ((entry.meta?.sourceKind || "image") !== "spray") {
+      return false;
+    }
+
+    return (entry.meta?.sourceColorId || entry.id) === colorId;
+  });
+}
+
+function isPaletteColorActive(color) {
+  if (!color || !state.baseOrigin?.id) {
+    return false;
+  }
+
+  if (state.baseOrigin.kind === "image") {
+    return state.baseOrigin.id === color.id;
+  }
+
+  const spraySource = getPaletteSpraySource(color);
+  return Boolean(spraySource && state.baseOrigin.kind === "spray" && state.baseOrigin.id === spraySource.id);
+}
+
+function selectPaletteColor(color) {
+  if (!color) {
+    return;
+  }
+
+  const spraySource = getPaletteSpraySource(color);
+
+  if (spraySource) {
+    setBaseFromColor(spraySource);
+    return;
+  }
+
+  setBaseFromImageColor(color);
+}
+
+function removePaletteColor(colorId) {
+  const color = state.imagePalette.find((entry) => entry.id === colorId);
+
+  if (!color) {
+    return;
+  }
+
+  state.imagePalette = state.imagePalette.filter((entry) => entry.id !== colorId);
+
+  if (state.baseOrigin?.kind === "image" && state.baseOrigin.id === colorId) {
+    state.baseOrigin = null;
+  }
+
+  render();
+}
+
+function addPaletteColorToCart(color) {
+  const spraySource = getPaletteSpraySource(color);
+
+  if (!spraySource) {
+    return;
+  }
+
+  addColorToCart(spraySource);
+}
+
+function clearPalette() {
+  if (!state.imagePalette.length) {
+    return;
+  }
+
+  state.imagePalette = [];
+
+  if (state.baseOrigin?.kind === "image") {
+    state.baseOrigin = null;
+  }
+
+  render();
 }
 
 function getManufacturerById(brandId) {
@@ -1647,10 +2044,18 @@ function getBaseOrigin() {
 }
 
 function createBaseColor() {
-  const hex = hslToHex(state.base.h, state.base.s, state.base.l).toUpperCase();
-  const hsl = hexToHsl(hex);
   const origin = getBaseOrigin();
   const isImageOrigin = state.baseOrigin?.kind === "image";
+  const hex = (origin?.hex || hslToHex(state.base.h, state.base.s, state.base.l)).toUpperCase();
+  const hsl = origin
+    ? {
+        h: origin.h,
+        s: origin.s,
+        l: origin.l,
+      }
+    : hexToHsl(hex);
+  const lab = origin?.lab || hexToLab(hex);
+  const textColor = origin?.textColor || getContrastingText(hex);
 
   return {
     id: "virtual-base",
@@ -1663,9 +2068,37 @@ function createBaseColor() {
     h: hsl.h,
     s: hsl.s,
     l: hsl.l,
-    lab: hexToLab(hex),
+    lab,
     isNeutral: isNeutralColor(hsl),
-    textColor: getContrastingText(hex),
+    textColor,
+  };
+}
+
+function createWheelTargetColor(x, y, l) {
+  const lightness = clamp(l, 0, 1);
+  const distance = Math.min(Math.sqrt(x ** 2 + y ** 2), WHEEL_RADIUS);
+  const hue = normalizeHue((Math.atan2(y, x) * 180) / Math.PI + 90);
+  const chroma = clamp(distance / WHEEL_RADIUS, 0, 1) * WHEEL_CHROMA_MAX;
+  const lch = {
+    l: lightness * 100,
+    c: chroma,
+    h: hue,
+  };
+  const hex = lchToHex(lightness * 100, chroma, hue).toUpperCase();
+  const hsl = hexToHsl(hex);
+
+  return {
+    kind: "wheel",
+    hex,
+    h: hsl.h,
+    s: hsl.s,
+    l: hsl.l,
+    lab: hexToLab(hex),
+    wheelPointSource: {
+      lch,
+      lab: lchToLab(lch.l, lch.c, lch.h),
+    },
+    isNeutral: isNeutralColor(hsl),
   };
 }
 
@@ -1724,6 +2157,83 @@ function findClosestColor(target, colors) {
   return best;
 }
 
+function getUnavailableCanPresentation() {
+  const hsl = hexToHsl(UNAVAILABLE_CAN_HEX);
+
+  return {
+    hex: UNAVAILABLE_CAN_HEX,
+    hsl,
+    lab: hexToLab(UNAVAILABLE_CAN_HEX),
+    textColor: getContrastingText(UNAVAILABLE_CAN_HEX),
+  };
+}
+
+function getBestStopMatch(stop) {
+  let best = null;
+
+  for (const entry of stop.matches || []) {
+    if (!entry?.match) {
+      continue;
+    }
+
+    if (!best || entry.match.distance < best.match.distance) {
+      best = entry;
+    }
+  }
+
+  return best;
+}
+
+function isAccessibleCanMatch(match) {
+  return Boolean(match && match.distance <= SNAP_CAN_ACCESS_MAX_DISTANCE);
+}
+
+function getStopPresentation(stop) {
+  const fallback = {
+    displayHex: stop.hex,
+    displayHsl: stop.hsl,
+    displayLab: stop.lab,
+    displayTextColor: stop.textColor,
+    displayNote: stop.note,
+    pointSource: stop.pointSource || stop,
+    isUnavailable: false,
+  };
+
+  if (state.wheelSnapMode !== "cans" || stop.key === "base") {
+    return fallback;
+  }
+
+  const best = getBestStopMatch(stop);
+
+  if (best?.match && isAccessibleCanMatch(best.match)) {
+    return {
+      displayHex: best.match.color.hex,
+      displayHsl: {
+        h: best.match.color.h,
+        s: best.match.color.s,
+        l: best.match.color.l,
+      },
+      displayLab: best.match.color.lab,
+      displayTextColor: best.match.color.textColor,
+      displayNote: stop.note,
+      pointSource: best.match.color,
+      isUnavailable: false,
+    };
+  }
+
+  const unavailable = getUnavailableCanPresentation();
+
+  return {
+    displayHex: unavailable.hex,
+    displayHsl: unavailable.hsl,
+    displayLab: unavailable.lab,
+    displayTextColor: unavailable.textColor,
+    displayNote: `${stop.note} · ${ui("noAccessibleCan")}`,
+    pointSource: stop,
+    isUnavailable: true,
+  };
+}
+
 function createBaseStop(baseColor, activeColors) {
   const origin = getBaseOrigin();
   const baseStop = {
@@ -1744,6 +2254,7 @@ function createBaseStop(baseColor, activeColors) {
     },
     textColor: baseColor.textColor,
     lab: baseColor.lab,
+    pointSource: state.baseWheelPointSource || baseColor,
     matches: getColorsByBrand(activeColors).map(({ brandId, brand, colors }) => ({
       brandId,
       brand,
@@ -1970,10 +2481,11 @@ function renderControls(baseColor) {
 function renderImageWorkspace() {
   const hasImage = Boolean(state.imageAsset);
   const compactMobile = isCompactMobileViewport();
-  const canResetImageState = hasImage || state.imagePalette.length > 0 || Boolean(state.imageSampleColor);
+  const canClearImage = hasImage || Boolean(state.imageSampleColor);
+  const canClearPalette = state.imagePalette.length > 0;
 
-  elements.imageClear.disabled = !canResetImageState;
-  elements.imagePaletteReset.disabled = !canResetImageState;
+  elements.imageClear.disabled = !canClearImage;
+  elements.imagePaletteReset.disabled = !canClearPalette;
   elements.imageOpenModal.disabled = !hasImage;
   elements.imageOpenModal.hidden = compactMobile;
   elements.imageEmpty.innerHTML = `
@@ -2098,19 +2610,37 @@ function renderImagePalette() {
 
   const markup = state.imagePalette
     .map((color) => {
-      const active = state.baseOrigin?.kind === "image" && state.baseOrigin.id === color.id;
+      const active = isPaletteColorActive(color);
+      const spraySource = getPaletteSpraySource(color);
+      const cartQuantity = spraySource ? getCartQuantity(spraySource.id) : 0;
+      const sourceMeta =
+        color.meta?.sourceKind === "spray" && color.brandLabel ? `${escapeHtml(color.brandLabel)} · ` : "";
 
       return `
-        <button class="image-palette-chip ${active ? "active" : ""}" type="button" data-image-color-id="${color.id}" aria-pressed="${active}">
-          <span class="image-swatch image-palette-swatch" style="background:${color.hex}; color:${color.textColor}">
-            ${escapeHtml(color.hex)}
-          </span>
-          <span class="image-palette-body">
-            <span class="image-palette-title">${escapeHtml(color.label || color.name)}</span>
-            <span class="image-palette-meta">H ${escapeHtml(formatDegrees(color.h))} · S ${escapeHtml(formatPercent(color.s))} · L ${escapeHtml(formatPercent(color.l))}</span>
-          </span>
-          ${active ? `<span class="image-palette-badge">${escapeHtml(ui("imageActive"))}</span>` : ""}
-        </button>
+        <article class="image-palette-chip ${active ? "active" : ""}">
+          <button class="image-palette-select" type="button" data-palette-select-color-id="${color.id}" aria-pressed="${active}">
+            <span class="image-swatch image-palette-swatch" style="background:${color.hex}; color:${color.textColor}">
+              ${escapeHtml(color.hex)}
+            </span>
+            <span class="image-palette-body">
+              <span class="image-palette-title">${escapeHtml(color.label || color.name)}</span>
+              <span class="image-palette-meta">${sourceMeta}H ${escapeHtml(formatDegrees(color.h))} · S ${escapeHtml(formatPercent(color.s))} · L ${escapeHtml(formatPercent(color.l))}</span>
+            </span>
+            ${active ? `<span class="image-palette-badge">${escapeHtml(ui("imageActive"))}</span>` : ""}
+          </button>
+          <div class="image-palette-actions">
+            ${
+              spraySource
+                ? `<button class="cart-action image-palette-action" type="button" data-palette-cart-color-id="${color.id}">${escapeHtml(
+                    cartQuantity > 0 ? `${ui("cartActionLabel")} x${cartQuantity}` : ui("cartActionLabel"),
+                  )}</button>`
+                : ""
+            }
+            <button class="cart-action image-palette-action" type="button" data-palette-remove-color-id="${color.id}">
+              ${escapeHtml(ui("removeAction"))}
+            </button>
+          </div>
+        </article>
       `;
     })
     .join("");
@@ -2143,18 +2673,76 @@ function renderPickerResults(results) {
   }
 
   elements.pickerResults.innerHTML = results
-    .map(
-      (color) => `
-        <button class="picker-chip ${state.baseOrigin?.kind === "spray" && color.id === state.baseOrigin.id ? "active" : ""}" type="button" data-color-id="${color.id}">
-          <div class="picker-swatch" style="background:${color.hex}"></div>
-          <div>
-            <span class="picker-title">${escapeHtml(color.label || color.name)}</span>
-            <span class="picker-meta">${escapeHtml(color.brandLabel)} · ${escapeHtml(color.hex)}</span>
-          </div>
-        </button>
-      `,
-    )
+    .map((color) => {
+      const active = state.baseOrigin?.kind === "spray" && color.id === state.baseOrigin.id;
+      const inPalette = isSprayColorInPalette(color.id);
+
+      return `
+        <article class="picker-card">
+          <button class="picker-chip ${active ? "active" : ""}" type="button" data-color-id="${color.id}" aria-pressed="${active}">
+            <div class="picker-swatch" style="background:${color.hex}"></div>
+            <div>
+              <span class="picker-title">${escapeHtml(color.label || color.name)}</span>
+              <span class="picker-meta">${escapeHtml(color.brandLabel)} · ${escapeHtml(color.hex)}</span>
+            </div>
+          </button>
+          <button class="cart-action picker-palette-action" type="button" data-palette-color-id="${color.id}" ${inPalette ? "disabled" : ""}>
+            ${escapeHtml(ui(inPalette ? "inPalette" : "addToPalette"))}
+          </button>
+        </article>
+      `;
+    })
     .join("");
+}
+
+function renderSprayChoiceRow({ brand, color, badge, score, active, quantity, tooltipId }) {
+  const inPalette = isSprayColorInPalette(color.id);
+  const cartLabel = quantity > 0 ? `${ui("cartActionLabel")} x${quantity}` : ui("cartActionLabel");
+  const rowClasses = [active ? "is-selected-base" : "", quantity > 0 ? "in-cart" : ""]
+    .filter(Boolean)
+    .join(" ");
+  const matchTooltipId = tooltipId || `choice-${brand.id}-${color.id}`;
+
+  return `
+    <article class="match-row ${rowClasses}">
+      <span class="match-brand-head">
+        <span class="match-brand-copy">
+          <span class="match-brand-dot" style="background:${brand.accent}"></span>
+          <span class="match-brand" style="color:${brand.accent}">${escapeHtml(brand.label)}</span>
+        </span>
+        <span class="match-statuses">
+          ${badge ? `<span class="match-cart-badge">${escapeHtml(badge)}</span>` : ""}
+        </span>
+      </span>
+      <button class="match-select" type="button" data-choice-color-id="${color.id}" aria-pressed="${active}">
+        <span class="match-main">
+          <span class="color-tooltip-anchor match-color-tooltip-anchor">
+            <span
+              class="match-swatch color-tooltip-trigger"
+              style="background:${color.hex}"
+              data-color-tooltip-trigger="true"
+              data-color-tooltip-id="${escapeHtml(matchTooltipId)}"
+            ></span>
+            ${renderColorCodeTooltip(matchTooltipId, color.hex)}
+          </span>
+          <span class="match-copy">
+            <span class="match-name" title="${escapeHtml(color.label || color.name)}">${escapeHtml(color.label || color.name)}</span>
+          </span>
+          <span class="match-actions">
+            ${score ? `<span class="match-score">${escapeHtml(score)}</span>` : ""}
+          </span>
+        </span>
+      </button>
+      <div class="match-row-actions">
+        <button class="cart-action match-action" type="button" data-choice-palette-color-id="${color.id}" ${inPalette ? "disabled" : ""}>
+          ${escapeHtml(ui(inPalette ? "inPalette" : "imagePaletteLabel"))}
+        </button>
+        <button class="cart-action match-action" type="button" data-choice-cart-color-id="${color.id}">
+          ${escapeHtml(cartLabel)}
+        </button>
+      </div>
+    </article>
+  `;
 }
 
 function renderCart() {
@@ -2327,23 +2915,26 @@ function isAlgoExpanded(groupId) {
 
 function renderAlgoPreview(displayStops) {
   return displayStops
-    .map(
-      (stop) => `
+    .map((stop) => {
+      const presentedStop = getStopPresentation(stop);
+
+      return `
         <div
-          class="algo-preview-chip"
-          style="background:${stop.hex}; color:${stop.textColor}"
+          class="algo-preview-chip ${presentedStop.isUnavailable ? "is-unavailable" : ""}"
+          style="background:${presentedStop.displayHex}; color:${presentedStop.displayTextColor}"
           title="${escapeHtml(stop.title)}"
         >
           <span class="algo-preview-letter">${escapeHtml(stop.letter)}</span>
         </div>
-      `,
-    )
+      `;
+    })
     .join("");
 }
 
 function renderSwatches(groups, baseStop) {
   const hasBaseOnlyGroup = groups.length === 1 && groups[0].id === "base-only";
   const baseReferenceExpanded = isAlgoExpanded("base-reference");
+  const presentedBaseStop = getStopPresentation(baseStop);
   const baseReferenceMarkup = hasBaseOnlyGroup
     ? ""
     : `
@@ -2373,7 +2964,7 @@ function renderSwatches(groups, baseStop) {
               <p class="algo-note">${escapeHtml(baseStop.note)}</p>
               <div class="algo-swatches">
                 <article class="swatch-card reference-card">
-                  <div class="swatch-visual" style="background:${baseStop.hex}; color:${baseStop.textColor}">
+                  <div class="swatch-visual" style="background:${presentedBaseStop.displayHex}; color:${presentedBaseStop.displayTextColor}">
                     <span class="swatch-index">${escapeHtml(baseStop.letter)}</span>
                     <div class="swatch-label">${escapeHtml(ui("baseColorName"))}</div>
                   </div>
@@ -2390,45 +2981,15 @@ function renderSwatches(groups, baseStop) {
 
                           const isSelectedBase =
                             state.baseOrigin?.kind === "spray" && state.baseOrigin.id === match.color.id;
-                          const matchTooltipId = `base-reference-${match.color.id}`;
-
-                          return `
-                            <button
-                              class="match-row ${isSelectedBase ? "is-selected-base" : ""}"
-                              type="button"
-                              data-base-origin-color-id="${match.color.id}"
-                              aria-pressed="${isSelectedBase}"
-                            >
-                              <span class="match-brand-head">
-                                <span class="match-brand-copy">
-                                  <span class="match-brand-dot" style="background:${brand.accent}"></span>
-                                  <span class="match-brand" style="color:${brand.accent}">${escapeHtml(brand.label)}</span>
-                                </span>
-                                <span class="match-cart-badge">${escapeHtml(
-                                  isSelectedBase ? ui("reference") : ui("useAsBase"),
-                                )}</span>
-                              </span>
-                              <span class="match-main">
-                                <span class="color-tooltip-anchor match-color-tooltip-anchor">
-                                  <span
-                                    class="match-swatch color-tooltip-trigger"
-                                    style="background:${match.color.hex}"
-                                    data-color-tooltip-trigger="true"
-                                    data-color-tooltip-id="${escapeHtml(matchTooltipId)}"
-                                  ></span>
-                                  ${renderColorCodeTooltip(matchTooltipId, match.color.hex)}
-                                </span>
-                                <span class="match-copy">
-                                  <span class="match-name" title="${escapeHtml(match.color.label || match.color.name)}">${escapeHtml(
-                                    match.color.label || match.color.name,
-                                  )}</span>
-                                </span>
-                                <span class="match-actions">
-                                  <span class="match-score">${match.score}</span>
-                                </span>
-                              </span>
-                            </button>
-                          `;
+                          return renderSprayChoiceRow({
+                            brand,
+                            color: match.color,
+                            badge: isSelectedBase ? ui("reference") : "",
+                            score: match.score,
+                            active: isSelectedBase,
+                            quantity: getCartQuantity(match.color.id),
+                            tooltipId: `base-reference-${match.color.id}`,
+                          });
                         })
                         .join("")}
                     </div>
@@ -2463,6 +3024,7 @@ function renderSwatches(groups, baseStop) {
 
       const stopsMarkup = displayStops
         .map((stop) => {
+          const presentedStop = getStopPresentation(stop);
           const isReference = group.id === "base-only";
           const matchesMarkup = stop.matches
             .map(({ brand, match }) => {
@@ -2472,52 +3034,29 @@ function renderSwatches(groups, baseStop) {
 
               const quantity = getCartQuantity(match.color.id);
               const inCart = quantity > 0;
-              const matchTooltipId = `match-${stop.letter}-${match.color.id}`;
+              const isSelectedBase =
+                state.baseOrigin?.kind === "spray" && state.baseOrigin.id === match.color.id;
 
-              return `
-                <button
-                  class="match-row ${inCart ? "in-cart" : ""}"
-                  type="button"
-                  data-cart-color-id="${match.color.id}"
-                  aria-pressed="${inCart}"
-                >
-                  <span class="match-brand-head">
-                    <span class="match-brand-copy">
-                      <span class="match-brand-dot" style="background:${brand.accent}"></span>
-                      <span class="match-brand" style="color:${brand.accent}">${escapeHtml(brand.label)}</span>
-                    </span>
-                    <span class="match-cart-badge">${inCart ? `x${escapeHtml(String(quantity))}` : escapeHtml(ui("add"))}</span>
-                  </span>
-                  <span class="match-main">
-                    <span class="color-tooltip-anchor match-color-tooltip-anchor">
-                      <span
-                        class="match-swatch color-tooltip-trigger"
-                        style="background:${match.color.hex}"
-                        data-color-tooltip-trigger="true"
-                        data-color-tooltip-id="${escapeHtml(matchTooltipId)}"
-                      ></span>
-                      ${renderColorCodeTooltip(matchTooltipId, match.color.hex)}
-                    </span>
-                    <span class="match-copy">
-                      <span class="match-name" title="${escapeHtml(match.color.label || match.color.name)}">${escapeHtml(match.color.label || match.color.name)}</span>
-                    </span>
-                    <span class="match-actions">
-                      <span class="match-score">${match.score}</span>
-                    </span>
-                  </span>
-                </button>
-              `;
+              return renderSprayChoiceRow({
+                brand,
+                color: match.color,
+                badge: inCart ? `x${quantity}` : "",
+                score: match.score,
+                active: isSelectedBase,
+                quantity,
+                tooltipId: `match-${group.id}-${stop.letter}-${match.color.id}`,
+              });
             })
             .join("");
 
           return `
-            <article class="swatch-card ${isReference ? "reference-card" : ""}">
-              <div class="swatch-visual" style="background:${stop.hex}; color:${stop.textColor}">
+            <article class="swatch-card ${isReference ? "reference-card" : ""} ${presentedStop.isUnavailable ? "is-unavailable" : ""}">
+              <div class="swatch-visual" style="background:${presentedStop.displayHex}; color:${presentedStop.displayTextColor}">
                 <span class="swatch-index">${escapeHtml(stop.letter)}</span>
                 <div class="swatch-label">${escapeHtml(stop.title)}</div>
               </div>
               <div class="swatch-body">
-                <p class="swatch-note">${escapeHtml(stop.note)}</p>
+                <p class="swatch-note">${escapeHtml(presentedStop.displayNote)}</p>
                 <div class="match-list">${matchesMarkup}</div>
               </div>
             </article>
@@ -2560,17 +3099,113 @@ function renderSwatches(groups, baseStop) {
     .join("")}`;
 }
 
-function renderWheel(activeColors, stops) {
-  const cloud = activeColors
-    .filter((color) => !color.isNeutral)
-    .map((color) => {
-      const point = polarPoint(color.h, color.s);
-      return `<circle class="wheel-cloud-dot" cx="${point.x.toFixed(2)}" cy="${point.y.toFixed(2)}" r="2" fill="${color.hex}" />`;
-    })
-    .join("");
+function renderWheelSurface(wheelEntries) {
+  if (!elements.wheelSurface) {
+    return;
+  }
+
+  elements.wheelSurface.classList.toggle("is-hidden", !state.showWheelSurface);
+
+  if (!state.showWheelSurface) {
+    return;
+  }
+
+  const rect = getWheelInteractionRect();
+
+  if (!rect.width || !rect.height) {
+    return;
+  }
+
+  const resolution = clamp(
+    Math.round(Math.min(rect.width, rect.height) * (window.devicePixelRatio || 1) * WHEEL_SURFACE_RESOLUTION_FACTOR),
+    WHEEL_SURFACE_RESOLUTION_MIN,
+    WHEEL_SURFACE_RESOLUTION_MAX,
+  );
+  const cacheKey = `${[...state.selectedBrands].sort().join("|")}|${resolution}`;
+
+  if (wheelSurfaceCacheKey === cacheKey) {
+    return;
+  }
+
+  const context = elements.wheelSurface.getContext("2d");
+
+  if (!context) {
+    return;
+  }
+
+  elements.wheelSurface.width = resolution;
+  elements.wheelSurface.height = resolution;
+  context.clearRect(0, 0, resolution, resolution);
+  context.imageSmoothingEnabled = true;
+
+  if (!wheelEntries.length) {
+    wheelSurfaceCacheKey = cacheKey;
+    return;
+  }
+
+  const center = resolution / 2;
+  const maxRadius = center - 1;
+  const imageData = context.createImageData(resolution, resolution);
+  const { data } = imageData;
+
+  for (let y = 0; y < resolution; y += 1) {
+    for (let x = 0; x < resolution; x += 1) {
+      const normalizedX = (x + 0.5 - center) / maxRadius;
+      const normalizedY = (y + 0.5 - center) / maxRadius;
+      const radialDistance = Math.sqrt(normalizedX ** 2 + normalizedY ** 2);
+
+      if (radialDistance > 1) {
+        continue;
+      }
+
+      const worldX = normalizedX * WHEEL_RADIUS;
+      const worldY = normalizedY * WHEEL_RADIUS;
+      const mixed = blendWheelSurfaceColor(worldX, worldY, wheelEntries);
+
+      if (!mixed) {
+        continue;
+      }
+
+      const alpha = radialDistance > 0.97 ? clamp((1 - radialDistance) / 0.03, 0, 1) : 1;
+      const offset = (y * resolution + x) * 4;
+
+      data[offset] = mixed.r;
+      data[offset + 1] = mixed.g;
+      data[offset + 2] = mixed.b;
+      data[offset + 3] = Math.round(alpha * 255);
+    }
+  }
+
+  context.putImageData(imageData, 0, 0);
+  wheelSurfaceCacheKey = cacheKey;
+}
+
+function renderWheel(wheelEntries, stops) {
+  const cloud = state.showWheelSprays
+    ? [...wheelEntries]
+        .sort((first, second) => {
+          if (first.color.isNeutral !== second.color.isNeutral) {
+            return first.color.isNeutral ? -1 : 1;
+          }
+
+          return second.lightness - first.lightness || second.radius - first.radius;
+        })
+        .map((entry) => {
+          const radius = entry.color.isNeutral ? 4.2 : 4.8;
+          const opacity = 1;
+
+          return `<circle class="wheel-cloud-dot${entry.color.isNeutral ? " is-neutral" : ""}" cx="${entry.point.x.toFixed(
+            2,
+          )}" cy="${entry.point.y.toFixed(2)}" r="${radius}" fill="${entry.color.hex}" opacity="${opacity}" />`;
+        })
+        .join("")
+    : "";
 
   const guides = [0.25, 0.5, 0.75, 1]
-    .map((step) => `<circle cx="0" cy="0" r="${(step * WHEEL_RADIUS).toFixed(2)}" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" />`)
+    .map(
+      (step) =>
+        `<circle cx="0" cy="0" r="${(step * WHEEL_RADIUS).toFixed(2)}" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" />`,
+    )
     .join("");
 
   const axes = [0, 45, 90, 135]
@@ -2582,16 +3217,23 @@ function renderWheel(activeColors, stops) {
     })
     .join("");
 
-  const points = stops.map((stop) => ({
-    ...stop,
-    point: polarPoint(stop.hsl.h, stop.hsl.s),
-  }));
+  const boundary = `<circle cx="0" cy="0" r="${WHEEL_RADIUS.toFixed(2)}" fill="none" stroke="rgba(15,23,42,0.18)" stroke-width="1.4" />`;
+
+  const points = stops.map((stop) => {
+    const presentedStop = getStopPresentation(stop);
+
+    return {
+      ...stop,
+      ...presentedStop,
+      point: getWheelPlacement(presentedStop.pointSource).point,
+    };
+  });
 
   const connectors = points
     .slice(1)
     .map(
       (stop) =>
-        `<line x1="${points[0].point.x.toFixed(2)}" y1="${points[0].point.y.toFixed(2)}" x2="${stop.point.x.toFixed(2)}" y2="${stop.point.y.toFixed(2)}" stroke="${stop.hex}" stroke-width="${points.length > 8 ? "1.8" : "2.6"}" stroke-linecap="round" opacity="${points.length > 8 ? "0.62" : "0.9"}" />`,
+        `<line x1="${points[0].point.x.toFixed(2)}" y1="${points[0].point.y.toFixed(2)}" x2="${stop.point.x.toFixed(2)}" y2="${stop.point.y.toFixed(2)}" stroke="${stop.displayHex}" stroke-width="${points.length > 8 ? "1.8" : "2.6"}" stroke-linecap="round" opacity="${stop.isUnavailable ? "0.38" : points.length > 8 ? "0.62" : "0.9"}" />`,
     )
     .join("");
 
@@ -2601,7 +3243,7 @@ function renderWheel(activeColors, stops) {
       const showLabel = index === 0 || points.length <= 8;
       return `
         <g transform="translate(${stop.point.x.toFixed(2)} ${stop.point.y.toFixed(2)})">
-          <circle r="${radius}" fill="${stop.hex}" stroke="rgba(255,255,255,0.94)" stroke-width="3"></circle>
+          <circle r="${radius}" fill="${stop.displayHex}" stroke="${stop.isUnavailable ? "rgba(71,85,105,0.92)" : "rgba(255,255,255,0.94)"}" stroke-width="3"></circle>
           ${showLabel ? `<text class="wheel-handle-label" x="0" y="1">${escapeHtml(stop.letter)}</text>` : ""}
         </g>
       `;
@@ -2612,6 +3254,7 @@ function renderWheel(activeColors, stops) {
     <g>
       ${guides}
       ${axes}
+      ${boundary}
       ${cloud}
       ${connectors}
       ${handles}
@@ -2634,6 +3277,7 @@ function syncWheelPanelHeight() {
 
 function render() {
   const activeColors = getActiveColors();
+  const wheelEntries = buildWheelEntries(activeColors);
   const baseColor = createBaseColor();
   const contexts = getTheoryContexts(baseColor);
   const palette = buildPaletteGroups(baseColor, contexts, activeColors);
@@ -2656,12 +3300,15 @@ function render() {
   renderPickerResults(pickerResults);
   renderCart();
   renderRule(contexts);
+  renderWheelVisibilityControls();
+  renderWheelGuide(baseColor);
   renderBaseCaption(baseColor);
   renderTheoryNote(contexts);
   renderPaletteSummary(palette.groups);
   renderPaletteReference(palette.baseStop, palette.groups);
   renderSwatches(palette.groups, palette.baseStop);
-  renderWheel(activeColors, wheelStops);
+  renderWheelSurface(wheelEntries);
+  renderWheel(wheelEntries, wheelStops);
   syncWheelPanelHeight();
   schedulePersistAppState();
 }
@@ -2673,6 +3320,7 @@ function setBaseFromColor(color) {
     l: color.l,
   };
   state.baseOrigin = { kind: "spray", id: color.id };
+  state.baseWheelPointSource = null;
   render();
 }
 
@@ -2683,16 +3331,32 @@ function setBaseFromImageColor(color) {
     l: color.l,
   };
   state.baseOrigin = { kind: "image", id: color.id };
+  state.baseWheelPointSource = null;
   render();
 }
 
-function setBase(next, origin = null) {
+function setBase(next, origin = null, pointSource = undefined) {
   state.base = {
     h: normalizeHue(next.h ?? state.base.h),
     s: clamp(next.s ?? state.base.s, 0, 1),
     l: clamp(next.l ?? state.base.l, 0, 1),
   };
   state.baseOrigin = origin;
+  if (pointSource !== undefined) {
+    state.baseWheelPointSource = pointSource;
+  } else if (!origin && state.baseWheelPointSource && next.s == null) {
+    const current = state.baseWheelPointSource.lch;
+    state.baseWheelPointSource = {
+      lch: {
+        l: (next.l ?? state.base.l) * 100,
+        c: current.c,
+        h: normalizeHue(next.h ?? current.h),
+      },
+      lab: lchToLab((next.l ?? state.base.l) * 100, current.c, normalizeHue(next.h ?? current.h)),
+    };
+  } else {
+    state.baseWheelPointSource = null;
+  }
   render();
 }
 
@@ -2718,6 +3382,36 @@ function setBrandPreset(presetId) {
 
   state.selectedBrands = new Set(preset.brands);
 
+  render();
+}
+
+function toggleWheelLayer(layer) {
+  if (layer === "surface") {
+    state.showWheelSurface = !state.showWheelSurface;
+  }
+
+  if (layer === "sprays") {
+    state.showWheelSprays = !state.showWheelSprays;
+  }
+
+  render();
+}
+
+function setWheelSnapMode(mode) {
+  if (mode !== "theory" && mode !== "cans") {
+    return;
+  }
+
+  if (state.wheelSnapMode === mode) {
+    return;
+  }
+
+  state.wheelSnapMode = mode;
+  render();
+}
+
+function toggleWheelGuide() {
+  state.showWheelGuide = !state.showWheelGuide;
   render();
 }
 
@@ -2758,23 +3452,33 @@ function parseHexInput(value) {
 }
 
 function updateBaseFromWheelEvent(event) {
-  const rect = elements.wheelShell.getBoundingClientRect();
+  const rect = getWheelInteractionRect();
   const centerX = rect.left + rect.width / 2;
   const centerY = rect.top + rect.height / 2;
-  const scale = 440 / rect.width;
+  const scale = (WHEEL_RADIUS * 2) / Math.min(rect.width, rect.height);
   const x = (event.clientX - centerX) * scale;
   const y = (event.clientY - centerY) * scale;
-  const distance = Math.min(Math.sqrt(x ** 2 + y ** 2), WHEEL_RADIUS);
-  const hue = normalizeHue((Math.atan2(y, x) * 180) / Math.PI + 90);
-  const saturation = clamp(distance / WHEEL_RADIUS, 0, 1);
+  const lightness = getWheelSelectionLightness();
+  const wheelEntries = buildWheelEntries(getActiveColors());
+  const target = createWheelTargetColor(x, y, lightness);
+  
+  if (state.wheelSnapMode === "cans") {
+    const match = findClosestWheelEntry(x, y, wheelEntries);
+
+    if (match?.entry?.color) {
+      setBaseFromColor(match.entry.color);
+      return;
+    }
+  }
 
   setBase(
     {
-      h: hue,
-      s: saturation,
-      l: state.base.l,
+      h: target.h,
+      s: target.s,
+      l: target.l,
     },
     null,
+    target.wheelPointSource,
   );
 }
 
@@ -2851,7 +3555,7 @@ function bindEvents() {
   });
 
   elements.imageClear.addEventListener("click", clearImageSelection);
-  elements.imagePaletteReset.addEventListener("click", clearImageSelection);
+  elements.imagePaletteReset.addEventListener("click", clearPalette);
   elements.imageStage.addEventListener("click", () => {
     if (state.imageAsset && !isCompactMobileViewport()) {
       openImageModal();
@@ -2914,46 +3618,41 @@ function bindEvents() {
     updateImageSampleFromCanvasEvent(elements.imageModalCanvas, elements.imageModalCrosshair, event);
   });
 
-  elements.imageInlinePalette.addEventListener("click", (event) => {
-    const target = event.target.closest("[data-image-color-id]");
+  const handlePaletteInteraction = (event) => {
+    const removeTarget = event.target.closest("[data-palette-remove-color-id]");
 
-    if (!target) {
+    if (removeTarget) {
+      removePaletteColor(removeTarget.dataset.paletteRemoveColorId);
       return;
     }
 
-    const color = state.imagePalette.find((entry) => entry.id === target.dataset.imageColorId);
+    const cartTarget = event.target.closest("[data-palette-cart-color-id]");
 
-    if (color) {
-      setBaseFromImageColor(color);
-    }
-  });
-  elements.imagePalette.addEventListener("click", (event) => {
-    const target = event.target.closest("[data-image-color-id]");
+    if (cartTarget) {
+      const color = state.imagePalette.find((entry) => entry.id === cartTarget.dataset.paletteCartColorId);
 
-    if (!target) {
+      if (color) {
+        addPaletteColorToCart(color);
+      }
       return;
     }
 
-    const color = state.imagePalette.find((entry) => entry.id === target.dataset.imageColorId);
+    const selectTarget = event.target.closest("[data-palette-select-color-id]");
 
-    if (color) {
-      setBaseFromImageColor(color);
-    }
-  });
-
-  elements.imageModalPalette.addEventListener("click", (event) => {
-    const target = event.target.closest("[data-image-color-id]");
-
-    if (!target) {
+    if (!selectTarget) {
       return;
     }
 
-    const color = state.imagePalette.find((entry) => entry.id === target.dataset.imageColorId);
+    const color = state.imagePalette.find((entry) => entry.id === selectTarget.dataset.paletteSelectColorId);
 
     if (color) {
-      setBaseFromImageColor(color);
+      selectPaletteColor(color);
     }
-  });
+  };
+
+  elements.imageInlinePalette.addEventListener("click", handlePaletteInteraction);
+  elements.imagePalette.addEventListener("click", handlePaletteInteraction);
+  elements.imageModalPalette.addEventListener("click", handlePaletteInteraction);
 
   elements.theoryGroups.addEventListener("click", (event) => {
     const tooltipClose = event.target.closest("[data-theory-tooltip-close]");
@@ -3002,6 +3701,26 @@ function bindEvents() {
     }
 
     toggleBrand(target.dataset.brandId);
+  });
+
+  elements.wheelSurfaceToggle.addEventListener("click", () => {
+    toggleWheelLayer("surface");
+  });
+
+  elements.wheelSpraysToggle.addEventListener("click", () => {
+    toggleWheelLayer("sprays");
+  });
+
+  elements.wheelSnapTheory.addEventListener("click", () => {
+    setWheelSnapMode("theory");
+  });
+
+  elements.wheelSnapCans.addEventListener("click", () => {
+    setWheelSnapMode("cans");
+  });
+
+  elements.wheelGuideToggle.addEventListener("click", () => {
+    toggleWheelGuide();
   });
 
   elements.hueRange.addEventListener("input", (event) => {
@@ -3063,6 +3782,17 @@ function bindEvents() {
   });
 
   elements.pickerResults.addEventListener("click", (event) => {
+    const paletteTarget = event.target.closest("[data-palette-color-id]");
+
+    if (paletteTarget) {
+      const color = state.allColors.find((entry) => entry.id === paletteTarget.dataset.paletteColorId);
+
+      if (color) {
+        addSprayColorToPalette(color);
+      }
+      return;
+    }
+
     const target = event.target.closest("[data-color-id]");
     if (!target) {
       return;
@@ -3091,28 +3821,41 @@ function bindEvents() {
       return;
     }
 
-    const baseOriginTarget = event.target.closest("[data-base-origin-color-id]");
+    const choicePaletteTarget = event.target.closest("[data-choice-palette-color-id]");
 
-    if (baseOriginTarget) {
-      const color = state.allColors.find((entry) => entry.id === baseOriginTarget.dataset.baseOriginColorId);
+    if (choicePaletteTarget) {
+      const color = state.allColors.find((entry) => entry.id === choicePaletteTarget.dataset.choicePaletteColorId);
 
       if (color) {
         state.activeColorTooltipId = null;
-        setBaseFromColor(color);
+        addSprayColorToPalette(color);
       }
       return;
     }
 
-    const target = event.target.closest("[data-cart-color-id]");
-    if (!target) {
+    const choiceCartTarget = event.target.closest("[data-choice-cart-color-id]");
+
+    if (choiceCartTarget) {
+      const color = state.allColors.find((entry) => entry.id === choiceCartTarget.dataset.choiceCartColorId);
+
+      if (color) {
+        state.activeColorTooltipId = null;
+        addColorToCart(color);
+      }
+      return;
+    }
+
+    const selectTarget = event.target.closest("[data-choice-color-id]");
+
+    if (!selectTarget) {
       state.activeColorTooltipId = null;
       return;
     }
 
-    const color = state.allColors.find((entry) => entry.id === target.dataset.cartColorId);
+    const color = state.allColors.find((entry) => entry.id === selectTarget.dataset.choiceColorId);
     if (color) {
       state.activeColorTooltipId = null;
-      addColorToCart(color);
+      setBaseFromColor(color);
     }
   });
 
@@ -3139,6 +3882,7 @@ function bindEvents() {
   elements.wheelShell.addEventListener("pointerdown", (event) => {
     event.preventDefault();
     state.draggingWheel = true;
+    state.wheelDragLightness = state.base.l;
     elements.wheelShell.setPointerCapture(event.pointerId);
     updateBaseFromWheelEvent(event);
   });
@@ -3154,6 +3898,7 @@ function bindEvents() {
 
   const stopDrag = () => {
     state.draggingWheel = false;
+    state.wheelDragLightness = null;
   };
 
   elements.wheelShell.addEventListener("pointerup", stopDrag);
