@@ -116,6 +116,75 @@ function normalizeMontanaBlackCatalog(items) {
   };
 }
 
+function normalizeMontanaGoldCatalog(rawCatalog) {
+  const buildSourceNote = () => {
+    const categories = Array.isArray(rawCatalog.source?.urls)
+      ? rawCatalog.source.urls.map((entry) => entry.title).join(", ")
+      : "";
+    const chartReference = rawCatalog.source?.chartReferenceNote || null;
+
+    return [categories ? `Combined from official product pages: ${categories}.` : null, chartReference]
+      .filter(Boolean)
+      .join(" ");
+  };
+
+  const detectFinish = (item) => {
+    if (item.family === "T") {
+      return "transparent";
+    }
+
+    if (item.category === "metallic") {
+      return "matt";
+    }
+
+    return null;
+  };
+
+  return {
+    manufacturer: {
+      id: "montana-gold",
+      label: "Montana GOLD",
+      accent: "#C59B56",
+      series: "400ml",
+      source: {
+        name: rawCatalog.source?.name || "Montana GOLD 400ml",
+        url: rawCatalog.source?.primaryUrl || rawCatalog.source?.chartReferenceUrl || "https://www.montana-cans.com/",
+        note: buildSourceNote() || null,
+      },
+    },
+    colors: rawCatalog.colors.map((item, index) => ({
+      id: item.ordernumber || item.pid || `montana-gold-${index + 1}`,
+      code: item.code || "",
+      name: item.name || `Montana GOLD ${index + 1}`,
+      label: [item.code, item.name].filter(Boolean).join(" ") || `Montana GOLD ${index + 1}`,
+      hex: String(item.hex || "").toUpperCase(),
+      finish: detectFinish(item),
+      opacity: null,
+      coverage: item.coverage ? String(item.coverage).toLowerCase() : null,
+      lightfastness: item.lightfastness || null,
+      pigments: item.pigments || null,
+      aliases: item.aliases || [],
+      sourceLabel: item.sourceLabel || "",
+      meta: {
+        sourceType: rawCatalog.source?.type || "shop-pages",
+        sourceUrl: item.sourceUrl || null,
+        title: item.title || null,
+        category: item.category || null,
+        family: item.family || null,
+        rawCode: item.rawCode || null,
+        rawName: item.rawName || null,
+        ordernumber: item.ordernumber || null,
+        ean: item.ean || null,
+        pid: item.pid || null,
+        rgb: item.rgb || null,
+        cmyk: item.cmyk || null,
+        secondaryHex: item.hex2 || null,
+        hexFallbackNote: item.fallbackNote || null,
+      },
+    })),
+  };
+}
+
 function normalizeFlameCatalog(rawCatalog, manufacturer) {
   return {
     manufacturer: {
@@ -353,6 +422,7 @@ function normalizeKobraCatalog(rawCatalog, manufacturer) {
 async function main() {
   const loopRaw = await readJson("loop.json");
   const montanaBlackRaw = await readJson("montana-black.json");
+  const montanaGoldRaw = await readJson("montana-gold.json");
   const flameOrangeRaw = await readJson("flame-orange.json");
   const flameBlueRaw = await readJson("flame-blue.json");
   const molotowBeltonRaw = await readJson("molotow-belton.json");
@@ -363,6 +433,7 @@ async function main() {
 
   const loop = normalizeLoopCatalog(loopRaw);
   const montanaBlack = normalizeMontanaBlackCatalog(montanaBlackRaw);
+  const montanaGold = normalizeMontanaGoldCatalog(montanaGoldRaw);
   const flameOrange = normalizeFlameCatalog(flameOrangeRaw, {
     id: "flame-orange",
     label: "FLAME ORANGE",
@@ -406,6 +477,10 @@ async function main() {
         path: "./montana-black.json",
       },
       {
+        id: montanaGold.manufacturer.id,
+        path: "./montana-gold.json",
+      },
+      {
         id: flameOrange.manufacturer.id,
         path: "./flame-orange.json",
       },
@@ -439,6 +514,7 @@ async function main() {
   await writeJson("index.json", manifest);
   await writeJson("loop.json", loop);
   await writeJson("montana-black.json", montanaBlack);
+  await writeJson("montana-gold.json", montanaGold);
   await writeJson("flame-orange.json", flameOrange);
   await writeJson("flame-blue.json", flameBlue);
   await writeJson("molotow-belton.json", molotowBelton);

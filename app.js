@@ -47,6 +47,10 @@ const IMAGE_PREVIEW_FALLBACK_WIDTH = 320;
 const IMAGE_PREVIEW_MAX_HEIGHT = 260;
 const IMAGE_MODAL_FALLBACK_WIDTH = 860;
 const IMAGE_MODAL_FALLBACK_HEIGHT = 680;
+const IMAGE_MODAL_ZOOM_MIN = 1;
+const IMAGE_MODAL_ZOOM_MAX = 6;
+const IMAGE_MODAL_ZOOM_STEP = 0.25;
+const IMAGE_MODAL_ZOOM_DEFAULT = 1;
 const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 const SIDEBAR_TABS = new Set(["image-upload", "image-palette", "hue", "picker"]);
 const THEORY_BY_ID = new Map(THEORIES.map((theory) => [theory.id, theory]));
@@ -62,6 +66,7 @@ const THEORY_ALIAS_ENTRIES = getTheoryAliasEntries()
 
 let persistedAppSnapshot = null;
 let persistAppStateTimer = 0;
+let copiedChoiceActionTimer = 0;
 let wheelSurfaceCacheKey = "";
 
 const state = {
@@ -76,7 +81,9 @@ const state = {
   imageSampleColor: null,
   activeSidebarTab: "hue",
   isImageModalOpen: false,
+  imageModalZoom: IMAGE_MODAL_ZOOM_DEFAULT,
   isCartModalOpen: false,
+  copiedChoiceActionKey: null,
   activeColorTooltipId: null,
   expandedAlgoIds: new Set(),
   base: {
@@ -153,8 +160,15 @@ const elements = {
   imageModalHint: document.querySelector("#image-modal-hint"),
   imageModalStage: document.querySelector("#image-modal-stage"),
   imageModalEmpty: document.querySelector("#image-modal-empty"),
+  imageModalViewport: document.querySelector("#image-modal-viewport"),
   imageModalCanvas: document.querySelector("#image-modal-canvas"),
   imageModalCrosshair: document.querySelector("#image-modal-crosshair"),
+  imageModalZoomLabel: document.querySelector("#image-modal-zoom-label"),
+  imageModalZoomValue: document.querySelector("#image-modal-zoom-value"),
+  imageModalZoomOut: document.querySelector("#image-modal-zoom-out"),
+  imageModalZoomRange: document.querySelector("#image-modal-zoom-range"),
+  imageModalZoomIn: document.querySelector("#image-modal-zoom-in"),
+  imageModalZoomReset: document.querySelector("#image-modal-zoom-reset"),
   imageModalSample: document.querySelector("#image-modal-sample"),
   imageModalSaveColor: document.querySelector("#image-modal-save-color"),
   imageModalPaletteLabel: document.querySelector("#image-modal-palette-label"),
@@ -251,6 +265,41 @@ function formatLanguageDate(value) {
     dateStyle: "long",
     timeStyle: "short",
   }).format(value);
+}
+
+function normalizeReferenceToken(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, "");
+}
+
+function getColorDisplayLabel(color) {
+  return String(color?.label || color?.name || color?.hex || "").trim();
+}
+
+function buildColorReferenceText(color) {
+  if (!color) {
+    return "";
+  }
+
+  const brand = String(color.brandLabel || "").trim();
+  const code = String(color.code || "").trim();
+  const label = getColorDisplayLabel(color);
+  const labelToken = normalizeReferenceToken(label);
+  const codeToken = normalizeReferenceToken(code);
+  const includeCode = Boolean(code && (!label || !codeToken || !labelToken.includes(codeToken)));
+
+  return [brand, includeCode ? code : "", label || color.hex].filter(Boolean).join(" · ");
+}
+
+function clampImageModalZoom(value) {
+  const normalized = Math.round((Number(value) || IMAGE_MODAL_ZOOM_DEFAULT) / IMAGE_MODAL_ZOOM_STEP) * IMAGE_MODAL_ZOOM_STEP;
+  return clamp(Number(normalized.toFixed(2)), IMAGE_MODAL_ZOOM_MIN, IMAGE_MODAL_ZOOM_MAX);
+}
+
+function formatImageModalZoom(value) {
+  return `${Math.round(clampImageModalZoom(value) * 100)}%`;
 }
 
 function loadLanguageFromStorage() {
@@ -503,6 +552,11 @@ function renderStaticText() {
   elements.imageModalEyebrow.textContent = ui("imageLabel");
   elements.imageModalTitle.textContent = ui("imageModalTitle");
   elements.imageModalClose.textContent = ui("close");
+  elements.imageModalZoomLabel.textContent = ui("imageModalZoomLabel");
+  elements.imageModalZoomOut.setAttribute("aria-label", ui("imageModalZoomOut"));
+  elements.imageModalZoomIn.setAttribute("aria-label", ui("imageModalZoomIn"));
+  elements.imageModalZoomReset.textContent = ui("imageModalZoomReset");
+  elements.imageModalZoomReset.setAttribute("aria-label", ui("imageModalZoomReset"));
   elements.imageModalHint.textContent = ui("imageModalHint");
   elements.imageModalSaveColor.textContent = ui("imageSaveColor");
   elements.imageModalPaletteLabel.textContent = ui("imagePaletteLabel");
@@ -527,6 +581,7 @@ function renderStaticText() {
   elements.wheelSvg.setAttribute("aria-label", ui("wheelAria"));
   elements.imageCanvas.setAttribute("aria-label", ui("imagePreviewAria"));
   elements.imageModalCanvas.setAttribute("aria-label", ui("imageCanvasAria"));
+  elements.imageModalZoomRange.setAttribute("aria-label", ui("imageModalZoomLabel"));
   elements.languageSelect.setAttribute("aria-label", ui("languageLabel"));
   elements.imageInput.setAttribute("aria-label", ui("imageUploadLabel"));
   elements.imageOpenModal.setAttribute("aria-label", ui("imageOpenModal"));
@@ -983,6 +1038,76 @@ function clearCart() {
   state.cartItems = [];
   persistCart();
   render();
+}
+
+async function copyTextToClipboard(value) {
+  const text = String(value || "");
+
+  if (!text) {
+    return false;
+  }
+
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch {
+    // Fall through to the legacy copy approach.
+  }
+
+  try {
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.setAttribute("readonly", "");
+    textarea.style.position = "fixed";
+    textarea.style.top = "0";
+    textarea.style.left = "0";
+    textarea.style.opacity = "0";
+    textarea.style.pointerEvents = "none";
+    document.body.append(textarea);
+    textarea.focus();
+    textarea.select();
+    textarea.setSelectionRange(0, text.length);
+    const copied = document.execCommand("copy");
+    textarea.remove();
+    return copied;
+  } catch {
+    return false;
+  }
+}
+
+function flashCopiedChoiceAction(actionKey) {
+  state.copiedChoiceActionKey = actionKey;
+
+  if (copiedChoiceActionTimer) {
+    window.clearTimeout(copiedChoiceActionTimer);
+  }
+
+  render();
+
+  copiedChoiceActionTimer = window.setTimeout(() => {
+    copiedChoiceActionTimer = 0;
+    state.copiedChoiceActionKey = null;
+    render();
+  }, 1400);
+}
+
+async function copySprayChoiceValue(color, copyKind) {
+  if (!color) {
+    return;
+  }
+
+  const value = copyKind === "reference" ? buildColorReferenceText(color) : color.hex;
+  const actionKey = `${copyKind}:${color.id}`;
+  const copied = await copyTextToClipboard(value);
+
+  if (!copied) {
+    window.alert(ui("copyFailed"));
+    return;
+  }
+
+  flashCopiedChoiceAction(actionKey);
 }
 
 function buildPrintableCartDocument(items) {
@@ -1442,6 +1567,41 @@ function drawImageCanvas(canvas, maxWidth, maxHeight) {
   context.drawImage(state.imageAsset.sampleCanvas, 0, 0, displayWidth, displayHeight);
 }
 
+function drawZoomableImageCanvas(canvas, maxWidth, maxHeight, zoom = IMAGE_MODAL_ZOOM_DEFAULT) {
+  if (!state.imageAsset || !canvas) {
+    return;
+  }
+
+  const context = canvas.getContext("2d");
+
+  if (!context) {
+    return;
+  }
+
+  const { displayWidth: fitWidth, displayHeight: fitHeight } = getImageFitDimensions(maxWidth, maxHeight);
+  const safeZoom = clampImageModalZoom(zoom);
+  const displayWidth = Math.max(1, Math.round(fitWidth * safeZoom));
+  const displayHeight = Math.max(1, Math.round(fitHeight * safeZoom));
+  const devicePixelRatio = window.devicePixelRatio || 1;
+  const renderScale = Math.min(1, state.imageAsset.sampleWidth / displayWidth);
+  const renderWidth = Math.max(1, Math.round(displayWidth * renderScale * devicePixelRatio));
+  const renderHeight = Math.max(1, Math.round(displayHeight * renderScale * devicePixelRatio));
+
+  canvas.width = renderWidth;
+  canvas.height = renderHeight;
+  canvas.style.width = `${displayWidth}px`;
+  canvas.style.maxWidth = "none";
+  canvas.style.height = `${displayHeight}px`;
+  canvas.style.maxHeight = "none";
+  canvas.style.aspectRatio = `${fitWidth} / ${fitHeight}`;
+  canvas.style.imageRendering = safeZoom > 2 ? "pixelated" : "auto";
+
+  context.setTransform(1, 0, 0, 1, 0, 0);
+  context.imageSmoothingEnabled = true;
+  context.clearRect(0, 0, renderWidth, renderHeight);
+  context.drawImage(state.imageAsset.sampleCanvas, 0, 0, renderWidth, renderHeight);
+}
+
 function clearRenderedImageCanvas(canvas) {
   if (!canvas) {
     return;
@@ -1461,6 +1621,7 @@ function clearRenderedImageCanvas(canvas) {
   canvas.style.height = "";
   canvas.style.maxHeight = "";
   canvas.style.aspectRatio = "";
+  canvas.style.imageRendering = "";
 }
 
 function hideImageCrosshair(crosshair = elements.imageCrosshair) {
@@ -1481,14 +1642,20 @@ function positionImageCrosshair(canvas, crosshair, clientX, clientY) {
   }
 
   const rect = canvas.getBoundingClientRect();
+  const offsetParentRect =
+    crosshair.parentElement?.getBoundingClientRect() || crosshair.offsetParent?.getBoundingClientRect() || rect;
 
   if (!rect.width || !rect.height) {
     hideImageCrosshair(crosshair);
     return;
   }
 
-  const x = clamp(clientX - rect.left, 0, rect.width);
-  const y = clamp(clientY - rect.top, 0, rect.height);
+  const minX = rect.left - offsetParentRect.left;
+  const maxX = minX + rect.width;
+  const minY = rect.top - offsetParentRect.top;
+  const maxY = minY + rect.height;
+  const x = clamp(clientX - offsetParentRect.left, minX, maxX);
+  const y = clamp(clientY - offsetParentRect.top, minY, maxY);
 
   crosshair.hidden = false;
   crosshair.style.left = `${x}px`;
@@ -1544,6 +1711,76 @@ function sampleImageColorAtCanvas(canvas, clientX, clientY) {
   };
 }
 
+function getImageModalViewportAnchor() {
+  const viewport = elements.imageModalViewport;
+
+  if (!viewport) {
+    return null;
+  }
+
+  const contentWidth = Math.max(viewport.scrollWidth, viewport.clientWidth, 1);
+  const contentHeight = Math.max(viewport.scrollHeight, viewport.clientHeight, 1);
+
+  return {
+    x: (viewport.scrollLeft + viewport.clientWidth / 2) / contentWidth,
+    y: (viewport.scrollTop + viewport.clientHeight / 2) / contentHeight,
+  };
+}
+
+function restoreImageModalViewportAnchor(anchor) {
+  const viewport = elements.imageModalViewport;
+
+  if (!viewport || !anchor) {
+    return;
+  }
+
+  const contentWidth = Math.max(viewport.scrollWidth, viewport.clientWidth, 1);
+  const contentHeight = Math.max(viewport.scrollHeight, viewport.clientHeight, 1);
+  const maxScrollLeft = Math.max(0, viewport.scrollWidth - viewport.clientWidth);
+  const maxScrollTop = Math.max(0, viewport.scrollHeight - viewport.clientHeight);
+
+  viewport.scrollLeft = clamp(anchor.x * contentWidth - viewport.clientWidth / 2, 0, maxScrollLeft);
+  viewport.scrollTop = clamp(anchor.y * contentHeight - viewport.clientHeight / 2, 0, maxScrollTop);
+}
+
+function setImageModalZoom(nextZoom) {
+  const normalizedZoom = clampImageModalZoom(nextZoom);
+
+  if (normalizedZoom === state.imageModalZoom) {
+    return;
+  }
+
+  const anchor = getImageModalViewportAnchor();
+  state.imageModalZoom = normalizedZoom;
+  hideImageCrosshair(elements.imageModalCrosshair);
+  render();
+
+  window.requestAnimationFrame(() => {
+    restoreImageModalViewportAnchor(anchor);
+  });
+}
+
+function resetImageModalZoom() {
+  setImageModalZoom(IMAGE_MODAL_ZOOM_DEFAULT);
+}
+
+function renderImageModalZoomControls() {
+  const hasImage = Boolean(state.imageAsset);
+  const zoom = clampImageModalZoom(state.imageModalZoom);
+  const canZoomOut = zoom > IMAGE_MODAL_ZOOM_MIN;
+  const canZoomIn = zoom < IMAGE_MODAL_ZOOM_MAX;
+
+  elements.imageModalZoomRange.min = String(IMAGE_MODAL_ZOOM_MIN);
+  elements.imageModalZoomRange.max = String(IMAGE_MODAL_ZOOM_MAX);
+  elements.imageModalZoomRange.step = String(IMAGE_MODAL_ZOOM_STEP);
+  elements.imageModalZoomRange.value = String(zoom);
+  elements.imageModalZoomValue.textContent = formatImageModalZoom(zoom);
+  elements.imageModalZoomOut.disabled = !hasImage || !canZoomOut;
+  elements.imageModalZoomIn.disabled = !hasImage || !canZoomIn;
+  elements.imageModalZoomRange.disabled = !hasImage;
+  elements.imageModalZoomReset.disabled = !hasImage || zoom === IMAGE_MODAL_ZOOM_DEFAULT;
+}
+
 function openImageModal() {
   if (!state.imageAsset || isCompactMobileViewport()) {
     return;
@@ -1552,6 +1789,7 @@ function openImageModal() {
   state.activeSidebarTab = "image-upload";
   state.isCartModalOpen = false;
   state.isImageModalOpen = true;
+  state.imageModalZoom = IMAGE_MODAL_ZOOM_DEFAULT;
   render();
 
   window.requestAnimationFrame(() => {
@@ -1565,6 +1803,7 @@ function closeImageModal({ restoreFocus = true } = {}) {
   }
 
   state.isImageModalOpen = false;
+  state.imageModalZoom = IMAGE_MODAL_ZOOM_DEFAULT;
   hideImageCrosshair(elements.imageModalCrosshair);
   render();
 
@@ -1649,6 +1888,7 @@ async function loadImageFile(file) {
     state.imageSampleColor = null;
     state.activeSidebarTab = "image-upload";
     state.isImageModalOpen = !isCompactMobileViewport();
+    state.imageModalZoom = IMAGE_MODAL_ZOOM_DEFAULT;
 
     elements.imageInput.value = "";
     hideAllImageCrosshairs();
@@ -1663,6 +1903,7 @@ async function loadImageFile(file) {
     state.imageAsset = null;
     state.imageSampleColor = null;
     state.isImageModalOpen = false;
+    state.imageModalZoom = IMAGE_MODAL_ZOOM_DEFAULT;
     hideAllImageCrosshairs();
     render();
     window.alert(ui("imageLoadError"));
@@ -1675,6 +1916,7 @@ function clearImageSelection() {
   state.imageAsset = null;
   state.imageSampleColor = null;
   state.isImageModalOpen = false;
+  state.imageModalZoom = IMAGE_MODAL_ZOOM_DEFAULT;
   state.activeSidebarTab = "image-upload";
 
   elements.imageInput.value = "";
@@ -2545,6 +2787,7 @@ function renderImageModal() {
   const hasImage = Boolean(state.imageAsset);
   const open = state.isImageModalOpen && hasImage && !isCompactMobileViewport();
 
+  renderImageModalZoomControls();
   elements.imageModal.hidden = !open;
   syncModalOpenState();
   elements.imageModalEmpty.innerHTML = `
@@ -2552,6 +2795,8 @@ function renderImageModal() {
   `;
   elements.imageModalStage.classList.toggle("is-empty", !hasImage);
   elements.imageModalStage.classList.toggle("is-interactive", hasImage);
+  elements.imageModalViewport.hidden = !hasImage;
+  elements.imageModalViewport.classList.toggle("is-zoomed", state.imageModalZoom > IMAGE_MODAL_ZOOM_DEFAULT);
   elements.imageModalEmpty.hidden = hasImage;
   elements.imageModalCanvas.hidden = !hasImage;
 
@@ -2577,7 +2822,7 @@ function renderImageModal() {
     Math.min(elements.imageModalStage.clientHeight || viewportStageCap, viewportStageCap) - 24,
   );
 
-  drawImageCanvas(elements.imageModalCanvas, maxWidth, maxHeight);
+  drawZoomableImageCanvas(elements.imageModalCanvas, maxWidth, maxHeight, state.imageModalZoom);
 }
 
 function syncModalOpenState() {
@@ -2702,6 +2947,12 @@ function renderSprayChoiceRow({ brand, color, badge, score, active, quantity, to
     .filter(Boolean)
     .join(" ");
   const matchTooltipId = tooltipId || `choice-${brand.id}-${color.id}`;
+  const copyHexActionKey = `hex:${color.id}`;
+  const copyReferenceActionKey = `reference:${color.id}`;
+  const copyHexLabel = ui(state.copiedChoiceActionKey === copyHexActionKey ? "copiedAction" : "copyHexAction");
+  const copyReferenceLabel = ui(
+    state.copiedChoiceActionKey === copyReferenceActionKey ? "copiedAction" : "copyReferenceAction",
+  );
 
   return `
     <article class="match-row ${rowClasses}">
@@ -2734,6 +2985,22 @@ function renderSprayChoiceRow({ brand, color, badge, score, active, quantity, to
         </span>
       </button>
       <div class="match-row-actions">
+        <button
+          class="cart-action match-action match-copy-action ${state.copiedChoiceActionKey === copyHexActionKey ? "is-copied" : ""}"
+          type="button"
+          data-choice-copy-color-id="${color.id}"
+          data-choice-copy-kind="hex"
+        >
+          ${escapeHtml(copyHexLabel)}
+        </button>
+        <button
+          class="cart-action match-action match-copy-action ${state.copiedChoiceActionKey === copyReferenceActionKey ? "is-copied" : ""}"
+          type="button"
+          data-choice-copy-color-id="${color.id}"
+          data-choice-copy-kind="reference"
+        >
+          ${escapeHtml(copyReferenceLabel)}
+        </button>
         <button class="cart-action match-action" type="button" data-choice-palette-color-id="${color.id}" ${inPalette ? "disabled" : ""}>
           ${escapeHtml(ui(inPalette ? "inPalette" : "imagePaletteLabel"))}
         </button>
@@ -3568,6 +3835,16 @@ function bindEvents() {
   elements.imageModalClose.addEventListener("click", () => {
     closeImageModal();
   });
+  elements.imageModalZoomOut.addEventListener("click", () => {
+    setImageModalZoom(state.imageModalZoom - IMAGE_MODAL_ZOOM_STEP);
+  });
+  elements.imageModalZoomIn.addEventListener("click", () => {
+    setImageModalZoom(state.imageModalZoom + IMAGE_MODAL_ZOOM_STEP);
+  });
+  elements.imageModalZoomReset.addEventListener("click", resetImageModalZoom);
+  elements.imageModalZoomRange.addEventListener("input", (event) => {
+    setImageModalZoom(Number(event.currentTarget.value));
+  });
   elements.imageModal.addEventListener("click", (event) => {
     if (event.target.closest("[data-image-modal-close]")) {
       closeImageModal();
@@ -3818,6 +4095,18 @@ function bindEvents() {
       event.preventDefault();
       event.stopPropagation();
       toggleColorTooltip(tooltipTrigger.dataset.colorTooltipId);
+      return;
+    }
+
+    const choiceCopyTarget = event.target.closest("[data-choice-copy-color-id][data-choice-copy-kind]");
+
+    if (choiceCopyTarget) {
+      const color = state.allColors.find((entry) => entry.id === choiceCopyTarget.dataset.choiceCopyColorId);
+
+      if (color) {
+        state.activeColorTooltipId = null;
+        void copySprayChoiceValue(color, choiceCopyTarget.dataset.choiceCopyKind);
+      }
       return;
     }
 

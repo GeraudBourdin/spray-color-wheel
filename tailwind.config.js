@@ -20,9 +20,9 @@ module.exports = {
         mono: ["IBM Plex Mono", "ui-monospace", "SFMono-Regular", "monospace"],
       },
       boxShadow: {
-        card: "0 24px 60px rgba(15, 23, 42, 0.12)",
-        soft: "0 12px 30px rgba(15, 23, 42, 0.09)",
-        glow: "0 18px 48px rgba(249, 115, 22, 0.18)",
+        card: "0 20px 52px rgba(15, 23, 42, 0.08), 0 4px 16px rgba(15, 23, 42, 0.04)",
+        soft: "0 10px 24px rgba(15, 23, 42, 0.06), 0 2px 8px rgba(15, 23, 42, 0.04)",
+        glow: "0 14px 34px rgba(249, 115, 22, 0.12)",
       },
     },
   },

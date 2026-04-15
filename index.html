@@ -385,11 +385,53 @@
             <div id="image-modal-empty" class="empty-state compact-empty">
               <p class="empty-copy">Aucune image chargee.</p>
             </div>
-            <canvas id="image-modal-canvas" hidden></canvas>
-            <div id="image-modal-crosshair" class="image-crosshair" hidden></div>
+            <div id="image-modal-viewport" class="image-modal-viewport" hidden>
+              <div id="image-modal-canvas-shell" class="image-canvas-shell image-modal-canvas-shell">
+                <canvas id="image-modal-canvas" hidden></canvas>
+                <div id="image-modal-crosshair" class="image-crosshair" hidden></div>
+              </div>
+            </div>
           </div>
 
           <aside class="image-modal-sidebar">
+            <div class="image-zoom-panel">
+              <div class="image-zoom-head">
+                <span id="image-modal-zoom-label" class="field-label">Zoom</span>
+                <output id="image-modal-zoom-value" for="image-modal-zoom-range">100%</output>
+              </div>
+
+              <div class="image-zoom-controls">
+                <button
+                  id="image-modal-zoom-out"
+                  class="cart-action image-zoom-button"
+                  type="button"
+                  aria-label="Zoom out"
+                >
+                  -
+                </button>
+                <input
+                  id="image-modal-zoom-range"
+                  type="range"
+                  min="1"
+                  max="6"
+                  step="0.25"
+                  value="1"
+                />
+                <button
+                  id="image-modal-zoom-in"
+                  class="cart-action image-zoom-button"
+                  type="button"
+                  aria-label="Zoom in"
+                >
+                  +
+                </button>
+              </div>
+
+              <button id="image-modal-zoom-reset" class="cart-action image-zoom-reset" type="button">
+                Fit
+              </button>
+            </div>
+
             <p id="image-modal-hint" class="image-copy">
               Clique dans l'image pour prelever une couleur plus precisement.
             </p>

@@ -1,0 +1,7486 @@
+{
+  "source": {
+    "type": "shop-pages",
+    "name": "Montana GOLD 400ml",
+    "primaryUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202",
+    "urls": [
+      {
+        "category": "colors",
+        "title": "Montana GOLD 400ml - Colors",
+        "url": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+      },
+      {
+        "category": "chrome-effect",
+        "title": "Montana GOLD 400ml - Chrome Effect Colors",
+        "url": "https://www.montana-cans.com/Montana-GOLD-400ml-Chrome-Effect-Colors/285936"
+      },
+      {
+        "category": "metallic",
+        "title": "Montana GOLD 400ml - Metallic Colors",
+        "url": "https://www.montana-cans.com/Montana-GOLD-400ml-Metallic-Colors/369759"
+      },
+      {
+        "category": "fluorescent",
+        "title": "Montana GOLD 400ml - Fluorescent Colors",
+        "url": "https://www.montana-cans.com/Montana-GOLD-400ml-Fluorescent-Colors/521409"
+      },
+      {
+        "category": "transparent",
+        "title": "Montana GOLD 400ml - Transparent Colors",
+        "url": "https://www.montana-cans.com/Montana-GOLD-400ml-Transparent-Colors/419362"
+      }
+    ],
+    "chartReferenceUrl": "https://cloud.montana-cans.com/index.php/s/GpyicN3nxScyJip",
+    "chartReferenceNote": "Lineup count verified against the shared Montana Cloud GOLD chart folder (EN PDF updated 2026-03-23).",
+    "expectedColorCount": 215
+  },
+  "colors": [
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1000",
+      "rawName": "Vanilla",
+      "code": "G 1000",
+      "name": "Vanilla",
+      "family": "G",
+      "sourceLabel": "G1000 Vanilla",
+      "aliases": [
+        "G1000",
+        "G1000 Vanilla"
+      ],
+      "ordernumber": "283895",
+      "ean": "4048500283895",
+      "pid": "4f5d5b3afb514dae82df5f0b755fa005",
+      "pigments": "PW 6 PY 74",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 255,
+        "G": 238,
+        "B": 155
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 5,
+        "Y": 49,
+        "K": 0
+      },
+      "hex": "#FFEE9B",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1010",
+      "rawName": "Easter Yellow",
+      "code": "G 1010",
+      "name": "Easter Yellow",
+      "family": "G",
+      "sourceLabel": "G1010 Easter Yellow",
+      "aliases": [
+        "G1010",
+        "G1010 Easter Yellow"
+      ],
+      "ordernumber": "283918",
+      "ean": "4048500283918",
+      "pid": "ed8b718d7c5c447c89d5e5e24b3b4c0f",
+      "pigments": "PW 6 PY 74",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 255,
+        "G": 227,
+        "B": 99
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 9,
+        "Y": 70,
+        "K": 0
+      },
+      "hex": "#FFE363",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1020",
+      "rawName": "Citrus",
+      "code": "G 1020",
+      "name": "Citrus",
+      "family": "G",
+      "sourceLabel": "G1020 Citrus",
+      "aliases": [
+        "G1020",
+        "G1020 Citrus"
+      ],
+      "ordernumber": "283925",
+      "ean": "4048500283925",
+      "pid": "33b8afb764e14f7e8c9b47718d200671",
+      "pigments": "PW 6 PY 74 PY 184",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 255,
+        "G": 217,
+        "B": 0
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 13,
+        "Y": 95,
+        "K": 0
+      },
+      "hex": "#FFD900",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1030",
+      "rawName": "Banana",
+      "code": "G 1030",
+      "name": "Banana",
+      "family": "G",
+      "sourceLabel": "G1030 Banana",
+      "aliases": [
+        "G1030",
+        "G1030 Banana"
+      ],
+      "ordernumber": "283932",
+      "ean": "4048500283932",
+      "pid": "b7f872fb381c4d4e9ce98ecd1a708a52",
+      "pigments": "PW 6 PY 74 PY 42",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 234,
+        "G": 194,
+        "B": 0
+      },
+      "cmyk": {
+        "C": 2,
+        "M": 19,
+        "Y": 100,
+        "K": 9
+      },
+      "hex": "#EABF00",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1040",
+      "rawName": "Asia",
+      "code": "G 1040",
+      "name": "Asia",
+      "family": "G",
+      "sourceLabel": "G1040 Asia",
+      "aliases": [
+        "G1040",
+        "G1040 Asia"
+      ],
+      "ordernumber": "283949",
+      "ean": "4048500283949",
+      "pid": "35550439d70f45bb8ae761fad1b9779d",
+      "pigments": "PW 6 PY 74 PY 42",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 229,
+        "G": 191,
+        "B": 0
+      },
+      "cmyk": {
+        "C": 3,
+        "M": 17,
+        "Y": 100,
+        "K": 11
+      },
+      "hex": "#E5BF00",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1050",
+      "rawName": "Curry",
+      "code": "G 1050",
+      "name": "Curry",
+      "family": "G",
+      "sourceLabel": "G1050 Curry",
+      "aliases": [
+        "G1050",
+        "G1050 Curry"
+      ],
+      "ordernumber": "283956",
+      "ean": "4048500283956",
+      "pid": "5c93dec4f9244feca2d9454a9e176678",
+      "pigments": "PW 6 PY 184 PY 42",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 198,
+        "G": 160,
+        "B": 24
+      },
+      "cmyk": {
+        "C": 7,
+        "M": 25,
+        "Y": 92,
+        "K": 23
+      },
+      "hex": "#C6A018",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1060",
+      "rawName": "Mustard",
+      "code": "G 1060",
+      "name": "Mustard",
+      "family": "G",
+      "sourceLabel": "G1060 Mustard",
+      "aliases": [
+        "G1060",
+        "G1060 Mustard"
+      ],
+      "ordernumber": "283963",
+      "ean": "4048500283963",
+      "pid": "88f23d862f6c426ca64e037655204b31",
+      "pigments": "PB 15:6 PY 184 PY 42",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 169,
+        "G": 135,
+        "B": 21
+      },
+      "cmyk": {
+        "C": 11,
+        "M": 29,
+        "Y": 93,
+        "K": 35
+      },
+      "hex": "#A98715",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1080",
+      "rawName": "Everglade",
+      "code": "G 1080",
+      "name": "Everglade",
+      "family": "G",
+      "sourceLabel": "G1080 Everglade",
+      "aliases": [
+        "G1080",
+        "G1080 Everglade"
+      ],
+      "ordernumber": "283970",
+      "ean": "4048500283970",
+      "pid": "4bba03e97bc94d56b4c0bd48ed3c0694",
+      "pigments": "PW 6 PV 23 PY 42",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 126,
+        "G": 100,
+        "B": 48
+      },
+      "cmyk": {
+        "C": 30,
+        "M": 42,
+        "Y": 79,
+        "K": 45
+      },
+      "hex": "#7E6430",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1100",
+      "rawName": "Butta",
+      "code": "G 1100",
+      "name": "Butta",
+      "family": "G",
+      "sourceLabel": "G1100 Butta",
+      "aliases": [
+        "G1100",
+        "G1100 Butta"
+      ],
+      "ordernumber": "283987",
+      "ean": "4048500283987",
+      "pid": "9e12209780514c0798fe7e0f024607d0",
+      "pigments": "PW 6 PY 184 PY 42",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 253,
+        "G": 240,
+        "B": 122
+      },
+      "cmyk": {
+        "C": 4,
+        "M": 0,
+        "Y": 65,
+        "K": 0
+      },
+      "hex": "#FDF07A",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1110",
+      "rawName": "Brimstone",
+      "code": "G 1110",
+      "name": "Brimstone",
+      "family": "G",
+      "sourceLabel": "G1110 Brimstone",
+      "aliases": [
+        "G1110",
+        "G1110 Brimstone"
+      ],
+      "ordernumber": "283994",
+      "ean": "4048500283994",
+      "pid": "d381fbeaed394e4bafac2ecbb5241ee8",
+      "pigments": "PW 6 PY 184",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 244,
+        "G": 230,
+        "B": 0
+      },
+      "cmyk": {
+        "C": 9,
+        "M": 0,
+        "Y": 93,
+        "K": 0
+      },
+      "hex": "#F4E600",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1120",
+      "rawName": "Banana Joe",
+      "code": "G 1120",
+      "name": "Banana Joe",
+      "family": "G",
+      "sourceLabel": "G1120 Banana Joe",
+      "aliases": [
+        "G1120",
+        "G1120 Banana Joe"
+      ],
+      "ordernumber": "284007",
+      "ean": "4048500283895",
+      "pid": "432daa61cdff49509fef5ebbbd55f238",
+      "pigments": "PW 6 PG 7 PY 74",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 221,
+        "G": 207,
+        "B": 30
+      },
+      "cmyk": {
+        "C": 11,
+        "M": 4,
+        "Y": 90,
+        "K": 10
+      },
+      "hex": "#DDCF1E",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "2",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1130",
+      "rawName": "Pepperoni Mild",
+      "code": "G 1130",
+      "name": "Pepperoni Mild",
+      "family": "G",
+      "sourceLabel": "G1130 Pepperoni Mild",
+      "aliases": [
+        "G1130",
+        "G1130 Pepperoni Mild"
+      ],
+      "ordernumber": "284014",
+      "ean": "4048500284014",
+      "pid": "10eb82f05edd4fec849a01b97f84a79e",
+      "pigments": "PW 6 PO 36 PY 74",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 187,
+        "G": 182,
+        "B": 47
+      },
+      "cmyk": {
+        "C": 21,
+        "M": 7,
+        "Y": 87,
+        "K": 19
+      },
+      "hex": "#BBB62F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1140",
+      "rawName": "Pepperoni Hot",
+      "code": "G 1140",
+      "name": "Pepperoni Hot",
+      "family": "G",
+      "sourceLabel": "G1140 Pepperoni Hot",
+      "aliases": [
+        "G1140",
+        "G1140 Pepperoni Hot"
+      ],
+      "ordernumber": "284021",
+      "ean": "4048500284021",
+      "pid": "21d6e7719e894c368a9d8ef7eef11d8f",
+      "pigments": "PW 6 PO 43 PY 74",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 139,
+        "G": 129,
+        "B": 47
+      },
+      "cmyk": {
+        "C": 29,
+        "M": 23,
+        "Y": 84,
+        "K": 39
+      },
+      "hex": "#8B812F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1150",
+      "rawName": "Reed",
+      "code": "G 1150",
+      "name": "Reed",
+      "family": "G",
+      "sourceLabel": "G1150 Reed",
+      "aliases": [
+        "G1150",
+        "G1150 Reed"
+      ],
+      "ordernumber": "284038",
+      "ean": "4048500284038",
+      "pid": "d4a21c70590e4ca5a544ea1c9560728c",
+      "pigments": "PY 184 PW 6 PBk 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 98,
+        "G": 94,
+        "B": 37
+      },
+      "cmyk": {
+        "C": 42,
+        "M": 32,
+        "Y": 86,
+        "K": 54
+      },
+      "hex": "#625E25",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1170",
+      "rawName": "Nato",
+      "code": "G 1170",
+      "name": "Nato",
+      "family": "G",
+      "sourceLabel": "G1170 Nato",
+      "aliases": [
+        "G1170",
+        "G1170 Nato"
+      ],
+      "ordernumber": "284045",
+      "ean": "4048500284045",
+      "pid": "e51938cd18d64dcf961ed3c4516b7c3d",
+      "pigments": "PR 170 PG 7 PY 42",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 70,
+        "G": 67,
+        "B": 43
+      },
+      "cmyk": {
+        "C": 53,
+        "M": 44,
+        "Y": 72,
+        "K": 65
+      },
+      "hex": "#46432B",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1180",
+      "rawName": "Military Green",
+      "code": "G 1180",
+      "name": "Military Green",
+      "family": "G",
+      "sourceLabel": "G1180 Military Green",
+      "aliases": [
+        "G1180",
+        "G1180 Military Green"
+      ],
+      "ordernumber": "284052",
+      "ean": "4048500284052",
+      "pid": "b5a94dc9b2454630af9372e496c19d35",
+      "pigments": "PY 184 PBk 7 PW 6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 37,
+        "G": 42,
+        "B": 34
+      },
+      "cmyk": {
+        "C": 68,
+        "M": 52,
+        "Y": 63,
+        "K": 78
+      },
+      "hex": "#252A22",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1200",
+      "rawName": "Pudding",
+      "code": "G 1200",
+      "name": "Pudding",
+      "family": "G",
+      "sourceLabel": "G1200 Pudding",
+      "aliases": [
+        "G1200",
+        "G1200 Pudding"
+      ],
+      "ordernumber": "284069",
+      "ean": "4048500284069",
+      "pid": "394812a79c6146d5a3c23c1e616d27ae",
+      "pigments": "PW 6 PY 83 PY 74",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 255,
+        "G": 221,
+        "B": 112
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 13,
+        "Y": 65,
+        "K": 0
+      },
+      "hex": "#FFDD70",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1210",
+      "rawName": "Yellow Submarine",
+      "code": "G 1210",
+      "name": "Yellow Submarine",
+      "family": "G",
+      "sourceLabel": "G1210 Yellow Submarine",
+      "aliases": [
+        "G1210",
+        "G1210 Yellow Submarine"
+      ],
+      "ordernumber": "284076",
+      "ean": "4048500284076",
+      "pid": "eec7f889b73748d1b1e824ee979ac35e",
+      "pigments": "PW 6 PY 184 PY 74",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 254,
+        "G": 204,
+        "B": 51
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 21,
+        "Y": 85,
+        "K": 0
+      },
+      "hex": "#FECC33",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1220",
+      "rawName": "Yellow Cab",
+      "code": "G 1220",
+      "name": "Yellow Cab",
+      "family": "G",
+      "sourceLabel": "G1220 Yellow Cab",
+      "aliases": [
+        "G1220",
+        "G1220 Yellow Cab"
+      ],
+      "ordernumber": "284083",
+      "ean": "4048500284083",
+      "pid": "013a9162f38640b39cf287c141bc9fe7",
+      "pigments": "PY 184 PW 6 PO 36",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 251,
+        "G": 184,
+        "B": 0
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 31,
+        "Y": 100,
+        "K": 0
+      },
+      "hex": "#FBB800",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1230",
+      "rawName": "Yolk",
+      "code": "G 1230",
+      "name": "Yolk",
+      "family": "G",
+      "sourceLabel": "G1230 Yolk",
+      "aliases": [
+        "G1230",
+        "G1230 Yolk"
+      ],
+      "ordernumber": "284090",
+      "ean": "4048500284090",
+      "pid": "0bb1e5dc618244ebae8e3d65bd98ea57",
+      "pigments": "PY 184 PW 6 PO 43",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 246,
+        "G": 160,
+        "B": 0
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 43,
+        "Y": 99,
+        "K": 0
+      },
+      "hex": "#F6A000",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1240",
+      "rawName": "Golden Yellow",
+      "code": "G 1240",
+      "name": "Golden Yellow",
+      "family": "G",
+      "sourceLabel": "G1240 Golden Yellow",
+      "aliases": [
+        "G1240",
+        "G1240 Golden Yellow"
+      ],
+      "ordernumber": "284106",
+      "ean": "4048500284106",
+      "pid": "447a93a870f6413da31c76aa3e5f8bd1",
+      "pigments": "PY 184 PO 43 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 235,
+        "G": 137,
+        "B": 4
+      },
+      "cmyk": {
+        "C": 1,
+        "M": 53,
+        "Y": 98,
+        "K": 3
+      },
+      "hex": "#EB8904",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1250",
+      "rawName": "Terra",
+      "code": "G 1250",
+      "name": "Terra",
+      "family": "G",
+      "sourceLabel": "G1250 Terra",
+      "aliases": [
+        "G1250",
+        "G1250 Terra"
+      ],
+      "ordernumber": "284113",
+      "ean": "4048500284113",
+      "pid": "213ad8dae9484e17838d3139446e4a94",
+      "pigments": "PY 184 PR 101 PW 6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 200,
+        "G": 118,
+        "B": 32
+      },
+      "cmyk": {
+        "C": 6,
+        "M": 55,
+        "Y": 91,
+        "K": 18
+      },
+      "hex": "#C87620",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1260",
+      "rawName": "Mushroom",
+      "code": "G 1260",
+      "name": "Mushroom",
+      "family": "G",
+      "sourceLabel": "G1260 Mushroom",
+      "aliases": [
+        "G1260",
+        "G1260 Mushroom"
+      ],
+      "ordernumber": "284120",
+      "ean": "4048500284120",
+      "pid": "ff05137645d942359435af79b2b8de63",
+      "pigments": "PO 36 PW 6 PY 74",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 82,
+        "G": 59,
+        "B": 28
+      },
+      "cmyk": {
+        "C": 38,
+        "M": 55,
+        "Y": 81,
+        "K": 67
+      },
+      "hex": "#523B1C",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1400",
+      "rawName": "Bone",
+      "code": "G 1400",
+      "name": "Bone",
+      "family": "G",
+      "sourceLabel": "G1400 Bone",
+      "aliases": [
+        "G1400",
+        "G1400 Bone"
+      ],
+      "ordernumber": "284137",
+      "ean": "4048500284137",
+      "pid": "fd10235b094d43fc976e4f539f25b113",
+      "pigments": "PW 6 PY 42",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 247,
+        "G": 234,
+        "B": 217
+      },
+      "cmyk": {
+        "C": 4,
+        "M": 9,
+        "Y": 17,
+        "K": 0
+      },
+      "hex": "#F7EAD9",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1410",
+      "rawName": "Latte",
+      "code": "G 1410",
+      "name": "Latte",
+      "family": "G",
+      "sourceLabel": "G1410 Latte",
+      "aliases": [
+        "G1410",
+        "G1410 Latte"
+      ],
+      "ordernumber": "284144",
+      "ean": "4048500284144",
+      "pid": "92594f718c1c43ab8800bc1bb10ccbe7",
+      "pigments": "PW 6 PY 42",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 246,
+        "G": 226,
+        "B": 201
+      },
+      "cmyk": {
+        "C": 4,
+        "M": 13,
+        "Y": 24,
+        "K": 0
+      },
+      "hex": "#F6E2C9",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1420",
+      "rawName": "Cappucino",
+      "code": "G 1420",
+      "name": "Cappucino",
+      "family": "G",
+      "sourceLabel": "G1420 Cappucino",
+      "aliases": [
+        "G1420",
+        "G1420 Cappucino"
+      ],
+      "ordernumber": "284151",
+      "ean": "4048500284151",
+      "pid": "cb6217a6a8e6403e93326b034ad4807c",
+      "pigments": "PW 6 PY 42",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 236,
+        "G": 198,
+        "B": 168
+      },
+      "cmyk": {
+        "C": 7,
+        "M": 26,
+        "Y": 35,
+        "K": 1
+      },
+      "hex": "#ECC6A8",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1430",
+      "rawName": "Make-Up",
+      "code": "G 1430",
+      "name": "Make-Up",
+      "family": "G",
+      "sourceLabel": "G1430 Make-Up",
+      "aliases": [
+        "G1430",
+        "G1430 Make-Up"
+      ],
+      "ordernumber": "284168",
+      "ean": "4048500284168",
+      "pid": "a8a15ae507744b59882012e7e87da1ee",
+      "pigments": "PW 6 PY 42 PR 101",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 218,
+        "G": 172,
+        "B": 146
+      },
+      "cmyk": {
+        "C": 12,
+        "M": 35,
+        "Y": 41,
+        "K": 5
+      },
+      "hex": "#DAAC92",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1440",
+      "rawName": "Toffee",
+      "code": "G 1440",
+      "name": "Toffee",
+      "family": "G",
+      "sourceLabel": "G1440 Toffee",
+      "aliases": [
+        "G1440",
+        "G1440 Toffee"
+      ],
+      "ordernumber": "284175",
+      "ean": "4048500284175",
+      "pid": "5d13d28f9d914196b33d10c30f7078f0",
+      "pigments": "PW 6 PY 74 PO 36",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 205,
+        "G": 146,
+        "B": 110
+      },
+      "cmyk": {
+        "C": 13,
+        "M": 44,
+        "Y": 55,
+        "K": 11
+      },
+      "hex": "#CD926E",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1450",
+      "rawName": "Hot Chocolate",
+      "code": "G 1450",
+      "name": "Hot Chocolate",
+      "family": "G",
+      "sourceLabel": "G1450 Hot Chocolate",
+      "aliases": [
+        "G1450",
+        "G1450 Hot Chocolate"
+      ],
+      "ordernumber": "284182",
+      "ean": "4048500284182",
+      "pid": "d08c3a223ded4ea69aa6845961ebcbb9",
+      "pigments": "PW 6 PO 36 PB 15:6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 137,
+        "G": 90,
+        "B": 69
+      },
+      "cmyk": {
+        "C": 27,
+        "M": 57,
+        "Y": 62,
+        "K": 40
+      },
+      "hex": "#885845",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G1470",
+      "rawName": "Palish Brown",
+      "code": "G 1470",
+      "name": "Palish Brown",
+      "family": "G",
+      "sourceLabel": "G1470 Palish Brown",
+      "aliases": [
+        "G1470",
+        "G1470 Palish Brown"
+      ],
+      "ordernumber": "284199",
+      "ean": "4048500284199",
+      "pid": "0b766df56e7c417183646f0a6c73a323",
+      "pigments": "PY 42 PW 6 PR 170",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 110,
+        "G": 78,
+        "B": 52
+      },
+      "cmyk": {
+        "C": 34,
+        "M": 54,
+        "Y": 70,
+        "K": 52
+      },
+      "hex": "#6E4E34",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G2000",
+      "rawName": "White Orange",
+      "code": "G 2000",
+      "name": "White Orange",
+      "family": "G",
+      "sourceLabel": "G2000 White Orange",
+      "aliases": [
+        "G2000",
+        "G2000 White Orange"
+      ],
+      "ordernumber": "284205",
+      "ean": "4048500284205",
+      "pid": "f2dcdf4c5c7b495088968a2bb2febc19",
+      "pigments": "PW 6 PY 74 PY 83",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 251,
+        "G": 233,
+        "B": 207
+      },
+      "cmyk": {
+        "C": null,
+        "M": 10,
+        "Y": 22,
+        "K": 0
+      },
+      "hex": "#FBE9CF",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G2010",
+      "rawName": "Orange Ice",
+      "code": "G 2010",
+      "name": "Orange Ice",
+      "family": "G",
+      "sourceLabel": "G2010 Orange Ice",
+      "aliases": [
+        "G2010",
+        "G2010 Orange Ice"
+      ],
+      "ordernumber": "284212",
+      "ean": "4048500284212",
+      "pid": "61431cef7dd545ad8e16971643806273",
+      "pigments": "PW 6 PY 83",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 254,
+        "G": 233,
+        "B": 217
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 11,
+        "Y": 16,
+        "K": 0
+      },
+      "hex": "#FEE9D9",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G2020",
+      "rawName": "Creme Orange",
+      "code": "G 2020",
+      "name": "Creme Orange",
+      "family": "G",
+      "sourceLabel": "G2020 Creme Orange",
+      "aliases": [
+        "G2020",
+        "G2020 Creme Orange"
+      ],
+      "ordernumber": "284229",
+      "ean": "4048500284229",
+      "pid": "0bb42fa37a8d4b59a2240d71624f33de",
+      "pigments": "PW 6 PY 83 PY 42",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 249,
+        "G": 193,
+        "B": 115
+      },
+      "cmyk": {
+        "C": 1,
+        "M": 43,
+        "Y": 76,
+        "K": 0
+      },
+      "hex": "#F9C173",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G2030",
+      "rawName": "Blast Orange",
+      "code": "G 2030",
+      "name": "Blast Orange",
+      "family": "G",
+      "sourceLabel": "G2030 Blast Orange",
+      "aliases": [
+        "G2030",
+        "G2030 Blast Orange"
+      ],
+      "ordernumber": "284236",
+      "ean": "4048500284236",
+      "pid": "3deb4c8f8cab453ab42ee8b67b5264db",
+      "pigments": "PW 6 PY 83 PY 42",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 244,
+        "G": 163,
+        "B": 74
+      },
+      "cmyk": {
+        "C": 1,
+        "M": 43,
+        "Y": 76,
+        "K": 0
+      },
+      "hex": "#F4A34A",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G2040",
+      "rawName": "Scampi",
+      "code": "G 2040",
+      "name": "Scampi",
+      "family": "G",
+      "sourceLabel": "G2040 Scampi",
+      "aliases": [
+        "G2040",
+        "G2040 Scampi"
+      ],
+      "ordernumber": "284243",
+      "ean": "4048500284243",
+      "pid": "6bec6fce2df446e7998b9c2834040edd",
+      "pigments": "PW 6 PY 83 PY 42",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 242,
+        "G": 149,
+        "B": 48
+      },
+      "cmyk": {
+        "C": 1,
+        "M": 49,
+        "Y": 86,
+        "K": 0
+      },
+      "hex": "#F29530",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G2050",
+      "rawName": "Orangina",
+      "code": "G 2050",
+      "name": "Orangina",
+      "family": "G",
+      "sourceLabel": "G2050 Orangina",
+      "aliases": [
+        "G2050",
+        "G2050 Orangina"
+      ],
+      "ordernumber": "284250",
+      "ean": "4048500284250",
+      "pid": "3f3c491baced475790a7364ba4246329",
+      "pigments": "PW 6 PY 83 PO 43",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 240,
+        "G": 130,
+        "B": 23
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 58,
+        "Y": 95,
+        "K": 0
+      },
+      "hex": "#F08217",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G2060",
+      "rawName": "Capri",
+      "code": "G 2060",
+      "name": "Capri",
+      "family": "G",
+      "sourceLabel": "G2060 Capri",
+      "aliases": [
+        "G2060",
+        "G2060 Capri"
+      ],
+      "ordernumber": "284267",
+      "ean": "4048500284267",
+      "pid": "1a171d80497f4cacb60c27a2a1b030cf",
+      "pigments": "PY 83 PO 43 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 238,
+        "G": 116,
+        "B": 18
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 64,
+        "Y": 97,
+        "K": 0
+      },
+      "hex": "#EE7412",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G2070",
+      "rawName": "Orange",
+      "code": "G 2070",
+      "name": "Orange",
+      "family": "G",
+      "sourceLabel": "G2070 Orange",
+      "aliases": [
+        "G2070",
+        "G2070 Orange"
+      ],
+      "ordernumber": "284274",
+      "ean": "4048500284274",
+      "pid": "6087c6085e444d189a8ec15e7fbbe630",
+      "pigments": "PO 43 PY 83 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 236,
+        "G": 100,
+        "B": 21
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 71,
+        "Y": 97,
+        "K": 0
+      },
+      "hex": "#EC6415",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G2080",
+      "rawName": "Pure Orange",
+      "code": "G 2080",
+      "name": "Pure Orange",
+      "family": "G",
+      "sourceLabel": "G2080 Pure Orange",
+      "aliases": [
+        "G2080",
+        "G2080 Pure Orange"
+      ],
+      "ordernumber": "284281",
+      "ean": "4048500284281",
+      "pid": "d22af9ebef0b4949931f90be823ceef8",
+      "pigments": "PO 43 PY 74 PY 83",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 234,
+        "G": 88,
+        "B": 24
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 76,
+        "Y": 96,
+        "K": 0
+      },
+      "hex": "#EA5818",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G2090",
+      "rawName": "Red Orange",
+      "code": "G 2090",
+      "name": "Red Orange",
+      "family": "G",
+      "sourceLabel": "G2090 Red Orange",
+      "aliases": [
+        "G2090",
+        "G2090 Red Orange"
+      ],
+      "ordernumber": "284298",
+      "ean": "4048500284298",
+      "pid": "896b5557a25a4762b91d50c248f6ad76",
+      "pigments": "PO 43 PY 184 PR 170",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 228,
+        "G": 62,
+        "B": 29
+      },
+      "cmyk": {
+        "C": 1,
+        "M": 86,
+        "Y": 94,
+        "K": 1
+      },
+      "hex": "#E43E1D",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G2095",
+      "rawName": "Blood Orange",
+      "code": "G 2095",
+      "name": "Blood Orange",
+      "family": "G",
+      "sourceLabel": "G2095 Blood Orange",
+      "aliases": [
+        "G2095",
+        "G2095 Blood Orange"
+      ],
+      "ordernumber": "284304",
+      "ean": "4048500284304",
+      "pid": "5e7595120bbc46dcbe8c3fe79d2de995",
+      "pigments": "PO 43 PR 170 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 220,
+        "G": 8,
+        "B": 36
+      },
+      "cmyk": {
+        "C": 1,
+        "M": 100,
+        "Y": 87,
+        "K": 4
+      },
+      "hex": "#DC0824",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G3000",
+      "rawName": "Lychee",
+      "code": "G 3000",
+      "name": "Lychee",
+      "family": "G",
+      "sourceLabel": "G3000 Lychee",
+      "aliases": [
+        "G3000",
+        "G3000 Lychee"
+      ],
+      "ordernumber": "284311",
+      "ean": "4048500284311",
+      "pid": "190b25037a804996a6f1fd895107db4c",
+      "pigments": "PW 6 PR 170 PO 43",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 247,
+        "G": 191,
+        "B": 193
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 34,
+        "Y": 17,
+        "K": 0
+      },
+      "hex": "#F7BFC1",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G3010",
+      "rawName": "Bazooka Joe",
+      "code": "G 3010",
+      "name": "Bazooka Joe",
+      "family": "G",
+      "sourceLabel": "G3010 Bazooka Joe",
+      "aliases": [
+        "G3010",
+        "G3010 Bazooka Joe"
+      ],
+      "ordernumber": "284328",
+      "ean": "4048500284328",
+      "pid": "2b8ffce1ea5840ff9fde3c2c56420155",
+      "pigments": "PW 6 PR 170 PO 43",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 237,
+        "G": 135,
+        "B": 152
+      },
+      "cmyk": {
+        "C": 2,
+        "M": 59,
+        "Y": 25,
+        "K": 0
+      },
+      "hex": "#ED8798",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G3020",
+      "rawName": "Strawberry",
+      "code": "G 3020",
+      "name": "Strawberry",
+      "family": "G",
+      "sourceLabel": "G3020 Strawberry",
+      "aliases": [
+        "G3020",
+        "G3020 Strawberry"
+      ],
+      "ordernumber": "284335",
+      "ean": "4048500284335",
+      "pid": "68a34529c7214c61930b3f5d90294eb4",
+      "pigments": "PW 6 PR 170 PO 43",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 231,
+        "G": 60,
+        "B": 78
+      },
+      "cmyk": {
+        "C": 1,
+        "M": 87,
+        "Y": 60,
+        "K": 0
+      },
+      "hex": "#E73C4E",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G3030",
+      "rawName": "Raspberry",
+      "code": "G 3030",
+      "name": "Raspberry",
+      "family": "G",
+      "sourceLabel": "G3030 Raspberry",
+      "aliases": [
+        "G3030",
+        "G3030 Raspberry"
+      ],
+      "ordernumber": "284342",
+      "ean": "4048500284342",
+      "pid": "ec459d39c0e546a68958e5c9b04a0e80",
+      "pigments": "PW 6 PR 170 PO 43",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 214,
+        "G": 5,
+        "B": 62
+      },
+      "cmyk": {
+        "C": 2,
+        "M": 100,
+        "Y": 64,
+        "K": 7
+      },
+      "hex": "#D6053E",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G3040",
+      "rawName": "Ketchup",
+      "code": "G 3040",
+      "name": "Ketchup",
+      "family": "G",
+      "sourceLabel": "G3040 Ketchup",
+      "aliases": [
+        "G3040",
+        "G3040 Ketchup"
+      ],
+      "ordernumber": "284359",
+      "ean": "4048500284359",
+      "pid": "ec984c0a377d452a91abbf9038415bb9",
+      "pigments": "PR 170 PW 6 PV 19",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 186,
+        "G": 24,
+        "B": 41
+      },
+      "cmyk": {
+        "C": 5,
+        "M": 98,
+        "Y": 78,
+        "K": 21
+      },
+      "hex": "#BA1829",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G3050",
+      "rawName": "Brick",
+      "code": "G 3050",
+      "name": "Brick",
+      "family": "G",
+      "sourceLabel": "G3050 Brick",
+      "aliases": [
+        "G3050",
+        "G3050 Brick"
+      ],
+      "ordernumber": "284366",
+      "ean": "4048500284366",
+      "pid": "87ffa07ae822453f93fa26d8796f00fe",
+      "pigments": "PR 170 PW 6 PV 19",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 151,
+        "G": 28,
+        "B": 36
+      },
+      "cmyk": {
+        "C": 9,
+        "M": 96,
+        "Y": 75,
+        "K": 39
+      },
+      "hex": "#971C24",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G3060",
+      "rawName": "Royal Red",
+      "code": "G 3060",
+      "name": "Royal Red",
+      "family": "G",
+      "sourceLabel": "G3060 Royal Red",
+      "aliases": [
+        "G3060",
+        "G3060 Royal Red"
+      ],
+      "ordernumber": "284373",
+      "ean": "4048500284373",
+      "pid": "ed1da898c4284ce4b9b5b25d127d5f0e",
+      "pigments": "PR 170 PW 6 PV 19",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 114,
+        "G": 30,
+        "B": 35
+      },
+      "cmyk": {
+        "C": 21,
+        "M": 92,
+        "Y": 68,
+        "K": 55
+      },
+      "hex": "#721E23",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G3070",
+      "rawName": "Purple Red",
+      "code": "G 3070",
+      "name": "Purple Red",
+      "family": "G",
+      "sourceLabel": "G3070 Purple Red",
+      "aliases": [
+        "G3070",
+        "G3070 Purple Red"
+      ],
+      "ordernumber": "284380",
+      "ean": "4048500284380",
+      "pid": "85e08be49ccd4abba40420104bddec1b",
+      "pigments": "PO 43 PV 19 PW 6",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 91,
+        "G": 24,
+        "B": 28
+      },
+      "cmyk": {
+        "C": 27,
+        "M": 92,
+        "Y": 67,
+        "K": 66
+      },
+      "hex": "#5B181C",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G3080",
+      "rawName": "Black Red",
+      "code": "G 3080",
+      "name": "Black Red",
+      "family": "G",
+      "sourceLabel": "G3080 Black Red",
+      "aliases": [
+        "G3080",
+        "G3080 Black Red"
+      ],
+      "ordernumber": "284397",
+      "ean": "4048500284397",
+      "pid": "7a9a7abfabc04abd9fea1af269ad0b7a",
+      "pigments": "PR 170 PBk 7 PV 23",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 62,
+        "G": 21,
+        "B": 17
+      },
+      "cmyk": {
+        "C": 38,
+        "M": 85,
+        "Y": 70,
+        "K": 79
+      },
+      "hex": "#3E1511",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G3085",
+      "rawName": "Vampirella",
+      "code": "G 3085",
+      "name": "Vampirella",
+      "family": "G",
+      "sourceLabel": "G3085 Vampirella",
+      "aliases": [
+        "G3085",
+        "G3085 Vampirella"
+      ],
+      "ordernumber": "284403",
+      "ean": "4048500284403",
+      "pid": "3538c1875d1e4fc8b98eb044e95a3cec",
+      "pigments": "PV 19 PG 7 PR 170",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "cmyk": {
+        "C": 61,
+        "M": 74,
+        "Y": 55,
+        "K": 84
+      },
+      "hex": "#271619",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G3100",
+      "rawName": "Frozen Strawberry",
+      "code": "G 3100",
+      "name": "Frozen Strawberry",
+      "family": "G",
+      "sourceLabel": "G3100 Frozen Strawberry",
+      "aliases": [
+        "G3100",
+        "G3100 Frozen Strawberry"
+      ],
+      "ordernumber": "284410",
+      "ean": "4048500284410",
+      "pid": "c9ebcefc62524ab5bd98d5dc9259c060",
+      "pigments": "PW 6 PY 42",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 249,
+        "G": 210,
+        "B": 219
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 25,
+        "Y": 7,
+        "K": 0
+      },
+      "hex": "#F9D2DB",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G3110",
+      "rawName": "Frozen Raspberry",
+      "code": "G 3110",
+      "name": "Frozen Raspberry",
+      "family": "G",
+      "sourceLabel": "G3110 Frozen Raspberry",
+      "aliases": [
+        "G3110",
+        "G3110 Frozen Raspberry"
+      ],
+      "ordernumber": "284427",
+      "ean": "4048500284427",
+      "pid": "d4c470e3547e46f4adcc3e65b1931782",
+      "pigments": "PW 6 PV 23",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 239,
+        "G": 169,
+        "B": 194
+      },
+      "cmyk": {
+        "C": 3,
+        "M": 44,
+        "Y": 8,
+        "K": 0
+      },
+      "hex": "#EFA9C2",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "2",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G3130",
+      "rawName": "Pink Pink",
+      "code": "G 3130",
+      "name": "Pink Pink",
+      "family": "G",
+      "sourceLabel": "G3130 Pink Pink",
+      "aliases": [
+        "G3130",
+        "G3130 Pink Pink"
+      ],
+      "ordernumber": "284434",
+      "ean": "4048500284434",
+      "pid": "bd006ee4af214ce1a03b2bf03f43d675",
+      "pigments": "PW 6 PV 23",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 216,
+        "G": 67,
+        "B": 137
+      },
+      "cmyk": {
+        "C": 7,
+        "M": 84,
+        "Y": 5,
+        "K": 4
+      },
+      "hex": "#D84389",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G3150",
+      "rawName": "Cherry Blossom",
+      "code": "G 3150",
+      "name": "Cherry Blossom",
+      "family": "G",
+      "sourceLabel": "G3150 Cherry Blossom",
+      "aliases": [
+        "G3150",
+        "G3150 Cherry Blossom"
+      ],
+      "ordernumber": "284441",
+      "ean": "4048500284441",
+      "pid": "d535f2750d4d441c97dfb9342d845381",
+      "pigments": "PV 23 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 142,
+        "G": 19,
+        "B": 95
+      },
+      "cmyk": {
+        "C": 29,
+        "M": 98,
+        "Y": 7,
+        "K": 32
+      },
+      "hex": "#8E135F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "2",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4000",
+      "rawName": "Pale Pink",
+      "code": "G 4000",
+      "name": "Pale Pink",
+      "family": "G",
+      "sourceLabel": "G4000 Pale Pink",
+      "aliases": [
+        "G4000",
+        "G4000 Pale Pink"
+      ],
+      "ordernumber": "284458",
+      "ean": "4048500284458",
+      "pid": "ac2b0487d19e4968a3fa0a6f0b043928",
+      "pigments": "PW 6 PR 170",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 225,
+        "G": 195,
+        "B": 204
+      },
+      "cmyk": {
+        "C": 11,
+        "M": 27,
+        "Y": 12,
+        "K": 2
+      },
+      "hex": "#E1C3CC",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4010",
+      "rawName": "Mortadella",
+      "code": "G 4010",
+      "name": "Mortadella",
+      "family": "G",
+      "sourceLabel": "G4010 Mortadella",
+      "aliases": [
+        "G4010",
+        "G4010 Mortadella"
+      ],
+      "ordernumber": "284465",
+      "ean": "4048500284465",
+      "pid": "c0d8626fa37d4d70bf64ea40f7aaabcb",
+      "pigments": "PW 6 PY 83 PV 23",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 209,
+        "G": 163,
+        "B": 173
+      },
+      "cmyk": {
+        "C": 15,
+        "M": 40,
+        "Y": 20,
+        "K": 6
+      },
+      "hex": "#D1A3AD",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4020",
+      "rawName": "Dusty Pink",
+      "code": "G 4020",
+      "name": "Dusty Pink",
+      "family": "G",
+      "sourceLabel": "G4020 Dusty Pink",
+      "aliases": [
+        "G4020",
+        "G4020 Dusty Pink"
+      ],
+      "ordernumber": "284472",
+      "ean": "4048500284472",
+      "pid": "e8b1b971cb354852ab64872c905848aa",
+      "pigments": "PW 6 PV 19 PY 42",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 153,
+        "G": 83,
+        "B": 106
+      },
+      "cmyk": {
+        "C": 26,
+        "M": 69,
+        "Y": 29,
+        "K": 29
+      },
+      "hex": "#99536A",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4030",
+      "rawName": "Ancient Pink",
+      "code": "G 4030",
+      "name": "Ancient Pink",
+      "family": "G",
+      "sourceLabel": "G4030 Ancient Pink",
+      "aliases": [
+        "G4030",
+        "G4030 Ancient Pink"
+      ],
+      "ordernumber": "284489",
+      "ean": "4048500284489",
+      "pid": "1ab59fe1da254ad99aa381b11f4476f1",
+      "pigments": "PW 6 PR 170 PB 15:6",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 130,
+        "G": 65,
+        "B": 80
+      },
+      "cmyk": {
+        "C": 30,
+        "M": 74,
+        "Y": 41,
+        "K": 41
+      },
+      "hex": "#824150",
+      "hex2": "#824150",
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4040",
+      "rawName": "Powder Pink",
+      "code": "G 4040",
+      "name": "Powder Pink",
+      "family": "G",
+      "sourceLabel": "G4040 Powder Pink",
+      "aliases": [
+        "G4040",
+        "G4040 Powder Pink"
+      ],
+      "ordernumber": "284496",
+      "ean": "4048500284496",
+      "pid": "82d4d97078104bb4a2966837258ffcb9",
+      "pigments": "PV 19 PW 6 PY 83",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 121,
+        "G": 43,
+        "B": 62
+      },
+      "cmyk": {
+        "C": 27,
+        "M": 85,
+        "Y": 44,
+        "K": 48
+      },
+      "hex": "#792B3E",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4100",
+      "rawName": "White Lilac",
+      "code": "G 4100",
+      "name": "White Lilac",
+      "family": "G",
+      "sourceLabel": "G4100 White Lilac",
+      "aliases": [
+        "G4100",
+        "G4100 White Lilac"
+      ],
+      "ordernumber": "284502",
+      "ean": "4048500284502",
+      "pid": "003730b72a7040a8966abd797bafe29a",
+      "pigments": "PW 6 PV 23",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 210,
+        "G": 193,
+        "B": 221
+      },
+      "cmyk": {
+        "C": 20,
+        "M": 27,
+        "Y": 2,
+        "K": 0
+      },
+      "hex": "#D2C1DD",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4110",
+      "rawName": "Light Lilac",
+      "code": "G 4110",
+      "name": "Light Lilac",
+      "family": "G",
+      "sourceLabel": "G4110 Light Lilac",
+      "aliases": [
+        "G4110",
+        "G4110 Light Lilac"
+      ],
+      "ordernumber": "284519",
+      "ean": "4048500284519",
+      "pid": "441f47d9df24445885a662de410908f4",
+      "pigments": "PW 6 PV 23",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 169,
+        "G": 153,
+        "B": 198
+      },
+      "cmyk": {
+        "C": 39,
+        "M": 42,
+        "Y": 3,
+        "K": 0
+      },
+      "hex": "#A999C6",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4130",
+      "rawName": "Teen Spirit",
+      "code": "G 4130",
+      "name": "Teen Spirit",
+      "family": "G",
+      "sourceLabel": "G4130 Teen Spirit",
+      "aliases": [
+        "G4130",
+        "G4130 Teen Spirit"
+      ],
+      "ordernumber": "284526",
+      "ean": "4048500284526",
+      "pid": "bd7573ccf9544818a60fa84c7f09f91d",
+      "pigments": "PW 6 PY 74 PV 23",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 124,
+        "G": 110,
+        "B": 172
+      },
+      "cmyk": {
+        "C": 60,
+        "M": 60,
+        "Y": 4,
+        "K": 0
+      },
+      "hex": "#7C6EAC",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4150",
+      "rawName": "Lavender",
+      "code": "G 4150",
+      "name": "Lavender",
+      "family": "G",
+      "sourceLabel": "G4150 Lavender",
+      "aliases": [
+        "G4150",
+        "G4150 Lavender"
+      ],
+      "ordernumber": "284533",
+      "ean": "4048500284533",
+      "pid": "7cce3df73ca9437cbe9db0910771af95",
+      "pigments": "PW 6 PV 23 PR 101",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 85,
+        "G": 66,
+        "B": 138
+      },
+      "cmyk": {
+        "C": 78,
+        "M": 80,
+        "Y": 5,
+        "K": 8
+      },
+      "hex": "#55428A",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4160",
+      "rawName": "Gonzo",
+      "code": "G 4160",
+      "name": "Gonzo",
+      "family": "G",
+      "sourceLabel": "G4160 Gonzo",
+      "aliases": [
+        "G4160",
+        "G4160 Gonzo"
+      ],
+      "ordernumber": "284540",
+      "ean": "4048500284540",
+      "pid": "7e6c27389c08460a9bf9f43e87e3d61f",
+      "pigments": "PV 23 PW 6 PO 43",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 57,
+        "G": 55,
+        "B": 126
+      },
+      "cmyk": {
+        "C": 90,
+        "M": 84,
+        "Y": 5,
+        "K": 15
+      },
+      "hex": "#39377E",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4170",
+      "rawName": "Blue Velvet",
+      "code": "G 4170",
+      "name": "Blue Velvet",
+      "family": "G",
+      "sourceLabel": "G4170 Blue Velvet",
+      "aliases": [
+        "G4170",
+        "G4170 Blue Velvet"
+      ],
+      "ordernumber": "284571",
+      "ean": "4048500284571",
+      "pid": "6a128a0e4171484db1044f1e3cf96b2d",
+      "pigments": "PV 23 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 44,
+        "G": 48,
+        "B": 104
+      },
+      "cmyk": {
+        "C": 92,
+        "M": 82,
+        "Y": 11,
+        "K": 33
+      },
+      "hex": "#2C3068",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4180",
+      "rawName": "Welsh",
+      "code": "G 4180",
+      "name": "Welsh",
+      "family": "G",
+      "sourceLabel": "G4180 Welsh",
+      "aliases": [
+        "G4180",
+        "G4180 Welsh"
+      ],
+      "ordernumber": "284595",
+      "ean": "4048500284595",
+      "pid": "49630a0d916b4a12afe586fa79229a9e",
+      "pigments": "PV 23 PV 19 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 23,
+        "G": 34,
+        "B": 69
+      },
+      "cmyk": {
+        "C": 95,
+        "M": 78,
+        "Y": 20,
+        "K": 62
+      },
+      "hex": "#1D1938",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4190",
+      "rawName": "Cassis",
+      "code": "G 4190",
+      "name": "Cassis",
+      "family": "G",
+      "sourceLabel": "G4190 Cassis",
+      "aliases": [
+        "G4190",
+        "G4190 Cassis"
+      ],
+      "ordernumber": "284601",
+      "ean": "4048500284601",
+      "pid": "e418e61937ef4f02964f322f97357176",
+      "pigments": "PR 122 PV 23 PBk 7",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 16,
+        "G": 24,
+        "B": 42
+      },
+      "cmyk": {
+        "C": 90,
+        "M": 72,
+        "Y": 35,
+        "K": 79
+      },
+      "hex": "#10182A",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4200",
+      "rawName": "Crocus",
+      "code": "G 4200",
+      "name": "Crocus",
+      "family": "G",
+      "sourceLabel": "G4200 Crocus",
+      "aliases": [
+        "G4200",
+        "G4200 Crocus"
+      ],
+      "ordernumber": "284618",
+      "ean": "4048500284618",
+      "pid": "8835d3832866465bac012a945b283e6c",
+      "pigments": "PW 6 PR 122",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 205,
+        "G": 183,
+        "B": 213
+      },
+      "cmyk": {
+        "C": 22,
+        "M": 32,
+        "Y": 3,
+        "K": 0
+      },
+      "hex": "#CDB7D5",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4210",
+      "rawName": "Viola",
+      "code": "G 4210",
+      "name": "Viola",
+      "family": "G",
+      "sourceLabel": "G4210 Viola",
+      "aliases": [
+        "G4210",
+        "G4210 Viola"
+      ],
+      "ordernumber": "284625",
+      "ean": "4048500284625",
+      "pid": "6e36b8f577184d76adf16d78f30fd461",
+      "pigments": "PW 6 PR 122",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 176,
+        "G": 142,
+        "B": 189
+      },
+      "cmyk": {
+        "C": 36,
+        "M": 49,
+        "Y": 4,
+        "K": 0
+      },
+      "hex": "#B08EBD",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4220",
+      "rawName": "Sweet Dream",
+      "code": "G 4220",
+      "name": "Sweet Dream",
+      "family": "G",
+      "sourceLabel": "G4220 Sweet Dream",
+      "aliases": [
+        "G4220",
+        "G4220 Sweet Dream"
+      ],
+      "ordernumber": "284649",
+      "ean": "4048500284649",
+      "pid": "45e28aa7be834ec59a8e8684f2398410",
+      "pigments": "PW 6 PR 122 PV 23",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 142,
+        "G": 77,
+        "B": 145
+      },
+      "cmyk": {
+        "C": 52,
+        "M": 78,
+        "Y": 5,
+        "K": 4
+      },
+      "hex": "#8E4D91",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4230",
+      "rawName": "Valerie",
+      "code": "G 4230",
+      "name": "Valerie",
+      "family": "G",
+      "sourceLabel": "G4230 Valerie",
+      "aliases": [
+        "G4230",
+        "G4230 Valerie"
+      ],
+      "ordernumber": "284656",
+      "ean": "4048500284656",
+      "pid": "1db6d7c3086e4152a19c7276c2b307a7",
+      "pigments": "PV 23 PW 6 PV 19",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 111,
+        "G": 49,
+        "B": 127
+      },
+      "cmyk": {
+        "C": 66,
+        "M": 91,
+        "Y": 4,
+        "K": 9
+      },
+      "hex": "#6F317F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4240",
+      "rawName": "Lakers",
+      "code": "G 4240",
+      "name": "Lakers",
+      "family": "G",
+      "sourceLabel": "G4240 Lakers",
+      "aliases": [
+        "G4240",
+        "G4240 Lakers"
+      ],
+      "ordernumber": "284670",
+      "ean": "4048500284670",
+      "pid": "ddb54b0df2fb46489a007441d6e5daac",
+      "pigments": "PR 122 PW 6",
+      "lightfastness": "1",
+      "rgb": {
+        "R": 82,
+        "G": 33,
+        "B": 88
+      },
+      "cmyk": {
+        "C": 67,
+        "M": 93,
+        "Y": 13,
+        "K": 41
+      },
+      "hex": "#522158",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4250",
+      "rawName": "Deep Purple",
+      "code": "G 4250",
+      "name": "Deep Purple",
+      "family": "G",
+      "sourceLabel": "G4250 Deep Purple",
+      "aliases": [
+        "G4250",
+        "G4250 Deep Purple"
+      ],
+      "ordernumber": "284687",
+      "ean": "4048500284687",
+      "pid": "8f5413aad3b9499d8a97afdd5ab9ae30",
+      "pigments": "PV 19 PV 23 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 92,
+        "G": 49,
+        "B": 84
+      },
+      "cmyk": {
+        "C": 56,
+        "M": 80,
+        "Y": 25,
+        "K": 45
+      },
+      "hex": "#5C3154",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G4260",
+      "rawName": "Black Purple",
+      "code": "G 4260",
+      "name": "Black Purple",
+      "family": "G",
+      "sourceLabel": "G4260 Black Purple",
+      "aliases": [
+        "G4260",
+        "G4260 Black Purple"
+      ],
+      "ordernumber": "284700",
+      "ean": "4048500284700",
+      "pid": "51366d19954b4936bbb237961b3ddc84",
+      "pigments": "PR 122 PV 23 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 50,
+        "G": 20,
+        "B": 64
+      },
+      "cmyk": {
+        "C": 80,
+        "M": 96,
+        "Y": 18,
+        "K": 60
+      },
+      "hex": "#321440",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5000",
+      "rawName": "Flipper",
+      "code": "G 5000",
+      "name": "Flipper",
+      "family": "G",
+      "sourceLabel": "G5000 Flipper",
+      "aliases": [
+        "G5000",
+        "G5000 Flipper"
+      ],
+      "ordernumber": "284717",
+      "ean": "4048500284717",
+      "pid": "e3377eb5865245e2af4e70df13f12829",
+      "pigments": "PW 6 PG 7 PB 15:6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 204,
+        "G": 232,
+        "B": 240
+      },
+      "cmyk": {
+        "C": 24,
+        "M": 0,
+        "Y": 7,
+        "K": 0
+      },
+      "hex": "#CCE8F0",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5010",
+      "rawName": "Fresh Blue",
+      "code": "G 5010",
+      "name": "Fresh Blue",
+      "family": "G",
+      "sourceLabel": "G5010 Fresh Blue",
+      "aliases": [
+        "G5010",
+        "G5010 Fresh Blue"
+      ],
+      "ordernumber": "284731",
+      "ean": "4048500284731",
+      "pid": "9d5fc5e70f81405eb8d7473ef634b350",
+      "pigments": "PW 6 PB 15:6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 163,
+        "G": 215,
+        "B": 232
+      },
+      "cmyk": {
+        "C": 40,
+        "M": 1,
+        "Y": 9,
+        "K": 0
+      },
+      "hex": "#A3D7E8",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5020",
+      "rawName": "Baby Blue",
+      "code": "G 5020",
+      "name": "Baby Blue",
+      "family": "G",
+      "sourceLabel": "G5020 Baby Blue",
+      "aliases": [
+        "G5020",
+        "G5020 Baby Blue"
+      ],
+      "ordernumber": "284823",
+      "ean": "4048500284823",
+      "pid": "c7763fe789dc429aaa30c395407c3242",
+      "pigments": "PW 6 PB 15:6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 111,
+        "G": 200,
+        "B": 230
+      },
+      "cmyk": {
+        "C": 56,
+        "M": 0,
+        "Y": 8,
+        "K": 0
+      },
+      "hex": "#6FC8E6",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5030",
+      "rawName": "Bermuda",
+      "code": "G 5030",
+      "name": "Bermuda",
+      "family": "G",
+      "sourceLabel": "G5030 Bermuda",
+      "aliases": [
+        "G5030",
+        "G5030 Bermuda"
+      ],
+      "ordernumber": "284830",
+      "ean": "4048500284830",
+      "pid": "8f644ea864df452888fa51a43ed62c50",
+      "pigments": "PW 6 PB 15:6 PB 15:4",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 175,
+        "B": 216
+      },
+      "cmyk": {
+        "C": 73,
+        "M": 5,
+        "Y": 9,
+        "K": 2
+      },
+      "hex": "#00AFD8",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5040",
+      "rawName": "Light Blue",
+      "code": "G 5040",
+      "name": "Light Blue",
+      "family": "G",
+      "sourceLabel": "G5040 Light Blue",
+      "aliases": [
+        "G5040",
+        "G5040 Light Blue"
+      ],
+      "ordernumber": "284847",
+      "ean": "4048500284847",
+      "pid": "fc798a2119e54f69b3ed41d06387eb75",
+      "pigments": "PW 6 PB 15:4",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 161,
+        "B": 209
+      },
+      "cmyk": {
+        "C": 84,
+        "M": 5,
+        "Y": 8,
+        "K": 5
+      },
+      "hex": "#00A1D1",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5050",
+      "rawName": "Sky Blue",
+      "code": "G 5050",
+      "name": "Sky Blue",
+      "family": "G",
+      "sourceLabel": "G5050 Sky Blue",
+      "aliases": [
+        "G5050",
+        "G5050 Sky Blue"
+      ],
+      "ordernumber": "284854",
+      "ean": "4048500284854",
+      "pid": "86985b3aad39496780bf80712d2857bb",
+      "pigments": "PW 6 PB 15:4 PB 15:6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 144,
+        "B": 199
+      },
+      "cmyk": {
+        "C": null,
+        "M": 10,
+        "Y": 3,
+        "K": 11
+      },
+      "hex": "#008CC7",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5060",
+      "rawName": "Blue Magic",
+      "code": "G 5060",
+      "name": "Blue Magic",
+      "family": "G",
+      "sourceLabel": "G5060 Blue Magic",
+      "aliases": [
+        "G5060",
+        "G5060 Blue Magic"
+      ],
+      "ordernumber": "284861",
+      "ean": "4048500284861",
+      "pid": "75908b61f2c74f4f8faf5389af060067",
+      "pigments": "PW 6 PB 15:4 PB 15:6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 110,
+        "B": 173
+      },
+      "cmyk": {
+        "C": 100,
+        "M": 36,
+        "Y": 3,
+        "K": 13
+      },
+      "hex": "#006EAD",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5075",
+      "rawName": "Signal Blue",
+      "code": "G 5075",
+      "name": "Signal Blue",
+      "family": "G",
+      "sourceLabel": "G5075 Signal Blue",
+      "aliases": [
+        "G5075",
+        "G5075 Signal Blue"
+      ],
+      "ordernumber": "284878",
+      "ean": "4048500284878",
+      "pid": "ada7c75095e446a69667a0cbe8aad7f5",
+      "pigments": "PW 6 PB 15:4 PB 15:6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 80,
+        "B": 137
+      },
+      "cmyk": {
+        "C": 100,
+        "M": 53,
+        "Y": 5,
+        "K": 28
+      },
+      "hex": "#005089",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5080",
+      "rawName": "Ultramarine",
+      "code": "G 5080",
+      "name": "Ultramarine",
+      "family": "G",
+      "sourceLabel": "G5080 Ultramarine",
+      "aliases": [
+        "G5080",
+        "G5080 Ultramarine"
+      ],
+      "ordernumber": "284885",
+      "ean": "4048500284885",
+      "pid": "3e2fd6f4e5be45f7b4b49fd49e23617c",
+      "pigments": "PB 15:6 PW 6 PR 122",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 0,
+        "G": 58,
+        "B": 111
+      },
+      "cmyk": {
+        "C": 100,
+        "M": 68,
+        "Y": 8,
+        "K": 38
+      },
+      "hex": "#003A6F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5085",
+      "rawName": "Blue Note",
+      "code": "G 5085",
+      "name": "Blue Note",
+      "family": "G",
+      "sourceLabel": "G5085 Blue Note",
+      "aliases": [
+        "G5085",
+        "G5085 Blue Note"
+      ],
+      "ordernumber": "284892",
+      "ean": "4048500284892",
+      "pid": "62d623327d5f4f56af8321bce293aab8",
+      "pigments": "PB 15:6 PR 122 PY 184",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 52,
+        "B": 87
+      },
+      "cmyk": {
+        "C": 98,
+        "M": 58,
+        "Y": 15,
+        "K": 58
+      },
+      "hex": "#003457",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5090",
+      "rawName": "Nautilus",
+      "code": "G 5090",
+      "name": "Nautilus",
+      "family": "G",
+      "sourceLabel": "G5090 Nautilus",
+      "aliases": [
+        "G5090",
+        "G5090 Nautilus"
+      ],
+      "ordernumber": "284908",
+      "ean": "4048500284908",
+      "pid": "1ea0318b1d244263b24104e129b049e7",
+      "pigments": "PR 122 PG 6 PB 15:6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 12,
+        "G": 35,
+        "B": 55
+      },
+      "cmyk": {
+        "C": null,
+        "M": 65,
+        "Y": 32,
+        "K": 72
+      },
+      "hex": "#0C2337",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5100",
+      "rawName": "Polar Blue",
+      "code": "G 5100",
+      "name": "Polar Blue",
+      "family": "G",
+      "sourceLabel": "G5100 Polar Blue",
+      "aliases": [
+        "G5100",
+        "G5100 Polar Blue"
+      ],
+      "ordernumber": "284915",
+      "ean": "4048500284915",
+      "pid": "4809b71d237e441ebc507f8ff34449cb",
+      "pigments": "PW 6 PY 184 PB 15:4",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 216,
+        "G": 237,
+        "B": 237
+      },
+      "cmyk": {
+        "C": 19,
+        "M": 0,
+        "Y": 9,
+        "K": 0
+      },
+      "hex": "#D8EDED",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5105",
+      "rawName": "Summit",
+      "code": "G 5105",
+      "name": "Summit",
+      "family": "G",
+      "sourceLabel": "G5105 Summit",
+      "aliases": [
+        "G5105",
+        "G5105 Summit"
+      ],
+      "ordernumber": "284922",
+      "ean": "4048500284922",
+      "pid": "84277e7ed2784739bcb781ef2d0aa255",
+      "pigments": "PW 6 PB 15:4 PV 19",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 185,
+        "G": 224,
+        "B": 234
+      },
+      "cmyk": {
+        "C": 32,
+        "M": 0,
+        "Y": 9,
+        "K": 0
+      },
+      "hex": "#B9E0EA",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5110",
+      "rawName": "Himalaya",
+      "code": "G 5110",
+      "name": "Himalaya",
+      "family": "G",
+      "sourceLabel": "G5110 Himalaya",
+      "aliases": [
+        "G5110",
+        "G5110 Himalaya"
+      ],
+      "ordernumber": "284960",
+      "ean": "4048500284960",
+      "pid": "9d76da5be27647d7b06e3a1962fae5f2",
+      "pigments": "PW 6 PB 15:6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 138,
+        "G": 202,
+        "B": 220
+      },
+      "cmyk": {
+        "C": 49,
+        "M": 4,
+        "Y": 13,
+        "K": 0
+      },
+      "hex": "#8ACADC",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5120",
+      "rawName": "Mt. Everest",
+      "code": "G 5120",
+      "name": "Mt. Everest",
+      "family": "G",
+      "sourceLabel": "G5120 Mt. Everest",
+      "aliases": [
+        "G5120",
+        "G5120 Mt. Everest"
+      ],
+      "ordernumber": "284977",
+      "ean": "4048500284977",
+      "pid": "d287ffc40a434ee3a92288225af1a090",
+      "pigments": "PW 6 PB 15:4 PR 122",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 96,
+        "G": 161,
+        "B": 184
+      },
+      "cmyk": {
+        "C": 61,
+        "M": 16,
+        "Y": 18,
+        "K": 11
+      },
+      "hex": "#60A1B8",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5140",
+      "rawName": "Mt. Fuji",
+      "code": "G 5140",
+      "name": "Mt. Fuji",
+      "family": "G",
+      "sourceLabel": "G5140 Mt. Fuji",
+      "aliases": [
+        "G5140",
+        "G5140 Mt. Fuji"
+      ],
+      "ordernumber": "284984",
+      "ean": "4048500284984",
+      "pid": "5aaf731b050544d38914dcce6e0d79c3",
+      "pigments": "PW 6 PV 42 PB 15:6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 71,
+        "G": 114,
+        "B": 131
+      },
+      "cmyk": {
+        "C": 68,
+        "M": 32,
+        "Y": 28,
+        "K": 31
+      },
+      "hex": "#477283",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5150",
+      "rawName": "Fjord",
+      "code": "G 5150",
+      "name": "Fjord",
+      "family": "G",
+      "sourceLabel": "G5150 Fjord",
+      "aliases": [
+        "G5150",
+        "G5150 Fjord"
+      ],
+      "ordernumber": "284991",
+      "ean": "4048500284991",
+      "pid": "58980a68105d4ae0a20e32237bbef999",
+      "pigments": "PW 6 PG 7 PB 15:6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 37,
+        "G": 81,
+        "B": 98
+      },
+      "cmyk": {
+        "C": 79,
+        "M": 41,
+        "Y": 32,
+        "K": 48
+      },
+      "hex": "#255162",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5160",
+      "rawName": "Deep Sea",
+      "code": "G 5160",
+      "name": "Deep Sea",
+      "family": "G",
+      "sourceLabel": "G5160 Deep Sea",
+      "aliases": [
+        "G5160",
+        "G5160 Deep Sea"
+      ],
+      "ordernumber": "285004",
+      "ean": "4048500285004",
+      "pid": "0d919c6586d74c62b0f55eef81542189",
+      "pigments": "PW 6 PG7 PB 15:6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 11,
+        "G": 53,
+        "B": 63
+      },
+      "cmyk": {
+        "C": 86,
+        "M": 46,
+        "Y": 40,
+        "K": 68
+      },
+      "hex": "#0B353F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G5170",
+      "rawName": "Navy",
+      "code": "G 5170",
+      "name": "Navy",
+      "family": "G",
+      "sourceLabel": "G5170 Navy",
+      "aliases": [
+        "G5170",
+        "G5170 Navy"
+      ],
+      "ordernumber": "285011",
+      "ean": "4048500285011",
+      "pid": "11ea2cdb0c0b4fa9847e7ff4cd0e0e0d",
+      "pigments": "PB 15:4 PR 170 PW 6",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 6,
+        "G": 35,
+        "B": 49
+      },
+      "cmyk": {
+        "C": 91,
+        "M": 59,
+        "Y": 38,
+        "K": 76
+      },
+      "hex": "#062331",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6000",
+      "rawName": "Venom",
+      "code": "G 6000",
+      "name": "Venom",
+      "family": "G",
+      "sourceLabel": "G6000 Venom",
+      "aliases": [
+        "G6000",
+        "G6000 Venom"
+      ],
+      "ordernumber": "285028",
+      "ean": "4048500285028",
+      "pid": "36b23ca89ad04a5da6be322a2000312a",
+      "pigments": "PW 6 PY 184 PG 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 229,
+        "G": 238,
+        "B": 206
+      },
+      "cmyk": {
+        "C": 14,
+        "M": 0,
+        "Y": 26,
+        "K": 0
+      },
+      "hex": "#E5EECE",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6010",
+      "rawName": "Linden Green",
+      "code": "G 6010",
+      "name": "Linden Green",
+      "family": "G",
+      "sourceLabel": "G6010 Linden Green",
+      "aliases": [
+        "G6010",
+        "G6010 Linden Green"
+      ],
+      "ordernumber": "285035",
+      "ean": "4048500285035",
+      "pid": "21ea25d9fe82475194ecc06f014d3dd8",
+      "pigments": "PW 6 PY 184",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 197,
+        "G": 221,
+        "B": 168
+      },
+      "cmyk": {
+        "C": 29,
+        "M": 0,
+        "Y": 44,
+        "K": 0
+      },
+      "hex": "#C5DDA8",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6020",
+      "rawName": "Green Apple",
+      "code": "G 6020",
+      "name": "Green Apple",
+      "family": "G",
+      "sourceLabel": "G6020 Green Apple",
+      "aliases": [
+        "G6020",
+        "G6020 Green Apple"
+      ],
+      "ordernumber": "285042",
+      "ean": "4048500285042",
+      "pid": "c8da2a32189644549938f6bc00b73034",
+      "pigments": "PW 6 PY 42",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 163,
+        "G": 201,
+        "B": 109
+      },
+      "cmyk": {
+        "C": 44,
+        "M": 1,
+        "Y": 70,
+        "K": 0
+      },
+      "hex": "#A3C96D",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6030",
+      "rawName": "Lime",
+      "code": "G 6030",
+      "name": "Lime",
+      "family": "G",
+      "sourceLabel": "G6030 Lime",
+      "aliases": [
+        "G6030",
+        "G6030 Lime"
+      ],
+      "ordernumber": "285059",
+      "ean": "4048500285059",
+      "pid": "68a7d3ee3a5646d0b9ed28a404282bf5",
+      "pigments": "PY 184 PW 6 PY 83",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 173,
+        "G": 199,
+        "B": 11
+      },
+      "cmyk": {
+        "C": 40,
+        "M": 0,
+        "Y": 100,
+        "K": 2
+      },
+      "hex": "#ADC70B",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6040",
+      "rawName": "Lawn Green",
+      "code": "G 6040",
+      "name": "Lawn Green",
+      "family": "G",
+      "sourceLabel": "G6040 Lawn Green",
+      "aliases": [
+        "G6040",
+        "G6040 Lawn Green"
+      ],
+      "ordernumber": "285066",
+      "ean": "4048500285066",
+      "pid": "3ee6f311ad534c518085b87babf95463",
+      "pigments": "PY 184 PY 42 PG 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 126,
+        "G": 177,
+        "B": 37
+      },
+      "cmyk": {
+        "C": 56,
+        "M": 2,
+        "Y": 100,
+        "K": 6
+      },
+      "hex": "#7EB125",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6050",
+      "rawName": "Greenery",
+      "code": "G 6050",
+      "name": "Greenery",
+      "family": "G",
+      "sourceLabel": "G6050 Greenery",
+      "aliases": [
+        "G6050",
+        "G6050 Greenery"
+      ],
+      "ordernumber": "285073",
+      "ean": "4048500285073",
+      "pid": "4a5bd16703a647f290b33c967a3e6433",
+      "pigments": "PY 74 PW 6 PB 15:4",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 0,
+        "G": 131,
+        "B": 50
+      },
+      "cmyk": {
+        "C": 88,
+        "M": 5,
+        "Y": 100,
+        "K": 22
+      },
+      "hex": "#008332",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6060",
+      "rawName": "Fern Green",
+      "code": "G 6060",
+      "name": "Fern Green",
+      "family": "G",
+      "sourceLabel": "G6060 Fern Green",
+      "aliases": [
+        "G6060",
+        "G6060 Fern Green"
+      ],
+      "ordernumber": "285080",
+      "ean": "4048500285080",
+      "pid": "3db68e76c6ab4ff4b5d8d14a5848a020",
+      "pigments": "PY 42 PG 7 PY 74",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 0,
+        "G": 96,
+        "B": 48
+      },
+      "cmyk": {
+        "C": 99,
+        "M": 10,
+        "Y": 93,
+        "K": 45
+      },
+      "hex": "#006030",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6070",
+      "rawName": "Smaragd Green",
+      "code": "G 6070",
+      "name": "Smaragd Green",
+      "family": "G",
+      "sourceLabel": "G6070 Smaragd Green",
+      "aliases": [
+        "G6070",
+        "G6070 Smaragd Green"
+      ],
+      "ordernumber": "285097",
+      "ean": "4048500285097",
+      "pid": "2beddbb8c4034d96ac66b08bf2554e2c",
+      "pigments": "PG 7 PY 83 PO 36",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 81,
+        "B": 41
+      },
+      "cmyk": {
+        "C": 98,
+        "M": 14,
+        "Y": 91,
+        "K": 57
+      },
+      "hex": "#005129",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6080",
+      "rawName": "Jungle Green",
+      "code": "G 6080",
+      "name": "Jungle Green",
+      "family": "G",
+      "sourceLabel": "G6080 Jungle Green",
+      "aliases": [
+        "G6080",
+        "G6080 Jungle Green"
+      ],
+      "ordernumber": "285103",
+      "ean": "4048500285103",
+      "pid": "4ca50662c7b44b638bd97fa2f2a28fa9",
+      "pigments": "PG 7 PO 36 PY 42",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 59,
+        "B": 36
+      },
+      "cmyk": {
+        "C": 91,
+        "M": 28,
+        "Y": 80,
+        "K": 70
+      },
+      "hex": "#003B24",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6090",
+      "rawName": "Deep Forest",
+      "code": "G 6090",
+      "name": "Deep Forest",
+      "family": "G",
+      "sourceLabel": "G6090 Deep Forest",
+      "aliases": [
+        "G6090",
+        "G6090 Deep Forest"
+      ],
+      "ordernumber": "285110",
+      "ean": "4048500285110",
+      "pid": "e1ee7c440c7d40dd97068cbc404fbf3f",
+      "pigments": "PG 7 PO 36 PO 43",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 48,
+        "B": 31
+      },
+      "cmyk": {
+        "C": 91,
+        "M": 32,
+        "Y": 76,
+        "K": 77
+      },
+      "hex": "#00301F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6100",
+      "rawName": "Liberty",
+      "code": "G 6100",
+      "name": "Liberty",
+      "family": "G",
+      "sourceLabel": "G6100 Liberty",
+      "aliases": [
+        "G6100",
+        "G6100 Liberty"
+      ],
+      "ordernumber": "285127",
+      "ean": "4048500285127",
+      "pid": "3f2153db2a904164a01e3582320de6e7",
+      "pigments": "PW 6 PY 74",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 238,
+        "G": 245,
+        "B": 227
+      },
+      "cmyk": {
+        "C": 9,
+        "M": 0,
+        "Y": 15,
+        "K": 0
+      },
+      "hex": "#EEF5E3",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6120",
+      "rawName": "Malachite Light",
+      "code": "G 6120",
+      "name": "Malachite Light",
+      "family": "G",
+      "sourceLabel": "G6120 Malachite Light",
+      "aliases": [
+        "G6120",
+        "G6120 Malachite Light"
+      ],
+      "ordernumber": "285134",
+      "ean": "4048500285134",
+      "pid": "cc0ce3409f1040bba48fc29929eedfed",
+      "pigments": "PW 6 PY 74",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 175,
+        "G": 216,
+        "B": 193
+      },
+      "cmyk": {
+        "C": null,
+        "M": 0,
+        "Y": 31,
+        "K": 70
+      },
+      "hex": "#AFD8C1",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6130",
+      "rawName": "Malachite",
+      "code": "G 6130",
+      "name": "Malachite",
+      "family": "G",
+      "sourceLabel": "G6130 Malachite",
+      "aliases": [
+        "G6130",
+        "G6130 Malachite"
+      ],
+      "ordernumber": "285141",
+      "ean": "4048500285141",
+      "pid": "4a74e91f2f5f4f73981ac8f9daa539a2",
+      "pigments": "PW 6 PG 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 101,
+        "G": 183,
+        "B": 154
+      },
+      "cmyk": {
+        "C": 62,
+        "M": 4,
+        "Y": 48,
+        "K": 1
+      },
+      "hex": "#65B79A",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6150",
+      "rawName": "Malachite Dark",
+      "code": "G 6150",
+      "name": "Malachite Dark",
+      "family": "G",
+      "sourceLabel": "G6150 Malachite Dark",
+      "aliases": [
+        "G6150",
+        "G6150 Malachite Dark"
+      ],
+      "ordernumber": "285158",
+      "ean": "4048500285158",
+      "pid": "6ecf727d62ed4345985228df5480097c",
+      "pigments": "PW 6 PG 7 PY 42",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 58,
+        "G": 132,
+        "B": 105
+      },
+      "cmyk": {
+        "C": 73,
+        "M": 16,
+        "Y": 60,
+        "K": 24
+      },
+      "hex": "#3A8469",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6160",
+      "rawName": "Pine",
+      "code": "G 6160",
+      "name": "Pine",
+      "family": "G",
+      "sourceLabel": "G6160 Pine",
+      "aliases": [
+        "G6160",
+        "G6160 Pine"
+      ],
+      "ordernumber": "285165",
+      "ean": "4048500285165",
+      "pid": "2071f14972ff4bfcb925d229efade6a4",
+      "pigments": "PB 15:4 PY 42 PW 6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 109,
+        "B": 88
+      },
+      "cmyk": {
+        "C": 84,
+        "M": 18,
+        "Y": 63,
+        "K": 36
+      },
+      "hex": "#006D58",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6200",
+      "rawName": "Venice",
+      "code": "G 6200",
+      "name": "Venice",
+      "family": "G",
+      "sourceLabel": "G6200 Venice",
+      "aliases": [
+        "G6200",
+        "G6200 Venice"
+      ],
+      "ordernumber": "285172",
+      "ean": "4048500285172",
+      "pid": "b451404b68a840b7a0d85c2122bc7d77",
+      "pigments": "PW 6 PB 15:6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 229,
+        "G": 241,
+        "B": 230
+      },
+      "cmyk": {
+        "C": 13,
+        "M": 0,
+        "Y": 13,
+        "K": 0
+      },
+      "hex": "#E5F1E6",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6210",
+      "rawName": "Can2 Cool Candy",
+      "code": "G 6210",
+      "name": "Can2 Cool Candy",
+      "family": "G",
+      "sourceLabel": "G6210 Can2 Cool Candy",
+      "aliases": [
+        "G6210",
+        "G6210 Can2 Cool Candy"
+      ],
+      "ordernumber": "285189",
+      "ean": "4048500285189",
+      "pid": "99336f8320e747b6a92fa4afffa2c81e",
+      "pigments": "PW 6 PG 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 193,
+        "G": 226,
+        "B": 224
+      },
+      "cmyk": {
+        "C": 29,
+        "M": 0,
+        "Y": 15,
+        "K": 0
+      },
+      "hex": "#C1E2E0",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6230",
+      "rawName": "Pool",
+      "code": "G 6230",
+      "name": "Pool",
+      "family": "G",
+      "sourceLabel": "G6230 Pool",
+      "aliases": [
+        "G6230",
+        "G6230 Pool"
+      ],
+      "ordernumber": "285196",
+      "ean": "4048500285196",
+      "pid": "b915fe31167144e3add151978389b648",
+      "pigments": "PW 6 PG 7 PB 15:6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 147,
+        "G": 209,
+        "B": 217
+      },
+      "cmyk": {
+        "C": 46,
+        "M": 0,
+        "Y": 17,
+        "K": 0
+      },
+      "hex": "#93D1D9",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6250",
+      "rawName": "Dolphins",
+      "code": "G 6250",
+      "name": "Dolphins",
+      "family": "G",
+      "sourceLabel": "G6250 Dolphins",
+      "aliases": [
+        "G6250",
+        "G6250 Dolphins"
+      ],
+      "ordernumber": "285202",
+      "ean": "4048500285202",
+      "pid": "fd638c4a5abf4dc9884b56565549fc6a",
+      "pigments": "PW 6 PB 15:6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 80,
+        "G": 173,
+        "B": 197
+      },
+      "cmyk": {
+        "C": 65,
+        "M": 9,
+        "Y": 18,
+        "K": 5
+      },
+      "hex": "#50ADC5",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6260",
+      "rawName": "Aqua",
+      "code": "G 6260",
+      "name": "Aqua",
+      "family": "G",
+      "sourceLabel": "G6260 Aqua",
+      "aliases": [
+        "G6260",
+        "G6260 Aqua"
+      ],
+      "ordernumber": "285219",
+      "ean": "4048500285219",
+      "pid": "4bd7141db22541009ae19c19323be486",
+      "pigments": "PW 6 PB 15:6 PG 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 134,
+        "B": 162
+      },
+      "cmyk": {
+        "C": 98,
+        "M": 4,
+        "Y": 24,
+        "K": 19
+      },
+      "hex": "#0086A2",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6270",
+      "rawName": "Reef",
+      "code": "G 6270",
+      "name": "Reef",
+      "family": "G",
+      "sourceLabel": "G6270 Reef",
+      "aliases": [
+        "G6270",
+        "G6270 Reef"
+      ],
+      "ordernumber": "285226",
+      "ean": "4048500285226",
+      "pid": "8426f9e15a854c03a3ec4e54ad3ff7c0",
+      "pigments": "PB 15:6 PW 6 PG 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 98,
+        "B": 117
+      },
+      "cmyk": {
+        "C": 98,
+        "M": 11,
+        "Y": 28,
+        "K": 45
+      },
+      "hex": "#006275",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G6280",
+      "rawName": "Petrol",
+      "code": "G 6280",
+      "name": "Petrol",
+      "family": "G",
+      "sourceLabel": "G6280 Petrol",
+      "aliases": [
+        "G6280",
+        "G6280 Petrol"
+      ],
+      "ordernumber": "285233",
+      "ean": "4048500285233",
+      "pid": "d97872819ec24e0594547f56bfb73caa",
+      "pigments": "PB 15:6 PW 6 PG 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 54,
+        "B": 63
+      },
+      "cmyk": {
+        "C": 99,
+        "M": 25,
+        "Y": 37,
+        "K": 73
+      },
+      "hex": "#00363F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7000",
+      "rawName": "Pebble",
+      "code": "G 7000",
+      "name": "Pebble",
+      "family": "G",
+      "sourceLabel": "G7000 Pebble",
+      "aliases": [
+        "G7000",
+        "G7000 Pebble"
+      ],
+      "ordernumber": "285240",
+      "ean": "4048500285240",
+      "pid": "e850bf6d0dc84257bf692acb54adeba9",
+      "pigments": "PB 15:6 PB 15:4 PY 184",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 241,
+        "G": 239,
+        "B": 234
+      },
+      "cmyk": {
+        "C": 7,
+        "M": 5,
+        "Y": 9,
+        "K": 0
+      },
+      "hex": "#F1EFEA",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7010",
+      "rawName": "Marble",
+      "code": "G 7010",
+      "name": "Marble",
+      "family": "G",
+      "sourceLabel": "G7010 Marble",
+      "aliases": [
+        "G7010",
+        "G7010 Marble"
+      ],
+      "ordernumber": "285257",
+      "ean": "4048500285257",
+      "pid": "ff5077ee3e1945229ac0ac48d4bfbb66",
+      "pigments": "PW 6 PY 42 PBk 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 225,
+        "G": 226,
+        "B": 226
+      },
+      "cmyk": {
+        "C": 14,
+        "M": 9,
+        "Y": 11,
+        "K": 0
+      },
+      "hex": "#E1E2E2",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7020",
+      "rawName": "Wall",
+      "code": "G 7020",
+      "name": "Wall",
+      "family": "G",
+      "sourceLabel": "G7020 Wall",
+      "aliases": [
+        "G7020",
+        "G7020 Wall"
+      ],
+      "ordernumber": "285264",
+      "ean": "4048500285264",
+      "pid": "0da62fc2b5a94972927a520a57fede6d",
+      "pigments": "PW 6 PY 184 PR 170",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 198,
+        "G": 199,
+        "B": 198
+      },
+      "cmyk": {
+        "C": 24,
+        "M": 17,
+        "Y": 19,
+        "K": 4
+      },
+      "hex": "#C6C7C6",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7030",
+      "rawName": "Iron Curtain",
+      "code": "G 7030",
+      "name": "Iron Curtain",
+      "family": "G",
+      "sourceLabel": "G7030 Iron Curtain",
+      "aliases": [
+        "G7030",
+        "G7030 Iron Curtain"
+      ],
+      "ordernumber": "285271",
+      "ean": "4048500285271",
+      "pid": "57ab56f84a454f2585a9310069bba11d",
+      "pigments": "PW 6 PBk 6 PY 42",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 172,
+        "G": 170,
+        "B": 163
+      },
+      "cmyk": {
+        "C": 32,
+        "M": 25,
+        "Y": 30,
+        "K": 11
+      },
+      "hex": "#ACAAA3",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7050",
+      "rawName": "Roof",
+      "code": "G 7050",
+      "name": "Roof",
+      "family": "G",
+      "sourceLabel": "G7050 Roof",
+      "aliases": [
+        "G7050",
+        "G7050 Roof"
+      ],
+      "ordernumber": "285288",
+      "ean": "4048500285288",
+      "pid": "e422e239c4d7447c8a8808ba2a767732",
+      "pigments": "PW 6 PBk 6 PY 184",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 124,
+        "G": 126,
+        "B": 124
+      },
+      "cmyk": {
+        "C": 46,
+        "M": 35,
+        "Y": 37,
+        "K": 28
+      },
+      "hex": "#7C7E7C",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7060",
+      "rawName": "Gravel",
+      "code": "G 7060",
+      "name": "Gravel",
+      "family": "G",
+      "sourceLabel": "G7060 Gravel",
+      "aliases": [
+        "G7060",
+        "G7060 Gravel"
+      ],
+      "ordernumber": "285295",
+      "ean": "4048500285295",
+      "pid": "940d3d7fc1754f8890863a71137a303c",
+      "pigments": "PW 6 PBk 6 PY 42",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 98,
+        "G": 105,
+        "B": 105
+      },
+      "cmyk": {
+        "C": 55,
+        "M": 39,
+        "Y": 41,
+        "K": 38
+      },
+      "hex": "#626969",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7070",
+      "rawName": "Stealth",
+      "code": "G 7070",
+      "name": "Stealth",
+      "family": "G",
+      "sourceLabel": "G7070 Stealth",
+      "aliases": [
+        "G7070",
+        "G7070 Stealth"
+      ],
+      "ordernumber": "285318",
+      "ean": "4048500285318",
+      "pid": "4b299b401f504f11aae7aca7ba03d258",
+      "pigments": "PW 6 PBk 6 PR 170",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 49,
+        "G": 60,
+        "B": 63
+      },
+      "cmyk": {
+        "C": 70,
+        "M": 50,
+        "Y": 47,
+        "K": 64
+      },
+      "hex": "#313C3F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7090",
+      "rawName": "Coke",
+      "code": "G 7090",
+      "name": "Coke",
+      "family": "G",
+      "sourceLabel": "G7090 Coke",
+      "aliases": [
+        "G7090",
+        "G7090 Coke"
+      ],
+      "ordernumber": "285332",
+      "ean": "4048500285332",
+      "pid": "04fb03545a2b4851b5879d1091701149",
+      "pigments": "PBk 6 PW 6 PB 15:4",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 14,
+        "G": 21,
+        "B": 20
+      },
+      "cmyk": {
+        "C": 78,
+        "M": 60,
+        "Y": 59,
+        "K": 89
+      },
+      "hex": "#0E1514",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7210",
+      "rawName": "Dolomite",
+      "code": "G 7210",
+      "name": "Dolomite",
+      "family": "G",
+      "sourceLabel": "G7210 Dolomite",
+      "aliases": [
+        "G7210",
+        "G7210 Dolomite"
+      ],
+      "ordernumber": "492747",
+      "ean": "4048500283895",
+      "pid": "dfdff73722744c34a3490523224d947e",
+      "pigments": "PW 6 PY 184 PBk 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 242,
+        "G": 238,
+        "B": 231
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 2,
+        "Y": 6,
+        "K": 7
+      },
+      "hex": "#F2EEE7",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7220",
+      "rawName": "Ceramic",
+      "code": "G 7220",
+      "name": "Ceramic",
+      "family": "G",
+      "sourceLabel": "G7220 Ceramic",
+      "aliases": [
+        "G7220",
+        "G7220 Ceramic"
+      ],
+      "ordernumber": "492754",
+      "ean": "4048500283895",
+      "pid": "860df3b6807f415eae6669dc3ce5c0aa",
+      "pigments": "PW 6 PY 42 PBk 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 232,
+        "G": 228,
+        "B": 219
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 2,
+        "Y": 8,
+        "K": 12
+      },
+      "hex": "#E8E4DB",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7230",
+      "rawName": "Buzzard",
+      "code": "G 7230",
+      "name": "Buzzard",
+      "family": "G",
+      "sourceLabel": "G7230 Buzzard",
+      "aliases": [
+        "G7230",
+        "G7230 Buzzard"
+      ],
+      "ordernumber": "492761",
+      "ean": "4048500283895",
+      "pid": "26f4cf2f4a8b48e7a74914ccd74841fb",
+      "pigments": "PW 6 PY 42 PG 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 213,
+        "G": 211,
+        "B": 202
+      },
+      "cmyk": {
+        "C": 4,
+        "M": 4,
+        "Y": 10,
+        "K": 19
+      },
+      "hex": "#D5D3CA",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7240",
+      "rawName": "Yosemite",
+      "code": "G 7240",
+      "name": "Yosemite",
+      "family": "G",
+      "sourceLabel": "G7240 Yosemite",
+      "aliases": [
+        "G7240",
+        "G7240 Yosemite"
+      ],
+      "ordernumber": "492778",
+      "ean": "4048500283895",
+      "pid": "2d6171e977ac454ca8e8cecb118d018c",
+      "pigments": "PW 6 PY 42 PO 36",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 218,
+        "G": 215,
+        "B": 201
+      },
+      "cmyk": {
+        "C": 4,
+        "M": 4,
+        "Y": 14,
+        "K": 16
+      },
+      "hex": "#DAD7C9",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7250",
+      "rawName": "Asphalt",
+      "code": "G 7250",
+      "name": "Asphalt",
+      "family": "G",
+      "sourceLabel": "G7250 Asphalt",
+      "aliases": [
+        "G7250",
+        "G7250 Asphalt"
+      ],
+      "ordernumber": "492785",
+      "ean": "4048500283895",
+      "pid": "e0665a18ee7141b28a6131584206cfeb",
+      "pigments": "PW 6 PY 42 PBk 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 160,
+        "G": 159,
+        "B": 154
+      },
+      "cmyk": {
+        "C": 5,
+        "M": 5,
+        "Y": 10,
+        "K": 45
+      },
+      "hex": "#A09F9A",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7260",
+      "rawName": "Meteorite",
+      "code": "G 7260",
+      "name": "Meteorite",
+      "family": "G",
+      "sourceLabel": "G7260 Meteorite",
+      "aliases": [
+        "G7260",
+        "G7260 Meteorite"
+      ],
+      "ordernumber": "492792",
+      "ean": "4048500283895",
+      "pid": "c0e9ed94802245ffa5bf8e1a83dc024b",
+      "pigments": "PW 6 PY 42 PBk 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 118,
+        "G": 114,
+        "B": 107
+      },
+      "cmyk": {
+        "C": 7,
+        "M": 10,
+        "Y": 17,
+        "K": 64
+      },
+      "hex": "#76726B",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G7270",
+      "rawName": "Basalt",
+      "code": "G 7270",
+      "name": "Basalt",
+      "family": "G",
+      "sourceLabel": "G7270 Basalt",
+      "aliases": [
+        "G7270",
+        "G7270 Basalt"
+      ],
+      "ordernumber": "492808",
+      "ean": "4048500283895",
+      "pid": "b79ff5df843f4ad094a55f0451e0f3e1",
+      "pigments": "PW 6 PY 42 PBk 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 85,
+        "G": 82,
+        "B": 77
+      },
+      "cmyk": {
+        "C": 6,
+        "M": 10,
+        "Y": 15,
+        "K": 79
+      },
+      "hex": "#55524D",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8000",
+      "rawName": "Elm",
+      "code": "G 8000",
+      "name": "Elm",
+      "family": "G",
+      "sourceLabel": "G8000 Elm",
+      "aliases": [
+        "G8000",
+        "G8000 Elm"
+      ],
+      "ordernumber": "285349",
+      "ean": "4048500285349",
+      "pid": "bd8ee493fbba402cb92ab82b01ce8cf9",
+      "pigments": "PW 6 PY 42 PY 184",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 247,
+        "G": 240,
+        "B": 206
+      },
+      "cmyk": {
+        "C": 5,
+        "M": 4,
+        "Y": 25,
+        "K": 0
+      },
+      "hex": "#F7F0CE",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8010",
+      "rawName": "Sahara Yellow",
+      "code": "G 8010",
+      "name": "Sahara Yellow",
+      "family": "G",
+      "sourceLabel": "G8010 Sahara Yellow",
+      "aliases": [
+        "G8010",
+        "G8010 Sahara Yellow"
+      ],
+      "ordernumber": "285363",
+      "ean": "4048500285363",
+      "pid": "9795736c0eb64c27a937a24adcd4b8c5",
+      "pigments": "PW 6 PY 184 PO 36",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 229,
+        "G": 212,
+        "B": 156
+      },
+      "cmyk": {
+        "C": 11,
+        "M": 13,
+        "Y": 45,
+        "K": 73
+      },
+      "hex": "#E5D49C",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8020",
+      "rawName": "Saraha Beige",
+      "code": "G 8020",
+      "name": "Saraha Beige",
+      "family": "G",
+      "sourceLabel": "G8020 Saraha Beige",
+      "aliases": [
+        "G8020",
+        "G8020 Saraha Beige"
+      ],
+      "ordernumber": "285394",
+      "ean": "4048500285394",
+      "pid": "41fcbf68d555475390b75a7dab553251",
+      "pigments": "PW 6 PY 42 PR 101",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 218,
+        "G": 186,
+        "B": 127
+      },
+      "cmyk": {
+        "C": 12,
+        "M": 24,
+        "Y": 54,
+        "K": 7
+      },
+      "hex": "#DABA7F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8040",
+      "rawName": "Duck Season",
+      "code": "G 8040",
+      "name": "Duck Season",
+      "family": "G",
+      "sourceLabel": "G8040 Duck Season",
+      "aliases": [
+        "G8040",
+        "G8040 Duck Season"
+      ],
+      "ordernumber": "285400",
+      "ean": "4048500285400",
+      "pid": "49709b1bd35d4ad18f0b27489a1db68d",
+      "pigments": "PW 6 PY 184 PY 83",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 178,
+        "G": 146,
+        "B": 96
+      },
+      "cmyk": {
+        "C": 21,
+        "M": 34,
+        "Y": 62,
+        "K": 21
+      },
+      "hex": "#B29260",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8070",
+      "rawName": "Salmon",
+      "code": "G 8070",
+      "name": "Salmon",
+      "family": "G",
+      "sourceLabel": "G8070 Salmon",
+      "aliases": [
+        "G8070",
+        "G8070 Salmon"
+      ],
+      "ordernumber": "285417",
+      "ean": "4048500285417",
+      "pid": "d2d49f864ea2463aafaa132f751dd0e8",
+      "pigments": "PW 6 PY 184 PR 101",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 243,
+        "G": 166,
+        "B": 140
+      },
+      "cmyk": {
+        "C": 1,
+        "M": 44,
+        "Y": 43,
+        "K": 0
+      },
+      "hex": "#F3A68C",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8080",
+      "rawName": "Dirty Apricot",
+      "code": "G 8080",
+      "name": "Dirty Apricot",
+      "family": "G",
+      "sourceLabel": "G8080 Dirty Apricot",
+      "aliases": [
+        "G8080",
+        "G8080 Dirty Apricot"
+      ],
+      "ordernumber": "285424",
+      "ean": "4048500285424",
+      "pid": "701ea270c3cc44dda8400921b7a8ca0d",
+      "pigments": "PW 6 PR 101 PY 42",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 215,
+        "G": 131,
+        "B": 102
+      },
+      "cmyk": {
+        "C": 9,
+        "M": 55,
+        "Y": 57,
+        "K": 7
+      },
+      "hex": "#D78366",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8085",
+      "rawName": "Aubergine",
+      "code": "G 8085",
+      "name": "Aubergine",
+      "family": "G",
+      "sourceLabel": "G8085 Aubergine",
+      "aliases": [
+        "G8085",
+        "G8085 Aubergine"
+      ],
+      "ordernumber": "285448",
+      "ean": "4048500285448",
+      "pid": "c60bd4b480644b318ac46d728ee959ac",
+      "pigments": "PR 170 PY 42 PB 15:4",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 53,
+        "G": 30,
+        "B": 31
+      },
+      "cmyk": {
+        "C": 54,
+        "M": 73,
+        "Y": 57,
+        "K": 78
+      },
+      "hex": "#351E1F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8090",
+      "rawName": "Nougat",
+      "code": "G 8090",
+      "name": "Nougat",
+      "family": "G",
+      "sourceLabel": "G8090 Nougat",
+      "aliases": [
+        "G8090",
+        "G8090 Nougat"
+      ],
+      "ordernumber": "285455",
+      "ean": "4048500285455",
+      "pid": "816529bc2f894341abf0f75ea3a8fae9",
+      "pigments": "PW 6 PR 101 PY 42",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 183,
+        "G": 116,
+        "B": 82
+      },
+      "cmyk": {
+        "C": 16,
+        "M": 55,
+        "Y": 64,
+        "K": 20
+      },
+      "hex": "#B77452",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8100",
+      "rawName": "Orange Brown",
+      "code": "G 8100",
+      "name": "Orange Brown",
+      "family": "G",
+      "sourceLabel": "G8100 Orange Brown",
+      "aliases": [
+        "G8100",
+        "G8100 Orange Brown"
+      ],
+      "ordernumber": "285462",
+      "ean": "4048500285462",
+      "pid": "ae9649ef80554af0b36a1dace35658cc",
+      "pigments": "PO 43 PR 101 PY 42",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 125,
+        "G": 57,
+        "B": 36
+      },
+      "cmyk": {
+        "C": 22,
+        "M": 75,
+        "Y": 78,
+        "K": 49
+      },
+      "hex": "#7D3924",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8110",
+      "rawName": "Rusto Coat",
+      "code": "G 8110",
+      "name": "Rusto Coat",
+      "family": "G",
+      "sourceLabel": "G8110 Rusto Coat",
+      "aliases": [
+        "G8110",
+        "G8110 Rusto Coat"
+      ],
+      "ordernumber": "285479",
+      "ean": "4048500285479",
+      "pid": "a8cb5f0be30148dab7e2bdeabfc61865",
+      "pigments": "PO 36 PW 6 PR 170",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 145,
+        "G": 43,
+        "B": 47
+      },
+      "cmyk": {
+        "C": 17,
+        "M": 88,
+        "Y": 68,
+        "K": 39
+      },
+      "hex": "#912B2F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8115",
+      "rawName": "Wine Red",
+      "code": "G 8115",
+      "name": "Wine Red",
+      "family": "G",
+      "sourceLabel": "G8115 Wine Red",
+      "aliases": [
+        "G8115",
+        "G8115 Wine Red"
+      ],
+      "ordernumber": "285486",
+      "ean": "4048500285486",
+      "pid": "a1ae7dc79dd342e993150434247d014f",
+      "pigments": "PR 122 PO 36 PG 7",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 62,
+        "G": 22,
+        "B": 27
+      },
+      "cmyk": {
+        "C": 43,
+        "M": 84,
+        "Y": 58,
+        "K": 77
+      },
+      "hex": "#3E161B",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8120",
+      "rawName": "Cacao",
+      "code": "G 8120",
+      "name": "Cacao",
+      "family": "G",
+      "sourceLabel": "G8120 Cacao",
+      "aliases": [
+        "G8120",
+        "G8120 Cacao"
+      ],
+      "ordernumber": "285493",
+      "ean": "4048500285493",
+      "pid": "5949464fcb494396b7f50d4225a8c0c1",
+      "pigments": "PR 101 PY 42 PBk 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 84,
+        "G": 49,
+        "B": 31
+      },
+      "cmyk": {
+        "C": 36,
+        "M": 67,
+        "Y": 74,
+        "K": 67
+      },
+      "hex": "#54311F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8145",
+      "rawName": "Anthracite",
+      "code": "G 8145",
+      "name": "Anthracite",
+      "family": "G",
+      "sourceLabel": "G8145 Anthracite",
+      "aliases": [
+        "G8145",
+        "G8145 Anthracite"
+      ],
+      "ordernumber": "285509",
+      "ean": "4048500285509",
+      "pid": "8f538d1fc99b4c568b96950acd0673fb",
+      "pigments": "PG 7 PR 122 PO 36",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 25,
+        "G": 33,
+        "B": 32
+      },
+      "cmyk": {
+        "C": 75,
+        "M": 56,
+        "Y": 56,
+        "K": 82
+      },
+      "hex": "#192120",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8150",
+      "rawName": "Concrete",
+      "code": "G 8150",
+      "name": "Concrete",
+      "family": "G",
+      "sourceLabel": "G8150 Concrete",
+      "aliases": [
+        "G8150",
+        "G8150 Concrete"
+      ],
+      "ordernumber": "285516",
+      "ean": "4048500285516",
+      "pid": "8bff4653126d4c579b0957e6c625d511",
+      "pigments": "PY 74 PV 23 PR 101",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 53,
+        "G": 48,
+        "B": 40
+      },
+      "cmyk": {
+        "C": 59,
+        "M": 55,
+        "Y": 61,
+        "K": 73
+      },
+      "hex": "#353028",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8170",
+      "rawName": "Lip",
+      "code": "G 8170",
+      "name": "Lip",
+      "family": "G",
+      "sourceLabel": "G8170 Lip",
+      "aliases": [
+        "G8170",
+        "G8170 Lip"
+      ],
+      "ordernumber": "285523",
+      "ean": "4048500285523",
+      "pid": "36f8f82a2b9540c28d9dfceda0579790",
+      "pigments": "PO 36 PR 122 PV 23",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 147,
+        "G": 77,
+        "B": 84
+      },
+      "cmyk": {
+        "C": 25,
+        "M": 70,
+        "Y": 46,
+        "K": 34
+      },
+      "hex": "#934D54",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8175",
+      "rawName": "Paris",
+      "code": "G 8175",
+      "name": "Paris",
+      "family": "G",
+      "sourceLabel": "G8175 Paris",
+      "aliases": [
+        "G8175",
+        "G8175 Paris"
+      ],
+      "ordernumber": "285530",
+      "ean": "4048500285530",
+      "pid": "c446b3453ed64ab196bb03ff43ae96f0",
+      "pigments": "PW 6 PY 74",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 203,
+        "G": 181,
+        "B": 191
+      },
+      "cmyk": {
+        "C": 20,
+        "M": 29,
+        "Y": 16,
+        "K": 5
+      },
+      "hex": "#CBB5BF",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8180",
+      "rawName": "Brain",
+      "code": "G 8180",
+      "name": "Brain",
+      "family": "G",
+      "sourceLabel": "G8180 Brain",
+      "aliases": [
+        "G8180",
+        "G8180 Brain"
+      ],
+      "ordernumber": "285547",
+      "ean": "4048500285547",
+      "pid": "4f6ed390c7184e21ada9320fd834a2ec",
+      "pigments": "PW 6 PR 170 PY 42",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 214,
+        "G": 196,
+        "B": 191
+      },
+      "cmyk": {
+        "C": 16,
+        "M": 22,
+        "Y": 21,
+        "K": 4
+      },
+      "hex": "#D6C4BF",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "G8190",
+      "rawName": "Flesh",
+      "code": "G 8190",
+      "name": "Flesh",
+      "family": "G",
+      "sourceLabel": "G8190 Flesh",
+      "aliases": [
+        "G8190",
+        "G8190 Flesh"
+      ],
+      "ordernumber": "285554",
+      "ean": "4048500285554",
+      "pid": "a7d6aa9f5fe5485dafc919bdca4e65ff",
+      "pigments": "PW 6 PY 42 PR 101",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 213,
+        "G": 191,
+        "B": 185
+      },
+      "cmyk": {
+        "C": 16,
+        "M": 25,
+        "Y": 23,
+        "K": 4
+      },
+      "hex": "#D5BFB9",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "1000",
+      "rawName": "100% Yellow",
+      "code": "P 1000",
+      "name": "100% Yellow",
+      "family": "P",
+      "sourceLabel": "1000 100% Yellow",
+      "aliases": [
+        "1000",
+        "P1000",
+        "1000 100% Yellow"
+      ],
+      "ordernumber": "285561",
+      "ean": "4048500283895",
+      "pid": "5e31956b3cdf4bf58903fa2d385a8594",
+      "pigments": "PY 74 PY 43",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 255,
+        "G": 238,
+        "B": 155
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 5,
+        "Y": 49,
+        "K": 0
+      },
+      "hex": "#FFEE00",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "2000",
+      "rawName": "100% Cyan",
+      "code": "P 2000",
+      "name": "100% Cyan",
+      "family": "P",
+      "sourceLabel": "2000 100% Cyan",
+      "aliases": [
+        "2000",
+        "P2000",
+        "2000 100% Cyan"
+      ],
+      "ordernumber": "285578",
+      "ean": "4048500285578",
+      "pid": "46e0fe3692a240f8845efbb131173b41",
+      "pigments": "PW 6 PB 15:3 PG 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 174,
+        "B": 199
+      },
+      "cmyk": {
+        "C": 79,
+        "M": 1,
+        "Y": 22,
+        "K": 0
+      },
+      "hex": "#00AEC7",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "3000",
+      "rawName": "100% Magenta",
+      "code": "P 3000",
+      "name": "100% Magenta",
+      "family": "P",
+      "sourceLabel": "3000 100% Magenta",
+      "aliases": [
+        "3000",
+        "P3000",
+        "3000 100% Magenta"
+      ],
+      "ordernumber": "285585",
+      "ean": "4048500285585",
+      "pid": "9e5f4c9a61914c63b406ab0a3f18b051",
+      "pigments": "PW 6 PR 122 PR 170",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 208,
+        "G": 0,
+        "B": 101
+      },
+      "cmyk": {
+        "C": 2,
+        "M": 100,
+        "Y": 20,
+        "K": 11
+      },
+      "hex": "#D00065",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 2100",
+      "rawName": "Shrimp Pastel",
+      "code": "CL 2100",
+      "name": "Shrimp Pastel",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 2100 Shrimp Pastel",
+      "aliases": [
+        "CLASSIC 2100",
+        "CL2100",
+        "CLASSIC 2100 Shrimp Pastel"
+      ],
+      "ordernumber": "283604",
+      "ean": "4048500283604",
+      "pid": "772d8924b70343dfb799e722994bbd37",
+      "pigments": "PW 6 PO 43",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 248,
+        "G": 189,
+        "B": 178
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 34,
+        "Y": 26,
+        "K": 0
+      },
+      "hex": "#F8BDB2",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 2120",
+      "rawName": "Shrimp",
+      "code": "CL 2120",
+      "name": "Shrimp",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 2120 Shrimp",
+      "aliases": [
+        "CLASSIC 2120",
+        "CL2120",
+        "CLASSIC 2120 Shrimp"
+      ],
+      "ordernumber": "283611",
+      "ean": "4048500283611",
+      "pid": "b9b6493f022443f382cb93a72fa8556d",
+      "pigments": "PW 6 PO 43 PY 83",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 242,
+        "G": 156,
+        "B": 134
+      },
+      "cmyk": {
+        "C": 1,
+        "M": 49,
+        "Y": 44,
+        "K": 0
+      },
+      "hex": "#F29C86",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 2130",
+      "rawName": "Shrimp Dark",
+      "code": "CL 2130",
+      "name": "Shrimp Dark",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 2130 Shrimp Dark",
+      "aliases": [
+        "CLASSIC 2130",
+        "CL2130",
+        "CLASSIC 2130 Shrimp Dark"
+      ],
+      "ordernumber": "283628",
+      "ean": "4048500283628",
+      "pid": "c1c2a8083eb74e7996bef82e85daf485",
+      "pigments": "PW 6 PO 43 PY 83",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 239,
+        "G": 132,
+        "B": 100
+      },
+      "cmyk": {
+        "C": 1,
+        "M": 59,
+        "Y": 59,
+        "K": 0
+      },
+      "hex": "#EF8464",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 4300",
+      "rawName": "Louie Lilac",
+      "code": "CL 4300",
+      "name": "Louie Lilac",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 4300 Louie Lilac",
+      "aliases": [
+        "CLASSIC 4300",
+        "CL4300",
+        "CLASSIC 4300 Louie Lilac"
+      ],
+      "ordernumber": "283635",
+      "ean": "4048500283635",
+      "pid": "2ae5e5ffc1b848feb10464288b09725c",
+      "pigments": "PW 6 PB 15:6 PY",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 30,
+        "G": 35,
+        "B": 87
+      },
+      "cmyk": {
+        "C": 98,
+        "M": 87,
+        "Y": 11,
+        "K": 46
+      },
+      "hex": "#1E2357",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 5200",
+      "rawName": "Denim Light",
+      "code": "CL 5200",
+      "name": "Denim Light",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 5200 Denim Light",
+      "aliases": [
+        "CLASSIC 5200",
+        "CL5200",
+        "CLASSIC 5200 Denim Light"
+      ],
+      "ordernumber": "283642",
+      "ean": "4048500283642",
+      "pid": "9ece8ee400c24fba8732dd3e827f8fc6",
+      "pigments": "PW 6 PB 15:6 PY 83",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 201,
+        "G": 225,
+        "B": 243
+      },
+      "cmyk": {
+        "C": 25,
+        "M": 5,
+        "Y": 2,
+        "K": 0
+      },
+      "hex": "#C9E1F3",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 5210",
+      "rawName": "Denim",
+      "code": "CL 5210",
+      "name": "Denim",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 5210 Denim",
+      "aliases": [
+        "CLASSIC 5210",
+        "CL5210",
+        "CLASSIC 5210 Denim"
+      ],
+      "ordernumber": "283659",
+      "ean": "4048500283659",
+      "pid": "0ef635d5f707451d8a1094ad90014a4f",
+      "pigments": "PW 6 PB 15:6 PV 23",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 153,
+        "G": 198,
+        "B": 227
+      },
+      "cmyk": {
+        "C": 44,
+        "M": 11,
+        "Y": 6,
+        "K": 0
+      },
+      "hex": "#99C6E3",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 5220",
+      "rawName": "Denim Stonewashed",
+      "code": "CL 5220",
+      "name": "Denim Stonewashed",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 5220 Denim Stonewashed",
+      "aliases": [
+        "CLASSIC 5220",
+        "CL5220",
+        "CLASSIC 5220 Denim Stonewashed"
+      ],
+      "ordernumber": "283666",
+      "ean": "4048500283666",
+      "pid": "646f03b423a345c7b26884e89a5a9c0b",
+      "pigments": "PW 6 PB 15:6 PV 23",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 101,
+        "G": 152,
+        "B": 198
+      },
+      "cmyk": {
+        "C": 63,
+        "M": 30,
+        "Y": 7,
+        "K": 3
+      },
+      "hex": "#6598C6",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 6300",
+      "rawName": "Poison Pastel",
+      "code": "CL 6300",
+      "name": "Poison Pastel",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 6300 Poison Pastel",
+      "aliases": [
+        "CLASSIC 6300",
+        "CL6300",
+        "CLASSIC 6300 Poison Pastel"
+      ],
+      "ordernumber": "283680",
+      "ean": "4048500283680",
+      "pid": "bb810d7aecb94fecb675769f11c8ce6d",
+      "pigments": "PW 6 PY 184",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 238,
+        "G": 228,
+        "B": 54
+      },
+      "cmyk": {
+        "C": 12,
+        "M": 1,
+        "Y": 85,
+        "K": 0
+      },
+      "hex": "#EEE436",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 6310",
+      "rawName": "Poison Light",
+      "code": "CL 6310",
+      "name": "Poison Light",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 6310 Poison Light",
+      "aliases": [
+        "CLASSIC 6310",
+        "CL6310",
+        "CLASSIC 6310 Poison Light"
+      ],
+      "ordernumber": "283697",
+      "ean": "4048500283697",
+      "pid": "a4f0de7a7e334585be6baf2a2c9094e7",
+      "pigments": "PY 184 PW 6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 228,
+        "G": 224,
+        "B": 40
+      },
+      "cmyk": {
+        "C": 17,
+        "M": 0,
+        "Y": 89,
+        "K": 0
+      },
+      "hex": "#E4E028",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 6320",
+      "rawName": "Poison",
+      "code": "CL 6320",
+      "name": "Poison",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 6320 Poison",
+      "aliases": [
+        "CLASSIC 6320",
+        "CL6320",
+        "CLASSIC 6320 Poison"
+      ],
+      "ordernumber": "283703",
+      "ean": "4048500283703",
+      "pid": "0400e555e78943769b26cc1906514801",
+      "pigments": "PY 184 PW 6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 200,
+        "G": 210,
+        "B": 24
+      },
+      "cmyk": {
+        "C": 29,
+        "M": 1,
+        "Y": 95,
+        "K": 1
+      },
+      "hex": "#C8D215",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 6330",
+      "rawName": "Poison Dark",
+      "code": "CL 6330",
+      "name": "Poison Dark",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 6330 Poison Dark",
+      "aliases": [
+        "CLASSIC 6330",
+        "CL6330",
+        "CLASSIC 6330 Poison Dark"
+      ],
+      "ordernumber": "283710",
+      "ean": "4048500283710",
+      "pid": "16061ec2fb774a48891eb8546d24c77d",
+      "pigments": "PY 184 PY 42 PW 6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 173,
+        "G": 199,
+        "B": 11
+      },
+      "cmyk": {
+        "C": 40,
+        "M": 0,
+        "Y": 100,
+        "K": 2
+      },
+      "hex": "#ADC70B",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 6340",
+      "rawName": "Olive Green",
+      "code": "CL 6340",
+      "name": "Olive Green",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 6340 Olive Green",
+      "aliases": [
+        "CLASSIC 6340",
+        "CL6340",
+        "CLASSIC 6340 Olive Green"
+      ],
+      "ordernumber": "283727",
+      "ean": "4048500283727",
+      "pid": "d327ecea3f86461ea3921a7e090c3746",
+      "pigments": "PY 184 PO 43 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 73,
+        "G": 79,
+        "B": 31
+      },
+      "cmyk": {
+        "C": 53,
+        "M": 33,
+        "Y": 88,
+        "K": 62
+      },
+      "hex": "#494F1F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 6400",
+      "rawName": "Manila Light",
+      "code": "CL 6400",
+      "name": "Manila Light",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 6400 Manila Light",
+      "aliases": [
+        "CLASSIC 6400",
+        "CL6400",
+        "CLASSIC 6400 Manila Light"
+      ],
+      "ordernumber": "283734",
+      "ean": "4048500283734",
+      "pid": "f1e085d55849430a9a33e44f59127104",
+      "pigments": "PW 6 PO 36 PY 74",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 167,
+        "G": 169,
+        "B": 122
+      },
+      "cmyk": {
+        "C": 33,
+        "M": 19,
+        "Y": 54,
+        "K": 15
+      },
+      "hex": "#A7A97A",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 6410",
+      "rawName": "Manila Green",
+      "code": "CL 6410",
+      "name": "Manila Green",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 6410 Manila Green",
+      "aliases": [
+        "CLASSIC 6410",
+        "CL6410",
+        "CLASSIC 6410 Manila Green"
+      ],
+      "ordernumber": "283741",
+      "ean": "4048500283741",
+      "pid": "c0162fac6c5347f9901c583c7d99ccb1",
+      "pigments": "PW 6 PY 42 PO 36",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 131,
+        "G": 134,
+        "B": 99
+      },
+      "cmyk": {
+        "C": 42,
+        "M": 27,
+        "Y": 58,
+        "K": 29
+      },
+      "hex": "#838663",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 6420",
+      "rawName": "Manila Dark",
+      "code": "CL 6420",
+      "name": "Manila Dark",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 6420 Manila Dark",
+      "aliases": [
+        "CLASSIC 6420",
+        "CL6420",
+        "CLASSIC 6420 Manila Dark"
+      ],
+      "ordernumber": "283758",
+      "ean": "4048500283758",
+      "pid": "32d0ce22033a4b5e833ffcce9b0d3243",
+      "pigments": "PY 42 PW 6 PR 170",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 70,
+        "G": 65,
+        "B": 44
+      },
+      "cmyk": {
+        "C": 52,
+        "M": 45,
+        "Y": 69,
+        "K": 66
+      },
+      "hex": "#46412C",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - CLASSIC 8300 SAND",
+      "rawCode": "CLASSIC 8300",
+      "rawName": "Sand",
+      "code": "CL 8300",
+      "name": "Sand",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 8300 Sand",
+      "aliases": [
+        "CLASSIC 8300",
+        "CL8300",
+        "CLASSIC 8300 Sand"
+      ],
+      "ordernumber": "283765",
+      "ean": "4048500283765",
+      "pid": "5920bb0e45d74e9ba2499709e8b1fb02",
+      "pigments": "PY 42 PW 6 PO 43",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 184,
+        "G": 146,
+        "B": 71
+      },
+      "cmyk": {
+        "C": 17,
+        "M": 34,
+        "Y": 75,
+        "K": 21
+      },
+      "hex": "#B89247",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 8310",
+      "rawName": "Hazelnut",
+      "code": "CL 8310",
+      "name": "Hazelnut",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 8310 Hazelnut",
+      "aliases": [
+        "CLASSIC 8310",
+        "CL8310",
+        "CLASSIC 8310 Hazelnut"
+      ],
+      "ordernumber": "283796",
+      "ean": "4048500283796",
+      "pid": "202cdf4100354938a43029ab24923274",
+      "pigments": "PY 42 PR 101 PW 6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 128,
+        "G": 68,
+        "B": 30
+      },
+      "cmyk": {
+        "C": 23,
+        "M": 68,
+        "Y": 86,
+        "K": 47
+      },
+      "hex": "#80441E",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "CLASSIC 8320",
+      "rawName": "Chestnut",
+      "code": "CL 8320",
+      "name": "Chestnut",
+      "family": "CL",
+      "sourceLabel": "CLASSIC 8320 Chestnut",
+      "aliases": [
+        "CLASSIC 8320",
+        "CL8320",
+        "CLASSIC 8320 Chestnut"
+      ],
+      "ordernumber": "283802",
+      "ean": "4048500283802",
+      "pid": "9fa3c931af08451cb8298f42ff0bb551",
+      "pigments": "PR 122 PY 83 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 78,
+        "G": 26,
+        "B": 27
+      },
+      "cmyk": {
+        "C": 34,
+        "M": 86,
+        "Y": 65,
+        "K": 71
+      },
+      "hex": "#4E1A1B",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 1000",
+      "rawName": "Yellow Light",
+      "code": "S 1000",
+      "name": "Shock Yellow Light",
+      "family": "S",
+      "sourceLabel": "SHOCK 1000 Yellow Light",
+      "aliases": [
+        "SHOCK 1000",
+        "Yellow Light",
+        "S1000",
+        "SHOCK 1000 Yellow Light"
+      ],
+      "ordernumber": "285592",
+      "ean": "4048500285592",
+      "pid": "1a05e86d873d4fdbb49593b6c74299aa",
+      "pigments": "PW 6 PY 184 PY 83",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 255,
+        "G": 22,
+        "B": 9
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 10,
+        "Y": 91,
+        "K": 0
+      },
+      "hex": "#FFDE09",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 1010",
+      "rawName": "Yellow",
+      "code": "S 1010",
+      "name": "Shock Yellow",
+      "family": "S",
+      "sourceLabel": "SHOCK 1010 Yellow",
+      "aliases": [
+        "SHOCK 1010",
+        "Yellow",
+        "S1010",
+        "SHOCK 1010 Yellow"
+      ],
+      "ordernumber": "285608",
+      "ean": "4048500285608",
+      "pid": "0eff04231a894fc6a7c6293a9feba076",
+      "pigments": "PY 83 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 252,
+        "G": 188,
+        "B": 0
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 29,
+        "Y": 100,
+        "K": 0
+      },
+      "hex": "#FCBC00",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 2000",
+      "rawName": "Orange Light",
+      "code": "S 2000",
+      "name": "Shock Orange Light",
+      "family": "S",
+      "sourceLabel": "SHOCK 2000 Orange Light",
+      "aliases": [
+        "SHOCK 2000",
+        "Orange Light",
+        "S2000",
+        "SHOCK 2000 Orange Light"
+      ],
+      "ordernumber": "285615",
+      "ean": "4048500285615",
+      "pid": "e56e778d17424ecbb730b536a64cf05b",
+      "pigments": "PY 83 PW 6 PR 170",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 239,
+        "G": 125,
+        "B": 10
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 60,
+        "Y": 98,
+        "K": 0
+      },
+      "hex": "#EF7D0A",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 2010",
+      "rawName": "Orange",
+      "code": "S 2010",
+      "name": "Shock Orange",
+      "family": "S",
+      "sourceLabel": "SHOCK 2010 Orange",
+      "aliases": [
+        "SHOCK 2010",
+        "Orange",
+        "S2010",
+        "SHOCK 2010 Orange"
+      ],
+      "ordernumber": "285622",
+      "ean": "4048500285622",
+      "pid": "eff8a82e94364dc5909f7cb5babd3a82",
+      "pigments": "PO 43 PY 184 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 234,
+        "G": 91,
+        "B": 24
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 75,
+        "Y": 96,
+        "K": 0
+      },
+      "hex": "#EA5B18",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 2020",
+      "rawName": "Orange Dark",
+      "code": "S 2020",
+      "name": "Shock Orange Dark",
+      "family": "S",
+      "sourceLabel": "SHOCK 2020 Orange Dark",
+      "aliases": [
+        "SHOCK 2020",
+        "Orange Dark",
+        "S2020",
+        "SHOCK 2020 Orange Dark"
+      ],
+      "ordernumber": "285639",
+      "ean": "4048500285639",
+      "pid": "553f9893c999439bb661ed4a07a68c87",
+      "pigments": "PO 43 PR 170 PW 6",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 230,
+        "G": 48,
+        "B": 29
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 91,
+        "Y": 94,
+        "K": 0
+      },
+      "hex": "#E6301D",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 3000",
+      "rawName": "Red",
+      "code": "S 3000",
+      "name": "Shock Red",
+      "family": "S",
+      "sourceLabel": "SHOCK 3000 Red",
+      "aliases": [
+        "SHOCK 3000",
+        "Red",
+        "S3000",
+        "SHOCK 3000 Red"
+      ],
+      "ordernumber": "285646",
+      "ean": "4048500285646",
+      "pid": "cdee857baa8c4dae8c04d8c63dcfe102",
+      "pigments": "PR 170 PW 6 PO 43",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 203,
+        "G": 13,
+        "B": 31
+      },
+      "cmyk": {
+        "C": 3,
+        "M": 100,
+        "Y": 89,
+        "K": 12
+      },
+      "hex": "#CB0D1F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 3020",
+      "rawName": "Kent Blood Red",
+      "code": "S 3020",
+      "name": "Shock Kent Blood Red",
+      "family": "S",
+      "sourceLabel": "SHOCK 3020 Kent Blood Red",
+      "aliases": [
+        "SHOCK 3020",
+        "Kent Blood Red",
+        "S3020",
+        "SHOCK 3020 Kent Blood Red"
+      ],
+      "ordernumber": "285653",
+      "ean": "4048500285653",
+      "pid": "1ef7954261c4424596d8a7839ede07e5",
+      "pigments": "PR 170 PV 19 PW 6",
+      "lightfastness": "2",
+      "rgb": {
+        "R": 175,
+        "G": 21,
+        "B": 26
+      },
+      "cmyk": {
+        "C": 6,
+        "M": 99,
+        "Y": 89,
+        "K": 26
+      },
+      "hex": "#AF151A",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 4000",
+      "rawName": "Pink Light",
+      "code": "S 4000",
+      "name": "Shock Pink Light",
+      "family": "S",
+      "sourceLabel": "SHOCK 4000 Pink Light",
+      "aliases": [
+        "SHOCK 4000",
+        "Pink Light",
+        "S4000",
+        "SHOCK 4000 Pink Light"
+      ],
+      "ordernumber": "285660",
+      "ean": "4048500285660",
+      "pid": "b91771a60039435bad5414866532f29b",
+      "pigments": "PW 6 PR 122",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 232,
+        "G": 136,
+        "B": 178
+      },
+      "cmyk": {
+        "C": 5,
+        "M": 59,
+        "Y": 4,
+        "K": 0
+      },
+      "hex": "#E888B2",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 4010",
+      "rawName": "Pink",
+      "code": "S 4010",
+      "name": "Shock Pink",
+      "family": "S",
+      "sourceLabel": "SHOCK 4010 Pink",
+      "aliases": [
+        "SHOCK 4010",
+        "Pink",
+        "S4010",
+        "SHOCK 4010 Pink"
+      ],
+      "ordernumber": "285677",
+      "ean": "4048500285677",
+      "pid": "3aec28fe3bf54c3f84064caa2e151136",
+      "pigments": "PR 122 PW 6 PR 170",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 199,
+        "G": 52,
+        "B": 117
+      },
+      "cmyk": {
+        "C": 7,
+        "M": 88,
+        "Y": 11,
+        "K": 14
+      },
+      "hex": "#C73475",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 4220",
+      "rawName": "Lilac",
+      "code": "S 4220",
+      "name": "Shock Lilac",
+      "family": "S",
+      "sourceLabel": "SHOCK 4220 Lilac",
+      "aliases": [
+        "SHOCK 4220",
+        "Lilac",
+        "S4220",
+        "SHOCK 4220 Lilac"
+      ],
+      "ordernumber": "285684",
+      "ean": "4048500285684",
+      "pid": "8dea37511d664fa4a12acb1caa0d538f",
+      "pigments": "PV 23 PW 6 PB 15:4",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 49,
+        "G": 44,
+        "B": 102
+      },
+      "cmyk": {
+        "C": 91,
+        "M": 86,
+        "Y": 11,
+        "K": 33
+      },
+      "hex": "#312C66",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 5000",
+      "rawName": "Blue Light",
+      "code": "S 5000",
+      "name": "Shock Blue Light",
+      "family": "S",
+      "sourceLabel": "SHOCK 5000 Blue Light",
+      "aliases": [
+        "SHOCK 5000",
+        "Blue Light",
+        "S5000",
+        "SHOCK 5000 Blue Light"
+      ],
+      "ordernumber": "285691",
+      "ean": "4048500285691",
+      "pid": "c661e02f7c5644fd86cd1b7660591b67",
+      "pigments": "PV 23 PW 6 PB 15:4",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 127,
+        "G": 197,
+        "B": 211
+      },
+      "cmyk": {
+        "C": 53,
+        "M": 4,
+        "Y": 18,
+        "K": 0
+      },
+      "hex": "#7FC5D3",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 5010",
+      "rawName": "Blue",
+      "code": "S 5010",
+      "name": "Shock Blue",
+      "family": "S",
+      "sourceLabel": "SHOCK 5010 Blue",
+      "aliases": [
+        "SHOCK 5010",
+        "Blue",
+        "S5010",
+        "SHOCK 5010 Blue"
+      ],
+      "ordernumber": "285707",
+      "ean": "4048500285707",
+      "pid": "e235c66764504196a448a7d42f74bd4e",
+      "pigments": "PB 15:6 PR 122 PW 6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 0,
+        "G": 77,
+        "B": 145
+      },
+      "cmyk": {
+        "C": 100,
+        "M": 65,
+        "Y": 3,
+        "K": 14
+      },
+      "hex": "#004D91",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 5020",
+      "rawName": "Blue Dark",
+      "code": "S 5020",
+      "name": "Shock Blue Dark",
+      "family": "S",
+      "sourceLabel": "SHOCK 5020 Blue Dark",
+      "aliases": [
+        "SHOCK 5020",
+        "Blue Dark",
+        "S5020",
+        "SHOCK 5020 Blue Dark"
+      ],
+      "ordernumber": "285714",
+      "ean": "4048500285714",
+      "pid": "e2ad85f135324b32bdb241cc8e186606",
+      "pigments": "PB 15:6 PV 23 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 5,
+        "G": 53,
+        "B": 108
+      },
+      "cmyk": {
+        "C": 100,
+        "M": 75,
+        "Y": 8,
+        "K": 36
+      },
+      "hex": "#05356C",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 6000",
+      "rawName": "Green Light",
+      "code": "S 6000",
+      "name": "Shock Green Light",
+      "family": "S",
+      "sourceLabel": "SHOCK 6000 Green Light",
+      "aliases": [
+        "SHOCK 6000",
+        "Green Light",
+        "S6000",
+        "SHOCK 6000 Green Light"
+      ],
+      "ordernumber": "285721",
+      "ean": "4048500285721",
+      "pid": "68786ada0fdf4756af78c52af12b020e",
+      "pigments": "PY 184 PY 74 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 126,
+        "G": 182,
+        "B": 39
+      },
+      "cmyk": {
+        "C": 57,
+        "M": 1,
+        "Y": 100,
+        "K": 3
+      },
+      "hex": "#7EB627",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 6010",
+      "rawName": "Green",
+      "code": "S 6010",
+      "name": "Shock Green",
+      "family": "S",
+      "sourceLabel": "SHOCK 6010 Green",
+      "aliases": [
+        "SHOCK 6010",
+        "Green",
+        "S6010",
+        "SHOCK 6010 Green"
+      ],
+      "ordernumber": "285738",
+      "ean": "4048500285738",
+      "pid": "94ed73ddfa784197b018789836dc2859",
+      "pigments": "PY 184 PY 83 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 0,
+        "G": 122,
+        "B": 55
+      },
+      "cmyk": {
+        "C": 100,
+        "M": 5,
+        "Y": 98,
+        "K": 24
+      },
+      "hex": "#007A37",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 6020",
+      "rawName": "Green Dark",
+      "code": "S 6020",
+      "name": "Shock Green Dark",
+      "family": "S",
+      "sourceLabel": "SHOCK 6020 Green Dark",
+      "aliases": [
+        "SHOCK 6020",
+        "Green Dark",
+        "S6020",
+        "SHOCK 6020 Green Dark"
+      ],
+      "ordernumber": "285745",
+      "ean": "4048500285745",
+      "pid": "831f07c9755347f4b349afec2cd6d28e",
+      "pigments": "PY 74 PG 7 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 0,
+        "G": 97,
+        "B": 47
+      },
+      "cmyk": {
+        "C": 100,
+        "M": 9,
+        "Y": 95,
+        "K": 44
+      },
+      "hex": "#00612F",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 8000",
+      "rawName": "Brown Light",
+      "code": "S 8000",
+      "name": "Shock Brown Light",
+      "family": "S",
+      "sourceLabel": "SHOCK 8000 Brown Light",
+      "aliases": [
+        "SHOCK 8000",
+        "Brown Light",
+        "S8000",
+        "SHOCK 8000 Brown Light"
+      ],
+      "ordernumber": "285752",
+      "ean": "4048500285752",
+      "pid": "8307a0ade75444ffb1af074ab416d049",
+      "pigments": "PY 42 PR 101 PW 6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 177,
+        "G": 89,
+        "B": 42
+      },
+      "cmyk": {
+        "C": 12,
+        "M": 67,
+        "Y": 84,
+        "K": 25
+      },
+      "hex": "#B1592A",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 8010",
+      "rawName": "Brown",
+      "code": "S 8010",
+      "name": "Shock Brown",
+      "family": "S",
+      "sourceLabel": "SHOCK 8010 Brown",
+      "aliases": [
+        "SHOCK 8010",
+        "Brown",
+        "S8010",
+        "SHOCK 8010 Brown"
+      ],
+      "ordernumber": "285769",
+      "ean": "4048500285769",
+      "pid": "02eaff4f556b4ac08e3ff4f258550ba8",
+      "pigments": "PR 101 PBk 7 PY 74",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 90,
+        "G": 49,
+        "B": 33
+      },
+      "cmyk": {
+        "C": 33,
+        "M": 69,
+        "Y": 73,
+        "K": 65
+      },
+      "hex": "#5A3121",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 8020",
+      "rawName": "Brown Dark",
+      "code": "S 8020",
+      "name": "Shock Brown Dark",
+      "family": "S",
+      "sourceLabel": "SHOCK 8020 Brown Dark",
+      "aliases": [
+        "SHOCK 8020",
+        "Brown Dark",
+        "S8020",
+        "SHOCK 8020 Brown Dark"
+      ],
+      "ordernumber": "285776",
+      "ean": "4048500285776",
+      "pid": "e8010ac7fbde40cdb76ac3d6597b6d27",
+      "pigments": "PO 43 PB 15:6 PW 6",
+      "lightfastness": "3",
+      "rgb": {
+        "R": 49,
+        "G": 33,
+        "B": 17
+      },
+      "cmyk": {
+        "C": 50,
+        "M": 63,
+        "Y": 76,
+        "K": 82
+      },
+      "hex": "#312111",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 9000",
+      "rawName": "Black",
+      "code": "S 9000",
+      "name": "Shock Black",
+      "family": "S",
+      "sourceLabel": "SHOCK 9000 Black",
+      "aliases": [
+        "SHOCK 9000",
+        "Black",
+        "S9000",
+        "SHOCK 9000 Black"
+      ],
+      "ordernumber": "285783",
+      "ean": "4048500285783",
+      "pid": "93d09b2bacbe421da6ff94182884a587",
+      "pigments": "PBk 7",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 12,
+        "G": 12,
+        "B": 10
+      },
+      "cmyk": {
+        "C": 76,
+        "M": 67,
+        "Y": 59,
+        "K": 93
+      },
+      "hex": "#0C0C0A",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 9100",
+      "rawName": "White",
+      "code": "S 9100",
+      "name": "Shock White",
+      "family": "S",
+      "sourceLabel": "SHOCK 9100 White",
+      "aliases": [
+        "SHOCK 9100",
+        "White",
+        "S9100",
+        "SHOCK 9100 White"
+      ],
+      "ordernumber": "285790",
+      "ean": "4048500285790",
+      "pid": "f2b9920f0e704a93bd109c1350bcdaa3",
+      "pigments": "PW 6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 0,
+        "Y": 0,
+        "K": 0
+      },
+      "hex": "#FFFFFF",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 9110",
+      "rawName": "White Cream",
+      "code": "S 9110",
+      "name": "Shock White Cream",
+      "family": "S",
+      "sourceLabel": "SHOCK 9110 White Cream",
+      "aliases": [
+        "SHOCK 9110",
+        "White Cream",
+        "S9110",
+        "SHOCK 9110 White Cream"
+      ],
+      "ordernumber": "285806",
+      "ean": "4048500285806",
+      "pid": "ed812238962b449b872b91521e2d5150",
+      "pigments": "PW 6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 248,
+        "G": 245,
+        "B": 233
+      },
+      "cmyk": {
+        "C": 4,
+        "M": 3,
+        "Y": 11,
+        "K": 0
+      },
+      "hex": "#F8F5E9",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Colors",
+      "rawCode": "SHOCK 9120",
+      "rawName": "White Pure",
+      "code": "S 9120",
+      "name": "Shock White Pure",
+      "family": "S",
+      "sourceLabel": "SHOCK 9120 White Pure",
+      "aliases": [
+        "SHOCK 9120",
+        "White Pure",
+        "S9120",
+        "SHOCK 9120 White Pure"
+      ],
+      "ordernumber": "285820",
+      "ean": "4048500285820",
+      "pid": "85bac33cf6e54f1dbe52fec78576ae48",
+      "pigments": "PW 6",
+      "lightfastness": "4",
+      "rgb": {
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 0,
+        "Y": 0,
+        "K": 0
+      },
+      "hex": "#FFFFFF",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "colors",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Colors/285202"
+    },
+    {
+      "title": "Montana GOLD 400ml - Chrome Effect Colors",
+      "rawCode": "M 1000",
+      "rawName": "Silverchrome",
+      "code": "M 1000",
+      "name": "Silverchrome",
+      "family": "M",
+      "sourceLabel": "M 1000 Silverchrome",
+      "aliases": [
+        "M1000"
+      ],
+      "ordernumber": "285912",
+      "ean": "4048500285912",
+      "pid": "b27364c6b6064aceb3c8b0ddd82dd796",
+      "pigments": null,
+      "lightfastness": "4",
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#9C9C9C",
+      "hex2": null,
+      "fallbackNote": "Approximated from the Montana GOLD color chart PDF in the shared Montana Cloud folder.",
+      "category": "chrome-effect",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Chrome-Effect-Colors/285936"
+    },
+    {
+      "title": "Montana GOLD 400ml - Chrome Effect Colors",
+      "rawCode": "M 2000",
+      "rawName": "Copperchrome",
+      "code": "M 2000",
+      "name": "Copperchrome",
+      "family": "M",
+      "sourceLabel": "M 2000 Copperchrome",
+      "aliases": [
+        "M2000"
+      ],
+      "ordernumber": "285936",
+      "ean": "4048500285912",
+      "pid": "48afdc7a0db047de8d95fdb16bd0680e",
+      "pigments": null,
+      "lightfastness": "4",
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#996633",
+      "hex2": "#FFFFFF",
+      "fallbackNote": null,
+      "category": "chrome-effect",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Chrome-Effect-Colors/285936"
+    },
+    {
+      "title": "Montana GOLD 400ml - Chrome Effect Colors",
+      "rawCode": "M 3000",
+      "rawName": "Goldchrome",
+      "code": "M 3000",
+      "name": "Goldchrome",
+      "family": "M",
+      "sourceLabel": "M 3000 Goldchrome",
+      "aliases": [
+        "M3000"
+      ],
+      "ordernumber": "285943",
+      "ean": "4048500285912",
+      "pid": "b25b8a43279841f6b7698cb83ac9688b",
+      "pigments": null,
+      "lightfastness": "4",
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#AF9A6A",
+      "hex2": "#FFFFFF",
+      "fallbackNote": null,
+      "category": "chrome-effect",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Chrome-Effect-Colors/285936"
+    },
+    {
+      "title": "Montana GOLD 400ml - Metallic Colors",
+      "rawCode": "METALLIC 1100",
+      "rawName": "Silver Matt",
+      "code": "M 1100",
+      "name": "Silver Matt",
+      "family": "M",
+      "sourceLabel": "METALLIC 1100 Silver Matt",
+      "aliases": [
+        "METALLIC 1100",
+        "M1100",
+        "METALLIC 1100 Silver Matt"
+      ],
+      "ordernumber": "285929",
+      "ean": null,
+      "pid": "5a793d823ea44233a3b3e1ff40bd159d",
+      "pigments": null,
+      "lightfastness": "4",
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#9B9B9B",
+      "hex2": "#FFFFFF",
+      "fallbackNote": null,
+      "category": "metallic",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Metallic-Colors/369759"
+    },
+    {
+      "title": "Montana GOLD 400ml - Metallic Colors",
+      "rawCode": "METALLIC 3010",
+      "rawName": "Gold Matt",
+      "code": "M 3010",
+      "name": "Gold Matt",
+      "family": "M",
+      "sourceLabel": "METALLIC 3010 Gold Matt",
+      "aliases": [
+        "METALLIC 3010",
+        "M3010",
+        "METALLIC 3010 Gold Matt"
+      ],
+      "ordernumber": "369759",
+      "ean": null,
+      "pid": "38423c31e0f44b51ac0529c03bf43826",
+      "pigments": null,
+      "lightfastness": "4",
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#806E44",
+      "hex2": "#FFFFFF",
+      "fallbackNote": null,
+      "category": "metallic",
+      "coverage": "opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Metallic-Colors/369759"
+    },
+    {
+      "title": "Montana GOLD 400ml - Fluorescent Colors",
+      "rawCode": "F1000",
+      "rawName": "Flash Yellow",
+      "code": "F 1000",
+      "name": "Flash Yellow",
+      "family": "F",
+      "sourceLabel": "F1000 Flash Yellow",
+      "aliases": [
+        "F1000",
+        "F1000 Flash Yellow"
+      ],
+      "ordernumber": "283819",
+      "ean": "4048500283819",
+      "pid": "c25e8ba6b97647f58dc10d8fa9eff373",
+      "pigments": "Fluor",
+      "lightfastness": "1",
+      "rgb": {
+        "R": 255,
+        "G": 236,
+        "B": 0
+      },
+      "cmyk": {
+        "C": 2,
+        "M": 0,
+        "Y": 98,
+        "K": 0
+      },
+      "hex": "#F7FF73",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "fluorescent",
+      "coverage": "semi-opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Fluorescent-Colors/521409"
+    },
+    {
+      "title": "Montana GOLD 400ml - Fluorescent Colors",
+      "rawCode": "F2000",
+      "rawName": "Power Orange",
+      "code": "F 2000",
+      "name": "Power Orange",
+      "family": "F",
+      "sourceLabel": "F2000 Power Orange",
+      "aliases": [
+        "F2000",
+        "F2000 Power Orange"
+      ],
+      "ordernumber": "283826",
+      "ean": "4048500283826",
+      "pid": "3f96f9714df046b5b75bbf3cbf689f01",
+      "pigments": "Fluor",
+      "lightfastness": "1",
+      "rgb": {
+        "R": 242,
+        "G": 149,
+        "B": 40
+      },
+      "cmyk": {
+        "C": 1,
+        "M": 49,
+        "Y": 89,
+        "K": 0
+      },
+      "hex": "#FF7545",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "fluorescent",
+      "coverage": "semi-opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Fluorescent-Colors/521409"
+    },
+    {
+      "title": "Montana GOLD 400ml - Fluorescent Colors",
+      "rawCode": "F3000",
+      "rawName": "Fire Red",
+      "code": "F 3000",
+      "name": "Fire Red",
+      "family": "F",
+      "sourceLabel": "F3000 Fire Red",
+      "aliases": [
+        "F3000",
+        "F3000 Fire Red"
+      ],
+      "ordernumber": "283833",
+      "ean": "4048500283833",
+      "pid": "e5ba58cc5d6645ba9a208e5e2435c2db",
+      "pigments": "Fluor",
+      "lightfastness": "1",
+      "rgb": {
+        "R": 231,
+        "G": 62,
+        "B": 31
+      },
+      "cmyk": {
+        "C": 0,
+        "M": 86,
+        "Y": 93,
+        "K": 0
+      },
+      "hex": "#FE0001",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "fluorescent",
+      "coverage": "semi-opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Fluorescent-Colors/521409"
+    },
+    {
+      "title": "Montana GOLD 400ml - Fluorescent Colors",
+      "rawCode": "F4000",
+      "rawName": "Gleaming Pink",
+      "code": "F 4000",
+      "name": "Gleaming Pink",
+      "family": "F",
+      "sourceLabel": "F4000 Gleaming Pink",
+      "aliases": [
+        "F4000",
+        "F4000 Gleaming Pink"
+      ],
+      "ordernumber": "283840",
+      "ean": "4048500283819",
+      "pid": "bc93c0cbf5f74ac381aa5ff546892354",
+      "pigments": null,
+      "lightfastness": null,
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#FF00FF",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "fluorescent",
+      "coverage": null,
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Fluorescent-Colors/521409"
+    },
+    {
+      "title": "Montana GOLD 400ml - Fluorescent Colors",
+      "rawCode": "F5000",
+      "rawName": "Flame Blue",
+      "code": "F 5000",
+      "name": "Flame Blue",
+      "family": "F",
+      "sourceLabel": "F5000 Flame Blue",
+      "aliases": [
+        "F5000",
+        "F5000 Flame Blue"
+      ],
+      "ordernumber": "283864",
+      "ean": "4048500283864",
+      "pid": "8098acf0c25646cda426892aa3ee72a4",
+      "pigments": "Fluor",
+      "lightfastness": "1",
+      "rgb": {
+        "R": 0,
+        "G": 175,
+        "B": 255
+      },
+      "cmyk": {
+        "C": 69,
+        "M": 18,
+        "Y": 0,
+        "K": 0
+      },
+      "hex": "#00AFFF",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "fluorescent",
+      "coverage": "semi-opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Fluorescent-Colors/521409"
+    },
+    {
+      "title": "Montana GOLD 400ml - Fluorescent Colors",
+      "rawCode": "F6000",
+      "rawName": "Acid Green",
+      "code": "F 6000",
+      "name": "Acid Green",
+      "family": "F",
+      "sourceLabel": "F6000 Acid Green",
+      "aliases": [
+        "F6000",
+        "F6000 Acid Green"
+      ],
+      "ordernumber": "283888",
+      "ean": "4048500283888",
+      "pid": "45e604d5634743e7bdbc2bbeff3d61a2",
+      "pigments": "Fluor",
+      "lightfastness": "1",
+      "rgb": {
+        "R": 78,
+        "G": 246,
+        "B": 132
+      },
+      "cmyk": {
+        "C": 58,
+        "M": 0,
+        "Y": 69,
+        "K": 0
+      },
+      "hex": "#4EF684",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "fluorescent",
+      "coverage": "semi-opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Fluorescent-Colors/521409"
+    },
+    {
+      "title": "Montana GOLD 400ml - Fluorescent Colors",
+      "rawCode": "F6200",
+      "rawName": "Active Cyan",
+      "code": "F 6200",
+      "name": "Active Cyan",
+      "family": "F",
+      "sourceLabel": "F6200 Active Cyan",
+      "aliases": [
+        "F6200",
+        "F6200 Active Cyan"
+      ],
+      "ordernumber": "521409",
+      "ean": "4048500283819",
+      "pid": "11db3c020cdd4e0ba0e3fd3e5ae769be",
+      "pigments": null,
+      "lightfastness": null,
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#00FEF5",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "fluorescent",
+      "coverage": null,
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Fluorescent-Colors/521409"
+    },
+    {
+      "title": "Montana GOLD 400ml - Fluorescent Colors",
+      "rawCode": "F9100",
+      "rawName": "Disco White",
+      "code": "F 9100",
+      "name": "Disco White",
+      "family": "F",
+      "sourceLabel": "F9100 Disco White",
+      "aliases": [
+        "F9100",
+        "F9100 Disco White"
+      ],
+      "ordernumber": "439537",
+      "ean": "4048500439537",
+      "pid": "c0cd1b9a2e0b449d86f4f2e481f9405b",
+      "pigments": "Fluor",
+      "lightfastness": "1",
+      "rgb": {
+        "R": 247,
+        "G": 252,
+        "B": 255
+      },
+      "cmyk": {
+        "C": 4,
+        "M": 0,
+        "Y": 0,
+        "K": 0
+      },
+      "hex": "#F7FCFF",
+      "hex2": null,
+      "fallbackNote": null,
+      "category": "fluorescent",
+      "coverage": "semi-opaque",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Fluorescent-Colors/521409"
+    },
+    {
+      "title": "Montana GOLD 400ml - Transparent Colors",
+      "rawCode": "T1220",
+      "rawName": "Transparent Yellow Cab",
+      "code": "T 1220",
+      "name": "Transparent Yellow Cab",
+      "family": "T",
+      "sourceLabel": "T1220 Transparent Yellow Cab",
+      "aliases": [
+        "T1220",
+        "T1220 Transparent Yellow Cab"
+      ],
+      "ordernumber": "419331",
+      "ean": null,
+      "pid": "9fbbf8fd65af48ebba58dea29a433935",
+      "pigments": null,
+      "lightfastness": null,
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#FFD571",
+      "hex2": "#FFFFFF",
+      "fallbackNote": null,
+      "category": "transparent",
+      "coverage": "transparent",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Transparent-Colors/419362"
+    },
+    {
+      "title": "Montana GOLD 400ml - Transparent Colors",
+      "rawCode": "T3040",
+      "rawName": "Transparent Ketchup",
+      "code": "T 3040",
+      "name": "Transparent Ketchup",
+      "family": "T",
+      "sourceLabel": "T3040 Transparent Ketchup",
+      "aliases": [
+        "T3040",
+        "T3040 Transparent Ketchup"
+      ],
+      "ordernumber": "419362",
+      "ean": null,
+      "pid": "2986095df18f41838a6463bb9f69d640",
+      "pigments": null,
+      "lightfastness": null,
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#B80D25",
+      "hex2": "#FFFFFF",
+      "fallbackNote": null,
+      "category": "transparent",
+      "coverage": "transparent",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Transparent-Colors/419362"
+    },
+    {
+      "title": "Montana GOLD 400ml - Transparent Colors",
+      "rawCode": "T3150",
+      "rawName": "Transparent Cherry Blossom",
+      "code": "T 3150",
+      "name": "Transparent Cherry Blossom",
+      "family": "T",
+      "sourceLabel": "T3150 Transparent Cherry Blossom",
+      "aliases": [
+        "T3150",
+        "T3150 Transparent Cherry Blossom"
+      ],
+      "ordernumber": "419379",
+      "ean": null,
+      "pid": "40ed2ae1cdbb458e95592615e5f651ce",
+      "pigments": null,
+      "lightfastness": null,
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#8C0B5E",
+      "hex2": "#FFFFFF",
+      "fallbackNote": null,
+      "category": "transparent",
+      "coverage": "transparent",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Transparent-Colors/419362"
+    },
+    {
+      "title": "Montana GOLD 400ml - Transparent Colors",
+      "rawCode": "T5080",
+      "rawName": "Transparent Ultramarine",
+      "code": "T 5080",
+      "name": "Transparent Ultramarine",
+      "family": "T",
+      "sourceLabel": "T5080 Transparent Ultramarine",
+      "aliases": [
+        "T5080",
+        "T5080 Transparent Ultramarine"
+      ],
+      "ordernumber": "419393",
+      "ean": null,
+      "pid": "373e07b48b104af28e0701007463ef93",
+      "pigments": null,
+      "lightfastness": null,
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#2569B1",
+      "hex2": "#FFFFFF",
+      "fallbackNote": null,
+      "category": "transparent",
+      "coverage": "transparent",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Transparent-Colors/419362"
+    },
+    {
+      "title": "Montana GOLD 400ml - Transparent Colors",
+      "rawCode": "T6340",
+      "rawName": "Transparent Olive Green",
+      "code": "T 6340",
+      "name": "Transparent Olive Green",
+      "family": "T",
+      "sourceLabel": "T6340 Transparent Olive Green",
+      "aliases": [
+        "T6340",
+        "T6340 Transparent Olive Green"
+      ],
+      "ordernumber": "419423",
+      "ean": null,
+      "pid": "c187a636c11240f5a2ea4698b9c71e53",
+      "pigments": null,
+      "lightfastness": null,
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#6C753F",
+      "hex2": "#FFFFFF",
+      "fallbackNote": null,
+      "category": "transparent",
+      "coverage": "transparent",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Transparent-Colors/419362"
+    },
+    {
+      "title": "Montana GOLD 400ml - Transparent Colors",
+      "rawCode": "T7060",
+      "rawName": "Transparent Gravel",
+      "code": "T 7060",
+      "name": "Transparent Gravel",
+      "family": "T",
+      "sourceLabel": "T7060 Transparent Gravel",
+      "aliases": [
+        "T7060",
+        "T7060 Transparent Gravel"
+      ],
+      "ordernumber": "419430",
+      "ean": null,
+      "pid": "2b7072d7cd6143d0966e0294bfd6a5b4",
+      "pigments": null,
+      "lightfastness": null,
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#8C9393",
+      "hex2": "#FFFFFF",
+      "fallbackNote": null,
+      "category": "transparent",
+      "coverage": "transparent",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Transparent-Colors/419362"
+    },
+    {
+      "title": "Montana GOLD 400ml - Transparent Colors",
+      "rawCode": "T8310",
+      "rawName": "Transparent Hazelnut",
+      "code": "T 8310",
+      "name": "Transparent Hazelnut",
+      "family": "T",
+      "sourceLabel": "T8310 Transparent Hazelnut",
+      "aliases": [
+        "T8310",
+        "T8310 Transparent Hazelnut"
+      ],
+      "ordernumber": "419461",
+      "ean": null,
+      "pid": "f7896beac35f466d9b4360afccb70789",
+      "pigments": null,
+      "lightfastness": null,
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#905C3B",
+      "hex2": "#FFFFFF",
+      "fallbackNote": null,
+      "category": "transparent",
+      "coverage": "transparent",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Transparent-Colors/419362"
+    },
+    {
+      "title": "Montana GOLD 400ml - Transparent Colors",
+      "rawCode": "T9000",
+      "rawName": "Transparent Black",
+      "code": "T 9000",
+      "name": "Transparent Black",
+      "family": "T",
+      "sourceLabel": "T9000 Transparent Black",
+      "aliases": [
+        "T9000",
+        "T9000 Transparent Black"
+      ],
+      "ordernumber": "285899",
+      "ean": null,
+      "pid": "697435ad3d5f4f30a3e030b976851b52",
+      "pigments": null,
+      "lightfastness": null,
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#030201",
+      "hex2": "#FFFFFF",
+      "fallbackNote": null,
+      "category": "transparent",
+      "coverage": "transparent",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Transparent-Colors/419362"
+    },
+    {
+      "title": "Montana GOLD 400ml - Transparent Colors",
+      "rawCode": "T9100",
+      "rawName": "Transparent White",
+      "code": "T 9100",
+      "name": "Transparent White",
+      "family": "T",
+      "sourceLabel": "T9100 Transparent White",
+      "aliases": [
+        "T9100",
+        "T9100 Transparent White"
+      ],
+      "ordernumber": "285905",
+      "ean": null,
+      "pid": "af32395c4b9040ac852d7027ba747114",
+      "pigments": null,
+      "lightfastness": null,
+      "rgb": null,
+      "cmyk": null,
+      "hex": "#E7E2E2",
+      "hex2": "#FFFFFF",
+      "fallbackNote": null,
+      "category": "transparent",
+      "coverage": "transparent",
+      "sourceUrl": "https://www.montana-cans.com/Montana-GOLD-400ml-Transparent-Colors/419362"
+    }
+  ]
+}
