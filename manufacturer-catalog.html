@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalogue fabricants de sprays</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .catalog-page-shell {
+        --shell-width: 1380px;
+      }
+
+      .topbar-actions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0.5rem;
+      }
+
+      .catalog-page-layout {
+        display: grid;
+        grid-template-columns: minmax(280px, 320px) minmax(0, 1fr);
+        align-items: start;
+        gap: 0.75rem;
+      }
+
+      .catalog-controls-panel,
+      .catalog-results-panel {
+        display: grid;
+        gap: 0.75rem;
+      }
+
+      .catalog-controls-panel {
+        position: sticky;
+        top: 10px;
+        align-self: start;
+      }
+
+      .catalog-controls-head,
+      .catalog-results-head,
+      .catalog-group-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0.75rem;
+      }
+
+      .catalog-section-title,
+      .catalog-group-title,
+      .catalog-color-title {
+        margin: 0;
+        font-family: Manrope, ui-sans-serif, system-ui, sans-serif;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+        color: #020617;
+      }
+
+      .catalog-section-title {
+        margin-top: 0.25rem;
+        font-size: clamp(1.04rem, 1.2vw, 1.3rem);
+        line-height: 1.1;
+      }
+
+      .catalog-group-title,
+      .catalog-color-title {
+        font-size: 0.98rem;
+        line-height: 1.2;
+      }
+
+      .catalog-page-copy,
+      .catalog-subtitle,
+      .catalog-color-meta {
+        margin: 0;
+        color: #64748b;
+        font-size: 0.82rem;
+        line-height: 1.5;
+      }
+
+      .catalog-feedback {
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        border-radius: 0.9rem;
+        background: rgba(248, 250, 252, 0.82);
+        padding: 0.7rem 0.85rem;
+        color: #475569;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+
+      .catalog-feedback.is-error {
+        border-color: rgba(249, 115, 22, 0.22);
+        background: rgba(255, 247, 237, 0.95);
+        color: #9a3412;
+      }
+
+      .catalog-feedback[hidden] {
+        display: none;
+      }
+
+      .catalog-results-tools {
+        display: grid;
+        gap: 0.5rem;
+        justify-items: end;
+      }
+
+      .catalog-group-index-shell {
+        display: grid;
+        gap: 0.75rem;
+        border: 1px solid rgba(148, 163, 184, 0.16);
+        border-radius: 0.92rem;
+        background: rgba(255, 255, 255, 0.72);
+        padding: 0.85rem;
+      }
+
+      .catalog-group-index-shell[hidden] {
+        display: none !important;
+      }
+
+      .catalog-group-index-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0.75rem;
+      }
+
+      .catalog-group-index {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+      }
+
+      .catalog-group-filter {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        border-radius: 9999px;
+        background: rgba(248, 250, 252, 0.92);
+        color: #0f172a;
+        font-size: 0.8rem;
+        font-weight: 600;
+        line-height: 1;
+        padding: 0.55rem 0.8rem;
+        cursor: pointer;
+        transition:
+          transform 140ms ease,
+          border-color 140ms ease,
+          box-shadow 140ms ease,
+          background 140ms ease,
+          color 140ms ease;
+      }
+
+      .catalog-group-filter:hover,
+      .catalog-group-filter:focus-visible {
+        transform: translateY(-1px);
+        border-color: rgba(249, 115, 22, 0.26);
+        box-shadow: 0 10px 20px rgba(15, 23, 42, 0.06);
+        outline: none;
+      }
+
+      .catalog-group-filter.is-active {
+        border-color: rgba(249, 115, 22, 0.32);
+        background: rgba(255, 247, 237, 0.96);
+        color: #c2410c;
+        box-shadow: 0 0 0 4px rgba(249, 115, 22, 0.1);
+      }
+
+      .catalog-group-filter-count {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 1.55rem;
+        border-radius: 9999px;
+        background: rgba(255, 255, 255, 0.86);
+        color: #475569;
+        font-size: 0.72rem;
+        font-weight: 700;
+        padding: 0.18rem 0.42rem;
+      }
+
+      .catalog-group-filter.is-active .catalog-group-filter-count {
+        color: #9a3412;
+      }
+
+      .catalog-search-box,
+      .catalog-search-results-shell {
+        display: grid;
+        gap: 0.75rem;
+        border: 1px solid rgba(148, 163, 184, 0.16);
+        border-radius: 0.92rem;
+        background: rgba(255, 255, 255, 0.72);
+        padding: 0.85rem;
+      }
+
+      .catalog-search-head,
+      .catalog-search-results-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0.75rem;
+      }
+
+      .catalog-cart-summary {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+        justify-content: flex-end;
+      }
+
+      .catalog-view-controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+      }
+
+      .catalog-search-input {
+        min-height: 148px;
+        resize: vertical;
+      }
+
+      .catalog-search-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+      }
+
+      .catalog-search-options {
+        display: grid;
+        gap: 0.55rem;
+      }
+
+      .catalog-search-checkbox {
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr);
+        align-items: flex-start;
+        gap: 0.7rem;
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        border-radius: 0.86rem;
+        background: rgba(248, 250, 252, 0.92);
+        padding: 0.75rem 0.82rem;
+        cursor: pointer;
+      }
+
+      .catalog-search-checkbox input {
+        margin-top: 0.14rem;
+        accent-color: #ea580c;
+      }
+
+      .catalog-search-checkbox-copy {
+        display: grid;
+        gap: 0.18rem;
+      }
+
+      .catalog-search-checkbox-copy strong {
+        font-size: 0.84rem;
+        line-height: 1.35;
+        color: #0f172a;
+      }
+
+      .catalog-search-checkbox-copy span {
+        color: #64748b;
+        font-size: 0.78rem;
+        line-height: 1.45;
+      }
+
+      .catalog-search-results-shell[hidden] {
+        display: none !important;
+      }
+
+      .catalog-search-results {
+        display: grid;
+        gap: 0.6rem;
+      }
+
+      .catalog-search-row {
+        display: grid;
+        grid-template-columns: minmax(0, 220px) minmax(0, 1fr) auto;
+        gap: 0.75rem;
+        align-items: center;
+        border: 1px solid rgba(148, 163, 184, 0.14);
+        border-radius: 0.82rem;
+        background: rgba(255, 255, 255, 0.92);
+        padding: 0.75rem;
+      }
+
+      .catalog-search-row.is-miss {
+        border-color: rgba(249, 115, 22, 0.22);
+        background: rgba(255, 247, 237, 0.9);
+      }
+
+      .catalog-search-query,
+      .catalog-search-result {
+        display: grid;
+        gap: 0.28rem;
+        min-width: 0;
+      }
+
+      .catalog-search-query-line {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.45rem;
+      }
+
+      .catalog-search-line-number {
+        display: inline-flex;
+        align-items: center;
+        border-radius: 9999px;
+        background: rgba(241, 245, 249, 0.95);
+        color: #0f172a;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        padding: 0.22rem 0.52rem;
+      }
+
+      .catalog-search-line-text {
+        font-family: IBM Plex Mono, ui-monospace, monospace;
+        font-size: 0.8rem;
+        color: #0f172a;
+        word-break: break-word;
+      }
+
+      .catalog-search-swatch {
+        width: 42px;
+        height: 42px;
+        border-radius: 0.78rem;
+        border: 1px solid rgba(255, 255, 255, 0.7);
+        box-shadow: 0 1px 2px rgba(15, 23, 42, 0.12);
+        flex: none;
+      }
+
+      .catalog-search-result-main {
+        display: flex;
+        align-items: center;
+        gap: 0.65rem;
+        min-width: 0;
+      }
+
+      .catalog-search-result-copy {
+        display: grid;
+        gap: 0.2rem;
+        min-width: 0;
+      }
+
+      .catalog-search-result-copy strong {
+        color: #020617;
+        font-size: 0.9rem;
+        line-height: 1.3;
+      }
+
+      .catalog-search-result-copy span {
+        color: #64748b;
+        font-size: 0.78rem;
+        line-height: 1.4;
+      }
+
+      .catalog-search-miss-copy {
+        color: #9a3412;
+        font-size: 0.85rem;
+        font-weight: 600;
+      }
+
+      .catalog-search-actions-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+        justify-content: flex-end;
+      }
+
+      .catalog-compact-shell {
+        display: grid;
+        gap: 0.85rem;
+        border: 1px solid rgba(148, 163, 184, 0.16);
+        border-radius: 0.92rem;
+        background:
+          radial-gradient(circle at top left, rgba(249, 115, 22, 0.08) 0, rgba(249, 115, 22, 0) 24%),
+          rgba(255, 255, 255, 0.82);
+        padding: 0.85rem;
+      }
+
+      .catalog-compact-shell[hidden],
+      .catalog-groups[hidden] {
+        display: none !important;
+      }
+
+      .catalog-compact-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0.75rem;
+      }
+
+      .catalog-compact-groups {
+        display: grid;
+        gap: 0.8rem;
+      }
+
+      .catalog-compact-group {
+        display: grid;
+        gap: 0.4rem;
+      }
+
+      .catalog-compact-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.32rem;
+      }
+
+      .catalog-compact-chip {
+        display: block;
+        width: 18px;
+        height: 18px;
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        border-radius: 4px;
+        box-shadow: 0 1px 2px rgba(15, 23, 42, 0.12);
+        text-decoration: none;
+        transition:
+          transform 120ms ease,
+          box-shadow 120ms ease,
+          border-color 120ms ease;
+      }
+
+      .catalog-compact-chip:hover,
+      .catalog-compact-chip:focus-visible {
+        transform: translateY(-1px) scale(1.18);
+        box-shadow: 0 6px 14px rgba(15, 23, 42, 0.16);
+        outline: none;
+      }
+
+      .catalog-compact-chip.is-in-cart {
+        box-shadow: 0 0 0 2px rgba(15, 143, 99, 0.28), 0 6px 14px rgba(15, 23, 42, 0.14);
+      }
+
+      .catalog-groups {
+        display: grid;
+        gap: 0.75rem;
+      }
+
+      .catalog-group {
+        display: grid;
+        gap: 0.75rem;
+        border: 1px solid rgba(148, 163, 184, 0.16);
+        border-radius: 0.92rem;
+        background: rgba(255, 255, 255, 0.7);
+        padding: 0.85rem;
+      }
+
+      .catalog-color-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 0.9rem;
+      }
+
+      .catalog-color-card {
+        overflow: hidden;
+        border: 1px solid rgba(148, 163, 184, 0.16);
+        border-radius: 0.82rem;
+        background: rgba(255, 255, 255, 0.98);
+        box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05), 0 1px 3px rgba(15, 23, 42, 0.03);
+        scroll-margin-top: 1rem;
+        transition:
+          transform 160ms ease,
+          box-shadow 160ms ease,
+          border-color 160ms ease;
+      }
+
+      .catalog-color-card:target,
+      .catalog-color-card.is-focused {
+        border-color: rgba(249, 115, 22, 0.42);
+        box-shadow: 0 0 0 4px rgba(249, 115, 22, 0.14), 0 12px 28px rgba(15, 23, 42, 0.08);
+        transform: translateY(-1px);
+      }
+
+      .catalog-color-card.is-in-cart {
+        border-color: rgba(15, 143, 99, 0.22);
+        box-shadow: 0 0 0 3px rgba(15, 143, 99, 0.08), 0 12px 28px rgba(15, 23, 42, 0.06);
+      }
+
+      .catalog-color-swatch {
+        min-height: 104px;
+        padding: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0.5rem;
+      }
+
+      .catalog-color-code,
+      .catalog-color-hex {
+        width: fit-content;
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        border-radius: 9999px;
+        background: rgba(15, 23, 42, 0.1);
+        padding: 0.32rem 0.62rem;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        backdrop-filter: blur(10px);
+      }
+
+      .catalog-color-body {
+        display: grid;
+        gap: 0.5rem;
+        padding: 0.85rem;
+      }
+
+      .catalog-color-pills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.35rem;
+      }
+
+      .catalog-color-actions {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 0.45rem;
+      }
+
+      .catalog-cart-button.is-in-cart,
+      .catalog-cart-button.is-in-cart:hover,
+      .catalog-cart-button.is-in-cart:focus-visible {
+        border-color: rgba(15, 143, 99, 0.22);
+        background: rgba(236, 253, 245, 0.95);
+        color: #047857;
+      }
+
+      @media (max-width: 1023px) {
+        .catalog-page-layout {
+          grid-template-columns: 1fr;
+        }
+
+        .catalog-controls-panel {
+          position: static;
+        }
+      }
+
+      @media (max-width: 767px) {
+        .topbar-actions {
+          justify-content: flex-start;
+        }
+
+        .catalog-results-tools {
+          justify-items: start;
+        }
+
+        .catalog-cart-summary {
+          justify-content: flex-start;
+        }
+
+        .catalog-search-row {
+          grid-template-columns: 1fr;
+        }
+
+        .catalog-search-actions-row {
+          justify-content: flex-start;
+        }
+
+        .catalog-color-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app-shell catalog-page-shell">
+      <header class="topbar">
+        <div class="topbar-main">
+          <div class="topbar-copy">
+            <div class="topbar-heading-row">
+              <p class="eyebrow">Catalogue fabricant</p>
+              <div class="topbar-actions">
+                <a class="meta-pill topbar-link" href="./index.html">Retour a la roue</a>
+                <a class="meta-pill topbar-link" href="./manufacturer-tones.html">Tonalites fabricant</a>
+                <a id="catalog-cart-link" class="meta-pill topbar-link" href="./index.html">Panier sprays · 0</a>
+                <a
+                  class="meta-pill topbar-link"
+                  href="https://www.instagram.com/gtwin_/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Stay in touch · Instagram
+                </a>
+              </div>
+            </div>
+            <h1>Nuanciers par marque</h1>
+            <p class="catalog-page-copy">
+              Choisis un fabricant en haut. La page affiche ensuite toutes les references du catalogue, classees par
+              familles chromatiques.
+            </p>
+          </div>
+        </div>
+        <div id="catalog-topbar-meta" class="topbar-meta"></div>
+      </header>
+
+      <main class="catalog-page-layout">
+        <section class="panel catalog-controls-panel">
+          <div class="catalog-controls-head">
+            <div>
+              <p class="eyebrow">Selection</p>
+              <h2 class="catalog-section-title">Fabricant</h2>
+            </div>
+            <div id="catalog-selection-summary" class="base-caption"></div>
+          </div>
+          <label class="field">
+            <span class="field-label">Choisir une marque de spray</span>
+            <select id="manufacturer-select" aria-label="Choisir une marque de spray"></select>
+          </label>
+
+          <section class="catalog-search-box">
+            <div class="catalog-search-head">
+              <div>
+                <p class="eyebrow">Recherche</p>
+                <h3 class="catalog-group-title">Retrouver une liste</h3>
+              </div>
+            </div>
+            <label class="field">
+              <span class="field-label">Colle ta selection</span>
+              <textarea
+                id="catalog-search-input"
+                class="input catalog-search-input"
+                rows="8"
+                placeholder="Une reference par ligne&#10;G3140 Shock Black&#10;G9010 Banana Yellow"
+              ></textarea>
+            </label>
+            <p class="catalog-page-copy">
+              Colle des codes, des noms ou des lignes completes. Une ligne par spray fonctionne le mieux, mais les
+              tabulations et points-virgules sont aussi acceptes.
+            </p>
+            <div class="catalog-search-options">
+              <label class="catalog-search-checkbox" for="catalog-search-auto-add">
+                <input id="catalog-search-auto-add" type="checkbox" />
+                <span class="catalog-search-checkbox-copy">
+                  <strong>Ajouter automatiquement les references trouvees au panier</strong>
+                  <span>Chaque ligne retrouvee ajoute un spray. Les doublons augmentent la quantite dans le panier.</span>
+                </span>
+              </label>
+            </div>
+            <div class="catalog-search-actions">
+              <button id="catalog-search-run" class="cart-action" type="button">Retrouver la selection</button>
+              <button id="catalog-search-clear" class="cart-action" type="button">Effacer</button>
+            </div>
+          </section>
+
+          <p class="catalog-page-copy">
+            Classement par grandes familles visuelles. A l'interieur de chaque groupe, les teintes proches restent
+            ensemble pour faciliter la lecture du nuancier.
+          </p>
+        </section>
+
+        <section class="panel catalog-results-panel">
+          <div class="catalog-results-head">
+            <div>
+              <p class="eyebrow">Nuancier</p>
+              <h2 id="catalog-title" class="catalog-section-title">Chargement du catalogue...</h2>
+              <p id="catalog-subtitle" class="catalog-subtitle"></p>
+            </div>
+            <div class="catalog-results-tools">
+              <div id="catalog-summary" class="base-caption"></div>
+              <div id="catalog-cart-summary" class="catalog-cart-summary"></div>
+              <div class="catalog-view-controls" role="group" aria-label="Mode d'affichage">
+                <button class="algo-toggle" type="button" data-view-mode="both" aria-pressed="true">Les deux</button>
+                <button class="algo-toggle" type="button" data-view-mode="compact" aria-pressed="false">Compacte</button>
+                <button class="algo-toggle" type="button" data-view-mode="detailed" aria-pressed="false">Detaillee</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="catalog-feedback" class="catalog-feedback" role="status" aria-live="polite"></div>
+          <section id="catalog-group-index-shell" class="catalog-group-index-shell" hidden>
+            <div class="catalog-group-index-head">
+              <div>
+                <p class="eyebrow">Index</p>
+                <h3 class="catalog-group-title">Familles affichees</h3>
+              </div>
+              <div id="catalog-group-index-summary" class="base-caption"></div>
+            </div>
+            <div
+              id="catalog-group-index"
+              class="catalog-group-index"
+              role="group"
+              aria-label="Filtrer les familles chromatiques"
+            ></div>
+          </section>
+          <section id="catalog-search-results-shell" class="catalog-search-results-shell" hidden>
+            <div class="catalog-search-results-head">
+              <div>
+                <p class="eyebrow">Selection</p>
+                <h3 class="catalog-group-title">Liste retrouvee</h3>
+              </div>
+              <div id="catalog-search-results-summary" class="base-caption"></div>
+            </div>
+            <div id="catalog-search-results" class="catalog-search-results"></div>
+          </section>
+          <section id="catalog-compact-shell" class="catalog-compact-shell">
+            <div class="catalog-compact-head">
+              <div>
+                <h3 class="catalog-group-title">Vue compacte</h3>
+              </div>
+            </div>
+            <div id="catalog-compact-groups" class="catalog-compact-groups"></div>
+          </section>
+          <div id="catalog-groups" class="catalog-groups"></div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./manufacturer-catalog.js"></script>
+  </body>
+</html>

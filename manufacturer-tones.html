@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tonalites par fabricant</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .tones-page-shell {
+        --shell-width: 1380px;
+      }
+
+      .topbar-actions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0.5rem;
+      }
+
+      .tones-page-layout {
+        display: grid;
+        grid-template-columns: minmax(280px, 320px) minmax(0, 1fr);
+        align-items: start;
+        gap: 0.75rem;
+      }
+
+      .tones-controls-panel,
+      .tones-results-panel,
+      .tones-results-stack {
+        display: grid;
+        gap: 0.75rem;
+      }
+
+      .tones-controls-panel {
+        position: sticky;
+        top: 10px;
+        align-self: start;
+      }
+
+      .tones-controls-head,
+      .tones-results-head,
+      .tones-panel-head,
+      .tones-base-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0.75rem;
+      }
+
+      .tones-section-title,
+      .tones-card-title,
+      .tone-role-title,
+      .tone-base-title {
+        margin: 0;
+        font-family: Manrope, ui-sans-serif, system-ui, sans-serif;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+        color: #020617;
+      }
+
+      .tones-section-title {
+        margin-top: 0.25rem;
+        font-size: clamp(1.04rem, 1.2vw, 1.3rem);
+        line-height: 1.1;
+      }
+
+      .tones-card-title,
+      .tone-role-title,
+      .tone-base-title {
+        font-size: 0.98rem;
+        line-height: 1.2;
+      }
+
+      .tones-page-copy,
+      .tones-subtitle,
+      .tone-card-copy,
+      .tone-meta-copy {
+        margin: 0;
+        color: #64748b;
+        font-size: 0.82rem;
+        line-height: 1.5;
+      }
+
+      .tones-feedback {
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        border-radius: 0.9rem;
+        background: rgba(248, 250, 252, 0.82);
+        padding: 0.7rem 0.85rem;
+        color: #475569;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+
+      .tones-feedback.is-error {
+        border-color: rgba(249, 115, 22, 0.22);
+        background: rgba(255, 247, 237, 0.95);
+        color: #9a3412;
+      }
+
+      .tones-feedback[hidden] {
+        display: none;
+      }
+
+      .tones-results-tools {
+        display: grid;
+        gap: 0.5rem;
+        justify-items: end;
+      }
+
+      .tones-cart-summary {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+        justify-content: flex-end;
+      }
+
+      .tones-segmented {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+      }
+
+      .tones-base-browser {
+        display: grid;
+        gap: 0.7rem;
+      }
+
+      .tones-base-browser-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.55rem;
+      }
+
+      .tones-base-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.55rem;
+        max-height: min(56vh, 760px);
+        overflow: auto;
+        padding-right: 0.15rem;
+      }
+
+      .tones-base-chip {
+        width: 100%;
+        padding: 0;
+        border: 1px solid rgba(148, 163, 184, 0.22);
+        border-radius: 0.9rem;
+        background: rgba(255, 255, 255, 0.94);
+        overflow: hidden;
+        text-align: left;
+        cursor: pointer;
+        transition:
+          transform 140ms ease,
+          border-color 140ms ease,
+          box-shadow 140ms ease;
+      }
+
+      .tones-base-chip:hover,
+      .tones-base-chip:focus-visible {
+        transform: translateY(-1px);
+        border-color: rgba(249, 115, 22, 0.28);
+        box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+        outline: none;
+      }
+
+      .tones-base-chip.is-active {
+        border-color: rgba(249, 115, 22, 0.38);
+        box-shadow: 0 0 0 4px rgba(249, 115, 22, 0.12), 0 10px 24px rgba(15, 23, 42, 0.08);
+      }
+
+      .tones-base-chip-swatch {
+        min-height: 76px;
+        padding: 0.62rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0.4rem;
+      }
+
+      .tones-base-chip-body {
+        display: grid;
+        gap: 0.22rem;
+        padding: 0.58rem 0.65rem 0.68rem;
+      }
+
+      .tones-base-chip-code {
+        font-family: IBM Plex Mono, ui-monospace, monospace;
+        font-size: 0.7rem;
+        font-weight: 700;
+        color: #0f172a;
+        letter-spacing: 0.03em;
+      }
+
+      .tones-base-chip-name {
+        color: #64748b;
+        font-size: 0.72rem;
+        line-height: 1.35;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+      }
+
+      .tones-base-empty {
+        border: 1px dashed rgba(148, 163, 184, 0.24);
+        border-radius: 0.9rem;
+        background: rgba(248, 250, 252, 0.72);
+        padding: 0.8rem;
+        color: #64748b;
+        font-size: 0.82rem;
+        line-height: 1.5;
+      }
+
+      .tones-summary-grid,
+      .tones-base-preview {
+        display: grid;
+        gap: 0.75rem;
+      }
+
+      .tones-base-preview {
+        grid-template-columns: minmax(160px, 220px) minmax(0, 1fr);
+        align-items: stretch;
+      }
+
+      .tones-base-swatch,
+      .tone-match-swatch {
+        border-radius: 1rem;
+        overflow: hidden;
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14);
+      }
+
+      .tones-base-swatch {
+        min-height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0.6rem;
+        padding: 0.9rem;
+      }
+
+      .tones-base-details,
+      .tone-match-body {
+        display: grid;
+        gap: 0.55rem;
+      }
+
+      .tones-base-actions,
+      .tone-match-actions {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(124px, 1fr));
+        gap: 0.45rem;
+      }
+
+      .tone-cart-button.is-in-cart,
+      .tone-cart-button.is-in-cart:hover,
+      .tone-cart-button.is-in-cart:focus-visible {
+        border-color: rgba(15, 143, 99, 0.22);
+        background: rgba(236, 253, 245, 0.95);
+        color: #047857;
+      }
+
+      .tones-base-detail-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+        gap: 0.45rem;
+      }
+
+      .tones-data-pill {
+        display: grid;
+        gap: 0.18rem;
+        border: 1px solid rgba(148, 163, 184, 0.16);
+        border-radius: 0.84rem;
+        background: rgba(255, 255, 255, 0.82);
+        padding: 0.62rem 0.7rem;
+      }
+
+      .tones-data-pill strong {
+        font-size: 0.72rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #94a3b8;
+      }
+
+      .tones-data-pill span {
+        font-family: IBM Plex Mono, ui-monospace, monospace;
+        font-size: 0.82rem;
+        color: #0f172a;
+      }
+
+      .tone-ramp {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 0.75rem;
+      }
+
+      .tone-ramp-card,
+      .tone-match-card {
+        border: 1px solid rgba(148, 163, 184, 0.16);
+        border-radius: 0.92rem;
+        background: rgba(255, 255, 255, 0.82);
+        overflow: hidden;
+        box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05), 0 1px 3px rgba(15, 23, 42, 0.03);
+      }
+
+      .tone-ramp-card {
+        display: grid;
+        gap: 0.7rem;
+      }
+
+      .tone-ramp-swatch,
+      .tone-match-swatch {
+        min-height: 118px;
+        padding: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0.5rem;
+      }
+
+      .tone-ramp-body {
+        display: grid;
+        gap: 0.48rem;
+        padding: 0 0.85rem 0.85rem;
+      }
+
+      .tone-match-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 0.8rem;
+      }
+
+      .tone-match-card {
+        display: grid;
+        gap: 0;
+      }
+
+      .tone-match-body {
+        padding: 0.85rem;
+      }
+
+      .tone-card-topline,
+      .tone-match-target {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+      }
+
+      .tone-quality-badge,
+      .tone-role-badge {
+        width: fit-content;
+        border-radius: 9999px;
+        padding: 0.32rem 0.62rem;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+      }
+
+      .tone-role-badge {
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        background: rgba(241, 245, 249, 0.94);
+        color: #0f172a;
+      }
+
+      .tone-quality-badge.is-excellent {
+        background: rgba(15, 143, 99, 0.12);
+        color: #0f8f63;
+      }
+
+      .tone-quality-badge.is-good {
+        background: rgba(59, 130, 246, 0.12);
+        color: #1d4ed8;
+      }
+
+      .tone-quality-badge.is-approx {
+        background: rgba(249, 115, 22, 0.12);
+        color: #c2410c;
+      }
+
+      .tone-quality-badge.is-loose {
+        background: rgba(100, 116, 139, 0.12);
+        color: #475569;
+      }
+
+      .tone-pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.35rem;
+      }
+
+      .tone-mini-target {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        border: 1px solid rgba(148, 163, 184, 0.16);
+        border-radius: 9999px;
+        background: rgba(248, 250, 252, 0.9);
+        padding: 0.28rem 0.4rem 0.28rem 0.28rem;
+      }
+
+      .tone-mini-dot {
+        width: 18px;
+        height: 18px;
+        border-radius: 9999px;
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        box-shadow: 0 1px 2px rgba(15, 23, 42, 0.12);
+      }
+
+      .tone-code-pill,
+      .tone-hex-pill {
+        width: fit-content;
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        border-radius: 9999px;
+        background: rgba(15, 23, 42, 0.1);
+        padding: 0.32rem 0.62rem;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        backdrop-filter: blur(10px);
+      }
+
+      @media (max-width: 1023px) {
+        .tones-page-layout {
+          grid-template-columns: 1fr;
+        }
+
+        .tones-controls-panel {
+          position: static;
+        }
+
+        .tones-base-preview {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 767px) {
+        .topbar-actions {
+          justify-content: flex-start;
+        }
+
+        .tones-results-tools {
+          justify-items: start;
+        }
+
+        .tones-cart-summary {
+          justify-content: flex-start;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app-shell tones-page-shell">
+      <header class="topbar">
+        <div class="topbar-main">
+          <div class="topbar-copy">
+            <div class="topbar-heading-row">
+              <p class="eyebrow">Tonalites fabricant</p>
+              <div class="topbar-actions">
+                <a class="meta-pill topbar-link" href="./index.html">Retour a la roue</a>
+                <a class="meta-pill topbar-link" href="./manufacturer-catalog.html">Catalogue fabricant</a>
+                <a id="tones-cart-link" class="meta-pill topbar-link" href="./index.html">Panier sprays · 0</a>
+                <a
+                  class="meta-pill topbar-link"
+                  href="https://www.instagram.com/gtwin_/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Stay in touch · Instagram
+                </a>
+              </div>
+            </div>
+            <h1>Gammes de tonalites par marque</h1>
+            <p class="tones-page-copy">
+              Choisis une marque, selectionne une base mid tone du fabricant, puis demande une rampe en 3 ou 4
+              niveaux. La page cherche ensuite les references reelles les plus proches dans le catalogue.
+            </p>
+          </div>
+        </div>
+        <div id="tones-topbar-meta" class="topbar-meta"></div>
+      </header>
+
+      <main class="tones-page-layout">
+        <section class="panel tones-controls-panel">
+          <div class="tones-controls-head">
+            <div>
+              <p class="eyebrow">Selection</p>
+              <h2 class="tones-section-title">Marque et base</h2>
+            </div>
+            <div id="tones-selection-summary" class="base-caption"></div>
+          </div>
+
+          <label class="field">
+            <span class="field-label">Choisir une marque de spray</span>
+            <select id="manufacturer-select" aria-label="Choisir une marque de spray"></select>
+          </label>
+
+          <div class="field">
+            <span class="field-label">Nombre de tonalites</span>
+            <div class="tones-segmented" role="group" aria-label="Nombre de tonalites">
+              <button class="algo-toggle" type="button" data-ramp-size="3" aria-pressed="true">3 tonalites</button>
+              <button class="algo-toggle" type="button" data-ramp-size="4" aria-pressed="false">4 tonalites</button>
+            </div>
+          </div>
+
+          <div class="tones-base-browser">
+            <div class="tones-base-browser-head">
+              <span class="field-label">Bases mid tone</span>
+              <span id="tones-base-list-count" class="tones-subtitle"></span>
+            </div>
+            <p class="tones-page-copy">
+              Selectionne directement une teinte mediane du nuancier de la marque. C'est elle qui sert de point de
+              depart pour generer les variantes sombres et claires. La liste reste volontairement representative pour
+              garder un choix simple.
+            </p>
+            <div id="tones-base-list" class="tones-base-list" aria-label="Bases mid tone disponibles"></div>
+          </div>
+        </section>
+
+        <section class="panel tones-results-panel">
+          <div class="tones-results-head">
+            <div>
+              <p class="eyebrow">Recherche</p>
+              <h2 id="tones-title" class="tones-section-title">Chargement du catalogue...</h2>
+              <p id="tones-subtitle" class="tones-subtitle"></p>
+            </div>
+            <div class="tones-results-tools">
+              <div id="tones-summary" class="base-caption"></div>
+              <div id="tones-cart-summary" class="tones-cart-summary"></div>
+            </div>
+          </div>
+
+          <div id="tones-feedback" class="tones-feedback" role="status" aria-live="polite"></div>
+
+          <div class="tones-results-stack">
+            <section class="tone-ramp-card">
+              <div class="tones-panel-head" style="padding: 0.85rem 0.85rem 0;">
+                <div>
+                  <p class="eyebrow">Base</p>
+                  <h3 class="tones-card-title">Couleur de depart</h3>
+                  <p id="tones-base-context" class="tones-subtitle"></p>
+                </div>
+              </div>
+              <div id="tones-base-preview" class="tones-base-preview" style="padding: 0 0.85rem 0.85rem;"></div>
+            </section>
+
+            <section class="tone-ramp-card">
+              <div class="tones-panel-head" style="padding: 0.85rem 0.85rem 0;">
+                <div>
+                  <p class="eyebrow">Cibles</p>
+                  <h3 class="tones-card-title">Rampe theorique</h3>
+                  <p class="tones-subtitle">
+                    Les nuances generees servent de cible. Ensuite on cherche les sprays reels les plus convaincants
+                    dans la marque choisie.
+                  </p>
+                </div>
+              </div>
+              <div id="tone-ramp" class="tone-ramp" style="padding: 0 0.85rem 0.85rem;"></div>
+            </section>
+
+            <section class="tone-ramp-card">
+              <div class="tones-panel-head" style="padding: 0.85rem 0.85rem 0;">
+                <div>
+                  <p class="eyebrow">Matches</p>
+                  <h3 class="tones-card-title">References recommandees</h3>
+                  <p class="tones-subtitle">
+                    Une reference par niveau, en privilegiant la coherence de teinte et l'ordre sombre vers clair.
+                  </p>
+                </div>
+              </div>
+              <div id="tone-match-grid" class="tone-match-grid" style="padding: 0 0.85rem 0.85rem;"></div>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./manufacturer-tones.js"></script>
+  </body>
+</html>

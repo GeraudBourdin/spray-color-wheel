@@ -1,0 +1,2393 @@
+{
+  "manufacturer": {
+    "id": "montana-blue",
+    "label": "Montana BLUE",
+    "accent": "#2F73C8",
+    "series": "400ml Water-Based",
+    "source": {
+      "name": "Montana BLUE 400ml",
+      "url": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+      "note": "Official Montana BLUE product page. The page provides direct HEX values but no RGB/CMYK metadata."
+    }
+  },
+  "colors": [
+    {
+      "id": "105428",
+      "code": "BLU 1005",
+      "name": "Sorbet",
+      "label": "BLU 1005 Sorbet",
+      "hex": "#FFF3B2",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU1005"
+      ],
+      "sourceLabel": "BLU 1005 Sorbet",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "1",
+        "rawCode": "BLU 1005",
+        "rawName": "Sorbet",
+        "ordernumber": "105428",
+        "ean": null,
+        "pid": "019aa0acd5dc726cba650cf6448ebfc5",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105434",
+      "code": "BLU 1020",
+      "name": "Stuart Yellow",
+      "label": "BLU 1020 Stuart Yellow",
+      "hex": "#FFE611",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU1020"
+      ],
+      "sourceLabel": "BLU 1020 Stuart Yellow",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "1",
+        "rawCode": "BLU 1020",
+        "rawName": "Stuart Yellow",
+        "ordernumber": "105434",
+        "ean": null,
+        "pid": "019aa0acd5dd727480e751c6caa00cf6",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105435",
+      "code": "BLU 1030",
+      "name": "Mango Tango",
+      "label": "BLU 1030 Mango Tango",
+      "hex": "#F4C123",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU1030"
+      ],
+      "sourceLabel": "BLU 1030 Mango Tango",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "1",
+        "rawCode": "BLU 1030",
+        "rawName": "Mango Tango",
+        "ordernumber": "105435",
+        "ean": null,
+        "pid": "019aa0acd5dd727480e751c6cb4dda4a",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105436",
+      "code": "BLU 1040",
+      "name": "Corny",
+      "label": "BLU 1040 Corny",
+      "hex": "#E89D18",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU1040"
+      ],
+      "sourceLabel": "BLU 1040 Corny",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "1",
+        "rawCode": "BLU 1040",
+        "rawName": "Corny",
+        "ordernumber": "105436",
+        "ean": null,
+        "pid": "019aa0acd5dd727480e751c6cbd53af8",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105437",
+      "code": "BLU 1060",
+      "name": "Korma",
+      "label": "BLU 1060 Korma",
+      "hex": "#CB7E36",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU1060"
+      ],
+      "sourceLabel": "BLU 1060 Korma",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "1",
+        "rawCode": "BLU 1060",
+        "rawName": "Korma",
+        "ordernumber": "105437",
+        "ean": null,
+        "pid": "019aa0acd5dd727480e751c6cccae031",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105438",
+      "code": "BLU 2120",
+      "name": "Soft Bloom",
+      "label": "BLU 2120 Soft Bloom",
+      "hex": "#F7BBB0",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU2120"
+      ],
+      "sourceLabel": "BLU 2120 Soft Bloom",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "2",
+        "rawCode": "BLU 2120",
+        "rawName": "Soft Bloom",
+        "ordernumber": "105438",
+        "ean": null,
+        "pid": "019aa0acd5dd727480e751c6cd2b29b2",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105439",
+      "code": "BLU 2130",
+      "name": "Poppy",
+      "label": "BLU 2130 Poppy",
+      "hex": "#F4A09D",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU2130"
+      ],
+      "sourceLabel": "BLU 2130 Poppy",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "2",
+        "rawCode": "BLU 2130",
+        "rawName": "Poppy",
+        "ordernumber": "105439",
+        "ean": null,
+        "pid": "019aa0acd5dd727480e751c6cd3d9202",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105440",
+      "code": "BLU 2140",
+      "name": "Slushy",
+      "label": "BLU 2140 Slushy",
+      "hex": "#EE7064",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU2140"
+      ],
+      "sourceLabel": "BLU 2140 Slushy",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "2",
+        "rawCode": "BLU 2140",
+        "rawName": "Slushy",
+        "ordernumber": "105440",
+        "ean": null,
+        "pid": "019aa0acd5dd727480e751c6cd5f33e2",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105441",
+      "code": "BLU 2150",
+      "name": "Groove Orange",
+      "label": "BLU 2150 Groove Orange",
+      "hex": "#EA542D",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU2150"
+      ],
+      "sourceLabel": "BLU 2150 Groove Orange",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "2",
+        "rawCode": "BLU 2150",
+        "rawName": "Groove Orange",
+        "ordernumber": "105441",
+        "ean": null,
+        "pid": "019aa0acd5de72ca9ae50a00babc8f1c",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105442",
+      "code": "BLU 2170",
+      "name": "Autumn Leaf",
+      "label": "BLU 2170 Autumn Leaf",
+      "hex": "#9C4937",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU2170"
+      ],
+      "sourceLabel": "BLU 2170 Autumn Leaf",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "2",
+        "rawCode": "BLU 2170",
+        "rawName": "Autumn Leaf",
+        "ordernumber": "105442",
+        "ean": null,
+        "pid": "019aa0acd5de72ca9ae50a00bb520725",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105443",
+      "code": "BLU 2240",
+      "name": "Clockwork Orange",
+      "label": "BLU 2240 Clockwork Orange",
+      "hex": "#F08208",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU2240"
+      ],
+      "sourceLabel": "BLU 2240 Clockwork Orange",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "2",
+        "rawCode": "BLU 2240",
+        "rawName": "Clockwork Orange",
+        "ordernumber": "105443",
+        "ean": null,
+        "pid": "019aa0acd7587173a3ca001577518693",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105444",
+      "code": "BLU 2260",
+      "name": "Pure Orange",
+      "label": "BLU 2260 Pure Orange",
+      "hex": "#E9640B",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU2260"
+      ],
+      "sourceLabel": "BLU 2260 Pure Orange",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "2",
+        "rawCode": "BLU 2260",
+        "rawName": "Pure Orange",
+        "ordernumber": "105444",
+        "ean": null,
+        "pid": "019aa0acd7587173a3ca001577e41695",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105445",
+      "code": "BLU 2290",
+      "name": "Blood Orange",
+      "label": "BLU 2290 Blood Orange",
+      "hex": "#DF3924",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU2290"
+      ],
+      "sourceLabel": "BLU 2290 Blood Orange",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "2",
+        "rawCode": "BLU 2290",
+        "rawName": "Blood Orange",
+        "ordernumber": "105445",
+        "ean": null,
+        "pid": "019aa0acd75973068084b655e48b6ea3",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105446",
+      "code": "BLU 3005",
+      "name": "Bulls Red",
+      "label": "BLU 3005 Bulls Red",
+      "hex": "#DA0F23",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU3005"
+      ],
+      "sourceLabel": "BLU 3005 Bulls Red",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "3",
+        "rawCode": "BLU 3005",
+        "rawName": "Bulls Red",
+        "ordernumber": "105446",
+        "ean": null,
+        "pid": "019aa0acd75973068084b655e57a3774",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105447",
+      "code": "BLU 3020",
+      "name": "Salsa",
+      "label": "BLU 3020 Salsa",
+      "hex": "#B7283D",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU3020"
+      ],
+      "sourceLabel": "BLU 3020 Salsa",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "3",
+        "rawCode": "BLU 3020",
+        "rawName": "Salsa",
+        "ordernumber": "105447",
+        "ean": null,
+        "pid": "019aa0acd75973068084b655e5be6ab1",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105448",
+      "code": "BLU 3030",
+      "name": "Noble Red",
+      "label": "BLU 3030 Noble Red",
+      "hex": "#811F28",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU3030"
+      ],
+      "sourceLabel": "BLU 3030 Noble Red",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "3",
+        "rawCode": "BLU 3030",
+        "rawName": "Noble Red",
+        "ordernumber": "105448",
+        "ean": null,
+        "pid": "019aa0acd75973068084b655e622d197",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105449",
+      "code": "BLU 3060",
+      "name": "Cabernet",
+      "label": "BLU 3060 Cabernet",
+      "hex": "#541112",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU3060"
+      ],
+      "sourceLabel": "BLU 3060 Cabernet",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "3",
+        "rawCode": "BLU 3060",
+        "rawName": "Cabernet",
+        "ordernumber": "105449",
+        "ean": null,
+        "pid": "019aa0acd75973068084b655e6d95470",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105450",
+      "code": "BLU 3140",
+      "name": "Cosmopolitan",
+      "label": "BLU 3140 Cosmopolitan",
+      "hex": "#E14E73",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU3140"
+      ],
+      "sourceLabel": "BLU 3140 Cosmopolitan",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "3",
+        "rawCode": "BLU 3140",
+        "rawName": "Cosmopolitan",
+        "ordernumber": "105450",
+        "ean": null,
+        "pid": "019aa0acd75973068084b655e7576ef5",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105451",
+      "code": "BLU 3210",
+      "name": "Powder Blush",
+      "label": "BLU 3210 Powder Blush",
+      "hex": "#EFC9DD",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU3210"
+      ],
+      "sourceLabel": "BLU 3210 Powder Blush",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "3",
+        "rawCode": "BLU 3210",
+        "rawName": "Powder Blush",
+        "ordernumber": "105451",
+        "ean": null,
+        "pid": "019aa0acd75973068084b655e7b59836",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105452",
+      "code": "BLU 3220",
+      "name": "Daft Pink",
+      "label": "BLU 3220 Daft Pink",
+      "hex": "#EDA9C0",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU3220"
+      ],
+      "sourceLabel": "BLU 3220 Daft Pink",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "3",
+        "rawCode": "BLU 3220",
+        "rawName": "Daft Pink",
+        "ordernumber": "105452",
+        "ean": null,
+        "pid": "019aa0acd75973068084b655e836ebef",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105453",
+      "code": "BLU 3230",
+      "name": "Kirby",
+      "label": "BLU 3230 Kirby",
+      "hex": "#E57CAF",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU3230"
+      ],
+      "sourceLabel": "BLU 3230 Kirby",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "3",
+        "rawCode": "BLU 3230",
+        "rawName": "Kirby",
+        "ordernumber": "105453",
+        "ean": null,
+        "pid": "019aa0acd8c073b7a9027e69d0dc19ed",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105454",
+      "code": "BLU 3240",
+      "name": "Flirt",
+      "label": "BLU 3240 Flirt",
+      "hex": "#D14A94",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU3240"
+      ],
+      "sourceLabel": "BLU 3240 Flirt",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "3",
+        "rawCode": "BLU 3240",
+        "rawName": "Flirt",
+        "ordernumber": "105454",
+        "ean": null,
+        "pid": "019aa0acd8c073b7a9027e69d18e3b89",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105455",
+      "code": "BLU 3250",
+      "name": "Purple Fantasy",
+      "label": "BLU 3250 Purple Fantasy",
+      "hex": "#AF3477",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU3250"
+      ],
+      "sourceLabel": "BLU 3250 Purple Fantasy",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "3",
+        "rawCode": "BLU 3250",
+        "rawName": "Purple Fantasy",
+        "ordernumber": "105455",
+        "ean": null,
+        "pid": "019aa0acd8c073b7a9027e69d1a948bd",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105456",
+      "code": "BLU 3260",
+      "name": "Cherry Blossom",
+      "label": "BLU 3260 Cherry Blossom",
+      "hex": "#8B195E",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU3260"
+      ],
+      "sourceLabel": "BLU 3260 Cherry Blossom",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "3",
+        "rawCode": "BLU 3260",
+        "rawName": "Cherry Blossom",
+        "ordernumber": "105456",
+        "ean": null,
+        "pid": "019aa0acd8c073b7a9027e69d1b9f15d",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105457",
+      "code": "BLU 4105",
+      "name": "White Lilac",
+      "label": "BLU 4105 White Lilac",
+      "hex": "#D2C1DD",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU4105"
+      ],
+      "sourceLabel": "BLU 4105 White Lilac",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "4",
+        "rawCode": "BLU 4105",
+        "rawName": "White Lilac",
+        "ordernumber": "105457",
+        "ean": null,
+        "pid": "019aa0acd8c073b7a9027e69d272226a",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105458",
+      "code": "BLU 4120",
+      "name": "Light Lilac",
+      "label": "BLU 4120 Light Lilac",
+      "hex": "#A99AC7",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU4120"
+      ],
+      "sourceLabel": "BLU 4120 Light Lilac",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "4",
+        "rawCode": "BLU 4120",
+        "rawName": "Light Lilac",
+        "ordernumber": "105458",
+        "ean": null,
+        "pid": "019aa0acd8c073b7a9027e69d291bf72",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105459",
+      "code": "BLU 4140",
+      "name": "Teen Spirit",
+      "label": "BLU 4140 Teen Spirit",
+      "hex": "#7C6EAD",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU4140"
+      ],
+      "sourceLabel": "BLU 4140 Teen Spirit",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "4",
+        "rawCode": "BLU 4140",
+        "rawName": "Teen Spirit",
+        "ordernumber": "105459",
+        "ean": null,
+        "pid": "019aa0acd8c073b7a9027e69d33a29bf",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105460",
+      "code": "BLU 4150",
+      "name": "Blue Velvet",
+      "label": "BLU 4150 Blue Velvet",
+      "hex": "#362D69",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU4150"
+      ],
+      "sourceLabel": "BLU 4150 Blue Velvet",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "4",
+        "rawCode": "BLU 4150",
+        "rawName": "Blue Velvet",
+        "ordernumber": "105460",
+        "ean": null,
+        "pid": "019aa0acd8c073b7a9027e69d4291706",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105461",
+      "code": "BLU 4205",
+      "name": "Crocus",
+      "label": "BLU 4205 Crocus",
+      "hex": "#CDB7D4",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU4205"
+      ],
+      "sourceLabel": "BLU 4205 Crocus",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "4",
+        "rawCode": "BLU 4205",
+        "rawName": "Crocus",
+        "ordernumber": "105461",
+        "ean": null,
+        "pid": "019aa0acd8c073b7a9027e69d42e41ff",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105462",
+      "code": "BLU 4220",
+      "name": "Viola",
+      "label": "BLU 4220 Viola",
+      "hex": "#AC86B7",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU4220"
+      ],
+      "sourceLabel": "BLU 4220 Viola",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "4",
+        "rawCode": "BLU 4220",
+        "rawName": "Viola",
+        "ordernumber": "105462",
+        "ean": null,
+        "pid": "019aa0acd8c073b7a9027e69d4d84f77",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105463",
+      "code": "BLU 4250",
+      "name": "Valerie",
+      "label": "BLU 4250 Valerie",
+      "hex": "#6F3180",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU4250"
+      ],
+      "sourceLabel": "BLU 4250 Valerie",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "4",
+        "rawCode": "BLU 4250",
+        "rawName": "Valerie",
+        "ordernumber": "105463",
+        "ean": null,
+        "pid": "019aa0acda25739caf66a2d03ff42f9b",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105464",
+      "code": "BLU 5010",
+      "name": "Chilled Blue",
+      "label": "BLU 5010 Chilled Blue",
+      "hex": "#ACD6EF",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5010"
+      ],
+      "sourceLabel": "BLU 5010 Chilled Blue",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5010",
+        "rawName": "Chilled Blue",
+        "ordernumber": "105464",
+        "ean": null,
+        "pid": "019aa0acda25739caf66a2d03ffa0884",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105465",
+      "code": "BLU 5020",
+      "name": "Blue Diamond",
+      "label": "BLU 5020 Blue Diamond",
+      "hex": "#68AEE1",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5020"
+      ],
+      "sourceLabel": "BLU 5020 Blue Diamond",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5020",
+        "rawName": "Blue Diamond",
+        "ordernumber": "105465",
+        "ean": null,
+        "pid": "019aa0acda25739caf66a2d0409c46ce",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105466",
+      "code": "BLU 5030",
+      "name": "Morpho",
+      "label": "BLU 5030 Morpho",
+      "hex": "#377EC2",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5030"
+      ],
+      "sourceLabel": "BLU 5030 Morpho",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5030",
+        "rawName": "Morpho",
+        "ordernumber": "105466",
+        "ean": null,
+        "pid": "019aa0acda25739caf66a2d040e495f5",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105467",
+      "code": "BLU 5040",
+      "name": "Sky Blue",
+      "label": "BLU 5040 Sky Blue",
+      "hex": "#008CC8",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5040"
+      ],
+      "sourceLabel": "BLU 5040 Sky Blue",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5040",
+        "rawName": "Sky Blue",
+        "ordernumber": "105467",
+        "ean": null,
+        "pid": "019aa0acda25739caf66a2d041d8f88d",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105468",
+      "code": "BLU 5050",
+      "name": "Blue Tang",
+      "label": "BLU 5050 Blue Tang",
+      "hex": "#215FAA",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5050"
+      ],
+      "sourceLabel": "BLU 5050 Blue Tang",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5050",
+        "rawName": "Blue Tang",
+        "ordernumber": "105468",
+        "ean": null,
+        "pid": "019aa0acda25739caf66a2d042995d6a",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105469",
+      "code": "BLU 5060",
+      "name": "Shock Blue",
+      "label": "BLU 5060 Shock Blue",
+      "hex": "#074C91",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5060"
+      ],
+      "sourceLabel": "BLU 5060 Shock Blue",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5060",
+        "rawName": "Shock Blue",
+        "ordernumber": "105469",
+        "ean": null,
+        "pid": "019aa0acda25739caf66a2d043641211",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105471",
+      "code": "BLU 5070",
+      "name": "Space Jam",
+      "label": "BLU 5070 Space Jam",
+      "hex": "#2D3E64",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5070"
+      ],
+      "sourceLabel": "BLU 5070 Space Jam",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5070",
+        "rawName": "Space Jam",
+        "ordernumber": "105471",
+        "ean": null,
+        "pid": "019aa0acda25739caf66a2d043adc06b",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105472",
+      "code": "BLU 5310",
+      "name": "Sardinia",
+      "label": "BLU 5310 Sardinia",
+      "hex": "#71D7E2",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5310"
+      ],
+      "sourceLabel": "BLU 5310 Sardinia",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5310",
+        "rawName": "Sardinia",
+        "ordernumber": "105472",
+        "ean": null,
+        "pid": "019aa0acda2671a9a8232ec160ccfcc4",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105473",
+      "code": "BLU 5320",
+      "name": "Surf",
+      "label": "BLU 5320 Surf",
+      "hex": "#00C2CC",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5320"
+      ],
+      "sourceLabel": "BLU 5320 Surf",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5320",
+        "rawName": "Surf",
+        "ordernumber": "105473",
+        "ean": null,
+        "pid": "019aa0acda2671a9a8232ec161c56801",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105474",
+      "code": "BLU 5340",
+      "name": "Grotto",
+      "label": "BLU 5340 Grotto",
+      "hex": "#0C7E92",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5340"
+      ],
+      "sourceLabel": "BLU 5340 Grotto",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5340",
+        "rawName": "Grotto",
+        "ordernumber": "105474",
+        "ean": null,
+        "pid": "019aa0acdb8a724ea36ce73434f356a1",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105475",
+      "code": "BLU 5350",
+      "name": "Teal",
+      "label": "BLU 5350 Teal",
+      "hex": "#37626D",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5350"
+      ],
+      "sourceLabel": "BLU 5350 Teal",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5350",
+        "rawName": "Teal",
+        "ordernumber": "105475",
+        "ean": null,
+        "pid": "019aa0acdb8b72fea358b306a655d6e7",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105476",
+      "code": "BLU 5410",
+      "name": "Polar Light",
+      "label": "BLU 5410 Polar Light",
+      "hex": "#ACEAE1",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5410"
+      ],
+      "sourceLabel": "BLU 5410 Polar Light",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5410",
+        "rawName": "Polar Light",
+        "ordernumber": "105476",
+        "ean": null,
+        "pid": "019aa0acdb8b72fea358b306a7440c96",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105477",
+      "code": "BLU 5420",
+      "name": "Shining Mint",
+      "label": "BLU 5420 Shining Mint",
+      "hex": "#6BD6CE",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5420"
+      ],
+      "sourceLabel": "BLU 5420 Shining Mint",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5420",
+        "rawName": "Shining Mint",
+        "ordernumber": "105477",
+        "ean": null,
+        "pid": "019aa0acdb8b72fea358b306a7a589e0",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105478",
+      "code": "BLU 5440",
+      "name": "Miami",
+      "label": "BLU 5440 Miami",
+      "hex": "#04AEB2",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5440"
+      ],
+      "sourceLabel": "BLU 5440 Miami",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5440",
+        "rawName": "Miami",
+        "ordernumber": "105478",
+        "ean": null,
+        "pid": "019aa0acdb8b72fea358b306a85493ef",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105479",
+      "code": "BLU 5460",
+      "name": "Adriatic Blue",
+      "label": "BLU 5460 Adriatic Blue",
+      "hex": "#057277",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5460"
+      ],
+      "sourceLabel": "BLU 5460 Adriatic Blue",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5460",
+        "rawName": "Adriatic Blue",
+        "ordernumber": "105479",
+        "ean": null,
+        "pid": "019aa0acdb8b72fea358b306a8639058",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105480",
+      "code": "BLU 5470",
+      "name": "Petrol",
+      "label": "BLU 5470 Petrol",
+      "hex": "#063E44",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU5470"
+      ],
+      "sourceLabel": "BLU 5470 Petrol",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "5",
+        "rawCode": "BLU 5470",
+        "rawName": "Petrol",
+        "ordernumber": "105480",
+        "ean": null,
+        "pid": "019aa0acdb8b72fea358b306a86daf75",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105481",
+      "code": "BLU 6010",
+      "name": "Mamba",
+      "label": "BLU 6010 Mamba",
+      "hex": "#C4EA71",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU6010"
+      ],
+      "sourceLabel": "BLU 6010 Mamba",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "6",
+        "rawCode": "BLU 6010",
+        "rawName": "Mamba",
+        "ordernumber": "105481",
+        "ean": null,
+        "pid": "019aa0acdb8b72fea358b306a902ef46",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105482",
+      "code": "BLU 6020",
+      "name": "Frogger",
+      "label": "BLU 6020 Frogger",
+      "hex": "#9ED342",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU6020"
+      ],
+      "sourceLabel": "BLU 6020 Frogger",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "6",
+        "rawCode": "BLU 6020",
+        "rawName": "Frogger",
+        "ordernumber": "105482",
+        "ean": null,
+        "pid": "019aa0acdb8b72fea358b306a92a2849",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105483",
+      "code": "BLU 6030",
+      "name": "Midsummer",
+      "label": "BLU 6030 Midsummer",
+      "hex": "#5AAD25",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU6030"
+      ],
+      "sourceLabel": "BLU 6030 Midsummer",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "6",
+        "rawCode": "BLU 6030",
+        "rawName": "Midsummer",
+        "ordernumber": "105483",
+        "ean": null,
+        "pid": "019aa0acdb8b72fea358b306aa01c43e",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105484",
+      "code": "BLU 6040",
+      "name": "Juicy Grass",
+      "label": "BLU 6040 Juicy Grass",
+      "hex": "#2E7C2E",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU6040"
+      ],
+      "sourceLabel": "BLU 6040 Juicy Grass",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "6",
+        "rawCode": "BLU 6040",
+        "rawName": "Juicy Grass",
+        "ordernumber": "105484",
+        "ean": null,
+        "pid": "019aa0acdcf07321a07e526117a11ac6",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105485",
+      "code": "BLU 6060",
+      "name": "Woodland",
+      "label": "BLU 6060 Woodland",
+      "hex": "#395941",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU6060"
+      ],
+      "sourceLabel": "BLU 6060 Woodland",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "6",
+        "rawCode": "BLU 6060",
+        "rawName": "Woodland",
+        "ordernumber": "105485",
+        "ean": null,
+        "pid": "019aa0acdcf173449691fd8712db0039",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105486",
+      "code": "BLU 6070",
+      "name": "Smaragd Green",
+      "label": "BLU 6070 Smaragd Green",
+      "hex": "#0D4A26",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU6070"
+      ],
+      "sourceLabel": "BLU 6070 Smaragd Green",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "6",
+        "rawCode": "BLU 6070",
+        "rawName": "Smaragd Green",
+        "ordernumber": "105486",
+        "ean": null,
+        "pid": "019aa0acdcf173449691fd8713a88dca",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105487",
+      "code": "BLU 6110",
+      "name": "Yellogree",
+      "label": "BLU 6110 Yellogree",
+      "hex": "#CFD83E",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU6110"
+      ],
+      "sourceLabel": "BLU 6110 Yellogree",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "6",
+        "rawCode": "BLU 6110",
+        "rawName": "Yellogree",
+        "ordernumber": "105487",
+        "ean": null,
+        "pid": "019aa0acdcf173449691fd8713d74242",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105488",
+      "code": "BLU 6130",
+      "name": "Pomelo",
+      "label": "BLU 6130 Pomelo",
+      "hex": "#C8BB59",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU6130"
+      ],
+      "sourceLabel": "BLU 6130 Pomelo",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "6",
+        "rawCode": "BLU 6130",
+        "rawName": "Pomelo",
+        "ordernumber": "105488",
+        "ean": null,
+        "pid": "019aa0acdcf173449691fd8714bba98e",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105489",
+      "code": "BLU 6150",
+      "name": "Pepperoni Hot",
+      "label": "BLU 6150 Pepperoni Hot",
+      "hex": "#8C852F",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU6150"
+      ],
+      "sourceLabel": "BLU 6150 Pepperoni Hot",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "6",
+        "rawCode": "BLU 6150",
+        "rawName": "Pepperoni Hot",
+        "ordernumber": "105489",
+        "ean": null,
+        "pid": "019aa0acdcf173449691fd871581829c",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105490",
+      "code": "BLU 7005",
+      "name": "Pebble",
+      "label": "BLU 7005 Pebble",
+      "hex": "#F1EFEA",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU7005"
+      ],
+      "sourceLabel": "BLU 7005 Pebble",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "7",
+        "rawCode": "BLU 7005",
+        "rawName": "Pebble",
+        "ordernumber": "105490",
+        "ean": null,
+        "pid": "019aa0acdcf173449691fd8715f13d4e",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105491",
+      "code": "BLU 7010",
+      "name": "Sports Grey",
+      "label": "BLU 7010 Sports Grey",
+      "hex": "#E0E2E2",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU7010"
+      ],
+      "sourceLabel": "BLU 7010 Sports Grey",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "7",
+        "rawCode": "BLU 7010",
+        "rawName": "Sports Grey",
+        "ordernumber": "105491",
+        "ean": null,
+        "pid": "019aa0acdcf173449691fd871656b7ac",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105492",
+      "code": "BLU 7020",
+      "name": "Grey Parrot",
+      "label": "BLU 7020 Grey Parrot",
+      "hex": "#BFBFC2",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU7020"
+      ],
+      "sourceLabel": "BLU 7020 Grey Parrot",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "7",
+        "rawCode": "BLU 7020",
+        "rawName": "Grey Parrot",
+        "ordernumber": "105492",
+        "ean": null,
+        "pid": "019aa0acdcf173449691fd871744b9a5",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105493",
+      "code": "BLU 7030",
+      "name": "Megalodon",
+      "label": "BLU 7030 Megalodon",
+      "hex": "#8F8F92",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU7030"
+      ],
+      "sourceLabel": "BLU 7030 Megalodon",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "7",
+        "rawCode": "BLU 7030",
+        "rawName": "Megalodon",
+        "ordernumber": "105493",
+        "ean": null,
+        "pid": "019aa0acdcf173449691fd87176bf4ce",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105494",
+      "code": "BLU 7040",
+      "name": "Tunnel Grey",
+      "label": "BLU 7040 Tunnel Grey",
+      "hex": "#68696A",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU7040"
+      ],
+      "sourceLabel": "BLU 7040 Tunnel Grey",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "7",
+        "rawCode": "BLU 7040",
+        "rawName": "Tunnel Grey",
+        "ordernumber": "105494",
+        "ean": null,
+        "pid": "019aa0acdea271099aa550ac516f8c53",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105495",
+      "code": "BLU 7050",
+      "name": "Dungeon",
+      "label": "BLU 7050 Dungeon",
+      "hex": "#474A50",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU7050"
+      ],
+      "sourceLabel": "BLU 7050 Dungeon",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "7",
+        "rawCode": "BLU 7050",
+        "rawName": "Dungeon",
+        "ordernumber": "105495",
+        "ean": null,
+        "pid": "019aa0acdea271099aa550ac5257da0b",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105496",
+      "code": "BLU 7080",
+      "name": "Anthracite",
+      "label": "BLU 7080 Anthracite",
+      "hex": "#192120",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU7080"
+      ],
+      "sourceLabel": "BLU 7080 Anthracite",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "7",
+        "rawCode": "BLU 7080",
+        "rawName": "Anthracite",
+        "ordernumber": "105496",
+        "ean": null,
+        "pid": "019aa0acdea271099aa550ac52c65640",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105497",
+      "code": "BLU 7120",
+      "name": "Buzzard",
+      "label": "BLU 7120 Buzzard",
+      "hex": "#D7D5CB",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU7120"
+      ],
+      "sourceLabel": "BLU 7120 Buzzard",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "7",
+        "rawCode": "BLU 7120",
+        "rawName": "Buzzard",
+        "ordernumber": "105497",
+        "ean": null,
+        "pid": "019aa0acdea271099aa550ac53998f2e",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105498",
+      "code": "BLU 7130",
+      "name": "Asphalt",
+      "label": "BLU 7130 Asphalt",
+      "hex": "#A19F9A",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU7130"
+      ],
+      "sourceLabel": "BLU 7130 Asphalt",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "7",
+        "rawCode": "BLU 7130",
+        "rawName": "Asphalt",
+        "ordernumber": "105498",
+        "ean": null,
+        "pid": "019aa0acdea271099aa550ac5402f2f2",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105499",
+      "code": "BLU 7160",
+      "name": "Basalt",
+      "label": "BLU 7160 Basalt",
+      "hex": "#55524C",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU7160"
+      ],
+      "sourceLabel": "BLU 7160 Basalt",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "7",
+        "rawCode": "BLU 7160",
+        "rawName": "Basalt",
+        "ordernumber": "105499",
+        "ean": null,
+        "pid": "019aa0acdea271099aa550ac542c407b",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105500",
+      "code": "BLU 8005",
+      "name": "Ivory",
+      "label": "BLU 8005 Ivory",
+      "hex": "#F6ECCA",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU8005"
+      ],
+      "sourceLabel": "BLU 8005 Ivory",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "8",
+        "rawCode": "BLU 8005",
+        "rawName": "Ivory",
+        "ordernumber": "105500",
+        "ean": null,
+        "pid": "019aa0acdea37003a31e78c12c2ef58e",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105501",
+      "code": "BLU 8025",
+      "name": "Beige",
+      "label": "BLU 8025 Beige",
+      "hex": "#DAB781",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU8025"
+      ],
+      "sourceLabel": "BLU 8025 Beige",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "8",
+        "rawCode": "BLU 8025",
+        "rawName": "Beige",
+        "ordernumber": "105501",
+        "ean": null,
+        "pid": "019aa0acdea37003a31e78c12cad39cd",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105502",
+      "code": "BLU 8030",
+      "name": "Sand",
+      "label": "BLU 8030 Sand",
+      "hex": "#C6985B",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU8030"
+      ],
+      "sourceLabel": "BLU 8030 Sand",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "8",
+        "rawCode": "BLU 8030",
+        "rawName": "Sand",
+        "ordernumber": "105502",
+        "ean": null,
+        "pid": "019aa0acdea37003a31e78c12cb7568d",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105503",
+      "code": "BLU 8040",
+      "name": "Duck Season",
+      "label": "BLU 8040 Duck Season",
+      "hex": "#AB9276",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU8040"
+      ],
+      "sourceLabel": "BLU 8040 Duck Season",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "8",
+        "rawCode": "BLU 8040",
+        "rawName": "Duck Season",
+        "ordernumber": "105503",
+        "ean": null,
+        "pid": "019aa0acdea37003a31e78c12d125397",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105504",
+      "code": "BLU 8110",
+      "name": "Doughy",
+      "label": "BLU 8110 Doughy",
+      "hex": "#EFD3BF",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU8110"
+      ],
+      "sourceLabel": "BLU 8110 Doughy",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "8",
+        "rawCode": "BLU 8110",
+        "rawName": "Doughy",
+        "ordernumber": "105504",
+        "ean": null,
+        "pid": "019aa0acdfe37388839aa6d3ef86b5ff",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105505",
+      "code": "BLU 8120",
+      "name": "Coffee Creme",
+      "label": "BLU 8120 Coffee Creme",
+      "hex": "#DBB7A1",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU8120"
+      ],
+      "sourceLabel": "BLU 8120 Coffee Creme",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "8",
+        "rawCode": "BLU 8120",
+        "rawName": "Coffee Creme",
+        "ordernumber": "105505",
+        "ean": null,
+        "pid": "019aa0acdfe37388839aa6d3f01aa918",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105506",
+      "code": "BLU 8130",
+      "name": "Caramelo",
+      "label": "BLU 8130 Caramelo",
+      "hex": "#CA957A",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU8130"
+      ],
+      "sourceLabel": "BLU 8130 Caramelo",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "8",
+        "rawCode": "BLU 8130",
+        "rawName": "Caramelo",
+        "ordernumber": "105506",
+        "ean": null,
+        "pid": "019aa0acdfe471688067185531aed39e",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105507",
+      "code": "BLU 8140",
+      "name": "Brownies",
+      "label": "BLU 8140 Brownies",
+      "hex": "#784A3A",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU8140"
+      ],
+      "sourceLabel": "BLU 8140 Brownies",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "8",
+        "rawCode": "BLU 8140",
+        "rawName": "Brownies",
+        "ordernumber": "105507",
+        "ean": null,
+        "pid": "019aa0acdfe471688067185531df13a5",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105508",
+      "code": "BLU 8150",
+      "name": "Bittersweet",
+      "label": "BLU 8150 Bittersweet",
+      "hex": "#4B3225",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU8150"
+      ],
+      "sourceLabel": "BLU 8150 Bittersweet",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "8",
+        "rawCode": "BLU 8150",
+        "rawName": "Bittersweet",
+        "ordernumber": "105508",
+        "ean": null,
+        "pid": "019aa0acdfe4716880671855325a3eac",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105509",
+      "code": "BLU 9000",
+      "name": "Black",
+      "label": "BLU 9000 Black",
+      "hex": "#000000",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU9000"
+      ],
+      "sourceLabel": "BLU 9000 Black",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "9",
+        "rawCode": "BLU 9000",
+        "rawName": "Black",
+        "ordernumber": "105509",
+        "ean": null,
+        "pid": "019aa0acdfe471688067185532808c97",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105510",
+      "code": "BLU 9100",
+      "name": "White",
+      "label": "BLU 9100 White",
+      "hex": "#FFFFFF",
+      "finish": "matt",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLU9100"
+      ],
+      "sourceLabel": "BLU 9100 White",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "9",
+        "rawCode": "BLU 9100",
+        "rawName": "White",
+        "ordernumber": "105510",
+        "ean": null,
+        "pid": "019aa0acdfe471688067185533739f2a",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105511",
+      "code": "BLU F1000",
+      "name": "Fluor Yellow",
+      "label": "BLU F1000 Fluor Yellow",
+      "hex": "#F7FF72",
+      "finish": "fluorescent",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLUF1000"
+      ],
+      "sourceLabel": "BLU F1000 Fluor Yellow",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "F",
+        "rawCode": "BLU F1000",
+        "rawName": "Fluor Yellow",
+        "ordernumber": "105511",
+        "ean": null,
+        "pid": "019aa0acdfe471688067185533a99abe",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105512",
+      "code": "BLU F2000",
+      "name": "Flour Orange",
+      "label": "BLU F2000 Flour Orange",
+      "hex": "#FE7545",
+      "finish": "fluorescent",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLUF2000"
+      ],
+      "sourceLabel": "BLU F2000 Flour Orange",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "F",
+        "rawCode": "BLU F2000",
+        "rawName": "Flour Orange",
+        "ordernumber": "105512",
+        "ean": null,
+        "pid": "019aa0acdfe471688067185534a800ec",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105513",
+      "code": "BLU F3000",
+      "name": "Fluor Red",
+      "label": "BLU F3000 Fluor Red",
+      "hex": "#FE0000",
+      "finish": "fluorescent",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLUF3000"
+      ],
+      "sourceLabel": "BLU F3000 Fluor Red",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "F",
+        "rawCode": "BLU F3000",
+        "rawName": "Fluor Red",
+        "ordernumber": "105513",
+        "ean": null,
+        "pid": "019aa0acdfe471688067185534cab4c5",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105514",
+      "code": "BLU F4000",
+      "name": "Fluor Pink",
+      "label": "BLU F4000 Fluor Pink",
+      "hex": "#FF00FF",
+      "finish": "fluorescent",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLUF4000"
+      ],
+      "sourceLabel": "BLU F4000 Fluor Pink",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "F",
+        "rawCode": "BLU F4000",
+        "rawName": "Fluor Pink",
+        "ordernumber": "105514",
+        "ean": null,
+        "pid": "019aa0ace13073638755ec6f168c1ae3",
+        "rgb": null,
+        "cmyk": null
+      }
+    },
+    {
+      "id": "105515",
+      "code": "BLU F6000",
+      "name": "Fluor Green",
+      "label": "BLU F6000 Fluor Green",
+      "hex": "#4FF684",
+      "finish": "fluorescent",
+      "opacity": null,
+      "coverage": null,
+      "lightfastness": null,
+      "pigments": null,
+      "aliases": [
+        "BLUF6000"
+      ],
+      "sourceLabel": "BLU F6000 Fluor Green",
+      "meta": {
+        "sourceType": "shop-page",
+        "sourceUrl": "https://www.montana-cans.com/Montana-BLUE-400ml-Colors/105428M",
+        "title": "Montana BLUE 400ml - Colors",
+        "family": "F",
+        "rawCode": "BLU F6000",
+        "rawName": "Fluor Green",
+        "ordernumber": "105515",
+        "ean": null,
+        "pid": "019aa0ace13073638755ec6f16a55e06",
+        "rgb": null,
+        "cmyk": null
+      }
+    }
+  ]
+}

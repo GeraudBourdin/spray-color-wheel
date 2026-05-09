@@ -116,6 +116,59 @@ function normalizeMontanaBlackCatalog(items) {
   };
 }
 
+function normalizeMontanaBlueCatalog(rawCatalog) {
+  const detectFinish = (item) => {
+    const label = [item.code, item.name].filter(Boolean).join(" ").toLowerCase();
+
+    if (item.family === "F" || label.includes("fluor") || label.includes("flour")) {
+      return "fluorescent";
+    }
+
+    return "matt";
+  };
+
+  return {
+    manufacturer: {
+      id: "montana-blue",
+      label: "Montana BLUE",
+      accent: "#2F73C8",
+      series: "400ml Water-Based",
+      source: {
+        name: rawCatalog.source?.name || "Montana BLUE 400ml",
+        url: rawCatalog.source?.primaryUrl || "https://www.montana-cans.com/",
+        note: rawCatalog.source?.note || null,
+      },
+    },
+    colors: rawCatalog.colors.map((item, index) => ({
+      id: item.ordernumber || item.pid || `montana-blue-${index + 1}`,
+      code: item.code || "",
+      name: item.name || `Montana BLUE ${index + 1}`,
+      label: [item.code, item.name].filter(Boolean).join(" ") || `Montana BLUE ${index + 1}`,
+      hex: String(item.hex || "").toUpperCase(),
+      finish: detectFinish(item),
+      opacity: null,
+      coverage: item.coverage || null,
+      lightfastness: item.lightfastness || null,
+      pigments: item.pigments || null,
+      aliases: item.aliases || [],
+      sourceLabel: item.sourceLabel || "",
+      meta: {
+        sourceType: rawCatalog.source?.type || "shop-page",
+        sourceUrl: item.sourceUrl || rawCatalog.source?.primaryUrl || null,
+        title: item.title || null,
+        family: item.family || null,
+        rawCode: item.rawCode || null,
+        rawName: item.rawName || null,
+        ordernumber: item.ordernumber || null,
+        ean: item.ean || null,
+        pid: item.pid || null,
+        rgb: item.rgb || null,
+        cmyk: item.cmyk || null,
+      },
+    })),
+  };
+}
+
 function normalizeMontanaGoldCatalog(rawCatalog) {
   const buildSourceNote = () => {
     const categories = Array.isArray(rawCatalog.source?.urls)
@@ -222,6 +275,24 @@ function normalizeFlameCatalog(rawCatalog, manufacturer) {
 }
 
 function normalizeMolotowBeltonCatalog(rawCatalog) {
+  const detectFinish = (item) => {
+    const label = [item.code, item.name, item.englishName, item.frenchName].filter(Boolean).join(" ").toLowerCase();
+
+    if (label.includes("transparent")) {
+      return "transparent";
+    }
+
+    if (label.includes("fluo") || label.includes("neon")) {
+      return "fluorescent";
+    }
+
+    if (item.code === "#220" || item.code === "#220-1") {
+      return "metallic";
+    }
+
+    return null;
+  };
+
   return {
     manufacturer: {
       id: "molotow-belton",
@@ -246,7 +317,7 @@ function normalizeMolotowBeltonCatalog(rawCatalog) {
         name,
         label: [item.code, name].filter(Boolean).join(" ") || `Molotow Belton ${index + 1}`,
         hex: String(item.hex || "").toUpperCase(),
-        finish: null,
+        finish: detectFinish(item),
         opacity: null,
         coverage: null,
         lightfastness: null,
@@ -258,10 +329,16 @@ function normalizeMolotowBeltonCatalog(rawCatalog) {
           sourcePages: rawCatalog.source?.pages || null,
           sourcePage: item.page || null,
           hexApproximation: rawCatalog.source?.hexApproximation || false,
+          productUrl: rawCatalog.source?.productUrl || null,
           variants: item.variants || [],
+          cmyk: item.cmyk || null,
+          rgb: item.rgb || null,
           germanName: item.germanName || null,
           englishName: item.englishName || null,
+          frenchName: item.frenchName || null,
+          spanishName: item.spanishName || null,
           advancedFormula: item.advancedFormula || false,
+          hexFallbackNote: item.hexFallbackNote || null,
         },
       };
     }),
@@ -422,6 +499,7 @@ function normalizeKobraCatalog(rawCatalog, manufacturer) {
 async function main() {
   const loopRaw = await readJson("loop.json");
   const montanaBlackRaw = await readJson("montana-black.json");
+  const montanaBlueRaw = await readJson("montana-blue.json");
   const montanaGoldRaw = await readJson("montana-gold.json");
   const flameOrangeRaw = await readJson("flame-orange.json");
   const flameBlueRaw = await readJson("flame-blue.json");
@@ -433,6 +511,7 @@ async function main() {
 
   const loop = normalizeLoopCatalog(loopRaw);
   const montanaBlack = normalizeMontanaBlackCatalog(montanaBlackRaw);
+  const montanaBlue = normalizeMontanaBlueCatalog(montanaBlueRaw);
   const montanaGold = normalizeMontanaGoldCatalog(montanaGoldRaw);
   const flameOrange = normalizeFlameCatalog(flameOrangeRaw, {
     id: "flame-orange",
@@ -477,6 +556,10 @@ async function main() {
         path: "./montana-black.json",
       },
       {
+        id: montanaBlue.manufacturer.id,
+        path: "./montana-blue.json",
+      },
+      {
         id: montanaGold.manufacturer.id,
         path: "./montana-gold.json",
       },
@@ -514,6 +597,7 @@ async function main() {
   await writeJson("index.json", manifest);
   await writeJson("loop.json", loop);
   await writeJson("montana-black.json", montanaBlack);
+  await writeJson("montana-blue.json", montanaBlue);
   await writeJson("montana-gold.json", montanaGold);
   await writeJson("flame-orange.json", flameOrange);
   await writeJson("flame-blue.json", flameBlue);

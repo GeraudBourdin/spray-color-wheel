@@ -33,10 +33,12 @@ const DEFAULT_MANUFACTURER_ACCENTS = [
 ];
 
 const CART_STORAGE_KEY = "spray-color-wheel.cart";
+const CART_UNIT_PRICE_STORAGE_KEY = "spray-color-wheel.cart-unit-price";
 const LANGUAGE_STORAGE_KEY = "spray-color-wheel.language";
 const APP_STATE_STORAGE_KEY = "spray-color-wheel.state";
 const WHEEL_RADIUS = 198;
 const WHEEL_CHROMA_MAX = 110;
+const WHEEL_SURFACE_LIGHTNESS = 0.6;
 const WHEEL_SURFACE_RESOLUTION_FACTOR = 0.28;
 const WHEEL_SURFACE_RESOLUTION_MIN = 96;
 const WHEEL_SURFACE_RESOLUTION_MAX = 144;
@@ -76,6 +78,7 @@ const state = {
   selectedBrands: new Set(),
   activeTheoryIds: new Set(["complementary"]),
   cartItems: [],
+  cartUnitPriceInput: "",
   imageAsset: null,
   imagePalette: [],
   imageSampleColor: null,
@@ -198,6 +201,9 @@ const elements = {
   cartClear: document.querySelector("#cart-clear"),
   cartLabel: document.querySelector("#cart-label"),
   cartCopy: document.querySelector("#cart-copy"),
+  cartUnitPriceLabel: document.querySelector("#cart-unit-price-label"),
+  cartUnitPriceInput: document.querySelector("#cart-unit-price"),
+  cartCostSummary: document.querySelector("#cart-cost-summary"),
   ruleTitle: document.querySelector("#rule-title"),
   ruleFormula: document.querySelector("#rule-formula"),
   ruleDescription: document.querySelector("#rule-description"),
@@ -265,6 +271,10 @@ function formatLanguageDate(value) {
     dateStyle: "long",
     timeStyle: "short",
   }).format(value);
+}
+
+function formatLanguageNumber(value, options = {}) {
+  return new Intl.NumberFormat(getLocaleTag(state.language), options).format(value);
 }
 
 function normalizeReferenceToken(value) {
@@ -618,9 +628,9 @@ function renderWheelVisibilityControls() {
   elements.wheelSnapCans.classList.toggle("active", snapCans);
 }
 
-function renderWheelGuide(baseColor) {
+function renderWheelGuide() {
   const guideVisible = state.showWheelGuide;
-  const lightness = formatPercent(baseColor.l);
+  const lightness = formatPercent(WHEEL_SURFACE_LIGHTNESS);
   const guideToggleLabel = ui(guideVisible ? "hideWheelGuide" : "showWheelGuide");
   const legendItems = [
     { tone: "hue", label: ui("wheelLegendHue") },
@@ -885,6 +895,33 @@ function normalizeCartItem(input) {
   return { colorId: input.colorId, quantity };
 }
 
+function normalizeCartUnitPriceInput(value) {
+  return String(value ?? "")
+    .replace(/[^\d,.\s]/g, "")
+    .trimStart();
+}
+
+function parseCartUnitPrice(value = state.cartUnitPriceInput) {
+  const normalized = String(value ?? "")
+    .trim()
+    .replace(/\s+/g, "")
+    .replace(/,/g, ".");
+
+  if (!normalized) {
+    return null;
+  }
+
+  const parsed = Number.parseFloat(normalized);
+  return Number.isFinite(parsed) && parsed >= 0 ? parsed : null;
+}
+
+function formatCartUnitPrice(value) {
+  return formatLanguageNumber(value, {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  });
+}
+
 function loadCartFromStorage() {
   try {
     const raw = window.localStorage.getItem(CART_STORAGE_KEY);
@@ -909,12 +946,51 @@ function loadCartFromStorage() {
   }
 }
 
+function loadCartUnitPriceFromStorage() {
+  try {
+    state.cartUnitPriceInput = normalizeCartUnitPriceInput(window.localStorage.getItem(CART_UNIT_PRICE_STORAGE_KEY) || "");
+  } catch {
+    state.cartUnitPriceInput = "";
+  }
+}
+
 function persistCart() {
   try {
     window.localStorage.setItem(CART_STORAGE_KEY, JSON.stringify(state.cartItems));
   } catch {
     // Ignore storage failures to keep the UI usable without persistence.
   }
+}
+
+function persistCartUnitPrice() {
+  try {
+    const value = String(state.cartUnitPriceInput || "").trim();
+
+    if (value) {
+      window.localStorage.setItem(CART_UNIT_PRICE_STORAGE_KEY, value);
+    } else {
+      window.localStorage.removeItem(CART_UNIT_PRICE_STORAGE_KEY);
+    }
+  } catch {
+    // Ignore storage failures to keep the UI usable without persistence.
+  }
+}
+
+function setCartUnitPriceInput(value, { commit = false } = {}) {
+  const normalized = normalizeCartUnitPriceInput(value);
+  const parsed = parseCartUnitPrice(normalized);
+
+  if (!normalized) {
+    state.cartUnitPriceInput = "";
+  } else if (commit && parsed != null) {
+    state.cartUnitPriceInput = formatCartUnitPrice(parsed);
+  } else if (commit) {
+    state.cartUnitPriceInput = "";
+  } else {
+    state.cartUnitPriceInput = normalized;
+  }
+
+  persistCartUnitPrice();
 }
 
 function isColorInCart(colorId) {
@@ -935,6 +1011,21 @@ function getCartReferenceCount() {
 
 function getCartSprayCount() {
   return state.cartItems.reduce((total, entry) => total + entry.quantity, 0);
+}
+
+function getCartEstimate() {
+  const unitPrice = parseCartUnitPrice();
+
+  if (unitPrice == null) {
+    return null;
+  }
+
+  const sprayCount = getCartSprayCount();
+  return {
+    unitPrice,
+    sprayCount,
+    total: unitPrice * sprayCount,
+  };
 }
 
 function getCartItems() {
@@ -1112,6 +1203,7 @@ async function copySprayChoiceValue(color, copyKind) {
 
 function buildPrintableCartDocument(items) {
   const createdAt = formatLanguageDate(new Date());
+  const estimate = getCartEstimate();
 
   const itemMarkup = items
     .map((entry) => {
@@ -1283,6 +1375,17 @@ function buildPrintableCartDocument(items) {
         <div class="meta">
           <div>${escapeHtml(countText("reference", items.length))}</div>
           <div>${escapeHtml(countText("spray", items.reduce((total, entry) => total + entry.quantity, 0)))}</div>
+          ${
+            estimate
+              ? `<div>${escapeHtml(
+                  ui("cartApproximateCostValue", {
+                    sprayLabel: countText("spray", estimate.sprayCount),
+                    unitPrice: formatCartUnitPrice(estimate.unitPrice),
+                    total: formatCartUnitPrice(estimate.total),
+                  }),
+                )}</div>`
+              : ""
+          }
           <div>${escapeHtml(ui("printGeneratedOn", { date: createdAt }))}</div>
           <button class="print-button" type="button" onclick="window.print()">${escapeHtml(ui("printButton"))}</button>
         </div>
@@ -1354,6 +1457,10 @@ function getWheelSelectionLightness() {
   return clamp(state.base.l, 0, 1);
 }
 
+function getWheelSurfaceLightness() {
+  return WHEEL_SURFACE_LIGHTNESS;
+}
+
 function getWheelPlacement(entry) {
   const lab = entry?.lab || hexToLab(entry?.hex || "#000000");
   const lch = entry?.lch || labToLch(lab);
@@ -1372,7 +1479,6 @@ function createWheelEntry(color) {
 
   return {
     color,
-    rgb: color.rgb || hexToRgb(color.hex),
     lightness: clamp(typeof color.l === "number" ? color.l : placement.lab.l / 100, 0, 1),
     point: placement.point,
     radius: placement.radius,
@@ -1409,33 +1515,13 @@ function findClosestWheelEntry(x, y, wheelEntries) {
   return best;
 }
 
-function blendWheelSurfaceColor(x, y, wheelEntries) {
-  let red = 0;
-  let green = 0;
-  let blue = 0;
-  let totalWeight = 0;
+function getWheelSurfaceColor(x, y, lightness) {
+  const distance = Math.min(Math.sqrt(x ** 2 + y ** 2), WHEEL_RADIUS);
+  const hue = normalizeHue((Math.atan2(y, x) * 180) / Math.PI + 90);
+  const chroma = clamp(distance / WHEEL_RADIUS, 0, 1) * WHEEL_CHROMA_MAX;
 
-  for (const entry of wheelEntries) {
-    const dx = entry.point.x - x;
-    const dy = entry.point.y - y;
-    const distanceSquared = dx ** 2 + dy ** 2;
-    const weight = 1 / (distanceSquared + 64);
-
-    red += entry.rgb.r * weight;
-    green += entry.rgb.g * weight;
-    blue += entry.rgb.b * weight;
-    totalWeight += weight;
-  }
-
-  if (totalWeight === 0) {
-    return null;
-  }
-
-  return {
-    r: Math.round(red / totalWeight),
-    g: Math.round(green / totalWeight),
-    b: Math.round(blue / totalWeight),
-  };
+  // Render a fixed LCH slice so the wheel stays visually stable while lightness is controlled separately.
+  return hexToRgb(lchToHex(clamp(lightness, 0, 1) * 100, chroma, hue));
 }
 
 function getWheelInteractionRect() {
@@ -3012,17 +3098,57 @@ function renderSprayChoiceRow({ brand, color, badge, score, active, quantity, to
   `;
 }
 
-function renderCart() {
-  const items = getCartItems();
+function renderCartPricing(items, { syncInputValue = true } = {}) {
+  const estimate = getCartEstimate();
+
+  if (elements.cartUnitPriceLabel) {
+    elements.cartUnitPriceLabel.textContent = ui("cartUnitPriceLabel");
+  }
+
+  if (elements.cartUnitPriceInput) {
+    elements.cartUnitPriceInput.placeholder = formatCartUnitPrice(6.5);
+    elements.cartUnitPriceInput.setAttribute("aria-label", ui("cartUnitPriceLabel"));
+
+    if (syncInputValue && elements.cartUnitPriceInput.value !== state.cartUnitPriceInput) {
+      elements.cartUnitPriceInput.value = state.cartUnitPriceInput;
+    }
+  }
+
+  if (elements.cartCostSummary) {
+    elements.cartCostSummary.textContent = estimate
+      ? ui("cartApproximateCostValue", {
+          sprayLabel: countText("spray", estimate.sprayCount),
+          unitPrice: formatCartUnitPrice(estimate.unitPrice),
+          total: formatCartUnitPrice(estimate.total),
+        })
+      : ui("cartApproximateCostHint");
+  }
+
   const uniqueBrands = new Set(items.map((entry) => entry.color.brandId));
   const sprayCount = getCartSprayCount();
+  const summaryPills = [
+    `<span class="meta-pill">${escapeHtml(countText("reference", getCartReferenceCount()))}</span>`,
+    `<span class="meta-pill">${escapeHtml(countText("spray", sprayCount))}</span>`,
+    `<span class="meta-pill">${escapeHtml(countText("manufacturer", uniqueBrands.size))}</span>`,
+  ];
 
-  elements.cartSummary.innerHTML = `
-    <span class="meta-pill">${escapeHtml(countText("reference", getCartReferenceCount()))}</span>
-    <span class="meta-pill">${escapeHtml(countText("spray", sprayCount))}</span>
-    <span class="meta-pill">${escapeHtml(countText("manufacturer", uniqueBrands.size))}</span>
-  `;
+  if (estimate) {
+    summaryPills.push(
+      `<span class="meta-pill">${escapeHtml(
+        ui("cartApproximateCostPill", {
+          total: formatCartUnitPrice(estimate.total),
+        }),
+      )}</span>`,
+    );
+  }
+
+  elements.cartSummary.innerHTML = summaryPills.join("");
   elements.cartModalOpenCount.textContent = String(sprayCount);
+}
+
+function renderCart() {
+  const items = getCartItems();
+  renderCartPricing(items);
 
   elements.cartDownload.disabled = items.length === 0;
   elements.cartClear.disabled = items.length === 0;
@@ -3105,16 +3231,19 @@ function renderBaseCaption(baseColor) {
   ];
 
   if (origin) {
-    pills.push(
-      `<span class="base-pill">${escapeHtml(
-        ui("sourcePrefix", {
-          source:
-            state.baseOrigin?.kind === "image"
-              ? `${ui("imagePaletteBrand")} ${origin.label || origin.name}`
-              : origin.label || origin.name,
-        }),
-      )}</span>`,
-    );
+    if (state.baseOrigin?.kind === "spray") {
+      pills.push(
+        `<span class="base-pill">${escapeHtml(`${ui("baseReferenceLabel")}: ${buildColorReferenceText(origin)}`)}</span>`,
+      );
+    } else {
+      pills.push(
+        `<span class="base-pill">${escapeHtml(
+          ui("sourcePrefix", {
+            source: `${ui("imagePaletteBrand")} ${origin.label || origin.name}`,
+          }),
+        )}</span>`,
+      );
+    }
   } else {
     pills.push(`<span class="base-pill">${escapeHtml(ui("sourceCustom"))}</span>`);
   }
@@ -3366,7 +3495,7 @@ function renderSwatches(groups, baseStop) {
     .join("")}`;
 }
 
-function renderWheelSurface(wheelEntries) {
+function renderWheelSurface() {
   if (!elements.wheelSurface) {
     return;
   }
@@ -3388,7 +3517,8 @@ function renderWheelSurface(wheelEntries) {
     WHEEL_SURFACE_RESOLUTION_MIN,
     WHEEL_SURFACE_RESOLUTION_MAX,
   );
-  const cacheKey = `${[...state.selectedBrands].sort().join("|")}|${resolution}`;
+  const surfaceLightness = getWheelSurfaceLightness();
+  const cacheKey = `${resolution}|${surfaceLightness.toFixed(3)}`;
 
   if (wheelSurfaceCacheKey === cacheKey) {
     return;
@@ -3404,11 +3534,6 @@ function renderWheelSurface(wheelEntries) {
   elements.wheelSurface.height = resolution;
   context.clearRect(0, 0, resolution, resolution);
   context.imageSmoothingEnabled = true;
-
-  if (!wheelEntries.length) {
-    wheelSurfaceCacheKey = cacheKey;
-    return;
-  }
 
   const center = resolution / 2;
   const maxRadius = center - 1;
@@ -3427,18 +3552,14 @@ function renderWheelSurface(wheelEntries) {
 
       const worldX = normalizedX * WHEEL_RADIUS;
       const worldY = normalizedY * WHEEL_RADIUS;
-      const mixed = blendWheelSurfaceColor(worldX, worldY, wheelEntries);
-
-      if (!mixed) {
-        continue;
-      }
+      const color = getWheelSurfaceColor(worldX, worldY, surfaceLightness);
 
       const alpha = radialDistance > 0.97 ? clamp((1 - radialDistance) / 0.03, 0, 1) : 1;
       const offset = (y * resolution + x) * 4;
 
-      data[offset] = mixed.r;
-      data[offset + 1] = mixed.g;
-      data[offset + 2] = mixed.b;
+      data[offset] = color.r;
+      data[offset + 1] = color.g;
+      data[offset + 2] = color.b;
       data[offset + 3] = Math.round(alpha * 255);
     }
   }
@@ -3448,6 +3569,7 @@ function renderWheelSurface(wheelEntries) {
 }
 
 function renderWheel(wheelEntries, stops) {
+  const surfaceLightness = getWheelSurfaceLightness();
   const cloud = state.showWheelSprays
     ? [...wheelEntries]
         .sort((first, second) => {
@@ -3455,7 +3577,11 @@ function renderWheel(wheelEntries, stops) {
             return first.color.isNeutral ? -1 : 1;
           }
 
-          return second.lightness - first.lightness || second.radius - first.radius;
+          const firstDistance = Math.abs(first.lightness - surfaceLightness);
+          const secondDistance = Math.abs(second.lightness - surfaceLightness);
+
+          // Draw colors closest to the fixed preview lightness last so overlapping dots stay readable.
+          return secondDistance - firstDistance || first.radius - second.radius || first.lightness - second.lightness;
         })
         .map((entry) => {
           const radius = entry.color.isNeutral ? 4.2 : 4.8;
@@ -3568,13 +3694,13 @@ function render() {
   renderCart();
   renderRule(contexts);
   renderWheelVisibilityControls();
-  renderWheelGuide(baseColor);
+  renderWheelGuide();
   renderBaseCaption(baseColor);
   renderTheoryNote(contexts);
   renderPaletteSummary(palette.groups);
   renderPaletteReference(palette.baseStop, palette.groups);
   renderSwatches(palette.groups, palette.baseStop);
-  renderWheelSurface(wheelEntries);
+  renderWheelSurface();
   renderWheel(wheelEntries, wheelStops);
   syncWheelPanelHeight();
   schedulePersistAppState();
@@ -4164,6 +4290,14 @@ function bindEvents() {
 
     decrementCartColor(colorId);
   });
+  elements.cartUnitPriceInput.addEventListener("input", (event) => {
+    setCartUnitPriceInput(event.currentTarget.value);
+    renderCartPricing(getCartItems(), { syncInputValue: false });
+  });
+  elements.cartUnitPriceInput.addEventListener("blur", (event) => {
+    setCartUnitPriceInput(event.currentTarget.value, { commit: true });
+    renderCartPricing(getCartItems());
+  });
 
   elements.cartClear.addEventListener("click", clearCart);
   elements.cartDownload.addEventListener("click", downloadCart);
@@ -4298,6 +4432,7 @@ async function loadData() {
 async function boot() {
   loadLanguageFromStorage();
   loadCartFromStorage();
+  loadCartUnitPriceFromStorage();
   loadAppStateFromStorage();
   renderLanguageOptions();
   renderStaticText();

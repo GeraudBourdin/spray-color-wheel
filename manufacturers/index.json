@@ -10,6 +10,10 @@
       "path": "./montana-black.json"
     },
     {
+      "id": "montana-blue",
+      "path": "./montana-blue.json"
+    },
+    {
       "id": "montana-gold",
       "path": "./montana-gold.json"
     },

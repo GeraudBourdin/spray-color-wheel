@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Manrope:wght@400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,17 +6,17 @@
 
 @layer base {
   :root {
-    --shell-width: 1360px;
-    --surface-frost: rgba(255, 255, 255, 0.74);
-    --surface-soft: rgba(250, 250, 249, 0.8);
-    --line-soft: rgba(148, 163, 184, 0.2);
-    --line-strong: rgba(148, 163, 184, 0.28);
-    --radius-panel: 1.28rem;
-    --radius-card: 0.98rem;
-    --radius-soft: 0.8rem;
-    --shadow-panel: 0 20px 52px rgba(15, 23, 42, 0.08), 0 4px 16px rgba(15, 23, 42, 0.04);
-    --shadow-card: 0 12px 28px rgba(15, 23, 42, 0.05), 0 2px 10px rgba(15, 23, 42, 0.03);
-    --shadow-micro: 0 6px 14px rgba(15, 23, 42, 0.05), 0 1px 3px rgba(15, 23, 42, 0.04);
+    --shell-width: 1240px;
+    --surface-frost: rgba(255, 255, 255, 0.98);
+    --surface-soft: rgba(248, 250, 252, 0.96);
+    --line-soft: rgba(148, 163, 184, 0.18);
+    --line-strong: rgba(148, 163, 184, 0.26);
+    --radius-panel: 1rem;
+    --radius-card: 0.82rem;
+    --radius-soft: 0.68rem;
+    --shadow-panel: 0 10px 28px rgba(15, 23, 42, 0.06), 0 2px 8px rgba(15, 23, 42, 0.03);
+    --shadow-card: 0 8px 20px rgba(15, 23, 42, 0.05), 0 1px 3px rgba(15, 23, 42, 0.03);
+    --shadow-micro: 0 1px 2px rgba(15, 23, 42, 0.05), 0 4px 10px rgba(15, 23, 42, 0.03);
   }
 
   * {
@@ -31,9 +31,8 @@
     @apply min-h-screen bg-paper font-sans text-ink antialiased;
     overflow-x: hidden;
     background:
-      radial-gradient(circle at top left, rgba(255, 255, 255, 0.88) 0, rgba(255, 255, 255, 0) 24%),
-      radial-gradient(circle at top right, rgba(251, 191, 36, 0.08) 0, rgba(251, 191, 36, 0) 26%),
-      linear-gradient(180deg, #f7f4ee 0%, #efebe4 100%);
+      radial-gradient(circle at top right, rgba(249, 115, 22, 0.06) 0, rgba(249, 115, 22, 0) 22%),
+      linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
   }
 
   body::before {
@@ -42,22 +41,13 @@
     inset: 0;
     pointer-events: none;
     background:
-      radial-gradient(circle at 18% 12%, rgba(15, 23, 42, 0.03) 0, rgba(15, 23, 42, 0) 24%),
-      radial-gradient(circle at 82% 0%, rgba(249, 115, 22, 0.08) 0, rgba(249, 115, 22, 0) 20%);
-    opacity: 0.95;
+      radial-gradient(circle at 12% 8%, rgba(15, 23, 42, 0.04) 0, rgba(15, 23, 42, 0) 18%),
+      radial-gradient(circle at 88% 2%, rgba(249, 115, 22, 0.07) 0, rgba(249, 115, 22, 0) 16%);
+    opacity: 0.82;
   }
 
   body::after {
-    content: "";
-    position: fixed;
-    inset: 0;
-    pointer-events: none;
-    background-image:
-      linear-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.12) 1px, transparent 1px);
-    background-size: 120px 120px;
-    mask-image: linear-gradient(180deg, rgba(15, 23, 42, 0.24), rgba(15, 23, 42, 0));
-    opacity: 0.28;
+    display: none;
   }
 
   button,
@@ -85,7 +75,7 @@
     position: relative;
     width: min(var(--shell-width), 100%);
     margin: 0 auto;
-    padding: 12px 14px 22px;
+    padding: 10px 12px 18px;
   }
 
   .app-shell::before,
@@ -95,12 +85,11 @@
 
   .topbar,
   .panel {
-    @apply relative overflow-visible rounded-3xl border border-white/80 bg-white/80 backdrop-blur-xl;
-    border-color: rgba(255, 255, 255, 0.68);
+    @apply relative overflow-visible border bg-white;
+    border-color: var(--line-soft);
     border-radius: var(--radius-panel);
     background: var(--surface-frost);
     box-shadow: var(--shadow-panel);
-    backdrop-filter: blur(18px) saturate(135%);
   }
 
   .topbar::before,
@@ -108,18 +97,18 @@
     content: "";
     position: absolute;
     inset: 0 0 auto;
-    height: 92px;
+    height: 44px;
     border-radius: inherit;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0));
+    background: linear-gradient(180deg, rgba(248, 250, 252, 0.9), rgba(248, 250, 252, 0));
     pointer-events: none;
   }
 
   .topbar {
-    @apply mb-3 grid items-end gap-3 px-4 py-3.5;
+    @apply mb-3 grid items-end gap-2 px-3 py-2.5;
   }
 
   .topbar-main {
-    @apply flex min-w-0 items-start gap-2.5;
+    @apply flex min-w-0 items-start gap-2;
     grid-column: 1 / -1;
     width: 100%;
   }
@@ -132,7 +121,7 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
   }
 
   .control-menu-toggle,
@@ -142,7 +131,7 @@
   }
 
   .control-menu-toggle {
-    @apply h-11 w-11 flex-none items-center justify-center border border-slate-200 bg-white text-slate-900 transition duration-200;
+    @apply h-10 w-10 flex-none items-center justify-center border border-slate-200 bg-white text-slate-900 transition duration-200;
     border-radius: var(--radius-soft);
     box-shadow: var(--shadow-micro);
   }
@@ -156,7 +145,7 @@
   }
 
   .control-menu-close {
-    @apply inline-flex h-9 items-center justify-center border border-slate-200 bg-white px-4 text-sm font-semibold text-slate-700 transition duration-200;
+    @apply inline-flex h-8 items-center justify-center border border-slate-200 bg-white px-3 text-sm font-semibold text-slate-700 transition duration-200;
     border-radius: var(--radius-soft);
     box-shadow: var(--shadow-micro);
   }
@@ -175,9 +164,9 @@
   .slider-field span {
     margin: 0;
     @apply uppercase text-slate-500;
-    font-size: 0.61rem;
+    font-size: 0.57rem;
     font-weight: 800;
-    letter-spacing: 0.18em;
+    letter-spacing: 0.16em;
   }
 
   .topbar h1,
@@ -190,26 +179,26 @@
   }
 
   .topbar h1 {
-    margin-top: 8px;
-    font-size: clamp(1.78rem, 3vw, 3.05rem);
-    line-height: 0.98;
-    letter-spacing: -0.04em;
+    margin-top: 5px;
+    font-size: clamp(1.54rem, 2.3vw, 2.44rem);
+    line-height: 1;
+    letter-spacing: -0.035em;
   }
 
   .wheel-header h2,
   .palette-head h2,
   .image-modal-header h2,
   .cart-modal-header h2 {
-    margin-top: 8px;
-    font-size: clamp(1.2rem, 1.45vw, 1.62rem);
-    line-height: 1.02;
+    margin-top: 4px;
+    font-size: clamp(1.02rem, 1.15vw, 1.24rem);
+    line-height: 1.1;
   }
 
   .topbar-meta,
   .base-caption,
   .palette-summary,
   .cart-summary {
-    @apply flex flex-wrap gap-2;
+    @apply flex flex-wrap gap-1.5;
   }
 
   .topbar-meta {
@@ -234,7 +223,8 @@
   .algo-count,
   .match-score {
     @apply inline-flex items-center rounded-full border text-xs font-semibold;
-    padding: 0.32rem 0.62rem;
+    padding: 0.24rem 0.52rem;
+    font-size: 0.68rem;
     letter-spacing: 0.01em;
   }
 
@@ -243,8 +233,7 @@
   .palette-reference-badge,
   .algo-count {
     @apply bg-slate-50 text-slate-600;
-    border-color: rgba(148, 163, 184, 0.18);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75);
+    border-color: rgba(148, 163, 184, 0.16);
   }
 
   .rule-formula,
@@ -255,15 +244,15 @@
   }
 
   .panel {
-    padding: 14px;
+    padding: 12px;
   }
 
   .studio {
-    @apply grid items-start gap-2.5;
+    @apply grid items-start gap-3;
   }
 
   .workspace-grid {
-    @apply grid min-w-0 items-start gap-2.5;
+    @apply grid min-w-0 items-start gap-3;
   }
 
   .wheel-panel {
@@ -284,14 +273,14 @@
 
   .control-panel {
     position: sticky;
-    top: 12px;
+    top: 10px;
     z-index: 30;
-    background: rgba(255, 255, 255, 0.78);
+    background: rgba(255, 255, 255, 0.98);
   }
 
   .control-block + .control-block {
-    margin-top: 12px;
-    padding-top: 12px;
+    margin-top: 10px;
+    padding-top: 10px;
     border-top: 1px solid rgba(226, 232, 240, 0.72);
   }
 
@@ -326,7 +315,7 @@
   }
 
   .accordion-icon {
-    @apply relative h-8 w-8 flex-none rounded-full border border-slate-200 bg-white;
+    @apply relative h-7 w-7 flex-none rounded-full border border-slate-200 bg-white;
     box-shadow: var(--shadow-micro);
     transition:
       transform 180ms ease,
@@ -338,7 +327,7 @@
   .accordion-icon::before {
     content: "";
     position: absolute;
-    inset: 11px 10px 10px 11px;
+    inset: 9px 8px 8px 9px;
     border-right: 1.5px solid rgba(15, 23, 42, 0.84);
     border-bottom: 1.5px solid rgba(15, 23, 42, 0.84);
     transform: rotate(45deg);
@@ -347,11 +336,11 @@
   .control-block.is-open .accordion-icon {
     transform: rotate(180deg);
     @apply border-orange-200 bg-orange-50;
-    box-shadow: theme("boxShadow.soft");
+    box-shadow: var(--shadow-micro);
   }
 
   .accordion-content {
-    margin-top: 12px;
+    margin-top: 10px;
   }
 
   .accordion-content[hidden] {
@@ -374,12 +363,12 @@
   .field input,
   .field select {
     @apply w-full border bg-white text-sm text-slate-900 transition;
-    min-height: 40px;
-    padding: 0.62rem 0.78rem;
+    min-height: 36px;
+    padding: 0.52rem 0.68rem;
     border-radius: var(--radius-soft);
-    border-color: rgba(148, 163, 184, 0.22);
-    background: rgba(255, 255, 255, 0.84);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.78), var(--shadow-micro);
+    border-color: rgba(148, 163, 184, 0.2);
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
   }
 
   .field input:focus,
@@ -389,12 +378,12 @@
   }
 
   .field input[type="file"] {
-    padding: 6px;
+    padding: 5px;
   }
 
   .field input[type="file"]::file-selector-button {
-    @apply mr-3 border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-semibold text-slate-700 transition;
-    border-radius: 0.85rem;
+    @apply mr-3 border border-slate-200 bg-slate-50 px-3 py-1.5 text-sm font-semibold text-slate-700 transition;
+    border-radius: 0.7rem;
     box-shadow: var(--shadow-micro);
   }
 
@@ -414,17 +403,18 @@
   .swatch-note,
   .theory-tooltip-copy {
     @apply text-sm text-slate-500;
-    line-height: 1.55;
+    font-size: 0.82rem;
+    line-height: 1.5;
   }
 
   .image-stage,
   .image-modal-stage {
     position: relative;
-    min-height: 164px;
+    min-height: 152px;
     @apply overflow-hidden border border-dashed border-slate-300 bg-slate-50;
     border-radius: calc(var(--radius-panel) - 0.2rem);
-    border-color: rgba(148, 163, 184, 0.28);
-    background: rgba(248, 250, 252, 0.82);
+    border-color: rgba(148, 163, 184, 0.24);
+    background: rgba(248, 250, 252, 0.92);
   }
 
   .image-stage::before,
@@ -440,7 +430,7 @@
       linear-gradient(-45deg, transparent 75%, rgba(226, 232, 240, 0.55) 75%);
     background-position: 0 0, 0 12px, 12px -12px, -12px 0;
     background-size: 24px 24px;
-    opacity: 0.28;
+    opacity: 0.18;
   }
 
   .image-stage.is-empty,
@@ -452,11 +442,11 @@
   .empty-state {
     @apply border border-dashed border-slate-200 bg-slate-50/80 text-center;
     border-radius: calc(var(--radius-panel) - 0.2rem);
-    padding: 1.1rem;
+    padding: 0.95rem;
   }
 
   .compact-empty {
-    padding: 15px;
+    padding: 13px;
   }
 
   #image-empty,
@@ -497,7 +487,7 @@
     min-height: 0;
     overflow: auto;
     overscroll-behavior: contain;
-    padding: 12px;
+    padding: 10px;
   }
 
   .image-modal-viewport.is-zoomed {
@@ -517,8 +507,8 @@
     position: absolute;
     z-index: 2;
     display: block;
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
     border: 2px solid rgba(255, 255, 255, 0.95);
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.18);
@@ -560,9 +550,9 @@
   .cart-item,
   .swatch-card {
     @apply w-full border bg-white;
-    border-color: rgba(148, 163, 184, 0.18);
+    border-color: rgba(148, 163, 184, 0.16);
     border-radius: var(--radius-card);
-    background: rgba(255, 255, 255, 0.86);
+    background: rgba(255, 255, 255, 0.98);
     box-shadow: var(--shadow-card);
   }
 
@@ -570,10 +560,10 @@
   .image-palette-chip,
   .cart-item {
     display: grid;
-    grid-template-columns: 56px minmax(0, 1fr) auto;
+    grid-template-columns: 50px minmax(0, 1fr) auto;
     align-items: center;
     gap: 8px;
-    padding: 9px;
+    padding: 8px;
   }
 
   .image-palette-chip {
@@ -584,9 +574,9 @@
 
   .image-palette-select {
     display: grid;
-    grid-template-columns: 56px minmax(0, 1fr) auto;
+    grid-template-columns: 50px minmax(0, 1fr) auto;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     width: 100%;
     min-width: 0;
     padding: 0;
@@ -600,7 +590,7 @@
 
   .image-palette-actions {
     display: grid;
-    gap: 8px;
+    gap: 6px;
     width: 100%;
   }
 
@@ -635,19 +625,19 @@
   .cart-item-swatch,
   .swatch-visual {
     @apply overflow-hidden border border-white/70;
-    border-radius: calc(var(--radius-card) - 0.15rem);
+    border-radius: calc(var(--radius-card) - 0.08rem);
   }
 
   .image-swatch,
   .cart-item-swatch {
-    min-height: 46px;
+    min-height: 42px;
     @apply flex items-end justify-center p-2 font-extrabold uppercase tracking-wide;
-    font-size: 0.64rem;
+    font-size: 0.6rem;
   }
 
   .picker-swatch {
-    height: 48px;
-    width: 48px;
+    height: 42px;
+    width: 42px;
     @apply flex-none;
   }
 
@@ -663,10 +653,12 @@
   .picker-title,
   .palette-reference-title {
     @apply block truncate text-sm font-semibold text-slate-900;
+    font-size: 0.84rem;
   }
 
   .match-name {
     @apply block text-sm font-semibold text-slate-900;
+    font-size: 0.84rem;
     line-height: 1.3;
     white-space: normal;
     overflow-wrap: anywhere;
@@ -685,22 +677,22 @@
     @apply inline-flex items-center justify-center border bg-white text-sm font-semibold text-slate-700 transition duration-200 ease-out;
     border-radius: var(--radius-soft);
     border-color: rgba(148, 163, 184, 0.2);
-    background: rgba(255, 255, 255, 0.88);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), var(--shadow-micro);
-    padding: 0.58rem 0.78rem;
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+    padding: 0.48rem 0.7rem;
   }
 
   .cart-action,
   .algo-toggle {
-    font-size: 0.68rem;
-    padding: 0.42rem 0.64rem;
+    font-size: 0.67rem;
+    padding: 0.34rem 0.56rem;
   }
 
   .cart-popin-trigger {
     width: 100%;
     justify-content: space-between;
-    gap: 14px;
-    min-height: 48px;
+    gap: 10px;
+    min-height: 40px;
     @apply text-left;
   }
 
@@ -746,7 +738,7 @@
   .base-caption,
   .cart-summary,
   .algo-preview {
-    @apply flex flex-wrap gap-2;
+    @apply flex flex-wrap gap-1.5;
   }
 
   .theory-chip-wrap {
@@ -756,17 +748,28 @@
   .theory-chip.active,
   .brand-preset.active,
   .brand-toggle.active,
-  .side-tab-button.active,
   .algo-toggle.active {
     @apply border-slate-900 bg-slate-900 text-white;
     box-shadow: theme("boxShadow.soft");
   }
 
   .side-tab-button {
-    min-height: 44px;
-    @apply px-2.5 py-2 text-center font-bold uppercase leading-tight;
-    font-size: 0.6rem;
-    letter-spacing: 0.12em;
+    min-height: 38px;
+    @apply px-3 py-2 text-center font-semibold leading-tight;
+    border-color: transparent;
+    background: transparent;
+    box-shadow: none;
+    font-size: 0.74rem;
+    letter-spacing: -0.01em;
+  }
+
+  .side-tab-button:hover {
+    @apply bg-white text-slate-900;
+  }
+
+  .side-tab-button.active {
+    @apply border-slate-200 bg-white text-slate-900;
+    box-shadow: var(--shadow-micro);
   }
 
   .theory-chip-help {
@@ -798,7 +801,7 @@
     max-height: min(72vh, 560px);
     overflow-y: auto;
     overscroll-behavior: contain;
-    @apply grid gap-3 rounded-3xl border border-slate-200 bg-white p-4 shadow-card;
+    @apply grid gap-2.5 rounded-2xl border border-slate-200 bg-white p-3 shadow-card;
     opacity: 0;
     transform: translate(0, -50%);
     pointer-events: none;
@@ -859,7 +862,7 @@
 
   .brand-count,
   .match-cart-badge {
-    @apply inline-flex items-center rounded-full bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-600;
+    @apply inline-flex items-center rounded-full bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-600;
   }
 
   .picker-results {
@@ -868,10 +871,10 @@
 
   .picker-chip {
     display: grid;
-    grid-template-columns: 48px minmax(0, 1fr);
+    grid-template-columns: 42px minmax(0, 1fr);
     align-items: center;
-    gap: 9px;
-    padding: 9px;
+    gap: 8px;
+    padding: 8px;
     @apply text-left transition duration-200;
   }
 
@@ -896,18 +899,17 @@
   }
 
   .wheel-display-controls {
-    @apply mt-2 grid gap-1;
+    @apply mt-1.5 grid gap-1;
   }
 
   .wheel-display-buttons {
-    @apply flex flex-wrap gap-1;
+    @apply flex flex-wrap gap-1.5;
   }
 
   .wheel-guide-shell {
-    @apply mt-3 grid gap-2.5 border border-slate-200 bg-white/80 p-3;
+    @apply mt-3 grid gap-2.5 border border-slate-200 bg-slate-50/90 p-3;
     border-radius: calc(var(--radius-panel) - 0.15rem);
-    border-color: rgba(148, 163, 184, 0.18);
-    background: rgba(255, 255, 255, 0.72);
+    border-color: rgba(148, 163, 184, 0.16);
   }
 
   .wheel-guide-head {
@@ -919,7 +921,7 @@
   }
 
   .wheel-legend-pill {
-    @apply inline-flex items-center rounded-full border px-3 py-1.5 text-xs font-semibold shadow-sm;
+    @apply inline-flex items-center rounded-full border px-2.5 py-1 text-xs font-semibold shadow-sm;
   }
 
   .wheel-legend-pill.is-hue {
@@ -940,13 +942,14 @@
 
   .wheel-guide-copy {
     @apply m-0 text-sm text-slate-600;
-    line-height: 1.55;
+    font-size: 0.81rem;
+    line-height: 1.48;
   }
 
   .wheel-guide-panel {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 12px;
+    gap: 10px;
   }
 
   .wheel-guide-panel[hidden] {
@@ -954,13 +957,13 @@
   }
 
   .wheel-guide-card {
-    @apply border border-slate-200 bg-slate-50/85 p-4;
+    @apply border border-slate-200 bg-slate-50/85 p-3;
     border-radius: calc(var(--radius-card) - 0.1rem);
     border-color: rgba(148, 163, 184, 0.18);
   }
 
   .wheel-guide-step {
-    @apply inline-flex h-7 w-7 items-center justify-center rounded-full border border-orange-200 bg-orange-50 text-xs font-extrabold text-orange-700;
+    @apply inline-flex h-6 w-6 items-center justify-center rounded-full border border-orange-200 bg-orange-50 text-xs font-extrabold text-orange-700;
   }
 
   .wheel-guide-card h3 {
@@ -969,11 +972,12 @@
 
   .wheel-guide-card p {
     @apply mb-0 mt-2 text-sm text-slate-600;
-    line-height: 1.55;
+    font-size: 0.81rem;
+    line-height: 1.48;
   }
 
   .cart-shell {
-    grid-template-rows: auto auto minmax(0, 1fr) auto;
+    grid-template-rows: auto auto auto auto minmax(0, 1fr) auto;
     height: 100%;
     min-height: 0;
   }
@@ -981,19 +985,21 @@
   .sidebar-panel {
     @apply grid;
     grid-template-rows: auto minmax(0, 1fr);
-    gap: 12px;
+    gap: 10px;
   }
 
   .side-tabs-shell {
-    @apply grid gap-3;
+    @apply grid gap-2.5;
     grid-template-rows: auto minmax(0, 1fr);
     min-height: 0;
     height: 100%;
   }
 
   .side-tabs-nav {
-    @apply grid gap-1.5;
+    @apply grid gap-1.5 border border-slate-200 bg-slate-100/90 p-1;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    border-radius: calc(var(--radius-card) + 0.08rem);
+    border-color: rgba(148, 163, 184, 0.14);
   }
 
   .side-tabs-panels {
@@ -1002,7 +1008,7 @@
   }
 
   .side-tab-panel {
-    @apply grid gap-3;
+    @apply grid gap-2.5;
     grid-template-rows: auto minmax(0, 1fr);
     min-height: 0;
     height: 100%;
@@ -1016,7 +1022,7 @@
   .cart-list {
     min-height: 0;
     overflow: auto;
-    padding-right: 4px;
+    padding-right: 2px;
     overscroll-behavior: contain;
     scrollbar-gutter: stable;
     scrollbar-width: thin;
@@ -1024,7 +1030,7 @@
   }
 
   .side-panel-body {
-    @apply grid content-start gap-2;
+    @apply grid content-start gap-1.5;
   }
 
   .side-panel-body::-webkit-scrollbar,
@@ -1050,11 +1056,12 @@
   }
 
   .cart-list {
-    @apply mt-1 grid gap-2;
+    @apply mt-1 grid gap-1.5;
   }
 
   .cart-item-body h3 {
     @apply m-0 text-sm font-semibold leading-tight text-slate-900;
+    font-size: 0.84rem;
   }
 
   .cart-quantity {
@@ -1062,35 +1069,35 @@
   }
 
   .cart-step {
-    @apply inline-flex h-7 w-7 items-center justify-center rounded-full border border-slate-200 bg-white text-sm font-bold text-slate-700 transition;
+    @apply inline-flex h-6 w-6 items-center justify-center rounded-full border border-slate-200 bg-white text-sm font-bold text-slate-700 transition;
     box-shadow: var(--shadow-micro);
   }
 
   .wheel-shell {
     position: relative;
-    width: min(100%, 680px);
+    width: min(100%, 620px);
     aspect-ratio: 1 / 1;
-    margin: 16px auto 0;
-    @apply grid place-items-center overflow-hidden border border-slate-300 bg-slate-100;
-    padding: 12px;
-    border-radius: 1.45rem;
-    border-color: rgba(148, 163, 184, 0.24);
+    margin: 14px auto 0;
+    @apply grid place-items-center overflow-hidden border border-slate-300 bg-white;
+    padding: 10px;
+    border-radius: 1.1rem;
+    border-color: rgba(148, 163, 184, 0.2);
     box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.62),
-      0 18px 40px rgba(15, 23, 42, 0.06);
+      inset 0 1px 0 rgba(255, 255, 255, 0.72),
+      0 10px 24px rgba(15, 23, 42, 0.05);
   }
 
   .wheel-shell::before {
     content: "";
     position: absolute;
-    inset: 13px;
+    inset: 11px;
     border-radius: 9999px;
-    border: 1px solid rgba(71, 85, 105, 0.11);
+    border: 1px solid rgba(71, 85, 105, 0.08);
     background: radial-gradient(
       circle at center,
-      rgba(255, 255, 255, 0.08) 0,
-      rgba(255, 255, 255, 0.03) 48%,
-      rgba(15, 23, 42, 0.08) 100%
+      rgba(248, 250, 252, 0.4) 0,
+      rgba(248, 250, 252, 0.2) 52%,
+      rgba(15, 23, 42, 0.05) 100%
     );
     pointer-events: none;
   }
@@ -1103,7 +1110,7 @@
     height: 92%;
     display: block;
     border-radius: 9999px;
-    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.06), rgba(15, 23, 42, 0.12));
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.05), rgba(15, 23, 42, 0.09));
     opacity: 1;
     transition: opacity 160ms ease-out;
     image-rendering: auto;
@@ -1164,15 +1171,15 @@
   .wheel-guide-tag {
     position: absolute;
     max-width: 170px;
-    border: 1px solid rgba(226, 232, 240, 0.95);
-    border-radius: 0.9rem;
-    background: rgba(255, 255, 255, 0.94);
-    padding: 9px 11px;
-    font-size: 0.72rem;
+    border: 1px solid rgba(226, 232, 240, 0.92);
+    border-radius: 0.75rem;
+    background: rgba(255, 255, 255, 0.98);
+    padding: 8px 10px;
+    font-size: 0.68rem;
     font-weight: 700;
     line-height: 1.4;
     color: #0f172a;
-    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.1);
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
   }
 
   .wheel-guide-tag.is-hue {
@@ -1206,9 +1213,9 @@
   .wheel-shell.is-guide-mode::before {
     background: radial-gradient(
       circle at center,
-      rgba(255, 255, 255, 0.12) 0,
-      rgba(255, 255, 255, 0.05) 44%,
-      rgba(15, 23, 42, 0.12) 100%
+      rgba(255, 255, 255, 0.1) 0,
+      rgba(255, 255, 255, 0.04) 44%,
+      rgba(15, 23, 42, 0.09) 100%
     );
   }
 
@@ -1222,12 +1229,13 @@
   }
 
   .theory-note {
-    @apply mt-4 border border-orange-200 bg-orange-50 px-4 py-3 text-sm text-orange-700;
+    @apply mt-3.5 border border-orange-200 bg-orange-50 px-3 py-2.5 text-sm text-orange-700;
     border-radius: calc(var(--radius-card) - 0.05rem);
+    font-size: 0.81rem;
   }
 
   .palette-reference {
-    @apply mt-4;
+    @apply mt-3.5;
   }
 
   @media (max-width: 640px) {
@@ -1259,7 +1267,7 @@
   }
 
   .palette-reference-card {
-    @apply grid gap-3 border border-slate-200 bg-slate-50/85 p-3;
+    @apply grid gap-2.5 border border-slate-200 bg-slate-50/85 p-2.5;
     border-radius: calc(var(--radius-panel) - 0.15rem);
     border-color: rgba(148, 163, 184, 0.18);
   }
@@ -1270,24 +1278,24 @@
 
   .palette-reference-body {
     display: grid;
-    grid-template-columns: 74px minmax(0, 1fr);
+    grid-template-columns: 64px minmax(0, 1fr);
     align-items: center;
-    gap: 12px;
+    gap: 10px;
   }
 
   .palette-reference-swatch {
-    min-height: 70px;
-    @apply flex items-end justify-center border border-white/70 p-3 text-xs font-extrabold uppercase;
+    min-height: 62px;
+    @apply flex items-end justify-center border border-white/70 p-2.5 text-xs font-extrabold uppercase;
     border-radius: calc(var(--radius-panel) - 0.2rem);
-    letter-spacing: 0.24em;
+    letter-spacing: 0.18em;
   }
 
   .swatch-strip {
-    @apply mt-3 grid gap-2.5;
+    @apply mt-3 grid gap-2;
   }
 
   .algo-block {
-    @apply border border-slate-200 bg-slate-50/70 p-3;
+    @apply border border-slate-200 bg-slate-50/70 p-2.5;
     border-radius: calc(var(--radius-panel) - 0.15rem);
     border-color: rgba(148, 163, 184, 0.18);
   }
@@ -1297,7 +1305,8 @@
   }
 
   .algo-title {
-    @apply m-0 text-base font-semibold text-slate-950;
+    @apply m-0 font-semibold text-slate-950;
+    font-size: 0.96rem;
   }
 
   .algo-formula {
@@ -1305,17 +1314,18 @@
   }
 
   .algo-note {
-    @apply mt-2.5 text-sm text-slate-500;
-    line-height: 1.55;
+    @apply mt-2 text-sm text-slate-500;
+    font-size: 0.82rem;
+    line-height: 1.5;
   }
 
   .algo-preview {
-    @apply mt-2.5;
+    @apply mt-2;
   }
 
   .algo-preview-chip {
-    height: 40px;
-    width: 40px;
+    height: 34px;
+    width: 34px;
     @apply flex items-center justify-center border border-white/80 text-sm font-extrabold;
     border-radius: calc(var(--radius-card) - 0.15rem);
     box-shadow: var(--shadow-micro);
@@ -1328,7 +1338,7 @@
   }
 
   .algo-swatches {
-    @apply mt-2.5 grid gap-2.5;
+    @apply mt-2 grid gap-2;
   }
 
   .swatch-card {
@@ -1336,8 +1346,8 @@
   }
 
   .swatch-visual {
-    min-height: 92px;
-    @apply relative flex flex-col justify-between p-3 text-white;
+    min-height: 82px;
+    @apply relative flex flex-col justify-between p-2.5 text-white;
   }
 
   .swatch-visual::after {
@@ -1360,16 +1370,18 @@
   }
 
   .swatch-index {
-    @apply text-base font-extrabold;
-    letter-spacing: 0.16em;
+    @apply font-extrabold;
+    font-size: 0.9rem;
+    letter-spacing: 0.12em;
   }
 
   .swatch-label {
-    @apply text-[0.95rem] font-semibold;
+    @apply font-semibold;
+    font-size: 0.84rem;
   }
 
   .swatch-body {
-    @apply grid gap-2.5 p-3;
+    @apply grid gap-2 p-2.5;
   }
 
   .color-tooltip-anchor,
@@ -1405,11 +1417,11 @@
   }
 
   .match-row {
-    @apply grid border border-slate-200 bg-white/80 p-3 text-left transition duration-200;
-    gap: 8px;
+    @apply grid border border-slate-200 bg-white/80 p-2.5 text-left transition duration-200;
+    gap: 7px;
     border-radius: calc(var(--radius-card) - 0.1rem);
     border-color: rgba(148, 163, 184, 0.18);
-    background: rgba(255, 255, 255, 0.78);
+    background: rgba(255, 255, 255, 0.98);
   }
 
   .match-row.in-cart {
@@ -1432,14 +1444,15 @@
 
   .match-brand {
     @apply truncate text-xs font-bold uppercase;
-    letter-spacing: 0.14em;
+    font-size: 0.66rem;
+    letter-spacing: 0.12em;
   }
 
   .match-main {
     display: grid;
     grid-template-columns: auto minmax(0, 1fr) auto;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     min-width: 0;
   }
 
@@ -1451,7 +1464,7 @@
   .match-row-actions {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 6px;
+    gap: 5px;
   }
 
   .match-action {
@@ -1488,8 +1501,8 @@
     z-index: 1;
     display: grid;
     grid-template-rows: auto minmax(0, 1fr);
-    width: min(1080px, 82vw);
-    max-width: 82vw;
+    width: min(960px, 84vw);
+    max-width: 84vw;
     max-height: calc(100dvh - 32px);
     margin-inline: auto;
     flex: 0 1 auto;
@@ -1502,7 +1515,7 @@
     z-index: 1;
     display: grid;
     grid-template-rows: auto minmax(0, 1fr);
-    width: min(700px, 88vw);
+    width: min(640px, 88vw);
     max-width: 88vw;
     max-height: calc(100dvh - 32px);
     margin-inline: auto;
@@ -1516,35 +1529,35 @@
   }
 
   .image-modal-body {
-    @apply mt-3 grid gap-3;
+    @apply mt-2.5 grid gap-2.5;
     min-height: 0;
     overflow: auto;
     overscroll-behavior: contain;
   }
 
   .cart-modal-body {
-    @apply mt-3;
+    @apply mt-2.5;
     min-height: 0;
   }
 
   .cart-modal-shell {
-    height: min(70dvh, 680px);
+    height: min(68dvh, 620px);
   }
 
   .image-modal-stage {
     display: grid;
     place-items: center;
-    height: min(360px, 52dvh);
-    min-height: min(360px, 52dvh);
-    max-height: min(360px, 52dvh);
+    height: min(340px, 48dvh);
+    min-height: min(340px, 48dvh);
+    max-height: min(340px, 48dvh);
   }
 
   .image-modal-sidebar {
-    @apply grid content-start gap-2.5;
+    @apply grid content-start gap-2;
   }
 
   .image-zoom-panel {
-    @apply grid gap-2.5 border border-slate-200 bg-slate-50/80 p-2.5;
+    @apply grid gap-2 border border-slate-200 bg-slate-50/85 p-2;
     border-radius: calc(var(--radius-card) - 0.05rem);
     border-color: rgba(148, 163, 184, 0.18);
   }
@@ -1561,7 +1574,7 @@
     display: grid;
     grid-template-columns: auto minmax(0, 1fr) auto;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
   }
 
   .image-zoom-controls input[type="range"] {
@@ -1569,7 +1582,7 @@
   }
 
   .image-zoom-button {
-    min-width: 38px;
+    min-width: 34px;
     padding-right: 0;
     padding-left: 0;
   }
@@ -1599,11 +1612,11 @@
   }
 
   .studio {
-    grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+    grid-template-columns: minmax(244px, 284px) minmax(0, 1fr);
   }
 
   .image-modal-body {
-    grid-template-columns: minmax(0, 1fr) 292px;
+    grid-template-columns: minmax(0, 1fr) 276px;
   }
 
   .algo-swatches {
@@ -1613,7 +1626,7 @@
 
 @media (min-width: 1280px) {
   .workspace-grid {
-    grid-template-columns: minmax(0, 1fr) 324px;
+    grid-template-columns: minmax(0, 1fr) 296px;
     grid-template-areas:
       "wheel cart"
       "palette palette";
@@ -1651,13 +1664,13 @@
     bottom: 0;
     left: 0;
     z-index: 70;
-    width: min(82vw, 340px);
+    width: min(78vw, 320px);
     height: 100dvh;
     max-height: 100dvh;
     margin: 0;
     overflow-y: auto;
     overscroll-behavior: contain;
-    border-radius: 0 24px 24px 0;
+    border-radius: 0 18px 18px 0;
     transform: translateX(calc(-100% - 24px));
     transition:
       transform 220ms ease,
@@ -1674,12 +1687,12 @@
   }
 
   .control-panel-header {
-    @apply mb-4 flex items-start justify-between gap-4;
+    @apply mb-3 flex items-start justify-between gap-4;
   }
 
   .control-panel-header h2 {
-    margin: 10px 0 0;
-    @apply font-display text-[1.45rem] font-semibold leading-none tracking-tight text-slate-950;
+    margin: 8px 0 0;
+    @apply font-display text-[1.2rem] font-semibold leading-none tracking-tight text-slate-950;
   }
 
   .theory-tooltip {
@@ -1700,17 +1713,17 @@
   }
 }
 
-  @media (max-width: 1023px) {
-    .topbar {
-      grid-template-columns: 1fr;
-    }
-
-    .image-modal-stage {
-      height: clamp(220px, 40dvh, 280px);
-      min-height: clamp(220px, 40dvh, 280px);
-      max-height: clamp(220px, 40dvh, 280px);
-    }
+@media (max-width: 1023px) {
+  .topbar {
+    grid-template-columns: 1fr;
   }
+
+  .image-modal-stage {
+    height: clamp(220px, 40dvh, 280px);
+    min-height: clamp(220px, 40dvh, 280px);
+    max-height: clamp(220px, 40dvh, 280px);
+  }
+}
 
 @media (max-width: 767px) {
   .app-shell {
@@ -1722,18 +1735,18 @@
 
   .topbar,
   .panel {
-    border-radius: 1.35rem;
+    border-radius: 0.92rem;
   }
 
   .wheel-header h2,
   .palette-head h2,
   .image-modal-header h2,
   .cart-modal-header h2 {
-    font-size: 1.18rem;
+    font-size: 1.02rem;
   }
 
   .topbar h1 {
-    font-size: clamp(1.62rem, 9vw, 2.3rem);
+    font-size: clamp(1.42rem, 8vw, 1.98rem);
   }
 
   .side-tabs-nav {
@@ -1778,7 +1791,7 @@
   }
 
   .image-stage {
-    min-height: 280px;
+    min-height: 248px;
   }
 
   #image-stage.is-interactive {
@@ -1786,13 +1799,13 @@
   }
 
   .image-modal-dialog {
-    width: min(90vw, 920px);
+    width: min(90vw, 860px);
     max-width: 90vw;
     max-height: calc(100dvh - 16px);
   }
 
   .cart-modal-dialog {
-    width: min(92vw, 680px);
+    width: min(92vw, 620px);
     max-width: 92vw;
     max-height: calc(100dvh - 16px);
   }
@@ -1818,4 +1831,5 @@
     justify-content: center;
     padding: 8px;
   }
+
 }
