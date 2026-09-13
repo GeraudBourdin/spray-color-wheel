@@ -1,4 +1,6 @@
-import { deltaE, getContrastingText, hexToHsl, hexToLab } from "./color-utils.js";
+import { tr, localizeDOM, localizedCount, currentLanguage, localizeFinish } from "./localization.js?v=20260913-i18n-1";
+import { updateCartCount, showToast } from "./workspace.js?v=20260913-i18n-1";
+import { deltaE, getContrastingText, hexToHsl, hexToLab } from "./color-utils.js?v=20260913-contrast-1";
 
 const MANIFEST_URL = new URL("./manufacturers/index.json", window.location.href);
 const CART_STORAGE_KEY = "spray-color-wheel.cart";
@@ -7,7 +9,7 @@ const VIEW_MODE_STORAGE_KEY = "spray-color-wheel.catalog-view-mode";
 const GROUP_FILTER_STORAGE_KEY = "spray-color-wheel.catalog-group-filter";
 const AUTO_ADD_SEARCH_TO_CART_STORAGE_KEY = "spray-color-wheel.catalog-auto-add-search";
 const HUE_GROUPS = [
-  { id: "whites", label: "Blancs & cremes" },
+  { id: "whites", label: "Blancs & crèmes" },
   { id: "yellows", label: "Jaunes" },
   { id: "oranges", label: "Oranges" },
   { id: "reds", label: "Rouges" },
@@ -20,7 +22,7 @@ const HUE_GROUPS = [
   { id: "browns", label: "Bruns" },
   { id: "grays", label: "Gris" },
   { id: "blacks", label: "Noirs" },
-  { id: "specials", label: "Speciaux" },
+  { id: "specials", label: "Spéciaux" },
 ];
 
 const escapeHtmlMap = {
@@ -36,13 +38,14 @@ const state = {
   catalogs: new Map(),
   currentCatalog: null,
   selectedManufacturerId: "",
-  viewMode: "both",
+  viewMode: "compact",
   selectedGroupIds: new Set(),
   cartItems: [],
   searchRaw: "",
   searchResults: null,
   searchStatus: "idle",
   searchRunId: 0,
+  selectedSearchLines: new Set(),
   autoAddSearchMatches: false,
   copiedCatalogActionKey: null,
 };
@@ -81,7 +84,7 @@ function escapeHtml(value) {
 }
 
 function formatCount(count, singular, plural = `${singular}s`) {
-  return `${count} ${count > 1 ? plural : singular}`;
+  return localizedCount(count, singular, plural);
 }
 
 function getColorDisplayLabel(color) {
@@ -236,14 +239,15 @@ function getCartSprayCount() {
 }
 
 function renderCartStatus() {
+  updateCartCount(state.cartItems);
   const referenceCount = getCartReferenceCount();
   const sprayCount = getCartSprayCount();
 
   if (elements.catalogCartLink) {
-    elements.catalogCartLink.textContent = `Panier sprays · ${sprayCount}`;
+    elements.catalogCartLink.textContent = tr("Panier sprays · {0}", {0: sprayCount});
     elements.catalogCartLink.setAttribute(
       "aria-label",
-      sprayCount ? `${formatCount(sprayCount, "spray")} dans le panier` : "Panier sprays vide",
+      sprayCount ? tr("{0} dans le panier", {0: formatCount(sprayCount, "spray")}) : tr("Panier sprays vide"),
     );
   }
 
@@ -270,6 +274,7 @@ function addColorToCart(color) {
 
   persistCart();
   renderCartStatus();
+  showToast(tr("Référence ajoutée à votre liste"));
   renderCatalogViews(state.currentCatalog);
   renderBulkSearchResults();
 }
@@ -312,6 +317,7 @@ function addResolvedSearchResultsToCart(searchResults) {
   state.cartItems = nextItems;
   persistCart();
   renderCartStatus();
+  showToast(tr("Référence ajoutée à votre liste"));
   renderCatalogViews(state.currentCatalog);
   return addedCount;
 }
@@ -382,7 +388,7 @@ async function copyCatalogReference(color, scope) {
   const copied = await copyTextToClipboard(buildCatalogReferenceText(color));
 
   if (!copied) {
-    window.alert("Impossible de copier cette reference.");
+    window.alert(tr("Impossible de copier cette reference."));
     return;
   }
 
@@ -412,7 +418,7 @@ function normalizeManufacturerCatalog(catalog) {
   const colors = Array.isArray(catalog?.colors) ? catalog.colors : [];
 
   if (!manufacturer?.id || !manufacturer?.label) {
-    throw new Error("Catalogue fabricant invalide.");
+    throw new Error(tr("Catalogue fabricant invalide."));
   }
 
   return {
@@ -425,7 +431,7 @@ function normalizeColor(entry, manufacturer, index) {
   const hex = String(entry?.hex || "").toUpperCase();
 
   if (!/^#[0-9A-F]{6}$/.test(hex)) {
-    throw new Error(`Couleur invalide dans ${manufacturer.label} a l'index ${index + 1}.`);
+    throw new Error(tr("Couleur invalide dans {0} a l'index {1}.", {0: manufacturer.label, 1: index + 1}));
   }
 
   const label = String(entry.label || [entry.code, entry.name].filter(Boolean).join(" ") || hex).trim();
@@ -582,7 +588,10 @@ function getSelectedGroupsForCatalog(groups) {
 
 function getVisibleGroups(groups) {
   const selectedGroups = getSelectedGroupsForCatalog(groups);
-  return selectedGroups.length ? selectedGroups : groups;
+  const visible = selectedGroups.length ? selectedGroups : groups;
+  const query = normalizeSearchText(document.querySelector("#catalog-quick-search")?.value || "");
+  if (!query) return visible;
+  return visible.map(group => ({...group, colors:group.colors.filter(color => normalizeSearchText([color.code,color.name,color.label,color.hex,...(color.aliases || [])].join(" ")).includes(query))})).filter(group => group.colors.length);
 }
 
 function syncSelectedGroupsForCatalog(catalog) {
@@ -605,9 +614,9 @@ function getManifestEntry(manufacturerId) {
 function getStoredViewMode() {
   try {
     const stored = window.localStorage.getItem(VIEW_MODE_STORAGE_KEY);
-    return stored === "compact" || stored === "detailed" || stored === "both" ? stored : "both";
+    return stored === "detailed" ? "detailed" : "compact";
   } catch {
-    return "both";
+    return "compact";
   }
 }
 
@@ -690,17 +699,17 @@ function splitBulkSearchInput(value) {
 function buildSearchResultLabel(matchKind) {
   switch (matchKind) {
     case "code-exact":
-      return "Code exact";
+      return tr("Code exact");
     case "label-exact":
-      return "Libelle exact";
+      return tr("Libelle exact");
     case "code-detected":
-      return "Code detecte";
+      return tr("Code detecte");
     case "alias-contains":
-      return "Correspondance forte";
+      return tr("Correspondance forte");
     case "token-match":
-      return "Approximation";
+      return tr("Approximation");
     default:
-      return "Correspondance";
+      return tr("Correspondance");
   }
 }
 
@@ -976,7 +985,7 @@ function renderBulkSearchControls() {
 
   if (elements.catalogSearchRun) {
     elements.catalogSearchRun.disabled = !state.currentCatalog || !hasInput || busy;
-    elements.catalogSearchRun.textContent = busy ? "Recherche..." : "Retrouver la selection";
+    elements.catalogSearchRun.textContent = busy ? tr("Recherche...") : tr("Retrouver les références");
   }
 
   if (elements.catalogSearchClear) {
@@ -1004,7 +1013,7 @@ function renderGroupIndex(selectedCatalog) {
   elements.catalogGroupIndexShell.hidden = false;
   elements.catalogGroupIndexSummary.innerHTML = `
     <span class="base-pill">${escapeHtml(formatCount(activeCount, "famille"))}</span>
-    <span class="base-pill">${escapeHtml(selectedGroups.length ? "Filtre actif" : "Toutes les familles")}</span>
+    <span class="base-pill">${escapeHtml(selectedGroups.length ? tr("Filtre actif") : tr("Toutes les familles"))}</span>
   `;
   elements.catalogGroupIndex.innerHTML = `
     <button
@@ -1013,7 +1022,7 @@ function renderGroupIndex(selectedCatalog) {
       data-group-filter-reset="true"
       aria-pressed="${selectedGroups.length === 0 ? "true" : "false"}"
     >
-      <span>Toutes</span>
+      <span>${tr("Toutes")}</span>
       <span class="catalog-group-filter-count">${escapeHtml(String(groups.length))}</span>
     </button>
     ${groups
@@ -1025,7 +1034,7 @@ function renderGroupIndex(selectedCatalog) {
             data-group-filter-id="${escapeHtml(group.id)}"
             aria-pressed="${state.selectedGroupIds.has(group.id) ? "true" : "false"}"
           >
-            <span>${escapeHtml(group.label)}</span>
+            <span>${escapeHtml(tr(group.label))}</span>
             <span class="catalog-group-filter-count">${escapeHtml(String(group.colors.length))}</span>
           </button>
         `,
@@ -1036,6 +1045,7 @@ function renderGroupIndex(selectedCatalog) {
 
 function renderBulkSearchResults() {
   renderBulkSearchControls();
+  document.querySelector("#catalog-add-selection").disabled = !state.selectedSearchLines.size || state.searchStatus === "loading";
 
   if (!elements.catalogSearchResultsShell || !elements.catalogSearchResultsSummary || !elements.catalogSearchResults) {
     return;
@@ -1043,13 +1053,13 @@ function renderBulkSearchResults() {
 
   if (state.searchStatus === "loading") {
     elements.catalogSearchResultsShell.hidden = false;
-    elements.catalogSearchResultsSummary.innerHTML = `<span class="base-pill">Recherche multi-marques</span>`;
+    elements.catalogSearchResultsSummary.innerHTML = `<span class="base-pill">${tr("Recherche multi-marques")}</span>`;
     elements.catalogSearchResults.innerHTML = `
       <article class="catalog-search-row">
         <div class="catalog-search-query">
           <div class="catalog-search-query-line">
             <span class="catalog-search-line-number">...</span>
-            <span class="catalog-search-line-text">Analyse des references et substitutions en cours.</span>
+            <span class="catalog-search-line-text">${tr("Analyse des references et substitutions en cours.")}</span>
           </div>
         </div>
       </article>
@@ -1086,10 +1096,10 @@ function renderBulkSearchResults() {
               </div>
             </div>
             <div class="catalog-search-result">
-              <span class="catalog-search-miss-copy">Aucune correspondance trouvee dans ce fabricant.</span>
+              <span class="catalog-search-miss-copy">${tr("Aucune correspondance trouvee dans ce fabricant.")}</span>
             </div>
             <div class="catalog-search-actions-row">
-              <span class="meta-pill">Introuvable</span>
+              <span class="meta-pill">${tr("Introuvable")}</span>
             </div>
           </article>
         `;
@@ -1097,22 +1107,23 @@ function renderBulkSearchResults() {
 
       const { color } = entry.resolution;
       const cartQuantity = getCartQuantity(color.id);
-      const cartLabel = cartQuantity > 0 ? `Ajouter au panier · x${cartQuantity}` : "Ajouter au panier";
+      const cartLabel = cartQuantity > 0 ? tr("Ajouter à ma liste · x{0}", {0: cartQuantity}) : tr("Ajouter à ma liste");
       const title = [color.code, color.label].filter(Boolean).join(" · ");
       const copyReferenceActionKey = buildCatalogCopyActionKey("search", color.id);
-      const copyReferenceLabel = state.copiedCatalogActionKey === copyReferenceActionKey ? "Copie" : "Copier ref";
+      const copyReferenceLabel = state.copiedCatalogActionKey === copyReferenceActionKey ? tr("Copie") : tr("Copier ref");
       const isSubstitution = entry.resolution.type === "substitution";
       const resultBadge = isSubstitution
-        ? `Substitution depuis ${entry.resolution.sourceManufacturer.label}`
+        ? tr("Substitution depuis {0}", {0: entry.resolution.sourceManufacturer.label})
         : buildSearchResultLabel(entry.resolution.matchKind);
       const resultMeta = isSubstitution
         ? `${entry.resolution.sourceMatch.color.brandLabel} · ${
             [entry.resolution.sourceMatch.color.code, entry.resolution.sourceMatch.color.label].filter(Boolean).join(" · ")
-          } · DeltaE ${entry.resolution.distance.toFixed(1)}`
+          } · DeltaE ${entry.resolution.distance.toLocaleString(currentLanguage(), {minimumFractionDigits:1, maximumFractionDigits:1})}`
         : color.sourceLabel || color.name;
 
       return `
         <article class="catalog-search-row">
+          <label class="bulk-select"><input type="checkbox" data-search-line="${entry.index}" ${state.selectedSearchLines.has(entry.index) ? "checked" : ""} aria-label="${tr("Sélectionner {0}", {0: escapeHtml(entry.raw)})}"/> ${tr("Sélectionner")}</label>
           <div class="catalog-search-query">
             <div class="catalog-search-query-line">
               <span class="catalog-search-line-number">L${escapeHtml(String(entry.index))}</span>
@@ -1135,7 +1146,7 @@ function renderBulkSearchResults() {
               type="button"
               data-search-focus-dom-id="${escapeHtml(color.domId)}"
             >
-              Voir
+              ${tr("Voir")}
             </button>
             <button
               class="cart-action match-action match-copy-action ${state.copiedCatalogActionKey === copyReferenceActionKey ? "is-copied" : ""}"
@@ -1159,6 +1170,7 @@ function renderBulkSearchResults() {
 }
 
 async function runBulkSearch(options = {}) {
+  state.selectedSearchLines.clear();
   const { userTriggered = false } = options;
   state.searchRaw = String(elements.catalogSearchInput?.value || "");
 
@@ -1188,8 +1200,8 @@ async function runBulkSearch(options = {}) {
       const addedCount = addResolvedSearchResultsToCart(nextResults);
       renderFeedback(
         addedCount
-          ? `${formatCount(addedCount, "spray")} ajoutes au panier depuis la recherche.`
-          : "Aucune correspondance ajoutee au panier.",
+          ? tr("{0} ajoutes au panier depuis la recherche.", {0: formatCount(addedCount, "spray")})
+          : tr("Aucune correspondance ajoutee au panier."),
       );
     }
 
@@ -1206,8 +1218,8 @@ async function runBulkSearch(options = {}) {
       const addedCount = addResolvedSearchResultsToCart(state.searchResults);
       renderFeedback(
         addedCount
-          ? `${formatCount(addedCount, "spray")} ajoutes au panier depuis la recherche.`
-          : "Aucune correspondance ajoutee au panier.",
+          ? tr("{0} ajoutes au panier depuis la recherche.", {0: formatCount(addedCount, "spray")})
+          : tr("Aucune correspondance ajoutee au panier."),
       );
     }
 
@@ -1216,6 +1228,7 @@ async function runBulkSearch(options = {}) {
 }
 
 function clearBulkSearch() {
+  state.selectedSearchLines.clear();
   state.searchRaw = "";
   state.searchResults = null;
   state.searchStatus = "idle";
@@ -1259,10 +1272,10 @@ function renderSelectionSummary(selectedCatalog) {
 
 function renderCatalogHeader(selectedCatalog) {
   if (!selectedCatalog) {
-    elements.catalogTitle.textContent = "Catalogue indisponible";
+    elements.catalogTitle.textContent = tr("Catalogue indisponible");
     elements.catalogSubtitle.textContent = "";
     elements.catalogSummary.innerHTML = "";
-    document.title = "Catalogue fabricants de sprays";
+    document.title = tr("Catalogue fabricants de sprays");
     return;
   }
 
@@ -1280,9 +1293,9 @@ function renderCatalogHeader(selectedCatalog) {
   elements.catalogTitle.textContent = manufacturer.label;
   elements.catalogSubtitle.textContent = manufacturer.source?.name
     ? `${manufacturer.source.name}${manufacturer.source.note ? ` · ${manufacturer.source.note}` : ""}`
-    : "Toutes les couleurs de la marque, classees par famille visuelle.";
+    : tr("Toutes les couleurs de la marque, classees par famille visuelle.");
   elements.catalogSummary.innerHTML = summaryPills.join("");
-  document.title = `${manufacturer.label} · Catalogue sprays`;
+  document.title = tr("{0} · Catalogue sprays", {0: manufacturer.label});
 }
 
 function renderFeedback(message, isError = false) {
@@ -1345,7 +1358,7 @@ function renderCompactGroups(selectedCatalog) {
         <section class="catalog-compact-group">
           <div class="catalog-group-head">
             <div>
-              <h3 class="catalog-group-title">${escapeHtml(group.label)}</h3>
+              <h3 class="catalog-group-title">${escapeHtml(tr(group.label))}</h3>
               <p class="catalog-subtitle">${escapeHtml(formatCount(group.colors.length, "reference"))}</p>
             </div>
           </div>
@@ -1359,16 +1372,16 @@ function renderCompactGroups(selectedCatalog) {
                     data-color-dom-id="${escapeHtml(color.domId)}"
                     title="${escapeHtml(
                       getCartQuantity(color.id) > 0
-                        ? `${buildCompactColorLabel(color)} · panier x${getCartQuantity(color.id)}`
+                        ? tr("{0} · panier x{1}", {0: buildCompactColorLabel(color), 1: getCartQuantity(color.id)})
                         : buildCompactColorLabel(color),
                     )}"
                     aria-label="${escapeHtml(
                       getCartQuantity(color.id) > 0
-                        ? `${buildCompactColorLabel(color)} · panier x${getCartQuantity(color.id)}`
+                        ? tr("{0} · panier x{1}", {0: buildCompactColorLabel(color), 1: getCartQuantity(color.id)})
                         : buildCompactColorLabel(color),
                     )}"
-                    style="background:${color.hex}; border-color:${getCompactChipBorderColor(color)}"
-                  ></a>
+                    style="background:${color.hex}; color:${color.textColor}; border-color:${getCompactChipBorderColor(color)}"
+                  >${escapeHtml(color.code || color.name)}</a>
                 `,
               )
               .join("")}
@@ -1393,7 +1406,7 @@ function renderGroups(selectedCatalog) {
         <section class="catalog-group">
           <div class="catalog-group-head">
             <div>
-              <h3 class="catalog-group-title">${escapeHtml(group.label)}</h3>
+              <h3 class="catalog-group-title">${escapeHtml(tr(group.label))}</h3>
               <p class="catalog-subtitle">${escapeHtml(formatCount(group.colors.length, "reference"))}</p>
             </div>
           </div>
@@ -1407,17 +1420,24 @@ function renderGroups(selectedCatalog) {
 }
 
 function renderCatalogViews(selectedCatalog) {
+  const active = document.activeElement;
+  const attribute = active?.hasAttribute("data-catalog-cart-color-id") ? "data-catalog-cart-color-id" : active?.hasAttribute("data-group-filter-id") ? "data-group-filter-id" : null;
+  const value = attribute && active.getAttribute(attribute);
   renderGroupIndex(selectedCatalog);
   renderCompactGroups(selectedCatalog);
   renderGroups(selectedCatalog);
   applyViewMode();
+  const query = document.querySelector("#catalog-quick-search").value.trim();
+  const count = selectedCatalog ? getVisibleGroups(groupColors(selectedCatalog.colors)).reduce((sum,group) => sum + group.colors.length,0) : 0;
+  document.querySelector("#catalog-quick-status").textContent = query ? tr("{0} référence{1} pour « {2} »", {0: count, 1: count > 1 ? "s" : "", 2: query}) : "";
+  if (attribute) document.querySelector(`[${attribute}="${CSS.escape(value)}"]`)?.focus({preventScroll:true});
 }
 
 function renderColorCard(color) {
   const cartQuantity = getCartQuantity(color.id);
-  const cartLabel = cartQuantity > 0 ? `Ajouter au panier · x${cartQuantity}` : "Ajouter au panier";
+  const cartLabel = cartQuantity > 0 ? tr("Ajouter à ma liste · x{0}", {0: cartQuantity}) : tr("Ajouter à ma liste");
   const copyReferenceActionKey = buildCatalogCopyActionKey("card", color.id);
-  const copyReferenceLabel = state.copiedCatalogActionKey === copyReferenceActionKey ? "Copie" : "Copier ref";
+  const copyReferenceLabel = state.copiedCatalogActionKey === copyReferenceActionKey ? tr("Copie") : tr("Copier ref");
   const pills = [
     `<span class="meta-pill">${escapeHtml(color.hex)}</span>`,
   ];
@@ -1427,29 +1447,27 @@ function renderColorCard(color) {
   }
 
   if (color.family) {
-    pills.push(`<span class="meta-pill">${escapeHtml(`Famille ${color.family}`)}</span>`);
+    pills.push(`<span class="meta-pill">${escapeHtml(tr("Famille {0}", {0: color.family}))}</span>`);
   }
 
   if (color.finish) {
-    pills.push(`<span class="meta-pill">${escapeHtml(color.finish)}</span>`);
+    pills.push(`<span class="meta-pill">${escapeHtml(localizeFinish(color.finish))}</span>`);
   }
 
   return `
     <article id="${escapeHtml(color.domId)}" class="catalog-color-card ${cartQuantity > 0 ? "is-in-cart" : ""}">
       <div class="catalog-color-swatch" style="background:${color.hex}; color:${color.textColor}">
-        <span class="catalog-color-code">${escapeHtml(color.code || "Sans code")}</span>
+        <span class="catalog-color-code">${escapeHtml(color.code || tr("Sans code"))}</span>
         <span class="catalog-color-hex">${escapeHtml(color.hex)}</span>
       </div>
       <div class="catalog-color-body">
         <h4 class="catalog-color-title">${escapeHtml(color.label)}</h4>
         <p class="catalog-color-meta">${escapeHtml(color.sourceLabel || color.name)}</p>
         <div class="catalog-color-pills">${pills.join("")}</div>
-        ${
-          cartQuantity > 0
-            ? `<div class="catalog-color-pills"><span class="match-cart-badge">${escapeHtml(`Panier x${cartQuantity}`)}</span></div>`
-            : ""
-        }
-        <div class="catalog-color-actions">
+        ${cartQuantity > 0
+            ? `<div class="catalog-color-pills"><span class="match-cart-badge">${escapeHtml(tr("Panier x{0}", {0: cartQuantity}))}</span></div>`
+            : ""}
+        <div class="catalog-color-actions"><a class="cart-action" href="./index.html?base=${encodeURIComponent(color.id)}#create">${tr("Utiliser comme base ↗")}</a>
           <button
             class="cart-action match-action match-copy-action ${state.copiedCatalogActionKey === copyReferenceActionKey ? "is-copied" : ""}"
             type="button"
@@ -1485,7 +1503,7 @@ function focusColorCard(domId) {
   const color = state.currentCatalog?.colors.find((entry) => entry.domId === domId) || null;
 
   if (revealDetailed) {
-    setViewMode("both");
+    setViewMode("detailed");
   }
 
   if (color) {
@@ -1529,20 +1547,20 @@ async function loadManifest() {
   const response = await fetch(MANIFEST_URL);
 
   if (!response.ok) {
-    throw new Error("Impossible de charger la liste des fabricants.");
+    throw new Error(tr("Impossible de charger la liste des fabricants."));
   }
 
   const manifest = await response.json();
   const manufacturers = Array.isArray(manifest?.manufacturers) ? manifest.manufacturers : [];
 
   if (!manufacturers.length) {
-    throw new Error("Aucun fabricant n'est disponible.");
+    throw new Error(tr("Aucun fabricant n'est disponible."));
   }
 
   state.manifest = manufacturers.map((entry) => ({
     id: entry.id,
     path: entry.path,
-    label: entry.label || entry.id,
+    label: entry.label || ({loop:"Loop", "montana-black":"Montana BLACK", "montana-blue":"Montana BLUE", "montana-gold":"Montana GOLD", "flame-orange":"FLAME ORANGE", "flame-blue":"FLAME BLUE", "molotow-belton":"Molotow Belton", "mtn-hardcore-2":"MTN Hardcore 2", "montana-94":"Montana 94", "kobra-low-pressure-400ml":"Kobra Low pressure 400ml", "kobra-high-pressure-400ml":"Kobra High pressure 400ml"})[entry.id] || entry.id,
   }));
 }
 
@@ -1554,13 +1572,13 @@ async function loadCatalog(manufacturerId) {
   const manifestEntry = getManifestEntry(manufacturerId);
 
   if (!manifestEntry) {
-    throw new Error("Fabricant introuvable.");
+    throw new Error(tr("Fabricant introuvable."));
   }
 
   const response = await fetch(new URL(manifestEntry.path, MANIFEST_URL));
 
   if (!response.ok) {
-    throw new Error(`Impossible de charger le catalogue ${manifestEntry.label}.`);
+    throw new Error(tr("Impossible de charger le catalogue {0}.", {0: manifestEntry.label}));
   }
 
   const catalog = normalizeManufacturerCatalog(await response.json());
@@ -1572,7 +1590,7 @@ async function selectManufacturer(manufacturerId) {
   state.selectedManufacturerId = manufacturerId;
   elements.manufacturerSelect.value = manufacturerId;
   persistSelection(manufacturerId);
-  renderFeedback("Chargement du catalogue...");
+  renderFeedback(tr("Chargement du catalogue..."));
 
   try {
     const catalog = await loadCatalog(manufacturerId);
@@ -1599,12 +1617,25 @@ async function selectManufacturer(manufacturerId) {
     state.searchResults = String(state.searchRaw).trim() ? analyzeBulkSearch(state.searchRaw, null) : null;
     state.searchStatus = "idle";
     renderBulkSearchResults();
-    renderFeedback(error.message || "Erreur de chargement du catalogue.", true);
+    renderFeedback(error.message || tr("Erreur de chargement du catalogue."), true);
   }
 }
 
 async function boot() {
-  renderFeedback("Chargement des fabricants...");
+  elements.catalogSearchResults.addEventListener("change", event => {
+    const checkbox = event.target.closest("[data-search-line]");
+    if (!checkbox) return;
+    const line = Number(checkbox.dataset.searchLine);
+    if (checkbox.checked) state.selectedSearchLines.add(line); else state.selectedSearchLines.delete(line);
+    document.querySelector("#catalog-add-selection").disabled = !state.selectedSearchLines.size;
+  });
+  document.querySelector("#catalog-add-selection").addEventListener("click", () => {
+    if (state.searchStatus === "loading") return;
+    addResolvedSearchResultsToCart({entries:(state.searchResults?.entries || []).filter(entry => state.selectedSearchLines.has(entry.index))});
+    state.selectedSearchLines.clear(); renderBulkSearchResults();
+  });
+  document.querySelector("#catalog-quick-search").addEventListener("input", () => renderCatalogViews(state.currentCatalog));
+  renderFeedback(tr("Chargement des fabricants..."));
   state.selectedGroupIds = new Set(getStoredGroupFilterIds());
   state.autoAddSearchMatches = getStoredAutoAddSearchMatches();
   loadCartFromStorage();
@@ -1767,8 +1798,16 @@ async function boot() {
     renderCatalogHeader(null);
     renderCatalogViews(null);
     renderBulkSearchResults();
-    renderFeedback(error.message || "Erreur au demarrage de la page catalogue.", true);
+    renderFeedback(error.message || tr("Erreur au demarrage de la page catalogue."), true);
   }
 }
 
 boot();
+
+// Re-render current results without changing selections or rerunning searches.
+document.addEventListener('languagechange', () => {
+  renderManufacturerOptions(); renderCartStatus();
+  renderTopbarMeta(state.currentCatalog); renderSelectionSummary(state.currentCatalog);
+  renderCatalogHeader(state.currentCatalog); renderCatalogViews(state.currentCatalog);
+  renderBulkSearchResults(); localizeDOM();
+});

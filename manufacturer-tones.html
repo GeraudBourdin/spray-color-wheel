@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tonalites par fabricant</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <style>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title data-l10n="Tonalites par fabricant">Tonalites par fabricant</title>
+<link href="./styles.css" rel="stylesheet"/>
+<style>
       .tones-page-shell {
         --shell-width: 1380px;
       }
@@ -452,133 +453,117 @@
         }
       }
     </style>
-  </head>
-  <body>
-    <div class="app-shell tones-page-shell">
-      <header class="topbar">
-        <div class="topbar-main">
-          <div class="topbar-copy">
-            <div class="topbar-heading-row">
-              <p class="eyebrow">Tonalites fabricant</p>
-              <div class="topbar-actions">
-                <a class="meta-pill topbar-link" href="./index.html">Retour a la roue</a>
-                <a class="meta-pill topbar-link" href="./manufacturer-catalog.html">Catalogue fabricant</a>
-                <a id="tones-cart-link" class="meta-pill topbar-link" href="./index.html">Panier sprays · 0</a>
-                <a
-                  class="meta-pill topbar-link"
-                  href="https://www.instagram.com/gtwin_/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Stay in touch · Instagram
-                </a>
-              </div>
-            </div>
-            <h1>Gammes de tonalites par marque</h1>
-            <p class="tones-page-copy">
-              Choisis une marque, selectionne une base mid tone du fabricant, puis demande une rampe en 3 ou 4
-              niveaux. La page cherche ensuite les references reelles les plus proches dans le catalogue.
-            </p>
-          </div>
-        </div>
-        <div id="tones-topbar-meta" class="topbar-meta"></div>
-      </header>
-
-      <main class="tones-page-layout">
-        <section class="panel tones-controls-panel">
-          <div class="tones-controls-head">
-            <div>
-              <p class="eyebrow">Selection</p>
-              <h2 class="tones-section-title">Marque et base</h2>
-            </div>
-            <div id="tones-selection-summary" class="base-caption"></div>
-          </div>
-
-          <label class="field">
-            <span class="field-label">Choisir une marque de spray</span>
-            <select id="manufacturer-select" aria-label="Choisir une marque de spray"></select>
-          </label>
-
-          <div class="field">
-            <span class="field-label">Nombre de tonalites</span>
-            <div class="tones-segmented" role="group" aria-label="Nombre de tonalites">
-              <button class="algo-toggle" type="button" data-ramp-size="3" aria-pressed="true">3 tonalites</button>
-              <button class="algo-toggle" type="button" data-ramp-size="4" aria-pressed="false">4 tonalites</button>
-            </div>
-          </div>
-
-          <div class="tones-base-browser">
-            <div class="tones-base-browser-head">
-              <span class="field-label">Bases mid tone</span>
-              <span id="tones-base-list-count" class="tones-subtitle"></span>
-            </div>
-            <p class="tones-page-copy">
-              Selectionne directement une teinte mediane du nuancier de la marque. C'est elle qui sert de point de
-              depart pour generer les variantes sombres et claires. La liste reste volontairement representative pour
-              garder un choix simple.
-            </p>
-            <div id="tones-base-list" class="tones-base-list" aria-label="Bases mid tone disponibles"></div>
-          </div>
-        </section>
-
-        <section class="panel tones-results-panel">
-          <div class="tones-results-head">
-            <div>
-              <p class="eyebrow">Recherche</p>
-              <h2 id="tones-title" class="tones-section-title">Chargement du catalogue...</h2>
-              <p id="tones-subtitle" class="tones-subtitle"></p>
-            </div>
-            <div class="tones-results-tools">
-              <div id="tones-summary" class="base-caption"></div>
-              <div id="tones-cart-summary" class="tones-cart-summary"></div>
-            </div>
-          </div>
-
-          <div id="tones-feedback" class="tones-feedback" role="status" aria-live="polite"></div>
-
-          <div class="tones-results-stack">
-            <section class="tone-ramp-card">
-              <div class="tones-panel-head" style="padding: 0.85rem 0.85rem 0;">
-                <div>
-                  <p class="eyebrow">Base</p>
-                  <h3 class="tones-card-title">Couleur de depart</h3>
-                  <p id="tones-base-context" class="tones-subtitle"></p>
-                </div>
-              </div>
-              <div id="tones-base-preview" class="tones-base-preview" style="padding: 0 0.85rem 0.85rem;"></div>
-            </section>
-
-            <section class="tone-ramp-card">
-              <div class="tones-panel-head" style="padding: 0.85rem 0.85rem 0;">
-                <div>
-                  <p class="eyebrow">Cibles</p>
-                  <h3 class="tones-card-title">Rampe theorique</h3>
-                  <p class="tones-subtitle">
+<link href="./workspace.css?v=20260913-wall-1" rel="stylesheet"/><link href="./controls.css?v=20260913-unified-1" rel="stylesheet"/>
+</head>
+<body class="workspace-app" data-page="tones"><a class="skip-link" data-ws="skip" href="#main-content">Aller au contenu</a>
+<div class="app-shell tones-page-shell">
+<header class="app-header"><a aria-label="Spray Color Wheel" class="brand-lockup" data-l10n-attrs='{"aria-label": "Spray Color Wheel"}' href="./index.html#create"><span aria-hidden="true" class="brand-mark"><i></i><i></i><i></i></span><span>Spray<span class="brand-secondary">Color Wheel</span></span></a><nav aria-label="Navigation principale" class="primary-nav" data-l10n-attrs='{"aria-label": "Navigation principale"}'><a data-nav="create" href="./index.html#create"><span data-icon="palette"></span><span data-ws="create">Créer</span></a><a data-nav="image" href="./index.html#image"><span data-icon="image"></span><span data-ws="image">Image</span></a><a data-nav="wall" href="./wall.html"><span data-icon="wall"></span><span data-ws="wall">Mur</span></a><a data-nav="catalogue" href="./manufacturer-catalog.html"><span data-icon="grid"></span><span data-ws="catalogue">Nuanciers</span></a><a data-nav="list" href="./index.html#list"><span data-icon="list"></span><span data-ws="list">Ma liste</span><span class="nav-count" data-cart-count="">0</span></a></nav><details class="utility-menu"><summary><span data-ws="language">Langue</span><span class="language-code">FR</span></summary><div class="utility-popover"><div aria-label="Langue" class="language-options" data-l10n-attrs='{"aria-label": "Langue"}' role="group"><button aria-pressed="false" data-language="fr" lang="fr" type="button">Français<span aria-hidden="true">✓</span></button><button aria-pressed="false" data-language="en" lang="en" type="button">English<span aria-hidden="true">✓</span></button><button aria-pressed="false" data-language="de" lang="de" type="button">Deutsch<span aria-hidden="true">✓</span></button><button aria-pressed="false" data-language="es" lang="es" type="button">Español<span aria-hidden="true">✓</span></button><button aria-pressed="false" data-language="pt" lang="pt" type="button">Português<span aria-hidden="true">✓</span></button></div><label class="field" hidden=""><span data-ws="language">Langue</span><select aria-label="Langue" data-l10n-attrs='{"aria-label": "Langue"}' id="workspace-language"><option value="fr">Français</option><option value="en">English</option><option value="de">Deutsch</option><option value="es">Español</option><option value="pt">Português</option></select></label><a href="https://www.instagram.com/osea.smg/" rel="noreferrer" target="_blank">Instagram · @osea.smg ↗</a><p data-ws="accuracy">Les couleurs à l’écran sont indicatives. Vérifiez le nuancier physique.</p></div></details></header>
+<section class="workspace-intro"><div><p class="eyebrow" data-ws="studio">L’atelier couleur</p><h1 data-ws="tonesTitle">Donnez du relief à votre palette.</h1><p class="workspace-description" data-ws="tonesCopy">Une base, des ombres et de la lumière. Trouvez vos tonalités dans une même gamme.</p></div><nav aria-label="Mode de création" class="mode-nav" data-l10n-attrs='{"aria-label": "Mode de création"}'><a data-ws="harmonies" href="./index.html#create">Harmonies</a><a aria-current="page" data-ws="tones" href="./manufacturer-tones.html">Tonalités</a></nav></section><main class="tones-page-layout" id="main-content">
+<section class="panel tones-controls-panel">
+<div class="tones-controls-head">
+<div>
+<p class="eyebrow" data-l10n="Selection">Selection</p>
+<h2 class="tones-section-title" data-ws="brandBase">Marque et base</h2>
+</div>
+<div class="base-caption" id="tones-selection-summary"></div>
+</div>
+<label class="field">
+<span class="field-label" data-ws="chooseBrand">Choisir une marque de spray</span>
+<select aria-label="Choisir une marque de spray" data-ws-aria="chooseBrand" id="manufacturer-select"></select>
+</label>
+<div class="field">
+<span class="field-label" data-ws="toneCount">Nombre de tonalites</span>
+<div aria-label="Nombre de tonalites" class="tones-segmented" data-l10n-attrs='{"aria-label": "Nombre de tonalites"}' role="group">
+<button aria-pressed="true" class="algo-toggle" data-ramp-size="3" data-ws="threeTones" type="button">3 tonalites</button>
+<button aria-pressed="false" class="algo-toggle" data-ramp-size="4" data-ws="fourTones" type="button">4 tonalites</button>
+</div>
+</div>
+<div class="tones-base-browser">
+<div class="tones-base-browser-head">
+<span class="field-label" data-ws="startingColors">Couleurs de départ</span>
+<span class="tones-subtitle" id="tones-base-list-count"></span>
+</div>
+<p class="tones-page-copy" data-ws="midToneHint">Choisissez une couleur de ton moyen pour obtenir une progression du sombre au clair.</p>
+<div aria-label="Bases mid tone disponibles" class="tones-base-list" data-l10n-attrs='{"aria-label": "Bases mid tone disponibles"}' id="tones-base-list"></div>
+</div>
+</section>
+<section class="panel tones-results-panel">
+<div class="tones-results-head">
+<div>
+<p class="eyebrow" data-l10n="Recherche">Recherche</p>
+<h2 class="tones-section-title" data-l10n="Chargement du catalogue..." id="tones-title">Chargement du catalogue...</h2>
+<p class="tones-subtitle" id="tones-subtitle"></p>
+</div>
+<div class="tones-results-tools">
+<div class="base-caption" id="tones-summary"></div>
+<div class="tones-cart-summary" id="tones-cart-summary"></div>
+</div>
+</div>
+<div aria-live="polite" class="tones-feedback" id="tones-feedback" role="status"></div>
+<div class="tones-results-stack">
+<section class="tone-ramp-card">
+<div class="tones-panel-head" style="padding: 0.85rem 0.85rem 0;">
+<div>
+<p class="eyebrow" data-l10n="Base">Base</p>
+<h3 class="tones-card-title" data-ws="base">Couleur de depart</h3>
+<p class="tones-subtitle" id="tones-base-context"></p>
+</div>
+</div>
+<div class="tones-base-preview" id="tones-base-preview" style="padding: 0 0.85rem 0.85rem;"></div>
+</section>
+<section class="tone-ramp-card">
+<div class="tones-panel-head" style="padding: 0.85rem 0.85rem 0;">
+<div>
+<p class="eyebrow" data-l10n="Cibles">Cibles</p>
+<h3 class="tones-card-title" data-ws="theoreticalRamp">Rampe theorique</h3>
+<p class="tones-subtitle" data-l10n="Les nuances generees servent de cible. Ensuite on cherche les sprays reels les plus convaincants
+                    dans la marque choisie.">
                     Les nuances generees servent de cible. Ensuite on cherche les sprays reels les plus convaincants
                     dans la marque choisie.
                   </p>
-                </div>
-              </div>
-              <div id="tone-ramp" class="tone-ramp" style="padding: 0 0.85rem 0.85rem;"></div>
-            </section>
-
-            <section class="tone-ramp-card">
-              <div class="tones-panel-head" style="padding: 0.85rem 0.85rem 0;">
-                <div>
-                  <p class="eyebrow">Matches</p>
-                  <h3 class="tones-card-title">References recommandees</h3>
-                  <p class="tones-subtitle">
+</div>
+</div>
+<div class="tone-ramp" id="tone-ramp" style="padding: 0 0.85rem 0.85rem;"></div>
+</section>
+<section class="tone-ramp-card">
+<div class="tones-panel-head" style="padding: 0.85rem 0.85rem 0;">
+<div>
+<p class="eyebrow" data-l10n="Matches">Matches</p>
+<h3 class="tones-card-title" data-ws="recommendedReferences">References recommandees</h3>
+<p class="tones-subtitle" data-l10n="Une reference par niveau, en privilegiant la coherence de teinte et l'ordre sombre vers clair.">
                     Une reference par niveau, en privilegiant la coherence de teinte et l'ordre sombre vers clair.
                   </p>
-                </div>
-              </div>
-              <div id="tone-match-grid" class="tone-match-grid" style="padding: 0 0.85rem 0.85rem;"></div>
-            </section>
-          </div>
-        </section>
-      </main>
-    </div>
-
-    <script type="module" src="./manufacturer-tones.js"></script>
-  </body>
+</div>
+</div>
+<div class="tone-match-grid" id="tone-match-grid" style="padding: 0 0.85rem 0.85rem;"></div>
+</section>
+</div>
+</section>
+</main>
+<header class="legacy-header" hidden="">
+<div class="topbar-main">
+<div class="topbar-copy">
+<div class="topbar-heading-row">
+<p class="eyebrow" data-l10n="Tonalites fabricant">Tonalites fabricant</p>
+<div class="topbar-actions">
+<a class="meta-pill topbar-link" data-l10n="Retour a la roue" href="./index.html#create">Retour a la roue</a>
+<a class="meta-pill topbar-link" data-l10n="Catalogue fabricant" href="./manufacturer-catalog.html">Catalogue fabricant</a>
+<a class="meta-pill topbar-link" href="./index.html#list" id="tones-cart-link">Panier sprays · 0</a>
+<a class="meta-pill topbar-link" data-l10n="Stay in touch · Instagram" href="https://www.instagram.com/osea.smg/" rel="noreferrer" target="_blank">
+                  Stay in touch · Instagram
+                </a>
+</div>
+</div>
+<h1 data-l10n="Gammes de tonalites par marque">Gammes de tonalites par marque</h1>
+<p class="tones-page-copy" data-l10n="Choisis une marque, selectionne une base mid tone du fabricant, puis demande une rampe en 3 ou 4
+              niveaux. La page cherche ensuite les references reelles les plus proches dans le catalogue.">
+              Choisis une marque, selectionne une base mid tone du fabricant, puis demande une rampe en 3 ou 4
+              niveaux. La page cherche ensuite les references reelles les plus proches dans le catalogue.
+            </p>
+</div>
+</div>
+<div class="topbar-meta" id="tones-topbar-meta"></div>
+</header></div>
+<script src="./manufacturer-tones.js?v=20260913-i18n-1" type="module"></script>
+<div aria-live="polite" class="workspace-toast" hidden="" id="workspace-toast" role="status"></div></body>
 </html>

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Catalogue fabricants de sprays</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <style>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title data-l10n="Catalogue fabricants de sprays">Catalogue fabricants de sprays</title>
+<link href="./styles.css" rel="stylesheet"/>
+<style>
       .catalog-page-shell {
         --shell-width: 1380px;
       }
@@ -565,150 +566,128 @@
         }
       }
     </style>
-  </head>
-  <body>
-    <div class="app-shell catalog-page-shell">
-      <header class="topbar">
-        <div class="topbar-main">
-          <div class="topbar-copy">
-            <div class="topbar-heading-row">
-              <p class="eyebrow">Catalogue fabricant</p>
-              <div class="topbar-actions">
-                <a class="meta-pill topbar-link" href="./index.html">Retour a la roue</a>
-                <a class="meta-pill topbar-link" href="./manufacturer-tones.html">Tonalites fabricant</a>
-                <a id="catalog-cart-link" class="meta-pill topbar-link" href="./index.html">Panier sprays · 0</a>
-                <a
-                  class="meta-pill topbar-link"
-                  href="https://www.instagram.com/gtwin_/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Stay in touch · Instagram
-                </a>
-              </div>
-            </div>
-            <h1>Nuanciers par marque</h1>
-            <p class="catalog-page-copy">
-              Choisis un fabricant en haut. La page affiche ensuite toutes les references du catalogue, classees par
-              familles chromatiques.
-            </p>
-          </div>
-        </div>
-        <div id="catalog-topbar-meta" class="topbar-meta"></div>
-      </header>
-
-      <main class="catalog-page-layout">
-        <section class="panel catalog-controls-panel">
-          <div class="catalog-controls-head">
-            <div>
-              <p class="eyebrow">Selection</p>
-              <h2 class="catalog-section-title">Fabricant</h2>
-            </div>
-            <div id="catalog-selection-summary" class="base-caption"></div>
-          </div>
-          <label class="field">
-            <span class="field-label">Choisir une marque de spray</span>
-            <select id="manufacturer-select" aria-label="Choisir une marque de spray"></select>
-          </label>
-
-          <section class="catalog-search-box">
-            <div class="catalog-search-head">
-              <div>
-                <p class="eyebrow">Recherche</p>
-                <h3 class="catalog-group-title">Retrouver une liste</h3>
-              </div>
-            </div>
-            <label class="field">
-              <span class="field-label">Colle ta selection</span>
-              <textarea
-                id="catalog-search-input"
-                class="input catalog-search-input"
-                rows="8"
-                placeholder="Une reference par ligne&#10;G3140 Shock Black&#10;G9010 Banana Yellow"
-              ></textarea>
-            </label>
-            <p class="catalog-page-copy">
+<link href="./workspace.css?v=20260913-wall-1" rel="stylesheet"/><link href="./controls.css?v=20260913-unified-1" rel="stylesheet"/>
+</head>
+<body class="workspace-app" data-page="catalogue"><a class="skip-link" data-ws="skip" href="#main-content">Aller au contenu</a>
+<div class="app-shell catalog-page-shell">
+<header class="app-header"><a aria-label="Spray Color Wheel" class="brand-lockup" data-l10n-attrs='{"aria-label": "Spray Color Wheel"}' href="./index.html#create"><span aria-hidden="true" class="brand-mark"><i></i><i></i><i></i></span><span>Spray<span class="brand-secondary">Color Wheel</span></span></a><nav aria-label="Navigation principale" class="primary-nav" data-l10n-attrs='{"aria-label": "Navigation principale"}'><a data-nav="create" href="./index.html#create"><span data-icon="palette"></span><span data-ws="create">Créer</span></a><a data-nav="image" href="./index.html#image"><span data-icon="image"></span><span data-ws="image">Image</span></a><a data-nav="wall" href="./wall.html"><span data-icon="wall"></span><span data-ws="wall">Mur</span></a><a data-nav="catalogue" href="./manufacturer-catalog.html"><span data-icon="grid"></span><span data-ws="catalogue">Nuanciers</span></a><a data-nav="list" href="./index.html#list"><span data-icon="list"></span><span data-ws="list">Ma liste</span><span class="nav-count" data-cart-count="">0</span></a></nav><details class="utility-menu"><summary><span data-ws="language">Langue</span><span class="language-code">FR</span></summary><div class="utility-popover"><div aria-label="Langue" class="language-options" data-l10n-attrs='{"aria-label": "Langue"}' role="group"><button aria-pressed="false" data-language="fr" lang="fr" type="button">Français<span aria-hidden="true">✓</span></button><button aria-pressed="false" data-language="en" lang="en" type="button">English<span aria-hidden="true">✓</span></button><button aria-pressed="false" data-language="de" lang="de" type="button">Deutsch<span aria-hidden="true">✓</span></button><button aria-pressed="false" data-language="es" lang="es" type="button">Español<span aria-hidden="true">✓</span></button><button aria-pressed="false" data-language="pt" lang="pt" type="button">Português<span aria-hidden="true">✓</span></button></div><label class="field" hidden=""><span data-ws="language">Langue</span><select aria-label="Langue" data-l10n-attrs='{"aria-label": "Langue"}' id="workspace-language"><option value="fr">Français</option><option value="en">English</option><option value="de">Deutsch</option><option value="es">Español</option><option value="pt">Português</option></select></label><a href="https://www.instagram.com/osea.smg/" rel="noreferrer" target="_blank">Instagram · @osea.smg ↗</a><p data-ws="accuracy">Les couleurs à l’écran sont indicatives. Vérifiez le nuancier physique.</p></div></details></header>
+<section class="workspace-intro"><div><p class="eyebrow" data-ws="studio">L’atelier couleur</p><h1 data-ws="catalogTitle">Trouvez la bonne référence.</h1><p class="workspace-description" data-ws="catalogCopy">Explorez les nuanciers, comparez les couleurs et préparez votre liste.</p></div></section><main class="catalog-page-layout" id="main-content">
+<section class="panel catalog-controls-panel">
+<div class="catalog-controls-head">
+<div>
+<p class="eyebrow" data-l10n="Selection">Selection</p>
+<h2 class="catalog-section-title" data-ws="manufacturer">Fabricant</h2>
+</div>
+<div class="base-caption" id="catalog-selection-summary"></div>
+</div>
+<label class="field">
+<span class="field-label" data-ws="chooseBrand">Choisir une marque de spray</span>
+<select aria-label="Choisir une marque de spray" data-ws-aria="chooseBrand" id="manufacturer-select"></select>
+</label>
+<label class="field catalog-quick-search"><span data-ws="catalogSearch">Rechercher dans le nuancier</span><input data-l10n-attrs='{"placeholder": "Nom, code ou HEX…"}' id="catalog-quick-search" placeholder="Nom, code ou HEX…" type="search"/></label><details class="catalog-group-index-shell" hidden="" id="catalog-group-index-shell" open=""><summary data-ws="families">Familles de couleurs</summary>
+<div class="catalog-group-index-head" hidden="">
+<div>
+<p class="eyebrow" data-l10n="Index">Index</p>
+<h3 class="catalog-group-title" data-l10n="Familles affichees">Familles affichees</h3>
+</div>
+<div class="base-caption" id="catalog-group-index-summary"></div>
+</div>
+<div aria-label="Filtrer les familles chromatiques" class="catalog-group-index" data-l10n-attrs='{"aria-label": "Filtrer les familles chromatiques"}' id="catalog-group-index" role="group"></div>
+</details><details class="catalog-search-box"><summary data-ws="bulkSearch">Retrouver une liste de références</summary>
+<div class="catalog-search-head" hidden="">
+<div>
+<p class="eyebrow" data-l10n="Recherche">Recherche</p>
+<h3 class="catalog-group-title" data-l10n="Retrouver une liste">Retrouver une liste</h3>
+</div>
+</div>
+<label class="field">
+<span class="field-label" data-ws="pasteReferences">Collez vos références</span>
+<textarea class="input catalog-search-input" data-l10n-attrs='{"placeholder":"Une référence par ligne G3140 Shock Black G9010 Banana Yellow"}' id="catalog-search-input" placeholder="Une référence par ligne
+G3140 Shock Black
+G9010 Banana Yellow" rows="8"></textarea>
+</label>
+<p class="catalog-page-copy" data-l10n="Colle des codes, des noms ou des lignes completes. Une ligne par spray fonctionne le mieux, mais les
+              tabulations et points-virgules sont aussi acceptes.">
               Colle des codes, des noms ou des lignes completes. Une ligne par spray fonctionne le mieux, mais les
               tabulations et points-virgules sont aussi acceptes.
             </p>
-            <div class="catalog-search-options">
-              <label class="catalog-search-checkbox" for="catalog-search-auto-add">
-                <input id="catalog-search-auto-add" type="checkbox" />
-                <span class="catalog-search-checkbox-copy">
-                  <strong>Ajouter automatiquement les references trouvees au panier</strong>
-                  <span>Chaque ligne retrouvee ajoute un spray. Les doublons augmentent la quantite dans le panier.</span>
-                </span>
-              </label>
-            </div>
-            <div class="catalog-search-actions">
-              <button id="catalog-search-run" class="cart-action" type="button">Retrouver la selection</button>
-              <button id="catalog-search-clear" class="cart-action" type="button">Effacer</button>
-            </div>
-          </section>
-
-          <p class="catalog-page-copy">
-            Classement par grandes familles visuelles. A l'interieur de chaque groupe, les teintes proches restent
-            ensemble pour faciliter la lecture du nuancier.
-          </p>
-        </section>
-
-        <section class="panel catalog-results-panel">
-          <div class="catalog-results-head">
-            <div>
-              <p class="eyebrow">Nuancier</p>
-              <h2 id="catalog-title" class="catalog-section-title">Chargement du catalogue...</h2>
-              <p id="catalog-subtitle" class="catalog-subtitle"></p>
-            </div>
-            <div class="catalog-results-tools">
-              <div id="catalog-summary" class="base-caption"></div>
-              <div id="catalog-cart-summary" class="catalog-cart-summary"></div>
-              <div class="catalog-view-controls" role="group" aria-label="Mode d'affichage">
-                <button class="algo-toggle" type="button" data-view-mode="both" aria-pressed="true">Les deux</button>
-                <button class="algo-toggle" type="button" data-view-mode="compact" aria-pressed="false">Compacte</button>
-                <button class="algo-toggle" type="button" data-view-mode="detailed" aria-pressed="false">Detaillee</button>
-              </div>
-            </div>
-          </div>
-
-          <div id="catalog-feedback" class="catalog-feedback" role="status" aria-live="polite"></div>
-          <section id="catalog-group-index-shell" class="catalog-group-index-shell" hidden>
-            <div class="catalog-group-index-head">
-              <div>
-                <p class="eyebrow">Index</p>
-                <h3 class="catalog-group-title">Familles affichees</h3>
-              </div>
-              <div id="catalog-group-index-summary" class="base-caption"></div>
-            </div>
-            <div
-              id="catalog-group-index"
-              class="catalog-group-index"
-              role="group"
-              aria-label="Filtrer les familles chromatiques"
-            ></div>
-          </section>
-          <section id="catalog-search-results-shell" class="catalog-search-results-shell" hidden>
-            <div class="catalog-search-results-head">
-              <div>
-                <p class="eyebrow">Selection</p>
-                <h3 class="catalog-group-title">Liste retrouvee</h3>
-              </div>
-              <div id="catalog-search-results-summary" class="base-caption"></div>
-            </div>
-            <div id="catalog-search-results" class="catalog-search-results"></div>
-          </section>
-          <section id="catalog-compact-shell" class="catalog-compact-shell">
-            <div class="catalog-compact-head">
-              <div>
-                <h3 class="catalog-group-title">Vue compacte</h3>
-              </div>
-            </div>
-            <div id="catalog-compact-groups" class="catalog-compact-groups"></div>
-          </section>
-          <div id="catalog-groups" class="catalog-groups"></div>
-        </section>
-      </main>
-    </div>
-
-    <script type="module" src="./manufacturer-catalog.js"></script>
-  </body>
+<details class="catalog-search-options"><summary data-ws="autoOptions">Options d’ajout automatique</summary>
+<label class="catalog-search-checkbox" for="catalog-search-auto-add">
+<input id="catalog-search-auto-add" type="checkbox"/>
+<span class="catalog-search-checkbox-copy">
+<strong data-l10n="Ajouter automatiquement les references trouvees au panier">Ajouter automatiquement les references trouvees au panier</strong>
+<span data-l10n="Chaque ligne retrouvee ajoute un spray. Les doublons augmentent la quantite dans le panier.">Chaque ligne retrouvee ajoute un spray. Les doublons augmentent la quantite dans le panier.</span>
+</span>
+</label>
+</details>
+<div class="catalog-search-actions">
+<button class="cart-action" data-l10n="Retrouver les références" id="catalog-search-run" type="button">Retrouver les références</button>
+<button class="cart-action" data-l10n="Effacer" id="catalog-search-clear" type="button">Effacer</button>
+</div>
+</details></section>
+<section class="panel catalog-results-panel">
+<div class="catalog-results-head">
+<div>
+<p class="eyebrow" data-l10n="Nuancier">Nuancier</p>
+<h2 class="catalog-section-title" data-l10n="Chargement du catalogue..." id="catalog-title">Chargement du catalogue...</h2>
+<p class="catalog-subtitle" id="catalog-subtitle"></p>
+</div>
+<div class="catalog-results-tools">
+<div class="base-caption" id="catalog-summary"></div>
+<div class="catalog-cart-summary" id="catalog-cart-summary"></div>
+<div aria-label="Mode d'affichage" class="catalog-view-controls" data-l10n-attrs="{&quot;aria-label&quot;: &quot;Mode d'affichage&quot;}" role="group">
+<button aria-pressed="true" class="algo-toggle" data-l10n="Les deux" data-view-mode="both" hidden="" type="button">Les deux</button>
+<button aria-pressed="false" class="algo-toggle" data-l10n="Nuancier" data-view-mode="compact" type="button">Nuancier</button>
+<button aria-pressed="false" class="algo-toggle" data-view-mode="detailed" data-ws="detailedCards" type="button">Fiches détaillées</button>
+</div>
+</div>
+</div><p class="quick-search-status" id="catalog-quick-status" role="status"></p>
+<div aria-live="polite" class="catalog-feedback" id="catalog-feedback" role="status"></div>
+<section class="catalog-search-results-shell" hidden="" id="catalog-search-results-shell">
+<div class="catalog-search-results-head">
+<div>
+<p class="eyebrow" data-l10n="Selection">Selection</p>
+<h3 class="catalog-group-title" data-l10n="Références retrouvées">Références retrouvées</h3>
+</div>
+<div class="base-caption" id="catalog-search-results-summary"></div>
+<button class="cart-action" data-ws="addSelection" disabled="" id="catalog-add-selection" type="button">Ajouter la sélection à ma liste</button></div>
+<div class="catalog-search-results" id="catalog-search-results"></div>
+</section>
+<section class="catalog-compact-shell" id="catalog-compact-shell">
+<div class="catalog-compact-head">
+<div>
+<h3 class="catalog-group-title" data-l10n="Vue compacte">Vue compacte</h3>
+</div>
+</div>
+<div class="catalog-compact-groups" id="catalog-compact-groups"></div>
+</section>
+<div class="catalog-groups" id="catalog-groups"></div>
+</section>
+</main>
+<header class="legacy-header" hidden="">
+<div class="topbar-main">
+<div class="topbar-copy">
+<div class="topbar-heading-row">
+<p class="eyebrow" data-l10n="Catalogue fabricant">Catalogue fabricant</p>
+<div class="topbar-actions">
+<a class="meta-pill topbar-link" data-l10n="Retour a la roue" href="./index.html#create">Retour a la roue</a>
+<a class="meta-pill topbar-link" data-l10n="Tonalites fabricant" href="./manufacturer-tones.html">Tonalites fabricant</a>
+<a class="meta-pill topbar-link" href="./index.html#list" id="catalog-cart-link">Panier sprays · 0</a>
+<a class="meta-pill topbar-link" data-l10n="Stay in touch · Instagram" href="https://www.instagram.com/osea.smg/" rel="noreferrer" target="_blank">
+                  Stay in touch · Instagram
+                </a>
+</div>
+</div>
+<h1 data-l10n="Nuanciers par marque">Nuanciers par marque</h1>
+<p class="catalog-page-copy" data-l10n="Choisis un fabricant en haut. La page affiche ensuite toutes les references du catalogue, classees par
+              familles chromatiques.">
+              Choisis un fabricant en haut. La page affiche ensuite toutes les references du catalogue, classees par
+              familles chromatiques.
+            </p>
+</div>
+</div>
+<div class="topbar-meta" id="catalog-topbar-meta"></div>
+</header></div>
+<script src="./manufacturer-catalog.js?v=20260913-i18n-1" type="module"></script>
+<div aria-live="polite" class="workspace-toast" hidden="" id="workspace-toast" role="status"></div></body>
 </html>

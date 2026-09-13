@@ -1,3 +1,6 @@
+import { tr, localizeDOM } from "./localization.js?v=20260913-i18n-1";
+import { createImageTool } from "./image-tool.js?v=20260913-region-1";
+import { workspaceText, renderWorkspaceChrome, updateCartCount, showToast } from "./workspace.js?v=20260913-i18n-1";
 import {
   clamp,
   deltaE,
@@ -10,7 +13,7 @@ import {
   lchToLab,
   lchToHex,
   normalizeHue,
-} from "./color-utils.js";
+} from "./color-utils.js?v=20260913-contrast-1";
 import { THEORIES, THEORY_SECTIONS } from "./theories.js";
 import {
   DEFAULT_LANGUAGE,
@@ -21,7 +24,7 @@ import {
   getLocalizedTheorySection,
   localizeGeneratedText,
   t,
-} from "./i18n.js";
+} from "./i18n.js?v=20260913-i18n-1";
 
 const DEFAULT_MANUFACTURER_ACCENTS = [
   "#0F8F63",
@@ -46,7 +49,7 @@ const SNAP_CAN_ACCESS_MAX_DISTANCE = 18;
 const UNAVAILABLE_CAN_HEX = "#A3A9B5";
 const IMAGE_SAMPLE_MAX_SIDE = 960;
 const IMAGE_PREVIEW_FALLBACK_WIDTH = 320;
-const IMAGE_PREVIEW_MAX_HEIGHT = 260;
+const IMAGE_PREVIEW_MAX_HEIGHT = 520;
 const IMAGE_MODAL_FALLBACK_WIDTH = 860;
 const IMAGE_MODAL_FALLBACK_HEIGHT = 680;
 const IMAGE_MODAL_ZOOM_MIN = 1;
@@ -70,6 +73,7 @@ let persistedAppSnapshot = null;
 let persistAppStateTimer = 0;
 let copiedChoiceActionTimer = 0;
 let wheelSurfaceCacheKey = "";
+let cartUndoItems = null;
 
 const state = {
   manufacturers: [],
@@ -692,7 +696,7 @@ function renderWheelGuide() {
 }
 
 function isMobileControlMenu() {
-  return window.innerWidth <= 1279;
+  return window.innerWidth <= 767;
 }
 
 function isCompactMobileViewport() {
@@ -701,6 +705,10 @@ function isCompactMobileViewport() {
 
 function renderControlMenu() {
   const open = isMobileControlMenu() && state.isControlMenuOpen;
+  elements.controlPanel.inert = isMobileControlMenu() && !open;
+  document.querySelectorAll('.workspace-grid, .app-header, #workspace-intro').forEach(el => { el.inert = open; });
+  if (open) { elements.controlPanel.setAttribute('role','dialog'); elements.controlPanel.setAttribute('aria-modal','true'); elements.controlPanel.setAttribute('aria-labelledby','control-menu-title'); }
+  else { elements.controlPanel.removeAttribute('role'); elements.controlPanel.removeAttribute('aria-modal'); elements.controlPanel.removeAttribute('aria-labelledby'); }
 
   document.body.classList.toggle("control-menu-open", open);
   elements.controlPanel.classList.toggle("is-mobile-open", open);
@@ -711,23 +719,17 @@ function renderControlMenu() {
 }
 
 function renderSidebarTabs() {
-  if (!SIDEBAR_TABS.has(state.activeSidebarTab)) {
-    state.activeSidebarTab = "hue";
-  }
-
-  elements.sidebarTabButtons.forEach((button) => {
+  if (!["hue", "picker"].includes(state.activeSidebarTab)) state.activeSidebarTab = "hue";
+  elements.sidebarTabButtons.forEach(button => {
     const tabId = button.dataset.sideTab;
     const active = state.activeSidebarTab === tabId;
-    const panel = elements.sidebarPanels[tabId];
-
     button.classList.toggle("active", active);
     button.setAttribute("aria-selected", String(active));
     button.tabIndex = active ? 0 : -1;
-
-    if (panel) {
-      panel.hidden = !active;
-    }
+    if (["hue", "picker"].includes(tabId)) elements.sidebarPanels[tabId].hidden = !active;
   });
+  elements.sidebarPanels["image-upload"].hidden = false;
+  elements.sidebarPanels["image-palette"].hidden = false;
 }
 
 function isTooltipAliasBoundary(character) {
@@ -1126,9 +1128,12 @@ function clearCart() {
     return;
   }
 
+  cartUndoItems = state.cartItems.map(item => ({ ...item }));
   state.cartItems = [];
   persistCart();
   render();
+  document.querySelector("#cart-undo").hidden = false;
+  showToast(workspaceText("removed", state.language));
 }
 
 async function copyTextToClipboard(value) {
@@ -1375,8 +1380,7 @@ function buildPrintableCartDocument(items) {
         <div class="meta">
           <div>${escapeHtml(countText("reference", items.length))}</div>
           <div>${escapeHtml(countText("spray", items.reduce((total, entry) => total + entry.quantity, 0)))}</div>
-          ${
-            estimate
+          ${estimate
               ? `<div>${escapeHtml(
                   ui("cartApproximateCostValue", {
                     sprayLabel: countText("spray", estimate.sprayCount),
@@ -1384,8 +1388,7 @@ function buildPrintableCartDocument(items) {
                     total: formatCartUnitPrice(estimate.total),
                   }),
                 )}</div>`
-              : ""
-          }
+              : ""}
           <div>${escapeHtml(ui("printGeneratedOn", { date: createdAt }))}</div>
           <button class="print-button" type="button" onclick="window.print()">${escapeHtml(ui("printButton"))}</button>
         </div>
@@ -1868,11 +1871,10 @@ function renderImageModalZoomControls() {
 }
 
 function openImageModal() {
-  if (!state.imageAsset || isCompactMobileViewport()) {
+  if (!state.imageAsset) {
     return;
   }
 
-  state.activeSidebarTab = "image-upload";
   state.isCartModalOpen = false;
   state.isImageModalOpen = true;
   state.imageModalZoom = IMAGE_MODAL_ZOOM_DEFAULT;
@@ -1901,28 +1903,11 @@ function closeImageModal({ restoreFocus = true } = {}) {
 }
 
 function openCartModal() {
-  state.isImageModalOpen = false;
-  state.isCartModalOpen = true;
-  render();
-
-  window.requestAnimationFrame(() => {
-    elements.cartModalClose?.focus?.();
-  });
+  window.location.hash = "list";
 }
 
-function closeCartModal({ restoreFocus = true } = {}) {
-  if (!state.isCartModalOpen) {
-    return;
-  }
-
-  state.isCartModalOpen = false;
-  render();
-
-  if (restoreFocus) {
-    window.requestAnimationFrame(() => {
-      elements.cartModalOpen?.focus?.();
-    });
-  }
+function closeCartModal() {
+  window.location.hash = "create";
 }
 
 function openControlMenu() {
@@ -1973,7 +1958,7 @@ async function loadImageFile(file) {
     state.imageAsset = await buildImageAssetFromSource(objectUrl, file.name);
     state.imageSampleColor = null;
     state.activeSidebarTab = "image-upload";
-    state.isImageModalOpen = !isCompactMobileViewport();
+    state.isImageModalOpen = false;
     state.imageModalZoom = IMAGE_MODAL_ZOOM_DEFAULT;
 
     elements.imageInput.value = "";
@@ -2730,8 +2715,7 @@ function renderTheoryGroups() {
             >
               <span>${escapeHtml(localizedTheory.label)}</span>
             </button>
-            ${
-              localizedTheory.tooltip
+            ${localizedTheory.tooltip
                 ? `
                   <div class="theory-help-wrap">
                     <button
@@ -2745,8 +2729,7 @@ function renderTheoryGroups() {
                     ${renderTheoryTooltip(localizedTheory)}
                   </div>
                 `
-                : ""
-            }
+                : ""}
           </div>
         `;
       })
@@ -2815,7 +2798,7 @@ function renderImageWorkspace() {
   elements.imageClear.disabled = !canClearImage;
   elements.imagePaletteReset.disabled = !canClearPalette;
   elements.imageOpenModal.disabled = !hasImage;
-  elements.imageOpenModal.hidden = compactMobile;
+  elements.imageOpenModal.hidden = false;
   elements.imageEmpty.innerHTML = `
     <p class="empty-copy">${escapeHtml(ui("imageEmpty"))}</p>
   `;
@@ -2830,7 +2813,7 @@ function renderImageWorkspace() {
   }
 
   const maxWidth = Math.max(200, (elements.imageStage.clientWidth || IMAGE_PREVIEW_FALLBACK_WIDTH) - 18);
-  drawImageCanvas(elements.imageCanvas, maxWidth, compactMobile ? 280 : IMAGE_PREVIEW_MAX_HEIGHT);
+  drawImageCanvas(elements.imageCanvas, maxWidth, IMAGE_PREVIEW_MAX_HEIGHT);
 }
 
 function buildImageSampleMarkup() {
@@ -2871,7 +2854,7 @@ function renderImageSample() {
 
 function renderImageModal() {
   const hasImage = Boolean(state.imageAsset);
-  const open = state.isImageModalOpen && hasImage && !isCompactMobileViewport();
+  const open = state.isImageModalOpen && hasImage;
 
   renderImageModalZoomControls();
   elements.imageModal.hidden = !open;
@@ -2914,7 +2897,7 @@ function renderImageModal() {
 function syncModalOpenState() {
   document.body.classList.toggle(
     "modal-open",
-    !elements.imageModal.hidden || !elements.cartModal.hidden,
+    !elements.imageModal.hidden,
   );
 }
 
@@ -2960,13 +2943,11 @@ function renderImagePalette() {
             ${active ? `<span class="image-palette-badge">${escapeHtml(ui("imageActive"))}</span>` : ""}
           </button>
           <div class="image-palette-actions">
-            ${
-              spraySource
+            ${spraySource
                 ? `<button class="cart-action image-palette-action" type="button" data-palette-cart-color-id="${color.id}">${escapeHtml(
                     cartQuantity > 0 ? `${ui("cartActionLabel")} x${cartQuantity}` : ui("cartActionLabel"),
                   )}</button>`
-                : ""
-            }
+                : ""}
             <button class="cart-action image-palette-action" type="button" data-palette-remove-color-id="${color.id}">
               ${escapeHtml(ui("removeAction"))}
             </button>
@@ -2990,6 +2971,8 @@ function updateImageSampleFromCanvasEvent(canvas, crosshair, event) {
 
   positionImageCrosshair(canvas, crosshair, event.clientX, event.clientY);
   state.imageSampleColor = sample;
+  state.base = { h:sample.h, s:sample.s, l:sample.l };
+  state.baseOrigin = null;
   render();
 }
 
@@ -3028,7 +3011,7 @@ function renderPickerResults(results) {
 
 function renderSprayChoiceRow({ brand, color, badge, score, active, quantity, tooltipId }) {
   const inPalette = isSprayColorInPalette(color.id);
-  const cartLabel = quantity > 0 ? `${ui("cartActionLabel")} x${quantity}` : ui("cartActionLabel");
+  const cartLabel = quantity > 0 ? `${workspaceText("add", state.language)} · ${quantity}` : workspaceText("add", state.language);
   const rowClasses = [active ? "is-selected-base" : "", quantity > 0 ? "in-cart" : ""]
     .filter(Boolean)
     .join(" ");
@@ -3066,7 +3049,7 @@ function renderSprayChoiceRow({ brand, color, badge, score, active, quantity, to
             <span class="match-name" title="${escapeHtml(color.label || color.name)}">${escapeHtml(color.label || color.name)}</span>
           </span>
           <span class="match-actions">
-            ${score ? `<span class="match-score">${escapeHtml(score)}</span>` : ""}
+            ${score != null ? `<span class="match-score" title="${escapeHtml(workspaceText("closest", state.language))}">${escapeHtml(score)}/100</span>` : ""}
           </span>
         </span>
       </button>
@@ -3088,7 +3071,7 @@ function renderSprayChoiceRow({ brand, color, badge, score, active, quantity, to
           ${escapeHtml(copyReferenceLabel)}
         </button>
         <button class="cart-action match-action" type="button" data-choice-palette-color-id="${color.id}" ${inPalette ? "disabled" : ""}>
-          ${escapeHtml(ui(inPalette ? "inPalette" : "imagePaletteLabel"))}
+          ${escapeHtml(ui(inPalette ? "inPalette" : "addToPalette"))}
         </button>
         <button class="cart-action match-action" type="button" data-choice-cart-color-id="${color.id}">
           ${escapeHtml(cartLabel)}
@@ -3282,12 +3265,7 @@ function renderPaletteSummary(groups) {
   }, 0);
   const totalStops = hasBaseOnlyGroup ? groups[0].stops.length : 1 + derivedStops;
 
-  elements.paletteSummary.innerHTML = `
-    <span class="meta-pill">${escapeHtml(countText("block", hasBaseOnlyGroup ? groups.length : groups.length + 1))}</span>
-    <span class="meta-pill">${escapeHtml(countText("color", totalStops))}</span>
-    <span class="meta-pill">${escapeHtml(countText("algorithm", state.activeTheoryIds.size))}</span>
-    <span class="meta-pill">${getSelectedManufacturers().map((brand) => brand.label).join(" + ")}</span>
-  `;
+  elements.paletteSummary.innerHTML = `<span class="meta-pill">${escapeHtml(countText("color",totalStops))}</span>`;
 }
 
 function renderPaletteReference() {
@@ -3328,171 +3306,92 @@ function renderAlgoPreview(displayStops) {
 }
 
 function renderSwatches(groups, baseStop) {
-  const hasBaseOnlyGroup = groups.length === 1 && groups[0].id === "base-only";
-  const baseReferenceExpanded = isAlgoExpanded("base-reference");
-  const presentedBaseStop = getStopPresentation(baseStop);
-  const baseReferenceMarkup = hasBaseOnlyGroup
-    ? ""
-    : `
-          <section class="algo-block">
-        <div class="algo-head">
-          <div>
-            <h3 class="algo-title" title="${escapeHtml(ui("baseReferenceLabel"))}">${escapeHtml(
-              ui("baseReferenceLabel"),
-            )}</h3>
-            <p class="algo-formula">${escapeHtml(baseStop.hex)}</p>
-          </div>
-          <span class="algo-head-actions">
-            <span class="algo-count">${escapeHtml(countText("color", 1))}</span>
-            <button
-              class="algo-toggle"
-              type="button"
-              data-algo-toggle-id="base-reference"
-              aria-expanded="${baseReferenceExpanded}"
-            >
-              ${escapeHtml(ui(baseReferenceExpanded ? "collapseResults" : "expandResults"))}
-            </button>
-          </span>
-        </div>
-        ${
-          baseReferenceExpanded
-            ? `
-              <p class="algo-note">${escapeHtml(baseStop.note)}</p>
-              <div class="algo-swatches">
-                <article class="swatch-card reference-card">
-                  <div class="swatch-visual" style="background:${presentedBaseStop.displayHex}; color:${presentedBaseStop.displayTextColor}">
-                    <span class="swatch-index">${escapeHtml(baseStop.letter)}</span>
-                    <div class="swatch-label">${escapeHtml(ui("baseColorName"))}</div>
-                  </div>
-                  <div class="swatch-body">
-                    <p class="swatch-note">
-                      H ${escapeHtml(formatDegrees(baseStop.hsl.h))} · S ${escapeHtml(formatPercent(baseStop.hsl.s))} · L ${escapeHtml(formatPercent(baseStop.hsl.l))}
-                    </p>
-                    <div class="match-list">
-                      ${baseStop.matches
-                        .map(({ brand, match }) => {
-                          if (!match) {
-                            return "";
-                          }
+  const openDetails = new Set([...elements.swatchStrip.querySelectorAll("details[open]")].map(el => el.id));
+  const hasBaseOnly = groups.length === 1 && groups[0].id === "base-only";
+  const allGroups = hasBaseOnly ? groups : [{ id:"base-reference", title:ui("baseReferenceLabel"), stops:[baseStop] }, ...groups];
+  elements.swatchStrip.innerHTML = allGroups.map(group => {
+    if (group.reason) return `<section class="result-group"><h3>${escapeHtml(group.title)}</h3><p class="theory-note">${escapeHtml(group.reason)}</p></section>`;
+    return `<section class="result-group"><h3 class="result-group-title">${escapeHtml(group.title)}</h3>${group.stops.map(stop => {
+      const presented = getStopPresentation(stop);
+      const matches = stop.matches.filter(entry => entry.match).sort((a,b) => a.match.distance - b.match.distance);
+      const renderMatch = ({brand,match}) => renderSprayChoiceRow({brand,color:match.color,score:match.score,active:state.baseOrigin?.id === match.color.id,quantity:getCartQuantity(match.color.id),tooltipId:`${group.id}-${stop.letter}-${match.color.id}`});
+      const detailsId = `alternatives-${group.id}-${stop.letter}`;
+      return `<article id="result-${group.id}-${stop.letter}" class="target-result">
+        <div class="target-heading"><span class="target-swatch" style="background:${presented.displayHex};color:${presented.displayTextColor}">${escapeHtml(stop.letter)}</span><div><span class="target-name">${escapeHtml(stop.title)}</span><span class="target-hex">${escapeHtml(presented.displayHex)}</span></div></div>
+        ${presented.isUnavailable ? `<p class="theory-note">${escapeHtml(presented.displayNote)}</p>` : ""}
+        ${matches.length ? renderMatch(matches[0]) : `<p>${escapeHtml(workspaceText("noMatches",state.language))}</p>`}
+        ${matches.length > 1 ? `<details class="match-alternatives" id="${detailsId}" ${openDetails.has(detailsId) ? "open" : ""}><summary>${escapeHtml(workspaceText("alternatives",state.language))}<span>${matches.length - 1}</span></summary>${matches.slice(1).map(renderMatch).join("")}</details>` : ""}
+      </article>`;
+    }).join("")}</section>`;
+  }).join("");
+}
 
-                          const isSelectedBase =
-                            state.baseOrigin?.kind === "spray" && state.baseOrigin.id === match.color.id;
-                          return renderSprayChoiceRow({
-                            brand,
-                            color: match.color,
-                            badge: isSelectedBase ? ui("reference") : "",
-                            score: match.score,
-                            active: isSelectedBase,
-                            quantity: getCartQuantity(match.color.id),
-                            tooltipId: `base-reference-${match.color.id}`,
-                          });
-                        })
-                        .join("")}
-                    </div>
-                  </div>
-                </article>
-              </div>
-            `
-            : `<div class="algo-preview">${renderAlgoPreview([baseStop])}</div>`
-        }
-      </section>
-    `;
+function renderWorkspaceRoute() {
+  const page = window.location.hash === "#image" ? "image" : window.location.hash === "#list" ? "list" : "create";
+  document.body.dataset.workspace = page;
+  document.querySelectorAll("[data-workspace-view]").forEach(el => { el.hidden = el.dataset.workspaceView !== page; });
+  state.isCartModalOpen = page === "list";
+  document.querySelector(".skip-link").href = page === "image" ? "#image-workspace" : page === "list" ? "#cart-modal" : "#main-content";
+  document.querySelector("#image-results-slot").hidden = !state.imageSampleColor && !state.imagePalette.length;
+  elements.controlMenuToggle.hidden = page !== "create";
+  const results = document.querySelector(".palette-panel");
+  const parent = page === "image" ? document.querySelector("#image-results-slot") : document.querySelector(".workspace-grid");
+  if (results.parentElement !== parent) parent.append(results);
+  const intro = document.querySelector("#workspace-intro");
+  intro.querySelector("h1 span").dataset.ws = `${page === "list" ? "list" : page === "image" ? "image" : "create"}Title`;
+  intro.querySelector(".workspace-description span").dataset.ws = `${page === "list" ? "list" : page === "image" ? "image" : "create"}Copy`;
+  intro.querySelector(".mode-nav").hidden = page !== "create";
+}
 
-  elements.swatchStrip.innerHTML = `${baseReferenceMarkup}${groups
-    .map((group) => {
-      if (group.reason) {
-        return `
-          <section class="algo-block">
-            <div class="algo-head">
-              <div>
-                <h3 class="algo-title" title="${escapeHtml(group.title)}">${escapeHtml(group.title)}</h3>
-                <p class="algo-formula">${escapeHtml(group.formula)}</p>
-              </div>
-              <span class="algo-count">${escapeHtml(ui("blockedLabel"))}</span>
-            </div>
-            <p class="algo-note">${escapeHtml(group.reason)}</p>
-          </section>
-        `;
-      }
-
-      const displayStops = group.stops;
-      const expanded = isAlgoExpanded(group.id);
-
-      const stopsMarkup = displayStops
-        .map((stop) => {
-          const presentedStop = getStopPresentation(stop);
-          const isReference = group.id === "base-only";
-          const matchesMarkup = stop.matches
-            .map(({ brand, match }) => {
-              if (!match) {
-                return "";
-              }
-
-              const quantity = getCartQuantity(match.color.id);
-              const inCart = quantity > 0;
-              const isSelectedBase =
-                state.baseOrigin?.kind === "spray" && state.baseOrigin.id === match.color.id;
-
-              return renderSprayChoiceRow({
-                brand,
-                color: match.color,
-                badge: inCart ? `x${quantity}` : "",
-                score: match.score,
-                active: isSelectedBase,
-                quantity,
-                tooltipId: `match-${group.id}-${stop.letter}-${match.color.id}`,
-              });
-            })
-            .join("");
-
-          return `
-            <article class="swatch-card ${isReference ? "reference-card" : ""} ${presentedStop.isUnavailable ? "is-unavailable" : ""}">
-              <div class="swatch-visual" style="background:${presentedStop.displayHex}; color:${presentedStop.displayTextColor}">
-                <span class="swatch-index">${escapeHtml(stop.letter)}</span>
-                <div class="swatch-label">${escapeHtml(stop.title)}</div>
-              </div>
-              <div class="swatch-body">
-                <p class="swatch-note">${escapeHtml(presentedStop.displayNote)}</p>
-                <div class="match-list">${matchesMarkup}</div>
-              </div>
-            </article>
-          `;
-        })
-        .join("");
-
-      return `
-        <section class="algo-block">
-          <div class="algo-head">
-            <div>
-              <h3 class="algo-title" title="${escapeHtml(group.title)}">${escapeHtml(group.title)}</h3>
-              <p class="algo-formula">${escapeHtml(group.formula)}</p>
-            </div>
-            <span class="algo-head-actions">
-              <span class="algo-count">${escapeHtml(countText("color", displayStops.length))}</span>
-              <button
-                class="algo-toggle"
-                type="button"
-                data-algo-toggle-id="${group.id}"
-                aria-expanded="${expanded}"
-              >
-                ${escapeHtml(ui(expanded ? "collapseResults" : "expandResults"))}
-              </button>
-            </span>
-          </div>
-          ${
-            displayStops.length
-              ? expanded
-                ? `
-                  <p class="algo-note">${escapeHtml(ui("basePrefix", { hex: baseStop.hex, description: group.description }))}</p>
-                  <div class="algo-swatches">${stopsMarkup}</div>
-                `
-                : `<div class="algo-preview">${renderAlgoPreview(displayStops)}</div>`
-              : `<div class="empty-state compact-empty"><p class="empty-copy">${escapeHtml(ui("noDerivedOutput"))}</p></div>`
-          }
-        </section>
-      `;
-    })
-    .join("")}`;
+function renderWorkspacePresentation(baseColor, palette) {
+  const w = key => workspaceText(key, state.language);
+  document.querySelector("#mobile-settings-label").textContent = `${baseColor.hex} · ${w("settings")}`;
+  renderWorkspaceChrome(state.language, document.body.dataset.workspace);
+  updateCartCount(state.cartItems);
+  elements.sidebarTabHueLabel.textContent = w("free");
+  elements.sidebarTabPickerLabel.textContent = w("catalogSource");
+  elements.baseControlsLabel.textContent = w("base");
+  elements.imagePaletteLabel.textContent = w("saved");
+  elements.imageInlinePaletteLabel.textContent = w("saved");
+  elements.paletteTitle.textContent = w("results");
+  elements.manufacturersLabel.textContent = w("brands");
+  elements.cartModalClose.textContent = w("continueCreate");
+  elements.cartLabel.textContent = w("listSummary");
+  elements.cartCopy.textContent = w("listSummaryCopy");
+  elements.cartClear.textContent = w("clearList");
+  elements.cartClear.setAttribute("aria-label", w("clearList"));
+  elements.cartDownload.textContent = w("downloadList");
+  elements.controlMenuTitle.textContent = w("paletteSettings");
+  elements.controlMenuToggle.setAttribute("aria-label", w("paletteSettings"));
+  elements.cartModalClose.setAttribute("aria-label", w("continueCreate"));
+  elements.imageHint.textContent = w("imageHint");
+  document.querySelector("#image-file-name").textContent = state.imageAsset?.fileName || "";
+  if (!state.imageSampleColor) elements.imageSample.innerHTML = `<div class="empty-state"><p class="empty-copy">${escapeHtml(w("imageHint"))}</p></div>`;
+  document.querySelector("#selected-brands-count").textContent = `${state.selectedBrands.size} ${w("countBrands")}`;
+  const origin = getBaseOrigin();
+  const tonesLink = document.querySelector('.mode-nav [data-ws="tones"]');
+  const tonesParams = new URLSearchParams({hex:baseColor.hex});
+  if (origin?.brandId && state.manufacturers.some(brand => brand.id === origin.brandId)) { tonesParams.set("manufacturer",origin.brandId); tonesParams.set("base",origin.id); }
+  tonesLink.href = `./manufacturer-tones.html?${tonesParams}`;
+  document.querySelector("#active-base-preview").innerHTML = `<span class="base-preview-swatch" style="background:${baseColor.hex}"></span><div><strong>${escapeHtml(baseColor.hex)}</strong><span>${escapeHtml(origin?.label || w("custom"))}</span></div>`;
+  const primary = document.querySelector("#primary-theory");
+  const active = [...state.activeTheoryIds];
+  const options = `<option value="">${escapeHtml(w("none"))}</option>` + THEORIES.map(theory => `<option value="${theory.id}">${escapeHtml(getLocalizedTheoryEntry(theory).label)}</option>`).join("");
+  const signature = `${state.language}-${active.length > 1}`;
+  if (primary.dataset.options !== signature) {
+    primary.innerHTML = (active.length > 1 ? `<option value="mixed" disabled>${escapeHtml(w("mixed"))}</option>` : "") + options;
+    primary.dataset.options = signature;
+  }
+  primary.value = active.length > 1 ? "mixed" : active[0] || "";
+  const hasBaseOnly = palette.groups.length === 1 && palette.groups[0].id === "base-only";
+  const stops = hasBaseOnly ? palette.groups[0].stops.map(stop => ({stop,groupId:"base-only"})) : [{stop:palette.baseStop,groupId:"base-reference"}, ...palette.groups.filter(group => !group.reason).flatMap(group => group.stops.map(stop => ({stop,groupId:group.id})))];
+  document.querySelector("#composition-count").textContent = `${stops.length} ${w("colors")}`;
+  document.querySelector("#composition-preview").innerHTML = stops.map(({stop,groupId}) => {
+    const presentation = getStopPresentation(stop);
+    return `<button type="button" class="composition-color" data-preview-target="result-${groupId}-${stop.letter}" style="--swatch:${presentation.displayHex};--swatch-text:${presentation.displayTextColor}" aria-label="${escapeHtml(`${stop.title} ${presentation.displayHex}`)}"><span>${escapeHtml(stop.letter)}</span><strong>${escapeHtml(presentation.displayHex)}</strong></button>`;
+  }).join("");
+  // Keep the workspace behind the image dialog out of the keyboard sequence.
+  document.querySelector(".app-shell").inert = state.isImageModalOpen;
 }
 
 function renderWheelSurface() {
@@ -3668,15 +3567,29 @@ function syncWheelPanelHeight() {
   elements.appShell.style.setProperty("--wheel-panel-height", `${elements.wheelPanel.offsetHeight}px`);
 }
 
+const imageTool = createImageTool({ state, toggleBrand, escapeHtml, addSelection(colors) {
+  let added = 0;
+  for (const color of colors) {
+    if (!getCartItem(color.id)) { state.cartItems.push({ colorId: color.id, quantity: 1 }); added++; }
+  }
+  persistCart(); render();
+  showToast(added ? tr("{0} références ajoutées à votre liste.", {0: added}) : tr("Ces références sont déjà dans votre liste."));
+} });
+
 function render() {
+  const focused = document.activeElement;
+  const focusSelector = focused?.dataset ? Object.entries(focused.dataset)
+    .filter(([key]) => !["ws", "icon"].includes(key))
+    .map(([key, value]) => `[data-${key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`)}="${CSS.escape(value)}"]`).join("") : "";
   const activeColors = getActiveColors();
   const wheelEntries = buildWheelEntries(activeColors);
   const baseColor = createBaseColor();
-  const contexts = getTheoryContexts(baseColor);
+  const contexts = window.location.hash === "#image" ? [] : getTheoryContexts(baseColor);
   const palette = buildPaletteGroups(baseColor, contexts, activeColors);
   const wheelStops = buildWheelStops(palette.baseStop, palette.groups);
   const pickerResults = getPickerResults(baseColor, activeColors);
 
+  renderWorkspaceRoute();
   renderStaticText();
   renderControlMenu();
   renderSidebarTabs();
@@ -3686,6 +3599,7 @@ function render() {
   renderBrandToggles();
   renderControls(baseColor);
   renderImageWorkspace();
+  imageTool.refresh();
   renderImageSample();
   renderImagePalette();
   renderImageModal();
@@ -3703,7 +3617,10 @@ function render() {
   renderWheelSurface();
   renderWheel(wheelEntries, wheelStops);
   syncWheelPanelHeight();
+  renderWorkspacePresentation(baseColor, palette);
   schedulePersistAppState();
+  localizeDOM();
+  if (focusSelector && !focused.isConnected) document.querySelector(focusSelector)?.focus({ preventScroll: true });
 }
 
 function setBaseFromColor(color) {
@@ -3900,6 +3817,54 @@ function toggleColorTooltip(tooltipId) {
 }
 
 function bindEvents() {
+  window.addEventListener("hashchange", () => {
+    if (!["#create", "#image", "#list", ""].includes(location.hash)) return;
+    state.isImageModalOpen = false; state.isControlMenuOpen = false; render();
+    document.querySelector(".workspace-intro h1").focus({preventScroll:true});
+    window.scrollTo({top:0,behavior:"instant"});
+  });
+  window.addEventListener("storage", event => {
+    if (event.key === CART_STORAGE_KEY) { loadCartFromStorage(); reconcileCart(); render(); }
+  });
+  document.querySelector("#primary-theory").addEventListener("change", event => {
+    state.activeTheoryIds = new Set(event.target.value ? [event.target.value] : []);
+    render();
+  });
+  document.querySelector("#composition-preview").addEventListener("click", event => {
+    const button = event.target.closest("[data-preview-target]");
+    if (button) document.getElementById(button.dataset.previewTarget)?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
+  });
+  document.querySelector("#cart-undo").addEventListener("click", () => {
+    if (!cartUndoItems) return;
+    const merged = new Map(state.cartItems.map(item => [item.colorId, { ...item }]));
+    for (const item of cartUndoItems) {
+      const existing = merged.get(item.colorId);
+      if (existing) existing.quantity += item.quantity;
+      else merged.set(item.colorId, { ...item });
+    }
+    state.cartItems = [...merged.values()]; cartUndoItems = null;
+    document.querySelector("#cart-undo").hidden = true; persistCart(); render();
+  });
+  document.querySelector(".side-tabs-nav").addEventListener("keydown", event => {
+    if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
+    event.preventDefault();
+    const next = event.key === "Home" ? "hue" : event.key === "End" ? "picker" : state.activeSidebarTab === "hue" ? "picker" : "hue";
+    setActiveSidebarTab(next); document.querySelector(`[data-side-tab="${next}"]`).focus();
+  });
+  elements.imageModal.addEventListener("keydown", event => {
+    if (event.key !== "Tab") return;
+    const focusable = [...elements.imageModal.querySelectorAll('button:not([disabled]), input:not([disabled]), a[href]')].filter(el => el.getClientRects().length);
+    const first = focusable[0], last = focusable.at(-1);
+    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+  });
+  elements.controlPanel.addEventListener("keydown", event => {
+    if (event.key !== "Tab" || !state.isControlMenuOpen) return;
+    const nodes = [...elements.controlPanel.querySelectorAll('button:not([disabled]), input:not([disabled]), select, summary, a[href]')].filter(el => el.getClientRects().length && !el.closest('[hidden]'));
+    const first = nodes[0], last = nodes.at(-1);
+    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+  });
   elements.controlMenuToggle.addEventListener("click", toggleControlMenu);
   elements.controlMenuClose.addEventListener("click", () => {
     closeControlMenu();
@@ -3950,9 +3915,7 @@ function bindEvents() {
   elements.imageClear.addEventListener("click", clearImageSelection);
   elements.imagePaletteReset.addEventListener("click", clearPalette);
   elements.imageStage.addEventListener("click", () => {
-    if (state.imageAsset && !isCompactMobileViewport()) {
-      openImageModal();
-    }
+    // Sampling happens directly in the image workspace; enlargement is explicit.
   });
   elements.imageOpenModal.addEventListener("click", openImageModal);
 
@@ -3985,9 +3948,6 @@ function bindEvents() {
     }
   });
   elements.imageCanvas.addEventListener("pointermove", (event) => {
-    if (!isCompactMobileViewport()) {
-      return;
-    }
 
     positionImageCrosshair(
       elements.imageCanvas,
@@ -4000,9 +3960,6 @@ function bindEvents() {
     hideImageCrosshair(elements.imageCrosshair);
   });
   elements.imageCanvas.addEventListener("click", (event) => {
-    if (!isCompactMobileViewport()) {
-      return;
-    }
 
     updateImageSampleFromCanvasEvent(elements.imageCanvas, elements.imageCrosshair, event);
   });
@@ -4192,6 +4149,7 @@ function bindEvents() {
 
       if (color) {
         addSprayColorToPalette(color);
+        showToast(workspaceText("kept", state.language));
       }
       return;
     }
@@ -4244,6 +4202,7 @@ function bindEvents() {
       if (color) {
         state.activeColorTooltipId = null;
         addSprayColorToPalette(color);
+        showToast(workspaceText("kept", state.language));
       }
       return;
     }
@@ -4256,6 +4215,7 @@ function bindEvents() {
       if (color) {
         state.activeColorTooltipId = null;
         addColorToCart(color);
+        showToast(workspaceText("added", state.language));
       }
       return;
     }
@@ -4348,7 +4308,7 @@ function pickInitialBaseColor(colors) {
   const seed = buildColorRecord({
     id: "seed",
     brandId: "virtual",
-    brandLabel: "Custom",
+    brandLabel: tr("Custom"),
     name: "Seed",
     code: "",
     label: "Seed",
@@ -4440,6 +4400,9 @@ async function boot() {
   initializeAccordionSections();
   bindEvents();
   await loadData();
+  const requestedBase = new URLSearchParams(location.search).get("base");
+  const requestedColor = state.allColors.find(color => color.id === requestedBase);
+  if (requestedColor) setBaseFromColor(requestedColor);
 
   if (typeof ResizeObserver !== "undefined" && elements.wheelPanel) {
     const observer = new ResizeObserver(() => {
@@ -4449,12 +4412,12 @@ async function boot() {
   }
 
   window.addEventListener("resize", () => {
-    if (isMobileControlMenu()) {
-      renderControlMenu();
-    } else if (state.isControlMenuOpen) {
+    if (!isMobileControlMenu() && state.isControlMenuOpen) {
       closeControlMenu({ restoreFocus: false });
     }
+    renderControlMenu();
     renderImageWorkspace();
+  imageTool.refresh();
     renderImageModal();
     syncWheelPanelHeight();
   });

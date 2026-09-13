@@ -1,0 +1,170 @@
+/* Shared controls, loaded last on every page. Never target product swatches. */
+.workspace-app {
+  --ui-ink: #252826;
+  --ui-primary: #252826;
+  --ui-primary-hover: #3b3e3c;
+  --ui-on-primary: #ffffff;
+  --ui-surface: #ffffff;
+  --ui-soft: #f1f1ee;
+  --ui-hover: #e7e7e3;
+  --ui-border: #d6d7d2;
+  --ui-muted: #686c68;
+  --ui-focus: #296aae;
+  --studio-green: var(--ui-ink);
+  --studio-tint: var(--ui-soft);
+}
+
+/* Neutral menu containers and secondary controls. */
+.workspace-app :is(.primary-nav, .mode-nav, .side-tabs-nav, .wall-tabs) {
+  background: var(--ui-soft);
+  border-color: var(--ui-border);
+}
+.workspace-app :is(.cart-action, .algo-toggle, .brand-preset, .brand-toggle,
+  .catalog-group-filter, .cart-step, .control-menu-toggle),
+.workspace-app .wall-editor :is(button, select) {
+  background: var(--ui-surface);
+  color: var(--ui-ink);
+  border-color: var(--ui-border);
+  box-shadow: none;
+  border-radius: 9px;
+}
+.workspace-app :is(.primary-nav a, .mode-nav a, .side-tab-button,
+  .wall-tabs button, .language-options button) {
+  color: var(--ui-ink);
+}
+.workspace-app :is(.cart-action, .algo-toggle, .brand-preset, .brand-toggle,
+  .catalog-group-filter, .cart-step, .control-menu-toggle):hover:not(:disabled),
+.workspace-app .wall-editor button:hover:not(:disabled),
+.workspace-app :is(.primary-nav a, .mode-nav a, .side-tab-button, .language-options button):hover {
+  background: var(--ui-hover);
+  color: var(--ui-ink);
+  border-color: var(--ui-border);
+}
+
+/* One primary action style, including buttons inside results and saved lists. */
+.workspace-app .match-row-actions [data-choice-cart-color-id],
+.workspace-app :is(.image-save, .cart-download, .catalog-cart-button, .tone-cart-button),
+.workspace-app .catalog-color-actions .catalog-cart-button,
+.workspace-app .tone-match-actions [data-tone-cart-color-id],
+.workspace-app .wall-editor .wall-primary,
+.workspace-app .image-upload-field #image-upload-label,
+.workspace-app :is(#catalog-add-selection, #catalog-search-run) {
+  background: var(--ui-primary);
+  color: var(--ui-on-primary);
+  border: 1px solid var(--ui-primary);
+  border-radius: 9px;
+  font-weight: 650;
+  box-shadow: none;
+}
+.workspace-app .match-row-actions [data-choice-cart-color-id]:hover:not(:disabled),
+.workspace-app :is(.image-save, .cart-download, .catalog-cart-button, .tone-cart-button):hover:not(:disabled),
+.workspace-app .catalog-color-actions .catalog-cart-button:hover:not(:disabled),
+.workspace-app .tone-match-actions [data-tone-cart-color-id]:hover:not(:disabled),
+.workspace-app .wall-editor .wall-primary:hover:not(:disabled),
+.workspace-app .image-upload-field:hover #image-upload-label,
+.workspace-app :is(#catalog-add-selection, #catalog-search-run):hover:not(:disabled) {
+  background: var(--ui-primary-hover);
+  color: var(--ui-on-primary);
+  border-color: var(--ui-primary-hover);
+}
+
+/* Selected navigation and toggles share the same dark, high-contrast state. */
+.workspace-app :is(.primary-nav a, .mode-nav a)[aria-current],
+.workspace-app .language-options button[aria-pressed="true"],
+.workspace-app .algo-toggle[aria-pressed="true"],
+.workspace-app :is(.brand-preset, .brand-toggle, .side-tab-button).active,
+.workspace-app .catalog-group-filter:is(.active, .is-active),
+.workspace-app .wall-editor .wall-tabs button[aria-selected="true"],
+.workspace-app .wall-editor .mode-switch button[aria-pressed="true"],
+.workspace-app .wall-editor #peek[aria-pressed="true"] {
+  background: var(--ui-primary);
+  border-color: var(--ui-primary);
+  color: var(--ui-on-primary);
+  box-shadow: none;
+}
+.workspace-app .catalog-group-filter.is-active .catalog-group-filter-count,
+.workspace-app [aria-current] .nav-count {
+  background: #ffffff20;
+  color: var(--ui-on-primary);
+}
+.workspace-app .language-code,
+.workspace-app :is(.source-image-link, .step-label > span, .base-pill, .meta-pill, .match-cart-badge) {
+  background: var(--ui-soft);
+  border-color: var(--ui-border);
+  color: var(--ui-ink);
+}
+.workspace-app .match-copy-action.is-copied,
+.workspace-app .match-copy-action.is-copied:hover {
+  background: var(--ui-soft);
+  color: var(--ui-ink);
+  border-color: var(--ui-border);
+}
+.workspace-app :is(.tone-match-card, .catalog-color-card).is-in-cart {
+  border-color: var(--ui-border);
+}
+
+/* Image controls and wall help panels use the shared neutral surfaces. */
+.workspace-app #auto-brands label {
+  color: var(--ui-ink);
+  border-color: var(--ui-border);
+  background: var(--ui-surface);
+}
+.workspace-app #auto-brands label:has(:checked) {
+  color: var(--ui-on-primary);
+  border-color: var(--ui-primary);
+  background: var(--ui-primary);
+}
+.workspace-app #auto-brands label:hover { border-color: var(--ui-ink); }
+.workspace-app :is(.auto-local, #auto-status, .placement-note, .image-preview,
+  .list-summary, .empty-state, .image-stage.is-empty) {
+  background: var(--ui-soft);
+  border-color: var(--ui-border);
+  color: var(--ui-muted);
+}
+.workspace-app .image-stage:not(.is-empty) {
+  background: repeating-conic-gradient(#eee 0% 25%, #fafafa 0% 50%) 50% / 20px 20px;
+  border-color: var(--ui-border);
+}
+.workspace-app .wall-editor,
+.workspace-app #wall-editor:fullscreen { background: var(--ui-surface); border-color: var(--ui-border); }
+.workspace-app :is(.wall-controls, .project-actions, .local-badge) { border-color: var(--ui-border); }
+.workspace-app :is(.panel-copy, .wall-intro p:not(.eyebrow), .local-badge,
+  .image-name, .project-actions p, .wall-footer p, #wall-status) { color: var(--ui-muted); }
+.workspace-app .wall-stage { background: var(--ui-ink); }
+.workspace-app .wall-empty { color: #f5f5f2; }
+.workspace-app .wall-empty p { color: #c6c9c4; }
+.workspace-app .wall-empty svg { stroke: #bfc4ba; }
+.workspace-app .wall-empty svg rect:last-of-type { fill: #ffffff08; }
+.workspace-app .stage-badge { background: #252826df; color: #fff; border-color: #ffffff30; }
+.workspace-app .workspace-toast { background: var(--ui-ink); color: #fff; }
+
+/* Inputs and focus, identical with mouse, keyboard and touch on all tools. */
+.workspace-app input:is([type="checkbox"], [type="radio"], [type="range"]) { accent-color: var(--ui-ink); }
+.workspace-app #auto-brands label:has(:checked) input { accent-color: #fff; }
+.workspace-app input:is([type="text"], [type="search"]),
+.workspace-app select, .workspace-app textarea { border-color: var(--ui-border); }
+.workspace-app input[type="range"]::-webkit-slider-runnable-track { background: var(--ui-border); }
+.workspace-app input[type="range"]::-webkit-slider-thumb { background: var(--ui-ink); box-shadow: 0 0 0 1px #878b86; }
+.workspace-app input[type="range"]::-moz-range-track { background: var(--ui-border); }
+.workspace-app input[type="range"]::-moz-range-thumb { background: var(--ui-ink); box-shadow: 0 0 0 1px #878b86; }
+.workspace-app :focus-visible,
+.workspace-app .image-upload-field:focus-within #image-upload-label { outline: 3px solid var(--ui-focus); outline-offset: 3px; }
+.workspace-app .wall-editor button:disabled { opacity: .45; }
+@media(max-width:767px) {
+  .workspace-app .primary-nav { background: var(--ui-surface); border-top-color: var(--ui-border); }
+}
+/* Inverse action on the dark wall canvas keeps its button boundary visible. */
+.workspace-app .wall-editor .wall-empty .wall-primary {
+  background: var(--ui-surface);
+  border-color: var(--ui-surface);
+  color: var(--ui-ink);
+}
+.workspace-app .wall-editor .wall-empty .wall-primary:hover:not(:disabled) {
+  background: var(--ui-hover);
+  border-color: var(--ui-hover);
+  color: var(--ui-ink);
+}
+.workspace-app .tone-quality-badge.is-excellent {
+  background: var(--ui-soft);
+  color: var(--ui-ink);
+}

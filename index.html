@@ -1,508 +1,314 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spray Color Wheel</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <div class="app-shell">
-      <header class="topbar">
-        <div class="topbar-main">
-          <button
-            id="control-menu-toggle"
-            class="control-menu-toggle"
-            type="button"
-            aria-controls="control-panel-drawer"
-            aria-expanded="false"
-          >
-            <span class="control-menu-toggle-lines" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </button>
-          <div class="topbar-copy">
-            <div class="topbar-heading-row">
-              <p id="topbar-eyebrow" class="eyebrow">Catalogue multi-fabricants</p>
-              <a
-                id="topbar-contact-link"
-                class="meta-pill topbar-link"
-                href="https://www.instagram.com/gtwin_/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Stay in touch · Instagram
-              </a>
-            </div>
-            <h1 id="topbar-title">Spray Color Wheel</h1>
-            <div class="base-caption">
-              <a class="meta-pill topbar-link" href="./manufacturer-catalog.html">Catalogue fabricant</a>
-              <a class="meta-pill topbar-link" href="./manufacturer-tones.html">Tonalites fabricant</a>
-            </div>
-          </div>
-        </div>
-        <div id="topbar-meta" class="topbar-meta"></div>
-      </header>
-
-      <div id="control-menu-backdrop" class="control-menu-backdrop" hidden></div>
-
-      <main class="studio">
-        <aside id="control-panel-drawer" class="panel control-panel">
-          <div class="control-panel-header">
-            <div>
-              <p id="control-menu-eyebrow" class="eyebrow">Navigation</p>
-              <h2 id="control-menu-title">Menu</h2>
-            </div>
-            <button id="control-menu-close" class="control-menu-close" type="button">×</button>
-          </div>
-
-          <section class="control-block is-open" data-accordion-section="language">
-            <button class="accordion-trigger" type="button" data-accordion-trigger aria-expanded="true" aria-controls="accordion-language">
-              <span id="language-label" class="field-label">Langue de reference</span>
-              <span class="accordion-icon" aria-hidden="true"></span>
-            </button>
-            <div id="accordion-language" class="accordion-content">
-              <div class="accordion-content-inner">
-                <label class="field">
-                  <select id="language-select"></select>
-                </label>
-              </div>
-            </div>
-          </section>
-
-          <section class="control-block is-open" data-accordion-section="algorithms">
-            <button class="accordion-trigger" type="button" data-accordion-trigger aria-expanded="true" aria-controls="accordion-algorithms">
-              <span id="algorithms-label" class="field-label">Algorithmes</span>
-              <span class="accordion-icon" aria-hidden="true"></span>
-            </button>
-            <div id="accordion-algorithms" class="accordion-content">
-              <div class="accordion-content-inner">
-                <div id="theory-groups" class="theory-groups"></div>
-              </div>
-            </div>
-          </section>
-
-          <section class="control-block is-open" data-accordion-section="manufacturers">
-            <button class="accordion-trigger" type="button" data-accordion-trigger aria-expanded="true" aria-controls="accordion-manufacturers">
-              <span id="manufacturers-label" class="field-label">Fabricants</span>
-              <span class="accordion-icon" aria-hidden="true"></span>
-            </button>
-            <div id="accordion-manufacturers" class="accordion-content">
-              <div class="accordion-content-inner">
-                <div id="brand-presets" class="brand-presets"></div>
-                <div class="brand-toggles" id="brand-toggles"></div>
-              </div>
-            </div>
-          </section>
-
-        </aside>
-
-        <div class="workspace-grid">
-          <section class="panel wheel-panel">
-            <div class="wheel-header">
-              <div>
-                <p id="wheel-eyebrow" class="eyebrow">Create</p>
-                <h2 id="rule-title">Color rule</h2>
-                <div class="wheel-display-controls" role="group" aria-labelledby="wheel-display-label">
-                  <span id="wheel-display-label" class="field-label">Affichage de la roue</span>
-                  <div class="wheel-display-buttons">
-                    <button id="wheel-surface-toggle" class="algo-toggle" type="button" aria-pressed="true">
-                      Masquer le fond
-                    </button>
-                    <button id="wheel-sprays-toggle" class="algo-toggle" type="button" aria-pressed="true">
-                      Masquer les sprays
-                    </button>
-                  </div>
-                </div>
-                <div class="wheel-display-controls" role="group" aria-labelledby="wheel-snap-label">
-                  <span id="wheel-snap-label" class="field-label">Mode de selection</span>
-                  <div class="wheel-display-buttons">
-                    <button id="wheel-snap-theory" class="algo-toggle" type="button" aria-pressed="true">
-                      Snap to theory
-                    </button>
-                    <button id="wheel-snap-cans" class="algo-toggle" type="button" aria-pressed="false">
-                      Snap to cans
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <span id="rule-formula" class="rule-formula"></span>
-            </div>
-
-            <p id="rule-description" class="rule-description"></p>
-
-            <section class="wheel-guide-shell" aria-labelledby="wheel-guide-label">
-              <div class="wheel-guide-head">
-                <span id="wheel-guide-label" class="field-label">Lire la roue</span>
-                <button
-                  id="wheel-guide-toggle"
-                  class="algo-toggle"
-                  type="button"
-                  aria-pressed="false"
-                  aria-expanded="false"
-                  aria-controls="wheel-guide-panel"
-                >
-                  Comprendre la roue
-                </button>
-              </div>
-              <div id="wheel-legend" class="wheel-legend"></div>
-              <p id="wheel-guide-copy" class="wheel-guide-copy"></p>
-              <div id="wheel-guide-panel" class="wheel-guide-panel" hidden></div>
-            </section>
-
-            <div id="wheel-shell" class="wheel-shell">
-              <canvas id="wheel-surface" class="wheel-surface" aria-hidden="true"></canvas>
-              <svg
-                id="wheel-svg"
-                viewBox="-220 -220 440 440"
-                role="img"
-                aria-label="Cercle chromatique interactif"
-              ></svg>
-              <div id="wheel-guide-overlay" class="wheel-guide-overlay" aria-hidden="true" hidden></div>
-            </div>
-
-            <div id="base-caption" class="base-caption"></div>
-            <div id="theory-note" class="theory-note"></div>
-          </section>
-
-          <aside class="panel cart-panel sidebar-panel">
-            <button id="cart-modal-open" class="cart-popin-trigger" type="button">
-              <span id="cart-modal-open-label">Spray cart</span>
-              <span id="cart-modal-open-count" class="cart-popin-count">0</span>
-            </button>
-
-            <section class="side-tabs-shell">
-              <div class="side-tabs-nav" role="tablist">
-                <button
-                  id="sidebar-tab-image-upload"
-                  class="side-tab-button"
-                  type="button"
-                  role="tab"
-                  aria-controls="sidebar-panel-image-upload"
-                  aria-selected="false"
-                  data-side-tab="image-upload"
-                >
-                  <span id="sidebar-tab-image-upload-label">Importer une image</span>
-                </button>
-                <button
-                  id="sidebar-tab-image-palette"
-                  class="side-tab-button"
-                  type="button"
-                  role="tab"
-                  aria-controls="sidebar-panel-image-palette"
-                  aria-selected="false"
-                  data-side-tab="image-palette"
-                >
-                  <span id="sidebar-tab-image-palette-label">Palette</span>
-                </button>
-                <button
-                  id="sidebar-tab-hue"
-                  class="side-tab-button"
-                  type="button"
-                  role="tab"
-                  aria-controls="sidebar-panel-hue"
-                  aria-selected="true"
-                  data-side-tab="hue"
-                >
-                  <span id="sidebar-tab-hue-label">Choose base color</span>
-                </button>
-                <button
-                  id="sidebar-tab-picker"
-                  class="side-tab-button"
-                  type="button"
-                  role="tab"
-                  aria-controls="sidebar-panel-picker"
-                  aria-selected="false"
-                  data-side-tab="picker"
-                >
-                  <span id="sidebar-tab-picker-label">Choose a spray color</span>
-                </button>
-              </div>
-
-              <div class="side-tabs-panels">
-                <section
-                  id="sidebar-panel-image-upload"
-                  class="side-tab-panel"
-                  role="tabpanel"
-                  aria-labelledby="sidebar-tab-image-upload"
-                  hidden
-                >
-                  <div class="side-panel-head">
-                    <span id="image-label" class="field-label">Image source</span>
-                    <button id="image-clear" class="cart-action" type="button" disabled>
-                      Retirer
-                    </button>
-                  </div>
-
-                  <div class="side-panel-body">
-                    <label class="field">
-                      <span id="image-upload-label">Importer une image</span>
-                      <input id="image-input" type="file" accept="image/*" />
-                    </label>
-
-                    <p id="image-hint" class="image-copy">
-                      Charge une image, ouvre la pipette en grand, clique dans l'image puis garde la couleur.
-                    </p>
-
-                    <div id="image-stage" class="image-stage is-empty">
-                      <div id="image-empty" class="empty-state compact-empty">
-                        <p class="empty-copy">Aucune image chargee.</p>
-                      </div>
-                      <canvas id="image-canvas" hidden></canvas>
-                      <div id="image-crosshair" class="image-crosshair" hidden></div>
-                    </div>
-
-                    <button id="image-open-modal" class="image-save" type="button" disabled>
-                      Ouvrir la pipette en grand
-                    </button>
-
-                    <div id="image-sample" class="image-sample"></div>
-
-                    <button id="image-save-color" class="image-save" type="button" disabled>
-                      Garder cette couleur
-                    </button>
-
-                    <div class="image-inline-palette-head">
-                      <span id="image-inline-palette-label" class="field-label">Palette</span>
-                    </div>
-                    <div id="image-inline-palette" class="image-palette image-inline-palette"></div>
-                  </div>
-                </section>
-
-                <section
-                  id="sidebar-panel-image-palette"
-                  class="side-tab-panel"
-                  role="tabpanel"
-                  aria-labelledby="sidebar-tab-image-palette"
-                  hidden
-                >
-                  <div class="side-panel-head">
-                    <span id="image-palette-label" class="field-label">Palette</span>
-                    <button id="image-palette-reset" class="cart-action" type="button" disabled>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title data-l10n="Spray Color Wheel">Spray Color Wheel</title>
+<link href="./styles.css" rel="stylesheet"/>
+<link href="./workspace.css?v=20260913-wall-1" rel="stylesheet"/><link href="./image-tool.css?v=20260913-region-1" rel="stylesheet"/>
+<link href="./controls.css?v=20260913-unified-1" rel="stylesheet"/>
+</head>
+<body class="workspace-app" data-page="create"><a class="skip-link" data-ws="skip" href="#main-content">Aller au contenu</a>
+<div class="app-shell">
+<header class="app-header"><a aria-label="Spray Color Wheel" class="brand-lockup" data-l10n-attrs='{"aria-label": "Spray Color Wheel"}' href="./index.html#create"><span aria-hidden="true" class="brand-mark"><i></i><i></i><i></i></span><span>Spray<span class="brand-secondary">Color Wheel</span></span></a><nav aria-label="Navigation principale" class="primary-nav" data-l10n-attrs='{"aria-label": "Navigation principale"}'><a data-nav="create" href="./index.html#create"><span data-icon="palette"></span><span data-ws="create">Créer</span></a><a data-nav="image" href="./index.html#image"><span data-icon="image"></span><span data-ws="image">Image</span></a><a data-nav="wall" href="./wall.html"><span data-icon="wall"></span><span data-ws="wall">Mur</span></a><a data-nav="catalogue" href="./manufacturer-catalog.html"><span data-icon="grid"></span><span data-ws="catalogue">Nuanciers</span></a><a data-nav="list" href="./index.html#list"><span data-icon="list"></span><span data-ws="list">Ma liste</span><span class="nav-count" data-cart-count="">0</span></a></nav><details class="utility-menu"><summary><span data-ws="language">Langue</span><span class="language-code">FR</span></summary><div class="utility-popover"><div aria-label="Langue" class="language-options" data-l10n-attrs='{"aria-label": "Langue"}' role="group"><button aria-pressed="false" data-language="fr" lang="fr" type="button">Français<span aria-hidden="true">✓</span></button><button aria-pressed="false" data-language="en" lang="en" type="button">English<span aria-hidden="true">✓</span></button><button aria-pressed="false" data-language="de" lang="de" type="button">Deutsch<span aria-hidden="true">✓</span></button><button aria-pressed="false" data-language="es" lang="es" type="button">Español<span aria-hidden="true">✓</span></button><button aria-pressed="false" data-language="pt" lang="pt" type="button">Português<span aria-hidden="true">✓</span></button></div><label class="field" hidden=""><span data-l10n="Langue" id="language-label">Langue</span><select id="language-select"></select></label><a href="https://www.instagram.com/osea.smg/" rel="noreferrer" target="_blank">Instagram · @osea.smg ↗</a><p data-ws="accuracy">Les couleurs à l’écran sont indicatives. Vérifiez le nuancier physique.</p></div></details></header>
+<div class="control-menu-backdrop" hidden="" id="control-menu-backdrop"></div>
+<section class="workspace-intro" id="workspace-intro"><div><p class="eyebrow" data-ws="studio">L’atelier couleur</p><h1 tabindex="-1"><span data-ws="createTitle">Composez votre prochaine palette.</span></h1><p class="workspace-description"><span data-ws="createCopy">Une couleur de départ. Des harmonies. Les bonnes bombes.</span></p></div><nav aria-label="Mode de création" class="mode-nav" data-l10n-attrs='{"aria-label": "Mode de création"}'><a aria-current="page" data-ws="harmonies" href="./index.html#create">Harmonies</a><a data-ws="tones" href="./manufacturer-tones.html">Tonalités</a></nav><button aria-controls="control-panel-drawer" aria-expanded="false" class="control-menu-toggle" id="control-menu-toggle" type="button">
+<span aria-hidden="true" class="control-menu-toggle-lines">
+<span></span>
+<span></span>
+<span></span>
+</span>
+<span data-l10n="Réglages" id="mobile-settings-label">Réglages</span></button></section><main class="studio" data-workspace-view="create" id="main-content">
+<aside class="panel control-panel" id="control-panel-drawer"><div class="control-panel-header">
+<div>
+<p class="eyebrow" data-l10n="Navigation" id="control-menu-eyebrow">Navigation</p>
+<h2 data-l10n="Menu" id="control-menu-title">Menu</h2>
+</div>
+<button class="control-menu-close" id="control-menu-close" type="button">×</button>
+</div>
+<aside class="panel cart-panel sidebar-panel"><div class="step-label"><span>01</span><h2 data-ws="base">Couleur de départ</h2></div><div class="active-base-preview" id="active-base-preview"></div>
+<button class="cart-popin-trigger" hidden="" id="cart-modal-open" type="button">
+<span data-l10n="Spray cart" id="cart-modal-open-label">Spray cart</span>
+<span class="cart-popin-count" id="cart-modal-open-count">0</span>
+</button>
+<section class="side-tabs-shell">
+<div aria-label="Source de la couleur" class="side-tabs-nav" data-l10n-attrs='{"aria-label": "Source de la couleur"}' role="tablist">
+<button aria-controls="sidebar-panel-image-upload" aria-selected="false" class="side-tab-button" data-side-tab="image-upload" hidden="" id="sidebar-tab-image-upload" role="tab" type="button">
+<span data-l10n="Importer une image" id="sidebar-tab-image-upload-label">Importer une image</span>
+</button>
+<button aria-controls="sidebar-panel-image-palette" aria-selected="false" class="side-tab-button" data-side-tab="image-palette" hidden="" id="sidebar-tab-image-palette" role="tab" type="button">
+<span data-l10n="Palette" id="sidebar-tab-image-palette-label">Palette</span>
+</button>
+<button aria-controls="sidebar-panel-hue" aria-selected="true" class="side-tab-button" data-side-tab="hue" id="sidebar-tab-hue" role="tab" type="button">
+<span data-l10n="Choose base color" id="sidebar-tab-hue-label">Choose base color</span>
+</button>
+<button aria-controls="sidebar-panel-picker" aria-selected="false" class="side-tab-button" data-side-tab="picker" id="sidebar-tab-picker" role="tab" type="button">
+<span data-l10n="Choose a spray color" id="sidebar-tab-picker-label">Choose a spray color</span>
+</button>
+</div>
+<div class="side-tabs-panels">
+<section aria-labelledby="sidebar-tab-hue" class="side-tab-panel" id="sidebar-panel-hue" role="tabpanel">
+<div class="side-panel-head">
+<span class="field-label" data-l10n="Couleur de base" id="base-controls-label">Couleur de base</span>
+</div>
+<div class="side-panel-body">
+<label class="field">
+<span data-l10n="HEX" id="hex-label">HEX</span>
+<input id="hex-input" inputmode="text" type="text"/>
+</label>
+<label class="slider-field" for="hue-range">
+<span data-l10n="Hue" id="hue-label">Hue</span>
+<output id="hue-value"></output>
+</label>
+<input id="hue-range" max="359" min="0" step="1" type="range"/>
+<label class="slider-field" for="sat-range">
+<span data-l10n="Saturation" id="saturation-label">Saturation</span>
+<output id="sat-value"></output>
+</label>
+<input id="sat-range" max="100" min="0" step="1" type="range"/>
+<label class="slider-field" for="light-range">
+<span data-l10n="Lightness" id="lightness-label">Lightness</span>
+<output id="light-value"></output>
+</label>
+<input id="light-range" max="100" min="0" step="1" type="range"/>
+</div>
+</section>
+<section aria-labelledby="sidebar-tab-picker" class="side-tab-panel" hidden="" id="sidebar-panel-picker" role="tabpanel">
+<div class="side-panel-head">
+<span class="field-label" data-l10n="Choose a spray color" id="picker-label">Choose a spray color</span>
+</div>
+<div class="side-panel-body">
+<label class="field">
+<input data-l10n-attrs='{"placeholder": "Loop, Montana, code, name"}' id="picker-search" placeholder="Loop, Montana, code, name" type="search"/>
+</label>
+<div class="picker-results" id="picker-results"></div>
+</div>
+</section>
+</div>
+</section>
+<a class="source-image-link" href="#image"><span data-icon="image"></span><span data-ws="fromImage">Prélever depuis une image</span><span aria-hidden="true">↗</span></a></aside>
+<section class="composition-controls" data-accordion-section="algorithms"><div class="step-label"><span>02</span><h2 data-ws="composition">Composition</h2></div><label class="field"><span data-ws="harmony">Harmonie</span><select aria-label="Harmonie" data-l10n-attrs='{"aria-label": "Harmonie"}' id="primary-theory"></select></label>
+<button aria-controls="accordion-algorithms" aria-expanded="true" class="accordion-trigger" data-accordion-trigger="" hidden="" type="button">
+<span class="field-label" data-l10n="Algorithmes" id="algorithms-label">Algorithmes</span>
+<span aria-hidden="true" class="accordion-icon"></span>
+</button>
+<details class="advanced-theories"><summary data-ws="combine">Combiner plusieurs règles</summary><div class="theory-groups" id="theory-groups"></div></details></section>
+<details class="saved-colors"><summary data-ws="saved">Couleurs conservées</summary><section class="side-tab-panel" hidden="" id="sidebar-panel-image-palette">
+<div class="side-panel-head">
+<span class="field-label" data-l10n="Palette" id="image-palette-label">Palette</span>
+<button class="cart-action" data-l10n="Vider" disabled="" id="image-palette-reset" type="button">
                       Vider
                     </button>
-                  </div>
-
-                  <div class="side-panel-body">
-                    <div id="image-palette" class="image-palette"></div>
-                  </div>
-                </section>
-
-                <section
-                  id="sidebar-panel-hue"
-                  class="side-tab-panel"
-                  role="tabpanel"
-                  aria-labelledby="sidebar-tab-hue"
-                >
-                  <div class="side-panel-head">
-                    <span id="base-controls-label" class="field-label">Couleur de base</span>
-                  </div>
-
-                  <div class="side-panel-body">
-                    <label class="field">
-                      <span id="hex-label">HEX</span>
-                      <input id="hex-input" type="text" inputmode="text" />
-                    </label>
-
-                    <label class="slider-field" for="hue-range">
-                      <span id="hue-label">Hue</span>
-                      <output id="hue-value"></output>
-                    </label>
-                    <input id="hue-range" type="range" min="0" max="359" step="1" />
-
-                    <label class="slider-field" for="sat-range">
-                      <span id="saturation-label">Saturation</span>
-                      <output id="sat-value"></output>
-                    </label>
-                    <input id="sat-range" type="range" min="0" max="100" step="1" />
-
-                    <label class="slider-field" for="light-range">
-                      <span id="lightness-label">Lightness</span>
-                      <output id="light-value"></output>
-                    </label>
-                    <input id="light-range" type="range" min="0" max="100" step="1" />
-                  </div>
-                </section>
-
-                <section
-                  id="sidebar-panel-picker"
-                  class="side-tab-panel"
-                  role="tabpanel"
-                  aria-labelledby="sidebar-tab-picker"
-                  hidden
-                >
-                  <div class="side-panel-head">
-                    <span id="picker-label" class="field-label">Choose a spray color</span>
-                  </div>
-
-                  <div class="side-panel-body">
-                    <label class="field">
-                      <input
-                        id="picker-search"
-                        type="search"
-                        placeholder="Loop, Montana, code, name"
-                      />
-                    </label>
-                    <div id="picker-results" class="picker-results"></div>
-                  </div>
-                </section>
-              </div>
-            </section>
-          </aside>
-
-          <section class="panel palette-panel">
-            <div class="palette-head">
-              <div>
-                <p id="palette-eyebrow" class="eyebrow">Palette</p>
-                <h2 id="palette-title">Choix de sprays</h2>
-              </div>
-              <div id="palette-summary" class="palette-summary"></div>
-            </div>
-
-            <div id="palette-reference" class="palette-reference"></div>
-            <div id="swatch-strip" class="swatch-strip"></div>
-          </section>
-        </div>
-      </main>
-    </div>
-
-    <div id="image-modal" class="image-modal" hidden>
-      <div class="image-modal-backdrop" data-image-modal-close></div>
-      <section
-        class="image-modal-dialog panel"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="image-modal-title"
-      >
-        <div class="image-modal-header">
-          <div>
-            <p id="image-modal-eyebrow" class="eyebrow">Image source</p>
-            <h2 id="image-modal-title">Choisir une couleur de reference</h2>
-          </div>
-          <button id="image-modal-close" class="cart-action" type="button">Fermer</button>
-        </div>
-
-        <div class="image-modal-body">
-          <div id="image-modal-stage" class="image-stage image-modal-stage is-empty">
-            <div id="image-modal-empty" class="empty-state compact-empty">
-              <p class="empty-copy">Aucune image chargee.</p>
-            </div>
-            <div id="image-modal-viewport" class="image-modal-viewport" hidden>
-              <div id="image-modal-canvas-shell" class="image-canvas-shell image-modal-canvas-shell">
-                <canvas id="image-modal-canvas" hidden></canvas>
-                <div id="image-modal-crosshair" class="image-crosshair" hidden></div>
-              </div>
-            </div>
-          </div>
-
-          <aside class="image-modal-sidebar">
-            <div class="image-zoom-panel">
-              <div class="image-zoom-head">
-                <span id="image-modal-zoom-label" class="field-label">Zoom</span>
-                <output id="image-modal-zoom-value" for="image-modal-zoom-range">100%</output>
-              </div>
-
-              <div class="image-zoom-controls">
-                <button
-                  id="image-modal-zoom-out"
-                  class="cart-action image-zoom-button"
-                  type="button"
-                  aria-label="Zoom out"
-                >
-                  -
+</div>
+<div class="side-panel-body">
+<div class="image-palette" id="image-palette"></div>
+</div>
+</section></details></aside>
+<div class="workspace-grid"><section class="palette-overview panel"><div class="section-heading"><span class="eyebrow" data-ws="proposed">Palette proposée</span><span class="subtle" id="composition-count"></span></div><div class="composition-preview" id="composition-preview"></div></section>
+<section class="panel wheel-panel">
+<div class="wheel-header">
+<div>
+<p class="eyebrow" data-l10n="Create" hidden="" id="wheel-eyebrow">Create</p>
+<h2 id="rule-title">Color rule</h2>
+</div>
+<span class="rule-formula" id="rule-formula"></span>
+</div>
+<p class="rule-description" id="rule-description"></p>
+<div class="wheel-shell" id="wheel-shell">
+<canvas aria-hidden="true" class="wheel-surface" id="wheel-surface"></canvas>
+<svg aria-label="Cercle chromatique interactif" data-l10n-attrs='{"aria-label": "Cercle chromatique interactif"}' id="wheel-svg" role="img" viewbox="-220 -220 440 440"></svg>
+<div aria-hidden="true" class="wheel-guide-overlay" hidden="" id="wheel-guide-overlay"></div>
+</div>
+<div class="base-caption" id="base-caption"></div>
+<div class="theory-note" id="theory-note"></div>
+<details class="wheel-settings"><summary data-ws="wheelSettings">Affichage et aide de la roue</summary><div aria-labelledby="wheel-display-label" class="wheel-display-controls" role="group">
+<span class="field-label" data-l10n="Affichage de la roue" id="wheel-display-label">Affichage de la roue</span>
+<div class="wheel-display-buttons">
+<button aria-pressed="true" class="algo-toggle" data-l10n="Masquer le fond" id="wheel-surface-toggle" type="button">
+                      Masquer le fond
+                    </button>
+<button aria-pressed="true" class="algo-toggle" data-l10n="Masquer les sprays" id="wheel-sprays-toggle" type="button">
+                      Masquer les sprays
+                    </button>
+</div>
+</div><div aria-labelledby="wheel-snap-label" class="wheel-display-controls" role="group">
+<span class="field-label" data-l10n="Mode de selection" id="wheel-snap-label">Mode de selection</span>
+<div class="wheel-display-buttons">
+<button aria-pressed="true" class="algo-toggle" data-l10n="Snap to theory" id="wheel-snap-theory" type="button">
+                      Snap to theory
+                    </button>
+<button aria-pressed="false" class="algo-toggle" data-l10n="Snap to cans" id="wheel-snap-cans" type="button">
+                      Snap to cans
+                    </button>
+</div>
+</div><section aria-labelledby="wheel-guide-label" class="wheel-guide-shell">
+<div class="wheel-guide-head">
+<span class="field-label" data-l10n="Lire la roue" id="wheel-guide-label">Lire la roue</span>
+<button aria-controls="wheel-guide-panel" aria-expanded="false" aria-pressed="false" class="algo-toggle" data-l10n="Comprendre la roue" id="wheel-guide-toggle" type="button">
+                  Comprendre la roue
                 </button>
-                <input
-                  id="image-modal-zoom-range"
-                  type="range"
-                  min="1"
-                  max="6"
-                  step="0.25"
-                  value="1"
-                />
-                <button
-                  id="image-modal-zoom-in"
-                  class="cart-action image-zoom-button"
-                  type="button"
-                  aria-label="Zoom in"
-                >
-                  +
-                </button>
-              </div>
-
-              <button id="image-modal-zoom-reset" class="cart-action image-zoom-reset" type="button">
-                Fit
-              </button>
-            </div>
-
-            <p id="image-modal-hint" class="image-copy">
-              Clique dans l'image pour prelever une couleur plus precisement.
-            </p>
-
-            <div id="image-modal-sample" class="image-sample"></div>
-
-            <button id="image-modal-save-color" class="image-save" type="button" disabled>
-              Garder cette couleur
-            </button>
-
-            <div class="image-palette-head">
-              <span id="image-modal-palette-label" class="field-label">Palette</span>
-            </div>
-            <div id="image-modal-palette" class="image-palette"></div>
-          </aside>
-        </div>
-      </section>
-    </div>
-
-    <div id="cart-modal" class="cart-modal" hidden>
-      <div class="cart-modal-backdrop" data-cart-modal-close></div>
-      <section
-        class="cart-modal-dialog panel"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="cart-modal-title"
-      >
-        <div class="cart-modal-header">
-          <div>
-            <p id="cart-modal-eyebrow" class="eyebrow">Spray cart</p>
-            <h2 id="cart-modal-title">Spray cart</h2>
-          </div>
-          <button id="cart-modal-close" class="cart-action" type="button">Close</button>
-        </div>
-
-        <div class="cart-modal-body">
-          <section class="cart-shell cart-modal-shell">
-            <div class="cart-head">
-              <div>
-                <span id="cart-label" class="field-label">Panier de sprays</span>
-                <p id="cart-copy" class="cart-copy">Clique une reference dans Choix de sprays pour l'ajouter ici.</p>
-              </div>
-              <button id="cart-clear" class="cart-action" type="button" disabled>Empty cart</button>
-            </div>
-
-            <div id="cart-summary" class="cart-summary"></div>
-            <label class="field">
-              <span id="cart-unit-price-label" class="field-label">Prix par spray</span>
-              <input
-                id="cart-unit-price"
-                type="text"
-                inputmode="decimal"
-                autocomplete="off"
-                placeholder="6,50"
-              />
-            </label>
-            <p id="cart-cost-summary" class="cart-copy">Renseigne un prix par spray pour estimer le cout total.</p>
-            <div id="cart-list" class="cart-list"></div>
-
-            <button id="cart-download" class="cart-download" type="button">
+</div>
+<div class="wheel-legend" id="wheel-legend"></div>
+<p class="wheel-guide-copy" id="wheel-guide-copy"></p>
+<div class="wheel-guide-panel" hidden="" id="wheel-guide-panel"></div>
+</section></details></section>
+<section class="panel palette-panel">
+<div class="palette-head">
+<div>
+<p class="eyebrow" data-l10n="Palette" id="palette-eyebrow">Palette</p>
+<h2 data-l10n="Choix de sprays" id="palette-title">Choix de sprays</h2>
+</div>
+<div class="palette-summary" id="palette-summary"></div>
+</div><details class="brand-filter">
+<summary class="brand-filter-summary"><span data-l10n="Marques recherchées" id="manufacturers-label">Marques recherchées</span><span class="filter-count" id="selected-brands-count"></span></summary>
+<div class="brand-filter-content" id="accordion-manufacturers">
+<div class="accordion-content-inner">
+<div class="brand-presets" id="brand-presets"></div>
+<div class="brand-toggles" id="brand-toggles"></div>
+</div>
+</div>
+</details>
+<div class="palette-reference" id="palette-reference"></div>
+<div class="swatch-strip" id="swatch-strip"></div>
+</section>
+</div>
+</main><main class="image-workspace" data-workspace-view="image" hidden="" id="image-workspace"><section class="panel" id="image-auto-tool"></section><div class="image-editor"><section class="image-workspace-panel panel" hidden="" id="sidebar-panel-image-upload">
+<div class="side-panel-head">
+<span class="field-label" data-l10n="Image source" id="image-label">Image source</span>
+<button class="cart-action" data-l10n="Retirer" disabled="" id="image-clear" type="button">
+                      Retirer
+                    </button>
+</div>
+<div class="side-panel-body">
+<label class="field image-upload-field">
+<span data-l10n="Importer une image" id="image-upload-label">Importer une image</span>
+<input accept="image/*" id="image-input" type="file"/><span class="subtle" id="image-file-name"></span>
+</label>
+<p class="image-copy" data-l10n="Charge une image, ouvre la pipette en grand, clique dans l'image puis garde la couleur." id="image-hint">
+                      Charge une image, ouvre la pipette en grand, clique dans l'image puis garde la couleur.
+                    </p>
+<div class="image-stage is-empty" id="image-stage">
+<div class="empty-state compact-empty" id="image-empty">
+<p class="empty-copy" data-l10n="Aucune image chargee.">Aucune image chargee.</p>
+</div>
+<canvas hidden="" id="image-canvas"></canvas>
+<div class="image-crosshair" hidden="" id="image-crosshair"></div>
+</div>
+<button class="image-save" data-l10n="Ouvrir la pipette en grand" disabled="" id="image-open-modal" type="button">
+                      Ouvrir la pipette en grand
+                    </button>
+<div class="image-inline-palette-head" hidden="">
+<span class="field-label" data-l10n="Palette" id="image-inline-palette-label">Palette</span>
+</div>
+</div>
+</section></div><aside class="image-selection panel"><section class="image-current-sample"><p class="eyebrow" data-l10n="Prélèvement actuel">Prélèvement actuel</p><div class="image-sample" id="image-sample"></div><button class="image-save" data-l10n="Garder cette couleur" disabled="" id="image-save-color" type="button">
+                      Garder cette couleur
+                    </button></section><div class="section-heading"><span class="eyebrow" data-ws="saved">Couleurs conservées</span><a class="text-link" data-ws="continueCreate" href="#create">Créer une harmonie ↗</a></div><div class="image-palette image-inline-palette" id="image-inline-palette"></div></aside><section class="panel" hidden="" id="image-auto-results"></section><div id="image-results-slot"></div></main><main class="list-workspace" data-workspace-view="list" hidden="" id="cart-modal">
+<section class="list-page">
+<div class="list-page-header">
+<div>
+<p class="eyebrow" data-l10n="Spray cart" hidden="" id="cart-modal-eyebrow">Spray cart</p>
+<h2 data-l10n="Spray cart" hidden="" id="cart-modal-title">Spray cart</h2>
+</div>
+<button class="cart-action" data-ws="continueCreate" id="cart-modal-close" type="button">Close</button>
+</div>
+<div class="list-layout">
+<div class="cart-list" id="cart-list"></div><section class="list-summary panel">
+<div class="cart-head">
+<div>
+<span class="field-label" data-l10n="Panier de sprays" id="cart-label">Panier de sprays</span>
+<p class="cart-copy" data-l10n="Clique une reference dans Choix de sprays pour l'ajouter ici." id="cart-copy">Clique une reference dans Choix de sprays pour l'ajouter ici.</p>
+</div>
+<button class="cart-action" data-l10n="Empty cart" disabled="" id="cart-clear" type="button">Empty cart</button><button class="cart-action" data-ws="undo" hidden="" id="cart-undo" type="button">Annuler la suppression</button>
+</div>
+<div class="cart-summary" id="cart-summary"></div>
+<label class="field">
+<span class="field-label" data-l10n="Prix par spray" id="cart-unit-price-label">Prix par spray</span>
+<input autocomplete="off" id="cart-unit-price" inputmode="decimal" placeholder="6,50" type="text"/>
+</label>
+<p class="cart-copy" data-l10n="Renseigne un prix par spray pour estimer le cout total." id="cart-cost-summary">Renseigne un prix par spray pour estimer le cout total.</p>
+<button class="cart-download" data-l10n="Telecharger la fiche imprimable" id="cart-download" type="button">
               Telecharger la fiche imprimable
             </button>
-          </section>
-        </div>
-      </section>
-    </div>
-
-    <script type="module" src="./app.js"></script>
-  </body>
+</section>
+</div>
+</section>
+</main>
+<header class="legacy-header" hidden="">
+<div class="topbar-main">
+<div class="topbar-copy">
+<div class="topbar-heading-row">
+<p class="eyebrow" data-l10n="Catalogue multi-fabricants" id="topbar-eyebrow">Catalogue multi-fabricants</p>
+<a class="meta-pill topbar-link" data-l10n="Stay in touch · Instagram" href="https://www.instagram.com/osea.smg/" id="topbar-contact-link" rel="noreferrer" target="_blank">
+                Stay in touch · Instagram
+              </a>
+</div>
+<h1 data-l10n="Spray Color Wheel" id="topbar-title">Spray Color Wheel</h1>
+<div class="base-caption">
+<a class="meta-pill topbar-link" data-l10n="Catalogue fabricant" href="./manufacturer-catalog.html">Catalogue fabricant</a>
+<a class="meta-pill topbar-link" data-l10n="Tonalites fabricant" href="./manufacturer-tones.html">Tonalites fabricant</a>
+</div>
+</div>
+</div>
+<div class="topbar-meta" id="topbar-meta"></div>
+</header></div>
+<div class="image-modal" hidden="" id="image-modal">
+<div class="image-modal-backdrop" data-image-modal-close=""></div>
+<section aria-labelledby="image-modal-title" aria-modal="true" class="image-modal-dialog panel" role="dialog">
+<div class="image-modal-header">
+<div>
+<p class="eyebrow" data-l10n="Image source" id="image-modal-eyebrow">Image source</p>
+<h2 data-l10n="Choisir une couleur de reference" id="image-modal-title">Choisir une couleur de reference</h2>
+</div>
+<button class="cart-action" data-l10n="Fermer" id="image-modal-close" type="button">Fermer</button>
+</div>
+<div class="image-modal-body">
+<div class="image-stage image-modal-stage is-empty" id="image-modal-stage">
+<div class="empty-state compact-empty" id="image-modal-empty">
+<p class="empty-copy" data-l10n="Aucune image chargee.">Aucune image chargee.</p>
+</div>
+<div class="image-modal-viewport" hidden="" id="image-modal-viewport">
+<div class="image-canvas-shell image-modal-canvas-shell" id="image-modal-canvas-shell">
+<canvas hidden="" id="image-modal-canvas"></canvas>
+<div class="image-crosshair" hidden="" id="image-modal-crosshair"></div>
+</div>
+</div>
+</div>
+<aside class="image-modal-sidebar">
+<div class="image-zoom-panel">
+<div class="image-zoom-head">
+<span class="field-label" data-l10n="Zoom" id="image-modal-zoom-label">Zoom</span>
+<output for="image-modal-zoom-range" id="image-modal-zoom-value">100%</output>
+</div>
+<div class="image-zoom-controls">
+<button aria-label="Zoom out" class="cart-action image-zoom-button" data-l10n-attrs='{"aria-label": "Zoom out"}' id="image-modal-zoom-out" type="button">
+                  -
+                </button>
+<input id="image-modal-zoom-range" max="6" min="1" step="0.25" type="range" value="1"/>
+<button aria-label="Zoom in" class="cart-action image-zoom-button" data-l10n-attrs='{"aria-label": "Zoom in"}' id="image-modal-zoom-in" type="button">
+                  +
+                </button>
+</div>
+<button class="cart-action image-zoom-reset" data-l10n="Fit" id="image-modal-zoom-reset" type="button">
+                Fit
+              </button>
+</div>
+<p class="image-copy" data-l10n="Clique dans l'image pour prelever une couleur plus precisement." id="image-modal-hint">
+              Clique dans l'image pour prelever une couleur plus precisement.
+            </p>
+<div class="image-sample" id="image-modal-sample"></div>
+<button class="image-save" data-l10n="Garder cette couleur" disabled="" id="image-modal-save-color" type="button">
+              Garder cette couleur
+            </button>
+<div class="image-palette-head">
+<span class="field-label" data-l10n="Palette" id="image-modal-palette-label">Palette</span>
+</div>
+<div class="image-palette" id="image-modal-palette"></div>
+</aside>
+</div>
+</section>
+</div>
+<script src="./app.js?v=20260913-region-1" type="module"></script>
+<div aria-live="polite" class="workspace-toast" hidden="" id="workspace-toast" role="status"></div></body>
 </html>

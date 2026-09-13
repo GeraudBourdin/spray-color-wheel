@@ -1,3 +1,5 @@
+import { tr, localizeDOM, localizedCount, currentLanguage, localizeFinish } from "./localization.js?v=20260913-i18n-1";
+import { updateCartCount, showToast } from "./workspace.js?v=20260913-i18n-1";
 import {
   clamp,
   deltaE,
@@ -7,7 +9,7 @@ import {
   hueDistance,
   labToLch,
   lchToHex,
-} from "./color-utils.js";
+} from "./color-utils.js?v=20260913-contrast-1";
 
 const MANIFEST_URL = new URL("./manufacturers/index.json", window.location.href);
 const CART_STORAGE_KEY = "spray-color-wheel.cart";
@@ -174,7 +176,7 @@ function buildToneCopyActionKey(scope, colorId, copyKind) {
 }
 
 function formatCount(count, singular, plural = `${singular}s`) {
-  return `${count} ${count > 1 ? plural : singular}`;
+  return localizedCount(count, singular, plural);
 }
 
 function formatPercent(value) {
@@ -182,7 +184,7 @@ function formatPercent(value) {
 }
 
 function formatDeltaE(value) {
-  return (Math.round((Number(value) || 0) * 10) / 10).toFixed(1);
+  return (Number(value) || 0).toLocaleString(currentLanguage(), {minimumFractionDigits:1, maximumFractionDigits:1});
 }
 
 function normalizeCartItem(input) {
@@ -247,14 +249,15 @@ function getCartSprayCount() {
 }
 
 function renderCartStatus() {
+  updateCartCount(state.cartItems);
   const referenceCount = getCartReferenceCount();
   const sprayCount = getCartSprayCount();
 
   if (elements.tonesCartLink) {
-    elements.tonesCartLink.textContent = `Panier sprays · ${sprayCount}`;
+    elements.tonesCartLink.textContent = tr("Panier sprays · {0}", {0: sprayCount});
     elements.tonesCartLink.setAttribute(
       "aria-label",
-      sprayCount ? `${formatCount(sprayCount, "spray")} dans le panier` : "Panier sprays vide",
+      sprayCount ? tr("{0} dans le panier", {0: formatCount(sprayCount, "spray")}) : tr("Panier sprays vide"),
     );
   }
 
@@ -281,6 +284,7 @@ function addColorToCart(color) {
 
   persistCart();
   renderCartStatus();
+  showToast(tr("Référence ajoutée à votre liste"));
   rerenderActiveRecommendation();
 }
 
@@ -318,7 +322,7 @@ function buildColorRecord(input) {
   const hex = normalizeHexInput(input.hex);
 
   if (!hex) {
-    throw new Error("Couleur de catalogue invalide.");
+    throw new Error(tr("Couleur de catalogue invalide."));
   }
 
   const hsl = hexToHsl(hex);
@@ -340,7 +344,7 @@ function normalizeManufacturerCatalog(catalog) {
   const colors = Array.isArray(catalog?.colors) ? catalog.colors : [];
 
   if (!manufacturer?.id || !manufacturer?.label) {
-    throw new Error("Catalogue fabricant invalide.");
+    throw new Error(tr("Catalogue fabricant invalide."));
   }
 
   return {
@@ -408,6 +412,8 @@ function getStoredBaseColorId() {
   if (fromUrl) {
     return fromUrl;
   }
+
+  if (params.has("hex")) return "";
 
   try {
     return window.localStorage.getItem(BASE_COLOR_ID_STORAGE_KEY) || "";
@@ -490,7 +496,7 @@ function renderTopbarMeta(selectedCatalog) {
   elements.tonesTopbarMeta.innerHTML = `
     <span class="meta-pill">${escapeHtml(formatCount(manufacturerCount, "fabricant"))}</span>
     <span class="meta-pill">${escapeHtml(formatCount(colorCount, "reference"))}</span>
-    <span class="meta-pill">${escapeHtml(`${state.rampSize} tonalites`)}</span>
+    <span class="meta-pill">${escapeHtml(tr("{0} tonalites", {0: state.rampSize}))}</span>
   `;
 }
 
@@ -506,7 +512,7 @@ function renderSelectionSummary(selectedCatalog, baseColor = null, midToneCount 
   const pills = [
     `<span class="base-pill">${escapeHtml(selectedCatalog.manufacturer.label)}</span>`,
     `<span class="base-pill">${escapeHtml(baseLabel)}</span>`,
-    `<span class="base-pill">${escapeHtml(`${state.rampSize} tons`)}</span>`,
+    `<span class="base-pill">${escapeHtml(tr("{0} tons", {0: state.rampSize}))}</span>`,
   ];
 
   if (selectedCatalog.manufacturer.series) {
@@ -522,17 +528,17 @@ function renderSelectionSummary(selectedCatalog, baseColor = null, midToneCount 
 
 function renderCatalogHeader(selectedCatalog) {
   if (!selectedCatalog) {
-    elements.tonesTitle.textContent = "Catalogue indisponible";
+    elements.tonesTitle.textContent = tr("Catalogue indisponible");
     elements.tonesSubtitle.textContent = "";
     elements.tonesSummary.innerHTML = "";
-    document.title = "Tonalites par fabricant";
+    document.title = tr("Tonalites par fabricant");
     return;
   }
 
   const { manufacturer, colors } = selectedCatalog;
   const summaryPills = [
     `<span class="base-pill">${escapeHtml(formatCount(colors.length, "reference"))}</span>`,
-    `<span class="base-pill">${escapeHtml(`${state.rampSize} tonalites`)}</span>`,
+    `<span class="base-pill">${escapeHtml(tr("{0} tonalites", {0: state.rampSize}))}</span>`,
   ];
 
   if (manufacturer.series) {
@@ -542,9 +548,9 @@ function renderCatalogHeader(selectedCatalog) {
   elements.tonesTitle.textContent = manufacturer.label;
   elements.tonesSubtitle.textContent = manufacturer.source?.name
     ? `${manufacturer.source.name}${manufacturer.source.note ? ` · ${manufacturer.source.note}` : ""}`
-    : "Nuances d'une meme couleur, converties en recommandations de sprays reels.";
+    : tr("Nuances d'une meme couleur, converties en recommandations de sprays reels.");
   elements.tonesSummary.innerHTML = summaryPills.join("");
-  document.title = `${manufacturer.label} · Tonalites sprays`;
+  document.title = tr("{0} · Tonalites sprays", {0: manufacturer.label});
 }
 
 function isSpecialColor(color) {
@@ -680,7 +686,7 @@ function resolveBaseColor(catalog) {
     null;
 
   if (!nearest) {
-    throw new Error("Aucune base exploitable n'a ete trouvee dans ce catalogue.");
+    throw new Error(tr("Aucune base exploitable n'a ete trouvee dans ce catalogue."));
   }
 
   return {
@@ -814,22 +820,22 @@ function assignDistinctMatches(targets, colors, baseColor) {
 
 function getQualityBadge(candidate) {
   if (!candidate) {
-    return { label: "Indisponible", tone: "is-loose" };
+    return { label: tr("Indisponible"), tone: "is-loose" };
   }
 
   if (candidate.score <= 7) {
-    return { label: "Tres precise", tone: "is-excellent" };
+    return { label: tr("Tres precise"), tone: "is-excellent" };
   }
 
   if (candidate.score <= 12) {
-    return { label: "Solide", tone: "is-good" };
+    return { label: tr("Solide"), tone: "is-good" };
   }
 
   if (candidate.score <= 18) {
-    return { label: "Approchee", tone: "is-approx" };
+    return { label: tr("Approchee"), tone: "is-approx" };
   }
 
-  return { label: "Libre", tone: "is-loose" };
+  return { label: tr("Libre"), tone: "is-loose" };
 }
 
 function buildRecommendations(catalog) {
@@ -925,7 +931,7 @@ async function copyToneColorValue(color, copyKind, scope) {
   const copied = await copyTextToClipboard(value);
 
   if (!copied) {
-    window.alert("Impossible de copier cette valeur.");
+    window.alert(tr("Impossible de copier cette valeur."));
     return;
   }
 
@@ -935,57 +941,53 @@ async function copyToneColorValue(color, copyKind, scope) {
 function renderBasePreview(baseColor, catalog) {
   const copyHexActionKey = buildToneCopyActionKey("base", baseColor.id, "hex");
   const copyReferenceActionKey = buildToneCopyActionKey("base", baseColor.id, "reference");
-  const copyHexLabel = state.copiedToneActionKey === copyHexActionKey ? "Copie" : "Copier HEX";
-  const copyReferenceLabel = state.copiedToneActionKey === copyReferenceActionKey ? "Copie" : "Copier ref";
+  const copyHexLabel = state.copiedToneActionKey === copyHexActionKey ? tr("Copie") : tr("Copier HEX");
+  const copyReferenceLabel = state.copiedToneActionKey === copyReferenceActionKey ? tr("Copie") : tr("Copier ref");
   const cartQuantity = getCartQuantity(baseColor.id);
-  const cartLabel = cartQuantity > 0 ? `Ajouter au panier · x${cartQuantity}` : "Ajouter au panier";
+  const cartLabel = cartQuantity > 0 ? tr("Ajouter à ma liste · x{0}", {0: cartQuantity}) : tr("Ajouter à ma liste");
 
   if (!catalog) {
     elements.tonesBaseContext.textContent = "";
   } else {
     const label = [baseColor.code, baseColor.name || baseColor.label].filter(Boolean).join(" ").trim();
-    elements.tonesBaseContext.textContent = `Base mid tone ${label || baseColor.label} · ${catalog.manufacturer.label} sert de point de depart a la rampe sombre vers clair.`;
+    elements.tonesBaseContext.textContent = tr("Base mid tone {0} · {1} sert de point de depart a la rampe sombre vers clair.", {0: label || baseColor.label, 1: catalog.manufacturer.label});
   }
 
   elements.tonesBasePreview.innerHTML = `
     <div class="tones-base-swatch" style="background:${baseColor.hex}; color:${baseColor.textColor}">
-      <span class="tone-code-pill">${escapeHtml(baseColor.code || "BASE")}</span>
+      <span class="tone-code-pill">${escapeHtml(baseColor.code || tr("BASE"))}</span>
       <span class="tone-hex-pill">${escapeHtml(baseColor.hex)}</span>
     </div>
     <div class="tones-base-details">
       <div>
-        <h3 class="tone-base-title">Couleur de depart</h3>
+        <h3 class="tone-base-title">${escapeHtml(baseColor.label || baseColor.name)}</h3>
         <p class="tone-card-copy">
           ${escapeHtml(
-            `Cette base est une vraie reference mid tone du catalogue: ${
-              [baseColor.code, baseColor.name || baseColor.label].filter(Boolean).join(" ") || baseColor.label
-            }. Le moteur construit ensuite les variantes sombres et claires a partir de cette reference.`,
+            tr("Couleur de départ · {0}", {0: catalog?.manufacturer.label || ""}),
           )}
         </p>
       </div>
-      <div class="tones-base-detail-grid">
+      <details class="tones-color-values"><summary>${tr("Valeurs de la couleur")}</summary><div class="tones-base-detail-grid">
         <div class="tones-data-pill">
-          <strong>Hue</strong>
-          <span>${escapeHtml(`${Math.round(baseColor.hsl.h)} deg`)}</span>
+          <strong>${tr("Teinte")}</strong>
+          <span>${escapeHtml(tr("{0} deg", {0: Math.round(baseColor.hsl.h)}))}</span>
         </div>
         <div class="tones-data-pill">
-          <strong>Saturation</strong>
+          <strong>${tr("Saturation")}</strong>
           <span>${escapeHtml(formatPercent(baseColor.hsl.s))}</span>
         </div>
         <div class="tones-data-pill">
-          <strong>Lightness</strong>
+          <strong>${tr("Luminosité")}</strong>
           <span>${escapeHtml(formatPercent(baseColor.hsl.l))}</span>
         </div>
         <div class="tones-data-pill">
           <strong>L*</strong>
           <span>${escapeHtml(`${Math.round(baseColor.lab.l)}`)}</span>
         </div>
-      </div>
-      ${
-        cartQuantity > 0
-          ? `<div class="tone-pill-row"><span class="match-cart-badge">${escapeHtml(`Panier x${cartQuantity}`)}</span></div>`
-          : ""
-      }
+      </div></details>
+      ${cartQuantity > 0
+          ? `<div class="tone-pill-row"><span class="match-cart-badge">${escapeHtml(tr("Panier x{0}", {0: cartQuantity}))}</span></div>`
+          : ""}
       <div class="tones-base-actions">
         <button
           class="cart-action match-action tone-cart-button ${cartQuantity > 0 ? "is-in-cart" : ""}"
@@ -1023,14 +1025,14 @@ function renderToneRamp(targets) {
       (target) => `
         <article class="tone-ramp-card">
           <div class="tone-ramp-swatch" style="background:${target.hex}; color:${target.textColor}">
-            <span class="tone-role-badge">${escapeHtml(target.label)}</span>
+            <span class="tone-role-badge">${escapeHtml(tr(target.label))}</span>
             <span class="tone-hex-pill">${escapeHtml(target.hex)}</span>
           </div>
           <div class="tone-ramp-body">
-            <h4 class="tone-role-title">${escapeHtml(target.label)}</h4>
-            <p class="tone-card-copy">${escapeHtml(target.note)}</p>
+            <h4 class="tone-role-title">${escapeHtml(tr(target.label))}</h4>
+            <p class="tone-card-copy">${escapeHtml(tr(target.note))}</p>
             <div class="tone-pill-row">
-              <span class="meta-pill">H ${escapeHtml(`${Math.round(target.hsl.h)} deg`)}</span>
+              <span class="meta-pill">H ${escapeHtml(tr("{0} deg", {0: Math.round(target.hsl.h)}))}</span>
               <span class="meta-pill">S ${escapeHtml(formatPercent(target.hsl.s))}</span>
               <span class="meta-pill">L ${escapeHtml(formatPercent(target.hsl.l))}</span>
             </div>
@@ -1050,19 +1052,19 @@ function renderToneMatches(matches) {
       const colorLabel = [color.code, color.name || color.label].filter(Boolean).join(" ").trim() || color.label;
       const copyHexActionKey = buildToneCopyActionKey("match", color.id, "hex");
       const copyReferenceActionKey = buildToneCopyActionKey("match", color.id, "reference");
-      const copyHexLabel = state.copiedToneActionKey === copyHexActionKey ? "Copie" : "Copier HEX";
-      const copyReferenceLabel = state.copiedToneActionKey === copyReferenceActionKey ? "Copie" : "Copier ref";
+      const copyHexLabel = state.copiedToneActionKey === copyHexActionKey ? tr("Copie") : tr("Copier HEX");
+      const copyReferenceLabel = state.copiedToneActionKey === copyReferenceActionKey ? tr("Copie") : tr("Copier ref");
       const cartQuantity = getCartQuantity(color.id);
-      const cartLabel = cartQuantity > 0 ? `Ajouter au panier · x${cartQuantity}` : "Ajouter au panier";
+      const cartLabel = cartQuantity > 0 ? tr("Ajouter à ma liste · x{0}", {0: cartQuantity}) : tr("Ajouter à ma liste");
 
       return `
         <article class="tone-match-card ${cartQuantity > 0 ? "is-in-cart" : ""}">
           <div class="tone-match-swatch" style="background:${color.hex}; color:${color.textColor}">
             <div class="tone-card-topline">
-              <span class="tone-role-badge">${escapeHtml(target.label)}</span>
+              <span class="tone-role-badge">${escapeHtml(tr(target.label))}</span>
               <div class="tone-pill-row">
-                ${cartQuantity > 0 ? `<span class="match-cart-badge">${escapeHtml(`Panier x${cartQuantity}`)}</span>` : ""}
-                <span class="tone-quality-badge ${escapeHtml(quality.tone)}">${escapeHtml(quality.label)}</span>
+                ${cartQuantity > 0 ? `<span class="match-cart-badge">${escapeHtml(tr("Panier x{0}", {0: cartQuantity}))}</span>` : ""}
+                <span class="tone-quality-badge ${escapeHtml(quality.tone)}">${escapeHtml(tr(quality.label))}</span>
               </div>
             </div>
             <span class="tone-hex-pill">${escapeHtml(color.hex)}</span>
@@ -1076,10 +1078,10 @@ function renderToneMatches(matches) {
               ${color.code ? `<span class="meta-pill">${escapeHtml(color.code)}</span>` : ""}
               <span class="meta-pill">DeltaE ${escapeHtml(formatDeltaE(candidate.distance))}</span>
               <span class="meta-pill">L ${escapeHtml(`${Math.round(color.lab.l)}`)}</span>
-              ${color.finish ? `<span class="meta-pill">${escapeHtml(color.finish)}</span>` : ""}
+              ${color.finish ? `<span class="meta-pill">${escapeHtml(localizeFinish(color.finish))}</span>` : ""}
             </div>
             <div class="tone-match-target">
-              <span class="tone-meta-copy">Cible theorique</span>
+              <span class="tone-meta-copy">${tr("Cible theorique")}</span>
               <span class="tone-mini-target">
                 <span class="tone-mini-dot" style="background:${target.hex}"></span>
                 <span class="tone-meta-copy">${escapeHtml(target.hex)}</span>
@@ -1122,12 +1124,12 @@ function renderToneMatches(matches) {
 function renderMidToneBaseList(midToneColors, baseColor) {
   elements.tonesBaseListCount.textContent = midToneColors.length
     ? formatCount(midToneColors.length, "base proposee", "bases proposees")
-    : "0 base";
+    : tr("0 base");
 
   if (!midToneColors.length) {
     elements.tonesBaseList.innerHTML = `
       <div class="tones-base-empty">
-        Aucune base mid tone n'a ete detectee automatiquement pour cette marque.
+        ${tr("Aucune base mid tone n'a ete detectee automatiquement pour cette marque.")}
       </div>
     `;
     return;
@@ -1143,10 +1145,12 @@ function renderMidToneBaseList(midToneColors, baseColor) {
           class="tones-base-chip ${active ? "is-active" : ""}"
           type="button"
           data-base-color-id="${escapeHtml(color.id)}"
+          aria-label="${escapeHtml(`${color.code} ${label} ${color.hex}`)}"
+          title="${escapeHtml(`${color.code} ${label}`)}"
           aria-pressed="${active ? "true" : "false"}"
         >
           <span class="tones-base-chip-swatch" style="background:${color.hex}; color:${color.textColor}">
-            <span class="tone-code-pill">${escapeHtml(color.code || "BASE")}</span>
+            <span class="tone-code-pill">${escapeHtml(color.code || tr("BASE"))}</span>
             <span class="tone-hex-pill">${escapeHtml(color.hex)}</span>
           </span>
           <span class="tones-base-chip-body">
@@ -1193,20 +1197,20 @@ async function loadManifest() {
   const response = await fetch(MANIFEST_URL);
 
   if (!response.ok) {
-    throw new Error("Impossible de charger la liste des fabricants.");
+    throw new Error(tr("Impossible de charger la liste des fabricants."));
   }
 
   const manifest = await response.json();
   const manufacturers = Array.isArray(manifest?.manufacturers) ? manifest.manufacturers : [];
 
   if (!manufacturers.length) {
-    throw new Error("Aucun fabricant n'est disponible.");
+    throw new Error(tr("Aucun fabricant n'est disponible."));
   }
 
   state.manifest = manufacturers.map((entry) => ({
     id: entry.id,
     path: entry.path,
-    label: entry.label || entry.id,
+    label: entry.label || ({loop:"Loop", "montana-black":"Montana BLACK", "montana-blue":"Montana BLUE", "montana-gold":"Montana GOLD", "flame-orange":"FLAME ORANGE", "flame-blue":"FLAME BLUE", "molotow-belton":"Molotow Belton", "mtn-hardcore-2":"MTN Hardcore 2", "montana-94":"Montana 94", "kobra-low-pressure-400ml":"Kobra Low pressure 400ml", "kobra-high-pressure-400ml":"Kobra High pressure 400ml"})[entry.id] || entry.id,
   }));
 }
 
@@ -1218,13 +1222,13 @@ async function loadCatalog(manufacturerId) {
   const manifestEntry = getManifestEntry(manufacturerId);
 
   if (!manifestEntry) {
-    throw new Error("Fabricant introuvable.");
+    throw new Error(tr("Fabricant introuvable."));
   }
 
   const response = await fetch(new URL(manifestEntry.path, MANIFEST_URL));
 
   if (!response.ok) {
-    throw new Error(`Impossible de charger le catalogue ${manifestEntry.label}.`);
+    throw new Error(tr("Impossible de charger le catalogue {0}.", {0: manifestEntry.label}));
   }
 
   const catalog = normalizeManufacturerCatalog(await response.json());
@@ -1233,7 +1237,7 @@ async function loadCatalog(manufacturerId) {
 }
 
 async function renderSelectedManufacturer() {
-  renderFeedback("Chargement du nuancier tonal...");
+  renderFeedback(tr("Chargement du nuancier tonal..."));
   state.copiedToneActionKey = null;
 
   if (copiedToneActionTimer) {
@@ -1247,6 +1251,8 @@ async function renderSelectedManufacturer() {
 
     state.selectedBaseColorId = recommendation.baseColor.id;
     state.baseHex = recommendation.baseColor.hex;
+    const harmonyLink = document.querySelector('.mode-nav [data-ws="harmonies"]');
+    harmonyLink.href = `./index.html?base=${encodeURIComponent(recommendation.baseColor.id)}#create`;
     persistState();
 
     renderTopbarMeta(catalog);
@@ -1259,7 +1265,7 @@ async function renderSelectedManufacturer() {
     renderSelectionSummary(null, null, 0);
     renderCatalogHeader(null);
     renderRecommendations(null);
-    renderFeedback(error.message || "Erreur de chargement du nuancier tonal.", true);
+    renderFeedback(error.message || tr("Erreur de chargement du nuancier tonal."), true);
   }
 }
 
@@ -1294,7 +1300,7 @@ async function setBaseColor(colorId) {
 }
 
 async function boot() {
-  renderFeedback("Chargement des fabricants...");
+  renderFeedback(tr("Chargement des fabricants..."));
   loadCartFromStorage();
   renderCartStatus();
   state.baseHex = getStoredBaseHex();
@@ -1372,8 +1378,16 @@ async function boot() {
     renderSelectionSummary(null);
     renderCatalogHeader(null);
     renderRecommendations(null);
-    renderFeedback(error.message || "Erreur au demarrage de la page tonalites.", true);
+    renderFeedback(error.message || tr("Erreur au demarrage de la page tonalites."), true);
   }
 }
 
 boot();
+
+document.addEventListener('languagechange', () => {
+  renderManufacturerOptions(); renderCartStatus(); renderRampSizeControls();
+  renderTopbarMeta(state.currentCatalog); renderCatalogHeader(state.currentCatalog);
+  const recommendation = state.currentRecommendation;
+  renderSelectionSummary(state.currentCatalog, recommendation?.baseColor, recommendation?.midToneColors.length || 0);
+  renderRecommendations(state.currentCatalog, recommendation); localizeDOM();
+});

@@ -1,0 +1,501 @@
+/* Shared workspace design. Loaded after legacy component styles on all pages. */
+:root {
+  --shell-width: 1600px;
+  --surface-frost: #fff;
+  --surface-soft: #f7f8fa;
+  --line-soft: #e3e6eb;
+  --line-strong: #cdd3dc;
+  --radius-panel: 14px;
+  --radius-card: 10px;
+  --radius-soft: 8px;
+  --shadow-panel: none;
+  --shadow-card: none;
+  --shadow-micro: none;
+  --studio-ink: #202833;
+  --studio-muted: #637080;
+  --studio-green: #17634f;
+  --studio-tint: #edf5f1;
+}
+.workspace-app { background: #f5f6f8; color: var(--studio-ink); font-size:14px; line-height:1.5; }
+.workspace-app::before, .workspace-app::after, .workspace-app .panel::before { display:none; }
+.workspace-app [hidden] { display:none !important; }
+.workspace-app .app-shell { width:min(1600px,100%); padding:0 32px 40px; }
+.workspace-app .panel { border:1px solid var(--line-soft); border-radius:14px; background:#fff; box-shadow:none; }
+.workspace-app button, .workspace-app a, .workspace-app input, .workspace-app select, .workspace-app summary { -webkit-tap-highlight-color:transparent; }
+.workspace-app button, .workspace-app input, .workspace-app select, .workspace-app textarea { font:inherit; }
+.workspace-app button, .workspace-app a { transition:background-color .15s,color .15s,border-color .15s; }
+.workspace-app button:disabled { opacity:.45; cursor:not-allowed; }
+.workspace-app :focus-visible { outline:3px solid #267cbe; outline-offset:3px; }
+.workspace-app .skip-link { position:fixed; top:-80px; left:20px; z-index:300; padding:12px 20px; background:#fff; border:2px solid #267cbe; }
+.workspace-app .skip-link:focus { top:12px; }
+.workspace-app .app-header { min-height:80px; display:flex; gap:28px; align-items:center; border-bottom:1px solid var(--line-soft); }
+.workspace-app .brand-lockup { display:flex; align-items:center; gap:11px; text-decoration:none; font-size:19px; font-weight:800; letter-spacing:-.6px; flex-shrink:0; }
+.workspace-app .brand-secondary { display:block; font-size:10px; color:var(--studio-muted); letter-spacing:1.25px; text-transform:uppercase; font-weight:600; margin-top:-3px; }
+.workspace-app .brand-mark { width:34px; height:34px; display:flex; gap:3px; align-items:center; transform:rotate(-12deg); }
+.workspace-app .brand-mark i { display:block; height:25px; width:8px; border-radius:3px; background:#334c44; }
+.workspace-app .brand-mark i:nth-child(2) { background:#8bb7a3; height:34px; }
+.workspace-app .brand-mark i:nth-child(3) { background:#d8b08e; height:20px; }
+.workspace-app .primary-nav { display:flex; align-items:center; gap:6px; margin:auto; }
+.workspace-app .primary-nav a { display:flex; align-items:center; justify-content:center; gap:8px; padding:10px 17px; border-radius:8px; font-size:13px; font-weight:650; text-decoration:none; color:#5a6573; white-space:nowrap; }
+.workspace-app .primary-nav a:hover { background:#e9ecf0; }
+.workspace-app .primary-nav a[aria-current] { background:var(--studio-ink); color:#fff; }
+.workspace-app [data-icon] { display:inline-flex; flex-shrink:0; }
+.workspace-app [data-icon] svg { width:18px; height:18px; }
+.workspace-app .nav-count { display:inline-grid; place-content:center; min-width:21px; height:21px; padding:0 5px; border-radius:5px; font-size:11px; background:#e5e9ed; color:#404a58; }
+.workspace-app [aria-current] .nav-count { background:#46515f; color:#fff; }
+.workspace-app .utility-menu { position:relative; flex-shrink:0; z-index:110; }
+.workspace-app .utility-menu > summary { list-style:none; cursor:pointer; min-height:42px; padding:8px 11px; display:flex; gap:8px; align-items:center; border:1px solid var(--line-soft); border-radius:8px; background:#fff; font-size:12px; }
+.workspace-app .language-code { font-size:10px; font-weight:750; color:var(--studio-green); background:var(--studio-tint); padding:3px 5px; border-radius:4px; }
+.workspace-app .language-options { display:grid; gap:4px; }
+.workspace-app .language-options button { display:flex; align-items:center; justify-content:space-between; min-height:44px; padding:9px 12px; border:1px solid transparent; background:transparent; border-radius:6px; text-align:left; cursor:pointer; }
+.workspace-app .language-options button:hover { background:#f1f3f5; }
+.workspace-app .language-options button[aria-pressed="true"] { background:var(--studio-tint); color:var(--studio-green); border-color:#c1d7cb; font-weight:650; }
+.workspace-app .language-options button span { visibility:hidden; }
+.workspace-app .language-options button[aria-pressed="true"] span { visibility:visible; }
+.workspace-app .utility-menu summary::-webkit-details-marker { display:none; }
+.workspace-app .utility-popover { position:absolute; right:0; top:48px; z-index:100; background:#fff; border:1px solid var(--line-soft); border-radius:12px; padding:20px; box-shadow:0 12px 36px #1523331a; width:260px; display:grid; gap:16px; }
+.workspace-app .utility-popover p { color:var(--studio-muted); font-size:12px; margin:0; }
+.workspace-app .utility-popover a { font-size:13px; }
+.workspace-app .workspace-intro { display:flex; align-items:center; justify-content:space-between; gap:24px; padding:30px 0 26px; }
+.workspace-app .workspace-intro h1 { font-size:clamp(23px,2.1vw,31px); line-height:1.25; font-weight:750; letter-spacing:-1px; margin:5px 0 7px; }
+.workspace-app .workspace-intro h1:focus { outline:none; }
+.workspace-app .workspace-description { margin:0; color:var(--studio-muted); font-size:13px; }
+.workspace-app .eyebrow { font-size:10px; letter-spacing:1.5px; font-weight:700; color:var(--studio-muted); text-transform:uppercase; }
+.workspace-app .mode-nav { display:flex; flex-shrink:0; gap:3px; padding:4px; border:1px solid var(--line-soft); background:#eceedf00; border-radius:9px; }
+.workspace-app .mode-nav a { font-size:12px; text-decoration:none; padding:9px 16px; border-radius:6px; color:var(--studio-muted); font-weight:650; }
+.workspace-app .mode-nav a[aria-current] { background:#fff; color:var(--studio-ink); box-shadow:0 1px 4px #1c283014; }
+.workspace-app .studio { display:grid; grid-template-columns:270px minmax(0,1fr); gap:22px; align-items:start; }
+.workspace-app .control-panel { position:static; top:auto; width:auto; height:auto; max-height:none; padding:0; overflow:visible; background:#fff; transform:none; pointer-events:auto; }
+.workspace-app .control-panel:not(.is-mobile-open) { pointer-events:auto; }
+.workspace-app .control-panel-header { display:none; }
+.workspace-app .workspace-grid { display:grid; grid-template-areas:none; grid-template-rows:auto; grid-template-columns:minmax(270px,.92fr) minmax(320px,1.08fr); gap:18px; align-items:start; }
+.workspace-app .workspace-grid > .wheel-panel, .workspace-app .workspace-grid > .palette-panel { grid-area:auto; }
+.workspace-app .palette-overview { grid-column:1 / -1; padding:18px; }
+.workspace-app .section-heading { display:flex; flex-wrap:wrap; gap:10px; justify-content:space-between; align-items:center; margin-bottom:14px; }
+.workspace-app .subtle { font-size:12px; color:var(--studio-muted); }
+.workspace-app .composition-preview { display:flex; gap:6px; flex-wrap:wrap; }
+.workspace-app .composition-color { position:relative; flex:1 1 65px; min-width:65px; min-height:86px; border:1px solid #0000000d; border-radius:8px; padding:11px; display:flex; flex-direction:column; align-items:flex-start; justify-content:space-between; background:var(--swatch); color:var(--swatch-text); text-align:left; box-shadow:none; }
+.workspace-app .composition-color span { font-size:12px; font-weight:700; }
+.workspace-app .composition-color strong { font:500 11px 'IBM Plex Mono',monospace; }
+.workspace-app .sidebar-panel { display:block; grid-area:auto; height:auto; padding:20px; border:0; background:transparent; border-radius:0; box-shadow:none; position:static; max-height:none; overflow:visible; }
+.workspace-app .step-label { display:flex; align-items:center; gap:9px; margin-bottom:17px; }
+.workspace-app .step-label > span { border:1px solid var(--line-soft); background:#f5f6f8; display:grid; place-content:center; width:24px; height:24px; border-radius:6px; color:var(--studio-muted); font:500 11px 'IBM Plex Mono',monospace; }
+.workspace-app .step-label h2 { margin:0; font-size:13px; font-weight:750; letter-spacing:-.2px; }
+.workspace-app .active-base-preview { display:flex; align-items:center; gap:10px; margin-bottom:17px; }
+.workspace-app .base-preview-swatch { width:45px; height:45px; border-radius:9px; border:1px solid #00000012; flex-shrink:0; }
+.workspace-app .active-base-preview div { min-width:0; }
+.workspace-app .active-base-preview strong { display:block; font:500 13px 'IBM Plex Mono',monospace; }
+.workspace-app .active-base-preview div > span { font-size:11px; display:block; color:var(--studio-muted); overflow-wrap:anywhere; }
+.workspace-app .side-tabs-shell, .workspace-app .side-tabs-panels, .workspace-app .side-tab-panel { padding:0; border:0; background:transparent; box-shadow:none; }
+.workspace-app .side-tabs-nav { display:grid; grid-template-columns:1fr 1fr; gap:3px; background:#f1f3f5; padding:3px; border-radius:7px; margin:0 0 17px; }
+.workspace-app .side-tab-button { padding:8px 4px; min-height:34px; border:0; border-radius:5px; background:transparent; color:var(--studio-muted); text-transform:none; font-size:11px; letter-spacing:0; box-shadow:none; }
+.workspace-app .side-tab-button.active { background:#fff; color:var(--studio-ink); box-shadow:0 1px 4px #16233312; }
+.workspace-app #sidebar-panel-hue .side-panel-head, .workspace-app #sidebar-panel-picker .side-panel-head { display:none; }
+.workspace-app .side-panel-body { padding:0; gap:10px; }
+.workspace-app .field { display:grid; gap:7px; min-width:0; }
+.workspace-app .field > span, .workspace-app .field-label, .workspace-app .slider-field span { font-size:11px; font-weight:600; letter-spacing:0; text-transform:none; color:#536172; }
+.workspace-app input[type=text], .workspace-app input[type=search], .workspace-app select, .workspace-app textarea { width:100%; min-width:0; border:1px solid #d9dfe6; border-radius:7px; background:#fff; color:var(--studio-ink); padding:10px 11px; box-shadow:none; font-size:13px; min-height:40px; }
+.workspace-app input::placeholder, .workspace-app textarea::placeholder { color:#7b8490; }
+.workspace-app input[type=range] { accent-color:var(--studio-green); width:100%; min-width:0; height:20px; }
+.workspace-app .slider-field { margin:8px 0 0; }
+.workspace-app .slider-field output { font:500 11px 'IBM Plex Mono',monospace; color:var(--studio-muted); }
+.workspace-app .source-image-link { display:flex; gap:8px; align-items:center; margin-top:18px; color:var(--studio-green); font-size:11px; text-decoration:none; }
+.workspace-app .source-image-link > span:last-child { margin-left:auto; }
+.workspace-app .composition-controls { padding:20px; border-top:1px solid var(--line-soft); }
+.workspace-app .advanced-theories > summary, .workspace-app .saved-colors > summary, .workspace-app .wheel-settings > summary { font-size:11px; font-weight:650; color:var(--studio-muted); padding:13px 0; cursor:pointer; }
+.workspace-app .advanced-theories { margin-top:6px; }
+.workspace-app .saved-colors { border-top:1px solid var(--line-soft); padding:5px 20px; }
+.workspace-app .saved-colors .side-panel-head { margin-top:10px; }
+.workspace-app .theory-chip { font-size:11px; padding:7px 9px; border:1px solid var(--line-soft); border-radius:6px; background:#fff; box-shadow:none; color:#526071; min-height:32px; }
+.workspace-app .theory-chip.active { background:var(--studio-tint); border-color:#abcbbb; color:var(--studio-green); }
+.workspace-app .theory-chip-help { width:24px; height:24px; background:transparent; color:var(--studio-muted); border:1px solid var(--line-soft); box-shadow:none; }
+.workspace-app .theory-section-label { font-size:10px; letter-spacing:1px; margin:12px 0 8px; }
+.workspace-app .theory-tooltip { z-index:110; max-width:min(340px,calc(100vw - 48px)); background:#fff; border:1px solid var(--line-soft); box-shadow:0 8px 32px #182b3520; }
+.workspace-app .wheel-panel { padding:21px; min-width:0; }
+.workspace-app .wheel-header { align-items:center; gap:8px; margin:0; }
+.workspace-app .wheel-header h2 { margin:0; font-size:17px; }
+.workspace-app .rule-formula { font:500 10px 'IBM Plex Mono',monospace; color:var(--studio-muted); border:0; background:#f4f5f7; border-radius:5px; padding:5px 7px; }
+.workspace-app .rule-description { font-size:12px; line-height:1.6; color:var(--studio-muted); margin:10px 0 15px; }
+.workspace-app .wheel-shell { border:0; box-shadow:none; border-radius:50%; padding:0; background:transparent; width:100%; max-width:390px; margin:0 auto 16px; aspect-ratio:1; }
+.workspace-app .base-caption { gap:5px; }
+.workspace-app .base-pill, .workspace-app .meta-pill { font-size:10px; padding:4px 7px; border:0; border-radius:5px; color:#596676; background:#f1f3f6; box-shadow:none; }
+.workspace-app #base-caption .base-pill:last-child { flex-basis:100%; background:transparent; padding:4px 0; font-size:11px; }
+.workspace-app .wheel-settings { border-top:1px solid var(--line-soft); margin-top:14px; }
+.workspace-app .wheel-display-controls { margin:12px 0; }
+.workspace-app .wheel-guide-shell { padding:12px; background:#f7f8fa; border:1px solid var(--line-soft); box-shadow:none; border-radius:8px; }
+.workspace-app .wheel-guide-copy { font-size:11px; }
+.workspace-app .wheel-legend { gap:4px; }
+.workspace-app .wheel-guide-panel { font-size:12px; }
+.workspace-app .palette-panel { grid-column:auto; padding:20px; min-width:0; }
+.workspace-app .palette-head { align-items:center; gap:8px; margin-bottom:17px; }
+.workspace-app .palette-head h2 { font-size:16px; margin:0; }
+.workspace-app #palette-eyebrow { display:none; }
+.workspace-app .brand-filter { margin-bottom:18px; border-bottom:1px solid var(--line-soft); }
+.workspace-app .brand-filter-summary { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:0 0 14px; cursor:pointer; font-size:12px; }
+.workspace-app .brand-filter-summary::after { content:'⌄'; }
+.workspace-app .filter-count { margin-left:auto; color:var(--studio-green); background:var(--studio-tint); padding:3px 7px; border-radius:4px; font-size:10px; }
+.workspace-app .brand-filter-content { padding-bottom:15px; }
+.workspace-app .brand-presets { gap:4px; margin-bottom:12px; }
+.workspace-app .brand-preset { border:1px solid var(--line-soft); border-radius:5px; padding:5px 7px; font-size:10px; box-shadow:none; background:#f8f9fa; }
+.workspace-app .brand-toggle { padding:8px; border-radius:6px; box-shadow:none; font-size:11px; }
+.workspace-app .brand-toggle.active { background:var(--studio-tint); border-color:#c1d7cb; }
+.workspace-app .swatch-strip { display:grid; gap:20px; }
+.workspace-app .result-group-title { margin:0 0 9px; font-size:11px; font-weight:650; color:var(--studio-muted); }
+.workspace-app .target-result { border:1px solid var(--line-soft); border-radius:10px; margin-bottom:12px; overflow:hidden; scroll-margin-top:20px; }
+.workspace-app .target-heading { display:flex; align-items:center; gap:9px; padding:10px 12px; border-bottom:1px solid var(--line-soft); background:#fafbfc; }
+.workspace-app .target-swatch { display:grid; place-content:center; width:28px; height:28px; border:1px solid #00000010; border-radius:5px; font-size:11px; font-weight:700; }
+.workspace-app .target-name { font-size:11px; font-weight:650; }
+.workspace-app .target-hex { margin-left:10px; font:400 10px 'IBM Plex Mono',monospace; color:var(--studio-muted); }
+.workspace-app .match-row { background:#fff; border:0; box-shadow:none; border-radius:0; padding:13px; display:grid; gap:10px; }
+.workspace-app .match-brand { font-size:10px; letter-spacing:.2px; }
+.workspace-app .match-brand-head { gap:8px; }
+.workspace-app .match-select { width:100%; padding:0; border:0; background:transparent; text-align:left; box-shadow:none; }
+.workspace-app .match-main { display:flex; gap:10px; align-items:center; }
+.workspace-app .match-swatch { width:34px; height:34px; border-radius:6px; border:1px solid #00000012; box-shadow:none; }
+.workspace-app .match-name { font-size:12px; font-weight:650; white-space:normal; overflow-wrap:anywhere; }
+.workspace-app .match-score { font:500 10px 'IBM Plex Mono',monospace; color:var(--studio-green); background:var(--studio-tint); border:0; padding:5px; }
+.workspace-app .match-row-actions { display:flex; flex-wrap:wrap; gap:5px; }
+.workspace-app .cart-action, .workspace-app .algo-toggle { border:1px solid var(--line-soft); background:#fff; border-radius:6px; color:#4c596b; padding:7px 9px; font-size:11px; font-weight:600; box-shadow:none; min-height:32px; text-transform:none; letter-spacing:0; }
+.workspace-app .cart-action:hover, .workspace-app .algo-toggle:hover { background:#f0f3f5; border-color:#c2ccd4; transform:none; }
+.workspace-app .match-row-actions [data-choice-cart-color-id] { flex-basis:100%; background:var(--studio-green); color:white; border-color:var(--studio-green); margin-top:3px; min-height:34px; }
+.workspace-app .match-row-actions [data-choice-cart-color-id]:hover { background:#124b3d; }
+.workspace-app .match-copy-action { flex:1; }
+.workspace-app .match-row.in-cart { background:#f8fbf9; }
+.workspace-app .match-cart-badge { font-size:10px; border:0; color:var(--studio-green); background:var(--studio-tint); }
+.workspace-app .match-alternatives { border-top:1px solid var(--line-soft); }
+.workspace-app .match-alternatives > summary { padding:10px 13px; font-size:11px; cursor:pointer; color:var(--studio-muted); }
+.workspace-app .match-alternatives > summary span { margin-left:7px; font-size:10px; }
+.workspace-app .match-alternatives .match-row { border-top:1px solid var(--line-soft); }
+.workspace-app .picker-results { display:grid; gap:8px; max-height:350px; overflow:auto; }
+.workspace-app .picker-card { border:1px solid var(--line-soft); border-radius:8px; box-shadow:none; background:#fff; padding:8px; }
+.workspace-app .picker-chip { padding:0; box-shadow:none; background:transparent; border:0; }
+.workspace-app .picker-title { font-size:11px; }
+.workspace-app .picker-meta { font-size:10px; }
+.workspace-app .image-workspace { display:grid; grid-template-columns:minmax(0,1.5fr) minmax(270px,.8fr); gap:20px; align-items:start; }
+.workspace-app .image-workspace-panel, .workspace-app .image-selection { padding:22px; }
+.workspace-app .image-workspace-panel .side-panel-head { margin-bottom:15px; }
+.workspace-app .image-stage { min-height:250px; background:#f4f6f7; border:1px dashed #cbd3dc; border-radius:10px; box-shadow:none; margin:15px 0; padding:8px; cursor:crosshair; }
+.workspace-app .image-stage canvas { max-width:100%; margin:auto; }
+.workspace-app .image-stage.is-empty { min-height:300px; }
+.workspace-app .image-copy { font-size:12px; color:var(--studio-muted); line-height:1.6; }
+.workspace-app .image-save, .workspace-app .cart-download { padding:11px 16px; border-radius:7px; border:1px solid var(--studio-green); color:#fff; background:var(--studio-green); box-shadow:none; font-size:12px; font-weight:650; }
+.workspace-app .image-save:hover, .workspace-app .cart-download:hover { background:#124b3d; transform:none; }
+.workspace-app #image-open-modal { background:#fff; color:var(--studio-green); border-color:#c1d7cb; margin-bottom:12px; }
+.workspace-app .image-selection .image-palette { display:grid; gap:10px; }
+.workspace-app .image-current-sample { border-bottom:1px solid var(--line-soft); padding-bottom:20px; margin-bottom:20px; }
+.workspace-app .image-current-sample .image-save { width:100%; margin-top:12px; }
+.workspace-app .image-current-sample .image-sample { margin-top:12px; }
+.workspace-app input[type=file] { font-size:12px; color:var(--studio-muted); max-width:100%; border:0; padding:0; background:transparent; box-shadow:none; }
+.workspace-app input::file-selector-button { border:1px solid var(--line-strong); background:#fff; color:var(--studio-ink); border-radius:7px; font:inherit; padding:10px 14px; margin-right:12px; cursor:pointer; }
+.workspace-app .image-sample-card { border:1px solid var(--line-soft); border-radius:8px; box-shadow:none; background:#fff; }
+.workspace-app .image-palette-chip { border:1px solid var(--line-soft); border-radius:8px; box-shadow:none; background:#fff; }
+.workspace-app .image-palette-title { font-size:12px; }
+.workspace-app .image-palette-meta { font-size:10px; }
+.workspace-app .image-palette-chip.active { border-color:#6b9b85; }
+.workspace-app #image-results-slot { grid-column:1 / -1; }
+.workspace-app #image-results-slot .swatch-strip { grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); }
+.workspace-app .text-link { font-size:11px; color:var(--studio-green); text-decoration:none; }
+.workspace-app .list-page-header { display:flex; justify-content:flex-end; margin-bottom:15px; }
+.workspace-app .list-layout { display:grid; grid-template-columns:minmax(0,1fr) 330px; gap:24px; align-items:start; }
+.workspace-app .list-summary { padding:24px; display:grid; gap:18px; }
+.workspace-app .list-summary .cart-head { flex-wrap:wrap; gap:12px; }
+.workspace-app .cart-list { display:grid; gap:10px; }
+.workspace-app .cart-item { display:flex; align-items:center; gap:18px; padding:18px; border:1px solid var(--line-soft); border-radius:12px; background:#fff; box-shadow:none; }
+.workspace-app .cart-item-swatch { width:68px; height:68px; flex-shrink:0; border-radius:8px; font-size:10px; box-shadow:none; }
+.workspace-app .cart-item-body { flex:1; min-width:0; }
+.workspace-app .cart-item h3 { font-size:14px; overflow-wrap:anywhere; }
+.workspace-app .cart-item-meta { font-size:12px; }
+.workspace-app .cart-step { width:32px; height:32px; border-radius:6px; background:#f2f4f6; border:1px solid var(--line-soft); box-shadow:none; }
+.workspace-app .cart-quantity { gap:9px; }
+.workspace-app .cart-copy { font-size:12px; color:var(--studio-muted); }
+.workspace-app .cart-list .empty-state { min-height:270px; background:#fff; border:1px dashed #cad2dc; border-radius:12px; display:grid; place-content:center; }
+.workspace-app .empty-state { padding:22px; border-radius:8px; background:#f8f9fa; box-shadow:none; }
+.workspace-app .empty-copy { font-size:12px; color:#637080; line-height:1.6; }
+.workspace-app .workspace-toast { position:fixed; left:50%; bottom:26px; transform:translateX(-50%); max-width:calc(100vw - 32px); z-index:200; padding:12px 20px; background:#243d32; color:white; box-shadow:0 4px 24px #182b3526; border-radius:9px; font-size:13px; }
+/* Catalog and tone mode share the same workspace frame. */
+.workspace-app .catalog-page-layout, .workspace-app .tones-page-layout { display:grid; grid-template-columns:270px minmax(0,1fr); gap:22px; align-items:start; }
+.workspace-app .catalog-controls-panel, .workspace-app .tones-controls-panel { padding:20px; gap:18px; position:static; max-height:none; overflow:visible; }
+.workspace-app .catalog-results-panel, .workspace-app .tones-results-panel { padding:24px; gap:20px; }
+.workspace-app .catalog-section-title, .workspace-app .tones-section-title { font-size:17px; letter-spacing:-.4px; }
+.workspace-app .catalog-group-title, .workspace-app .tones-card-title { font-size:13px; font-weight:700; }
+.workspace-app .catalog-subtitle, .workspace-app .tones-subtitle, .workspace-app .catalog-page-copy, .workspace-app .tones-page-copy { font-size:12px; color:var(--studio-muted); }
+.workspace-app .catalog-controls-head, .workspace-app .tones-controls-head { gap:10px; }
+.workspace-app .catalog-controls-head .eyebrow, .workspace-app .tones-controls-head .eyebrow, .workspace-app .catalog-results-head .eyebrow, .workspace-app .tones-results-head .eyebrow { display:none; }
+.workspace-app .catalog-quick-search { order:0; }
+.workspace-app .catalog-group-index-shell { border:0; border-top:1px solid var(--line-soft); background:transparent; padding:16px 0 0; border-radius:0; box-shadow:none; }
+.workspace-app .catalog-group-index-head { margin-bottom:12px; }
+.workspace-app #catalog-group-index-summary { display:none; }
+.workspace-app .catalog-group-index { display:flex; flex-wrap:wrap; gap:6px; }
+.workspace-app .catalog-group-filter { font-size:11px; border:1px solid var(--line-soft); box-shadow:none; border-radius:5px; }
+.workspace-app .catalog-group-filter.active { background:var(--studio-tint); color:var(--studio-green); border-color:#b7d1c2; }
+.workspace-app .catalog-group-filter.is-active { background:var(--studio-tint); color:var(--studio-green); border-color:#b7d1c2; box-shadow:none; }
+.workspace-app .catalog-group-filter.is-active .catalog-group-filter-count { color:var(--studio-green); }
+.workspace-app #catalog-group-index-shell > summary { font-size:12px; font-weight:650; cursor:pointer; padding-bottom:12px; }
+.workspace-app .bulk-select { display:flex; align-items:center; gap:8px; font-size:11px; color:var(--studio-muted); }
+.workspace-app .bulk-select input { accent-color:var(--studio-green); width:18px; height:18px; }
+.workspace-app .catalog-search-box { background:transparent; border:0; border-top:1px solid var(--line-soft); box-shadow:none; border-radius:0; padding:16px 0 0; }
+.workspace-app .catalog-search-box > summary { cursor:pointer; font-size:12px; font-weight:650; margin-bottom:10px; }
+.workspace-app .catalog-search-options { padding:8px 0; border:0; background:transparent; }
+.workspace-app .catalog-search-options > summary { cursor:pointer; font-size:11px; color:var(--studio-muted); }
+.workspace-app .catalog-search-checkbox-copy strong { font-size:11px; }
+.workspace-app .catalog-search-checkbox-copy > span { font-size:10px; }
+.workspace-app .catalog-search-checkbox { margin-top:12px; }
+.workspace-app .catalog-search-actions { margin-top:12px; }
+.workspace-app .catalog-compact-shell { padding:0; background:transparent; border:0; box-shadow:none; }
+.workspace-app .catalog-compact-head { display:none; }
+.workspace-app .catalog-compact-group { padding:0 0 20px; background:transparent; border:0; border-radius:0; box-shadow:none; }
+.workspace-app .catalog-compact-row { display:grid; grid-template-columns:repeat(auto-fill,minmax(66px,1fr)); gap:7px; }
+.workspace-app .catalog-compact-chip { display:flex; align-items:flex-end; justify-content:flex-start; width:auto; min-width:0; height:66px; border:1px solid #00000012; border-radius:7px; box-shadow:none; padding:6px; font:500 10px 'IBM Plex Mono',monospace; text-decoration:none; }
+.workspace-app .catalog-compact-chip:hover { transform:none; outline:2px solid var(--studio-ink); outline-offset:2px; }
+.workspace-app .catalog-color-grid { grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:14px; }
+.workspace-app .catalog-color-card { border:1px solid var(--line-soft); border-radius:10px; box-shadow:none; background:#fff; }
+.workspace-app .catalog-color-swatch { min-height:110px; }
+.workspace-app .catalog-color-body { padding:14px; }
+.workspace-app .catalog-color-title { font-size:13px; }
+.workspace-app .catalog-color-meta { font-size:11px; }
+.workspace-app .catalog-color-actions { display:flex; flex-wrap:wrap; gap:6px; }
+.workspace-app .catalog-color-actions a { text-decoration:none; }
+.workspace-app .catalog-color-actions .catalog-cart-button { background:var(--studio-green); color:#fff; border-color:var(--studio-green); }
+.workspace-app .catalog-feedback:empty, .workspace-app .tones-feedback:empty, .workspace-app .quick-search-status:empty { display:none; }
+.workspace-app .quick-search-status { margin:0; font-size:12px; color:var(--studio-muted); }
+.workspace-app .catalog-search-results-shell, .workspace-app .catalog-search-result { border-color:var(--line-soft); box-shadow:none; }
+.workspace-app .tones-base-list { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:7px; max-height:430px; overflow:auto; padding:4px; }
+.workspace-app .tones-base-chip { min-height:42px; border-radius:6px; border:1px solid #0000001a; box-shadow:none; }
+.workspace-app .tones-base-chip-swatch { min-height:48px; padding:4px; justify-content:flex-end; }
+.workspace-app .tones-base-chip-swatch .tone-code-pill { padding:0; border:0; background:transparent; border-radius:0; font:500 9px 'IBM Plex Mono',monospace; }
+.workspace-app .tones-base-chip-body, .workspace-app .tones-base-chip-swatch .tone-hex-pill { display:none; }
+.workspace-app .tones-base-chip.is-active { border-color:var(--studio-ink); outline:2px solid var(--studio-ink); outline-offset:2px; box-shadow:none; }
+.workspace-app .tones-base-preview { grid-template-columns:110px minmax(0,1fr); padding:16px !important; }
+.workspace-app .tones-base-swatch { min-height:120px; border-radius:8px; }
+.workspace-app .tones-results-stack > .tone-ramp-card:first-child > .tones-panel-head { display:none; }
+.workspace-app .tones-color-values summary { font-size:11px; color:var(--studio-muted); padding:7px 0; cursor:pointer; }
+.workspace-app .tones-data-pill { background:#f6f8fa; box-shadow:none; border:0; border-radius:5px; padding:8px; }
+.workspace-app .tone-card-copy { font-size:12px; }
+.workspace-app .tone-code-pill, .workspace-app .tone-hex-pill { border:0; box-shadow:none; font-size:10px; }
+.workspace-app .tone-ramp-body { padding:10px; }
+.workspace-app .tone-ramp-body h4 { font-size:12px; }
+.workspace-app .tones-base-browser { gap:10px; }
+.workspace-app .tones-results-stack { gap:18px; }
+.workspace-app .tone-ramp-card { border:1px solid var(--line-soft); border-radius:10px; background:#fff; box-shadow:none; overflow:hidden; }
+.workspace-app .tone-base-swatch { min-height:125px; border-radius:8px; }
+.workspace-app .tone-base-title { font-size:16px; }
+.workspace-app .tone-base-copy { font-size:12px; }
+.workspace-app .tone-base-metrics { gap:6px; }
+.workspace-app .tone-base-metric { box-shadow:none; background:#f6f8f9; border:0; border-radius:6px; }
+.workspace-app .tone-base-metric-label { font-size:10px; }
+.workspace-app .tone-ramp-swatch { min-height:120px; border-radius:8px; box-shadow:none; }
+.workspace-app .tone-match-card { border:1px solid var(--line-soft); box-shadow:none; border-radius:9px; }
+.workspace-app .tone-match-actions { gap:6px; }
+.workspace-app .tone-match-actions button { min-height:34px; }
+.workspace-app .tone-match-actions [data-tone-cart-color-id] { background:var(--studio-green); color:white; border-color:var(--studio-green); }
+.workspace-app .image-modal { z-index:120; }
+.workspace-app .image-modal-dialog { border-radius:14px; box-shadow:0 24px 90px #0003; }
+.workspace-app .image-modal-header h2 { font-size:20px; }
+.workspace-app .image-modal-backdrop { background:#14212ed0; backdrop-filter:blur(3px); }
+.workspace-app .image-modal-body { gap:20px; }
+.workspace-app .image-modal-sidebar { background:#f8f9fa; border-radius:10px; padding:16px; }
+.workspace-app .control-menu-toggle { display:none; }
+@media(min-width:768px) and (max-width:1199px) {
+  .workspace-app .app-shell { padding:0 22px 32px; }
+  .workspace-app .studio, .workspace-app .catalog-page-layout, .workspace-app .tones-page-layout { grid-template-columns:245px minmax(0,1fr); gap:16px; }
+  .workspace-app .workspace-grid { grid-template-columns:minmax(0,1fr); }
+  .workspace-app .wheel-shell { max-width:300px; }
+  .workspace-app .primary-nav a { padding:10px 12px; }
+}
+@media(max-width:767px) {
+  .workspace-app .app-shell { padding:0 16px 100px; }
+  .workspace-app .app-header { min-height:66px; gap:14px; justify-content:space-between; }
+  .workspace-app .primary-nav { position:fixed; bottom:0; left:0; right:0; z-index:80; background:#fff; border-top:1px solid var(--line-soft); padding:8px 8px max(8px,env(safe-area-inset-bottom)); display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:3px; }
+  .workspace-app .primary-nav a { flex-direction:column; gap:4px; font-size:10px; padding:7px 3px; position:relative; }
+  .workspace-app .primary-nav a[aria-current] { background:var(--studio-tint); color:var(--studio-green); }
+  .workspace-app .nav-count { position:absolute; top:2px; right:15%; font-size:9px; min-width:16px; height:16px; }
+  .workspace-app .workspace-intro { display:flex; flex-wrap:wrap; gap:15px; padding:23px 0 20px; }
+  .workspace-app .workspace-intro h1 { font-size:24px; }
+  .workspace-app .workspace-description { font-size:12px; }
+  .workspace-app .mode-nav { margin-right:auto; }
+  .workspace-app .mode-nav a { padding:8px 10px; }
+  .workspace-app .control-menu-toggle { display:inline-flex; width:auto; gap:8px; padding:9px 12px; font-size:12px; background:#fff; box-shadow:none; }
+  .workspace-app .control-menu-toggle-lines { display:none; }
+  .workspace-app .studio, .workspace-app .workspace-grid, .workspace-app .catalog-page-layout, .workspace-app .tones-page-layout, .workspace-app .image-workspace, .workspace-app .list-layout { display:grid; grid-template-columns:minmax(0,1fr); gap:16px; }
+  .workspace-app .control-panel { display:none; }
+  .workspace-app .control-panel.is-mobile-open { display:block; position:fixed; z-index:101; top:60px; bottom:0; left:0; right:0; width:100%; max-height:calc(100dvh - 60px); overflow:auto; padding-bottom:24px; border-radius:18px 18px 0 0; transform:none; visibility:visible; }
+  .workspace-app .control-panel-header { display:flex; align-items:center; justify-content:space-between; padding:18px 20px; border-bottom:1px solid var(--line-soft); position:sticky; top:0; z-index:3; background:#fff; }
+  .workspace-app #control-menu-eyebrow { display:none; }
+  .workspace-app .control-panel-header h2 { font-size:18px; }
+  .workspace-app .control-menu-backdrop { display:block; z-index:100; background:#14212e99; }
+  .workspace-app .composition-color { min-height:77px; }
+  .workspace-app .palette-overview, .workspace-app .wheel-panel, .workspace-app .palette-panel { padding:16px; }
+  .workspace-app .wheel-shell { max-width:280px; }
+  .workspace-app .wheel-settings { margin-top:8px; }
+  .workspace-app .wheel-guide-shell { padding:10px; }
+  .workspace-app .match-row-actions .cart-action { min-height:40px; }
+  .workspace-app input[type=text], .workspace-app input[type=search], .workspace-app select, .workspace-app textarea { font-size:16px; }
+  .workspace-app .image-stage.is-empty { min-height:220px; }
+  .workspace-app .image-workspace-panel, .workspace-app .image-selection { padding:16px; }
+  .workspace-app .image-modal-dialog { width:calc(100% - 20px); padding:16px; max-height:calc(100dvh - 20px); overflow:auto; }
+  .workspace-app .image-modal-body { display:grid; grid-template-columns:1fr; }
+  .workspace-app .list-summary { order:2; }
+  .workspace-app .cart-item { padding:13px; gap:10px; flex-wrap:wrap; }
+  .workspace-app .cart-item-swatch { width:48px; height:48px; font-size:9px; }
+  .workspace-app .cart-item h3 { font-size:12px; }
+  .workspace-app .cart-step { width:38px; height:38px; }
+  .workspace-app .workspace-toast { bottom:90px; width:max-content; }
+  .workspace-app .catalog-results-panel, .workspace-app .tones-results-panel, .workspace-app .catalog-controls-panel, .workspace-app .tones-controls-panel { padding:16px; }
+  .workspace-app .catalog-results-head, .workspace-app .tones-results-head { flex-wrap:wrap; }
+  .workspace-app .catalog-compact-row { grid-template-columns:repeat(auto-fill,minmax(52px,1fr)); gap:6px; }
+  .workspace-app .catalog-compact-chip { height:58px; }
+  .workspace-app .catalog-color-grid { grid-template-columns:repeat(auto-fill,minmax(145px,1fr)); gap:10px; }
+  .workspace-app .tones-base-list { grid-template-columns:repeat(6,minmax(0,1fr)); max-height:160px; }
+  .workspace-app .tone-base-layout { grid-template-columns:1fr; }
+  .workspace-app .tones-base-preview { grid-template-columns:80px minmax(0,1fr); }
+  .workspace-app .tones-base-actions { display:flex; flex-wrap:wrap; gap:5px; }
+  .workspace-app .tone-base-swatch { min-height:80px; }
+  .workspace-app .tone-match-grid { grid-template-columns:1fr; }
+}
+@media(prefers-reduced-motion:reduce) { .workspace-app *, .workspace-app *::before, .workspace-app *::after { scroll-behavior:auto !important; transition:none !important; animation:none !important; } }
+
+/* Visual identity: a neutral creative studio, with ink and citron accents.
+   Product swatches keep their exact source colors. */
+:root {
+  --studio-ink:#192522;
+  --studio-muted:#626d67;
+  --studio-green:#285d48;
+  --studio-tint:#edf3e9;
+  --line-soft:#e1e5dc;
+  --line-strong:#bdc8bd;
+  --studio-citron:#dcf793;
+  --studio-paper:#f5f5ef;
+  --studio-shadow:0 2px 3px #19252203,0 12px 30px #19252205;
+}
+.workspace-app { background:var(--studio-paper); -webkit-font-smoothing:antialiased; }
+.workspace-app .app-shell { padding-top:18px; }
+.workspace-app .app-header { min-height:76px; padding:12px 18px; gap:20px; border:1px solid #fff; border-radius:20px; background:#ffffffd9; box-shadow:var(--studio-shadow); }
+.workspace-app .brand-lockup { font-size:23px; letter-spacing:-1px; }
+.workspace-app .brand-secondary { font-size:9px; letter-spacing:1.6px; margin-top:-2px; }
+.workspace-app .brand-mark { gap:3px; width:33px; }
+.workspace-app .brand-mark i { background:#203e32; border-radius:5px; }
+.workspace-app .brand-mark i:nth-child(2) { background:#bad571; }
+.workspace-app .brand-mark i:nth-child(3) { background:#efa77c; }
+.workspace-app .primary-nav { background:#f2f4ed; padding:4px; border:1px solid #e7eae2; border-radius:14px; gap:3px; }
+.workspace-app .primary-nav a { border-radius:10px; min-height:42px; padding:10px 16px; color:#55635b; }
+.workspace-app .primary-nav a[aria-current] { color:var(--studio-citron); background:var(--studio-ink); box-shadow:0 3px 7px #1925221a; }
+.workspace-app .nav-count { border-radius:6px; }
+.workspace-app [aria-current] .nav-count { background:#36463c; color:var(--studio-citron); }
+.workspace-app .utility-menu > summary { border-radius:10px; background:transparent; min-height:44px; }
+.workspace-app .utility-popover { border-radius:16px; box-shadow:0 18px 60px #19252224; max-width:calc(100vw - 32px); }
+.workspace-app .language-options button { border-radius:9px; }
+.workspace-app .workspace-intro { padding:36px 2px 30px; gap:28px; }
+.workspace-app .workspace-intro h1 { font-size:clamp(28px,2.7vw,42px); font-weight:800; letter-spacing:-1.7px; line-height:1.16; max-width:840px; margin:10px 0 12px; text-wrap:balance; }
+.workspace-app .workspace-intro .eyebrow { display:flex; align-items:center; gap:9px; color:#4c6255; font-size:10px; letter-spacing:1.8px; }
+.workspace-app .workspace-intro .eyebrow::before { content:''; width:7px; height:7px; background:#557847; border-radius:50%; box-shadow:0 0 0 4px #e7eddd; }
+.workspace-app .workspace-description { font-size:14px; line-height:1.7; }
+.workspace-app .mode-nav { padding:5px; background:#e9ece3; border:1px solid #dfe4d8; border-radius:13px; }
+.workspace-app .mode-nav a { min-height:40px; display:flex; align-items:center; justify-content:center; border-radius:9px; }
+.workspace-app .mode-nav a[aria-current] { box-shadow:0 2px 5px #1925220d; }
+.workspace-app .panel { border-color:var(--line-soft); border-radius:18px; box-shadow:var(--studio-shadow); }
+.workspace-app .control-panel { background:#fcfcf9; }
+.workspace-app .sidebar-panel { border-radius:0; box-shadow:none; }
+.workspace-app .step-label { gap:10px; margin-bottom:21px; }
+.workspace-app .step-label > span { width:27px; height:27px; border:0; border-radius:8px; background:#e8eddf; color:#4b6048; }
+.workspace-app .step-label h2 { font-size:14px; }
+.workspace-app .base-preview-swatch { width:52px; height:52px; border-radius:13px; box-shadow:inset 0 0 0 1px #00000005; }
+.workspace-app .active-base-preview { gap:13px; margin-bottom:21px; }
+.workspace-app .active-base-preview strong { font-size:14px; letter-spacing:-.4px; }
+.workspace-app .active-base-preview div > span { margin-top:3px; font-size:12px; }
+.workspace-app .side-tabs-nav { background:#edf0e7; border:1px solid #e3e7db; border-radius:10px; padding:4px; }
+.workspace-app .side-tab-button { min-height:40px; border-radius:7px; font-weight:600; }
+.workspace-app .field > span, .workspace-app .field-label, .workspace-app .slider-field span { color:#526154; font-size:12px; }
+.workspace-app input[type=text], .workspace-app input[type=search], .workspace-app select, .workspace-app textarea { border-radius:10px; border-color:#d8dfd3; min-height:44px; padding:11px 12px; background:#fff; }
+.workspace-app input:hover, .workspace-app select:hover, .workspace-app textarea:hover { border-color:#aebcaa; }
+.workspace-app input[type=range] { appearance:none; background:transparent; cursor:pointer; height:28px; }
+.workspace-app input[type=range]::-webkit-slider-runnable-track { height:5px; border-radius:8px; background:#dce3d3; }
+.workspace-app input[type=range]::-webkit-slider-thumb { appearance:none; width:17px; height:17px; margin-top:-6px; border:3px solid #fff; border-radius:50%; background:#345b43; box-shadow:0 0 0 1px #7e9775,0 2px 4px #24351d24; }
+.workspace-app input[type=range]::-moz-range-track { height:5px; border-radius:8px; background:#dce3d3; }
+.workspace-app input[type=range]::-moz-range-thumb { width:12px; height:12px; border:3px solid #fff; border-radius:50%; background:#345b43; box-shadow:0 0 0 1px #7e9775; }
+.workspace-app .source-image-link { min-height:38px; font-size:12px; border-radius:8px; padding:6px 8px; background:#eef3e7; }
+.workspace-app .advanced-theories > summary, .workspace-app .saved-colors > summary, .workspace-app .wheel-settings > summary { font-size:12px; min-height:44px; }
+.workspace-app .palette-overview { background:var(--studio-ink); border-color:var(--studio-ink); padding:20px; box-shadow:0 10px 24px #19252212; }
+.workspace-app .palette-overview .eyebrow { color:#e3edda; font-size:10px; }
+.workspace-app .palette-overview .subtle { color:#d7e6bf; font:500 11px 'IBM Plex Mono',monospace; }
+.workspace-app .composition-preview { gap:8px; }
+.workspace-app .composition-color { min-height:112px; border-radius:11px; padding:13px; border-color:#ffffff14; transition:transform .16s ease,box-shadow .16s ease; }
+.workspace-app .composition-color span { display:grid; place-content:center; width:26px; height:26px; border:1px solid currentColor; border-radius:50%; font-size:11px; }
+.workspace-app .composition-color strong { font-size:12px; letter-spacing:.2px; }
+.workspace-app .composition-color:focus-visible { outline-color:var(--studio-citron); }
+.workspace-app .wheel-panel { background:radial-gradient(#a4b19826 .7px,transparent .7px) 0 0 / 12px 12px,#fff; padding:24px; }
+.workspace-app .wheel-header h2 { font-size:20px; letter-spacing:-.7px; font-weight:750; }
+.workspace-app .rule-description { font-size:13px; line-height:1.7; }
+.workspace-app .wheel-shell { margin-top:20px; margin-bottom:22px; }
+.workspace-app .rule-formula { border:1px solid #e1e6d8; background:#f3f6ed; color:#556149; border-radius:6px; }
+.workspace-app .palette-head h2 { font-size:18px; letter-spacing:-.5px; }
+.workspace-app .palette-panel { padding:22px; }
+.workspace-app .base-pill, .workspace-app .meta-pill { background:#f0f3eb; color:#56664d; border-radius:6px; }
+.workspace-app .target-result { border-radius:13px; border-color:#dee5d7; }
+.workspace-app .target-heading { padding:11px 13px; background:#f2f5ed; }
+.workspace-app .target-swatch { width:30px; height:30px; border-radius:8px; }
+.workspace-app .target-name { font-size:12px; }
+.workspace-app .match-row { padding:15px; gap:12px; }
+.workspace-app .match-swatch { width:44px; height:44px; border-radius:10px; }
+.workspace-app .match-name { font-size:13px; }
+.workspace-app .match-score { border-radius:6px; padding:6px; }
+.workspace-app .cart-action, .workspace-app .algo-toggle { border-radius:8px; min-height:36px; }
+.workspace-app .match-row-actions [data-choice-cart-color-id], .workspace-app .image-save, .workspace-app .cart-download, .workspace-app .catalog-color-actions .catalog-cart-button, .workspace-app .tone-match-actions [data-tone-cart-color-id] { background:#344e41; color:#ffffff; border:1px solid #344e41; font-weight:750; min-height:42px; border-radius:9px; }
+.workspace-app .match-row-actions [data-choice-cart-color-id]:hover, .workspace-app .image-save:hover, .workspace-app .cart-download:hover, .workspace-app .catalog-color-actions .catalog-cart-button:hover, .workspace-app .tone-match-actions [data-tone-cart-color-id]:hover { background:#263d32; color:#ffffff; border-color:#263d32; }
+.workspace-app .match-alternatives > summary { padding:12px 15px; font-size:12px; background:#fafbf7; }
+.workspace-app .catalog-compact-row { gap:9px; }
+.workspace-app .catalog-compact-chip { height:76px; border-radius:10px; padding:8px; }
+.workspace-app .catalog-color-card, .workspace-app .tone-ramp-card, .workspace-app .tone-match-card { border-radius:13px; }
+.workspace-app .catalog-color-swatch { min-height:135px; }
+.workspace-app .catalog-group-title { font-size:14px; }
+.workspace-app .tones-base-chip { border-radius:9px; }
+.workspace-app .tone-ramp-swatch { border-radius:10px; }
+.workspace-app .image-stage { background:repeating-conic-gradient(#f0f3e9 0% 25%,#f8f9f4 0% 50%) 50% / 20px 20px; border-color:#c1cdb5; border-radius:14px; }
+.workspace-app .image-stage.is-empty { background:#f4f7ef; border:1px dashed #aab99a; }
+.workspace-app .cart-item { border-radius:16px; box-shadow:var(--studio-shadow); }
+.workspace-app .cart-item-swatch { border-radius:12px; }
+.workspace-app .list-summary { background:#fafcf5; border-color:#d8e2ca; }
+.workspace-app .cart-step { border-radius:8px; background:#eef3e5; }
+.workspace-app .empty-state { border-radius:12px; background:#f4f7ef; }
+.workspace-app :focus-visible { outline:3px solid #296aae; outline-offset:3px; }
+@media(hover:hover) and (prefers-reduced-motion:no-preference) {
+  .workspace-app .composition-color:hover { transform:translateY(-3px); box-shadow:0 6px 14px #0000001f; }
+  .workspace-app .catalog-compact-chip:hover { transform:translateY(-2px); }
+}
+@media(min-width:768px) and (max-width:1000px) {
+  .workspace-app .app-header { gap:10px; padding:10px 12px; }
+  .workspace-app .primary-nav a { padding:9px 10px; font-size:12px; }
+  .workspace-app .primary-nav [data-icon] svg { width:16px; height:16px; }
+  .workspace-app .brand-lockup { font-size:20px; gap:8px; }
+  .workspace-app .brand-mark { width:27px; }
+  .workspace-app .workspace-intro h1 { font-size:30px; }
+}
+@media(max-width:767px) {
+  .workspace-app .app-shell { padding-top:12px; }
+  .workspace-app .app-header { min-height:66px; padding:10px 12px; border-radius:15px; gap:10px; }
+  .workspace-app .brand-lockup { font-size:21px; gap:9px; }
+  .workspace-app .brand-mark { width:29px; }
+  .workspace-app .primary-nav { padding:7px 8px max(8px,env(safe-area-inset-bottom)); background:#fff; border:0; border-top:1px solid #dfe5d8; border-radius:0; box-shadow:0 -5px 24px #19252209; }
+  .workspace-app .primary-nav a { border-radius:10px; padding:7px 3px; font-size:10px; min-height:50px; }
+  .workspace-app .primary-nav a[aria-current] { background:var(--studio-ink); color:var(--studio-citron); }
+  .workspace-app .workspace-intro { padding:26px 2px 22px; gap:16px; }
+  .workspace-app .workspace-intro h1 { font-size:29px; letter-spacing:-1.2px; }
+  .workspace-app .workspace-description { font-size:13px; }
+  .workspace-app .mode-nav { border-radius:11px; }
+  .workspace-app .mode-nav a { min-height:38px; }
+  .workspace-app .control-menu-toggle { min-height:44px; border:1px solid #c6d0bd; background:#eef3e5; color:#34492e; border-radius:10px; font-weight:650; }
+  .workspace-app .palette-overview { padding:16px; border-radius:16px; }
+  .workspace-app .composition-color { min-height:96px; padding:10px; }
+  .workspace-app .composition-color strong { font-size:11px; }
+  .workspace-app .wheel-panel, .workspace-app .palette-panel { padding:18px; }
+  .workspace-app .wheel-header h2 { font-size:19px; }
+  .workspace-app input[type=text], .workspace-app input[type=search], .workspace-app select, .workspace-app textarea { font-size:16px; }
+  .workspace-app .control-panel.is-mobile-open { border-radius:20px 20px 0 0; }
+  .workspace-app .catalog-compact-chip { height:64px; }
+  .workspace-app .match-row-actions .cart-action { min-height:44px; }
+}
+.workspace-app .algo-toggle[aria-pressed="true"] { background:var(--studio-tint); border-color:#adc39a; color:#34512b; box-shadow:inset 0 0 0 1px #adc39a40; }
+.workspace-app .tones-base-chip { padding:0; overflow:hidden; }
+.workspace-app .tones-base-chip-swatch .tone-code-pill { white-space:nowrap; font-size:9px; letter-spacing:-.5px; }
+
+/* Five tools in the shared mobile navigation. */
+@media(max-width:767px) { .workspace-app .primary-nav { grid-template-columns:repeat(5,minmax(0,1fr)); } }

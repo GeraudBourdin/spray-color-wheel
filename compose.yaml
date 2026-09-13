@@ -1,0 +1,7 @@
+services:
+  web:
+    image: nginx:alpine
+    ports:
+      - "127.0.0.1:${COLORPALETTE_PORT:-80}:80"
+    volumes:
+      - .:/usr/share/nginx/html:ro

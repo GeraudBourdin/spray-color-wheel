@@ -269,5 +269,8 @@ export function relativeLuminance(hex) {
 }
 
 export function getContrastingText(hex) {
-  return relativeLuminance(hex) > 0.58 ? "#111111" : "#FBF7F0";
+  const luminance = relativeLuminance(hex);
+  const blackContrast = (luminance + 0.05) / 0.05;
+  const whiteContrast = 1.05 / (luminance + 0.05);
+  return blackContrast >= whiteContrast ? "#000000" : "#FFFFFF";
 }

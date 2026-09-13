@@ -1,11 +1,11 @@
-export const DEFAULT_LANGUAGE = "en";
+export const DEFAULT_LANGUAGE = "fr";
 
 export const SUPPORTED_LANGUAGES = [
-  { id: "fr", label: "Francais" },
+  { id: "fr", label: "Français" },
   { id: "de", label: "Deutsch" },
   { id: "en", label: "English" },
-  { id: "es", label: "Espanol" },
-  { id: "pt", label: "Portugues" },
+  { id: "es", label: "Español" },
+  { id: "pt", label: "Português" },
 ];
 
 const LOCALE_TAGS = {
@@ -25,22 +25,22 @@ const UI_STRINGS = {
     controlMenuTitle: "Menu",
     controlMenuOpen: "Ouvrir le menu",
     controlMenuClose: "Fermer le menu",
-    languageLabel: "Langue de reference",
+    languageLabel: "Langue de référence",
     algorithmsLabel: "Algorithmes",
     manufacturersLabel: "Fabricants",
     baseControlsLabel: "Choisir la couleur de base",
     hexLabel: "HEX",
     hueLabel: "Teinte",
     saturationLabel: "Saturation",
-    lightnessLabel: "Luminosite",
+    lightnessLabel: "Luminosité",
     imageLabel: "Image source",
     imageUploadLabel: "Importer une image",
     imageHint: "Charge une image, ouvre la pipette en grand, clique dans l'image puis garde la couleur.",
     imageRemove: "Retirer",
-    imageReset: "Reinitialiser image + couleurs",
-    imageEmpty: "Aucune image chargee.",
-    imageSampleLabel: "Couleur pipetee",
-    imageSampleEmpty: "Choisis une couleur dans la pop-in pour la memoriser.",
+    imageReset: "Réinitialiser image + couleurs",
+    imageEmpty: "Aucune image chargée.",
+    imageSampleLabel: "Couleur prélevée",
+    imageSampleEmpty: "Choisis une couleur dans la pop-in pour la mémoriser.",
     imageSaveColor: "Garder cette couleur",
     imagePaletteLabel: "Palette",
     imagePaletteEmpty: "Aucune couleur en palette pour le moment.",
@@ -49,72 +49,72 @@ const UI_STRINGS = {
     sourceImage: "couleur image",
     imageLoadError: "Impossible de charger cette image.",
     imageOpenModal: "Ouvrir la pipette en grand",
-    imageModalTitle: "Choisir une couleur de reference",
-    imageModalHint: "Clique dans l'image pour prelever une couleur plus precisement.",
+    imageModalTitle: "Choisir une couleur de référence",
+    imageModalHint: "Clique dans l'image pour prélever une couleur plus précisément.",
     imageModalZoomLabel: "Zoom",
-    imageModalZoomOut: "Dezoomer",
+    imageModalZoomOut: "Dézoomer",
     imageModalZoomIn: "Zoomer",
     imageModalZoomReset: "Ajuster",
-    imageCanvasAria: "Image source a echantillonner",
-    imagePreviewAria: "Apercu de l'image source",
+    imageCanvasAria: "Image source a échantillonner",
+    imagePreviewAria: "Aperçu de l'image source",
     pickerLabel: "Choisir un spray",
     pickerPlaceholder: "Loop, Montana, code, nom",
-    wheelEyebrow: "Creation",
+    wheelEyebrow: "Création",
     wheelLayersLabel: "Affichage de la roue",
-    wheelSnapLabel: "Mode de selection",
+    wheelSnapLabel: "Mode de sélection",
     showWheelSurface: "Afficher le fond",
     hideWheelSurface: "Masquer le fond",
     showWheelSprays: "Afficher les sprays",
     hideWheelSprays: "Masquer les sprays",
-    snapToTheory: "Snap to theory",
-    snapToCans: "Snap to cans",
+    snapToTheory: "Couleur théorique",
+    snapToCans: "Bombe du nuancier",
     wheelGuideLabel: "Lire la roue",
     showWheelGuide: "Comprendre la roue",
     hideWheelGuide: "Masquer l'aide",
     wheelLegendHue: "Autour = teinte",
-    wheelLegendCenter: "Centre = desature",
-    wheelLegendEdge: "Bord = sature",
-    wheelLegendLightness: "Apercu fixe · L {lightness}",
+    wheelLegendCenter: "Centre = désaturé",
+    wheelLegendEdge: "Bord = saturé",
+    wheelLegendLightness: "Aperçu fixe · L {lightness}",
     wheelGuideCopy:
-      "La distance au centre montre la force chromatique, pas le clair ou fonce. Des sprays clairs et fonces peuvent donc se retrouver au meme rayon.",
+      "La distance au centre montre la force chromatique, pas le clair ou foncé. Des sprays clairs et foncés peuvent donc se retrouver au même rayon.",
     wheelGuideStepAngleTitle: "Autour: changer de famille",
     wheelGuideStepAngleCopy:
       "Quand tu tournes autour du cercle, tu changes surtout de teinte: rouge, orange, vert, bleu.",
-    wheelGuideStepRadiusTitle: "Vers le bord: plus de presence",
+    wheelGuideStepRadiusTitle: "Vers le bord: plus de présence",
     wheelGuideStepRadiusCopy:
-      "Vers le bord, la couleur devient plus vive et plus saturee. Vers le centre, elle devient plus cassee et plus grisee.",
-    wheelGuideStepLightnessTitle: "Clair ou fonce: a part",
+      "Vers le bord, la couleur devient plus vive et plus saturée. Vers le centre, elle devient plus cassée et plus grisée.",
+    wheelGuideStepLightnessTitle: "Clair ou foncé: a part",
     wheelGuideStepLightnessCopy:
-      "Le fond de la roue reste fixe a {lightness}. La luminosite reelle se regle avec le slider Luminosite ou le HEX, pas avec la distance au centre.",
+      "Le fond de la roue reste fixe a {lightness}. La luminosité réelle se règle avec le slider Luminosité ou le HEX, pas avec la distance au centre.",
     noAccessibleCan: "aucun spray assez proche",
     paletteEyebrow: "Palette",
     paletteTitle: "Choix de sprays",
     cartLabel: "Panier de sprays",
-    cartCopy: "Clique une reference dans Choix de sprays pour l'ajouter ici.",
+    cartCopy: "Clique une référence dans Choix de sprays pour l'ajouter ici.",
     copyHexAction: "Copier HEX",
     copyReferenceAction: "Copier ref",
-    copiedAction: "Copie",
+    copiedAction: "Copié",
     copyFailed: "Impossible de copier cette valeur.",
     stayInTouch: "Rester en contact",
     clear: "Vider",
-    addToPalette: "Ajouter a la palette",
-    inPalette: "Dans la palette",
+    addToPalette: "Conserver la couleur",
+    inPalette: "Couleur conservée",
     cartActionLabel: "Panier",
     removeAction: "Supprimer",
     cartEmptyAction: "Vider le panier",
     cartUnitPriceLabel: "Prix par spray",
-    cartApproximateCostPill: "Cout approx. {total}",
-    cartApproximateCostHint: "Renseigne un prix par spray pour estimer le cout total.",
-    cartApproximateCostValue: "Cout approx. : {sprayLabel} x {unitPrice} = {total}",
+    cartApproximateCostPill: "Coût approx. {total}",
+    cartApproximateCostHint: "Renseigne un prix par spray pour estimer le coût total.",
+    cartApproximateCostValue: "Coût approx. : {sprayLabel} x {unitPrice} = {total}",
     close: "Fermer",
-    downloadPrintable: "Telecharger la fiche imprimable",
+    downloadPrintable: "Télécharger la fiche imprimable",
     tooltipPrinciple: "Principe",
     tooltipConstruction: "Construction",
     tooltipUsage: "Usage graffiti",
     tooltipActivateTheory: "Activer l'algorithme {theory}",
     printAppName: "Roue chromatique spray",
-    printTitle: "Selection de sprays",
-    printHtmlTitle: "Selection de sprays",
+    printTitle: "Sélection de sprays",
+    printHtmlTitle: "Sélection de sprays",
     printGeneratedOn: "Genere le {date}",
     printButton: "Imprimer",
     errorLoadingTitle: "Erreur de chargement",
@@ -122,22 +122,22 @@ const UI_STRINGS = {
     manifestLoadError: "Le manifest fabricants n'a pas pu etre charge.",
     noManufacturersDeclared: "Aucun fabricant n'est declare dans manufacturers/index.json.",
     catalogLoadError: "Le catalogue {name} n'a pas pu etre charge.",
-    noColorsLoaded: "Aucune couleur n'a ete chargee.",
+    noColorsLoaded: "Aucune couleur n'a ete chargée.",
     runViaServer: "Lance l'app via un serveur HTTP local pour permettre le chargement des fichiers JSON.",
     presetAll: "Tous",
     presetBoth: "Les deux",
     presetOnly: "{brand} seul",
     customBrand: "Custom",
     baseColorName: "Couleur de base",
-    baseReferenceLabel: "Reference de base",
-    chromaticRequired: "necessite une teinte chromatique. Augmente la saturation ou utilise une regle de variation.",
-    reference: "Reference",
+    baseReferenceLabel: "Référence de base",
+    chromaticRequired: "necessite une teinte chromatique. Augmente la saturation ou utilise une règle de variation.",
+    reference: "Référence",
     sourceColor: "couleur source",
     freeBase: "base libre",
     baseTitle: "Base",
     noActiveAlgorithmShort: "Aucun algorithme actif.",
     noSearchResult: "Aucun spray trouve pour cette recherche.",
-    emptyCart: "Le panier est vide. Ajoute des references depuis Choix de sprays.",
+    emptyCart: "Le panier est vide. Ajoute des références depuis Choix de sprays.",
     baseAloneTitle: "Base seule",
     zeroAlgorithm: "0 algorithme",
     activateAlgorithms: "Active un ou plusieurs algorithmes pour projeter des palettes sur la roue.",
@@ -145,9 +145,9 @@ const UI_STRINGS = {
     blockedAlgorithmsDescription:
       "Les algorithmes choisis sont actifs mais la couleur de base actuelle ne permet pas de produire leurs sorties.",
     overlaidRulesDescription:
-      "Les regles selectionnees se superposent sur la roue et les correspondances fabricants sont calculees pour chaque sortie.",
+      "Les règles selectionnees se superposent sur la roue et les correspondances fabricants sont calculees pour chaque sortie.",
     sourcePrefix: "Source {source}",
-    sourceCustom: "Source custom",
+    sourceCustom: "Couleur libre",
     noActiveWheelNote: "Aucun algorithme actif. La roue affiche uniquement la couleur de base.",
     blockedLabel: "bloque",
     expandResults: "Details",
@@ -155,22 +155,22 @@ const UI_STRINGS = {
     basePrefix: "Base {hex} · {description}",
     add: "Ajouter",
     useAsBase: "Choisir",
-    noDerivedOutput: "Aucune sortie derivee pour cette regle.",
+    noDerivedOutput: "Aucune sortie derivee pour cette règle.",
     helpAria: "Aide {theory}",
     wheelAria: "Cercle chromatique interactif",
-    quantityLabel: "Quantite : {count}",
-    quantityAria: "Quantite {title}",
+    quantityLabel: "Quantité : {count}",
+    quantityAria: "Quantité {title}",
     count: {
       sprayColor: { one: "{count} couleur spray", other: "{count} couleurs spray" },
       manufacturer: { one: "{count} fabricant", other: "{count} fabricants" },
       algorithm: { one: "{count} algorithme", other: "{count} algorithmes" },
       activeAlgorithm: { one: "{count} algorithme actif", other: "{count} algorithmes actifs" },
       sprayInCart: { one: "{count} spray en panier", other: "{count} sprays en panier" },
-      reference: { one: "{count} reference", other: "{count} references" },
+      reference: { one: "{count} référence", other: "{count} références" },
       spray: { one: "{count} spray", other: "{count} sprays" },
       block: { one: "{count} bloc", other: "{count} blocs" },
       color: { one: "{count} couleur", other: "{count} couleurs" },
-      selection: { one: "{count} selection", other: "{count} selections" },
+      selection: { one: "{count} sélection", other: "{count} selections" },
     },
     units: {
       degree: "deg",
@@ -836,6 +836,11 @@ const UI_STRINGS = {
   },
 };
 
+// Wheel settings introduced after the original translations.
+Object.assign(UI_STRINGS.de, {wheelLayersLabel:"Farbradanzeige",wheelSnapLabel:"Auswahlmodus",showWheelSurface:"Hintergrund anzeigen",hideWheelSurface:"Hintergrund ausblenden",showWheelSprays:"Sprühfarben anzeigen",hideWheelSprays:"Sprühfarben ausblenden",snapToTheory:"An Theorie ausrichten",snapToCans:"An Sprühfarben ausrichten",noAccessibleCan:"Kein erreichbarer Sprayfarbton"});
+Object.assign(UI_STRINGS.es, {wheelLayersLabel:"Visualización de la rueda",wheelSnapLabel:"Modo de selección",showWheelSurface:"Mostrar fondo",hideWheelSurface:"Ocultar fondo",showWheelSprays:"Mostrar aerosoles",hideWheelSprays:"Ocultar aerosoles",snapToTheory:"Ajustar a la teoría",snapToCans:"Ajustar a los aerosoles",noAccessibleCan:"Ningún aerosol accesible"});
+Object.assign(UI_STRINGS.pt, {wheelLayersLabel:"Visualização da roda",wheelSnapLabel:"Modo de seleção",showWheelSurface:"Mostrar fundo",hideWheelSurface:"Ocultar fundo",showWheelSprays:"Mostrar sprays",hideWheelSprays:"Ocultar sprays",snapToTheory:"Ajustar à teoria",snapToCans:"Ajustar aos sprays",noAccessibleCan:"Nenhum spray acessível"});
+
 const THEORY_SECTION_LABELS = {
   "core-harmonies": {
     fr: "Harmonies",
@@ -866,10 +871,10 @@ const THEORY_REFERENCE_ALIASES = {
 
 const THEORY_LOCALIZATIONS = {
   complementary: {
-    label: { fr: "Complementaire", de: "Komplementaer", en: "Complementary", es: "Complementario", pt: "Complementar" },
+    label: { fr: "Complémentaire", de: "Komplementaer", en: "Complementary", es: "Complementario", pt: "Complementar" },
     formula: { fr: "0 / +180", de: "0 / +180", en: "0 / +180", es: "0 / +180", pt: "0 / +180" },
     description: {
-      fr: "Deux points opposes sur la roue. C'est le contraste le plus direct et le plus energique.",
+      fr: "Deux points opposés sur la roue. C'est le contraste le plus direct et le plus energique.",
       de: "Zwei gegenueberliegende Punkte auf dem Rad. Das ist der direkteste und kraeftigste Kontrast.",
       en: "Two opposite points on the wheel. This is the most direct and energetic contrast.",
       es: "Dos puntos opuestos en la rueda. Es el contraste mas directo y energico.",
@@ -884,7 +889,7 @@ const THEORY_LOCALIZATIONS = {
         pt: "Duas cores opostas na roda para obter um contraste forte e imediato.",
       },
       construction: {
-        fr: "Base + couleur a 180 deg. L'app conserve une saturation utile et une luminosite proche de la base.",
+        fr: "Base + couleur a 180 deg. L'app conserve une saturation utile et une luminosité proche de la base.",
         de: "Basis + Farbe bei 180 Grad. Die App behaelt eine brauchbare Saettigung und eine aehnliche Helligkeit.",
         en: "Base + color at 180 degrees. The app keeps useful saturation and similar lightness.",
         es: "Base + color a 180 grados. La app mantiene una saturacion util y una luminosidad cercana.",
@@ -900,10 +905,10 @@ const THEORY_LOCALIZATIONS = {
     },
   },
   "split-complementary": {
-    label: { fr: "Complementaire scindee", de: "Geteilte Komplementaer", en: "Split complementary", es: "Complementario dividido", pt: "Complementar dividido" },
+    label: { fr: "Complémentaire scindée", de: "Geteilte Komplementaer", en: "Split complementary", es: "Complementario dividido", pt: "Complementar dividido" },
     formula: { fr: "0 / +150 / +210", de: "0 / +150 / +210", en: "0 / +150 / +210", es: "0 / +150 / +210", pt: "0 / +150 / +210" },
     description: {
-      fr: "La tension du complementaire, mais ecartee en deux voisins pour garder plus de souplesse.",
+      fr: "La tension du complémentaire, mais ecartee en deux voisins pour garder plus de souplesse.",
       de: "Die Spannung des Komplementaers, aber auf zwei Nachbarn verteilt fuer mehr Spielraum.",
       en: "The tension of complementary color, split into two neighbors for more flexibility.",
       es: "La tension del complementario, dividida en dos vecinos para ganar flexibilidad.",
@@ -911,7 +916,7 @@ const THEORY_LOCALIZATIONS = {
     },
     tooltip: {
       summary: {
-        fr: "Une base contrastee, mais plus souple qu'un vrai complementaire.",
+        fr: "Une base contrastee, mais plus souple qu'un vrai complémentaire.",
         de: "Eine kontrastreiche Basis, aber weicher als ein echtes Komplementaer.",
         en: "A contrasted base that feels softer than a pure complementary pair.",
         es: "Una base contrastada, pero mas flexible que un complementario puro.",
@@ -925,7 +930,7 @@ const THEORY_LOCALIZATIONS = {
         pt: "Base + os dois vizinhos do complementar, aqui +150 e +210 graus.",
       },
       usage: {
-        fr: "Tres bon pour un fill principal avec un inline et un outline plus souples qu'un vrai complementaire. Mixe-le avec Tone pour calmer le fond sans perdre la tension.",
+        fr: "Tres bon pour un fill principal avec un inline et un outline plus souples qu'un vrai complémentaire. Mixe-le avec Tone pour calmer le fond sans perdre la tension.",
         de: "Sehr gut fuer einen Haupt-Fill mit Inline und Outline, die weicher wirken als ein echtes Komplementaer. Mit Tone beruhigst du den Hintergrund, ohne die Spannung zu verlieren.",
         en: "Great for a main fill with an inline and outline that feel softer than a pure complementary hit. Mix it with Tone to calm the background without losing tension.",
         es: "Muy util para un relleno principal con inline y outline mas flexibles que un complementario puro. Mezclalo con Tone para calmar el fondo sin perder tension.",
@@ -945,7 +950,7 @@ const THEORY_LOCALIZATIONS = {
     },
     tooltip: {
       summary: {
-        fr: "Une famille de couleurs voisines, donc tres coherente visuellement.",
+        fr: "Une famille de couleurs voisines, donc très coherente visuellement.",
         de: "Eine Familie benachbarter Farben und deshalb sehr geschlossen im Bild.",
         en: "A family of neighboring colors, which creates strong visual coherence.",
         es: "Una familia de colores vecinos, muy coherente a nivel visual.",
@@ -959,7 +964,7 @@ const THEORY_LOCALIZATIONS = {
         pt: "Base + vizinhos proximos na roda, aqui -30 e +30 graus.",
       },
       usage: {
-        fr: "Parfait pour des fades, des remplissages fluides, des fonds brumeux ou une piece ton sur ton. Ajoute ensuite un Complementaire ou un Accented analogous pour faire claquer le contour.",
+        fr: "Parfait pour des fades, des remplissages fluides, des fonds brumeux ou une piece ton sur ton. Ajoute ensuite un Complémentaire ou un Accented analogous pour faire claquer le contour.",
         de: "Perfekt fuer Fades, fluessige Fills, neblige Hintergruende oder ein Ton-in-Ton-Piece. Fuege danach Complementary oder Accented analogous hinzu, damit der Outline knallt.",
         en: "Perfect for fades, fluid fills, hazy backgrounds, or a tone-on-tone piece. Then add Complementary or Accented analogous if you want the outline to snap harder.",
         es: "Perfecto para fades, rellenos fluidos, fondos brumosos o una pieza tono sobre tono. Luego anade Complementary o Accented analogous para que el contorno pegue mas.",
@@ -968,7 +973,7 @@ const THEORY_LOCALIZATIONS = {
     },
   },
   "accented-analogous": {
-    label: { fr: "Analogues accentuees", de: "Betonte Analoge", en: "Accented analogous", es: "Analogos acentuados", pt: "Analogas acentuadas" },
+    label: { fr: "Analogues accentuées", de: "Betonte Analoge", en: "Accented analogous", es: "Analogos acentuados", pt: "Analogas acentuadas" },
     formula: { fr: "0 / -30 / +30 / +180", de: "0 / -30 / +30 / +180", en: "0 / -30 / +30 / +180", es: "0 / -30 / +30 / +180", pt: "0 / -30 / +30 / +180" },
     description: {
       fr: "Une base analogique a laquelle on ajoute son opposee pour injecter un accent de contraste.",
@@ -1005,7 +1010,7 @@ const THEORY_LOCALIZATIONS = {
     label: { fr: "Triadique", de: "Triadisch", en: "Triadic", es: "Triadico", pt: "Triadico" },
     formula: { fr: "0 / +120 / +240", de: "0 / +120 / +240", en: "0 / +120 / +240", es: "0 / +120 / +240", pt: "0 / +120 / +240" },
     description: {
-      fr: "Trois points equidistants. Une harmonie tres structuree qui garde de la tension.",
+      fr: "Trois points équidistants. Une harmonie très structurée qui garde de la tension.",
       de: "Drei gleich verteilte Punkte. Eine strukturierte Harmonie, die Spannung behaelt.",
       en: "Three evenly spaced points. A structured harmony that still keeps tension.",
       es: "Tres puntos equidistantes. Una armonia muy estructurada que mantiene tension.",
@@ -1013,7 +1018,7 @@ const THEORY_LOCALIZATIONS = {
     },
     tooltip: {
       summary: {
-        fr: "Trois points equidistants qui donnent une palette vive et bien repartie.",
+        fr: "Trois points équidistants qui donnent une palette vive et bien répartie.",
         de: "Drei gleichmaessig verteilte Punkte fuer eine lebendige, ausgewogene Palette.",
         en: "Three evenly spaced points that create a vivid, balanced palette.",
         es: "Tres puntos equidistantes que crean una paleta viva y equilibrada.",
@@ -1036,7 +1041,7 @@ const THEORY_LOCALIZATIONS = {
     },
   },
   tetradic: {
-    label: { fr: "Tetradique", de: "Tetradisch", en: "Tetradic", es: "Tetradico", pt: "Tetradico" },
+    label: { fr: "Tétradique", de: "Tetradisch", en: "Tetradic", es: "Tetradico", pt: "Tetradico" },
     formula: { fr: "0 / +60 / +180 / +240", de: "0 / +60 / +180 / +240", en: "0 / +60 / +180 / +240", es: "0 / +60 / +180 / +240", pt: "0 / +60 / +180 / +240" },
     description: {
       fr: "Un rectangle sur la roue. Plus riche qu'une triade, avec deux couples de tensions.",
@@ -1070,7 +1075,7 @@ const THEORY_LOCALIZATIONS = {
     },
   },
   square: {
-    label: { fr: "Carre", de: "Quadrat", en: "Square", es: "Cuadrado", pt: "Quadrado" },
+    label: { fr: "Carré", de: "Quadrat", en: "Square", es: "Cuadrado", pt: "Quadrado" },
     formula: { fr: "0 / +90 / +180 / +270", de: "0 / +90 / +180 / +270", en: "0 / +90 / +180 / +270", es: "0 / +90 / +180 / +270", pt: "0 / +90 / +180 / +270" },
     description: {
       fr: "Quatre points a distance egale. Le systeme le plus equilibre pour une palette vive.",
@@ -1081,7 +1086,7 @@ const THEORY_LOCALIZATIONS = {
     },
     tooltip: {
       summary: {
-        fr: "Quatre couleurs a distance egale pour une palette tres tendue mais reguliere.",
+        fr: "Quatre couleurs a distance egale pour une palette très tendue mais reguliere.",
         de: "Vier gleich entfernte Farben fuer eine sehr gespannte, aber regelmaessige Palette.",
         en: "Four evenly spaced colors for a tense but regular palette.",
         es: "Cuatro colores a la misma distancia para una paleta tensa pero regular.",
@@ -1095,7 +1100,7 @@ const THEORY_LOCALIZATIONS = {
         pt: "Base + tres pontos a +90, +180 e +270 graus.",
       },
       usage: {
-        fr: "A garder pour des pieces pop, comics, posters ou des murs tres graphiques. Choisis un duo vif pour le fill et l'outline, puis calme les deux autres points avec Tone ou Vivid / muted.",
+        fr: "A garder pour des pieces pop, comics, posters ou des murs très graphiques. Choisis un duo vif pour le fill et l'outline, puis calme les deux autres points avec Tone ou Vivid / muted.",
         de: "Gut fuer poppige, comicartige oder sehr grafische Pieces. Waehle ein kraeftiges Duo fuer Fill und Outline und beruhige die zwei anderen Punkte mit Tone oder Vivid / muted.",
         en: "Keep it for pop, comic, poster-like, or very graphic pieces. Pick one vivid pair for fill and outline, then calm the other two points with Tone or Vivid / muted.",
         es: "Reservalo para piezas pop, comic, poster o muros muy graficos. Elige un duo vivo para fill y outline, y calma los otros dos puntos con Tone o Vivid / muted.",
@@ -1104,7 +1109,7 @@ const THEORY_LOCALIZATIONS = {
     },
   },
   "double-split-complementary": {
-    label: { fr: "Double complementaire scindee", de: "Doppelt geteilte Komplementaer", en: "Double split complementary", es: "Doble complementario dividido", pt: "Duplo complementar dividido" },
+    label: { fr: "Double complémentaire scindée", de: "Doppelt geteilte Komplementaer", en: "Double split complementary", es: "Doble complementario dividido", pt: "Duplo complementar dividido" },
     formula: { fr: "0 / -30 / +30 / +150 / +210", de: "0 / -30 / +30 / +150 / +210", en: "0 / -30 / +30 / +150 / +210", es: "0 / -30 / +30 / +150 / +210", pt: "0 / -30 / +30 / +150 / +210" },
     description: {
       fr: "Deux voisins autour de la base et deux voisins autour de son opposee pour une palette plus large.",
@@ -1140,14 +1145,14 @@ const THEORY_LOCALIZATIONS = {
   monochromatic: {
     label: { fr: "Monochromatique", de: "Monochrom", en: "Monochromatic", es: "Monocromatico", pt: "Monocromatico" },
     formula: {
-      fr: "meme teinte / valeurs changeantes",
+      fr: "même teinte / valeurs changeantes",
       de: "gleicher Farbton / variable Werte",
       en: "same hue / shifting values",
       es: "mismo tono / valores variables",
       pt: "mesmo matiz / valores variaveis",
     },
     description: {
-      fr: "La meme famille de teinte, en ouvrant ou en densifiant luminosite et saturation.",
+      fr: "La même famille de teinte, en ouvrant ou en densifiant luminosité et saturation.",
       de: "Dieselbe Farbfamilie, bei der Helligkeit und Saettigung geoeffnet oder verdichtet werden.",
       en: "The same hue family, by opening or densifying lightness and saturation.",
       es: "La misma familia de tono, abriendo o densificando luminosidad y saturacion.",
@@ -1162,14 +1167,14 @@ const THEORY_LOCALIZATIONS = {
         pt: "Um unico matiz base com varios niveis de densidade e luz.",
       },
       construction: {
-        fr: "La teinte reste fixe; on fait varier surtout la luminosite et un peu la saturation.",
+        fr: "La teinte reste fixe; on fait varier surtout la luminosité et un peu la saturation.",
         de: "Der Farbton bleibt gleich; vor allem Helligkeit und etwas Saettigung aendern sich.",
         en: "The hue stays fixed; lightness changes the most, with smaller saturation shifts.",
         es: "El tono se mantiene fijo; varia sobre todo la luminosidad y un poco la saturacion.",
         pt: "O matiz fica fixo; varia-se sobretudo a luminosidade e um pouco a saturacao.",
       },
       usage: {
-        fr: "Parfait pour construire un fill propre, des volumes internes, une 3D lisible ou des ombres progressives sans quitter la meme famille. Mixe-le avec Hue shift si tu veux juste un leger mouvement chaud/froid.",
+        fr: "Parfait pour construire un fill propre, des volumes internes, une 3D lisible ou des ombres progressives sans quitter la même famille. Mixe-le avec Hue shift si tu veux juste un leger mouvement chaud/froid.",
         de: "Perfekt fuer einen sauberen Fill, innere Volumen, lesbares 3D oder progressive Schatten, ohne die Farbfamilie zu verlassen. Mit Hue shift kombinieren, wenn du nur etwas warm/kalt Bewegung willst.",
         en: "Perfect for building a clean fill, internal volume, readable 3D, or progressive shadows without leaving the same family. Mix it with Hue shift if you only want a slight warm/cool movement.",
         es: "Perfecto para construir un fill limpio, volumen interno, 3D legible o sombras progresivas sin salir de la misma familia. Mezclalo con Hue shift si quieres solo un pequeno movimiento calido/frio.",
@@ -1178,10 +1183,10 @@ const THEORY_LOCALIZATIONS = {
     },
   },
   "hue-shift": {
-    label: { fr: "Decalage de teinte", de: "Farbtonverschiebung", en: "Hue shift", es: "Desplazamiento de tono", pt: "Deslocamento de matiz" },
+    label: { fr: "Décalage de teinte", de: "Farbtonverschiebung", en: "Hue shift", es: "Desplazamiento de tono", pt: "Deslocamento de matiz" },
     formula: { fr: "-40 / -20 / +20 / +40", de: "-40 / -20 / +20 / +40", en: "-40 / -20 / +20 / +40", es: "-40 / -20 / +20 / +40", pt: "-40 / -20 / +20 / +40" },
     description: {
-      fr: "Glissement de teinte sans casser la luminosite initiale. Pratique pour explorer un axe chromatique.",
+      fr: "Glissement de teinte sans casser la luminosité initiale. Pratique pour explorer un axe chromatique.",
       de: "Farbton-Verschiebung ohne Bruch der Grundhelligkeit. Gut zum Erkunden eines Farbachse.",
       en: "A hue slide without breaking the starting lightness. Useful for exploring a chromatic axis.",
       es: "Desplazamiento de tono sin romper la luminosidad inicial. Util para explorar un eje cromatico.",
@@ -1212,7 +1217,7 @@ const THEORY_LOCALIZATIONS = {
     },
   },
   tint: {
-    label: { fr: "Eclaircissement", de: "Aufhellung", en: "Tint", es: "Aclarado", pt: "Clareamento" },
+    label: { fr: "Éclaircissement", de: "Aufhellung", en: "Tint", es: "Aclarado", pt: "Clareamento" },
     formula: {
       fr: "+20% / +40% / +60% blanc",
       de: "+20% / +40% / +60% Weiss",
@@ -1243,7 +1248,7 @@ const THEORY_LOCALIZATIONS = {
         pt: "A base e misturada com branco a 20%, 40% e 60%.",
       },
       usage: {
-        fr: "Sers-t'en pour les highlights, les reflets, les bulles brillantes, les ciels ou les faces hautes d'une 3D. Le duo le plus logique reste Tint + Shade pour modeler rapidement une meme couleur.",
+        fr: "Sers-t'en pour les highlights, les reflets, les bulles brillantes, les ciels ou les faces hautes d'une 3D. Le duo le plus logique reste Tint + Shade pour modeler rapidement une même couleur.",
         de: "Nutze es fuer Highlights, Reflexe, glaenzende Bubbles, Himmel oder obere Flaechen eines 3D. Das logischste Duo ist Tint + Shade, um eine Farbe schnell zu modellieren.",
         en: "Use it for highlights, reflections, glossy bubbles, skies, or the upper planes of a 3D. The most logical pair is Tint + Shade to model one color quickly.",
         es: "Usalo para highlights, reflejos, burbujas brillantes, cielos o caras superiores de un 3D. La dupla mas logica es Tint + Shade para modelar un mismo color rapidamente.",
@@ -1283,7 +1288,7 @@ const THEORY_LOCALIZATIONS = {
         pt: "A base e misturada com preto a 20%, 40% e 60%.",
       },
       usage: {
-        fr: "Parfait pour les faces de 3D, les ombres internes, les dessous de lettres et l'ombre portee au sol ou au mur. Avec Complementaire, tu peux rendre la separation face/ombre tres theatrale.",
+        fr: "Parfait pour les faces de 3D, les ombres internes, les dessous de lettres et l'ombre portee au sol ou au mur. Avec Complémentaire, tu peux rendre la separation face/ombre très theatrale.",
         de: "Perfekt fuer 3D-Flaechen, innere Schatten, Unterseiten von Buchstaben und Schlagschatten auf Boden oder Wand. Mit Complementary wird die Trennung zwischen Front und Schatten sehr theatralisch.",
         en: "Perfect for 3D faces, inner shadows, undersides of letters, and cast shadows on the wall or ground. With Complementary, you can make the face/shadow split feel very dramatic.",
         es: "Perfecto para caras de 3D, sombras internas, partes bajas de las letras y sombra proyectada en muro o suelo. Con Complementary puedes volver muy dramatica la separacion entre cara y sombra.",
@@ -1332,10 +1337,10 @@ const THEORY_LOCALIZATIONS = {
     },
   },
   compound: {
-    label: { fr: "Compose", de: "Komposit", en: "Compound", es: "Compuesto", pt: "Composto" },
+    label: { fr: "Composé", de: "Komposit", en: "Compound", es: "Compuesto", pt: "Composto" },
     formula: { fr: "0 / +30 / +180 / +210", de: "0 / +30 / +180 / +210", en: "0 / +30 / +180 / +210", es: "0 / +30 / +180 / +210", pt: "0 / +30 / +180 / +210" },
     description: {
-      fr: "Regle Adobe/Photoshop melangeant analogue et complementaire. La geometrie ici est une interpretation pratique.",
+      fr: "Regle Adobe/Photoshop melangeant analogue et complémentaire. La geometrie ici est une interpretation pratique.",
       de: "Adobe/Photoshop-Regel zwischen analog und komplementaer. Die Geometrie hier ist eine praktische Interpretation.",
       en: "An Adobe/Photoshop-style rule mixing analogous and complementary behavior. The geometry here is a practical interpretation.",
       es: "Regla tipo Adobe/Photoshop que mezcla analogos y complementarios. La geometria aqui es una interpretacion practica.",
@@ -1343,7 +1348,7 @@ const THEORY_LOCALIZATIONS = {
     },
     tooltip: {
       summary: {
-        fr: "Une regle hybride proche des outils Adobe, entre analogique et complementaire.",
+        fr: "Une règle hybride proche des outils Adobe, entre analogique et complémentaire.",
         de: "Eine hybride Regel nahe an den Adobe-Werkzeugen, zwischen analog und komplementaer.",
         en: "A hybrid rule close to Adobe tools, somewhere between analogous and complementary.",
         es: "Una regla hibrida cercana a las herramientas de Adobe, entre analogica y complementaria.",
@@ -1368,14 +1373,14 @@ const THEORY_LOCALIZATIONS = {
   shades: {
     label: { fr: "Nuances", de: "Abstufungen", en: "Shades", es: "Matices", pt: "Matizes" },
     formula: {
-      fr: "meme teinte / luminosite variable",
+      fr: "même teinte / luminosité variable",
       de: "gleicher Farbton / variable Helligkeit",
       en: "same hue / variable lightness",
       es: "mismo tono / luminosidad variable",
       pt: "mesmo matiz / luminosidade variavel",
     },
     description: {
-      fr: "Regle Adobe/Photoshop basee sur des variations de luminosite d'une seule teinte.",
+      fr: "Regle Adobe/Photoshop basee sur des variations de luminosité d'une seule teinte.",
       de: "Adobe/Photoshop-Regel auf Basis von Helligkeitsvarianten eines einzigen Farbtons.",
       en: "An Adobe/Photoshop-style rule based on lightness variations of a single hue.",
       es: "Regla estilo Adobe/Photoshop basada en variaciones de luminosidad de un solo tono.",
@@ -1383,21 +1388,21 @@ const THEORY_LOCALIZATIONS = {
     },
     tooltip: {
       summary: {
-        fr: "Une lecture 'valeur' d'une meme teinte, inspiree des variantes Adobe.",
+        fr: "Une lecture 'valeur' d'une même teinte, inspiree des variantes Adobe.",
         de: "Eine Werteskala derselben Farbe, inspiriert von Adobe-Varianten.",
         en: "A value-based reading of the same hue, inspired by Adobe variants.",
         es: "Una lectura por valores de un mismo tono, inspirada en variantes de Adobe.",
         pt: "Uma leitura por valores do mesmo matiz, inspirada nas variantes da Adobe.",
       },
       construction: {
-        fr: "La teinte reste la meme, et on pousse surtout la luminosite vers le clair et le sombre.",
+        fr: "La teinte reste la même, et on pousse surtout la luminosité vers le clair et le sombre.",
         de: "Der Farbton bleibt gleich, vor allem die Helligkeit wird nach hell und dunkel verschoben.",
         en: "The hue stays the same while lightness is pushed toward brighter and darker values.",
         es: "El tono se mantiene y se empuja sobre todo la luminosidad hacia claro y oscuro.",
         pt: "O matiz mantem-se e a luminosidade e empurrada para claro e escuro.",
       },
       usage: {
-        fr: "Pense-le comme une echelle de lecture pour chrome, metal, plis, biseaux ou 3D tres lisibles. Il se marie tres bien avec Monochromatique pour garder la meme famille tout en renforcant les valeurs.",
+        fr: "Pense-le comme une echelle de lecture pour chrome, metal, plis, biseaux ou 3D très lisibles. Il se marie très bien avec Monochromatique pour garder la même famille tout en renforcant les valeurs.",
         de: "Denk daran wie an eine Leseskala fuer Chrome, Metall, Falten, Facetten oder sehr lesbares 3D. Es passt sehr gut zu Monochromatic, wenn du in derselben Familie bleiben und die Werte verstaerken willst.",
         en: "Think of it as a reading scale for chrome, metal, folds, bevels, or very readable 3D. It works very well with Monochromatic when you want to stay in one family but strengthen the values.",
         es: "Piensalo como una escala de lectura para chrome, metal, pliegues, biseles o 3D muy legible. Se lleva muy bien con Monochromatic si quieres quedarte en una familia y reforzar los valores.",
@@ -1417,7 +1422,7 @@ const THEORY_LOCALIZATIONS = {
     },
     tooltip: {
       summary: {
-        fr: "Cinq points regulierement repartis pour une palette tres large.",
+        fr: "Cinq points regulierement repartis pour une palette très large.",
         de: "Fuenf gleich verteilte Punkte fuer eine sehr breite Palette.",
         en: "Five evenly distributed points for a very broad palette.",
         es: "Cinco puntos repartidos regularmente para una paleta muy amplia.",
@@ -1474,7 +1479,7 @@ const THEORY_LOCALIZATIONS = {
     },
   },
   "vivid-muted": {
-    label: { fr: "Vif / attenue", de: "Kraeftig / gedaempft", en: "Vivid / muted", es: "Vivo / apagado", pt: "Vivo / suave" },
+    label: { fr: "Vif / atténué", de: "Kraeftig / gedaempft", en: "Vivid / muted", es: "Vivo / apagado", pt: "Vivo / suave" },
     formula: { fr: "sat -45 / -20 / +20 / +45", de: "sat -45 / -20 / +20 / +45", en: "sat -45 / -20 / +20 / +45", es: "sat -45 / -20 / +20 / +45", pt: "sat -45 / -20 / +20 / +45" },
     description: {
       fr: "Equivalent pratique du mode vivid/muted d'Adobe, en calmant ou en renforcant la saturation.",
@@ -1492,14 +1497,14 @@ const THEORY_LOCALIZATIONS = {
         pt: "Uma variacao de intensidade cromatica sem mudar radicalmente o matiz.",
       },
       construction: {
-        fr: "On baisse ou on renforce la saturation autour de la base, avec une petite compensation de luminosite.",
+        fr: "On baisse ou on renforce la saturation autour de la base, avec une petite compensation de luminosité.",
         de: "Die Saettigung wird um die Basis herum gesenkt oder erhoeht, mit leichter Helligkeitskompensation.",
         en: "Saturation is reduced or increased around the base, with a slight lightness compensation.",
         es: "Se baja o aumenta la saturacion alrededor de la base con una pequena compensacion de luminosidad.",
         pt: "A saturacao e reduzida ou aumentada em volta da base com uma pequena compensacao de luminosidade.",
       },
       usage: {
-        fr: "Ideal pour faire ressortir la piece du fond: garde le fill vif et rabats le decor, ou l'inverse pour un rendu vieilli. Combine-le avec Analogues pour un fade subtil ou avec Complementaire pour un choc mieux controle.",
+        fr: "Ideal pour faire ressortir la piece du fond: garde le fill vif et rabats le decor, ou l'inverse pour un rendu vieilli. Combine-le avec Analogues pour un fade subtil ou avec Complémentaire pour un choc mieux controle.",
         de: "Ideal, um das Piece vom Hintergrund zu trennen: Lass den Fill kraeftig und nimm das Umfeld zurueck, oder umgekehrt fuer einen gealterten Look. Mit Analogous fuer subtile Fades oder mit Complementary fuer einen kontrollierteren Schock kombinieren.",
         en: "Ideal for separating the piece from the background: keep the fill vivid and mute the surroundings, or reverse it for an aged look. Combine it with Analogous for subtle fades or with Complementary for a more controlled hit.",
         es: "Ideal para separar la pieza del fondo: deja el fill vivo y baja el entorno, o al reves para un aspecto envejecido. Combinado con Analogous da fades sutiles y con Complementary un golpe mas controlado.",
@@ -1508,7 +1513,7 @@ const THEORY_LOCALIZATIONS = {
     },
   },
   "tints-shades": {
-    label: { fr: "Clairs / fonces", de: "Hell / dunkel", en: "Lights / darks", es: "Claros / oscuros", pt: "Claros / escuros" },
+    label: { fr: "Clairs / foncés", de: "Hell / dunkel", en: "Lights / darks", es: "Claros / oscuros", pt: "Claros / escuros" },
     formula: {
       fr: "ombres / clairs combines",
       de: "dunkel / hell kombiniert",
@@ -1573,7 +1578,7 @@ const THEORY_LOCALIZATIONS = {
         pt: "O algoritmo nao gera pontos derivados; apenas a base fica ativa.",
       },
       usage: {
-        fr: "Sers-t'en pour verrouiller une vraie ref de bombe, remplir ton panier et tester ensuite les variantes une par une. C'est le meilleur point de depart pour mixer a la main Complementaire, Tint, Shade ou Tone selon le mur.",
+        fr: "Sers-t'en pour verrouiller une vraie ref de bombe, remplir ton panier et tester ensuite les variantes une par une. C'est le meilleur point de depart pour mixer a la main Complémentaire, Tint, Shade ou Tone selon le mur.",
         de: "Nutze es, um eine echte Dosen-Referenz zu fixieren, den Warenkorb zu fuellen und dann Varianten eine nach der anderen zu testen. Das ist der beste Startpunkt, um Complementary, Tint, Shade oder Tone je nach Wand manuell zu mischen.",
         en: "Use it to lock a real can reference, build your cart, and test variations one by one. It is the best starting point when you want to mix Complementary, Tint, Shade, or Tone by hand for a specific wall.",
         es: "Usalo para fijar una referencia real de spray, llenar el carrito y probar variaciones una por una. Es el mejor punto de partida para mezclar a mano Complementary, Tint, Shade o Tone segun el muro.",
@@ -1584,7 +1589,7 @@ const THEORY_LOCALIZATIONS = {
 };
 
 const GENERATED_LABELS = {
-  Complementaire: { fr: "Complementaire", de: "Komplementaer", en: "Complementary", es: "Complementario", pt: "Complementar" },
+  Complementaire: { fr: "Complémentaire", de: "Komplementaer", en: "Complementary", es: "Complementario", pt: "Complementar" },
   "Split gauche": { fr: "Split gauche", de: "Split links", en: "Left split", es: "Split izquierdo", pt: "Split esquerdo" },
   "Split droite": { fr: "Split droite", de: "Split rechts", en: "Right split", es: "Split derecho", pt: "Split direito" },
   "Voisine froide": { fr: "Voisine froide", de: "Kuehler Nachbar", en: "Cool neighbor", es: "Vecino frio", pt: "Vizinho frio" },
@@ -1595,9 +1600,9 @@ const GENERATED_LABELS = {
   "Rectangle A": { fr: "Rectangle A", de: "Rechteck A", en: "Rectangle A", es: "Rectangulo A", pt: "Retangulo A" },
   "Rectangle B": { fr: "Rectangle B", de: "Rechteck B", en: "Rectangle B", es: "Rectangulo B", pt: "Retangulo B" },
   "Rectangle C": { fr: "Rectangle C", de: "Rechteck C", en: "Rectangle C", es: "Rectangulo C", pt: "Retangulo C" },
-  "Carre A": { fr: "Carre A", de: "Quadrat A", en: "Square A", es: "Cuadrado A", pt: "Quadrado A" },
-  "Carre B": { fr: "Carre B", de: "Quadrat B", en: "Square B", es: "Cuadrado B", pt: "Quadrado B" },
-  "Carre C": { fr: "Carre C", de: "Quadrat C", en: "Square C", es: "Cuadrado C", pt: "Quadrado C" },
+  "Carre A": { fr: "Carré A", de: "Quadrat A", en: "Square A", es: "Cuadrado A", pt: "Quadrado A" },
+  "Carre B": { fr: "Carré B", de: "Quadrat B", en: "Square B", es: "Cuadrado B", pt: "Quadrado B" },
+  "Carre C": { fr: "Carré C", de: "Quadrat C", en: "Square C", es: "Cuadrado C", pt: "Quadrado C" },
   "Voisin A": { fr: "Voisin A", de: "Nachbar A", en: "Neighbor A", es: "Vecino A", pt: "Vizinho A" },
   "Voisin B": { fr: "Voisin B", de: "Nachbar B", en: "Neighbor B", es: "Vecino B", pt: "Vizinho B" },
   "Oppose voisin A": { fr: "Oppose voisin A", de: "Gegen-Nachbar A", en: "Opposite neighbor A", es: "Vecino opuesto A", pt: "Vizinho oposto A" },
