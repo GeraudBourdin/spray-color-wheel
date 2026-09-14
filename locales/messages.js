@@ -5158,5 +5158,236 @@ export const MESSAGES = {
     "de": "Dieser Bereich ist vollständig transparent.",
     "es": "Esta zona es completamente transparente.",
     "pt": "Esta zona é totalmente transparente."
+  },
+  "Tester sur un graffiti en 3D": {
+    "fr": "Tester sur un graffiti en 3D",
+    "en": "Try on 3D graffiti",
+    "de": "Auf einem 3D-Graffiti testen",
+    "es": "Probar en un graffiti 3D",
+    "pt": "Testar num graffiti 3D"
+  },
+  "Votre blaze": {
+    "fr": "Votre blaze",
+    "en": "Your graffiti name",
+    "de": "Dein Graffiti-Name",
+    "es": "Tu nombre de graffiti",
+    "pt": "O teu nome de graffiti"
+  },
+  "Police du graffiti": {
+    "fr": "Police du graffiti",
+    "en": "Graffiti font",
+    "de": "Graffiti-Schrift",
+    "es": "Tipografía del graffiti",
+    "pt": "Tipo de letra do graffiti"
+  },
+  "Apercu du lettrage en 3D": {
+    "fr": "Aperçu du lettrage en 3D",
+    "en": "3D lettering preview",
+    "de": "3D-Schriftvorschau",
+    "es": "Vista previa de letras en 3D",
+    "pt": "Pré-visualização das letras em 3D"
+  },
+  "Couleurs de la palette": {
+    "fr": "Couleurs de la palette",
+    "en": "Palette colors",
+    "de": "Palettenfarben",
+    "es": "Colores de la paleta",
+    "pt": "Cores da paleta"
+  },
+  "Face avant": {
+    "fr": "Face avant",
+    "en": "Front face",
+    "de": "Vorderseite",
+    "es": "Cara frontal",
+    "pt": "Face frontal"
+  },
+  "Cotes de la 3D": {
+    "fr": "Côtés de la 3D",
+    "en": "3D sides",
+    "de": "3D-Seiten",
+    "es": "Laterales 3D",
+    "pt": "Laterais 3D"
+  },
+  "Relief et orientation": {
+    "fr": "Relief et orientation",
+    "en": "Depth and orientation",
+    "de": "Tiefe und Ausrichtung",
+    "es": "Relieve y orientación",
+    "pt": "Relevo e orientação"
+  },
+  "Profondeur": {
+    "fr": "Profondeur",
+    "en": "Depth",
+    "de": "Tiefe",
+    "es": "Profundidad",
+    "pt": "Profundidade"
+  },
+  "Inclinaison verticale": {
+    "fr": "Inclinaison verticale",
+    "en": "Vertical tilt",
+    "de": "Vertikale Neigung",
+    "es": "Inclinación vertical",
+    "pt": "Inclinação vertical"
+  },
+  "Rotation horizontale": {
+    "fr": "Rotation horizontale",
+    "en": "Horizontal rotation",
+    "de": "Horizontale Drehung",
+    "es": "Rotación horizontal",
+    "pt": "Rotação horizontal"
+  },
+  "Source de lumiere": {
+    "fr": "Source de lumière",
+    "en": "Light source",
+    "de": "Lichtquelle",
+    "es": "Fuente de luz",
+    "pt": "Fonte de luz"
+  },
+  "Direction de la lumiere": {
+    "fr": "Direction de la lumière",
+    "en": "Light direction",
+    "de": "Lichtrichtung",
+    "es": "Dirección de la luz",
+    "pt": "Direção da luz"
+  },
+  "Hauteur de la lumiere": {
+    "fr": "Hauteur de la lumière",
+    "en": "Light elevation",
+    "de": "Lichthöhe",
+    "es": "Elevación de la luz",
+    "pt": "Elevação da luz"
+  },
+  "Intensite de la lumiere": {
+    "fr": "Intensité de la lumière",
+    "en": "Light intensity",
+    "de": "Lichtintensität",
+    "es": "Intensidad de la luz",
+    "pt": "Intensidade da luz"
+  },
+  "Changez de police sans perdre votre texte ni vos reglages.": {
+    "fr": "Changez de police sans perdre votre texte ni vos réglages.",
+    "en": "Change fonts without losing your text or settings.",
+    "de": "Wechsle die Schrift, ohne Text oder Einstellungen zu verlieren.",
+    "es": "Cambia de tipografía sin perder el texto ni los ajustes.",
+    "pt": "Muda o tipo de letra sem perder o texto nem os ajustes."
+  },
+  "Chargement du lettrage…": {
+    "fr": "Chargement du lettrage…",
+    "en": "Loading lettering…",
+    "de": "Schrift wird geladen…",
+    "es": "Cargando letras…",
+    "pt": "A carregar letras…"
+  },
+  "Ecrivez votre blaze pour voir le resultat.": {
+    "fr": "Écrivez votre blaze pour voir le résultat.",
+    "en": "Enter your graffiti name to see the result.",
+    "de": "Gib deinen Graffiti-Namen ein, um das Ergebnis zu sehen.",
+    "es": "Escribe tu nombre de graffiti para ver el resultado.",
+    "pt": "Escreve o teu nome de graffiti para ver o resultado."
+  },
+  "Certains caracteres sont remplaces par un point d'interrogation dans cette police.": {
+    "fr": "Certains caractères sont remplacés par un point d’interrogation dans cette police.",
+    "en": "Some characters are replaced with a question mark in this font.",
+    "de": "Einige Zeichen werden in dieser Schrift durch ein Fragezeichen ersetzt.",
+    "es": "Algunos caracteres se sustituyen por un signo de interrogación en esta tipografía.",
+    "pt": "Alguns caracteres são substituídos por um ponto de interrogação neste tipo de letra."
+  },
+  "Impossible d'afficher la 3D. Verifiez que WebGL est disponible, puis reessayez.": {
+    "fr": "Impossible d’afficher la 3D. Vérifiez que WebGL est disponible, puis réessayez.",
+    "en": "Unable to display 3D. Check that WebGL is available, then try again.",
+    "de": "3D kann nicht angezeigt werden. Prüfe, ob WebGL verfügbar ist, und versuche es erneut.",
+    "es": "No se puede mostrar el 3D. Comprueba que WebGL esté disponible e inténtalo de nuevo.",
+    "pt": "Não foi possível mostrar o 3D. Verifica se o WebGL está disponível e tenta novamente."
+  },
+  "Reessayer": {
+    "fr": "Réessayer",
+    "en": "Try again",
+    "de": "Erneut versuchen",
+    "es": "Reintentar",
+    "pt": "Tentar novamente"
+  },
+  "Manipuler la vue 3D": {
+    "fr": "Manipuler la vue 3D",
+    "en": "Manipulate the 3D view",
+    "de": "3D-Ansicht bedienen",
+    "es": "Manipular la vista 3D",
+    "pt": "Manipular a vista 3D"
+  },
+  "Lettrage": {
+    "fr": "Lettrage",
+    "en": "Lettering",
+    "de": "Schriftzug",
+    "es": "Letras",
+    "pt": "Letras"
+  },
+  "Lumiere": {
+    "fr": "Lumière",
+    "en": "Light",
+    "de": "Licht",
+    "es": "Luz",
+    "pt": "Luz"
+  },
+  "Deplacer la source de lumiere": {
+    "fr": "Déplacer la source de lumière",
+    "en": "Move the light source",
+    "de": "Lichtquelle verschieben",
+    "es": "Mover la fuente de luz",
+    "pt": "Mover a fonte de luz"
+  },
+  "Glissez sur le lettrage pour l'incliner et le tourner. Les fleches du clavier fonctionnent aussi.": {
+    "fr": "Glissez sur le lettrage pour l’incliner et le tourner. Les flèches du clavier fonctionnent aussi.",
+    "en": "Drag the lettering to tilt and rotate it. You can also use the arrow keys.",
+    "de": "Ziehe den Schriftzug, um ihn zu neigen und zu drehen. Die Pfeiltasten funktionieren auch.",
+    "es": "Arrastra las letras para inclinarlas y girarlas. También puedes usar las flechas del teclado.",
+    "pt": "Arrasta as letras para as inclinar e rodar. Também podes usar as setas do teclado."
+  },
+  "Glissez le soleil ou la vue pour orienter la lumiere. Le soleil en pointilles est derriere le lettrage.": {
+    "fr": "Glissez le soleil ou la vue pour orienter la lumière. Le soleil en pointillés est derrière le lettrage.",
+    "en": "Drag the sun or the view to aim the light. A dashed sun is behind the lettering.",
+    "de": "Ziehe die Sonne oder die Ansicht, um das Licht auszurichten. Eine gestrichelte Sonne liegt hinter dem Schriftzug.",
+    "es": "Arrastra el sol o la vista para orientar la luz. El sol discontinuo está detrás de las letras.",
+    "pt": "Arrasta o sol ou a vista para orientar a luz. O sol tracejado está atrás das letras."
+  },
+  "Remplissage de la face": {
+    "fr": "Remplissage de la face",
+    "en": "Face fill",
+    "de": "Flächenfüllung",
+    "es": "Relleno frontal",
+    "pt": "Preenchimento frontal"
+  },
+  "Couleur unie": {
+    "fr": "Couleur unie",
+    "en": "Solid color",
+    "de": "Einfarbig",
+    "es": "Color sólido",
+    "pt": "Cor sólida"
+  },
+  "Degrade": {
+    "fr": "Dégradé",
+    "en": "Gradient",
+    "de": "Farbverlauf",
+    "es": "Degradado",
+    "pt": "Gradiente"
+  },
+  "Fin du degrade": {
+    "fr": "Fin du dégradé",
+    "en": "Gradient end",
+    "de": "Verlaufsende",
+    "es": "Final del degradado",
+    "pt": "Fim do gradiente"
+  },
+  "Angle du degrade": {
+    "fr": "Angle du dégradé",
+    "en": "Gradient angle",
+    "de": "Verlaufswinkel",
+    "es": "Ángulo del degradado",
+    "pt": "Ângulo do gradiente"
+  },
+  "Le degrade traverse tout le mot. 0° : gauche vers droite ; 90° : haut vers bas.": {
+    "fr": "Le dégradé traverse tout le mot. 0° : gauche vers droite ; 90° : haut vers bas.",
+    "en": "The gradient spans the whole word. 0°: left to right; 90°: top to bottom.",
+    "de": "Der Verlauf erstreckt sich über das ganze Wort. 0°: links nach rechts; 90°: oben nach unten.",
+    "es": "El degradado abarca toda la palabra. 0°: izquierda a derecha; 90°: arriba abajo.",
+    "pt": "O gradiente abrange a palavra inteira. 0°: esquerda para direita; 90°: cima para baixo."
   }
 };

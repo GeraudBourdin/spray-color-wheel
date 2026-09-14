@@ -1,4 +1,4 @@
-import { MESSAGES } from './locales/messages.js?v=20260913-i18n-1';
+import { MESSAGES } from './locales/messages.js?v=20260914-gradient-1';
 export const LANGUAGES = ['fr','en','de','es','pt'];
 export const normalizeMessage = value => String(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/œ/g,'oe').replace(/[’‘]/g,"'").replace(/\s+/g,' ').trim();
 export function currentLanguage(){return typeof document!=='undefined'&&LANGUAGES.includes(document.documentElement.lang)?document.documentElement.lang:'fr';}

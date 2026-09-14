@@ -1,0 +1,39 @@
+.workspace-app .graffiti-preview {grid-column:1 / -1;min-width:0;padding:0;overflow:hidden;}
+.graffiti-preview > summary {cursor:pointer;padding:18px 20px;font-weight:650;font-size:15px;}
+.graffiti-preview[open] > summary {border-bottom:1px solid var(--ui-border,#d8dcd6);}
+.graffiti-body {padding:20px;}
+.graffiti-type-controls {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;margin-bottom:18px;}
+.graffiti-preview label {display:flex;flex-direction:column;gap:7px;font-size:12px;font-weight:600;min-width:0;}
+.graffiti-preview input[type=text],.graffiti-preview select {width:100%;min-width:0;padding:10px;border:1px solid var(--ui-border,#d8dcd6);border-radius:8px;background:#fff;color:#252826;font:inherit;font-size:14px;}
+.graffiti-layout {display:grid;grid-template-columns:minmax(0,1fr) 225px;gap:20px;align-items:start;}
+.graffiti-stage {position:relative;background:#ebece8;border:1px solid #d8dcd6;border-radius:12px;overflow:hidden;min-width:0;}
+#graffiti-canvas {display:block;width:100%;height:430px;}
+.graffiti-status {position:absolute;inset:auto 12px 12px;padding:9px 12px;background:#ffffffed;border-radius:8px;font-size:12px;color:#252826;}
+#graffiti-retry {position:absolute;top:12px;left:12px;}
+.graffiti-controls {display:grid;gap:16px;}
+.graffiti-controls fieldset {border:0;margin:0;padding:0;display:grid;gap:12px;min-width:0;}
+.graffiti-controls legend {font-size:12px;font-weight:700;margin-bottom:10px;}
+.graffiti-color-choice {display:flex;gap:8px;align-items:center;min-width:0;}
+.graffiti-color-choice i {width:25px;height:25px;flex-shrink:0;border-radius:6px;border:1px solid #0002;}
+.graffiti-preview .graffiti-range {display:grid;grid-template-columns:1fr auto;gap:5px;}
+.graffiti-range output {font-variant-numeric:tabular-nums;font-weight:400;}
+.graffiti-range input {grid-column:1 / -1;width:100%;}
+.graffiti-hint {font-size:12px;color:#60675f;margin:16px 0 0;}
+@media(max-width:1000px){.graffiti-layout {grid-template-columns:minmax(0,1fr);}.graffiti-controls{grid-template-columns:repeat(3,minmax(0,1fr));}#graffiti-canvas{height:330px;}}
+@media(max-width:600px){.graffiti-type-controls{grid-template-columns:minmax(0,1fr);}.graffiti-body{padding:14px;}.graffiti-controls{grid-template-columns:minmax(0,1fr);}#graffiti-canvas{height:250px;}}
+.graffiti-view-tools {display:flex;gap:8px;padding:10px;background:#f7f8f5;border-bottom:1px solid #d8dcd6;}
+.graffiti-view-tools button[aria-pressed=true] {background:var(--ui-ink,#252826);color:#fff;}
+.graffiti-viewport {position:relative;}
+#graffiti-canvas {touch-action:none;cursor:grab;}
+#graffiti-canvas:focus-visible {outline:2px solid #252826;outline-offset:-3px;}
+.graffiti-light-guide {position:absolute;inset:0;width:100%;height:100%;pointer-events:none;}
+.graffiti-light-guide line {stroke:#555b55;stroke-width:1;stroke-dasharray:4 6;opacity:.35;}
+.graffiti-preview[data-manipulation=text] .graffiti-light-guide {opacity:.4;}
+#graffiti-light-handle {position:absolute;transform:translate(-50%,-50%);width:44px;height:44px;border:2px solid #555b55;border-radius:50%;background:#fff;box-shadow:0 2px 8px #0002;display:grid;place-items:center;padding:0;cursor:grab;touch-action:none;color:#252826;font-size:29px;line-height:1;}
+#graffiti-light-handle[data-behind=true] {border-style:dashed;background:#ffffffb3;}
+#graffiti-light-handle[aria-pressed=true] {box-shadow:0 0 0 4px #25282622;}
+.graffiti-preview.is-dragging #graffiti-canvas,.graffiti-preview.is-dragging #graffiti-light-handle {cursor:grabbing;}
+.graffiti-gesture-hint {margin:0;padding:10px 12px;font-size:12px;color:#555b55;background:#f7f8f5;min-height:50px;}
+#graffiti-gradient-controls:not([hidden]) {display:grid;gap:12px;}
+#graffiti-gradient-strip {height:18px;border-radius:5px;border:1px solid #0002;}
+.graffiti-gradient-note {font-size:11px;line-height:1.5;color:#60675f;margin:0;}

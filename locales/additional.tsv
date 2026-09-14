@@ -303,3 +303,36 @@ Sprays de la zone sélectionnée|Sprays in the selected area|Sprühfarben im aus
 {0} références dans cette zone|{0} references in this area|{0} Referenzen in diesem Bereich|{0} referencias en esta zona|{0} referências nesta zona
 Part de chaque spray dans la zone · Échap pour fermer|Share of each spray in the area · Escape to close|Anteil jeder Sprühfarbe im Bereich · Escape zum Schließen|Proporción de cada aerosol en la zona · Escape para cerrar|Proporção de cada spray na zona · Escape para fechar
 Cette zone est entièrement transparente.|This area is entirely transparent.|Dieser Bereich ist vollständig transparent.|Esta zona es completamente transparente.|Esta zona é totalmente transparente.
+Tester sur un graffiti en 3D|Try on 3D graffiti|Auf einem 3D-Graffiti testen|Probar en un graffiti 3D|Testar num graffiti 3D
+Votre blaze|Your graffiti name|Dein Graffiti-Name|Tu nombre de graffiti|O teu nome de graffiti
+Police du graffiti|Graffiti font|Graffiti-Schrift|Tipografía del graffiti|Tipo de letra do graffiti
+Aperçu du lettrage en 3D|3D lettering preview|3D-Schriftvorschau|Vista previa de letras en 3D|Pré-visualização das letras em 3D
+Couleurs de la palette|Palette colors|Palettenfarben|Colores de la paleta|Cores da paleta
+Face avant|Front face|Vorderseite|Cara frontal|Face frontal
+Côtés de la 3D|3D sides|3D-Seiten|Laterales 3D|Laterais 3D
+Relief et orientation|Depth and orientation|Tiefe und Ausrichtung|Relieve y orientación|Relevo e orientação
+Profondeur|Depth|Tiefe|Profundidad|Profundidade
+Inclinaison verticale|Vertical tilt|Vertikale Neigung|Inclinación vertical|Inclinação vertical
+Rotation horizontale|Horizontal rotation|Horizontale Drehung|Rotación horizontal|Rotação horizontal
+Source de lumière|Light source|Lichtquelle|Fuente de luz|Fonte de luz
+Direction de la lumière|Light direction|Lichtrichtung|Dirección de la luz|Direção da luz
+Hauteur de la lumière|Light elevation|Lichthöhe|Elevación de la luz|Elevação da luz
+Intensité de la lumière|Light intensity|Lichtintensität|Intensidad de la luz|Intensidade da luz
+Changez de police sans perdre votre texte ni vos réglages.|Change fonts without losing your text or settings.|Wechsle die Schrift, ohne Text oder Einstellungen zu verlieren.|Cambia de tipografía sin perder el texto ni los ajustes.|Muda o tipo de letra sem perder o texto nem os ajustes.
+Chargement du lettrage…|Loading lettering…|Schrift wird geladen…|Cargando letras…|A carregar letras…
+Écrivez votre blaze pour voir le résultat.|Enter your graffiti name to see the result.|Gib deinen Graffiti-Namen ein, um das Ergebnis zu sehen.|Escribe tu nombre de graffiti para ver el resultado.|Escreve o teu nome de graffiti para ver o resultado.
+Certains caractères sont remplacés par un point d’interrogation dans cette police.|Some characters are replaced with a question mark in this font.|Einige Zeichen werden in dieser Schrift durch ein Fragezeichen ersetzt.|Algunos caracteres se sustituyen por un signo de interrogación en esta tipografía.|Alguns caracteres são substituídos por um ponto de interrogação neste tipo de letra.
+Impossible d’afficher la 3D. Vérifiez que WebGL est disponible, puis réessayez.|Unable to display 3D. Check that WebGL is available, then try again.|3D kann nicht angezeigt werden. Prüfe, ob WebGL verfügbar ist, und versuche es erneut.|No se puede mostrar el 3D. Comprueba que WebGL esté disponible e inténtalo de nuevo.|Não foi possível mostrar o 3D. Verifica se o WebGL está disponível e tenta novamente.
+Réessayer|Try again|Erneut versuchen|Reintentar|Tentar novamente
+Manipuler la vue 3D|Manipulate the 3D view|3D-Ansicht bedienen|Manipular la vista 3D|Manipular a vista 3D
+Lettrage|Lettering|Schriftzug|Letras|Letras
+Lumière|Light|Licht|Luz|Luz
+Déplacer la source de lumière|Move the light source|Lichtquelle verschieben|Mover la fuente de luz|Mover a fonte de luz
+Glissez sur le lettrage pour l’incliner et le tourner. Les flèches du clavier fonctionnent aussi.|Drag the lettering to tilt and rotate it. You can also use the arrow keys.|Ziehe den Schriftzug, um ihn zu neigen und zu drehen. Die Pfeiltasten funktionieren auch.|Arrastra las letras para inclinarlas y girarlas. También puedes usar las flechas del teclado.|Arrasta as letras para as inclinar e rodar. Também podes usar as setas do teclado.
+Glissez le soleil ou la vue pour orienter la lumière. Le soleil en pointillés est derrière le lettrage.|Drag the sun or the view to aim the light. A dashed sun is behind the lettering.|Ziehe die Sonne oder die Ansicht, um das Licht auszurichten. Eine gestrichelte Sonne liegt hinter dem Schriftzug.|Arrastra el sol o la vista para orientar la luz. El sol discontinuo está detrás de las letras.|Arrasta o sol ou a vista para orientar a luz. O sol tracejado está atrás das letras.
+Remplissage de la face|Face fill|Flächenfüllung|Relleno frontal|Preenchimento frontal
+Couleur unie|Solid color|Einfarbig|Color sólido|Cor sólida
+Dégradé|Gradient|Farbverlauf|Degradado|Gradiente
+Fin du dégradé|Gradient end|Verlaufsende|Final del degradado|Fim do gradiente
+Angle du dégradé|Gradient angle|Verlaufswinkel|Ángulo del degradado|Ângulo do gradiente
+Le dégradé traverse tout le mot. 0° : gauche vers droite ; 90° : haut vers bas.|The gradient spans the whole word. 0°: left to right; 90°: top to bottom.|Der Verlauf erstreckt sich über das ganze Wort. 0°: links nach rechts; 90°: oben nach unten.|El degradado abarca toda la palabra. 0°: izquierda a derecha; 90°: arriba abajo.|O gradiente abrange a palavra inteira. 0°: esquerda para direita; 90°: cima para baixo.

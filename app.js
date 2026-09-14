@@ -1,4 +1,5 @@
-import { tr, localizeDOM } from "./localization.js?v=20260913-i18n-1";
+import { createGraffitiPreview } from "./graffiti-preview.js?v=20260914-gradient-1";
+import { tr, localizeDOM } from "./localization.js?v=20260914-gradient-1";
 import { createImageTool } from "./image-tool.js?v=20260913-region-1";
 import { workspaceText, renderWorkspaceChrome, updateCartCount, showToast } from "./workspace.js?v=20260913-i18n-1";
 import {
@@ -25,6 +26,8 @@ import {
   localizeGeneratedText,
   t,
 } from "./i18n.js?v=20260913-i18n-1";
+
+const graffitiPreview = createGraffitiPreview();
 
 const DEFAULT_MANUFACTURER_ACCENTS = [
   "#0F8F63",
@@ -3390,6 +3393,7 @@ function renderWorkspacePresentation(baseColor, palette) {
     const presentation = getStopPresentation(stop);
     return `<button type="button" class="composition-color" data-preview-target="result-${groupId}-${stop.letter}" style="--swatch:${presentation.displayHex};--swatch-text:${presentation.displayTextColor}" aria-label="${escapeHtml(`${stop.title} ${presentation.displayHex}`)}"><span>${escapeHtml(stop.letter)}</span><strong>${escapeHtml(presentation.displayHex)}</strong></button>`;
   }).join("");
+  graffitiPreview.updatePalette(stops.map(({stop}) => ({letter: stop.letter, hex: getStopPresentation(stop).displayHex})));
   // Keep the workspace behind the image dialog out of the keyboard sequence.
   document.querySelector(".app-shell").inert = state.isImageModalOpen;
 }
